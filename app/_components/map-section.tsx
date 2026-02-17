@@ -1,11 +1,9 @@
 "use client";
 
 import { useEffect, useRef, useState, useCallback } from "react";
-import mapboxgl from "mapbox-gl";
-import { Info } from "lucide-react";
+import { Info, MapPin, Layers, Circle, Hospital } from "lucide-react";
 import { SectionWrapper } from "@/components/shared/section-wrapper";
 import { Badge } from "@/components/ui/badge";
-import { MapPin, Layers, Circle, Hospital } from "lucide-react";
 import { MapLayerControls, type LayerToggle } from "./map-layer-controls";
 import { MapCandidatePanel } from "./map-candidate-panel";
 import { candidateZones } from "@/lib/demo-data/candidate-zones";
@@ -13,12 +11,18 @@ import { pois, categoryColors, categoryLabels } from "@/lib/demo-data/poi";
 
 const INITIAL_CENTER: [number, number] = [-75.57, 6.21];
 const INITIAL_ZOOM = 11.5;
+const MAPBOX_TOKEN = process.env.NEXT_PUBLIC_MAPBOX_TOKEN;
 
 export function MapSection() {
   const mapContainer = useRef<HTMLDivElement>(null);
-  const map = useRef<mapboxgl.Map | null>(null);
-  const markersRef = useRef<mapboxgl.Marker[]>([]);
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  const mapRef = useRef<any>(null);
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  const markersRef = useRef<any[]>([]);
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  const poiMarkersRef = useRef<any[]>([]);
   const [mapLoaded, setMapLoaded] = useState(false);
+  const [mapError, setMapError] = useState<string | null>(null);
   const [selectedCandidate, setSelectedCandidate] = useState<string | null>(null);
 
   const [layers, setLayers] = useState<LayerToggle[]>([
@@ -34,151 +38,154 @@ export function MapSection() {
 
   // Initialize map
   useEffect(() => {
-    if (map.current || !mapContainer.current) return;
+    if (mapRef.current || !mapContainer.current) return;
+    if (!MAPBOX_TOKEN || MAPBOX_TOKEN === "pk.your_mapbox_token_here") return;
 
-    const token = process.env.NEXT_PUBLIC_MAPBOX_TOKEN;
-    if (!token || token === "pk.your_mapbox_token_here") {
-      return;
+    let cancelled = false;
+
+    async function initMap() {
+      try {
+        const mapboxgl = (await import("mapbox-gl")).default;
+
+        if (cancelled || !mapContainer.current) return;
+
+        mapboxgl.accessToken = MAPBOX_TOKEN!;
+
+        const map = new mapboxgl.Map({
+          container: mapContainer.current,
+          style: "mapbox://styles/mapbox/light-v11",
+          center: INITIAL_CENTER,
+          zoom: INITIAL_ZOOM,
+          pitch: 0,
+          attributionControl: false,
+        });
+
+        mapRef.current = map;
+
+        map.addControl(new mapboxgl.NavigationControl(), "top-right");
+        map.addControl(new mapboxgl.AttributionControl({ compact: true }), "bottom-right");
+
+        // eslint-disable-next-line @typescript-eslint/no-explicit-any
+        map.on("error", (e: any) => {
+          console.error("Mapbox error:", e);
+          if (e?.error?.status === 401 || e?.error?.statusCode === 401) {
+            setMapError("Token de Mapbox invalido. Verifica tu API key.");
+          }
+        });
+
+        map.on("load", () => {
+          if (cancelled) return;
+          setMapLoaded(true);
+
+          // Strata zones
+          map.addSource("strata-zones", {
+            type: "geojson",
+            data: "/geojson/strata-zones.geojson",
+          });
+          map.addLayer({
+            id: "strata-fill",
+            type: "fill",
+            source: "strata-zones",
+            paint: { "fill-color": "#0d9488", "fill-opacity": 0.15 },
+          });
+          map.addLayer({
+            id: "strata-outline",
+            type: "line",
+            source: "strata-zones",
+            paint: { "line-color": "#0d9488", "line-width": 1.5, "line-opacity": 0.6 },
+          });
+
+          // Isochrones
+          ["poblado", "envigado", "llanogrande"].forEach((cand) => {
+            map.addSource(`isochrones-${cand}`, {
+              type: "geojson",
+              data: `/geojson/isochrones-${cand}.geojson`,
+            });
+            map.addLayer({
+              id: `isochrones-${cand}-fill`,
+              type: "fill",
+              source: `isochrones-${cand}`,
+              paint: {
+                "fill-color": ["match", ["get", "minutes"], 10, "#f59e0b", 20, "#fb923c", 30, "#fdba74", "#fde68a"],
+                "fill-opacity": ["match", ["get", "minutes"], 10, 0.25, 20, 0.15, 30, 0.08, 0.05],
+              },
+              layout: { visibility: "none" },
+            });
+            map.addLayer({
+              id: `isochrones-${cand}-line`,
+              type: "line",
+              source: `isochrones-${cand}`,
+              paint: { "line-color": "#f59e0b", "line-width": 1, "line-opacity": 0.5, "line-dasharray": [2, 2] },
+              layout: { visibility: "none" },
+            });
+          });
+
+          // HPTU actual marker
+          const hptuPoi = pois.find((p) => p.id === "hosp-04");
+          if (hptuPoi) {
+            const el = document.createElement("div");
+            el.innerHTML = `<div style="background:#ef4444;width:20px;height:20px;border-radius:50%;border:3px solid white;box-shadow:0 2px 8px rgba(0,0,0,0.3);"></div>`;
+            const marker = new mapboxgl.Marker({ element: el })
+              .setLngLat(hptuPoi.coordinates)
+              .setPopup(
+                new mapboxgl.Popup({ offset: 12 }).setHTML(
+                  `<div><p style="font-weight:600;margin:0;">${hptuPoi.name}</p><p style="font-size:12px;color:#666;margin:2px 0 0;">${hptuPoi.description}</p></div>`
+                )
+              )
+              .addTo(map);
+            markersRef.current.push(marker);
+          }
+
+          // Candidate zone markers
+          candidateZones.forEach((zone) => {
+            const el = document.createElement("div");
+            el.innerHTML = `<div style="background:${zone.color};width:14px;height:14px;border-radius:50%;border:2px solid white;box-shadow:0 2px 6px rgba(0,0,0,0.25);cursor:pointer;"></div>`;
+            const marker = new mapboxgl.Marker({ element: el })
+              .setLngLat(zone.coordinates)
+              .setPopup(
+                new mapboxgl.Popup({ offset: 10 }).setHTML(
+                  `<div><p style="font-weight:600;margin:0;">${zone.name}</p><p style="font-size:12px;color:#666;margin:2px 0 0;">Score MCDA: <strong>${zone.score}</strong></p></div>`
+                )
+              )
+              .addTo(map);
+            markersRef.current.push(marker);
+          });
+        });
+      } catch (err) {
+        console.error("Failed to initialize map:", err);
+        setMapError("Error al cargar el mapa. Revisa la consola.");
+      }
     }
 
-    mapboxgl.accessToken = token;
-
-    map.current = new mapboxgl.Map({
-      container: mapContainer.current,
-      style: "mapbox://styles/mapbox/light-v11",
-      center: INITIAL_CENTER,
-      zoom: INITIAL_ZOOM,
-      pitch: 0,
-      attributionControl: false,
-    });
-
-    map.current.addControl(new mapboxgl.NavigationControl(), "top-right");
-    map.current.addControl(new mapboxgl.AttributionControl({ compact: true }), "bottom-right");
-
-    map.current.on("load", () => {
-      setMapLoaded(true);
-
-      // Add strata zones source + layer
-      map.current!.addSource("strata-zones", {
-        type: "geojson",
-        data: "/geojson/strata-zones.geojson",
-      });
-      map.current!.addLayer({
-        id: "strata-fill",
-        type: "fill",
-        source: "strata-zones",
-        paint: {
-          "fill-color": "#0d9488",
-          "fill-opacity": 0.15,
-        },
-      });
-      map.current!.addLayer({
-        id: "strata-outline",
-        type: "line",
-        source: "strata-zones",
-        paint: {
-          "line-color": "#0d9488",
-          "line-width": 1.5,
-          "line-opacity": 0.6,
-        },
-      });
-
-      // Add isochrone sources for each candidate
-      ["poblado", "envigado", "llanogrande"].forEach((cand) => {
-        map.current!.addSource(`isochrones-${cand}`, {
-          type: "geojson",
-          data: `/geojson/isochrones-${cand}.geojson`,
-        });
-        map.current!.addLayer({
-          id: `isochrones-${cand}-fill`,
-          type: "fill",
-          source: `isochrones-${cand}`,
-          paint: {
-            "fill-color": [
-              "match",
-              ["get", "minutes"],
-              10, "#f59e0b",
-              20, "#fb923c",
-              30, "#fdba74",
-              "#fde68a",
-            ],
-            "fill-opacity": [
-              "match",
-              ["get", "minutes"],
-              10, 0.25,
-              20, 0.15,
-              30, 0.08,
-              0.05,
-            ],
-          },
-          layout: { visibility: "none" },
-        });
-        map.current!.addLayer({
-          id: `isochrones-${cand}-line`,
-          type: "line",
-          source: `isochrones-${cand}`,
-          paint: {
-            "line-color": "#f59e0b",
-            "line-width": 1,
-            "line-opacity": 0.5,
-            "line-dasharray": [2, 2],
-          },
-          layout: { visibility: "none" },
-        });
-      });
-
-      // Add HPTU actual marker
-      const hptuPoi = pois.find((p) => p.id === "hptu-actual");
-      if (hptuPoi) {
-        const el = document.createElement("div");
-        el.className = "hptu-marker";
-        el.innerHTML = `<div style="background:#ef4444;width:20px;height:20px;border-radius:50%;border:3px solid white;box-shadow:0 2px 8px rgba(0,0,0,0.3);"></div>`;
-        const marker = new mapboxgl.Marker({ element: el })
-          .setLngLat(hptuPoi.coordinates)
-          .setPopup(
-            new mapboxgl.Popup({ offset: 12 }).setHTML(
-              `<div><p style="font-weight:600;margin:0;">${hptuPoi.name}</p><p style="font-size:12px;color:#666;margin:2px 0 0;">${hptuPoi.description}</p></div>`
-            )
-          )
-          .addTo(map.current!);
-        markersRef.current.push(marker);
-      }
-
-      // Add candidate zone markers
-      candidateZones.forEach((zone) => {
-        const el = document.createElement("div");
-        el.innerHTML = `<div style="background:${zone.color};width:14px;height:14px;border-radius:50%;border:2px solid white;box-shadow:0 2px 6px rgba(0,0,0,0.25);cursor:pointer;"></div>`;
-        const marker = new mapboxgl.Marker({ element: el })
-          .setLngLat(zone.coordinates)
-          .setPopup(
-            new mapboxgl.Popup({ offset: 10 }).setHTML(
-              `<div><p style="font-weight:600;margin:0;">${zone.name}</p><p style="font-size:12px;color:#666;margin:2px 0 0;">Score MCDA: <strong>${zone.score}</strong></p></div>`
-            )
-          )
-          .addTo(map.current!);
-        markersRef.current.push(marker);
-      });
-    });
+    initMap();
 
     return () => {
-      // eslint-disable-next-line react-hooks/exhaustive-deps
+      cancelled = true;
       markersRef.current.forEach((m) => m.remove());
-      map.current?.remove();
-      map.current = null;
+      markersRef.current = [];
+      mapRef.current?.remove();
+      mapRef.current = null;
     };
   }, []);
 
   // POI markers
   useEffect(() => {
-    if (!mapLoaded || !map.current) return;
+    if (!mapLoaded || !mapRef.current) return;
 
-    // Remove existing POI markers (keep first few which are HPTU + candidates)
-    const poiMarkers: mapboxgl.Marker[] = [];
+    // Clean previous POI markers
+    poiMarkersRef.current.forEach((m) => m.remove());
+    poiMarkersRef.current = [];
 
-    const poisLayer = layers.find((l) => l.id === "pois");
-    if (poisLayer?.enabled) {
+    const poisEnabled = layers.find((l) => l.id === "pois")?.enabled;
+    if (!poisEnabled) return;
+
+    async function addPOIs() {
+      const mapboxgl = (await import("mapbox-gl")).default;
+      const map = mapRef.current;
+      if (!map) return;
+
       pois
-        .filter((p) => p.id !== "hptu-actual")
+        .filter((p) => p.id !== "hosp-04")
         .forEach((poi) => {
           const el = document.createElement("div");
           const color = categoryColors[poi.category];
@@ -190,94 +197,75 @@ export function MapSection() {
                 `<div><p style="font-weight:600;margin:0;font-size:13px;">${poi.name}</p><p style="font-size:11px;color:#888;margin:2px 0 0;">${categoryLabels[poi.category]}</p><p style="font-size:11px;color:#666;margin:2px 0 0;">${poi.description}</p></div>`
               )
             )
-            .addTo(map.current!);
-          poiMarkers.push(marker);
+            .addTo(map);
+          poiMarkersRef.current.push(marker);
         });
     }
 
-    return () => {
-      poiMarkers.forEach((m) => m.remove());
-    };
+    addPOIs();
   }, [mapLoaded, layers]);
 
-  // Toggle strata layer visibility
+  // Strata visibility
   useEffect(() => {
-    if (!mapLoaded || !map.current) return;
-    const strataLayer = layers.find((l) => l.id === "strata");
-    const vis = strataLayer?.enabled ? "visible" : "none";
+    if (!mapLoaded || !mapRef.current) return;
+    const vis = layers.find((l) => l.id === "strata")?.enabled ? "visible" : "none";
     try {
-      map.current.setLayoutProperty("strata-fill", "visibility", vis);
-      map.current.setLayoutProperty("strata-outline", "visibility", vis);
+      mapRef.current.setLayoutProperty("strata-fill", "visibility", vis);
+      mapRef.current.setLayoutProperty("strata-outline", "visibility", vis);
     } catch {}
   }, [mapLoaded, layers]);
 
-  // Toggle isochrone layers
+  // Isochrone visibility
   useEffect(() => {
-    if (!mapLoaded || !map.current) return;
-    const isoLayer = layers.find((l) => l.id === "isochrones");
-    const vis = isoLayer?.enabled ? "visible" : "none";
+    if (!mapLoaded || !mapRef.current) return;
+    const vis = layers.find((l) => l.id === "isochrones")?.enabled ? "visible" : "none";
     ["poblado", "envigado", "llanogrande"].forEach((cand) => {
       try {
-        map.current!.setLayoutProperty(`isochrones-${cand}-fill`, "visibility", vis);
-        map.current!.setLayoutProperty(`isochrones-${cand}-line`, "visibility", vis);
+        mapRef.current.setLayoutProperty(`isochrones-${cand}-fill`, "visibility", vis);
+        mapRef.current.setLayoutProperty(`isochrones-${cand}-line`, "visibility", vis);
       } catch {}
     });
   }, [mapLoaded, layers]);
 
-  // Toggle HPTU marker
+  // HPTU marker visibility
   useEffect(() => {
     if (!mapLoaded) return;
-    const hptuLayer = layers.find((l) => l.id === "hptu");
+    const vis = layers.find((l) => l.id === "hptu")?.enabled;
     const hptuMarker = markersRef.current[0];
     if (hptuMarker) {
-      hptuMarker.getElement().style.display = hptuLayer?.enabled ? "block" : "none";
+      hptuMarker.getElement().style.display = vis ? "block" : "none";
     }
   }, [mapLoaded, layers]);
 
-  // Handle candidate selection -> flyTo + show isochrones
+  // Candidate selection -> flyTo
   const handleSelectCandidate = useCallback(
     (id: string) => {
       const newId = selectedCandidate === id ? null : id;
       setSelectedCandidate(newId);
 
-      if (!map.current || !mapLoaded) return;
+      if (!mapRef.current || !mapLoaded) return;
 
       if (newId) {
         const zone = candidateZones.find((z) => z.id === newId);
         if (zone) {
-          map.current.flyTo({
-            center: zone.coordinates,
-            zoom: 13,
-            duration: 1500,
-          });
+          mapRef.current.flyTo({ center: zone.coordinates, zoom: 13, duration: 1500 });
         }
-
-        // Enable isochrones layer if not already
-        setLayers((prev) =>
-          prev.map((l) => (l.id === "isochrones" ? { ...l, enabled: true } : l))
-        );
-
-        // Show only selected candidate's isochrones
+        setLayers((prev) => prev.map((l) => (l.id === "isochrones" ? { ...l, enabled: true } : l)));
         ["poblado", "envigado", "llanogrande"].forEach((cand) => {
           const vis = cand === newId ? "visible" : "none";
           try {
-            map.current!.setLayoutProperty(`isochrones-${cand}-fill`, "visibility", vis);
-            map.current!.setLayoutProperty(`isochrones-${cand}-line`, "visibility", vis);
+            mapRef.current.setLayoutProperty(`isochrones-${cand}-fill`, "visibility", vis);
+            mapRef.current.setLayoutProperty(`isochrones-${cand}-line`, "visibility", vis);
           } catch {}
         });
       } else {
-        map.current.flyTo({
-          center: INITIAL_CENTER,
-          zoom: INITIAL_ZOOM,
-          duration: 1500,
-        });
+        mapRef.current.flyTo({ center: INITIAL_CENTER, zoom: INITIAL_ZOOM, duration: 1500 });
       }
     },
     [selectedCandidate, mapLoaded]
   );
 
-  const token = process.env.NEXT_PUBLIC_MAPBOX_TOKEN;
-  const hasToken = token && token !== "pk.your_mapbox_token_here";
+  const hasToken = MAPBOX_TOKEN && MAPBOX_TOKEN !== "pk.your_mapbox_token_here";
 
   return (
     <SectionWrapper id="mapa-piloto" fullWidth className="py-8 lg:py-12">
@@ -295,18 +283,23 @@ export function MapSection() {
 
         <div className="grid gap-6 lg:grid-cols-[1fr_340px]">
           {/* Map */}
-          <div className="relative rounded-xl border overflow-hidden bg-muted" style={{ minHeight: 500 }}>
+          <div className="rounded-xl border overflow-hidden bg-muted h-[500px] lg:h-[600px] relative">
             {!hasToken ? (
               <div className="absolute inset-0 flex flex-col items-center justify-center p-8 text-center">
                 <Info className="h-12 w-12 text-muted-foreground/50 mb-4" />
                 <p className="text-lg font-semibold text-muted-foreground">Token de Mapbox no configurado</p>
                 <p className="text-sm text-muted-foreground/70 mt-2 max-w-md">
-                  Agrega tu token en el archivo <code className="text-xs bg-muted px-1.5 py-0.5 rounded">.env.local</code> como{" "}
+                  Agrega tu token en <code className="text-xs bg-muted px-1.5 py-0.5 rounded">.env.local</code> como{" "}
                   <code className="text-xs bg-muted px-1.5 py-0.5 rounded">NEXT_PUBLIC_MAPBOX_TOKEN=pk.xxx</code>
                 </p>
               </div>
+            ) : mapError ? (
+              <div className="absolute inset-0 flex flex-col items-center justify-center p-8 text-center">
+                <Info className="h-12 w-12 text-red-400/50 mb-4" />
+                <p className="text-lg font-semibold text-red-600">{mapError}</p>
+              </div>
             ) : (
-              <div ref={mapContainer} className="absolute inset-0" />
+              <div ref={mapContainer} style={{ width: "100%", height: "100%" }} />
             )}
           </div>
 

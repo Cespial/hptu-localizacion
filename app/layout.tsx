@@ -18,7 +18,7 @@ export default function RootLayout({
     <html lang="es" className="scroll-smooth">
       <head>
         <link
-          href="https://api.mapbox.com/mapbox-gl-js/v3.4.0/mapbox-gl.css"
+          href="https://api.mapbox.com/mapbox-gl-js/v3.18.1/mapbox-gl.css"
           rel="stylesheet"
         />
       </head>
