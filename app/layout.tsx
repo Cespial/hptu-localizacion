@@ -16,6 +16,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="es" className="scroll-smooth">
+      <head>
+        <link
+          href="https://api.mapbox.com/mapbox-gl-js/v3.4.0/mapbox-gl.css"
+          rel="stylesheet"
+        />
+      </head>
       <body className={`${inter.variable} ${sourceSerif.variable} font-sans antialiased`}>
         <TooltipProvider delayDuration={200}>
           {children}

@@ -1,12 +1,17 @@
+import dynamic from "next/dynamic";
 import { HeroSection } from "./_components/hero-section";
 import { MethodologySection } from "./_components/methodology-section";
 import { FormulaSection } from "./_components/formula-section";
-import { MapSection } from "./_components/map-section";
 import { DataArchitectureSection } from "./_components/data-architecture-section";
 import { CronogramSection } from "./_components/cronogram-section";
 import { TechStackSection } from "./_components/tech-stack-section";
 import { DeliverablesSection } from "./_components/deliverables-section";
 import { FooterSection } from "./_components/footer-section";
+
+const MapSection = dynamic(
+  () => import("./_components/map-section").then((mod) => mod.MapSection),
+  { ssr: false }
+);
 
 export default function Home() {
   return (
