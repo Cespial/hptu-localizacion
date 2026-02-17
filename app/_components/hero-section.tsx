@@ -50,7 +50,7 @@ export function HeroSection() {
         ))}
       </div>
 
-      <div className="relative z-10 mx-auto max-w-7xl px-4 lg:px-6 pt-24 pb-32">
+      <div className="relative z-10 mx-auto max-w-7xl px-4 lg:px-6 pt-16 pb-16 sm:pt-24 sm:pb-24 lg:pb-32">
         <div className="flex flex-col items-center text-center">
           {/* Badge */}
           <motion.div
@@ -81,7 +81,7 @@ export function HeroSection() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.4 }}
-            className="mt-3 text-xl font-semibold text-white/90 sm:text-2xl"
+            className="mt-3 text-lg font-semibold text-white/90 sm:text-xl md:text-2xl"
           >
             HPTU Nueva Sede
           </motion.p>
@@ -128,7 +128,7 @@ export function HeroSection() {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.8 }}
-            className="mt-16 grid grid-cols-2 gap-4 sm:grid-cols-4 sm:gap-6 w-full max-w-3xl"
+            className="mt-8 sm:mt-12 lg:mt-16 grid grid-cols-2 gap-3 sm:grid-cols-4 sm:gap-6 w-full max-w-3xl"
           >
             {stats.map((stat, i) => (
               <motion.div
@@ -136,10 +136,10 @@ export function HeroSection() {
                 initial={{ opacity: 0, scale: 0.9 }}
                 animate={{ opacity: 1, scale: 1 }}
                 transition={{ delay: 0.9 + i * 0.1 }}
-                className="rounded-xl border border-white/10 bg-white/5 p-4 backdrop-blur-sm"
+                className="rounded-xl border border-white/10 bg-white/5 p-3 sm:p-4 backdrop-blur-sm"
               >
                 <stat.icon className="mx-auto mb-2 h-5 w-5 text-teal-400" />
-                <div className="text-2xl font-bold text-white">
+                <div className="text-xl sm:text-2xl font-bold text-white">
                   {stat.prefix && <span>{stat.prefix}</span>}
                   <AnimatedCounter value={stat.value} />
                   {stat.suffix && <span>{stat.suffix}</span>}

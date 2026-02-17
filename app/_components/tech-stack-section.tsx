@@ -37,7 +37,7 @@ export function TechStackSection() {
               whileInView={{ opacity: 1, scale: 1 }}
               viewport={{ once: true }}
               transition={{ delay: i * 0.08 }}
-              className="group rounded-xl border bg-card p-5 text-center hover:shadow-card-hover transition-all"
+              className="group rounded-xl border bg-card p-3 sm:p-5 text-center hover:shadow-card-hover transition-all"
             >
               <div
                 className="mx-auto mb-3 flex h-12 w-12 items-center justify-center rounded-lg"
@@ -47,7 +47,7 @@ export function TechStackSection() {
               </div>
               <p className="text-sm font-bold">{tool.name}</p>
               <p className="text-xs text-muted-foreground mt-0.5">{tool.category}</p>
-              <p className="text-[11px] text-muted-foreground/70 mt-1 hidden group-hover:block">
+              <p className="text-[11px] text-muted-foreground/70 mt-1 block sm:hidden sm:group-hover:block">
                 {tool.description}
               </p>
             </motion.div>

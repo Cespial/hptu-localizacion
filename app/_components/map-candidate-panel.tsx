@@ -70,7 +70,7 @@ export function MapCandidatePanel({ candidates, selectedId, onSelect }: MapCandi
               >
                 {Object.entries(zone.scores).map(([key, value]) => (
                   <div key={key} className="flex items-center gap-2">
-                    <span className="text-xs text-muted-foreground w-28 shrink-0">
+                    <span className="text-xs text-muted-foreground w-24 sm:w-28 shrink-0">
                       {scoreLabels[key]}
                     </span>
                     <div className="flex-1 h-2 rounded-full bg-muted overflow-hidden">
@@ -86,7 +86,7 @@ export function MapCandidatePanel({ candidates, selectedId, onSelect }: MapCandi
                 ))}
                 <div className="flex flex-wrap gap-1.5 pt-2">
                   {zone.highlights.map((h) => (
-                    <span key={h} className="inline-flex items-center rounded-md bg-muted px-2 py-0.5 text-[10px] text-muted-foreground">
+                    <span key={h} className="inline-flex items-center rounded-md bg-muted px-2 py-0.5 text-[10px] text-muted-foreground max-w-full break-words">
                       {h}
                     </span>
                   ))}

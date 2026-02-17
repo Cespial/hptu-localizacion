@@ -19,7 +19,7 @@ export function CronogramSection() {
       </div>
 
       {/* Desktop timeline */}
-      <div className="hidden md:block">
+      <div className="hidden lg:block">
         <div className="relative">
           {/* Connection line */}
           <div className="absolute top-6 left-0 right-0 h-0.5 bg-border" />
@@ -66,7 +66,7 @@ export function CronogramSection() {
       </div>
 
       {/* Mobile timeline */}
-      <div className="md:hidden space-y-4">
+      <div className="lg:hidden space-y-4">
         {timeline.map((week, i) => (
           <motion.div
             key={week.week}

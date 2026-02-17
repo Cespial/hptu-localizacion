@@ -60,11 +60,11 @@ export function FormulaSection() {
         whileInView={{ opacity: 1, scale: 1 }}
         viewport={{ once: true }}
         transition={{ duration: 0.5 }}
-        className="mx-auto max-w-3xl rounded-2xl border bg-card p-6 lg:p-8 shadow-sm"
+        className="mx-auto max-w-3xl rounded-2xl border bg-card p-4 sm:p-6 lg:p-8 shadow-sm"
       >
         <div className="text-center mb-8">
           <p className="text-sm text-muted-foreground mb-3">Funcion de scoring</p>
-          <div className="flex flex-wrap items-center justify-center gap-2 text-lg sm:text-xl font-mono font-semibold">
+          <div className="flex flex-wrap items-center justify-center gap-1.5 sm:gap-2 text-sm sm:text-lg md:text-xl font-mono font-semibold">
             <span className="text-foreground">Score</span>
             <span className="text-muted-foreground">=</span>
             {variables.map((v, i) => (
@@ -99,13 +99,13 @@ export function FormulaSection() {
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
               transition={{ delay: i * 0.1 }}
-              className="flex items-center gap-3"
+              className="flex items-center gap-2 sm:gap-3"
             >
-              <div className="flex items-center gap-2 w-40 shrink-0">
+              <div className="flex items-center gap-1.5 sm:gap-2 w-24 sm:w-40 shrink-0">
                 <span className={`inline-flex h-7 w-7 items-center justify-center rounded-md border text-xs font-bold ${v.color}`}>
                   {v.letter}
                 </span>
-                <span className="text-sm font-medium">{v.name}</span>
+                <span className="text-xs sm:text-sm font-medium truncate">{v.name}</span>
               </div>
               <div className="flex-1 h-3 rounded-full bg-muted overflow-hidden">
                 <motion.div
@@ -116,7 +116,7 @@ export function FormulaSection() {
                   className={`h-full rounded-full ${v.barColor}`}
                 />
               </div>
-              <span className="text-sm font-semibold w-12 text-right">{v.weight}%</span>
+              <span className="text-xs sm:text-sm font-semibold w-8 sm:w-12 text-right">{v.weight}%</span>
             </motion.div>
           ))}
         </div>

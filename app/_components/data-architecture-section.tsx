@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Database, Map, Users, FileText, Cpu, BarChart3, Globe, Layers, ArrowRight } from "lucide-react";
+import { Database, Map, Users, FileText, Cpu, BarChart3, Globe, Layers, ArrowRight, ArrowDown } from "lucide-react";
 import { SectionWrapper } from "@/components/shared/section-wrapper";
 import { Badge } from "@/components/ui/badge";
 import { cn } from "@/lib/utils";
@@ -58,7 +58,7 @@ export function DataArchitectureSection() {
         </p>
       </div>
 
-      <div className="grid gap-6 md:grid-cols-3">
+      <div className="grid gap-4 lg:grid-cols-3 lg:gap-6">
         {columns.map((col, colIdx) => (
           <motion.div
             key={col.title}
@@ -93,9 +93,14 @@ export function DataArchitectureSection() {
 
             {/* Arrow between columns */}
             {colIdx < 2 && (
-              <div className="hidden md:flex absolute -right-3 top-1/2 -translate-y-1/2 z-10">
-                <ArrowRight className="h-6 w-6 text-muted-foreground/40" />
-              </div>
+              <>
+                <div className="hidden lg:flex absolute -right-3 top-1/2 -translate-y-1/2 z-10">
+                  <ArrowRight className="h-6 w-6 text-muted-foreground/40" />
+                </div>
+                <div className="flex lg:hidden justify-center py-1">
+                  <ArrowDown className="h-5 w-5 text-muted-foreground/40" />
+                </div>
+              </>
             )}
           </motion.div>
         ))}

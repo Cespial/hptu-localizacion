@@ -57,7 +57,7 @@ export function DeliverablesSection() {
         </p>
       </div>
 
-      <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-5">
+      <div className="grid gap-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5">
         {deliverables.map((item, i) => {
           const Icon = item.icon;
           return (
@@ -67,7 +67,7 @@ export function DeliverablesSection() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ delay: i * 0.1 }}
-              className="rounded-xl border bg-card p-5 hover:shadow-card-hover transition-shadow"
+              className="rounded-xl border bg-card p-4 sm:p-5 hover:shadow-card-hover transition-shadow"
             >
               <div className={cn("mb-3 flex h-10 w-10 items-center justify-center rounded-lg", item.bgColor)}>
                 <Icon className={cn("h-5 w-5", item.color)} />

@@ -283,7 +283,7 @@ export function MapSection() {
 
         <div className="grid gap-6 lg:grid-cols-[1fr_340px]">
           {/* Map */}
-          <div className="rounded-xl border overflow-hidden bg-muted h-[500px] lg:h-[600px] relative">
+          <div className="rounded-xl border overflow-hidden bg-muted h-[300px] sm:h-[400px] lg:h-[600px] relative">
             {!hasToken ? (
               <div className="absolute inset-0 flex flex-col items-center justify-center p-8 text-center">
                 <Info className="h-12 w-12 text-muted-foreground/50 mb-4" />
@@ -304,7 +304,7 @@ export function MapSection() {
           </div>
 
           {/* Side panel */}
-          <div className="space-y-6 lg:max-h-[600px] lg:overflow-y-auto lg:pr-1">
+          <div className="space-y-6 max-h-[50vh] overflow-y-auto sm:max-h-none sm:overflow-y-visible lg:max-h-[600px] lg:overflow-y-auto lg:pr-1">
             <MapLayerControls layers={layers} onToggle={toggleLayer} />
             <div className="h-px bg-border" />
             <MapCandidatePanel

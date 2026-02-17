@@ -79,7 +79,7 @@ export function MethodologySection() {
 
   return (
     <SectionWrapper id="metodologia">
-      <div className="text-center mb-12">
+      <div className="text-center mb-8 lg:mb-12">
         <Badge variant="outline" className="mb-4">Ruta Metodologica</Badge>
         <h2 className="font-serif text-3xl font-bold sm:text-4xl">
           Modelo de Nodos y Flujos de Valor
@@ -122,7 +122,7 @@ export function MethodologySection() {
                   <span className={cn("text-xs font-medium", isActive ? phase.color : "text-muted-foreground")}>
                     Fase {phase.id}
                   </span>
-                  <p className={cn("text-sm font-semibold mt-0.5", isActive ? "text-foreground" : "text-muted-foreground")}>
+                  <p className={cn("text-xs sm:text-sm font-semibold mt-0.5 leading-tight", isActive ? "text-foreground" : "text-muted-foreground")}>
                     {phase.title}
                   </p>
                 </div>
@@ -147,7 +147,7 @@ export function MethodologySection() {
           exit={{ opacity: 0, y: -10 }}
           transition={{ duration: 0.3 }}
           className={cn(
-            "rounded-2xl border-2 p-6 lg:p-8",
+            "rounded-2xl border-2 p-4 sm:p-6 lg:p-8",
             phases[activePhase].borderColor,
             phases[activePhase].bgColor + "/30"
           )}

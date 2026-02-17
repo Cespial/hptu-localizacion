@@ -28,7 +28,7 @@ export function MapLayerControls({ layers, onToggle }: MapLayerControlsProps) {
             key={layer.id}
             onClick={() => onToggle(layer.id)}
             className={cn(
-              "flex w-full items-center gap-3 rounded-lg border px-3 py-2.5 text-sm transition-all",
+              "flex w-full items-center gap-3 rounded-lg border px-3 py-3 sm:py-2.5 text-sm transition-all",
               layer.enabled
                 ? "bg-card border-border shadow-sm"
                 : "bg-muted/50 border-transparent opacity-60 hover:opacity-80"
