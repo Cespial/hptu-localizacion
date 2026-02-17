@@ -1,0 +1,112 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "el-poblado",
+        "name": "El Poblado",
+        "strata": "5-6",
+        "population_estimate": 128500,
+        "area_km2": 14.3,
+        "description": "Principal zona residencial de estratos altos en Medellin, comprende sectores como San Lucas, El Tesoro, Los Balsos, Manila y Astorga."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-75.5785, 6.2150],
+            [-75.5740, 6.2180],
+            [-75.5680, 6.2190],
+            [-75.5610, 6.2175],
+            [-75.5540, 6.2140],
+            [-75.5480, 6.2095],
+            [-75.5430, 6.2030],
+            [-75.5390, 6.1960],
+            [-75.5380, 6.1890],
+            [-75.5400, 6.1820],
+            [-75.5440, 6.1760],
+            [-75.5500, 6.1730],
+            [-75.5570, 6.1740],
+            [-75.5640, 6.1770],
+            [-75.5700, 6.1810],
+            [-75.5745, 6.1870],
+            [-75.5775, 6.1940],
+            [-75.5800, 6.2010],
+            [-75.5805, 6.2080],
+            [-75.5785, 6.2150]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "envigado-alto",
+        "name": "Envigado Alto",
+        "strata": "5-6",
+        "population_estimate": 45200,
+        "area_km2": 5.8,
+        "description": "Sector de Zuniga y alrededores en Envigado, zona de alta expansion inmobiliaria con proyectos residenciales de lujo y excelente conectividad sur."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-75.5920, 6.1770],
+            [-75.5870, 6.1790],
+            [-75.5810, 6.1780],
+            [-75.5750, 6.1750],
+            [-75.5700, 6.1710],
+            [-75.5670, 6.1660],
+            [-75.5660, 6.1600],
+            [-75.5680, 6.1550],
+            [-75.5720, 6.1520],
+            [-75.5780, 6.1510],
+            [-75.5840, 6.1530],
+            [-75.5890, 6.1570],
+            [-75.5930, 6.1620],
+            [-75.5950, 6.1680],
+            [-75.5945, 6.1730],
+            [-75.5920, 6.1770]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "laureles-estadio",
+        "name": "Laureles - Estadio",
+        "strata": "5",
+        "population_estimate": 95800,
+        "area_km2": 7.2,
+        "description": "Zona residencial tradicional de estrato 5 en el occidente de Medellin, con excelente conectividad por la Avenida 80, la Avenida Nutibara y el sistema Metro."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-75.6020, 6.2580],
+            [-75.5970, 6.2600],
+            [-75.5910, 6.2590],
+            [-75.5850, 6.2560],
+            [-75.5800, 6.2520],
+            [-75.5770, 6.2470],
+            [-75.5760, 6.2410],
+            [-75.5770, 6.2360],
+            [-75.5800, 6.2320],
+            [-75.5850, 6.2300],
+            [-75.5910, 6.2310],
+            [-75.5960, 6.2340],
+            [-75.6010, 6.2380],
+            [-75.6040, 6.2430],
+            [-75.6050, 6.2490],
+            [-75.6040, 6.2540],
+            [-75.6020, 6.2580]
+          ]
+        ]
+      }
+    }
+  ]
+}
