@@ -9,7 +9,7 @@ const stats = [
   { icon: Route, label: "Fases Completadas", value: 2, suffix: "/4" },
   { icon: MapPin, label: "Zonas Candidatas", value: 5, suffix: "" },
   { icon: BarChart3, label: "Score MCDA Lider", value: 88, prefix: "", suffix: "/100" },
-  { icon: Calendar, label: "POIs Analizados", value: 28, suffix: "+" },
+  { icon: Calendar, label: "Fuentes Primarias", value: 14, suffix: "" },
 ];
 
 export function HeroSection() {
@@ -92,9 +92,9 @@ export function HeroSection() {
             transition={{ delay: 0.5 }}
             className="mt-4 max-w-2xl text-base text-white/70 sm:text-lg"
           >
-            Estudio de localizacion con datos reales: isocronas Mapbox, analisis
-            de demanda por corredor, flujos vehiculares y cobertura de la red de salud.
-            Enfoque primario en el corredor Las Palmas. Estratos 4, 5 y 6.
+            Estudio de localizacion con 2.6M+ registros de fuentes primarias:
+            Catastro Municipal, DANE CNPV 2018, REPS MinSalud, MEData Aforos,
+            POT Bateria de Indicadores, Mapbox APIs y OpenStreetMap.
           </motion.p>
 
           {/* CTAs */}

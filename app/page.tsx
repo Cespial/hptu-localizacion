@@ -4,6 +4,7 @@ import { MethodologySection } from "./_components/methodology-section";
 import { FormulaSection } from "./_components/formula-section";
 import { DemandGradientSection } from "./_components/demand-gradient-section";
 import { Phase2ResultsSection } from "./_components/phase2-results-section";
+import { DataSourcesSection } from "./_components/data-sources-section";
 import { DataArchitectureSection } from "./_components/data-architecture-section";
 import { CronogramSection } from "./_components/cronogram-section";
 import { TechStackSection } from "./_components/tech-stack-section";
@@ -24,6 +25,7 @@ export default function Home() {
       <DemandGradientSection />
       <Phase2ResultsSection />
       <MapSection />
+      <DataSourcesSection />
       <DataArchitectureSection />
       <CronogramSection />
       <TechStackSection />
