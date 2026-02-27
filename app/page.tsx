@@ -7,6 +7,7 @@ import { Phase2ResultsSection } from "./_components/phase2-results-section";
 import { TrafficChartsSection } from "./_components/traffic-charts-section";
 import { HealthGapSection } from "./_components/health-gap-section";
 import { MCDAComparisonSection } from "./_components/mcda-comparison-section";
+import { DensurbamSection } from "./_components/densurbam-section";
 import { DataSourcesSection } from "./_components/data-sources-section";
 import { DataArchitectureSection } from "./_components/data-architecture-section";
 import { CronogramSection } from "./_components/cronogram-section";
@@ -31,6 +32,7 @@ export default function Home() {
       <HealthGapSection />
       <MapSection />
       <MCDAComparisonSection />
+      <DensurbamSection />
       <DataSourcesSection />
       <DataArchitectureSection />
       <CronogramSection />

@@ -150,6 +150,16 @@ const sources = [
     color: "text-cyan-600",
     bgColor: "bg-cyan-50",
   },
+  {
+    icon: Building2,
+    name: "DENSURBAM - URBAM/EAFIT/AMVA",
+    dataset: "densurbam.com.co",
+    portal: "URBAM - U. EAFIT",
+    records: 1220415,
+    description: "59 variables, 986 unidades, proyecciones 2017-2037. IRS salud El Poblado: 0.27. 10 barrios con deficit 100%.",
+    color: "text-emerald-600",
+    bgColor: "bg-emerald-50",
+  },
 ];
 
 export function DataSourcesSection() {

@@ -9,7 +9,7 @@ const stats = [
   { icon: Route, label: "Fases Completadas", value: 2, suffix: "/4" },
   { icon: MapPin, label: "Zonas Candidatas", value: 5, suffix: "" },
   { icon: BarChart3, label: "Score MCDA Lider", value: 88, prefix: "", suffix: "/100" },
-  { icon: Calendar, label: "Fuentes Primarias", value: 14, suffix: "" },
+  { icon: Calendar, label: "Fuentes Primarias", value: 15, suffix: "" },
 ];
 
 export function HeroSection() {
