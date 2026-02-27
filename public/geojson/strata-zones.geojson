@@ -9,7 +9,8 @@
         "strata": "5-6",
         "population_estimate": 128500,
         "area_km2": 14.3,
-        "description": "Principal zona residencial de estratos altos en Medellin, comprende sectores como San Lucas, El Tesoro, Los Balsos, Manila y Astorga."
+        "prepagada_estimate": 38550,
+        "description": "Principal zona residencial de estratos altos en Medellin. Incluye San Lucas, El Tesoro, Los Balsos, Manila, Astorga. Estimado 30% con medicina prepagada."
       },
       "geometry": {
         "type": "Polygon",
@@ -47,7 +48,8 @@
         "strata": "5-6",
         "population_estimate": 45200,
         "area_km2": 5.8,
-        "description": "Sector de Zuniga y alrededores en Envigado, zona de alta expansion inmobiliaria con proyectos residenciales de lujo y excelente conectividad sur."
+        "prepagada_estimate": 12560,
+        "description": "Sector Zuniga, Loma del Escobero y alrededores. Boom inmobiliario con 15+ proyectos de lujo. Crecimiento acelerado de poblacion premium."
       },
       "geometry": {
         "type": "Polygon",
@@ -76,34 +78,71 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "laureles-estadio",
-        "name": "Laureles - Estadio",
-        "strata": "5",
-        "population_estimate": 95800,
-        "area_km2": 7.2,
-        "description": "Zona residencial tradicional de estrato 5 en el occidente de Medellin, con excelente conectividad por la Avenida 80, la Avenida Nutibara y el sistema Metro."
+        "id": "corredor-las-palmas",
+        "name": "Corredor Las Palmas",
+        "strata": "6",
+        "population_estimate": 18500,
+        "area_km2": 8.5,
+        "prepagada_estimate": 7400,
+        "description": "Corredor residencial exclusivo sobre la via a Las Palmas. Condominios cerrados de estrato 6. Zona de estudio primaria para la nueva sede."
       },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
-            [-75.6020, 6.2580],
-            [-75.5970, 6.2600],
-            [-75.5910, 6.2590],
-            [-75.5850, 6.2560],
-            [-75.5800, 6.2520],
-            [-75.5770, 6.2470],
-            [-75.5760, 6.2410],
-            [-75.5770, 6.2360],
-            [-75.5800, 6.2320],
-            [-75.5850, 6.2300],
-            [-75.5910, 6.2310],
-            [-75.5960, 6.2340],
-            [-75.6010, 6.2380],
-            [-75.6040, 6.2430],
-            [-75.6050, 6.2490],
-            [-75.6040, 6.2540],
-            [-75.6020, 6.2580]
+            [-75.5520, 6.2120],
+            [-75.5480, 6.2100],
+            [-75.5430, 6.2060],
+            [-75.5380, 6.2010],
+            [-75.5330, 6.1970],
+            [-75.5280, 6.1930],
+            [-75.5240, 6.1900],
+            [-75.5220, 6.1880],
+            [-75.5230, 6.1860],
+            [-75.5260, 6.1850],
+            [-75.5310, 6.1880],
+            [-75.5360, 6.1920],
+            [-75.5410, 6.1960],
+            [-75.5450, 6.2000],
+            [-75.5490, 6.2040],
+            [-75.5530, 6.2080],
+            [-75.5540, 6.2100],
+            [-75.5520, 6.2120]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "sabaneta-sur",
+        "name": "Sabaneta - Sur",
+        "strata": "4-5",
+        "population_estimate": 65800,
+        "area_km2": 6.1,
+        "prepagada_estimate": 13160,
+        "description": "Municipio del sur metropolitano con mayor crecimiento poblacional. Alta densidad de estratos 4-5. Mercado en expansion para servicios de salud premium."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-75.6250, 6.1610],
+            [-75.6190, 6.1640],
+            [-75.6120, 6.1630],
+            [-75.6060, 6.1600],
+            [-75.6010, 6.1560],
+            [-75.5980, 6.1510],
+            [-75.5970, 6.1450],
+            [-75.5990, 6.1400],
+            [-75.6030, 6.1370],
+            [-75.6090, 6.1360],
+            [-75.6150, 6.1380],
+            [-75.6200, 6.1410],
+            [-75.6240, 6.1460],
+            [-75.6260, 6.1520],
+            [-75.6260, 6.1570],
+            [-75.6250, 6.1610]
           ]
         ]
       }

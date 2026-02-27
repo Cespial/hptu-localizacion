@@ -24,11 +24,17 @@ const scoreColors: Record<string, string> = {
   valorInmobiliario: "bg-purple-500",
 };
 
+const formatNumber = (n: number) =>
+  new Intl.NumberFormat("es-CO").format(n);
+
+const formatPrice = (n: number) =>
+  new Intl.NumberFormat("es-CO", { style: "currency", currency: "COP", maximumFractionDigits: 0 }).format(n);
+
 export function MapCandidatePanel({ candidates, selectedId, onSelect }: MapCandidatePanelProps) {
   return (
     <div className="space-y-3">
       <p className="text-xs font-semibold text-muted-foreground uppercase tracking-wider mb-3">
-        Zonas Candidatas
+        Zonas Candidatas ({candidates.length})
       </p>
       {candidates.map((zone) => {
         const isSelected = selectedId === zone.id;
@@ -68,6 +74,7 @@ export function MapCandidatePanel({ candidates, selectedId, onSelect }: MapCandi
                 exit={{ opacity: 0, height: 0 }}
                 className="space-y-2"
               >
+                {/* MCDA Score bars */}
                 {Object.entries(zone.scores).map(([key, value]) => (
                   <div key={key} className="flex items-center gap-2">
                     <span className="text-xs text-muted-foreground w-24 sm:w-28 shrink-0">
@@ -84,6 +91,28 @@ export function MapCandidatePanel({ candidates, selectedId, onSelect }: MapCandi
                     <span className="text-xs font-semibold w-8 text-right">{value}</span>
                   </div>
                 ))}
+
+                {/* Key metrics */}
+                <div className="grid grid-cols-2 gap-2 pt-2">
+                  <div className="rounded-md bg-muted/50 p-2">
+                    <p className="text-[10px] text-muted-foreground">Pob. E5/E6</p>
+                    <p className="text-xs font-bold">{formatNumber(zone.demandEstimate)}</p>
+                  </div>
+                  <div className="rounded-md bg-muted/50 p-2">
+                    <p className="text-[10px] text-muted-foreground">Valor m2</p>
+                    <p className="text-xs font-bold">{formatPrice(zone.avgM2Price)}</p>
+                  </div>
+                  <div className="rounded-md bg-muted/50 p-2">
+                    <p className="text-[10px] text-muted-foreground">Tiempo a HPTU</p>
+                    <p className="text-xs font-bold">{zone.driveTimeToHPTU} min</p>
+                  </div>
+                  <div className="rounded-md bg-muted/50 p-2">
+                    <p className="text-[10px] text-muted-foreground">POT</p>
+                    <p className="text-[10px] font-medium leading-tight">{zone.potViability.split("-")[0].trim()}</p>
+                  </div>
+                </div>
+
+                {/* Highlights */}
                 <div className="flex flex-wrap gap-1.5 pt-2">
                   {zone.highlights.map((h) => (
                     <span key={h} className="inline-flex items-center rounded-md bg-muted px-2 py-0.5 text-[10px] text-muted-foreground max-w-full break-words">

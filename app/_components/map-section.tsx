@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useRef, useState, useCallback } from "react";
-import { Info, MapPin, Layers, Circle, Hospital } from "lucide-react";
+import { Info, MapPin, Layers, Circle, Hospital, Route } from "lucide-react";
 import { SectionWrapper } from "@/components/shared/section-wrapper";
 import { Badge } from "@/components/ui/badge";
 import { MapLayerControls, type LayerToggle } from "./map-layer-controls";
@@ -9,9 +9,11 @@ import { MapCandidatePanel } from "./map-candidate-panel";
 import { candidateZones } from "@/lib/demo-data/candidate-zones";
 import { pois, categoryColors, categoryLabels } from "@/lib/demo-data/poi";
 
-const INITIAL_CENTER: [number, number] = [-75.57, 6.21];
-const INITIAL_ZOOM = 11.5;
+const INITIAL_CENTER: [number, number] = [-75.555, 6.195];
+const INITIAL_ZOOM = 12.5;
 const MAPBOX_TOKEN = process.env.NEXT_PUBLIC_MAPBOX_TOKEN;
+
+const CANDIDATE_IDS = candidateZones.map((z) => z.id);
 
 export function MapSection() {
   const mapContainer = useRef<HTMLDivElement>(null);
@@ -28,8 +30,9 @@ export function MapSection() {
   const [layers, setLayers] = useState<LayerToggle[]>([
     { id: "strata", label: "Estratos 5 y 6", icon: Layers, color: "#0d9488", enabled: true },
     { id: "pois", label: "Puntos de Interes", icon: MapPin, color: "#3b82f6", enabled: true },
-    { id: "isochrones", label: "Isocronas", icon: Circle, color: "#f59e0b", enabled: false },
+    { id: "isochrones", label: "Isocronas (API Mapbox)", icon: Circle, color: "#f59e0b", enabled: false },
     { id: "hptu", label: "HPTU Actual", icon: Hospital, color: "#ef4444", enabled: true },
+    { id: "corridor", label: "Corredor Las Palmas", icon: Route, color: "#8b5cf6", enabled: true },
   ]);
 
   const toggleLayer = useCallback((id: string) => {
@@ -95,8 +98,48 @@ export function MapSection() {
             paint: { "line-color": "#0d9488", "line-width": 1.5, "line-opacity": 0.6 },
           });
 
-          // Isochrones
-          ["poblado", "envigado", "llanogrande"].forEach((cand) => {
+          // Las Palmas corridor line
+          map.addSource("corridor-line", {
+            type: "geojson",
+            data: {
+              type: "FeatureCollection",
+              features: [{
+                type: "Feature",
+                properties: { name: "Corredor Las Palmas" },
+                geometry: {
+                  type: "LineString",
+                  coordinates: [
+                    [-75.5580, 6.2120], // Mirador del Poblado
+                    [-75.5540, 6.2100],
+                    [-75.5500, 6.2080],
+                    [-75.5465, 6.2060], // Indiana
+                    [-75.5430, 6.2040],
+                    [-75.5400, 6.2020], // EIA
+                    [-75.5380, 6.1980], // Cedro Verde
+                    [-75.5340, 6.1950],
+                    [-75.5300, 6.1930],
+                    [-75.5260, 6.1920], // Alto
+                    [-75.5220, 6.1900],
+                    [-75.5180, 6.1880], // Santa Elena direction
+                  ],
+                },
+              }],
+            },
+          });
+          map.addLayer({
+            id: "corridor-line-layer",
+            type: "line",
+            source: "corridor-line",
+            paint: {
+              "line-color": "#8b5cf6",
+              "line-width": 3,
+              "line-opacity": 0.7,
+              "line-dasharray": [3, 2],
+            },
+          });
+
+          // Isochrones for each candidate
+          CANDIDATE_IDS.forEach((cand) => {
             map.addSource(`isochrones-${cand}`, {
               type: "geojson",
               data: `/geojson/isochrones-${cand}.geojson`,
@@ -139,12 +182,12 @@ export function MapSection() {
           // Candidate zone markers
           candidateZones.forEach((zone) => {
             const el = document.createElement("div");
-            el.innerHTML = `<div style="background:${zone.color};width:14px;height:14px;border-radius:50%;border:2px solid white;box-shadow:0 2px 6px rgba(0,0,0,0.25);cursor:pointer;"></div>`;
+            el.innerHTML = `<div style="background:${zone.color};width:16px;height:16px;border-radius:50%;border:2px solid white;box-shadow:0 2px 6px rgba(0,0,0,0.25);cursor:pointer;"></div>`;
             const marker = new mapboxgl.Marker({ element: el })
               .setLngLat(zone.coordinates)
               .setPopup(
                 new mapboxgl.Popup({ offset: 10 }).setHTML(
-                  `<div><p style="font-weight:600;margin:0;">${zone.name}</p><p style="font-size:12px;color:#666;margin:2px 0 0;">Score MCDA: <strong>${zone.score}</strong></p></div>`
+                  `<div><p style="font-weight:600;margin:0;">${zone.name}</p><p style="font-size:11px;color:#888;margin:1px 0;">${zone.subtitle}</p><p style="font-size:12px;color:#666;margin:2px 0 0;">Score MCDA: <strong>${zone.score}/100</strong></p><p style="font-size:11px;color:#666;margin:2px 0 0;">Pob. E5/E6 (20 min): ${new Intl.NumberFormat("es-CO").format(zone.demandEstimate)}</p></div>`
                 )
               )
               .addTo(map);
@@ -215,11 +258,20 @@ export function MapSection() {
     } catch {}
   }, [mapLoaded, layers]);
 
+  // Corridor visibility
+  useEffect(() => {
+    if (!mapLoaded || !mapRef.current) return;
+    const vis = layers.find((l) => l.id === "corridor")?.enabled ? "visible" : "none";
+    try {
+      mapRef.current.setLayoutProperty("corridor-line-layer", "visibility", vis);
+    } catch {}
+  }, [mapLoaded, layers]);
+
   // Isochrone visibility
   useEffect(() => {
     if (!mapLoaded || !mapRef.current) return;
     const vis = layers.find((l) => l.id === "isochrones")?.enabled ? "visible" : "none";
-    ["poblado", "envigado", "llanogrande"].forEach((cand) => {
+    CANDIDATE_IDS.forEach((cand) => {
       try {
         mapRef.current.setLayoutProperty(`isochrones-${cand}-fill`, "visibility", vis);
         mapRef.current.setLayoutProperty(`isochrones-${cand}-line`, "visibility", vis);
@@ -248,10 +300,10 @@ export function MapSection() {
       if (newId) {
         const zone = candidateZones.find((z) => z.id === newId);
         if (zone) {
-          mapRef.current.flyTo({ center: zone.coordinates, zoom: 13, duration: 1500 });
+          mapRef.current.flyTo({ center: zone.coordinates, zoom: 13.5, duration: 1500 });
         }
         setLayers((prev) => prev.map((l) => (l.id === "isochrones" ? { ...l, enabled: true } : l)));
-        ["poblado", "envigado", "llanogrande"].forEach((cand) => {
+        CANDIDATE_IDS.forEach((cand) => {
           const vis = cand === newId ? "visible" : "none";
           try {
             mapRef.current.setLayoutProperty(`isochrones-${cand}-fill`, "visibility", vis);
@@ -268,16 +320,17 @@ export function MapSection() {
   const hasToken = MAPBOX_TOKEN && MAPBOX_TOKEN !== "pk.your_mapbox_token_here";
 
   return (
-    <SectionWrapper id="mapa-piloto" fullWidth className="py-8 lg:py-12">
+    <SectionWrapper id="mapa-estrategico" fullWidth className="py-8 lg:py-12">
       <div className="mx-auto max-w-7xl px-4 lg:px-6">
         <div className="text-center mb-8">
-          <Badge variant="outline" className="mb-4">Piloto Funcional</Badge>
+          <Badge variant="outline" className="mb-4">Analisis Geoespacial - Isocronas Reales (API Mapbox)</Badge>
           <h2 className="font-serif text-3xl font-bold sm:text-4xl">
-            Mapa de Localizacion Estrategica
+            Mapa Estrategico de Localizacion
           </h2>
           <p className="mt-3 text-muted-foreground max-w-2xl mx-auto">
-            Visualizacion interactiva de zonas candidatas, puntos de interes y
-            analisis de isocronas para la nueva sede del HPTU.
+            Visualizacion interactiva del corredor Las Palmas y zonas alternativas.
+            Isocronas generadas con API Mapbox (datos reales de trafico).
+            Seleccione una zona para ver su cobertura de 10, 20 y 30 minutos.
           </p>
         </div>
 

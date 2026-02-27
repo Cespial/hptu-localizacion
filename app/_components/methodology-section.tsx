@@ -17,11 +17,11 @@ const phases = [
     borderColor: "border-teal-200",
     ringColor: "ring-teal-500",
     dotColor: "bg-teal-500",
-    description: "Identificacion y georreferenciacion de la poblacion objetivo (estratos 5 y 6) y sus patrones de ubicacion en el Area Metropolitana.",
+    description: "Georreferenciacion de poblacion E4/E5/E6, analisis de 28+ POIs, gradiente de demanda a lo largo del corredor Las Palmas e isocronas reales con API Mapbox.",
     activities: [
-      { icon: Users, label: "Georreferenciacion poblacional", detail: "Mapeo de densidad E5/E6 por manzana censal" },
-      { icon: MapPin, label: "Puntos de interes clave", detail: "Clinicas, colegios, clubes, zonas corporativas" },
-      { icon: Database, label: "Analisis de isocronas base", detail: "Tiempos de desplazamiento 10/20/30 minutos" },
+      { icon: Users, label: "128,500 hab. E5/E6 mapeados", detail: "Gradiente de demanda Indiana → Alto de Las Palmas" },
+      { icon: MapPin, label: "28+ POIs identificados", detail: "Clinicas, prepagada, colegios, clubes, corporativos" },
+      { icon: Database, label: "Isocronas reales Mapbox", detail: "5 zonas candidatas con cobertura 10/20/30 min" },
     ],
   },
   {
@@ -33,11 +33,11 @@ const phases = [
     borderColor: "border-blue-200",
     ringColor: "ring-blue-500",
     dotColor: "bg-blue-500",
-    description: "Analisis de la infraestructura vial, nodos de transporte y corredores de movilidad que conectan la demanda con los sitios candidatos.",
+    description: "Analisis de 5 corredores viales con flujos AM/PM, mapeo de 5 nodos de salud existentes con brechas de cobertura y modelado de accesibilidad multimodal.",
     activities: [
-      { icon: Car, label: "Flujos vehiculares principales", detail: "Corredores viales y tiempos de recorrido" },
-      { icon: Waypoints, label: "Nodos de salud existentes", detail: "Red hospitalaria y cobertura actual" },
-      { icon: Route, label: "Modelado de accesibilidad", detail: "Matrices OD y grafos de movilidad" },
+      { icon: Car, label: "5 corredores viales analizados", detail: "42,000 vehiculos/dia en Las Palmas. Cuellos de botella mapeados" },
+      { icon: Waypoints, label: "Red de salud: 89% ocupacion", detail: "HPTU Prado al 96%. Sin oferta de alta complejidad en Las Palmas" },
+      { icon: Route, label: "38,550 usuarios prepagada", detail: "Actualmente a 25-40 min de HPTU. Reduciria a 10-15 min" },
     ],
   },
   {

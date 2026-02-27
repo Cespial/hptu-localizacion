@@ -6,10 +6,10 @@ import { Button } from "@/components/ui/button";
 import { AnimatedCounter } from "@/components/shared/animated-counter";
 
 const stats = [
-  { icon: Route, label: "Fases", value: 4, suffix: "" },
-  { icon: MapPin, label: "Zonas Candidatas", value: 3, suffix: "" },
-  { icon: BarChart3, label: "Score MCDA", value: 100, prefix: "0-" },
-  { icon: Calendar, label: "Semanas", value: 5, suffix: "" },
+  { icon: Route, label: "Fases Completadas", value: 2, suffix: "/4" },
+  { icon: MapPin, label: "Zonas Candidatas", value: 5, suffix: "" },
+  { icon: BarChart3, label: "Score MCDA Lider", value: 88, prefix: "", suffix: "/100" },
+  { icon: Calendar, label: "POIs Analizados", value: 28, suffix: "+" },
 ];
 
 export function HeroSection() {
@@ -61,7 +61,7 @@ export function HeroSection() {
           >
             <span className="inline-flex items-center gap-2 rounded-full border border-white/20 bg-white/10 px-4 py-1.5 text-sm text-white/90 backdrop-blur-sm">
               <span className="h-2 w-2 rounded-full bg-teal-400 animate-pulse" />
-              Observatorio de Datos y Analisis
+              Fases 1 y 2 Completadas - Avance 6 de Marzo
             </span>
           </motion.div>
 
@@ -92,9 +92,9 @@ export function HeroSection() {
             transition={{ delay: 0.5 }}
             className="mt-4 max-w-2xl text-base text-white/70 sm:text-lg"
           >
-            Modelo de Nodos y Flujos de Valor para identificar la ubicacion
-            optima de la nueva sede, enfocado en poblacion de estratos 5 y 6
-            del Area Metropolitana del Valle de Aburra.
+            Estudio de localizacion con datos reales: isocronas Mapbox, analisis
+            de demanda por corredor, flujos vehiculares y cobertura de la red de salud.
+            Enfoque primario en el corredor Las Palmas. Estratos 4, 5 y 6.
           </motion.p>
 
           {/* CTAs */}
@@ -116,10 +116,10 @@ export function HeroSection() {
               size="lg"
               variant="outline"
               className="border-white/30 text-white hover:bg-white/10 backdrop-blur-sm"
-              onClick={() => document.getElementById("mapa-piloto")?.scrollIntoView({ behavior: "smooth" })}
+              onClick={() => document.getElementById("mapa-estrategico")?.scrollIntoView({ behavior: "smooth" })}
             >
               <MapPin className="mr-2 h-4 w-4" />
-              Explorar Mapa Piloto
+              Explorar Mapa Estrategico
             </Button>
           </motion.div>
 
