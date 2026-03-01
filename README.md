@@ -1,36 +1,58 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Estudio de Localizacion — HPTU Nueva Sede
 
-## Getting Started
+Plataforma web interactiva para el estudio de localizacion de una nueva sede del **Hospital Pablo Tobon Uribe (HPTU)** en el area metropolitana de Medellin. Analisis geoespacial multicriterio con 2.6M+ registros de 15 fuentes primarias oficiales, sin datos estimados.
 
-First, run the development server:
+**Live:** [hptu-localizacion.vercel.app](https://hptu-localizacion.vercel.app)
+
+## Metodologia
+
+Modelo de **"Nodos y Flujos de Valor"** en 4 fases:
+
+1. **Mapeo de Demanda** — Analisis catastral barrio por barrio del corredor Las Palmas (1M+ registros, POT, DANE)
+2. **Flujos y Nodos** — Velocidades de trafico (682K observaciones MEData), capacidad hospitalaria (REPS MinSalud)
+3. **Competencia y Regulacion** — Zonificacion POT, infraestructura de salud existente
+4. **Sintesis MCDA** — Multi-Criteria Decision Analysis: `Score = (A x 0.35) + (D x 0.30) + (C x 0.20) + (V x 0.15)`
+
+### Resultado
+
+5 zonas candidatas evaluadas. **Recomendacion: Las Palmas Bajo (88/100)** — unica zona con >80 en las 4 dimensiones.
+
+## Secciones de la Plataforma
+
+- Gradiente de demanda por barrios con datos catastrales reales
+- Velocidades de trafico por hora (5 corredores) y volumenes vehiculares (79K vehiculos)
+- Brecha de salud: capacidad hospitalaria, cobertura camas/poblacion vs benchmarks OMS
+- **Mapa interactivo Mapbox** con capas toggleables: estratos (GeoJSON), 28+ POIs, isocronas reales (10/20/30 min), corredor Las Palmas
+- Comparacion MCDA: radar chart, barras de scores, tabla comparativa completa
+- Analisis DENSURBAM (URBAM/EAFIT/AMVA): IRS de salud, proyecciones 2017-2037, deficit por barrio
+- Catalogo de 15 fuentes primarias con IDs de dataset y portales
+- Diagrama de arquitectura de datos y cronograma del proyecto
+
+## Hallazgo Critico
+
+El Poblado tiene el IRS de salud mas bajo del Valle de Aburra (0.27). 10 barrios con 100% de deficit de infraestructura de salud (103,913 habitantes proyectados a 2037 sin cobertura).
+
+## Stack
+
+| Capa | Tecnologia |
+|------|-----------|
+| Framework | Next.js 14.2 (App Router) |
+| UI | React 18, Tailwind CSS 3.4, Radix UI, shadcn/ui |
+| Animaciones | Framer Motion 12 |
+| Graficas | Recharts 3.7 |
+| Mapas | Mapbox GL JS 3.18 (isocronas, GeoJSON, POIs) |
+| Procesamiento geoespacial | QGIS, PostGIS, Python/GeoPandas, Mapbox APIs |
+| Deploy | Vercel |
+
+## Desarrollo Local
 
 ```bash
+git clone https://github.com/Cespial/hptu-localizacion.git
+cd hptu-localizacion
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Fuentes de Datos
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+15 fuentes primarias (2.6M+ registros): Catastro Municipal, Censo DANE 2018, REPS MinSalud, MEData trafico, POT Medellin, Mapbox APIs, OpenStreetMap, DENSURBAM (URBAM/EAFIT/AMVA), EPM, GeoMedellin ArcGIS.
