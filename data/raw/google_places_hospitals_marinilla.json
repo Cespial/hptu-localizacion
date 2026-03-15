@@ -1,0 +1,1143 @@
+{
+   "html_attributions" : [],
+   "next_page_token" : "ATCDNfXFecnHOgv9Y_acWOAryx1v3DYQNWNblRvq1yFf0k90XjlYKQBgAigM2OO1j8PjLeCSp4SAE_n-KtQxYuXzdVviDF2yNzUkLVsboXtIIEZCXrbEhLHItzNdXUgSU3OfTv-1GfJ4Px9piTERoqfrKP5mpDFoEQiMdjfniUgRk82vRjLViSk_5DtdbyB6S8xFo9LXj_nKP2vdeg4sOrWzK_MNNLQz0fJfwf28jkMT4JyXsdmCo_9i3tEbOi4_A47EfXY7BCBKv8hmsrveoM3yieYh6OxgwDUVltLFQEXacAiOtlhewu4HKrwEWW3OoFu9h3HLMwatVUq7rVpkuHJ3NcaS07rxFeT0BzmHD-SoShdEzGqPvmh-fnyYelkV1zwwS6kY4b7v_0tqrEKM0UWz-9LFALKnSFHYEg8sXWf2LDWV_lOf4Fd3XJ9ZkA",
+   "results" : 
+   [
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 6.161531300000001,
+               "lng" : -75.368595
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 6.162923930291503,
+                  "lng" : -75.36726436970849
+               },
+               "southwest" : 
+               {
+                  "lat" : 6.160225969708498,
+                  "lng" : -75.3699623302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/hospital-71.png",
+         "icon_background_color" : "#F88181",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/hospital-H_pinlet",
+         "international_phone_number" : "+57 604 5595615",
+         "name" : "OrienteSalud",
+         "opening_hours" : 
+         {
+            "open_now" : false
+         },
+         "photos" : 
+         [
+            {
+               "height" : 4912,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/105468087607128137311\"\u003eOrienteSalud\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATCDNfXONUxgkvQbVJnQXHa8dzHmUeGjkTY1m1gDRRk0QBReo9WY1kUZxbtUgyN-TY1a9CYxB7sQPVHWECWwZUDTR3RhI0FReZLq-YN0ddb-zqKV5Kq4lPDtRJER1mTdnl-xULaJ1iVwqeBvZj0S8KwWwTIeVIS_mxtXiJhkcw-k19rvGYp95Tt31Upadf2cMS77IWihkovEUb6nL7i8ZHI1bz6QIq4LVsvXpyMN1x15gBgtZywuPBNyO-zgmgCmVNpAklvBftRz-wxO-IkjfaZpfgnOvTc-u9kY3QCGXzqk4lPCBig3sVrkZ-fwv6r0wVk6sQbGQp5o-nU",
+               "width" : 7360
+            }
+         ],
+         "place_id" : "ChIJ3cXDlKCfRo4RQ1e-Y9ycmtI",
+         "plus_code" : 
+         {
+            "compound_code" : "5J6J+JH Rionegro, Antioquia, Colombia",
+            "global_code" : "67R65J6J+JH"
+         },
+         "rating" : 2.4,
+         "reference" : "ChIJ3cXDlKCfRo4RQ1e-Y9ycmtI",
+         "scope" : "GOOGLE",
+         "types" : 
+         [
+            "hospital",
+            "point_of_interest",
+            "health",
+            "establishment"
+         ],
+         "user_ratings_total" : 22,
+         "vicinity" : "Urb. Altos del lago, Calle 63A # 47-25"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 6.158818599999999,
+               "lng" : -75.3700178
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 6.160165380291502,
+                  "lng" : -75.36867026970849
+               },
+               "southwest" : 
+               {
+                  "lat" : 6.157467419708499,
+                  "lng" : -75.37136823029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/hospital-71.png",
+         "icon_background_color" : "#F88181",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/hospital-H_pinlet",
+         "name" : "Centro de Fisioterapia Fisio Integral",
+         "place_id" : "ChIJL3UeIgqfRo4RziTEGfNmzWU",
+         "plus_code" : 
+         {
+            "compound_code" : "5J5H+GX Rionegro, Antioquia, Colombia",
+            "global_code" : "67R65J5H+GX"
+         },
+         "reference" : "ChIJL3UeIgqfRo4RziTEGfNmzWU",
+         "scope" : "GOOGLE",
+         "types" : 
+         [
+            "hospital",
+            "point_of_interest",
+            "health",
+            "establishment"
+         ],
+         "vicinity" : "Calle 59 #4726"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 6.159373,
+               "lng" : -75.37192399999999
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 6.160729230291501,
+                  "lng" : -75.37059111970848
+               },
+               "southwest" : 
+               {
+                  "lat" : 6.158031269708498,
+                  "lng" : -75.3732890802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/hospital-71.png",
+         "icon_background_color" : "#F88181",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/hospital-H_pinlet",
+         "name" : "Instituto de Cancerología",
+         "photos" : 
+         [
+            {
+               "height" : 1920,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/101109734227221785243\"\u003eERIK MONTOYA\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATCDNfVvnjb_zaUDpikoMxU8mLrb3z9nB0KpZGM7H46lRfhK6wfKH22Sk9NPgg4afq_gZBJerJKt1kjJojsAm2hOUcXMGQ3wUX-K2NL5OGioB8pcss87XVNw6p_By5IxbRkvrltpBc7jOhy3df5j-8TdWK6hbQU7-bBEdhvwm3Smx3pO3loVbIgNAlPE-nenN-AKZv23d51c4MZS3WFecLGDanrJ0CgQD22Wx7JFmlhBxlGY_wYdvw33nsSXxrFrAvW_7RgEwZk9q78xDrXECzRrD6ITd3A7ahtburkyjZz8eTWgqMJi-o2nSW59w6PN4-YBZcDtJJX6mbWvPdcMXhI6AY3VtyGiQ1eBWsnFga_KETV9xO1MNqlTXlmqRIrsA64PqfDhOdYpFWVHtC0TA_KlNDsKMkI-KkA0TLYNu2q3XXSxIycdyucsp2hRAYW7ERUIrtlSCthiYrxCR2_egfagG0u1LjiuTrplKzjFl3jO-8105D-XxQHBTZHDscFAMc-Oa_zFGGTIwKHMcSngqgw1J1OrV8sLa6pqazvQrRfexWdpyBatqYRYGCu7FOnBGnl6AgZ_ePQBw0rKbpVQDzIZs-xyut9fNYSihv_8LLm5rvbaVNRnXyxaR_ODPDgkKAi-mfzOtnTk",
+               "width" : 1080
+            }
+         ],
+         "place_id" : "ChIJ9-S4wQmfRo4RF9PW1kIIfBo",
+         "plus_code" : 
+         {
+            "compound_code" : "5J5H+P6 Rionegro, Antioquia, Colombia",
+            "global_code" : "67R65J5H+P6"
+         },
+         "rating" : 3,
+         "reference" : "ChIJ9-S4wQmfRo4RF9PW1kIIfBo",
+         "scope" : "GOOGLE",
+         "types" : 
+         [
+            "hospital",
+            "point_of_interest",
+            "health",
+            "establishment"
+         ],
+         "user_ratings_total" : 1,
+         "vicinity" : "Carrera 51"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 6.1555735,
+               "lng" : -75.37036789999999
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 6.156933280291502,
+                  "lng" : -75.36914461970849
+               },
+               "southwest" : 
+               {
+                  "lat" : 6.154235319708497,
+                  "lng" : -75.3718425802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/hospital-71.png",
+         "icon_background_color" : "#F88181",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/hospital-H_pinlet",
+         "international_phone_number" : "+57 44440725",
+         "name" : "Clínica somer Central Especialistas",
+         "opening_hours" : 
+         {
+            "open_now" : false
+         },
+         "photos" : 
+         [
+            {
+               "height" : 710,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/104579790877535879142\"\u003eBryan Alexander\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATCDNfVnwScLQBM81djakEsOiU1tnQ0ZnI2ItYov1dtLApAJI8VEDJf93KAijwnSpB68aFLC5btWDsVw6caIlTNFzyYmhZO9p45qBtRnXP6pLFIu6r-nIfi2Ef1LYhAi5XkNgTetBiuREsTvzna6Uo0vLKdBVmCX8iEmr4z7lirZM-KuUUfHYZ7hxSHUxZZR27B_SUbu0OUSvUN43RByItOHEL24XgwNnYLH94YC_OWU8GwTQE3j1Ape31VvHdHgC-chaanjpW-61vmu8ciZhFvgUUh-0qUS53tLTQL8HQqo5oafXmp6QLXBplhSzjhn9cec1h3Vtad_RsLeYlHusq7km2S6exYRLaFvOiMPT8cbol9tW2cOVVsfzHNZhBcVLrNcfZU8wDwYYUDcv3DDeRPeZ091CQNSn7lMDQrtrpw9eiDUc_BI7Fzu-iaZvby9mXUuJRi9EGRF1Tcm98XwM9s4abQva7GirZ7h9hOi0V9P7Px5_Hpytcm9pIt4p6uc2uVK_KcTuug7vEYGEcplsj941nIApr1nWmL33RJbszZzYy4mGwBPp6wd_kcX_GZ7RyaEqz90WVx1rwcX2CqpkLZyySIvg50CdFtOq-NqA3KZp3DYhz0WOSWgDvu1899xRgYo9_kHJSDh3VekjybdGXwOTWKp2j0",
+               "width" : 720
+            }
+         ],
+         "place_id" : "ChIJpx3_VQmfRo4R9XbiEe7q1XI",
+         "plus_code" : 
+         {
+            "compound_code" : "5J4H+6V Rionegro, Antioquia, Colombia",
+            "global_code" : "67R65J4H+6V"
+         },
+         "rating" : 3.4,
+         "reference" : "ChIJpx3_VQmfRo4R9XbiEe7q1XI",
+         "scope" : "GOOGLE",
+         "types" : 
+         [
+            "hospital",
+            "point_of_interest",
+            "health",
+            "establishment"
+         ],
+         "user_ratings_total" : 9,
+         "vicinity" : "calle 52 45 -70, C.C. Rionegro Plaza, 4 piso."
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 6.152693900000002,
+               "lng" : -75.37547099999999
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 6.154303680291503,
+                  "lng" : -75.37415676970849
+               },
+               "southwest" : 
+               {
+                  "lat" : 6.151605719708498,
+                  "lng" : -75.37685473029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/hospital-71.png",
+         "icon_background_color" : "#F88181",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/hospital-H_pinlet",
+         "international_phone_number" : "+57 45610164",
+         "name" : "Centro de Terapia Alternativa José Celestino Mutis",
+         "photos" : 
+         [
+            {
+               "height" : 1599,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/112735407707449654791\"\u003eFuneraria San Pet\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATCDNfX_U1SyZ9lbEdPFL-XzNmf2R5SyrM_hvRmjSarw9DYJ_GQG0UA2oabIvSbtykuWAHyRe7zl4-L38S8nhTGisDY8DXETAtu4gJlrYr-m9Uus2DafjHb0MA0T0v_mkzOB8dFwXcUqLr2QQXr7dd0NnmYxDsVaDpV3pJtbYzjPkhRVjLYW73Da33tZlYGBAnykqAqbAjBfaf64ldlZj_oAO84vWFoayoMJGixnH92vCwUmA4HGiBiVX04upxkESg4Aohb7nIepjSJeEsx7Sn6qcnAzPPukzQ9BrOf8Z2mJmT_kJgz2Mepk9TT7BSV4OZA_UMv6kkjQiZeTQ--WJ-0mrQS1zp82SkV9nbaCy85Q2Qfd3jnLLPKgh3d8KvY0WtI5chkk8hR2gcQhFUGCD-Kg-ai-VN6zRJrYMNUAW25dIaReFBfxdEu1J2ZCO3T3r4V5OmWZmRkBjWls9BEfXVvKQHsgyeRFR32_4RGnYM0knn3tuiR7eQfG6Z55sm8Og017qJ1KILMuNMVxlSRx-hHf1JJh2JKkF2hanXlr8_wJh5fcaaj-czFJ3ypooS5Kx3MnPPElJRSJQDZ6R_3nngwK6Iqn--pSFsSZ2IpVbSqqj-zavf3_meJ9AptDqSIJNcwo5MLOONvp2X8Osm0gmS0",
+               "width" : 709
+            }
+         ],
+         "place_id" : "ChIJMzOTFw-fRo4Rrw7ngL6LKzU",
+         "plus_code" : 
+         {
+            "compound_code" : "5J3F+3R Rionegro, Antioquia, Colombia",
+            "global_code" : "67R65J3F+3R"
+         },
+         "rating" : 1,
+         "reference" : "ChIJMzOTFw-fRo4Rrw7ngL6LKzU",
+         "scope" : "GOOGLE",
+         "types" : 
+         [
+            "hospital",
+            "point_of_interest",
+            "health",
+            "establishment"
+         ],
+         "user_ratings_total" : 3,
+         "vicinity" : "Carrera 52 #48"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 6.1464532,
+               "lng" : -75.3796105
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 6.147717630291502,
+                  "lng" : -75.3782758697085
+               },
+               "southwest" : 
+               {
+                  "lat" : 6.145019669708497,
+                  "lng" : -75.38097383029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/hospital-71.png",
+         "icon_background_color" : "#F88181",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/hospital-H_pinlet",
+         "international_phone_number" : "+57 604 4440090",
+         "name" : "Clínica Clofán sede Oriente",
+         "opening_hours" : 
+         {
+            "open_now" : true
+         },
+         "photos" : 
+         [
+            {
+               "height" : 3648,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/107193037090964455091\"\u003eClínica Clofán sede Oriente\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATCDNfVVIUHfUQh4X-o_Z0ipIMxyM9vRNw2qnTzr1jjH-Ps47PR80sCGnPMZwuNuwQcB_jgnMG2h3Q_NMZU3rDtgYLwqRe1saWri0ZfoSMBIdtm6urhdACa_YuvYT3c8L5W29giRwwSkh1uErJnloRlh5fm-Kb7FTygGnoPWLfGOq8vAlisF6LaeAttxq1xnwF7UIu3mmjetl4kMvCIpEVsZ6sv9adsjiAr48cycidSxzbAyusUuhWwZk-gfBXLIb2DHIq0EJUh1nSO1STBX7zOwzyNDmwfyyWGMqSdnRY3ywzdSipc3wCQ2hHQoQPu9fKPMCB4daymjLnc",
+               "width" : 5472
+            }
+         ],
+         "place_id" : "ChIJwZJjthufRo4RXoMUQHWS5MY",
+         "plus_code" : 
+         {
+            "compound_code" : "4JWC+H5 Rionegro, Antioquia, Colombia",
+            "global_code" : "67R64JWC+H5"
+         },
+         "rating" : 3.4,
+         "reference" : "ChIJwZJjthufRo4RXoMUQHWS5MY",
+         "scope" : "GOOGLE",
+         "types" : 
+         [
+            "hospital",
+            "point_of_interest",
+            "health",
+            "establishment"
+         ],
+         "user_ratings_total" : 16,
+         "vicinity" : "Centro Comercial Savanna Plaza, Calle 42 #Local 128"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 6.1471289,
+               "lng" : -75.37973289999999
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 6.148475680291502,
+                  "lng" : -75.37842136970851
+               },
+               "southwest" : 
+               {
+                  "lat" : 6.145777719708497,
+                  "lng" : -75.38111933029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/hospital-71.png",
+         "icon_background_color" : "#F88181",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/hospital-H_pinlet",
+         "international_phone_number" : "+57 604 6152158",
+         "name" : "Medicarte",
+         "opening_hours" : 
+         {
+            "open_now" : false
+         },
+         "photos" : 
+         [
+            {
+               "height" : 410,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/102383610411271530041\"\u003eMedicarte\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATCDNfVL-zImNna7z3maEJgWoqrFMjV3bO8Lj51aLKF3jD1LL4wF5sdRqRd7_to8m--ueaUAI-39HW8HuVw1ToIrgg5Wz0KknnUz8DjAbGGfH1ME7MmqiTorMdrZxJBC_vhHGbREaqagJLTdaQie-eoxPsIHrr7swIJz1-pGfiTVqp4TsOGNUQiZB5zK0pOjXZGg0zKkJS6oZsf-0lSMWP_IsMqe5P2xHxnpjMriU1jjKlnmmxP8P2r0imJl_uHMB66Tg0nHkmUKCiJ97_o7HRwnf0DW3NlpJ5sescqhgph38TQJMTwAywjoxMwftWtkucSWQzfJDZt-9FQ",
+               "width" : 728
+            }
+         ],
+         "place_id" : "ChIJDfzerxufRo4RyEk1fkVtZKc",
+         "plus_code" : 
+         {
+            "compound_code" : "4JWC+V4 Rionegro, Antioquia, Colombia",
+            "global_code" : "67R64JWC+V4"
+         },
+         "rating" : 2.8,
+         "reference" : "ChIJDfzerxufRo4RyEk1fkVtZKc",
+         "scope" : "GOOGLE",
+         "types" : 
+         [
+            "hospital",
+            "point_of_interest",
+            "health",
+            "establishment"
+         ],
+         "user_ratings_total" : 5,
+         "vicinity" : "Calle 42 # 56-39, Centro empresarial Savanna Plaza - Local 206"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 6.140691700000001,
+               "lng" : -75.37751639999999
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 6.142115380291502,
+                  "lng" : -75.3763554697085
+               },
+               "southwest" : 
+               {
+                  "lat" : 6.139417419708497,
+                  "lng" : -75.37905343029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/hospital-71.png",
+         "icon_background_color" : "#F88181",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/hospital-H_pinlet",
+         "international_phone_number" : "+57 604 6052626",
+         "name" : "Clínica Somer",
+         "opening_hours" : 
+         {
+            "open_now" : true
+         },
+         "photos" : 
+         [
+            {
+               "height" : 2542,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/111756457460223144980\"\u003eSergio Gaviria\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATCDNfW3B4h4iSsKhhxDt7Amsi482vSbMWigRdqcxTIBa2jd718KuZfpLHCzkutKyhgAIfKR6UB2IysefcFhhBVSVb2vmvJ7tyDH-iWZRAKJYObzuEVzGdT2DWgcL0TeydoOoEZE_Qbvt6YbBB9IWJZwE7KJETauF3jaLLNuYzXDJbtGlnOhv0AMBVm3qmOPmdru3CVZVxRKEBo5X69MUFXk4Upl6Mty-EFUWmeMbj5_Vmm5U86rwAvBryioDxNsMdmrnuvpyooWb6TB0bvNXw7sRB4dUWRoGFYMMoWnGcweInSbM0TkY0r_TgwFaQy2d_5uFRKKZv3z-qxvM9awa20OlRx588Xc0x8-8cNIU8r8LtzwlNviYxMbL2V6DjvKjoxALk7tkOTs2LYMPuK3L9BqJZ2FdzMBXRZITu6ojA0pHCGcfJBKj63bG4a0M1P7VlAO5iYDdHDSKsWuf3r2_TJjw6SB6NwUkr5MOhlFUNdzkr6SZXZNAT0OpnozZ63Bvt1rYi-2p3LmyOEU1oPQb_lMMDxCU_UGHR9hDM9RB5mXA4CFELaFwUHpEvbsw8fzoHfxmJH9ko_zKNwKQveRL9uM9nc1VCIuttzF78vHsaQVlH1ti8V2vwUJ-_JwjvjqScLdErPpqRJdv0Bm8n9_sgcpYQ",
+               "width" : 2834
+            }
+         ],
+         "place_id" : "ChIJ9ykx8CGfRo4RlzYwW6mtpN8",
+         "plus_code" : 
+         {
+            "compound_code" : "4JRC+7X Rionegro, Antioquia, Colombia",
+            "global_code" : "67R64JRC+7X"
+         },
+         "rating" : 3.7,
+         "reference" : "ChIJ9ykx8CGfRo4RlzYwW6mtpN8",
+         "scope" : "GOOGLE",
+         "types" : 
+         [
+            "hospital",
+            "point_of_interest",
+            "health",
+            "establishment"
+         ],
+         "user_ratings_total" : 372,
+         "vicinity" : "Calle 38 #No. 54A-35"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 6.1402011,
+               "lng" : -75.3787536
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 6.141540630291503,
+                  "lng" : -75.37731871970848
+               },
+               "southwest" : 
+               {
+                  "lat" : 6.138842669708498,
+                  "lng" : -75.38001668029149
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/hospital-71.png",
+         "icon_background_color" : "#F88181",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/hospital-H_pinlet",
+         "name" : "City Medica",
+         "opening_hours" : 
+         {
+            "open_now" : true
+         },
+         "photos" : 
+         [
+            {
+               "height" : 401,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/111958333592531933409\"\u003eCarlos A. Calderón\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATCDNfU0uaQCosDgj4nSmPG9_gRNETa8ZKWkbocTMv9pz3ZYC29XTtylcDK49MfbXcEjqmTxO4Dpe-8fIz7SQ73d0xoZoXZqdqNSN1a2RXPken4bfYcmMOEskjxhziz5aPIJCvD61wpWcAVbmu5r7-HJbUgLacZ5ewH7eDwAYKQSsyb-IEEFRFgE-jz2vp0QZaJvfn58k4_zTljubQye_KPAFqoAqjyAF6cT2HCURtSIJVZ55TpscHpCxilOvZfN8Gox0AVJ0xhfUt8LnQl_NFQ3gfFaOSY_D25bH1fOKVp97GwIOwo4e-WaVdnYASPHfiW2njSJljKfzZBLvpY2EzffAkIrPd2GD2nEZnC7hzwt51OgdwSdaWxHhvXlavPle0OkGn41abMNVsF2A_TWPJ4YhRMX0aE8Pl0Wi-319YyKeRcPoOlZvJMneYySuemCy8YbVKW9uLfY75hL8rb-VESL7TicbOD9JTc7XhwqizaL-z-G4dQ9mhtKSD68buphUzlofnjHcp5HRd0I26JqfS1lLeLNVhsGQtzQ7s8no7xR32ipGTOJjXLW7p-MIwFhHehnInr8Kg3sEDbBY0LVG6Y-bQ07eEG69RAJ-_i2N3DCB1Df9z-nE4BB4k78v7FLNEI60PiUbte6",
+               "width" : 720
+            }
+         ],
+         "place_id" : "ChIJDcnseBifRo4R2T6zL60-HXc",
+         "plus_code" : 
+         {
+            "compound_code" : "4JRC+3F Rionegro, Antioquia, Colombia",
+            "global_code" : "67R64JRC+3F"
+         },
+         "rating" : 4.3,
+         "reference" : "ChIJDcnseBifRo4R2T6zL60-HXc",
+         "scope" : "GOOGLE",
+         "types" : 
+         [
+            "hospital",
+            "point_of_interest",
+            "health",
+            "establishment"
+         ],
+         "user_ratings_total" : 114,
+         "vicinity" : "Carrera 55A #35-227 local 123"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 6.1584271,
+               "lng" : -75.3709739
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 6.159779530291503,
+                  "lng" : -75.36958031970848
+               },
+               "southwest" : 
+               {
+                  "lat" : 6.157081569708498,
+                  "lng" : -75.37227828029148
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/hospital-71.png",
+         "icon_background_color" : "#F88181",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/hospital-H_pinlet",
+         "international_phone_number" : "+57 45313700",
+         "name" : "Hospital San Juan de Dios de Rionegro",
+         "opening_hours" : 
+         {
+            "open_now" : true
+         },
+         "photos" : 
+         [
+            {
+               "height" : 675,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/101209915648341311110\"\u003eJuan David Ramirez Alzate\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATCDNfX-7empCBK2rsKqVExRT6AmKGjBKxgbGyHIUrIRTgOJbgSAt2UU4tLDzF_mYT8ztVYRZW9npjz5e4rwev9JYsRozH1VqtO4_rbwLrC31YtxOKnxm7-JWrd13oJTYwymBEQHt8NwWJftY3qjQ11jsoipee8kIduOy01u854r1bikbFkTfP049GJP2Gf7lOgMxQZpQzuOvxKUFGINPmJG3FLZ0orsOPuocs-0ojdzWIp_ViPKZB9AqxrrRQsT-e_4WOA8kxvdIHt-FESEv1t00664wxpvcxRz8vLkb3HrAoKsns5gGe6mrGz2gjD9CflN1pg3QrIyuK7LtD6c3pbe54npMDlrmdXZKVNBXUQPoGLAvlDxjtFSD2W2Y0zEnpX0iBHykwVE8kR7eRLrb5-6OvJG2RtC3yMcNKhSUdHU2Yl3N1xRiXBZiyZMwDZWkLf6lSt_YdxlY9q4rrDgAhorM-N5BCpv2hbrtTOWW--3OI6gWnbWPS4PgdoNbuTOU32U-D0TOp_Q9Fl8rLKoim5g74DXKCxLRzt2-idsHrKKdIakWrGIoQOz8Q8MXvS-9wd6K-rXpnTz9Wri9WMtVxPcJyagiyly8OLAEpqlMgkH3P-L7zBQHbqWDF2-7tznwyu0",
+               "width" : 1200
+            }
+         ],
+         "place_id" : "ChIJ-TO06gmfRo4RWjXCWE0FcL4",
+         "plus_code" : 
+         {
+            "compound_code" : "5J5H+9J Rionegro, Antioquia, Colombia",
+            "global_code" : "67R65J5H+9J"
+         },
+         "rating" : 2.4,
+         "reference" : "ChIJ-TO06gmfRo4RWjXCWE0FcL4",
+         "scope" : "GOOGLE",
+         "types" : 
+         [
+            "hospital",
+            "point_of_interest",
+            "health",
+            "establishment"
+         ],
+         "user_ratings_total" : 216,
+         "vicinity" : "Carrera 48 #56-59"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 6.174307100000001,
+               "lng" : -75.3392963
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 6.175616230291502,
+                  "lng" : -75.3378842697085
+               },
+               "southwest" : 
+               {
+                  "lat" : 6.172918269708498,
+                  "lng" : -75.3405822302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/hospital-71.png",
+         "icon_background_color" : "#F88181",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/hospital-H_pinlet",
+         "international_phone_number" : "+57 5484044",
+         "name" : "E.S.E Hospital San Juan De Dios Marinilla",
+         "opening_hours" : 
+         {
+            "open_now" : true
+         },
+         "photos" : 
+         [
+            {
+               "height" : 1080,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/100532560773037078013\"\u003eALBERT OCAMPO\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATCDNfUmT8xHSIQ39KoEtUrrcOKx2lVVF2Wp4SGJVFZHblPjiLkiOIe6ZPSNNsji15H_gnBfGD2lifv4VHLFhS159ViKuqsOTDs_pd6x19BAj_9ULZ3dg4oS1wmshNQ2v9Dn9q1tdpKxW_o2kQ5KZzZgzpDgLF-hVCK8nVG9cv0Zj-OqXhGGUXVVSxl8DOGP8rFFL2xqjFdWttK-zzaZaNt0WfWAKZqt3DqaFKU3xqyHl0mGcpSjT5ia9Hre-YWXt-femCAjH8p4nvjY94el8nwlRtRu5pmCseLEFU8j8T5h7fJS9aVu_bFtPGl9gF7BjLXybW5JydRAoZK5PSx10c6k5Fzapk13nB2cOuW-d83qN1QmVNbbDEGfdji8RJt-0ySjBXBCKoN6VmH3YnDwxya04cZezC79HZ1KGBvqOlqoD9Rn_c_dfKQVPyLWv5gqxY7qurgbVFjqVvvBDveVUl7bTQ0tNLGQvbiJPROQgETdpJRnWmS3Yz21VtZhPcoWxJWp95oDOqRh4sJCTdFhJxP1pmNUPqy-W78wUz6wj_jQifwyFYJURLlCY73_6D2KtBLJ3vc4hzMQdfDkvUUAH2MR3JMDk7MnjbJxiXSnDb9vFeNkWtxIelbv4u-E6P0DJx3xNs2XenVi",
+               "width" : 1920
+            }
+         ],
+         "place_id" : "ChIJUzYx562hRo4RofrEDFYGk3Q",
+         "plus_code" : 
+         {
+            "compound_code" : "5MF6+P7 Marinilla, Antioquia, Colombia",
+            "global_code" : "67R65MF6+P7"
+         },
+         "rating" : 2.4,
+         "reference" : "ChIJUzYx562hRo4RofrEDFYGk3Q",
+         "scope" : "GOOGLE",
+         "types" : 
+         [
+            "hospital",
+            "point_of_interest",
+            "health",
+            "establishment"
+         ],
+         "user_ratings_total" : 30,
+         "vicinity" : "Carrera 37 #28-84"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 6.173011000000001,
+               "lng" : -75.332083
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 6.174319980291503,
+                  "lng" : -75.3307136197085
+               },
+               "southwest" : 
+               {
+                  "lat" : 6.171622019708498,
+                  "lng" : -75.33341158029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/hospital-71.png",
+         "icon_background_color" : "#F88181",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/hospital-H_pinlet",
+         "name" : "Casa de Gerontología Simona Duque",
+         "place_id" : "ChIJYXzW8CSgRo4RJcu2x4K8VkQ",
+         "plus_code" : 
+         {
+            "compound_code" : "5MF9+65 Marinilla, Antioquia, Colombia",
+            "global_code" : "67R65MF9+65"
+         },
+         "reference" : "ChIJYXzW8CSgRo4RJcu2x4K8VkQ",
+         "scope" : "GOOGLE",
+         "types" : 
+         [
+            "hospital",
+            "point_of_interest",
+            "health",
+            "establishment"
+         ],
+         "vicinity" : ""
+      },
+      {
+         "business_status" : "CLOSED_TEMPORARILY",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 6.1574742,
+               "lng" : -75.36461899999999
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 6.158887780291502,
+                  "lng" : -75.36325616970849
+               },
+               "southwest" : 
+               {
+                  "lat" : 6.156189819708498,
+                  "lng" : -75.3659541302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/hospital-71.png",
+         "icon_background_color" : "#F88181",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/hospital-H_pinlet",
+         "international_phone_number" : "+57 604 4731396",
+         "name" : "IPS Médico's Rionegro",
+         "permanently_closed" : true,
+         "photos" : 
+         [
+            {
+               "height" : 1200,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/111536684970332736240\"\u003eYuliana Cardona Grajales\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATCDNfVZOwR2qGg6j5x4EOx243iD4JJJLtPVlO83vTgyOe8LL99Ih6rdYci-fU-fWGzWWm6th67bIk-D3FNvS1rw0Ma-W8kOuHfhb3ekWE2LZP7eixVYjE88gfQ3YcFsbPOt4eAdiQ0hBF2zXt6ecFkXaXkScgqDlLAjKpq11BIhuIEUco-N9_u9tuRQcdZ-rzgwra3mih8UtnNdGl1npTZfF7Y2cf4X9CY492jPNVUw0XfGnw0e07Ko2G1yuuTSf4f4AQVkCjGqRfX0_bHmn3jr60haip2dKMYWxuczBQA_BYjjmuhkHbDCERWscl2QB0ahskXFmCYTe3YCs90rogQAAHERnM5WxDm-OOjaXcC-6JZs4QvkRBxkQOWphCnyleZ5b0AhQro3k1anPoprEhGug7NHw8oq-FR5FQtnU4Z7ehnr0SkOMzwj3t457uhwbiKnQPTgds_UI_YjoXcKs6x2rTEIKLM4Og8l4cNymBf6RkXN2uFHwAyAYKLXsLcE5XcwlUgs4Qcb_kK5E6wjRflN8DjrQmqt3eKYEddACDLgaFymtAvGZQatCplmPKyIK_9xROlHxmY3addMjLExxPvDtzm7jwimDJOe4h_YybF9EwWnlvr31ry020X-vVoEwyzlTrRmAw",
+               "width" : 1600
+            }
+         ],
+         "place_id" : "ChIJJzSgiKCfRo4RZUhTPyG5JZU",
+         "plus_code" : 
+         {
+            "compound_code" : "5J4P+X5 Rionegro, Antioquia, Colombia",
+            "global_code" : "67R65J4P+X5"
+         },
+         "rating" : 4.2,
+         "reference" : "ChIJJzSgiKCfRo4RZUhTPyG5JZU",
+         "scope" : "GOOGLE",
+         "types" : 
+         [
+            "hospital",
+            "point_of_interest",
+            "health",
+            "establishment"
+         ],
+         "user_ratings_total" : 6,
+         "vicinity" : "Calle 59 #38-55 piso 6"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 6.161587999999999,
+               "lng" : -75.3683923
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 6.162960280291502,
+                  "lng" : -75.3671182697085
+               },
+               "southwest" : 
+               {
+                  "lat" : 6.160262319708498,
+                  "lng" : -75.36981623029152
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/hospital-71.png",
+         "icon_background_color" : "#F88181",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/hospital-H_pinlet",
+         "international_phone_number" : "+57 304 5490921",
+         "name" : "CERTICOND - EXAMEN LICENCIA DE CONDUCCION",
+         "opening_hours" : 
+         {
+            "open_now" : false
+         },
+         "photos" : 
+         [
+            {
+               "height" : 2448,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/104711459923647434817\"\u003eCERTICOND - EXAMEN LICENCIA DE CONDUCCION\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATCDNfVETGPAxTeEGbjZ3a6Sm5ef6dZYGWUTmS0oJ1d_7JutO2Ket0B2o676ng9keuwBcGICROeM6uF0i84RHvFbdYgOF2b1ixgPMkQl-DuM1iqQilOEPXxudA7Urc9G3-RIgRyOqeUoU3qsEVNfVX80DE8EqSu2B07WLIAWYZXB8xGJWSEIa4lR_sEoInp_pPWaCZ24WRKm6kT3GEJogIw-lWNBW0YYxcfDhrbmW2GQj0HxC40sZ8pIvUybHxNBgfqxUSuCaTTXeKkbfwFVTj6FMSkLFoisgQPVhFpYlb22lIeSk8QIWjZPdcKCtW0ojU7BcqlySXj9Qik",
+               "width" : 3264
+            }
+         ],
+         "place_id" : "ChIJI7b0SxefRo4R7gcBFBnAYrs",
+         "plus_code" : 
+         {
+            "compound_code" : "5J6J+JJ Rionegro, Antioquia, Colombia",
+            "global_code" : "67R65J6J+JJ"
+         },
+         "rating" : 4.9,
+         "reference" : "ChIJI7b0SxefRo4R7gcBFBnAYrs",
+         "scope" : "GOOGLE",
+         "types" : 
+         [
+            "hospital",
+            "point_of_interest",
+            "health",
+            "establishment"
+         ],
+         "user_ratings_total" : 269,
+         "vicinity" : "Barrio Altos del Lago, Calle 63A #47 26"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 6.1618238,
+               "lng" : -75.3686355
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 6.163105980291502,
+                  "lng" : -75.36732736970849
+               },
+               "southwest" : 
+               {
+                  "lat" : 6.160408019708498,
+                  "lng" : -75.3700253302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/hospital-71.png",
+         "icon_background_color" : "#F88181",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/hospital-H_pinlet",
+         "international_phone_number" : "+57 323 3085015",
+         "name" : "CertiRionegro - Exámenes Médicos Para Licencia De Conducción.",
+         "opening_hours" : 
+         {
+            "open_now" : false
+         },
+         "photos" : 
+         [
+            {
+               "height" : 607,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/115272179029126447485\"\u003eCertiRionegro\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATCDNfWZ5nTSNyCdx9377A6mvB9yQ22sn77NCuW4D3A6c1QXD3aIIUDbSdmj9JFNdLhEnobNSU3gqApF2sTbsmChedGbwbSXRk_Rsy5qEiTWGTphxqYoNXmKOl-gn8OLyXvtv1OYFgclQwOZzhaKuI0zYStw85K0emaRgsRvFrwAV8TyHPx8yxJM7RcFlo7pWEMydz8qCygkD2cALk_cf81tYQvyDYNgHpwA10bYwKnZrWgjryt6jBBd-wB2Or_xgv82TaDtpgo0YnAq_N8R1bGv0Guu7GWPhBWKAhABPxcViMxOVmR98DNNvZT5nteMGHSdyE1MeRULiFA",
+               "width" : 1080
+            }
+         ],
+         "place_id" : "ChIJlXMwrSspRI4RkAQfTc0ha50",
+         "plus_code" : 
+         {
+            "compound_code" : "5J6J+PG Rionegro, Antioquia, Colombia",
+            "global_code" : "67R65J6J+PG"
+         },
+         "rating" : 5,
+         "reference" : "ChIJlXMwrSspRI4RkAQfTc0ha50",
+         "scope" : "GOOGLE",
+         "types" : 
+         [
+            "hospital",
+            "point_of_interest",
+            "health",
+            "establishment"
+         ],
+         "user_ratings_total" : 1821,
+         "vicinity" : "Calle 63A #47 - 48"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 6.162301299999999,
+               "lng" : -75.3690209
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 6.163651980291502,
+                  "lng" : -75.3676709197085
+               },
+               "southwest" : 
+               {
+                  "lat" : 6.160954019708497,
+                  "lng" : -75.37036888029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/hospital-71.png",
+         "icon_background_color" : "#F88181",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/hospital-H_pinlet",
+         "name" : "HOSPITALES",
+         "place_id" : "ChIJF_aH3W2fRo4RTlZzGi7-Lyk",
+         "plus_code" : 
+         {
+            "compound_code" : "5J6J+W9 Rionegro, Antioquia, Colombia",
+            "global_code" : "67R65J6J+W9"
+         },
+         "reference" : "ChIJF_aH3W2fRo4RTlZzGi7-Lyk",
+         "scope" : "GOOGLE",
+         "types" : 
+         [
+            "hospital",
+            "point_of_interest",
+            "health",
+            "establishment"
+         ],
+         "vicinity" : "Calle 64 #54"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 6.155528899999999,
+               "lng" : -75.368803
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 6.156873430291503,
+                  "lng" : -75.3674535697085
+               },
+               "southwest" : 
+               {
+                  "lat" : 6.154175469708498,
+                  "lng" : -75.37015153029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/hospital-71.png",
+         "icon_background_color" : "#F88181",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/hospital-H_pinlet",
+         "name" : "Centro Médico Josefina González Muñóz",
+         "place_id" : "ChIJo9lhiwufRo4RmFqdqFTRqAA",
+         "plus_code" : 
+         {
+            "compound_code" : "5J4J+6F Rionegro, Antioquia, Colombia",
+            "global_code" : "67R65J4J+6F"
+         },
+         "reference" : "ChIJo9lhiwufRo4RmFqdqFTRqAA",
+         "scope" : "GOOGLE",
+         "types" : 
+         [
+            "hospital",
+            "point_of_interest",
+            "health",
+            "establishment"
+         ],
+         "vicinity" : "Calle 52 #443"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 6.1580355,
+               "lng" : -75.37060199999999
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 6.159440380291501,
+                  "lng" : -75.36922941970849
+               },
+               "southwest" : 
+               {
+                  "lat" : 6.156742419708498,
+                  "lng" : -75.3719273802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/hospital-71.png",
+         "icon_background_color" : "#F88181",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/hospital-H_pinlet",
+         "name" : "Veterinaria Vet",
+         "place_id" : "ChIJF2WGunGfRo4R_e_UQsgpVhM",
+         "plus_code" : 
+         {
+            "compound_code" : "5J5H+6Q Rionegro, Antioquia, Colombia",
+            "global_code" : "67R65J5H+6Q"
+         },
+         "reference" : "ChIJF2WGunGfRo4R_e_UQsgpVhM",
+         "scope" : "GOOGLE",
+         "types" : 
+         [
+            "hospital",
+            "point_of_interest",
+            "health",
+            "establishment"
+         ],
+         "vicinity" : "a 47-104, Calle 57 #47-2"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 6.159062,
+               "lng" : -75.3714306
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 6.160384880291502,
+                  "lng" : -75.37005396970851
+               },
+               "southwest" : 
+               {
+                  "lat" : 6.157686919708497,
+                  "lng" : -75.37275193029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/hospital-71.png",
+         "icon_background_color" : "#F88181",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/hospital-H_pinlet",
+         "name" : "San Juan de Dios rionegro",
+         "place_id" : "ChIJAzowHwCfRo4RoVkpHuK0auc",
+         "plus_code" : 
+         {
+            "compound_code" : "5J5H+JC Rionegro, Antioquia, Colombia",
+            "global_code" : "67R65J5H+JC"
+         },
+         "rating" : 5,
+         "reference" : "ChIJAzowHwCfRo4RoVkpHuK0auc",
+         "scope" : "GOOGLE",
+         "types" : 
+         [
+            "hospital",
+            "point_of_interest",
+            "health",
+            "establishment"
+         ],
+         "user_ratings_total" : 1,
+         "vicinity" : "Carrera 51 #56-20"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 6.1555605,
+               "lng" : -75.36991399999999
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 6.156814530291501,
+                  "lng" : -75.36860031970849
+               },
+               "southwest" : 
+               {
+                  "lat" : 6.154116569708497,
+                  "lng" : -75.37129828029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/hospital-71.png",
+         "icon_background_color" : "#F88181",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/hospital-H_pinlet",
+         "international_phone_number" : "+57 45616863",
+         "name" : "Nueva Eps",
+         "opening_hours" : 
+         {
+            "open_now" : false
+         },
+         "photos" : 
+         [
+            {
+               "height" : 3120,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/102653429454873952090\"\u003eDon “El Explorador Aficionado” de Maps\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATCDNfV-fr-Rdc6og7bfSD_GFjvh41ZJ43wIjmOiGf1zWckMizGLnPHlB8DEvmvEMZSmtlKtE6aKR2nTnal2TOmEjjyU8cSpxMjbVwnOeqwBKvaH1gjG9asmKsDyp6WrG1K6kbq3dnL0vMhIfBwn8k0giesxSMrtugAtI2lsPgzR9Jfq5SV27O7NG0JICjQhD3bt64dl-SAhqpBQa1tNSX0yco22cGssA1OoQ8xdTrDHeWCgwsxoKHES_W7jjPU8jP2owgLvkeMM1d0XxX4kcJQChC_z9-1mWfMEBVuwF8p-EHh43M1KYa6d4xVNcbDF9zCKZ8ofIs-ZkaVIh5udIsavqrvjo9ydGOKpGkJaBIjMTFQPqfdch8qyhM-CAd_W3gIVYNzszexqXi_9uCDiuGcJu136iSlK_H7cIzDu6MD7rFLIIhRwRu-GeFI0iZ_kJzHwLVtJfAThnLwZ7yCuUwrY0SuhCAel13P_d_hqxOBi4xAq6C7wln-vZ1MEuQYk2MN1ri7zZ1PpkADEMavYr9U0fpStQMiNogprM2w3qG34mhxc3Ys24_0abs4VFcUMS-S_6ZAaB5vhiD6CXe6RyGh7B6bacHZh9cK546xmbaM6tTw3grJNKjRZbGLcHB9kgHzB-ZcScEdM",
+               "width" : 4160
+            }
+         ],
+         "place_id" : "ChIJH4ipLQ-fRo4RV9A5xRXq7BA",
+         "plus_code" : 
+         {
+            "compound_code" : "5J4J+62 Rionegro, Antioquia, Colombia",
+            "global_code" : "67R65J4J+62"
+         },
+         "rating" : 2,
+         "reference" : "ChIJH4ipLQ-fRo4RV9A5xRXq7BA",
+         "scope" : "GOOGLE",
+         "types" : 
+         [
+            "hospital",
+            "point_of_interest",
+            "health",
+            "establishment"
+         ],
+         "user_ratings_total" : 50,
+         "vicinity" : "Calle 52 #45-70 oficina 2004"
+      }
+   ],
+   "status" : "OK"
+}

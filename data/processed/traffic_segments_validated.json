@@ -1,0 +1,346 @@
+{
+  "metadata": {
+    "fuentes": [
+      "Mapbox Directions API (driving-traffic)",
+      "Google Routes API (TRAFFIC_AWARE)"
+    ],
+    "fecha_consulta": "2026-03-04",
+    "hora_consulta_aprox": "actual al momento de ejecucion",
+    "nota": "Datos en tiempo real al momento de la consulta. Las velocidades Mapbox provienen de anotaciones por sub-segmento. Google reporta duracion con trafico y duracion estatica.",
+    "coordenadas_sistema": "WGS84 (lat, lon)"
+  },
+  "las_palmas": {
+    "segmentos": [
+      {
+        "id": 1,
+        "nombre": "San Diego → Intercontinental / PS Avenue",
+        "desde": {
+          "nombre": "San Diego (inicio)",
+          "lat": 6.247,
+          "lon": -75.564
+        },
+        "hasta": {
+          "nombre": "Intercontinental / PS Avenue",
+          "lat": 6.235,
+          "lon": -75.559
+        },
+        "mapbox": {
+          "distancia_m": 2572.8,
+          "duracion_s": 569.1,
+          "duracion_tipica_s": 567.0,
+          "velocidad_promedio_kmh": 16.3,
+          "congestion_predominante": "unknown (zona urbana baja velocidad)",
+          "velocidades_rango_ms": "2.5 - 9.4",
+          "notas": "Velocidades muy bajas (2.5-5 m/s) en inicio, mejora gradualmente"
+        },
+        "google": {
+          "distancia_m": 2957,
+          "duracion_s": 848,
+          "duracion_estatica_s": 755,
+          "velocidad_promedio_kmh": 12.6,
+          "impacto_trafico_pct": 12.3
+        }
+      },
+      {
+        "id": 2,
+        "nombre": "Intercontinental → Tunel Las Palmas",
+        "desde": {
+          "nombre": "Intercontinental / PS Avenue",
+          "lat": 6.235,
+          "lon": -75.559
+        },
+        "hasta": {
+          "nombre": "Tunel Las Palmas",
+          "lat": 6.225,
+          "lon": -75.554
+        },
+        "mapbox": {
+          "distancia_m": 6793.3,
+          "duracion_s": 1595.7,
+          "duracion_tipica_s": 1591.1,
+          "velocidad_promedio_kmh": 15.3,
+          "congestion_predominante": "unknown con tramos low",
+          "velocidades_rango_ms": "2.5 - 13.9",
+          "notas": "Ruta larga con detour. Incluye tunel. Velocidades moderadas 5-7 m/s predominan."
+        },
+        "google": {
+          "distancia_m": 7236,
+          "duracion_s": 978,
+          "duracion_estatica_s": 903,
+          "velocidad_promedio_kmh": 26.6,
+          "impacto_trafico_pct": 8.3
+        }
+      },
+      {
+        "id": 3,
+        "nombre": "Tunel → Zona Colegios (Columbus/Carabobo)",
+        "desde": {
+          "nombre": "Tunel Las Palmas",
+          "lat": 6.225,
+          "lon": -75.554
+        },
+        "hasta": {
+          "nombre": "Zona Colegios (Columbus/Carabobo)",
+          "lat": 6.21,
+          "lon": -75.548
+        },
+        "mapbox": {
+          "distancia_m": 4686.1,
+          "duracion_s": 1257.4,
+          "duracion_tipica_s": 1251.4,
+          "velocidad_promedio_kmh": 13.4,
+          "congestion_predominante": "low predominante, tramos unknown",
+          "velocidades_rango_ms": "1.4 - 15.8",
+          "notas": "SEGMENTO MAS LENTO. Velocidades de 1.4 m/s (5 km/h) en zona de colegios - congestion severa. Mejora en tramos con velocidades 10-15 m/s."
+        },
+        "google": {
+          "distancia_m": 4695,
+          "duracion_s": 574,
+          "duracion_estatica_s": 611,
+          "velocidad_promedio_kmh": 29.4,
+          "impacto_trafico_pct": -6.1
+        }
+      },
+      {
+        "id": 4,
+        "nombre": "Zona Colegios → Los Balsos / El Tesoro",
+        "desde": {
+          "nombre": "Zona Colegios (Columbus/Carabobo)",
+          "lat": 6.21,
+          "lon": -75.548
+        },
+        "hasta": {
+          "nombre": "Los Balsos / El Tesoro",
+          "lat": 6.2,
+          "lon": -75.545
+        },
+        "mapbox": {
+          "distancia_m": 2992.0,
+          "duracion_s": 350.8,
+          "duracion_tipica_s": 377.1,
+          "velocidad_promedio_kmh": 30.7,
+          "congestion_predominante": "low predominante",
+          "velocidades_rango_ms": "1.4 - 15.8",
+          "notas": "Mejora respecto a zona colegios. Velocidades 8-15 m/s en tramos principales. Inicio lento (1.4 m/s)."
+        },
+        "google": {
+          "distancia_m": 2978,
+          "duracion_s": 364,
+          "duracion_estatica_s": 372,
+          "velocidad_promedio_kmh": 29.5,
+          "impacto_trafico_pct": -2.2
+        }
+      },
+      {
+        "id": 5,
+        "nombre": "Los Balsos → Colegiatura / Indiana",
+        "desde": {
+          "nombre": "Los Balsos / El Tesoro",
+          "lat": 6.2,
+          "lon": -75.545
+        },
+        "hasta": {
+          "nombre": "Colegiatura / Indiana",
+          "lat": 6.19,
+          "lon": -75.54
+        },
+        "mapbox": {
+          "distancia_m": 5269.3,
+          "duracion_s": 759.5,
+          "duracion_tipica_s": 782.2,
+          "velocidad_promedio_kmh": 25.0,
+          "congestion_predominante": "low y unknown mezclados",
+          "velocidades_rango_ms": "2.5 - 16.1",
+          "notas": "Tramo largo. Velocidades variadas: 5.8 m/s predomina en secciones medias, mejora a 13+ m/s en tramos libres."
+        },
+        "google": {
+          "distancia_m": 5156,
+          "duracion_s": 612,
+          "duracion_estatica_s": 639,
+          "velocidad_promedio_kmh": 30.3,
+          "impacto_trafico_pct": -4.2
+        }
+      },
+      {
+        "id": 6,
+        "nombre": "Colegiatura → Alto de Las Palmas (Santa Elena)",
+        "desde": {
+          "nombre": "Colegiatura / Indiana",
+          "lat": 6.19,
+          "lon": -75.54
+        },
+        "hasta": {
+          "nombre": "Alto de Las Palmas (Santa Elena)",
+          "lat": 6.175,
+          "lon": -75.535
+        },
+        "mapbox": {
+          "distancia_m": 11030.7,
+          "duracion_s": 1644.3,
+          "duracion_tipica_s": 1675.8,
+          "velocidad_promedio_kmh": 24.2,
+          "congestion_predominante": "unknown predominante, tramos low",
+          "velocidades_rango_ms": "2.5 - 16.1",
+          "notas": "Tramo mas largo (11 km). Mezcla de velocidades: 2.5-2.8 m/s en zonas lentas, 5.8 m/s promedio, hasta 16.1 m/s en tramos libres de montana."
+        },
+        "google": {
+          "distancia_m": 10982,
+          "duracion_s": 1279,
+          "duracion_estatica_s": 1296,
+          "velocidad_promedio_kmh": 30.9,
+          "impacto_trafico_pct": -1.3
+        }
+      }
+    ],
+    "ruta_completa_subida": {
+      "direccion": "San Diego → Alto de Las Palmas",
+      "mapbox": {
+        "distancia_m": 15075.6,
+        "duracion_s": 2267.1,
+        "duracion_tipica_s": 2207.8,
+        "velocidad_promedio_kmh": 23.9,
+        "duracion_min": 37.8
+      },
+      "google": {
+        "distancia_m": 17341,
+        "duracion_s": 2652,
+        "duracion_estatica_s": 2061,
+        "velocidad_promedio_kmh": 23.5,
+        "duracion_min": 44.2,
+        "impacto_trafico_pct": 28.7
+      }
+    },
+    "ruta_completa_bajada": {
+      "direccion": "Alto de Las Palmas → San Diego",
+      "mapbox": {
+        "distancia_m": 14041.3,
+        "duracion_s": 2080.3,
+        "duracion_tipica_s": 2129.7,
+        "velocidad_promedio_kmh": 24.3,
+        "duracion_min": 34.7
+      },
+      "google": {
+        "distancia_m": 16074,
+        "duracion_s": 2269,
+        "duracion_estatica_s": 1697,
+        "velocidad_promedio_kmh": 25.5,
+        "duracion_min": 37.8,
+        "impacto_trafico_pct": 33.7
+      }
+    }
+  },
+  "el_poblado": {
+    "segmentos": [
+      {
+        "id": 1,
+        "nombre": "Parque El Poblado → Oviedo / Milla de Oro",
+        "desde": {
+          "nombre": "Parque El Poblado",
+          "lat": 6.21,
+          "lon": -75.57
+        },
+        "hasta": {
+          "nombre": "Oviedo / Milla de Oro",
+          "lat": 6.2,
+          "lon": -75.568
+        },
+        "mapbox": {
+          "distancia_m": 2247.4,
+          "duracion_s": 382.8,
+          "duracion_tipica_s": 382.5,
+          "velocidad_promedio_kmh": 21.1,
+          "congestion_predominante": "low y unknown mezclados",
+          "velocidades_rango_ms": "3.3 - 10.0",
+          "notas": "Velocidades urbanas bajas-moderadas, 5-8 m/s predominan."
+        },
+        "google": {
+          "distancia_m": 2260,
+          "duracion_s": 426,
+          "duracion_estatica_s": 503,
+          "velocidad_promedio_kmh": 19.1,
+          "impacto_trafico_pct": -15.3
+        }
+      },
+      {
+        "id": 2,
+        "nombre": "Oviedo / Milla de Oro → El Tesoro",
+        "desde": {
+          "nombre": "Oviedo / Milla de Oro",
+          "lat": 6.2,
+          "lon": -75.568
+        },
+        "hasta": {
+          "nombre": "El Tesoro",
+          "lat": 6.19,
+          "lon": -75.565
+        },
+        "mapbox": {
+          "distancia_m": 2054.7,
+          "duracion_s": 360.2,
+          "duracion_tipica_s": 328.5,
+          "velocidad_promedio_kmh": 20.5,
+          "congestion_predominante": "low con tramos heavy y moderate",
+          "velocidades_rango_ms": "0.8 - 12.2",
+          "notas": "ALERTA: Tramos con congestion HEAVY (0.8 m/s = 2.9 km/h) y MODERATE (5 m/s). Zona critica de trafico."
+        },
+        "google": {
+          "distancia_m": 2061,
+          "duracion_s": 282,
+          "duracion_estatica_s": 275,
+          "velocidad_promedio_kmh": 26.3,
+          "impacto_trafico_pct": 2.5
+        }
+      }
+    ],
+    "ruta_completa": {
+      "direccion": "Parque El Poblado → El Tesoro",
+      "mapbox": {
+        "distancia_m": 3946.8,
+        "duracion_s": 668.5,
+        "duracion_tipica_s": 641.8,
+        "velocidad_promedio_kmh": 21.3,
+        "duracion_min": 11.1
+      },
+      "google": {
+        "distancia_m": 3190,
+        "duracion_s": 638,
+        "duracion_estatica_s": 554,
+        "velocidad_promedio_kmh": 18.0,
+        "duracion_min": 10.6,
+        "impacto_trafico_pct": 15.2
+      }
+    }
+  },
+  "comparacion": {
+    "las_palmas_subida": {
+      "velocidad_promedio_mapbox_kmh": 23.9,
+      "velocidad_promedio_google_kmh": 23.5,
+      "duracion_total_mapbox_min": 37.8,
+      "duracion_total_google_min": 44.2
+    },
+    "las_palmas_bajada": {
+      "velocidad_promedio_mapbox_kmh": 24.3,
+      "velocidad_promedio_google_kmh": 25.5,
+      "duracion_total_mapbox_min": 34.7,
+      "duracion_total_google_min": 37.8
+    },
+    "el_poblado": {
+      "velocidad_promedio_mapbox_kmh": 21.3,
+      "velocidad_promedio_google_kmh": 18.0,
+      "duracion_total_mapbox_min": 11.1,
+      "duracion_total_google_min": 10.6
+    },
+    "velocidad_promedio_las_palmas_kmh": 23.7,
+    "velocidad_promedio_el_poblado_kmh": 19.6,
+    "ratio_las_palmas_vs_poblado": 1.21,
+    "interpretacion": "Las Palmas tiene velocidades promedio mas altas que El Poblado debido a tramos de carretera abierta en la parte alta, pero los segmentos bajos (San Diego-Colegios) son igual o mas congestionados que El Poblado."
+  },
+  "hallazgos_clave": {
+    "segmento_mas_lento_las_palmas": "Segmento 3: Tunel → Zona Colegios (13.4 km/h Mapbox, incluye velocidades de 1.4 m/s = 5 km/h)",
+    "segmento_mas_rapido_las_palmas": "Segmento 6: Colegiatura → Alto Las Palmas (24.1 km/h Mapbox, tramos hasta 16.1 m/s)",
+    "congestion_heavy_detectada": "El Poblado segmento 2 (Oviedo→El Tesoro): velocidades de 0.8 m/s (2.9 km/h) - congestion HEAVY",
+    "impacto_trafico_google": "Subida Las Palmas: +28.7% sobre tiempo estatico. Bajada: +33.7%",
+    "asimetria_subida_bajada": "Subida ~37.8 min (Mapbox) vs Bajada ~34.7 min. Subida 9% mas lenta.",
+    "zona_critica_colegios": "Segmento 3 (Tunel-Colegios) es el cuello de botella principal con velocidades minimas de 5 km/h"
+  }
+}

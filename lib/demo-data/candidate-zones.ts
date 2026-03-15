@@ -24,7 +24,7 @@ export const candidateZones: CandidateZone[] = [
   {
     id: "palmas-bajo",
     name: "Las Palmas Bajo",
-    subtitle: "Indiana - EIA (Barrios Altos del Poblado / El Tesoro)",
+    subtitle: "Zona Colegiatura (~1,700 msnm) — Barrios Altos del Poblado / El Tesoro",
     coordinates: [-75.5465, 6.2080],
     score: 88,
     scores: {
@@ -39,7 +39,7 @@ export const candidateZones: CandidateZone[] = [
     highlights: [
       "Viabilidad POT: Score 9/9 en Altos del Poblado (CL_D=2.38, uso dotacional confirmado)",
       "Catastro: 13,786 predios en El Tesoro, 38,415 E6 en toda comuna 14",
-      "Mapbox Matrix: 10.5 min a Cl. Las Vegas, 10.4 min a Milla de Oro, 23.8 min a HPTU",
+      "Mapbox Matrix: 15.4 min desde Milla de Oro (Mapbox traffic), 23.8 min a HPTU Robledo",
       "MEData Aforos: Av. Las Palmas promedio 40.9 km/h, 5.9 km (64,285 obs.)",
       "POT: 592 lotes / 414,309 m2 disponibles en corredor Las Palmas",
     ],
@@ -63,7 +63,7 @@ export const candidateZones: CandidateZone[] = [
     },
     color: "#06b6d4",
     description:
-      "Sector Los Balsos y Las Lomas sobre la via Las Palmas. Catastro registra avaluo promedio de $225M (Los Balsos No.1, 13,484 predios) y $204M (Las Lomas No.2, 3,624 predios). Las Lomas No.2 permite hasta 20 pisos segun POT. Los Balsos No.1 tiene 97,440 m2 de lotes potenciales en tratamiento CN3/CN5. Mapbox Matrix: 20.4 min a Cl. Las Vegas, 31.8 min a HPTU Prado.",
+      "Sector Los Balsos y Las Lomas sobre la via Las Palmas. Catastro registra avaluo promedio de $225M (Los Balsos No.1, 13,484 predios) y $204M (Las Lomas No.2, 3,624 predios). Las Lomas No.2 permite hasta 20 pisos segun POT. Los Balsos No.1 tiene 97,440 m2 de lotes potenciales en tratamiento CN3/CN5. Mapbox Matrix: 20.4 min a Cl. Las Vegas, 31.8 min a HPTU Robledo.",
     highlights: [
       "POT Las Lomas No.2: 20 pisos permitidos (mayor de toda Comuna 14)",
       "Catastro Los Balsos: 13,484 predios, avaluo promedio $225M COP",
@@ -91,7 +91,7 @@ export const candidateZones: CandidateZone[] = [
     },
     color: "#f59e0b",
     description:
-      "Zona alta del corredor, corregimiento Santa Elena. Catastro registra 422 predios E6 en Santa Elena con avaluos significativamente menores. Mapbox Matrix: 57.1 min a HPTU Prado, 42.3 min a Cl. Las Vegas — tiempos que penalizan severamente la accesibilidad. MEData Vel. Tiempo Viaje registra caida de velocidad a 36.1 km/h en hora PM (17:00) en Av. Las Palmas. Sin embargo, competencia nula en el radio.",
+      "Zona alta del corredor, corregimiento Santa Elena. Catastro registra 422 predios E6 en Santa Elena con avaluos significativamente menores. Mapbox Matrix: 57.1 min a HPTU Robledo, 42.3 min a Cl. Las Vegas — tiempos que penalizan severamente la accesibilidad. MEData Vel. Tiempo Viaje registra caida de velocidad a 36.1 km/h en hora PM (17:00) en Av. Las Palmas. Sin embargo, competencia nula en el radio.",
     highlights: [
       "Mapbox Matrix: 57.1 min a HPTU (el mas alto de todas las zonas)",
       "MEData: Velocidad Las Palmas cae a 36.1 km/h a las 17:00",
@@ -160,5 +160,34 @@ export const candidateZones: CandidateZone[] = [
     driveTimeToHPTU: 19, // Mapbox Matrix: 19.0 min
     potViability: "En transformacion - Requiere revision POT Itagui",
     dataSource: "DANE CNPV 2018 (evm3-92yw), REPS (b4dp-ximh), ESE coords (pi36-fdpk), MEData Velocidades, Mapbox Matrix API",
+  },
+  {
+    id: "cra22-poblado",
+    name: "Cra 22 — El Poblado",
+    subtitle: "Nodo Estratégico Sur-Oriente (Carrera 22, El Poblado)",
+    coordinates: [-75.554932, 6.217662],
+    score: 0, // to be calculated after MCDA
+    scores: {
+      accesibilidad: 0,
+      demanda: 0,
+      competencia: 0,
+      valorInmobiliario: 0,
+    },
+    color: "#e11d48", // rose-600 to distinguish
+    description:
+      "Ubicacion propuesta en Carrera 22, El Poblado. Analisis Mapbox Matrix arroja tiempos competitivos al Oriente Antioqueno: 44.0 min a El Retiro (-17.8 min vs HPTU actual), 66.2 min a La Ceja (-17.8 min), 51.3 min al Aeropuerto SKRG (-14.3 min). En radio 5 km hay 40+ facilities (Google Places). Zona de alta densificacion con POT que permite hasta 19 pisos en San Lucas. Posicion estrategica como puente entre Valle de Aburra y Oriente Antioqueno sur.",
+    highlights: [
+      "Mapbox Matrix: 44.0 min a El Retiro (vs 61.8 HPTU actual = -17.8 min)",
+      "Mapbox Matrix: 51.3 min a Aeropuerto SKRG (vs 65.7 HPTU = -14.3 min)",
+      "Mapbox Matrix: 58.8 min a Rionegro (vs 57.1 HPTU = neutro)",
+      "Google Places: 40+ facilities en 5 km — zona competida pero estrategica",
+      "POT San Lucas: 19.1 pisos permitidos, 45.8% densidad usada — potencial alto",
+      "Catastro: Avg pisos 6.1, 7,775 edificios en 3 km (OSM)",
+    ],
+    demandEstimate: 460000, // Oriente Antioqueño catchment
+    avgM2Price: 200000000, // Estimated El Poblado avg
+    driveTimeToHPTU: 15, // Close to HPTU current
+    potViability: "ALTA - San Lucas 19.1 pisos, Astorga 14.7% densidad usada, Manila 14.2%",
+    dataSource: "Mapbox Matrix/Directions/Isochrone API, Google Places API, REPS (b4dp-ximh), OSM Overpass, Catastro (bp59-rj8r), POT (3ciz-tpgr), ANI Peajes (8yi9-t44c)",
   },
 ];

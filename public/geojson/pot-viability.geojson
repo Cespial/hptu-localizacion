@@ -1,0 +1,365 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Barrio Colombia",
+        "code": "1401",
+        "viability": "ALTA",
+        "score": 6,
+        "color": "#22c55e",
+        "factors": "Alta capacidad de soporte (ICS=70.2); Alta capacidad funcional (ICF=2.94); Suelo potencial disponible (90905 m2)",
+        "cl_d": 0,
+        "ics": 70.1955604498026,
+        "icf": 2.93529976296026,
+        "suelo_potencial_m2": 90905,
+        "altura_max": 0,
+        "salud_existente_m2": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.57,
+          6.215
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Villa Carlota",
+        "code": "1403",
+        "viability": "ALTA",
+        "score": 7,
+        "color": "#22c55e",
+        "factors": "Presencia dotacional moderada (CL_D=0.66); Alta capacidad de soporte (ICS=61.0); Alta capacidad funcional (ICF=2.37); Suelo potencial disponible (171198 m2)",
+        "cl_d": 0.658439701592748,
+        "ics": 60.9619927634529,
+        "icf": 2.37295858468585,
+        "suelo_potencial_m2": 171198,
+        "altura_max": 0,
+        "salud_existente_m2": 22371
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.57,
+          6.213
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Castropol",
+        "code": "1404",
+        "viability": "MEDIA-ALTA",
+        "score": 5,
+        "color": "#84cc16",
+        "factors": "Capacidad de soporte media (ICS=48.8); Alta capacidad funcional (ICF=2.26); Suelo potencial disponible (138552 m2)",
+        "cl_d": 0,
+        "ics": 48.8491090265604,
+        "icf": 2.26353480199198,
+        "suelo_potencial_m2": 138552,
+        "altura_max": 0,
+        "salud_existente_m2": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.567,
+          6.203
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Lalinde",
+        "code": "1405",
+        "viability": "MEDIA-ALTA",
+        "score": 5,
+        "color": "#84cc16",
+        "factors": "Capacidad de soporte media (ICS=45.8); Alta capacidad funcional (ICF=2.02); Suelo potencial disponible (50481 m2)",
+        "cl_d": 0.184303531972571,
+        "ics": 45.7504614351574,
+        "icf": 2.01959808376859,
+        "suelo_potencial_m2": 50481,
+        "altura_max": 0,
+        "salud_existente_m2": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.566,
+          6.201
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Altos del Poblado",
+        "code": "1408",
+        "viability": "ALTA",
+        "score": 9,
+        "color": "#22c55e",
+        "factors": "Alta concentración dotacional (CL_D=2.38); Alta capacidad de soporte (ICS=57.4); Capacidad funcional media (ICF=1.86); Suelo potencial disponible (68020 m2); Altura permisible adecuada (11.7 pisos)",
+        "cl_d": 2.37974816436746,
+        "ics": 57.3697700986435,
+        "icf": 1.86290433405618,
+        "suelo_potencial_m2": 68020,
+        "altura_max": 11.7277716794731,
+        "salud_existente_m2": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.549,
+          6.206
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "El Tesoro",
+        "code": "1409",
+        "viability": "ALTA",
+        "score": 7,
+        "color": "#22c55e",
+        "factors": "Presencia dotacional moderada (CL_D=0.55); Capacidad de soporte media (ICS=53.3); Alta capacidad funcional (ICF=2.02); Suelo potencial disponible (119482 m2); Altura permisible adecuada (15.4 pisos)",
+        "cl_d": 0.545839084655634,
+        "ics": 53.3398935167057,
+        "icf": 2.02274912295016,
+        "suelo_potencial_m2": 119482,
+        "altura_max": 15.4463996763754,
+        "salud_existente_m2": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.5575,
+          6.196
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Los Naranjos",
+        "code": "1410",
+        "viability": "ALTA",
+        "score": 6,
+        "color": "#22c55e",
+        "factors": "Presencia dotacional moderada (CL_D=0.72); Capacidad de soporte media (ICS=53.6); Capacidad funcional media (ICF=1.91); Suelo potencial disponible (130718 m2); Altura permisible adecuada (13.6 pisos)",
+        "cl_d": 0.723423955066189,
+        "ics": 53.5556951957121,
+        "icf": 1.90640182964245,
+        "suelo_potencial_m2": 130718,
+        "altura_max": 13.6021045708648,
+        "salud_existente_m2": 23780
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.568,
+          6.199
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "San Lucas",
+        "code": "1412",
+        "viability": "MEDIA-ALTA",
+        "score": 5,
+        "color": "#84cc16",
+        "factors": "Capacidad de soporte media (ICS=50.2); Capacidad funcional media (ICF=1.79); Suelo potencial disponible (192397 m2); Altura permisible adecuada (19.1 pisos)",
+        "cl_d": 0.310590582336371,
+        "ics": 50.2373116059574,
+        "icf": 1.7909012925911,
+        "suelo_potencial_m2": 192397,
+        "altura_max": 19.1040799333888,
+        "salud_existente_m2": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.556,
+          6.198
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "El Castillo",
+        "code": "1414",
+        "viability": "ALTA",
+        "score": 7,
+        "color": "#22c55e",
+        "factors": "Alta concentración dotacional (CL_D=3.44); Capacidad de soporte media (ICS=48.9); Alta capacidad funcional (ICF=2.01); Suelo potencial limitado (30252 m2)",
+        "cl_d": 3.43519191862513,
+        "ics": 48.9480364229837,
+        "icf": 2.00694657862376,
+        "suelo_potencial_m2": 30252,
+        "altura_max": 5.14811031664964,
+        "salud_existente_m2": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.561,
+          6.2
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "La Florida",
+        "code": "1417",
+        "viability": "MEDIA-ALTA",
+        "score": 5,
+        "color": "#84cc16",
+        "factors": "Capacidad de soporte media (ICS=50.5); Alta capacidad funcional (ICF=2.77); Suelo potencial disponible (128104 m2)",
+        "cl_d": 0.215409710119379,
+        "ics": 50.5189863918822,
+        "icf": 2.7706382508912,
+        "suelo_potencial_m2": 128104,
+        "altura_max": 8.29640219204193,
+        "salud_existente_m2": 13419
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.564,
+          6.192
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "El Poblado",
+        "code": "1418",
+        "viability": "ALTA",
+        "score": 9,
+        "color": "#22c55e",
+        "factors": "Alta concentración dotacional (CL_D=1.30); Alta capacidad de soporte (ICS=62.3); Alta capacidad funcional (ICF=2.78); Suelo potencial disponible (65591 m2)",
+        "cl_d": 1.29774769096851,
+        "ics": 62.348752530732,
+        "icf": 2.77706720203761,
+        "suelo_potencial_m2": 65591,
+        "altura_max": 7.15555555555556,
+        "salud_existente_m2": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.57,
+          6.21
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Manila",
+        "code": "1419",
+        "viability": "ALTA",
+        "score": 7,
+        "color": "#22c55e",
+        "factors": "Presencia dotacional moderada (CL_D=0.55); Alta capacidad de soporte (ICS=69.5); Alta capacidad funcional (ICF=3.33); Suelo potencial disponible (78464 m2)",
+        "cl_d": 0.550644212946164,
+        "ics": 69.4946452286002,
+        "icf": 3.32734812405368,
+        "suelo_potencial_m2": 78464,
+        "altura_max": 8.51688693098385,
+        "salud_existente_m2": 1028
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.568,
+          6.207
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Astorga",
+        "code": "1420",
+        "viability": "ALTA",
+        "score": 7,
+        "color": "#22c55e",
+        "factors": "Presencia dotacional moderada (CL_D=0.87); Alta capacidad de soporte (ICS=65.0); Alta capacidad funcional (ICF=2.97); Suelo potencial disponible (51058 m2)",
+        "cl_d": 0.867767954980909,
+        "ics": 65.0149993143968,
+        "icf": 2.96586751800642,
+        "suelo_potencial_m2": 51058,
+        "altura_max": 4.66463414634146,
+        "salud_existente_m2": 640
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.56,
+          6.202
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Patio Bonito",
+        "code": "1421",
+        "viability": "ALTA",
+        "score": 9,
+        "color": "#22c55e",
+        "factors": "Alta concentración dotacional (CL_D=2.15); Alta capacidad de soporte (ICS=61.6); Alta capacidad funcional (ICF=2.64); Suelo potencial disponible (86112 m2)",
+        "cl_d": 2.15405158724101,
+        "ics": 61.5554424556506,
+        "icf": 2.63922767176605,
+        "suelo_potencial_m2": 86112,
+        "altura_max": 0,
+        "salud_existente_m2": 29896
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.565,
+          6.195
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "La Aguacatala",
+        "code": "1422",
+        "viability": "ALTA",
+        "score": 7,
+        "color": "#22c55e",
+        "factors": "Alta concentración dotacional (CL_D=4.93); Alta capacidad de soporte (ICS=62.0); Suelo potencial disponible (86847 m2)",
+        "cl_d": 4.92522412490769,
+        "ics": 61.9901938564373,
+        "icf": 1.30142981197794,
+        "suelo_potencial_m2": 86847,
+        "altura_max": 0,
+        "salud_existente_m2": 756
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.57,
+          6.206
+        ]
+      }
+    }
+  ]
+}

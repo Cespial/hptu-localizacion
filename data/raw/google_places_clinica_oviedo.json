@@ -1,0 +1,935 @@
+{
+   "html_attributions" : [],
+   "results" : 
+   [
+      {
+         "business_status" : "OPERATIONAL",
+         "formatted_address" : "Cra 48A #10 sur 9, El Poblado, Medellín, El Poblado, Medellín, Antioquia, Colombia",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 6.1969257,
+               "lng" : -75.5791438
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 6.198261480291502,
+                  "lng" : -75.57776111970848
+               },
+               "southwest" : 
+               {
+                  "lat" : 6.195563519708498,
+                  "lng" : -75.5804590802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/hospital-71.png",
+         "icon_background_color" : "#F88181",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/hospital-H_pinlet",
+         "name" : "Ophthalmological Clinic Specialties",
+         "opening_hours" : 
+         {
+            "open_now" : true
+         },
+         "photos" : 
+         [
+            {
+               "height" : 3200,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/100372020869879036397\"\u003ePaula Paredes\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATCDNfVD8l5JYjm3OZM6ttZ1-Kxl3BqprCUUaEd7RjyNvi3jdv-UJPHzTCRXYPcRqDipius6xNB5GynHJmIel8VuwcBRhQus1WG9Ap_w4Kr4GwJQl1DbEieoibVcVHuasYs5C5pjQJCNo2VnB5XUT20tRmLpOnZmyllc8Jo2wFKfVTp4ferJRNELU5xPp_svniY0iRn_X7HLqavVVJ054O7kbfYSylgEJouusYzesVqcjPkJ-t_4gHEBSBSjvSHC6r33E2q7gZs-xcim313GwOhiAksD9lnHMpxJEXV76RnAEzTLpKT5llHNIFp_LOW_Tg4uhcVskHd6HixKvRQz_w1xF4lhAivxR_nMF4pu08NpYrVZYp_bDNZk2fgksWmd0vP7zQYQpd6NxobhitzV_oWwldpBavRSuCqRPw4IGmbcumUCqg5MRujIh6VNpWDqVg",
+               "width" : 4800
+            }
+         ],
+         "place_id" : "ChIJudZLrF2CRo4Rp3co1s9ezQ4",
+         "plus_code" : 
+         {
+            "compound_code" : "5CWC+Q8 Medellin, Antioquia, Colombia",
+            "global_code" : "67R65CWC+Q8"
+         },
+         "rating" : 3.7,
+         "reference" : "ChIJudZLrF2CRo4Rp3co1s9ezQ4",
+         "types" : 
+         [
+            "establishment",
+            "health",
+            "hospital",
+            "point_of_interest"
+         ],
+         "user_ratings_total" : 365
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "formatted_address" : "Cra. 43A, El Poblado, Medellín, El Poblado, Medellín, Antioquia, Colombia",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 6.199302299999999,
+               "lng" : -75.57488049999999
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 6.200575780291502,
+                  "lng" : -75.57339836970849
+               },
+               "southwest" : 
+               {
+                  "lat" : 6.197877819708498,
+                  "lng" : -75.57609633029149
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "icon_background_color" : "#7B9EB0",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+         "name" : "Salud Visual Sura Oviedo",
+         "opening_hours" : 
+         {
+            "open_now" : false
+         },
+         "photos" : 
+         [
+            {
+               "height" : 1080,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/112006061986735931608\"\u003eCarlos Alberto Ramirez Restrepo\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATCDNfXbNb9kSsan0z5Zq4woz98KxdPq5nUSSUHv2AefhaH30SWa0dHTCX9dw288qyxlU2NQg9YjA-LqQ3j9em53qJnjwyQ0MjfVCAcrZHYcVulDg1cUCMZuLRlnwoSJ_dAv9vKcyCSiOR_Sydqdv6_S19x4Mgdc3dot5nJObs3QJJOBf39ZQaGVWbYbgwiCY5WJXcFOa8iDNL3ft1WFSbUwcTgIoBt_9PSFNZZ8fbsdwhofh5miP6BMt0PSLCWEUz-v-pZMfLFtQkDNDV-fOBuhWrgJQbDe5JMmmDxmTk-IEdR9fmjKD2uWdMlbaF7pTnUeXHPbvVQ5apqClRiwcpYoPLoJMJrg2mE2xWngdmRsdFE6bHCBvpFE9PZiq59RR864ULJBrBQ2-2pY5OQg7CaErv7dtwaLAlvT6bX1MmQaO9Ok9cE",
+               "width" : 1920
+            }
+         ],
+         "place_id" : "ChIJlRFlSwCDRo4RxDxrsJ9DyUI",
+         "plus_code" : 
+         {
+            "compound_code" : "5CXG+P2 Medellin, Antioquia, Colombia",
+            "global_code" : "67R65CXG+P2"
+         },
+         "rating" : 2.7,
+         "reference" : "ChIJlRFlSwCDRo4RxDxrsJ9DyUI",
+         "types" : 
+         [
+            "establishment",
+            "health",
+            "point_of_interest"
+         ],
+         "user_ratings_total" : 18
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "formatted_address" : "Cra. 43A #6s-15, El Poblado, Medellín, El Poblado, Medellín, Antioquia, Colombia",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 6.198982900000001,
+               "lng" : -75.5739021
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 6.200734680291502,
+                  "lng" : -75.57366966970849
+               },
+               "southwest" : 
+               {
+                  "lat" : 6.198036719708497,
+                  "lng" : -75.5763676302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png",
+         "icon_background_color" : "#4B96F3",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/shopping_pinlet",
+         "name" : "Oviedo",
+         "opening_hours" : 
+         {
+            "open_now" : false
+         },
+         "photos" : 
+         [
+            {
+               "height" : 1365,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/112851290568071362209\"\u003eCentro Comercial Oviedo\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATCDNfVvo5atRsTwbi11nk_HOHowJl2muRuwi2VwL0GcrnQV8dZe9R1D-7jX7HPXQWu-lZbveNNZNeTqZSuUtH3LuB8NQXE4l8vLtcHoIqJCa6JQoVJ8ibcQlICW5x2mFPI4wCS8GdXU4zFO5z8GGO7kfcwm-t5j8KtRzkGRVt7Q1saZ946MFjwu_Oc_GzG3QwuXyPumOpFFbIohWlWSOoyjt1yesdZS6VbTYSR5rYTXU-kCrcgl3KEt56jxlraCT7XxSjFeLi6hUlZZNUBVGT2yPzDYzI-oXQ2IMy3OkIszeZRGAA",
+               "width" : 2048
+            }
+         ],
+         "place_id" : "ChIJ4ZvmdH2CRo4RAo-iQZEGhzc",
+         "plus_code" : 
+         {
+            "compound_code" : "5CXG+HC Medellin, Antioquia, Colombia",
+            "global_code" : "67R65CXG+HC"
+         },
+         "rating" : 4.6,
+         "reference" : "ChIJ4ZvmdH2CRo4RAo-iQZEGhzc",
+         "types" : 
+         [
+            "establishment",
+            "food",
+            "point_of_interest",
+            "restaurant",
+            "shopping_mall",
+            "store"
+         ],
+         "user_ratings_total" : 41061
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "formatted_address" : "Av. Doctores Fernández Vega, 34, 33012 Oviedo, Asturias, Spain",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 43.3706429,
+               "lng" : -5.8714111
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 43.3718782802915,
+                  "lng" : -5.870241919708498
+               },
+               "southwest" : 
+               {
+                  "lat" : 43.3691803197085,
+                  "lng" : -5.872939880291502
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "icon_background_color" : "#7B9EB0",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+         "name" : "Fernández-Vega Ophthalmological Institute",
+         "opening_hours" : 
+         {
+            "open_now" : false
+         },
+         "photos" : 
+         [
+            {
+               "height" : 1105,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/111225225000544373489\"\u003eInstituto Oftalmológico Fernández-Vega\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATCDNfWXXJQx9lO-ncHf--sudN-2-lnr1Q8fsOL1g1x7SBvsqHPHyIxqM33clDGlVQIVeT8UWeX7Yi8hKz8uhgeD5CEdh1G6qV2hc-kEr0s9zLDvi2-qdkQwuor8mNEERjgOqHNntsM3maFE2St48YMMY56vCfSCmi6rfO5KcSbLESAZVx4N8HJMtaTeHbN5MKPf2_rrQ1SIc-ip1DC8PLWGpL4v_GgHIgCqEJxEwJxjmVVyuGKUffkfxcmSOd3qXMDbGFcyGCkBaMv0J16bUseodPk-jhFcKymwZWojYisjc9vHZg",
+               "width" : 2048
+            }
+         ],
+         "place_id" : "ChIJ3Xo_8wiNNg0RTALwX2oFHxg",
+         "plus_code" : 
+         {
+            "compound_code" : "94CH+7C Oviedo, Municipality of Oviedo, Spain",
+            "global_code" : "8CMP94CH+7C"
+         },
+         "rating" : 4.2,
+         "reference" : "ChIJ3Xo_8wiNNg0RTALwX2oFHxg",
+         "types" : 
+         [
+            "doctor",
+            "establishment",
+            "health",
+            "point_of_interest"
+         ],
+         "user_ratings_total" : 958
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "formatted_address" : "Cra. 30 #7A-300, El Poblado, Medellín, El Poblado, Medellín, Antioquia, Colombia",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 6.205983799999999,
+               "lng" : -75.5601587
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 6.207444630291502,
+                  "lng" : -75.5588352697085
+               },
+               "southwest" : 
+               {
+                  "lat" : 6.204746669708498,
+                  "lng" : -75.56153323029152
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "icon_background_color" : "#7B9EB0",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+         "name" : "Clínica Oftalmológica de Medellín",
+         "opening_hours" : 
+         {
+            "open_now" : false
+         },
+         "photos" : 
+         [
+            {
+               "height" : 1536,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/115526122510609870480\"\u003eClínica Oftalmológica de Medellín\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATCDNfWmL3hTTXqueEFZQvJ6_6oAd8Z73IV-yywAjCBF2gb_yF8HLOh5dbauUZoD339jRLorciRZ8qtluAmU4oUUDEg-Oqp9MNiO1VyVk6A08gVnMuEYphx1S9CIzrAXHB2wwf52vod45ZvbkkxQqBNh2mIySqf1fq-vaTol0FYrQCfPbCrpSaOkM9Cy-DMnq6ejOEQz4itcHxzYJuGHsdfukDaeP80rH4SvpHodwmKy1XwOqvUXGSo2lBh3cHpNiR4GwbF4ted5lPMBxabyLaY-y56jIzngCOAKUlegnBcB7A3XbSc1PKO-B4VKVfLFRwBuUm5jH-yvaKSygPHmsydrGwiHXYYOQ0nFG82ArasBx38zk8XrXB6MoREI7YsWi5-LtHquykDDsYv-6dMs-v6QCuUMrS7Nz-lMdYQdugsTY0h-XDen",
+               "width" : 2048
+            }
+         ],
+         "place_id" : "ChIJV23oc52CRo4Roud9AxmtAVs",
+         "plus_code" : 
+         {
+            "compound_code" : "6C4Q+9W Medellin, Antioquia, Colombia",
+            "global_code" : "67R66C4Q+9W"
+         },
+         "rating" : 4.2,
+         "reference" : "ChIJV23oc52CRo4Roud9AxmtAVs",
+         "types" : 
+         [
+            "establishment",
+            "health",
+            "point_of_interest"
+         ],
+         "user_ratings_total" : 36
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "formatted_address" : "Torre médica, Centro Comercial Oviedo, Cra. 43A #Consultorio 694, El Poblado, Medellín, El Poblado, Medellín, Antioquia, Colombia",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 6.1977069,
+               "lng" : -75.5746333
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 6.199034030291502,
+                  "lng" : -75.57322786970849
+               },
+               "southwest" : 
+               {
+                  "lat" : 6.196336069708497,
+                  "lng" : -75.5759258302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "icon_background_color" : "#7B9EB0",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+         "name" : "Dr Santiago Mejía",
+         "opening_hours" : 
+         {
+            "open_now" : false
+         },
+         "place_id" : "ChIJeVb9jOaDRo4RoXMl3GmA1FI",
+         "plus_code" : 
+         {
+            "compound_code" : "5CXG+34 Medellin, Antioquia, Colombia",
+            "global_code" : "67R65CXG+34"
+         },
+         "rating" : 5,
+         "reference" : "ChIJeVb9jOaDRo4RoXMl3GmA1FI",
+         "types" : 
+         [
+            "establishment",
+            "health",
+            "point_of_interest"
+         ],
+         "user_ratings_total" : 5
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "formatted_address" : "Cl. 54 #46-27 Piso 9, La Candelaria, Medellín, La Candelaria, Medellín, Antioquia, Colombia",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 6.2512839,
+               "lng" : -75.5639001
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 6.252717430291503,
+                  "lng" : -75.5624795697085
+               },
+               "southwest" : 
+               {
+                  "lat" : 6.250019469708499,
+                  "lng" : -75.56517753029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "icon_background_color" : "#7B9EB0",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+         "name" : "MasVision clínica oftalmológica",
+         "opening_hours" : 
+         {
+            "open_now" : false
+         },
+         "photos" : 
+         [
+            {
+               "height" : 373,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/118299819658791966837\"\u003eJuan Pablo Mejia\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATCDNfVAG-h2um6aApjSnRdbfcjNw63fTO52kFCWJm0TlFvGcrU8Ew2EcfeyxbpPCy5hcdqNqHNIqkSZBw2l27IBbSNF7MfcaCMUCiDN1JpuaLkGErGpgKquiNnxVDfPQamf50BQc_ho5BYnGN9CtSBzVswn0BOLc5J4FRvH1hKGjtY6apZ3WLNkDshAgxl63AHo02OD2w05I_XsHlWqIcetf7c8AQSAu4ae5MYnrXuv-caueHkjBgJjEp6mrHmzEldwTg11uxuJmn8ppFat15yU7XpiqnhMWXNDVbIPnklNHVeFIhQVqpCiQQfuyj8JEqWlMuJSFIeRsm9NxYSwB_pw1qz3Yf-HJSU0EULh5mWIGjH9HUNhbqzBleeesp7_LnB5cjOBGQywVDGLz10aApXDo2sZW7YbnbLyzU33dg4",
+               "width" : 528
+            }
+         ],
+         "place_id" : "ChIJDYl-WAEpRI4RAmY0OTAOjQg",
+         "plus_code" : 
+         {
+            "compound_code" : "7C2P+GC Medellin, Antioquia, Colombia",
+            "global_code" : "67R67C2P+GC"
+         },
+         "rating" : 4.8,
+         "reference" : "ChIJDYl-WAEpRI4RAmY0OTAOjQg",
+         "types" : 
+         [
+            "establishment",
+            "health",
+            "point_of_interest"
+         ],
+         "user_ratings_total" : 134
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "formatted_address" : "Cra. 48 #19A - 40, El Poblado, Medellín, El Poblado, Medellín, Antioquia, Colombia",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 6.2232349,
+               "lng" : -75.574882
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 6.224638180291502,
+                  "lng" : -75.57347166970848
+               },
+               "southwest" : 
+               {
+                  "lat" : 6.221940219708498,
+                  "lng" : -75.5761696302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "icon_background_color" : "#7B9EB0",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+         "name" : "Clofán - Ophthalmological Clinic of Antioquia",
+         "opening_hours" : 
+         {
+            "open_now" : false
+         },
+         "photos" : 
+         [
+            {
+               "height" : 675,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/118372319643644765646\"\u003eClínica Oftalmológica de Antioquia - Clofán\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATCDNfU0fWSb-8GrLPbbXaHTRxwfDGFx1fBfVXrIQRLtvoiK9tqX8aSeIGJUdTcWcahpwuNTyzY5GgM5NNVIYaTiqt5Xh8n8S-JT1OjKREHHHPwlIyZsjoVmBbJneCGWUkSYsBcJdzUPZOW08MvBIyq7PRHqT4SydAclWsya4Trb0NoMrKFVQxT4vExnyJe0RfwpLTrZipPAGVOSUK7Ym55beuV5wDyc0n3OWPeWmJkUVXNc5I82mTzFulpU7_hmWVT-nNtfHu-NY84IdjrnlnRXRUI_tXW5k-1pQ29hDs1nQoF9mQ",
+               "width" : 1200
+            }
+         ],
+         "place_id" : "ChIJG3gdrMwpRI4R6IA2xBDebXU",
+         "plus_code" : 
+         {
+            "compound_code" : "6CFG+72 Medellin, Antioquia, Colombia",
+            "global_code" : "67R66CFG+72"
+         },
+         "rating" : 3.9,
+         "reference" : "ChIJG3gdrMwpRI4R6IA2xBDebXU",
+         "types" : 
+         [
+            "establishment",
+            "health",
+            "point_of_interest"
+         ],
+         "user_ratings_total" : 238
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "formatted_address" : "Cra. 43 #29-35, La Candelaria, Medellín, La Candelaria, Medellín, Antioquia, Colombia",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 6.228888599999999,
+               "lng" : -75.5691691
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 6.230084980291502,
+                  "lng" : -75.56793346970851
+               },
+               "southwest" : 
+               {
+                  "lat" : 6.227387019708497,
+                  "lng" : -75.57063143029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "icon_background_color" : "#7B9EB0",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+         "name" : "Clínica de Oftalmología Sandiego",
+         "opening_hours" : 
+         {
+            "open_now" : false
+         },
+         "photos" : 
+         [
+            {
+               "height" : 2720,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/102541684384450055432\"\u003eMichael Munoz\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATCDNfWiqEEbkvPHZXbboT3W8XiXMRwlBTRAPhhaqg9vzfRR7huwtJPkeWWJI5wc3la0y6MGevTLDk4YCUQ8ak0dKwZrK_P6ZaEKVWg6473P19bU6H6TQJ4BV5kY6G4OVtnsLwA2Baid930WG_Jij6WuFvHo5OqNOfOUf2xCfDVhLe-MlhboikEEJz2A0E_aYqrMqSEPonqwMsnzBXqsFlByLW5Sh0FQgommn1XDEPrPsqd6Mmm1W2Zr2tNd1VJdOXs33Ort_SdiX3PAXVnt-0ZsHGmlqf0PVfymibVJFHofV7pb8DdA6CsOSeGr9oUg8IyyY_25u_KeRmAQzsIvRz82r8hKDZ1YSDtXbqpGN9ltTq86EZpb2m_PJXfSTLza_sUpcBCW1wtYWopmmZxJrXj2f-pCKLAy4fbIjOdyeMlgIdBNDg",
+               "width" : 3631
+            }
+         ],
+         "place_id" : "ChIJAQBAGEooRI4RdvDMqD8o8Cc",
+         "plus_code" : 
+         {
+            "compound_code" : "6CHJ+H8 Medellin, Antioquia, Colombia",
+            "global_code" : "67R66CHJ+H8"
+         },
+         "rating" : 3.4,
+         "reference" : "ChIJAQBAGEooRI4RdvDMqD8o8Cc",
+         "types" : 
+         [
+            "doctor",
+            "establishment",
+            "health",
+            "point_of_interest",
+            "store"
+         ],
+         "user_ratings_total" : 380
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "formatted_address" : "Sede Clínica: transversal 74 N C1-23, Laureles - Estadio, Laureles, Medellín, Antioquia, Colombia",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 6.243261,
+               "lng" : -75.5922717
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 6.244635880291501,
+                  "lng" : -75.59085731970849
+               },
+               "southwest" : 
+               {
+                  "lat" : 6.241937919708496,
+                  "lng" : -75.5935552802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "icon_background_color" : "#7B9EB0",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+         "name" : "Clínica Oftalmológica Laureles",
+         "opening_hours" : 
+         {
+            "open_now" : false
+         },
+         "photos" : 
+         [
+            {
+               "height" : 3200,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/109651962698265544257\"\u003eClínica Oftalmológica Laureles\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATCDNfXW9cmVWZOt_tJoll3mYYLDEGCCZfGz3WUIGacjMlHIXyIB9A3jx9HDnl_xDpHPCsftNDWzubSubEakRcWTVXFz1-UsSMe67U2LLPKwhpTmrYmwgw6LhFRokCG98RYn23bAzivGI7Rk5gvndsRtthIYX0PznaaaS4lixR_rygZsKST_sfDp6AEqWoHumD-s8MJuvmu54XL--7X_c5u96HCyiNFhq5rk5IZIkE1MlIMBMUW54Ha3u3HqEOoHIoH-km6LTOSyHvkxLj0wQ6r1nun8C_HgWhX8GUnaBkU-JK6eFg",
+               "width" : 4800
+            }
+         ],
+         "place_id" : "ChIJKzOHwqMpRI4RDGfNoZFSz1E",
+         "plus_code" : 
+         {
+            "compound_code" : "6CV5+83 Medellin, Antioquia, Colombia",
+            "global_code" : "67R66CV5+83"
+         },
+         "rating" : 4.4,
+         "reference" : "ChIJKzOHwqMpRI4RDGfNoZFSz1E",
+         "types" : 
+         [
+            "doctor",
+            "establishment",
+            "health",
+            "point_of_interest"
+         ],
+         "user_ratings_total" : 81
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "formatted_address" : "Cra. 43 #50-58, La Candelaria, Medellín, La Candelaria, Medellín, Antioquia, Colombia",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 6.2476721,
+               "lng" : -75.56251379999999
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 6.249027430291503,
+                  "lng" : -75.56117916970848
+               },
+               "southwest" : 
+               {
+                  "lat" : 6.246329469708498,
+                  "lng" : -75.56387713029149
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "icon_background_color" : "#7B9EB0",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+         "name" : "Punto de Vista Centro",
+         "opening_hours" : 
+         {
+            "open_now" : true
+         },
+         "place_id" : "ChIJuRTCQyIpRI4RUEnpVwm1o0Y",
+         "plus_code" : 
+         {
+            "compound_code" : "6CXP+3X Medellin, Antioquia, Colombia",
+            "global_code" : "67R66CXP+3X"
+         },
+         "rating" : 4.1,
+         "reference" : "ChIJuRTCQyIpRI4RUEnpVwm1o0Y",
+         "types" : 
+         [
+            "doctor",
+            "establishment",
+            "health",
+            "point_of_interest"
+         ],
+         "user_ratings_total" : 9
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "formatted_address" : "Cra. 43A #6 SUR - 15 Local 3248, El Poblado, Medellín, El Poblado, Medellín, Antioquia, Colombia",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 6.1996313,
+               "lng" : -75.5753495
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 6.201133080291503,
+                  "lng" : -75.57392266970849
+               },
+               "southwest" : 
+               {
+                  "lat" : 6.198435119708498,
+                  "lng" : -75.5766206302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png",
+         "icon_background_color" : "#4B96F3",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/shopping_pinlet",
+         "name" : "Opticalia Estrada Oviedo",
+         "opening_hours" : 
+         {
+            "open_now" : false
+         },
+         "photos" : 
+         [
+            {
+               "height" : 3002,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/105749160254222564557\"\u003eOpticalia Estrada Oviedo\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATCDNfWfamDenUAy_02QQmOawauQbW9tCKbezesW2_e4UGQb85KDq-0SfxHB3odOEGYg98qI2nv9rarl_J3tihI7jn9OvrI0gS9WDDWJvq-4zCGsFkgYh1Fz9zR1EKJv-6wH8qJ9fBY6BUj14VyuvycvbZPx2FGzhckjPNkhPCbSqts9v1hNLLGzU1H2QAKvE7dbL9I6Uxq717id4x6Yk3Ppb-D-MUfPQFog4lv3AKunuzVY-tbTI4BTb2N7zw9tcwFnJsfN0OJ_RuxF4qP3IiB0K8zIkQxB0TSB4GsqgS6RbSz88g",
+               "width" : 4500
+            }
+         ],
+         "place_id" : "ChIJZdaVQqspRI4RhA3JmoooTBg",
+         "plus_code" : 
+         {
+            "compound_code" : "5CXF+VV Medellin, Antioquia, Colombia",
+            "global_code" : "67R65CXF+VV"
+         },
+         "rating" : 4.9,
+         "reference" : "ChIJZdaVQqspRI4RhA3JmoooTBg",
+         "types" : 
+         [
+            "establishment",
+            "health",
+            "point_of_interest",
+            "store"
+         ],
+         "user_ratings_total" : 80
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "formatted_address" : "Cl. 6 Sur #43A-227, El Poblado, Medellín, El Poblado, Medellín, Antioquia, Colombia",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 6.1968134,
+               "lng" : -75.5749562
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 6.198162380291502,
+                  "lng" : -75.57360721970851
+               },
+               "southwest" : 
+               {
+                  "lat" : 6.195464419708498,
+                  "lng" : -75.57630518029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/hospital-71.png",
+         "icon_background_color" : "#F88181",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/hospital-H_pinlet",
+         "name" : "Torre Médica Oviedo",
+         "photos" : 
+         [
+            {
+               "height" : 3840,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/111556352521582121349\"\u003eJustine Gladstone\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATCDNfVK6bZRg6dgihacnLcDULmqh7ilPYADkrZ3NOk_Hr88bcSsOmJTk4sElRx00rXDveKoGxksFJMILiV2-WXQlHgigP2kMO1hcEGZaGloeH3D4SsjSHj7JDr3JDnNQOy1VAlMpElvRNjuXcDUnllt_kWBUyMFyENxzy_JmUpk_6HR7IV-3_w46cGNiww2SzE3TKZS9HqtTeHIEAJiuX0lDShNsQrkl-ZPFL-rwnAd1nqjBRg4nmhWrn2ay1pWaI1klxvYa06Pisn1Lg7eyW9-JakJE2WeH20nCGSl4wtquKmUUhHXpo9h4jyH118rSCsj71zQ-SOUjA--zA3uC3OWI9Ys2prgStkUmYJL41I6zt8mI8uXnVc5447w6nbAPwOO2U_v1bu1IXIHv_rJQdUFuAnSJnMKaNXCh9Gmo9SvwOMIs_k",
+               "width" : 2160
+            }
+         ],
+         "place_id" : "ChIJQ9dnWgCDRo4RIXZRsvKfqWU",
+         "plus_code" : 
+         {
+            "compound_code" : "5CWG+P2 Medellin, Antioquia, Colombia",
+            "global_code" : "67R65CWG+P2"
+         },
+         "rating" : 4.8,
+         "reference" : "ChIJQ9dnWgCDRo4RIXZRsvKfqWU",
+         "types" : 
+         [
+            "establishment",
+            "health",
+            "hospital",
+            "point_of_interest"
+         ],
+         "user_ratings_total" : 6
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "formatted_address" : "Cra. 48 #26-50, El Poblado, Medellín, El Poblado, Medellín, Antioquia, Colombia",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 6.226292399999999,
+               "lng" : -75.57546529999999
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 6.227652680291501,
+                  "lng" : -75.5742115697085
+               },
+               "southwest" : 
+               {
+                  "lat" : 6.224954719708497,
+                  "lng" : -75.5769095302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/civic_building-71.png",
+         "icon_background_color" : "#7B9EB0",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/civic-bldg_pinlet",
+         "name" : "Salud Visual Salud SURA",
+         "place_id" : "ChIJpRd7A2YpRI4RH785PUdQkb4",
+         "plus_code" : 
+         {
+            "compound_code" : "6CGF+GR Medellin, Antioquia, Colombia",
+            "global_code" : "67R66CGF+GR"
+         },
+         "rating" : 5,
+         "reference" : "ChIJpRd7A2YpRI4RH785PUdQkb4",
+         "types" : 
+         [
+            "establishment",
+            "health",
+            "point_of_interest"
+         ],
+         "user_ratings_total" : 1
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "formatted_address" : "050021, El Poblado, Medellín, El Poblado, Medellín, Antioquia, Colombia",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 6.199571499999999,
+               "lng" : -75.5750681
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 6.201040680291502,
+                  "lng" : -75.57365786970848
+               },
+               "southwest" : 
+               {
+                  "lat" : 6.198342719708497,
+                  "lng" : -75.57635583029149
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "icon_background_color" : "#7B9EB0",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+         "name" : "Clínica CES, sede Oviedo",
+         "opening_hours" : 
+         {
+            "open_now" : false
+         },
+         "photos" : 
+         [
+            {
+               "height" : 2701,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/101852846167065176628\"\u003eClínica CES, sede Oviedo\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATCDNfWoUIGTukXAeOezx0gI2KpvccfwqgCd4MjyufobMmus-0vh9ZikqU6b9yShmL2K4n4LauKhdiMRkOkmSTHUSypUa9ZFHosV8iTBzWWpQliOjib7u8Z8SXciuU77_qQ_dFoiTIen8Y0uapzWQcUCupQ08ATQBYihHLoWTv65SH1VKUEleQQSWkaluvGumtfhQD53DoHGNaY8i9JTR96J5AVLWCvcS3SDOaxnpdGP6a_m5271MY2I67VHoarW2juuCdwHL8IV6Sk1gmJq0unnKq7sZ2W_llxctTta1hts6T9_Jw",
+               "width" : 4800
+            }
+         ],
+         "place_id" : "ChIJTRdAZgCDRo4RhbQN3Yn8H2k",
+         "plus_code" : 
+         {
+            "compound_code" : "5CXF+RX Medellin, Antioquia, Colombia",
+            "global_code" : "67R65CXF+RX"
+         },
+         "rating" : 3.7,
+         "reference" : "ChIJTRdAZgCDRo4RhbQN3Yn8H2k",
+         "types" : 
+         [
+            "establishment",
+            "health",
+            "point_of_interest"
+         ],
+         "user_ratings_total" : 6
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "formatted_address" : "Cra. 48 #19a 40, El Poblado, Medellín, El Poblado, Medellín, Antioquia, Colombia",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 6.2237123,
+               "lng" : -75.57459849999999
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 6.225058830291503,
+                  "lng" : -75.57322046970849
+               },
+               "southwest" : 
+               {
+                  "lat" : 6.222360869708498,
+                  "lng" : -75.57591843029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "icon_background_color" : "#7B9EB0",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+         "name" : "Dr. Lucas Saldarriaga F",
+         "opening_hours" : 
+         {
+            "open_now" : false
+         },
+         "photos" : 
+         [
+            {
+               "height" : 1365,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/105519176170571948039\"\u003eDr. Lucas Saldarriaga F\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATCDNfXKl9S4FsqFO8p3gWq07nFOGHvOxdVne5Jfmn1j_4acamWrqagca7Nf_E4ZQO8ZBSLvp_UczM8_nl1Ym_eTcx3S4RM2xGID6jB-EDmYWmFYDvxziqANW7DtC3yunEP3f6DbWkRdP65CSzue517K7pAgQNeb6zJ5xwkohaxMJQ7qu4urOIY0aXp7FGKYmMZo7CUNKoyuVyjgr4gD_z1HRl4B9Grn333FPHKUFkBUwojCsMwd3BOXFnxBD_szEfdZVddp7zd0QjNkuO4Jri3a7JzlZ3ls4x8280l1jy8hUzY",
+               "width" : 2048
+            }
+         ],
+         "place_id" : "ChIJr0YeUMspRI4RIbHGDeVRWcI",
+         "plus_code" : 
+         {
+            "compound_code" : "6CFG+F5 Medellin, Antioquia, Colombia",
+            "global_code" : "67R66CFG+F5"
+         },
+         "rating" : 5,
+         "reference" : "ChIJr0YeUMspRI4RIbHGDeVRWcI",
+         "types" : 
+         [
+            "doctor",
+            "establishment",
+            "health",
+            "point_of_interest"
+         ],
+         "user_ratings_total" : 16
+      }
+   ],
+   "status" : "OK"
+}

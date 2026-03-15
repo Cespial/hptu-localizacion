@@ -1,0 +1,1156 @@
+{
+   "html_attributions" : [],
+   "next_page_token" : "ATCDNfXo0NsN9z_35LGYbuxw4n1383i10IaapPZerOZJEWBo2MuzkEG0yGmSvvF8BRdcaYUx4N7qWn0dwE7ENfAnxHR2BlDjUdSS1LKD0U7Ie5nrHBwK0Mov6nCyQsW2rnJkIJaHaJVAR9S7F5O62oM0XpIayInMLDZ03Gor5ROvhWHFKTmeib5fl91YAoSPuOzwTzo99103Hx3YZ9B37g-BnFjvgxqUorBaBJ-81bN3GEsHu43INo5JbZlPlbbxV4mQADDIFv-_mMULgkU2l8hmaw1KHGNnMOVY3obqSNFQsMe4MmPcuvF0kZaV23clv2h75sIl9InMVoShospyi4iQ1Fq0NWm1Z_u6d-nT9R9JLi6lszqJYrmcE0kFPaWaAUnb1j5aio5pVNT1ALYLpGPIWwh_wBgFH808hLtsoFOGEVP0hJdLJkSSrtk",
+   "results" : 
+   [
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 6.1584199,
+               "lng" : -75.3706103
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 6.159816980291501,
+                  "lng" : -75.36932486970849
+               },
+               "southwest" : 
+               {
+                  "lat" : 6.157119019708497,
+                  "lng" : -75.37202283029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "icon_background_color" : "#7B9EB0",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+         "international_phone_number" : "+57 4614 6864",
+         "name" : "Dr Christian Carreño",
+         "opening_hours" : 
+         {
+            "open_now" : false
+         },
+         "photos" : 
+         [
+            {
+               "height" : 664,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/112285052504110790118\"\u003eDr Christian Carreño\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATCDNfXwoPpDWVgo9RszKLGYqwFLowBPFPAkOQ4mtRUA2fr-BLVnkiGRRjyVJ-I3Ee_ZPN_QYaeLkkINLPyg2VBxp3OZb5Cxp1O0cteZ3ebA78CHigzEZrwhQQq67uFYHSxPMgCvlXaJ69JQqCCDihhu4tMRbAHZ2rwYaqIPr-luqJUckgyxtw0wJBNmfLmH_4FZScDoqKA6g4qGQlsY9uK0bEHkU8189E6PqB374P6oWehLaug0uIaJh5Ev-_Uj562SGIvFtkFDjB7oKOMh2rcwx_8J7tccp_Lg_SzMxEh5NhOVTpXj8qJGS-ADmzcwmXhXw247-HBAjIA",
+               "width" : 1179
+            }
+         ],
+         "place_id" : "ChIJd3U1hAmfRo4RylEWcuYDT_Y",
+         "plus_code" : 
+         {
+            "compound_code" : "5J5H+9Q Rionegro, Antioquia, Colombia",
+            "global_code" : "67R65J5H+9Q"
+         },
+         "rating" : 4.6,
+         "reference" : "ChIJd3U1hAmfRo4RylEWcuYDT_Y",
+         "scope" : "GOOGLE",
+         "types" : 
+         [
+            "doctor",
+            "health",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 23,
+         "vicinity" : "Carrera 48 #57 14"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 6.1635555,
+               "lng" : -75.37116209999999
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 6.164951330291502,
+                  "lng" : -75.36979296970848
+               },
+               "southwest" : 
+               {
+                  "lat" : 6.162253369708497,
+                  "lng" : -75.37249093029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "icon_background_color" : "#7B9EB0",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+         "international_phone_number" : "+57 321 7507203",
+         "name" : "Dr Andres Felipe Gaviria",
+         "opening_hours" : 
+         {
+            "open_now" : false
+         },
+         "place_id" : "ChIJ6fK92qafRo4RyEDdbzP3oQg",
+         "plus_code" : 
+         {
+            "compound_code" : "5J7H+CG Rionegro, Antioquia, Colombia",
+            "global_code" : "67R65J7H+CG"
+         },
+         "reference" : "ChIJ6fK92qafRo4RyEDdbzP3oQg",
+         "scope" : "GOOGLE",
+         "types" : 
+         [
+            "doctor",
+            "health",
+            "point_of_interest",
+            "establishment"
+         ],
+         "vicinity" : ""
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 6.147128500000001,
+               "lng" : -75.37974799999999
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 6.148475830291502,
+                  "lng" : -75.37842731970849
+               },
+               "southwest" : 
+               {
+                  "lat" : 6.145777869708497,
+                  "lng" : -75.38112528029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "icon_background_color" : "#7B9EB0",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+         "international_phone_number" : "+57 45660643",
+         "name" : "Consultorio Pediatrico",
+         "opening_hours" : 
+         {
+            "open_now" : false
+         },
+         "place_id" : "ChIJf1FerxufRo4RdWjAdJ_m11c",
+         "plus_code" : 
+         {
+            "compound_code" : "4JWC+V4 Rionegro, Antioquia, Colombia",
+            "global_code" : "67R64JWC+V4"
+         },
+         "reference" : "ChIJf1FerxufRo4RdWjAdJ_m11c",
+         "scope" : "GOOGLE",
+         "types" : 
+         [
+            "doctor",
+            "health",
+            "point_of_interest",
+            "establishment"
+         ],
+         "vicinity" : "Calle 42 #5639 oficina 107"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 6.1468911,
+               "lng" : -75.3784955
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 6.148212180291503,
+                  "lng" : -75.37715791970849
+               },
+               "southwest" : 
+               {
+                  "lat" : 6.145514219708498,
+                  "lng" : -75.3798558802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "icon_background_color" : "#7B9EB0",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+         "international_phone_number" : "+57 44600200",
+         "name" : "Comedal",
+         "opening_hours" : 
+         {
+            "open_now" : false
+         },
+         "photos" : 
+         [
+            {
+               "height" : 3920,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/103577309362227947178\"\u003eHenry Diaz\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATCDNfWctxq9vt5F-lT0YthxvezglV5QO9_HxxEDOqJYH8c2p4aj0wCf36MDQXNdy-sRJMaKj4kmJDFZ3K3E8pJBkaLQ29W37dH25L8MtlqIj4MH8BBl3UtuEXk10cKd5ySusX1vH3eb-gPROcTaDEBy_Z36hL63-cDzRmKN1ZJIJ8chlak8aWlhzh-r6n96EqV7JoZRR0MtktXM8GrS6rZHtEzQgrBk7nZQMSBKU86x1f6rHNKVFjIfMcqEXX9HhOZKTIk3h_nvCPfFT4fwy2uCsneC0VeYI4NVTZYv-kFkCunV1YbY-_j0Xpr8l8ORcDG3sX-Qbz7ocEH2PJkFGmlS5czR6qmkSEQfnSZinnOSdOwvtnesfDoS81LsPzppj810ZryXg0aJu4DeDwS0f9muqZW7kKG2tZ0CQRhwumXG7s_1mjknH3a-uTBj1E_sZb1RUhHrkOAKrBjHB9xmvr9tdcMXFBx_-WMuYAx1JXMnVGQzfctqhDuWP-fCfUL_WeA99XN1tspQ4-What56z7eNaAVI8U_cTA4jeAq4PbFMDUVkdCqNK44_AFGEzE70kMJoSBHrEvY20PrZlB4BCQ80OP75T8klEAGIGSmEs7_lC5kqL3hEPd-cBBu8YgQZbNb8",
+               "width" : 2208
+            }
+         ],
+         "place_id" : "ChIJ93qwWBqfRo4R2B78QdClP_0",
+         "plus_code" : 
+         {
+            "compound_code" : "4JWC+QJ Rionegro, Antioquia, Colombia",
+            "global_code" : "67R64JWC+QJ"
+         },
+         "rating" : 4.5,
+         "reference" : "ChIJ93qwWBqfRo4R2B78QdClP_0",
+         "scope" : "GOOGLE",
+         "types" : 
+         [
+            "doctor",
+            "health",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 567,
+         "vicinity" : "Calle 43 #54-139"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 6.155157699999999,
+               "lng" : -75.373893
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 6.156512380291502,
+                  "lng" : -75.3725562697085
+               },
+               "southwest" : 
+               {
+                  "lat" : 6.153814419708497,
+                  "lng" : -75.3752542302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "icon_background_color" : "#7B9EB0",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+         "international_phone_number" : "+57 323 2322830",
+         "name" : "Optica Vision Rionegro",
+         "opening_hours" : 
+         {
+            "open_now" : false
+         },
+         "photos" : 
+         [
+            {
+               "height" : 296,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/117915580836733358471\"\u003eandres otalvaro\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATCDNfWbXdWXoxckk_0h0KMJ3jf6UpG1ghuVoAb1xCGYOSv9ES-LawjP9pvMvmiyhkPbqoAGmwdLrtSXzrSjmXMy7gH-IGc1gD8smZqfe_i5oEIIIWNpKVL0lA0SE7vNJBFflqUidaLl3gRy-0wN5DPuXUnN7Py7AHzXAbDdzPTzrRGqiUmtpdXJZOsSb3aYeVGIm0wqUWcUKjHsHG2-WaaUEOlM2EkbKV8aKFVT32Cw5RsYINC0QA24dhwgPMs-DBD7ZPKjDEdPwMWb60_snQ2jmv27Q0v_AQ91JjvVHbwCkK4SoHvOl51tTsTjhoi6dEtqgV6hcKBkjx4Tjle-0h2TwF1unTYOyLa0D0IkqmQgRTInM_sT6U-AS7iUm9dg6bbpjY5xfTElYeiLP-3sLKF4U6t3NyBasyKQJ_y0nlBlPMNhxHbOCOj8f9ZDVqF8hnNzrT3jkGte75RUjNt-W1VoLQnrC8lI0gtiMv18NCfwEk-I3oHCw3x4zOSoZ0l6dGTyZBF8d0_icoh7dMX2hzAVKR2H-TG68llj_TMOqxGXTUrBoaLPSGmSBlZhSS4u9OEuxQpKxxuGcksI1-9FfgnEeDLnJrTLuckNw5ghTeHFU9k2M580IGA0FEMVoFV3o01Q",
+               "width" : 552
+            }
+         ],
+         "place_id" : "ChIJp6eggnafRo4RZKtjnSPF4Cs",
+         "plus_code" : 
+         {
+            "compound_code" : "5J4G+3C Rionegro, Antioquia, Colombia",
+            "global_code" : "67R65J4G+3C"
+         },
+         "rating" : 5,
+         "reference" : "ChIJp6eggnafRo4RZKtjnSPF4Cs",
+         "scope" : "GOOGLE",
+         "types" : 
+         [
+            "doctor",
+            "health",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 2,
+         "vicinity" : "Carrera 51 #51-39"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 6.1545016,
+               "lng" : -75.3745012
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 6.155577080291502,
+                  "lng" : -75.3731774197085
+               },
+               "southwest" : 
+               {
+                  "lat" : 6.152879119708498,
+                  "lng" : -75.37587538029152
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "icon_background_color" : "#7B9EB0",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+         "international_phone_number" : "+57 322 3853608",
+         "name" : "Neurología y neuropsicología. Dra Laura Velásquez",
+         "opening_hours" : 
+         {
+            "open_now" : false
+         },
+         "place_id" : "ChIJbdWRCiopRI4RD-WOA2SXxJ8",
+         "plus_code" : 
+         {
+            "compound_code" : "5J3G+R5 Rionegro, Antioquia, Colombia",
+            "global_code" : "67R65J3G+R5"
+         },
+         "reference" : "ChIJbdWRCiopRI4RD-WOA2SXxJ8",
+         "scope" : "GOOGLE",
+         "types" : 
+         [
+            "doctor",
+            "health",
+            "point_of_interest",
+            "establishment"
+         ],
+         "vicinity" : "Carrera 51 #50-31"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 6.154492599999999,
+               "lng" : -75.37485169999999
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 6.155845680291502,
+                  "lng" : -75.3735124697085
+               },
+               "southwest" : 
+               {
+                  "lat" : 6.153147719708498,
+                  "lng" : -75.37621043029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "icon_background_color" : "#7B9EB0",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+         "international_phone_number" : "+57 324 5259494",
+         "name" : "Consultorio Doctora Maria Fernanda Herrera Rivillas",
+         "opening_hours" : 
+         {
+            "open_now" : false
+         },
+         "photos" : 
+         [
+            {
+               "height" : 1433,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/114286879580481380901\"\u003eConsultorio Doctora Maria Fernanda Herrera Rivillas\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATCDNfWv9LDbEQPNPR40m69cSlUE-0msamls2t4QgLJp2O_8BQxh-s2_IXF3H7HhogiEEue-ssCt8r4gym1dbg-IwKju-nSvuS__df_y4oPSagvezBpJtk3wbvMz7_09DmQqGmnEXQvqwedhoOYNKp3uWo_3YFBlPNSe5Zn4qcrqgMWzytnA4zrl9y81sSI6-QlDq9OhaaMl26Xb1z7Hz-BadX7JeeNhSmTOIJ2JubULgzs7J1sezb2PTowc79fCJ5eA9RkHSjncKjS7fA0ulaf1M05y5W8iDkhJRRLcOePPVYFfuJSuYY2H9he6Jfu0V2P3aaFDMng6lPE",
+               "width" : 1080
+            }
+         ],
+         "place_id" : "ChIJ4bJ2BdCfRo4Ri_JE5eVmbzk",
+         "plus_code" : 
+         {
+            "compound_code" : "5J3G+Q3 Rionegro, Antioquia, Colombia",
+            "global_code" : "67R65J3G+Q3"
+         },
+         "rating" : 4.9,
+         "reference" : "ChIJ4bJ2BdCfRo4Ri_JE5eVmbzk",
+         "scope" : "GOOGLE",
+         "types" : 
+         [
+            "doctor",
+            "health",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 33,
+         "vicinity" : "Carrera 52 #50 - 12"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 6.1546003,
+               "lng" : -75.3735147
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 6.155919530291502,
+                  "lng" : -75.3721794197085
+               },
+               "southwest" : 
+               {
+                  "lat" : 6.153221569708498,
+                  "lng" : -75.37487738029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "icon_background_color" : "#7B9EB0",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+         "international_phone_number" : "+57 604 4440062",
+         "name" : "Odontoss Rionegro",
+         "opening_hours" : 
+         {
+            "open_now" : false
+         },
+         "photos" : 
+         [
+            {
+               "height" : 2250,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/111269531543326946761\"\u003eOdontoss Rionegro\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATCDNfX-9rwQmO7k0WlRmGtuB7rxqhPggKyOG9gIiuis3GNer2BwmtNVnzxGG0UCd_tYmohqL913en9FVQgdlVEGI71zwYxzCEb2NYMviU8XO6IEPqxa-KWlru0CuWm4MV7PUJdxr_59xqt8I0Mc1FgnaqTE2VB5c5j9dgPuwRc9ByE82tLgtXZecA0N3Ar_hkx-JA5HN0rPDZXh4_yFVbQNO8fH3fELEntELoeoJOwbN0m1EOY9mzKUG8YalWJmHHP3Y8FfqaZ7UNGLJ5IzSa-sMWYeGlNGlhNzRqh9d3_XLsb5x-N1Z7MZzKIx3DCsB8eMIacCIFNOOJc",
+               "width" : 4000
+            }
+         ],
+         "place_id" : "ChIJNRPxw-KfRo4RfZakKsXHaVk",
+         "plus_code" : 
+         {
+            "compound_code" : "5J3G+RH Rionegro, Antioquia, Colombia",
+            "global_code" : "67R65J3G+RH"
+         },
+         "rating" : 4.3,
+         "reference" : "ChIJNRPxw-KfRo4RfZakKsXHaVk",
+         "scope" : "GOOGLE",
+         "types" : 
+         [
+            "dentist",
+            "doctor",
+            "health",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 22,
+         "vicinity" : "Calle 51 #50-34 Local 206"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 6.1543571,
+               "lng" : -75.374921
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 6.155705980291502,
+                  "lng" : -75.3735719197085
+               },
+               "southwest" : 
+               {
+                  "lat" : 6.153008019708497,
+                  "lng" : -75.3762698802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "icon_background_color" : "#7B9EB0",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+         "international_phone_number" : "+57 324 5259494",
+         "name" : "Consultorio Maria Fernanda Herrera Rivillas",
+         "opening_hours" : 
+         {
+            "open_now" : false
+         },
+         "place_id" : "ChIJA7AIJQCfRo4R52jrPN10baM",
+         "plus_code" : 
+         {
+            "compound_code" : "5J3G+P2 Rionegro, Antioquia, Colombia",
+            "global_code" : "67R65J3G+P2"
+         },
+         "reference" : "ChIJA7AIJQCfRo4R52jrPN10baM",
+         "scope" : "GOOGLE",
+         "types" : 
+         [
+            "doctor",
+            "health",
+            "point_of_interest",
+            "establishment"
+         ],
+         "vicinity" : "Carrera 52 #50-12"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 6.1547019,
+               "lng" : -75.37313349999999
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 6.156062430291502,
+                  "lng" : -75.3718204697085
+               },
+               "southwest" : 
+               {
+                  "lat" : 6.153364469708498,
+                  "lng" : -75.3745184302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "icon_background_color" : "#7B9EB0",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+         "name" : "Cita Stella Segura",
+         "place_id" : "ChIJbWIluG6fRo4RYomp2RLxZhU",
+         "plus_code" : 
+         {
+            "compound_code" : "5J3G+VP Rionegro, Antioquia, Colombia",
+            "global_code" : "67R65J3G+VP"
+         },
+         "reference" : "ChIJbWIluG6fRo4RYomp2RLxZhU",
+         "scope" : "GOOGLE",
+         "types" : 
+         [
+            "doctor",
+            "health",
+            "point_of_interest",
+            "establishment"
+         ],
+         "vicinity" : "Carrera 50 #5124"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 6.153961799999999,
+               "lng" : -75.37516400000001
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 6.155306230291501,
+                  "lng" : -75.37380126970849
+               },
+               "southwest" : 
+               {
+                  "lat" : 6.152608269708496,
+                  "lng" : -75.3764992302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "icon_background_color" : "#7B9EB0",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+         "international_phone_number" : "+57 45615268",
+         "name" : "Consultorio médico Dr. Ríos",
+         "place_id" : "ChIJ7WzgMzmfRo4RS2AqJcJWcZ4",
+         "plus_code" : 
+         {
+            "compound_code" : "5J3F+HW Rionegro, Antioquia, Colombia",
+            "global_code" : "67R65J3F+HW"
+         },
+         "rating" : 5,
+         "reference" : "ChIJ7WzgMzmfRo4RS2AqJcJWcZ4",
+         "scope" : "GOOGLE",
+         "types" : 
+         [
+            "doctor",
+            "health",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 3,
+         "vicinity" : "Carrera 52 #49 A 01"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 6.1534444,
+               "lng" : -75.37477820000001
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 6.154760880291501,
+                  "lng" : -75.37344246970849
+               },
+               "southwest" : 
+               {
+                  "lat" : 6.152062919708498,
+                  "lng" : -75.3761404302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "icon_background_color" : "#7B9EB0",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+         "international_phone_number" : "+57 604 5613423",
+         "name" : "Colmédicos de Oriente S.A.",
+         "opening_hours" : 
+         {
+            "open_now" : false
+         },
+         "photos" : 
+         [
+            {
+               "height" : 3000,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/109483762039936591422\"\u003eK Julieth Vidal Murcia\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATCDNfXIhWGpAQ1LZF62VY2M8-23p5QCkxYZN1FGJSUf8R2R2nSgMzu5BoglvwHBpgYCd7JUL8YporfAjfE0GYG42IcZhPOx1up8e2BifJgJ2TNMZC2HRQ7JvL6iFaklneN3zW7dhl-YO3LGD0VfbQll04aRnNZpkqG6wh44g4uHZ72kIygr1mnegkuM7C1CrwTg3fyA5avsWNWA17NnrWQbYhyWCnwMUD994IBEfVqsDikKNVQWXJxEz4OnBw52kD2esU7iUP0qBgnN8DQemsdLGyKNsE-Yuft55o7T8uYOIY8oLlLaxJ43UTyI-UNOQbMPkh7W3vY6lO90JkR8zpef73ZacZtMrtmMChxeEmvIvRmnMRpGwWNfxMpO19Rutwqsl0B2O9lgvLKWZ8bZV86ZbLllh3Z2PfDBQEP_LpsZecuEUVtQSO15le1rdCgyCGShzIbxopCpbBe12lsYbrrbuxntVSt_tL2Vd5Q6KndNuGIixht9aEv8IhyONVK_yggkPU99XCSzDfjZHFlp2EGIVeocZKR7Z_rzmE5Yi_VCEHcpf4xAxOUf8K4juvj9SBEPCZ1Tfu26IJ5hrP-mLgv381Tuw8nwdhXvtrt5kGBH4JFv4ws_2KH9xYxMPhVjYMYX67aGWPxwJal5mDxYhLg4OQ",
+               "width" : 4000
+            }
+         ],
+         "place_id" : "ChIJvzlKbQ-fRo4RCgrF4f-Vi3Q",
+         "plus_code" : 
+         {
+            "compound_code" : "5J3G+93 Rionegro, Antioquia, Colombia",
+            "global_code" : "67R65J3G+93"
+         },
+         "rating" : 2.8,
+         "reference" : "ChIJvzlKbQ-fRo4RCgrF4f-Vi3Q",
+         "scope" : "GOOGLE",
+         "types" : 
+         [
+            "doctor",
+            "health",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 16,
+         "vicinity" : "Carrera 51 #49-07 Local 302"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 6.153422099999998,
+               "lng" : -75.37480769999999
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 6.154760380291503,
+                  "lng" : -75.37346431970849
+               },
+               "southwest" : 
+               {
+                  "lat" : 6.152062419708499,
+                  "lng" : -75.37616228029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "icon_background_color" : "#7B9EB0",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+         "international_phone_number" : "+57 311 7956334",
+         "name" : "Dental Belle",
+         "opening_hours" : 
+         {
+            "open_now" : false
+         },
+         "photos" : 
+         [
+            {
+               "height" : 6144,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/104693707626795771243\"\u003eDental Belle\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATCDNfUJCB-Q9cppF2N2KYWBYcyUHYNwHF00Xptut7UJG1T0O_Y7xmvtzSeKQ78UaQP_4cWs2Tq-MenyJDUz2Ebd16x6WN42R7ESuH9OUcR29LVX8iwcPH_nLTyIPEqq0XfMqfcq1ajsABoPtP_JPR8toDlyeN-D-v8hZGfWQbqNGpjYEoT6zF5QohUpvJ7EVNiFa2Es8oqUXnOCEoN4AB06_yq6DUlYXNVCeKqC61NYknV_p7UUJ8urz88XipyBiPPtYJz_Pa1dbtt8Npk4u1vBsZaDfvbWn6bOi8XSCtuVVhcXjpHKlwP3_9MdDxggbhVCr2awrIckumM",
+               "width" : 8160
+            }
+         ],
+         "place_id" : "ChIJT5Q_qPKfRo4RcCDMUF37b7E",
+         "plus_code" : 
+         {
+            "compound_code" : "5J3G+93 Rionegro, Antioquia, Colombia",
+            "global_code" : "67R65J3G+93"
+         },
+         "rating" : 4.8,
+         "reference" : "ChIJT5Q_qPKfRo4RcCDMUF37b7E",
+         "scope" : "GOOGLE",
+         "types" : 
+         [
+            "dentist",
+            "doctor",
+            "health",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 17,
+         "vicinity" : "EDIFICIO LOS HEROES, CRA 51·49 #07 LOCAL 403 TERCER PISO"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 6.156379200000001,
+               "lng" : -75.37244509999999
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 6.157743130291504,
+                  "lng" : -75.37113921970848
+               },
+               "southwest" : 
+               {
+                  "lat" : 6.155045169708499,
+                  "lng" : -75.3738371802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "icon_background_color" : "#7B9EB0",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+         "name" : "Consultorio Médico Ecop Sos",
+         "place_id" : "ChIJ6Y3QPAmfRo4RfZBEJ2dyp58",
+         "plus_code" : 
+         {
+            "compound_code" : "5J4H+H2 Rionegro, Antioquia, Colombia",
+            "global_code" : "67R65J4H+H2"
+         },
+         "reference" : "ChIJ6Y3QPAmfRo4RfZBEJ2dyp58",
+         "scope" : "GOOGLE",
+         "types" : 
+         [
+            "doctor",
+            "health",
+            "point_of_interest",
+            "establishment"
+         ],
+         "vicinity" : "Avenida Santander #5320"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 6.1533909,
+               "lng" : -75.3728141
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 6.154826080291502,
+                  "lng" : -75.3716359197085
+               },
+               "southwest" : 
+               {
+                  "lat" : 6.152128119708498,
+                  "lng" : -75.37433388029152
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "icon_background_color" : "#7B9EB0",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+         "international_phone_number" : "+57 604 6040340",
+         "name" : "Sonría",
+         "opening_hours" : 
+         {
+            "open_now" : false
+         },
+         "photos" : 
+         [
+            {
+               "height" : 900,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/116522750865862179140\"\u003eSonría\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATCDNfWyefqKZbOV0TOGd3mMzeFbciGGRuI1PK3RH1NHGifgN243mrByYqso7ccV6HbhnT2REPNMigtqvAFDkLMKiuNGDqcmYTOTeiRRJP_9DH_JhJ9gEjybWzIRBtUuiehT4D-UaNy44i-zyJf6XDv8kD7gq_Lj9kY5618DRsG7a0isIOVhEuarCuq95xZ6kGzvFr9WBV_dI78MF1vBeHBOIC5veW_ivcAQzFxFA4R9vBVPIw3XzK2yV9ggk9_xzCm5g5DnGVYPGXdBoKMbNqXaJ6emMt81te5Z1OIh6KH_mFIsSCpriPEra_DI5e3n16v7Qbxle9PLD50",
+               "width" : 1600
+            }
+         ],
+         "place_id" : "ChIJP6u85g6fRo4RP7csmqrLRZY",
+         "plus_code" : 
+         {
+            "compound_code" : "5J3G+9V Rionegro, Antioquia, Colombia",
+            "global_code" : "67R65J3G+9V"
+         },
+         "rating" : 3.5,
+         "reference" : "ChIJP6u85g6fRo4RP7csmqrLRZY",
+         "scope" : "GOOGLE",
+         "types" : 
+         [
+            "dentist",
+            "doctor",
+            "health",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 24,
+         "vicinity" : "Calle 50 #48 - 27"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 6.153364899999999,
+               "lng" : -75.37235849999999
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 6.154640480291502,
+                  "lng" : -75.3710037197085
+               },
+               "southwest" : 
+               {
+                  "lat" : 6.151942519708498,
+                  "lng" : -75.3737016802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "icon_background_color" : "#7B9EB0",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+         "international_phone_number" : "+57 43018760",
+         "name" : "Salud Domiciliaria 24 Horas",
+         "opening_hours" : 
+         {
+            "open_now" : false
+         },
+         "photos" : 
+         [
+            {
+               "height" : 720,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/108629303309014443869\"\u003eMonica Gomez Betancur\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATCDNfVkoGZIVa12OZuPtk4UUtBK8dX8HoQWAmPpPmS1fhkruB6DVa9B_jhCJhDldQFL_9Fjx9C7Emxz5rd3f5qtTg1V5z1PgsFqEsLCyTD_YMgHF8gMMX7BB57pDVST925R6fTsrZzD1j97eTwDbGthNsbPkM0eT-Lu8MC_JIMPPcj6Y7kVEevI1X9qcPAqquFDuKVuw8uccyeMYUesaxeG2flwCDR0tW1K7X1nWM9KfO6DoqEuTBH6ZMNjwl_ENrcoPVEIyoatBb6tnuQmkMFuryFHC8Ob-GBs_W5AbkGaSnjmoghOHyQXzzjIRaedtz9AMHUp_VANGH2r91-KPEG9GMOblnEovbngSwUC8iDVbxiHM0VXczmsxKwGQ39HOqln-ikBm21srUigEJ5WhOqLjsKKQRTipGpu5MA_PZhZjIS-k3drKgVmycz3qr8XTZKeZIkxgoc_CrRdLuD7ThK0K36yg862l3h7-N08OOZfDBqHUdEj99LZX30PVHVpiSb9zh7mq6l_srx-HzJ7RNeXr3w3HzDSKAEdNYg5aJ4pUYCWstaSWbPDs09MUccKVro3HbNKjQrmWq_QqCZNCsSrLu1ibVJ3vQNyS6_SvyKzhNsa0_SexNh2WHyiwLd4vQMKdryCGw",
+               "width" : 1280
+            }
+         ],
+         "place_id" : "ChIJZ0fz8A6fRo4RvXERLbfx5D4",
+         "plus_code" : 
+         {
+            "compound_code" : "5J3H+83 Rionegro, Antioquia, Colombia",
+            "global_code" : "67R65J3H+83"
+         },
+         "rating" : 4.5,
+         "reference" : "ChIJZ0fz8A6fRo4RvXERLbfx5D4",
+         "scope" : "GOOGLE",
+         "types" : 
+         [
+            "doctor",
+            "health",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 6,
+         "vicinity" : "Calle 49 #48-06"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 6.1524966,
+               "lng" : -75.3755673
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 6.153846830291503,
+                  "lng" : -75.37419026970849
+               },
+               "southwest" : 
+               {
+                  "lat" : 6.151148869708498,
+                  "lng" : -75.3768882302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "icon_background_color" : "#7B9EB0",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+         "international_phone_number" : "+57 45610415",
+         "name" : "Consultorio Médico Norman Ríos G",
+         "opening_hours" : 
+         {
+            "open_now" : false
+         },
+         "photos" : 
+         [
+            {
+               "height" : 720,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/115763229646434684344\"\u003eAnyelina\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATCDNfX0MLlhv5jCAHg-aQLGbbdZriLgduMCIO8pkQkCepBQD5noPkn-P-LvPwNkz_hToGpAetpva9xmez9uxv_PJIrW0yf3vwscirRWMBjywgc27Gj9DNeGR4PtY1EROzw_QwBKPGZ42Q9KGqUaIURINjcyjEWjm870tEW_7oFp53BdCRpYNkYjG525G9g1tTwWBN3BxQN-wWYz9lka6yPUiAaLIEEy8ZEwE7t7DyCq98O4RqXzdG37BAH_QqAn18uABBjlIE2TRg4IEVwWIGBreG4mC37GVAim0ZIn-rraHdVxcnQdDcbCrRHju7FDyKSOBX0L_y-ORL-m3lUJBlm35g3A1J8jESHTEjVZcJOvRpRGJ59xJ50HxnaNvO0iQMgG1LVgGMnpMDgxlnzEADbsac1pCpxlKA8rgqMYnJVzfV34y0OEB5a-1NLAxHGX5AAwO3FUc4nnzyoAno0MdS7-Uo96xFwM-qSAIxD8rBtjs5_DDkfPf_p1YIyoCxuDw-rGE6AEYvk90apwJdxvLLC9vHAZ2Ux-SHSbcGx85mEWsHnxrO6fLklzLqoYXKd2asUNprN8gtbWvHn4dQE1CWWBUIz8tLzYyyDkE1O7CuOjCusISw3QydkSmMOcZZI4bcxR6j-o8Jbu",
+               "width" : 720
+            }
+         ],
+         "place_id" : "ChIJ7U9Dgw-fRo4Rera2M9DamRE",
+         "plus_code" : 
+         {
+            "compound_code" : "5J2F+XQ Rionegro, Antioquia, Colombia",
+            "global_code" : "67R65J2F+XQ"
+         },
+         "reference" : "ChIJ7U9Dgw-fRo4Rera2M9DamRE",
+         "scope" : "GOOGLE",
+         "types" : 
+         [
+            "doctor",
+            "health",
+            "point_of_interest",
+            "establishment"
+         ],
+         "vicinity" : "Carrera 52 #4837"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 6.1566952,
+               "lng" : -75.37769109999999
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 6.158034280291503,
+                  "lng" : -75.37634771970849
+               },
+               "southwest" : 
+               {
+                  "lat" : 6.155336319708498,
+                  "lng" : -75.3790456802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "icon_background_color" : "#7B9EB0",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+         "international_phone_number" : "+57 310 4126910",
+         "name" : "Pediatra Infectologa",
+         "opening_hours" : 
+         {
+            "open_now" : false
+         },
+         "photos" : 
+         [
+            {
+               "height" : 853,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/108679108930073661917\"\u003eCatalina Arango\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATCDNfXoiimC5deIEwo7qqBub7bDEdCH-Xs2b_Yph4Z8loLeSMrMWi7lKpq1LEfvTAWlTvxMSCekDDmU31LxTnmHf8RNgJBvgjvVDOMBorLEJWrkXu2TL4bNzvSxCOSrYVSEZ6afoFrEAhuF-EoRy92WvRn6F7xRb6gAh9ChOrfNFZanXM2om4DR08fO0qvGYQrlRYQIdbfUFQYeckzfhB9IuIFxS7TfDOmaLL9xEMkyEiRvn5lG9grCzFZSvE88rAtPZcc3iOLU1XjuYTPiHy4FK8oW1eJACpwvGo3k0-p7fLhRBErO5SzyJmqU48itmfEG_nQuAtclW9H_asRbIjtJPP0D6hre-tn8ex3HV0_zIXG0VezrAPxAyIQpZ7I9ayqkdhyM3guyaQGekv8jbjVahV_Rx_ol65WbgbM4s70N8EHN4Wd19DXpBD-YwVuYcSUKCK7q6cNntiKWrdJhvygwq2QPa3jg0TWfKEJvJuPrzd77_6zp9yX7DCppSgGvrwPf9QpZbE_uknUZXDRTL-UrHmVhQwnqxoz5nT6K2lbrVGEVcAXzmi3RVXCk7oszBndVAKnCzWST2rs2LITn6ROCu7YETglWTyByvP_r38W1XFV69WwD3FzmNmjEvFqL0Y-_-y926Jy8",
+               "width" : 1280
+            }
+         ],
+         "place_id" : "ChIJuaYmskqfRo4RD9TejbUWjkg",
+         "plus_code" : 
+         {
+            "compound_code" : "5J4C+MW Rionegro, Antioquia, Colombia",
+            "global_code" : "67R65J4C+MW"
+         },
+         "reference" : "ChIJuaYmskqfRo4RD9TejbUWjkg",
+         "scope" : "GOOGLE",
+         "types" : 
+         [
+            "doctor",
+            "health",
+            "point_of_interest",
+            "establishment"
+         ],
+         "vicinity" : "Portanova Center. Vía aeropuerto, Km 2.2, Calle 51"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 6.1554218,
+               "lng" : -75.37039840000001
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 6.156717730291501,
+                  "lng" : -75.3690004197085
+               },
+               "southwest" : 
+               {
+                  "lat" : 6.154019769708497,
+                  "lng" : -75.37169838029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "icon_background_color" : "#7B9EB0",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+         "name" : "IPS Promedan Rionegro",
+         "opening_hours" : 
+         {
+            "open_now" : false
+         },
+         "photos" : 
+         [
+            {
+               "height" : 4000,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/106192078225188124849\"\u003eVÍCTOR ROSALES\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATCDNfW_PtQvfwGGB3OmxaZrFG_pHpmjfEcLVBLlm_r_hEsbwlD2dqYbqiWa58OLo8XrW57JOPQBKgWPDKVi2u1ez66DvMIWHHuBhiBu1SI72368VSzZ7xviHkb8481i3SSYyFAKh7Kxsfg7K3EAZvC0FfWK1Wv_PUyzUKZGvV9oOLqDw73HUju9oZ_WW8_6ko3aVlFbrRjHq5oIIHPT4Ol21Y2eLQjtePLSu79Bwuyw4ymwmn9oZpwy0MTyTBpKi2y7OTtWi3keaiwq2xy2-0ggVr0cYeK4dXoYCvfdXD3jD1Ms99nSfluG4R74XVvxBRAM9RMrBBMP5xOQysDHNkbduAJRJEGinLbpfyBbmqOTNRAzvGJVJ828yVcHzBkkeILYYcOVmmmplV_ZUK5XLSPDHvqNZqaX5YxazPcuVc52J0YF5zmXdRCwPcIlVvozm7U9ISYhpDYo9GUCK48O5NEoKI7AAgfbYhSW8PAN81MzbZx1ZppnKZ6M9WuGohnJJmc5TmM03XHzg_j6Gb6JihLL2E8TKdrNHcyorTyKOiGqU6YnakXLCyhvFAfK05CB-7-nPWpFOK-nzwuRhjuzai-rou7dV4r6kEfOc9G5z-UopuO6a92YtJKeTHm2rCNQReFkRWAWGOjM",
+               "width" : 3000
+            }
+         ],
+         "place_id" : "ChIJZ8cCagmfRo4RJZO-_4RQROs",
+         "plus_code" : 
+         {
+            "compound_code" : "5J4H+5R Rionegro, Antioquia, Colombia",
+            "global_code" : "67R65J4H+5R"
+         },
+         "rating" : 3.1,
+         "reference" : "ChIJZ8cCagmfRo4RJZO-_4RQROs",
+         "scope" : "GOOGLE",
+         "types" : 
+         [
+            "doctor",
+            "health",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 38,
+         "vicinity" : "a 47-75, Calle 54 #47-1"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 6.155898499999999,
+               "lng" : -75.37032309999999
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 6.157121030291503,
+                  "lng" : -75.3691213197085
+               },
+               "southwest" : 
+               {
+                  "lat" : 6.154423069708499,
+                  "lng" : -75.3718192802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "icon_background_color" : "#7B9EB0",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+         "international_phone_number" : "+57 604 3225398",
+         "name" : "IMEDI - Especialistas en Imágenes Diagnósticas",
+         "opening_hours" : 
+         {
+            "open_now" : true
+         },
+         "photos" : 
+         [
+            {
+               "height" : 977,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/104579790877535879142\"\u003eBryan Alexander\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATCDNfWDg6tEA1sQm0QHr9nwxgW2_5nSDFIWCKJVGAjwfqES4-0ARteU7uDKquQZjBhglAm9LFpiZ6h7byt4WqGDdideKUtFjMuCjWnKSqMdr_0xfhhF-iGRaQRRX8PgAOVrdFd2w8IRlMXjGkCGi682BMAklrTu7OsS9K6Uv6drvzK-yu0bcfA1wGyPhk0vxWqfZ8TeyXXchu8gbVNg6j3aUhq35K6YMGiUQXASwJ8mts5SL3WmadnSm3DywsV5STi2eYaVPnOOImtLP-ypwWYVlPqSRS5LOIbJBq-dPzC83kXA43uUbJTae8szqf7hrox5m-cTIJ6QO8pT8v2m00jkVxCrtDaS_2Q0Oh0Qo74wRGoyehL3Jss-GG5xOzwA24NkmdAgpSuyBPccoHGGOMM7OSmuba435eHjBbPfAJoAhE1Q_mbPxhMksyZD9I1ueauO2bU5MqLfNZcpgASbyj2YqsFhRj219vuenxqvfUn_0cAzBWhMpHdcy_0gHPsRdIWjYbgAWXCYIuE3gNuLMCgyt-rSWaKGpC9PwVMFMAd5gjMR24InwD5Xh33Qlz9xnldsCmd1SNrneMtls8YwwA35LtyntJsOj4Z9hCudlQZcCnDx21-0X9Q2wtFf-diXN-54R3gkCDC8d8GwNz3m-ipqef_93o8",
+               "width" : 720
+            }
+         ],
+         "place_id" : "ChIJPbKlxkSfRo4R-08g47u3NEk",
+         "plus_code" : 
+         {
+            "compound_code" : "5J4H+9V Rionegro, Antioquia, Colombia",
+            "global_code" : "67R65J4H+9V"
+         },
+         "rating" : 4.5,
+         "reference" : "ChIJPbKlxkSfRo4R-08g47u3NEk",
+         "scope" : "GOOGLE",
+         "types" : 
+         [
+            "doctor",
+            "health",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 110,
+         "vicinity" : "Calle 52 #45 - 48 Piso 2"
+      }
+   ],
+   "status" : "OK"
+}

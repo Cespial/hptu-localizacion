@@ -161,8 +161,8 @@ export function HealthGapSection() {
           <p className="text-[10px] text-muted-foreground uppercase tracking-wider font-medium">
             Alta Complejidad Las Palmas
           </p>
-          <p className="text-2xl font-bold text-red-600 mt-1">1</p>
-          <p className="text-[10px] text-muted-foreground">Solo Cl. CES (213 camas)</p>
+          <p className="text-2xl font-bold text-red-600 mt-1">0</p>
+          <p className="text-[10px] text-muted-foreground">Cero camas alta complejidad en corredor (REPS + Google Geocoding)</p>
         </motion.div>
       </div>
 
@@ -409,16 +409,22 @@ export function HealthGapSection() {
           <AlertTriangle className="h-6 w-6 text-red-600 shrink-0 mt-0.5" />
           <div>
             <h4 className="font-serif text-lg font-bold text-red-800">
-              Brecha Critica: Solo 213 Camas de Alta Complejidad en Las Palmas
+              Brecha Critica: Cero Camas de Alta Complejidad en el Corredor Las Palmas
             </h4>
             <p className="text-sm text-red-700 mt-1">
               El corredor Las Palmas — que conecta a los <strong>38,415 predios estrato 6</strong> del
-              Poblado con el altiplano — tiene una sola clinica de alta complejidad: <strong>Clinica CES
-              con 213 camas</strong> al 82% de ocupacion. HPTU en Prado esta a <strong>23.8 minutos</strong> y
-              opera al <strong>96% de ocupacion</strong> con 1,094 camas. Con una proyeccion de <strong>+6.1%
-              de crecimiento poblacional</strong> al 2026 en Medellin y <strong>+17.1% en Envigado</strong>,
-              la demanda seguira creciendo. Una nueva sede en Las Palmas Bajo cerraria esta brecha,
-              ofreciendo alta complejidad a menos de <strong>11 minutos</strong> de la Milla de Oro.
+              Poblado con el altiplano — tiene <strong>cero camas de alta complejidad</strong>. Las clinicas
+              mas cercanas al corredor son <strong>Cl. del Rosario Tesoro (158 camas, 0.93 km)</strong> y{" "}
+              <strong>Cl. Las Vegas (171 camas, 3.12 km)</strong>, pero ninguna ofrece trasplantes, oncologia
+              avanzada ni hematologia. La Clinica CES (213 camas) esta en <strong>Prado Centro, a 7.16 km</strong> del
+              corredor (verificado con Google Geocoding). HPTU en Prado opera al <strong>96% de ocupacion</strong> con
+              1,094 camas y esta a <strong>23.8 minutos</strong>. Con <strong>+6.1% de crecimiento poblacional</strong> al
+              2026 en Medellin y <strong>+17.1% en Envigado</strong>, la demanda seguira creciendo. Una nueva sede
+              en Las Palmas Bajo cerraria esta brecha, ofreciendo alta complejidad a menos de{" "}
+              <strong>15 minutos</strong> de la Milla de Oro.
+            </p>
+            <p className="text-xs text-red-600 mt-2 italic">
+              Fuentes: REPS Capacidad Instalada (s2ru-bqt6), Google Geocoding API, Mapbox Directions API (driving-traffic)
             </p>
           </div>
         </div>

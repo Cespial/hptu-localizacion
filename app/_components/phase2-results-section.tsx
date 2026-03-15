@@ -185,8 +185,10 @@ export function Phase2ResultsSection() {
           <h4 className="text-sm font-bold mb-1">HPTU: 1,094 Camas al 96%</h4>
           <p className="text-xs text-muted-foreground">
             REPS confirma que HPTU tiene <strong>1,094 camas</strong> (la mayor del area) al 96% de ocupacion.
-            El total de IPS en el Valle de Aburra es <strong>1,536</strong>. Solo <strong>Clinica CES</strong> (213 camas)
-            ofrece alta complejidad sobre el corredor Las Palmas.
+            El total de IPS en el Valle de Aburra es <strong>1,536</strong>. El corredor Las Palmas tiene{" "}
+            <strong>cero camas de alta complejidad</strong>. Las mas cercanas: Cl. Rosario Tesoro (158) y Cl. Las Vegas (171),
+            sin trasplantes ni oncologia avanzada. Clinica CES (213 camas) esta en Prado Centro, a 7.16 km del corredor.
+            <span className="text-[10px] italic block mt-1">Fuente: REPS s2ru-bqt6, Google Geocoding API</span>
           </p>
         </motion.div>
 
@@ -203,6 +205,7 @@ export function Phase2ResultsSection() {
             Catastro Municipal confirma <strong>38,415 predios estrato 6</strong> en Comuna 14 (avaluo promedio $438M COP)
             y EPM registra <strong>36,351 suscriptores E6</strong> de acueducto. El Poblado domina con el
             <strong> 98% de todos los predios E6</strong> de Medellin.
+            <span className="block mt-1 italic text-[10px]">Fuentes: Catastro Municipal (bp59-rj8r), EPM Estratificacion y Cobertura</span>
           </p>
         </motion.div>
       </div>

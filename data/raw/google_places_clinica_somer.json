@@ -1,0 +1,112 @@
+{
+   "html_attributions" : [],
+   "results" : 
+   [
+      {
+         "business_status" : "OPERATIONAL",
+         "formatted_address" : "Cl. 38 #No. 54A-35, Rionegro, Antioquia, Colombia",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 6.1406917,
+               "lng" : -75.37751639999999
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 6.142115380291502,
+                  "lng" : -75.3763554697085
+               },
+               "southwest" : 
+               {
+                  "lat" : 6.139417419708498,
+                  "lng" : -75.37905343029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/hospital-71.png",
+         "icon_background_color" : "#F88181",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/hospital-H_pinlet",
+         "name" : "Clínica Somer",
+         "opening_hours" : 
+         {
+            "open_now" : true
+         },
+         "photos" : 
+         [
+            {
+               "height" : 2542,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/111756457460223144980\"\u003eSergio Gaviria\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATCDNfWkbdDxHiRTBGAJ1DKSg5S3o8HbvIQjOewDtlUZqpCsFYTYniOvfV-kowTc4yc_QR9XVgUiXsNGhLd5lL4UuJeU3zpHDVU8gA4PSGBgoFuAyzBRB1QzV9FjmmoFLIEJurcnM0Q6lwjiDuuc8_SZdP95m9WtImgRBCvf50syj48NADA7aHAv_4Y4Vm8jjBuMupgENOuz7wOkIv8MKOtv_XrFMIytU7ocKjEtpQUJThIgsnNDOaPmbC-cLv929X93Y1prGgPs5c60oqpk6if8N63JLQ7LLoN6aTwODBTFvXQ-MR4KRdjWhjSqx4AqqM_2aERq5wXXovcN0dFBU7CIz-v1Ty2AyCsIjwjtBGZJ_uTGflvuzvNCHfrxpAMYY-hwOWOaK3xactC7VP9vfI4h7I0yfxuH49IJL7GaG__DN_qqd1FLk3kmRPl3cglABg",
+               "width" : 2834
+            }
+         ],
+         "place_id" : "ChIJ9ykx8CGfRo4RlzYwW6mtpN8",
+         "plus_code" : 
+         {
+            "compound_code" : "4JRC+7X Rionegro, Antioquia, Colombia",
+            "global_code" : "67R64JRC+7X"
+         },
+         "rating" : 3.7,
+         "reference" : "ChIJ9ykx8CGfRo4RlzYwW6mtpN8",
+         "types" : 
+         [
+            "establishment",
+            "health",
+            "hospital",
+            "point_of_interest"
+         ],
+         "user_ratings_total" : 372
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "formatted_address" : "Rionegro, Antioquia, Colombia",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 6.1513116,
+               "lng" : -75.39256759999999
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 6.152665280291502,
+                  "lng" : -75.39118616970848
+               },
+               "southwest" : 
+               {
+                  "lat" : 6.149967319708498,
+                  "lng" : -75.3938841302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "icon_background_color" : "#7B9EB0",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+         "name" : "Clínica Somer S.A. (sede la Reserva Plaza)",
+         "place_id" : "ChIJA1nmBA2fRo4R2u7CKfP1bnM",
+         "plus_code" : 
+         {
+            "compound_code" : "5J24+GX Rionegro, Antioquia, Colombia",
+            "global_code" : "67R65J24+GX"
+         },
+         "rating" : 4,
+         "reference" : "ChIJA1nmBA2fRo4R2u7CKfP1bnM",
+         "types" : 
+         [
+            "establishment",
+            "health",
+            "point_of_interest"
+         ],
+         "user_ratings_total" : 23
+      }
+   ],
+   "status" : "OK"
+}

@@ -1,0 +1,1471 @@
+{
+  "results" :
+    [
+      {
+        "resource" :
+          {
+            "name" : "Reporte de licencias urbanísticas",
+            "id" : "xgif-fxdx",
+            "resource_name" : null,
+            "parent_fxf" : [],
+            "description" : "Reporte de licencias emitidas por la Alcaldía de Amalfi",
+            "attribution" : "Alcaldia de Amalfi",
+            "attribution_link" : null,
+            "contact_email" : null,
+            "type" : "dataset",
+            "updatedAt" : "2025-12-19T23:30:14.000Z",
+            "createdAt" : "2023-12-15T20:03:20.000Z",
+            "metadata_updated_at" : "2025-12-19T23:30:14.000Z",
+            "data_updated_at" : "2023-12-15T20:10:46.000Z",
+            "page_views" :
+              {
+                "page_views_last_week" : 16,
+                "page_views_last_month" : 64,
+                "page_views_total" : 677,
+                "page_views_last_week_log" : 4.08746284125034,
+                "page_views_last_month_log" : 6.022367813028454,
+                "page_views_total_log" : 9.405141463136344
+              },
+            "columns_name" :
+              [
+                "CANTIDAD",
+                "AÑO",
+                "TIPO O MODALIDAD DE LICENCIA URBANÍSTICA Y OTRAS ACTUACIONES"
+              ],
+            "columns_field_name" :
+              [ "cantidad", "a_o", "tipo_o_modalidad_de_licencia" ],
+            "columns_datatype" : [ "Number", "Number", "Text" ],
+            "columns_description" : [ "", "", "" ],
+            "columns_format" :
+              [
+                { "decimalSeparator" : ".", "groupSeparator" : "," },
+                { "decimalSeparator" : ".", "groupSeparator" : "," },
+                {}
+              ],
+            "download_count" : 78,
+            "provenance" : "official",
+            "lens_view_type" : "tabular",
+            "lens_display_type" : "table",
+            "locked" : false,
+            "blob_mime_type" : null,
+            "hide_from_data_json" : false,
+            "publication_date" : "2023-12-15T20:10:52.000Z"
+          },
+        "classification" :
+          {
+            "categories" : [],
+            "tags" : [],
+            "domain_category" : "Vivienda, Ciudad y Territorio",
+            "domain_tags" : [ "licencias" ],
+            "domain_metadata" :
+              [
+                { "key" : "Información-de-Datos_Idioma", "value" : "Español" },
+                {
+                  "key" : "Información-de-Datos_Cobertura-Geográfica",
+                  "value" : "Municipal"
+                },
+                {
+                  "key" : "Información-de-Datos_Frecuencia-de-Actualización",
+                  "value" : "Anual"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Sector",
+                  "value" : "Vivienda, Ciudad y Territorio"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Área-o-dependencia",
+                  "value" : "Secretaría de Planeación y Prospectiva"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Nombre-de-la-Entidad",
+                  "value" : "Alcaldía de Amalfi"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Orden",
+                  "value" : "Territorial"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Municipio",
+                  "value" : "Amalfi"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Departamento",
+                  "value" : "Antioquia"
+                }
+              ]
+          },
+        "metadata" :
+          { "domain" : "www.datos.gov.co", "license" : "Public Domain" },
+        "permalink" : "https://www.datos.gov.co/d/xgif-fxdx",
+        "link" : "https://www.datos.gov.co/Vivienda-Ciudad-y-Territorio/Reporte-de-licencias-urbanísticas/xgif-fxdx",
+        "owner" :
+          {
+            "id" : "aex8-6s9h",
+            "user_type" : "interactive",
+            "display_name" : "Alcaldia De Amalfi"
+          },
+        "creator" :
+          {
+            "id" : "aex8-6s9h",
+            "user_type" : "interactive",
+            "display_name" : "Alcaldia De Amalfi"
+          }
+      },
+      {
+        "resource" :
+          {
+            "name" : "LICENCIAS URBANÍSTICAS TRAMITADAS EN EL MUNICIPIO DE CHÍA",
+            "id" : "n686-d6yb",
+            "resource_name" : null,
+            "parent_fxf" : [],
+            "description" : "Licencias urbanísticas en Chía reflejan crecimiento urbano, con trámites para construcción y adecuación de viviendas, comercios e infraestructura, según datos abiertos municipales.",
+            "attribution" : "ALCALDIA MUNICIPAL DE CHIA",
+            "attribution_link" : null,
+            "contact_email" : null,
+            "type" : "dataset",
+            "updatedAt" : "2025-12-15T12:23:09.000Z",
+            "createdAt" : "2025-03-04T19:29:01.000Z",
+            "metadata_updated_at" : "2025-12-15T12:23:09.000Z",
+            "data_updated_at" : "2025-03-18T16:52:32.000Z",
+            "page_views" :
+              {
+                "page_views_last_week" : 19,
+                "page_views_last_month" : 112,
+                "page_views_total" : 1088,
+                "page_views_last_week_log" : 4.321928094887363,
+                "page_views_last_month_log" : 6.820178962415189,
+                "page_views_total_log" : 10.088788238716907
+              },
+            "columns_name" :
+              [
+                "MATRICULA",
+                "ZONA POT",
+                "TIPO DE LICENCIA",
+                "CEDULA CATASTRAL",
+                "NUMERO DE LICENCIA",
+                "UNIDADES APROBADAS",
+                "AREA DEL TERRENO M2",
+                "AÑO",
+                "RADICADO"
+              ],
+            "columns_field_name" :
+              [
+                "matricula",
+                "zona_pot",
+                "tipo_de_licencia",
+                "cedula_catastral",
+                "numero_de_licencia",
+                "unidades_aprobadas",
+                "area_del_terreno_m2",
+                "a_o",
+                "radicado"
+              ],
+            "columns_datatype" :
+              [
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Number",
+                "Number",
+                "Number",
+                "Number",
+                "Number"
+              ],
+            "columns_description" :
+              [
+                "Registro único de la propiedad.",
+                "Clasificación según el Plan de Ordenamiento Territorial.",
+                "Clasificación del permiso (obra nueva, remodelación, etc.).",
+                "Identificador del predio en el catastro.",
+                "Identificación oficial de la licencia aprobada.",
+                "Cantidad de viviendas o espacios autorizados.",
+                "Superficie total del terreno.",
+                "Año de expedición de la licencia.",
+                "Número único de identificación del trámite."
+              ],
+            "columns_format" :
+              [
+                {},
+                {},
+                {},
+                {},
+                { "decimalSeparator" : ".", "groupSeparator" : "," },
+                { "decimalSeparator" : ".", "groupSeparator" : "," },
+                { "decimalSeparator" : ".", "groupSeparator" : "," },
+                { "decimalSeparator" : ".", "groupSeparator" : "," },
+                { "decimalSeparator" : ".", "groupSeparator" : "," }
+              ],
+            "download_count" : 67,
+            "provenance" : "official",
+            "lens_view_type" : "tabular",
+            "lens_display_type" : "table",
+            "locked" : false,
+            "blob_mime_type" : null,
+            "hide_from_data_json" : false,
+            "publication_date" : "2025-03-18T16:52:43.000Z"
+          },
+        "classification" :
+          {
+            "categories" : [],
+            "tags" : [],
+            "domain_category" : "Vivienda, Ciudad y Territorio",
+            "domain_tags" : [],
+            "domain_metadata" :
+              [
+                { "key" : "Información-de-Datos_Idioma", "value" : "Español" },
+                {
+                  "key" : "Información-de-Datos_Cobertura-Geográfica",
+                  "value" : "Municipal"
+                },
+                {
+                  "key" : "Información-de-Datos_Frecuencia-de-Actualización",
+                  "value" : "Mensual"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Sector",
+                  "value" : "No Aplica"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Área-o-dependencia",
+                  "value" : "Secretaría de planeación "
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Nombre-de-la-Entidad",
+                  "value" : "Alcaldía De Chía, Cundinamarca"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Orden",
+                  "value" : "Territorial"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Municipio",
+                  "value" : "Chía"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_DIVIPOLA-Municipio",
+                  "value" : "25175"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Departamento",
+                  "value" : "Cundinamarca"
+                }
+              ]
+          },
+        "metadata" :
+          {
+            "domain" : "www.datos.gov.co",
+            "license" : "Creative Commons Attribution | Share Alike 4.0 International"
+          },
+        "permalink" : "https://www.datos.gov.co/d/n686-d6yb",
+        "link" : "https://www.datos.gov.co/Vivienda-Ciudad-y-Territorio/LICENCIAS-URBANÍSTICAS-TRAMITADAS-EN-EL-MUNICIPIO-/n686-d6yb",
+        "owner" :
+          {
+            "id" : "pjz2-mur9",
+            "user_type" : "interactive",
+            "display_name" : "Alcaldia Municipal de Chía"
+          },
+        "creator" :
+          {
+            "id" : "pjz2-mur9",
+            "user_type" : "interactive",
+            "display_name" : "Alcaldia Municipal de Chía"
+          }
+      },
+      {
+        "resource" :
+          {
+            "name" : "Nacidos Hospital San Juan de Dios Rionegro",
+            "id" : "h79z-43da",
+            "resource_name" : null,
+            "parent_fxf" : [],
+            "description" : "Nacidos Vivos Hospital San Juan de Dios Rionegro Año 2020",
+            "attribution" : "Hospital San Juan de Dios Rionegro",
+            "attribution_link" : "https://www.datos.gov.co/d/h79z-43da",
+            "contact_email" : null,
+            "type" : "dataset",
+            "updatedAt" : "2025-12-19T22:58:52.000Z",
+            "createdAt" : "2021-01-29T21:15:32.000Z",
+            "metadata_updated_at" : "2025-12-19T22:58:52.000Z",
+            "data_updated_at" : "2021-02-02T21:09:47.000Z",
+            "page_views" :
+              {
+                "page_views_last_week" : 11,
+                "page_views_last_month" : 72,
+                "page_views_total" : 3416,
+                "page_views_last_week_log" : 3.5849625007211565,
+                "page_views_last_month_log" : 6.189824558880018,
+                "page_views_total_log" : 11.738514532429267
+              },
+            "columns_name" :
+              [
+                "DEPARTAMENTO",
+                "AREA NACIMIENTO",
+                "NÚMERO CONSULTAS PRENATALES",
+                "MUNICIPIO",
+                "TIPO PARTO",
+                "MULTIPLICIDAD EMBARAZO",
+                "EDAD MADRE",
+                "TIEMPO DE GESTACIÓN",
+                "SEXO",
+                "TALLA (Centímetros)",
+                "PESO (Gramos)",
+                "EDAD PADRE",
+                "FECHA NACIMIENTO"
+              ],
+            "columns_field_name" :
+              [
+                "departamento",
+                "area_nacimiento",
+                "n_mero_consultas_prenatales",
+                "municipio",
+                "tipo_parto",
+                "multiplicidad_embarazo",
+                "edad_madre",
+                "tiempo_de_gestaci_n",
+                "sexo",
+                "talla_cent_metros",
+                "peso_gramos",
+                "edad_padre",
+                "fecha_nacimiento"
+              ],
+            "columns_datatype" :
+              [
+                "Text",
+                "Text",
+                "Number",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Number",
+                "Text",
+                "Number",
+                "Number",
+                "Text",
+                "Text"
+              ],
+            "columns_description" :
+              [ "", "", "", "", "", "", "", "", "", "", "", "", "" ],
+            "columns_format" :
+              [ {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {} ],
+            "download_count" : 248,
+            "provenance" : "official",
+            "lens_view_type" : "tabular",
+            "lens_display_type" : "table",
+            "locked" : false,
+            "blob_mime_type" : null,
+            "hide_from_data_json" : false,
+            "publication_date" : "2021-02-02T21:09:47.000Z"
+          },
+        "classification" :
+          {
+            "categories" : [],
+            "tags" : [],
+            "domain_category" : "Salud y Protección Social",
+            "domain_tags" : [],
+            "domain_metadata" :
+              [
+                { "key" : "Información-de-Datos_Idioma", "value" : "Español" },
+                {
+                  "key" : "Información-de-Datos_Cobertura-Geográfica",
+                  "value" : "Municipal"
+                },
+                {
+                  "key" : "Información-de-Datos_Frecuencia-de-Actualización",
+                  "value" : "Anual"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Sector",
+                  "value" : "Salud y Protección Social"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Área-o-dependencia",
+                  "value" : "Estadística"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Nombre-de-la-Entidad",
+                  "value" : "Hospital Regional San Juan de Dios, Rionegro"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Orden",
+                  "value" : "Territorial"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Municipio",
+                  "value" : "Rionegro"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Departamento",
+                  "value" : "Antioquia"
+                }
+              ]
+          },
+        "metadata" : { "domain" : "www.datos.gov.co" },
+        "permalink" : "https://www.datos.gov.co/d/h79z-43da",
+        "link" : "https://www.datos.gov.co/Salud-y-Protección-Social/Nacidos-Hospital-San-Juan-de-Dios-Rionegro/h79z-43da",
+        "owner" :
+          {
+            "id" : "4sim-brha",
+            "user_type" : "interactive",
+            "display_name" : "eserionegro"
+          },
+        "creator" :
+          {
+            "id" : "4sim-brha",
+            "user_type" : "interactive",
+            "display_name" : "eserionegro"
+          }
+      },
+      {
+        "resource" :
+          {
+            "name" : "Escenarios deportivos Rionegro - Antioquia",
+            "id" : "idge-nsih",
+            "resource_name" : null,
+            "parent_fxf" : [],
+            "description" : "Listado de los escenarios deportivos en Rionegro, Antioquia, Colombia.",
+            "attribution" : "IMER - Instituto Municipal de Educación Física, Deporte y Recreación",
+            "attribution_link" : "https://www.imer.gov.co/transparencia/informacion-de-interes/datos-abiertos/",
+            "contact_email" : null,
+            "type" : "dataset",
+            "updatedAt" : "2025-03-28T14:02:42.000Z",
+            "createdAt" : "2025-03-26T16:57:26.000Z",
+            "metadata_updated_at" : "2025-03-28T14:02:41.000Z",
+            "data_updated_at" : "2025-03-28T14:02:42.000Z",
+            "page_views" :
+              {
+                "page_views_last_week" : 17,
+                "page_views_last_month" : 49,
+                "page_views_total" : 609,
+                "page_views_last_week_log" : 4.169925001442312,
+                "page_views_last_month_log" : 5.643856189774724,
+                "page_views_total_log" : 9.25266543245025
+              },
+            "columns_name" :
+              [
+                "Tipo de escenario",
+                "georeferenciacion",
+                "Nombre escenario deportivo",
+                "latitud",
+                "Nombre barrio o vereda",
+                "Corregimiento o comuna",
+                "Dirección",
+                "Vereda o Barrio",
+                "Longitud"
+              ],
+            "columns_field_name" :
+              [
+                "tipo_de_escenario",
+                "georeferenciacion",
+                "nombre_escenario_deportivo",
+                "latitud",
+                "nombre_barrio_o_vereda",
+                "corregimiento_o_comuna",
+                "direcci_n",
+                "vereda_o_barrio",
+                "longitud"
+              ],
+            "columns_datatype" :
+              [
+                "Text",
+                "Point",
+                "Text",
+                "Number",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Number"
+              ],
+            "columns_description" :
+              [
+                "Tipo de escenario",
+                "ubicación geofráfica",
+                "Nombre del escenario",
+                "ubicación en latitud",
+                "Nombre del barrio o la vereda",
+                "ubicación dentro del municipio",
+                "dirección del escenario",
+                "ubicación urbana o rural",
+                "ubicación en longitud"
+              ],
+            "columns_format" :
+              [
+                {},
+                {},
+                {},
+                { "decimalSeparator" : ".", "groupSeparator" : "," },
+                {},
+                {},
+                {},
+                {},
+                { "decimalSeparator" : ".", "groupSeparator" : "," }
+              ],
+            "download_count" : 81,
+            "provenance" : "official",
+            "lens_view_type" : "tabular",
+            "lens_display_type" : "table",
+            "locked" : false,
+            "blob_mime_type" : null,
+            "hide_from_data_json" : false,
+            "publication_date" : "2025-03-26T17:05:53.000Z"
+          },
+        "classification" :
+          {
+            "categories" : [],
+            "tags" : [],
+            "domain_category" : "Deporte y Recreación",
+            "domain_tags" :
+              [
+                "imer",
+                "alcaldía rionegro",
+                "escenarios deportivos",
+                "escenarios"
+              ],
+            "domain_metadata" :
+              [
+                { "key" : "Información-de-Datos_Idioma", "value" : "Español" },
+                {
+                  "key" : "Información-de-Datos_Cobertura-Geográfica",
+                  "value" : "Municipal"
+                },
+                {
+                  "key" : "Información-de-Datos_Frecuencia-de-Actualización",
+                  "value" : "Anual"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Sector",
+                  "value" : "No Aplica"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Área-o-dependencia",
+                  "value" : "Digital IMER"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Nombre-de-la-Entidad",
+                  "value" : "Instituto Municipal de Educación Física, Deporte y Recreación de Rionegro Antioquia"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Orden",
+                  "value" : "Territorial"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Municipio",
+                  "value" : "Rionegro, Antioquia"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Departamento",
+                  "value" : "Antioquia"
+                }
+              ]
+          },
+        "metadata" :
+          {
+            "domain" : "www.datos.gov.co",
+            "license" : "Creative Commons Attribution | Share Alike 4.0 International"
+          },
+        "permalink" : "https://www.datos.gov.co/d/idge-nsih",
+        "link" : "https://www.datos.gov.co/Deporte-y-Recreación/Escenarios-deportivos-Rionegro-Antioquia/idge-nsih",
+        "owner" :
+          {
+            "id" : "3x2f-cqcj",
+            "user_type" : "interactive",
+            "display_name" : "IMER"
+          },
+        "creator" :
+          {
+            "id" : "3x2f-cqcj",
+            "user_type" : "interactive",
+            "display_name" : "IMER"
+          }
+      },
+      {
+        "resource" :
+          {
+            "name" : "TITULOS MINEROS MUNICIPIO DE SEGOVIA ANTIOQUIA",
+            "id" : "4vii-h9cm",
+            "resource_name" : null,
+            "parent_fxf" : [],
+            "description" : "INFORMACION DE LOS TITULOS MINEROS MUNICIPIO DE SEGOVIA ANTIOQUIA",
+            "attribution" : "Secretaría de Minas",
+            "attribution_link" : "https://www.datos.gov.co/d/4vii-h9cm",
+            "contact_email" : null,
+            "type" : "dataset",
+            "updatedAt" : "2025-12-19T23:09:44.000Z",
+            "createdAt" : "2021-04-26T23:13:14.000Z",
+            "metadata_updated_at" : "2025-12-19T23:09:44.000Z",
+            "data_updated_at" : "2021-04-26T23:28:55.000Z",
+            "page_views" :
+              {
+                "page_views_last_week" : 28,
+                "page_views_last_month" : 124,
+                "page_views_total" : 2790,
+                "page_views_last_week_log" : 4.857980995127573,
+                "page_views_last_month_log" : 6.965784284662088,
+                "page_views_total_log" : 11.446566409066069
+              },
+            "columns_name" :
+              [
+                "FECHA_DE_SOLICITUD",
+                "ESTADO",
+                "AREA_HA",
+                "CODIGO_EXP",
+                "FECHA_DE_EXPEDICION",
+                "MUNICIPIOS",
+                "TITULAR",
+                "N°",
+                "FECHA_DE EXPIRACION",
+                "CLASIFICACIÓN",
+                "MODALIDAD",
+                "ETAPA",
+                "MINERALES"
+              ],
+            "columns_field_name" :
+              [
+                "fecha_de_solicitud",
+                "estado",
+                "area_ha",
+                "codigo_exp",
+                "fecha_de_expedicion",
+                "municipios",
+                "titular",
+                "n",
+                "fecha_de_expiracion",
+                "clasificaci_n",
+                "modalidad",
+                "etapa",
+                "minerales"
+              ],
+            "columns_datatype" :
+              [
+                "Calendar date",
+                "Text",
+                "Number",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Number",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text"
+              ],
+            "columns_description" :
+              [ "", "", "", "", "", "", "", "", "", "", "", "", "" ],
+            "columns_format" :
+              [
+                {},
+                {},
+                {},
+                {},
+                { "align" : "right" },
+                {},
+                {},
+                {},
+                { "align" : "right" },
+                {},
+                {},
+                {},
+                {}
+              ],
+            "download_count" : 223,
+            "provenance" : "official",
+            "lens_view_type" : "tabular",
+            "lens_display_type" : "table",
+            "locked" : false,
+            "blob_mime_type" : null,
+            "hide_from_data_json" : false,
+            "publication_date" : "2021-04-26T23:28:56.000Z"
+          },
+        "classification" :
+          {
+            "categories" : [],
+            "tags" : [],
+            "domain_category" : "Minas y Energía",
+            "domain_tags" :
+              [
+                "extracción de minerales",
+                "licencias",
+                "licencias ambientales"
+              ],
+            "domain_metadata" :
+              [
+                { "key" : "Información-de-Datos_Idioma", "value" : "Español" },
+                {
+                  "key" : "Información-de-Datos_Cobertura-Geográfica",
+                  "value" : "Municipal"
+                },
+                {
+                  "key" : "Información-de-Datos_Frecuencia-de-Actualización",
+                  "value" : "Anual"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Sector",
+                  "value" : "Minas y Energía"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Área-o-dependencia",
+                  "value" : "Secretaría de Minas"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Nombre-de-la-Entidad",
+                  "value" : "Alcaldía de Segovia"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Orden",
+                  "value" : "Territorial"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Municipio",
+                  "value" : "Segovia"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Departamento",
+                  "value" : "Antioquia"
+                }
+              ]
+          },
+        "metadata" :
+          {
+            "domain" : "www.datos.gov.co",
+            "license" : "Creative Commons Attribution 4.0 International"
+          },
+        "permalink" : "https://www.datos.gov.co/d/4vii-h9cm",
+        "link" : "https://www.datos.gov.co/Minas-y-Energía/TITULOS-MINEROS-MUNICIPIO-DE-SEGOVIA-ANTIOQUIA/4vii-h9cm",
+        "owner" :
+          {
+            "id" : "ng79-s3px",
+            "user_type" : "interactive",
+            "display_name" : "Segovia Antioquia"
+          },
+        "creator" :
+          {
+            "id" : "ng79-s3px",
+            "user_type" : "interactive",
+            "display_name" : "Segovia Antioquia"
+          }
+      },
+      {
+        "resource" :
+          {
+            "name" : "Inventario Licencias Urbanísticas",
+            "id" : "iwyp-vwa8",
+            "resource_name" : null,
+            "parent_fxf" : [],
+            "description" : "Licencias urbanísticas ortogadas, entregadas por las curadurías urbanas de Medellín y custodiadas por el DAP",
+            "attribution" : "DAP",
+            "attribution_link" : null,
+            "contact_email" : null,
+            "type" : "href",
+            "updatedAt" : "2025-12-10T19:29:26.000Z",
+            "createdAt" : "2025-12-10T19:26:15.000Z",
+            "metadata_updated_at" : "2025-12-10T19:29:26.000Z",
+            "data_updated_at" : "2025-12-10T19:26:15.000Z",
+            "page_views" :
+              {
+                "page_views_last_week" : 6,
+                "page_views_last_month" : 29,
+                "page_views_total" : 74,
+                "page_views_last_week_log" : 2.807354922057604,
+                "page_views_last_month_log" : 4.906890595608519,
+                "page_views_total_log" : 6.22881869049588
+              },
+            "columns_name" : [],
+            "columns_field_name" : [],
+            "columns_datatype" : [],
+            "columns_description" : [],
+            "columns_format" : [],
+            "download_count" : 0,
+            "provenance" : "official",
+            "lens_view_type" : "href",
+            "lens_display_type" : "href",
+            "locked" : false,
+            "blob_mime_type" : null,
+            "hide_from_data_json" : false,
+            "publication_date" : "2025-12-10T19:29:26.000Z"
+          },
+        "classification" :
+          {
+            "categories" : [],
+            "tags" : [],
+            "domain_category" : "Ordenamiento Territorial",
+            "domain_tags" : [],
+            "domain_metadata" :
+              [
+                { "key" : "Información-de-Datos_Idioma", "value" : "Español" },
+                {
+                  "key" : "Información-de-Datos_Cobertura-Geográfica",
+                  "value" : "Municipal"
+                },
+                {
+                  "key" : "Información-de-Datos_Frecuencia-de-Actualización",
+                  "value" : "Anual"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Área-o-dependencia",
+                  "value" : "DAP"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Nombre-de-la-Entidad",
+                  "value" : "Alcaldía De Medellín, Antioquia"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Orden",
+                  "value" : "Territorial"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Municipio",
+                  "value" : "Medellín"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_DIVIPOLA-Municipio",
+                  "value" : "5001"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Departamento",
+                  "value" : "Antioquia"
+                }
+              ]
+          },
+        "metadata" :
+          {
+            "domain" : "www.datos.gov.co",
+            "license" : "Creative Commons Attribution | Share Alike 4.0 International",
+            "additional_access_points" :
+              [
+                {
+                  "urls" :
+                    {
+                      "Ir a MEData" : "https://medata.gov.co/dataset/1-002-26-000413"
+                    },
+                  "description" : "Licencias urbanísticas ortogadas, entregadas por las curadurías urbanas de Medellín y custodiadas por el DAP\n",
+                  "title" : "Inventario Licencias Urbanísticas"
+                }
+              ],
+            "access_points" :
+              {
+                "Ir a MEData" : "https://medata.gov.co/dataset/1-002-26-000413"
+              }
+          },
+        "permalink" : "https://www.datos.gov.co/d/iwyp-vwa8",
+        "link" : "https://www.datos.gov.co/Ordenamiento-Territorial/Inventario-Licencias-Urbanísticas/iwyp-vwa8",
+        "owner" :
+          {
+            "id" : "x6fv-8vwk",
+            "user_type" : "interactive",
+            "display_name" : "ALCALDÍA DE MEDELLÍN"
+          },
+        "creator" :
+          {
+            "id" : "x6fv-8vwk",
+            "user_type" : "interactive",
+            "display_name" : "ALCALDÍA DE MEDELLÍN"
+          }
+      },
+      {
+        "resource" :
+          {
+            "name" : "Licencias ambientales en la jurisdicción de Corantioquia",
+            "id" : "h6gr-4izn",
+            "resource_name" : null,
+            "parent_fxf" : [],
+            "description" : "Las Licencias ambientales en la jurisdicción de Corantioquia corresponden a permisos ambientales para uso y aprovechamiento de los recursos naturales renovables",
+            "attribution" : "Subdirección de Sostenibilidad y Gestión Territorial",
+            "attribution_link" : "https://www.datos.gov.co/d/h6gr-4izn",
+            "contact_email" : null,
+            "type" : "dataset",
+            "updatedAt" : "2026-03-01T07:10:07.000Z",
+            "createdAt" : "2020-12-24T03:36:51.000Z",
+            "metadata_updated_at" : "2025-12-19T22:47:58.000Z",
+            "data_updated_at" : "2026-03-01T07:10:07.000Z",
+            "page_views" :
+              {
+                "page_views_last_week" : 27,
+                "page_views_last_month" : 161,
+                "page_views_total" : 3125,
+                "page_views_last_week_log" : 4.807354922057604,
+                "page_views_last_month_log" : 7.339850002884624,
+                "page_views_total_log" : 11.610102062999665
+              },
+            "columns_name" :
+              [
+                "Territorial",
+                "Naturaleza",
+                "Expediente",
+                "Tipo Proyecto",
+                "Municipio",
+                "Estado",
+                "Tipo Empresa"
+              ],
+            "columns_field_name" :
+              [
+                "territorial",
+                "naturaleza",
+                "expediente",
+                "tipo_proyecto",
+                "municipio",
+                "estado",
+                "tipo_empresa"
+              ],
+            "columns_datatype" :
+              [ "Text", "Text", "Text", "Text", "Text", "Text", "Text" ],
+            "columns_description" :
+              [
+                "Nombre de la oficina territorial según la división político-administrativa de la Corporación",
+                "Naturaleza jurídica de quien solicita el trámite, puede ser persona natural o jurídica",
+                "Identificador interno de Corantioquia para hacer seguimiento a los trámites o solicitudes",
+                "Describe el tipo de proyecto para el cual se otorga la licencia: Construcción, Explotación de minerales, etc.",
+                "Municipio donde se está solicitando la Licencia Ambiental",
+                "Estado del expediente, puede ser activo o archivado",
+                "En caso de ser naturaleza jurídica en este campo se detalla el tipo de empresa"
+              ],
+            "columns_format" : [ {}, {}, {}, {}, {}, {}, {} ],
+            "download_count" : 338,
+            "provenance" : "official",
+            "lens_view_type" : "tabular",
+            "lens_display_type" : "table",
+            "locked" : false,
+            "blob_mime_type" : null,
+            "hide_from_data_json" : false,
+            "publication_date" : "2024-12-10T15:52:55.000Z"
+          },
+        "classification" :
+          {
+            "categories" : [],
+            "tags" : [],
+            "domain_category" : "Ambiente y Desarrollo Sostenible",
+            "domain_tags" :
+              [
+                "licencias ambientales",
+                "autorizaciones",
+                "concesiones",
+                "permisos"
+              ],
+            "domain_metadata" :
+              [
+                { "key" : "Información-de-Datos_Idioma", "value" : "Español" },
+                {
+                  "key" : "Información-de-Datos_Cobertura-Geográfica",
+                  "value" : "Departamental"
+                },
+                {
+                  "key" : "Información-de-Datos_Frecuencia-de-Actualización",
+                  "value" : "Semestral"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Sector",
+                  "value" : "Ambiente y Desarrollo Sostenible"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Área-o-dependencia",
+                  "value" : "Subdirección de Sostenibilidad y Gestión Territorial"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Nombre-de-la-Entidad",
+                  "value" : "Corporación Autónoma Regional del Centro de Antioquia"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Orden",
+                  "value" : "Nacional"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Municipio",
+                  "value" : "Medellín"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Departamento",
+                  "value" : "Antioquia"
+                }
+              ]
+          },
+        "metadata" :
+          {
+            "domain" : "www.datos.gov.co",
+            "license" : "Creative Commons Attribution | Share Alike 4.0 International"
+          },
+        "permalink" : "https://www.datos.gov.co/d/h6gr-4izn",
+        "link" : "https://www.datos.gov.co/Ambiente-y-Desarrollo-Sostenible/Licencias-ambientales-en-la-jurisdicción-de-Corant/h6gr-4izn",
+        "owner" :
+          {
+            "id" : "8s3g-z6ud",
+            "user_type" : "interactive",
+            "display_name" : "Corantioquia"
+          },
+        "creator" :
+          {
+            "id" : "8s3g-z6ud",
+            "user_type" : "interactive",
+            "display_name" : "Corantioquia"
+          }
+      },
+      {
+        "resource" :
+          {
+            "name" : "Inventario Licencias Urbanísticas",
+            "id" : "pxmc-bbtu",
+            "resource_name" : null,
+            "parent_fxf" : [],
+            "description" : "Licencias urbanísticas ortogadas, entregadas por las curadurías urbanas de Medellín y custodiadas por el DAP",
+            "attribution" : null,
+            "attribution_link" : null,
+            "contact_email" : "medata@medellin.gov.co",
+            "type" : "federated_href",
+            "updatedAt" : "2025-10-31T19:43:32.000Z",
+            "createdAt" : "2025-08-05T15:53:23.000Z",
+            "metadata_updated_at" : "2025-10-31T19:43:32.000Z",
+            "data_updated_at" : "2025-08-05T15:53:23.000Z",
+            "page_views" :
+              {
+                "page_views_last_week" : 11,
+                "page_views_last_month" : 59,
+                "page_views_total" : 133,
+                "page_views_last_week_log" : 3.5849625007211565,
+                "page_views_last_month_log" : 5.906890595608519,
+                "page_views_total_log" : 7.066089190457772
+              },
+            "columns_name" : [],
+            "columns_field_name" : [],
+            "columns_datatype" : [],
+            "columns_description" : [],
+            "columns_format" : [],
+            "download_count" : 0,
+            "provenance" : "official",
+            "lens_view_type" : "href",
+            "lens_display_type" : "federated",
+            "locked" : false,
+            "blob_mime_type" : null,
+            "hide_from_data_json" : false,
+            "publication_date" : "2025-08-05T15:53:23.000Z"
+          },
+        "classification" :
+          {
+            "categories" : [],
+            "tags" : [],
+            "domain_tags" : [ "datos", "licencias urbanísticas" ],
+            "domain_metadata" :
+              [
+                {
+                  "key" : "Common-Core_Contact-Email",
+                  "value" : "medata@medellin.gov.co"
+                },
+                { "key" : "Common-Core_Last-Update", "value" : "05-06-2023" },
+                {
+                  "key" : "Common-Core_License",
+                  "value" : "https://creativecommons.org/licenses/by-sa/4.0/legalcode"
+                },
+                {
+                  "key" : "Common-Core_Public-Access-Level",
+                  "value" : "public"
+                },
+                {
+                  "key" : "Common-Core_Temporal-Applicability",
+                  "value" : "2015-01-01T00:00:00Z"
+                },
+                {
+                  "key" : "Common-Core_Unique-Identifier",
+                  "value" : "1-002-26-000413"
+                },
+                {
+                  "key" : "Common-Core_Publisher",
+                  "value" : "Alcaldía de Medellín"
+                },
+                { "key" : "Common-Core_Update-Frequency", "value" : "R/P1Y" },
+                {
+                  "key" : "Common-Core_Theme",
+                  "value" : "Vivienda, Ciudad y Territorio"
+                },
+                { "key" : "Common-Core_Issued", "value" : "6-05-2023" },
+                {
+                  "key" : "Common-Core_Data-Standard",
+                  "value" : "http://www.mintic.gov.co"
+                },
+                {
+                  "key" : "Common-Core_Contact-Name",
+                  "value" : "Departamento Administrativo de Planeación"
+                }
+              ]
+          },
+        "metadata" :
+          {
+            "domain" : "www.datos.gov.co",
+            "additional_access_points" :
+              [
+                {
+                  "urls" :
+                    {
+                      "text/csv" : "http://medata.gov.co/sites/default/files/distribution/1-002-26-000413/inventario_licencias_urbanisticas.csv"
+                    },
+                  "title" : "Inventario Licencias Urbanísticas",
+                  "described_by" : "http://10.1.222.231:9870/webhdfs/v1/MEData/Comma/Planeacion/diccionario_inventario_licencias_urbanisticas.json?op=OPEN"
+                },
+                {
+                  "urls" :
+                    {
+                      "text/json" : "http://medata.gov.co/sites/default/files/distribution/1-002-26-000413/diccionario_inventario_licencias_urbanisticas.json"
+                    },
+                  "title" : "Diccionario de datos",
+                  "described_by" : "http://10.1.222.231:9870/webhdfs/v1/MEData/Comma/Planeacion/diccionario_inventario_licencias_urbanisticas.json?op=OPEN"
+                }
+              ],
+            "access_points" :
+              {
+                "text/csv" : "http://medata.gov.co/sites/default/files/distribution/1-002-26-000413/inventario_licencias_urbanisticas.csv"
+              }
+          },
+        "permalink" : "https://www.datos.gov.co/d/pxmc-bbtu",
+        "link" : "https://www.datos.gov.co/dataset/Inventario-Licencias-Urbanísticas/pxmc-bbtu",
+        "owner" :
+          {
+            "id" : "r4qn-dwdd",
+            "user_type" : "interactive",
+            "display_name" : "Ministerio de Tecnologías de la Información y las Comunicaciones - Datos Abiertos"
+          },
+        "creator" :
+          {
+            "id" : "r4qn-dwdd",
+            "user_type" : "interactive",
+            "display_name" : "Ministerio de Tecnologías de la Información y las Comunicaciones - Datos Abiertos"
+          }
+      },
+      {
+        "resource" :
+          {
+            "name" : "NUMERO DE EMPLEADOS POR CADA EMPRESA REGISTRADA",
+            "id" : "we9a-3bys",
+            "resource_name" : null,
+            "parent_fxf" : [],
+            "description" : "NUMERO DE EMPLEADOS POR EMPRESA REGISTRADA",
+            "attribution" : "Cámara  de Comercio del Oriente Antioqueño",
+            "attribution_link" : "https://ccoa.org.co",
+            "contact_email" : null,
+            "type" : "dataset",
+            "updatedAt" : "2025-12-19T22:41:08.000Z",
+            "createdAt" : "2023-07-05T01:02:34.000Z",
+            "metadata_updated_at" : "2025-12-19T22:41:08.000Z",
+            "data_updated_at" : "2023-07-05T01:16:32.000Z",
+            "page_views" :
+              {
+                "page_views_last_week" : 41,
+                "page_views_last_month" : 381,
+                "page_views_total" : 9382,
+                "page_views_last_week_log" : 5.392317422778761,
+                "page_views_last_month_log" : 8.57742882803575,
+                "page_views_total_log" : 13.195833549955587
+              },
+            "columns_name" :
+              [
+                "ULT-ANO_REN",
+                "Estado",
+                "matricula",
+                "numid",
+                "razonsocial",
+                "nit",
+                "Personal_ocupado",
+                "FEC-MATRICULA"
+              ],
+            "columns_field_name" :
+              [
+                "periodo",
+                "estado",
+                "matricula",
+                "numid",
+                "razonsocial",
+                "nit",
+                "personal_ocupado",
+                "fecha_matricula"
+              ],
+            "columns_datatype" :
+              [
+                "Number",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Number",
+                "Number"
+              ],
+            "columns_description" :
+              [
+                "ULT-ANO_REN",
+                "EST-MATRICULA",
+                "MATRICULA",
+                "IDENTIFICACION",
+                "RAZON SOCIAL",
+                "NIT",
+                "PERSONAL",
+                "FEC-MATRICULA"
+              ],
+            "columns_format" :
+              [
+                { "decimalSeparator" : ".", "groupSeparator" : "," },
+                {},
+                { "decimalSeparator" : ".", "groupSeparator" : "," },
+                {},
+                {},
+                {},
+                { "decimalSeparator" : ".", "groupSeparator" : "," },
+                { "decimalSeparator" : ".", "groupSeparator" : "," }
+              ],
+            "download_count" : 13892,
+            "provenance" : "official",
+            "lens_view_type" : "tabular",
+            "lens_display_type" : "table",
+            "locked" : false,
+            "blob_mime_type" : null,
+            "hide_from_data_json" : false,
+            "publication_date" : "2023-07-05T01:16:44.000Z"
+          },
+        "classification" :
+          {
+            "categories" : [],
+            "tags" : [],
+            "domain_category" : "Ordenamiento Territorial",
+            "domain_tags" : [ "estadisticas" ],
+            "domain_metadata" :
+              [
+                { "key" : "Información-de-Datos_Idioma", "value" : "Español" },
+                {
+                  "key" : "Información-de-Datos_Cobertura-Geográfica",
+                  "value" : "Municipal"
+                },
+                {
+                  "key" : "Información-de-Datos_Frecuencia-de-Actualización",
+                  "value" : "Anual"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Sector",
+                  "value" : "Estadísticas"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Área-o-dependencia",
+                  "value" : "Registros"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Nombre-de-la-Entidad",
+                  "value" : "Cámara de Comercio del Oriente Antioqueño"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Orden",
+                  "value" : "Territorial"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Municipio",
+                  "value" : "Rionegro"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Departamento",
+                  "value" : "Antioquia"
+                }
+              ]
+          },
+        "metadata" :
+          {
+            "domain" : "www.datos.gov.co",
+            "license" : "Creative Commons Attribution 4.0 International"
+          },
+        "permalink" : "https://www.datos.gov.co/d/we9a-3bys",
+        "link" : "https://www.datos.gov.co/Ordenamiento-Territorial/NUMERO-DE-EMPLEADOS-POR-CADA-EMPRESA-REGISTRADA/we9a-3bys",
+        "owner" :
+          {
+            "id" : "wt37-ipiu",
+            "user_type" : "interactive",
+            "display_name" : "Cámara de Comercio del Oriente Antioqueño"
+          },
+        "creator" :
+          {
+            "id" : "wt37-ipiu",
+            "user_type" : "interactive",
+            "display_name" : "Cámara de Comercio del Oriente Antioqueño"
+          }
+      },
+      {
+        "resource" :
+          {
+            "name" : "Licencias Urbanisticas",
+            "id" : "psyr-i7bp",
+            "resource_name" : null,
+            "parent_fxf" : [],
+            "description" : "Este conjunto de datos contiene información sobre la cantidad de actos administrativos asociados a licencias urbanísticas (construcción, parcelación, subdivisión y urbanización) y actos de reconocimiento de la existencia de edificaciones, reportados por los Curadores Urbanos a la SNR, a través del Sistema Integrado de Servicios y Gestión de la SNR, en cumplimiento de la Resolución 8103 de 2018 modificada por la Resolución 11274 de 2018, expedidas por la Superintendencia.",
+            "attribution" : "Superintendencia de Notariado y Registro",
+            "attribution_link" : null,
+            "contact_email" : null,
+            "type" : "dataset",
+            "updatedAt" : "2025-08-28T15:56:03.000Z",
+            "createdAt" : "2025-08-26T20:18:45.000Z",
+            "metadata_updated_at" : "2025-08-28T15:56:03.000Z",
+            "data_updated_at" : "2025-08-28T15:47:10.000Z",
+            "page_views" :
+              {
+                "page_views_last_week" : 13,
+                "page_views_last_month" : 59,
+                "page_views_total" : 317,
+                "page_views_last_week_log" : 3.8073549220576037,
+                "page_views_last_month_log" : 5.906890595608519,
+                "page_views_total_log" : 8.312882955284357
+              },
+            "columns_name" :
+              [
+                "Parcelación",
+                "Municipio",
+                "Cod Municipio",
+                "Construcción",
+                "Actos Admin Expedidos",
+                "Curaduria",
+                "Cod Depar",
+                "Año",
+                "Cuatrimestre",
+                "Urbanización",
+                "Region",
+                "Subdivisión",
+                "Departamento",
+                "Reconocimiento"
+              ],
+            "columns_field_name" :
+              [
+                "parcelaci_n",
+                "municipio",
+                "cod_municipio",
+                "construcci_n",
+                "actos_admin_expedidos",
+                "curaduria",
+                "cod_depar",
+                "a_o",
+                "cuatrimestre",
+                "urbanizaci_n",
+                "region",
+                "subdivisi_n",
+                "departamento",
+                "reconocimiento"
+              ],
+            "columns_datatype" :
+              [
+                "Number",
+                "Text",
+                "Number",
+                "Number",
+                "Number",
+                "Text",
+                "Number",
+                "Number",
+                "Text",
+                "Number",
+                "Text",
+                "Number",
+                "Text",
+                "Number"
+              ],
+            "columns_description" :
+              [
+                "Número de actos administrativos asociados a licencias de parcelación.",
+                "Nombre del municipio donde se reporta la información.",
+                "Código numérico único que identifica al municipio, de acuerdo con la codificación del DANE.",
+                "Número de actos administrativos asociados a licencias de subdivisión.",
+                "Total de actos administrativos reportados por la Curaduría en el periodo de referencia.",
+                "Identificación de la Curaduría Urbana que expide el acto administrativo.",
+                "Código numérico único que identifica al departamento, de acuerdo con la codificación del DANE",
+                "Año calendario en el que fueron reportados los actos administrativos expedidos por los Curadores Urbanos.",
+                "Año calendario en el que fueron reportados los actos administrativos expedidos por los Curadores Urbanos.",
+                "Número de actos administrativos asociados a licencias de urbanización.",
+                "División territorial del país según regiones geográficas utilizadas para la agrupación de la información.",
+                "Número de actos administrativos asociados a licencias de subdivisión.",
+                "Nombre del departamento donde se reporta la información.",
+                "Número de actos administrativos asociados al trámite de reconocimiento de la existencia de edificaciones."
+              ],
+            "columns_format" :
+              [
+                { "decimalSeparator" : ".", "groupSeparator" : "," },
+                {},
+                { "decimalSeparator" : ".", "groupSeparator" : "," },
+                { "decimalSeparator" : ".", "groupSeparator" : "," },
+                { "decimalSeparator" : ".", "groupSeparator" : "," },
+                {},
+                { "decimalSeparator" : ".", "groupSeparator" : "," },
+                { "decimalSeparator" : ".", "groupSeparator" : "," },
+                {},
+                { "decimalSeparator" : ".", "groupSeparator" : "," },
+                {},
+                { "decimalSeparator" : ".", "groupSeparator" : "," },
+                {},
+                { "decimalSeparator" : ".", "groupSeparator" : "," }
+              ],
+            "download_count" : 21,
+            "provenance" : "official",
+            "lens_view_type" : "tabular",
+            "lens_display_type" : "table",
+            "locked" : false,
+            "blob_mime_type" : null,
+            "hide_from_data_json" : false,
+            "publication_date" : "2025-08-26T20:46:57.000Z"
+          },
+        "classification" :
+          {
+            "categories" : [],
+            "tags" : [],
+            "domain_category" : "Justicia y Derecho",
+            "domain_tags" : [ "licencias urbanísticas" ],
+            "domain_metadata" :
+              [
+                { "key" : "Información-de-Datos_Idioma", "value" : "Español" },
+                {
+                  "key" : "Información-de-Datos_Cobertura-Geográfica",
+                  "value" : "Nacional"
+                },
+                {
+                  "key" : "Información-de-Datos_Frecuencia-de-Actualización",
+                  "value" : "Cuatrimestral"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Área-o-dependencia",
+                  "value" : "Oficina Asesora de Planeación"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Nombre-de-la-Entidad",
+                  "value" : "Superintendencia de Notariado y Registro"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Orden",
+                  "value" : "Nacional"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Municipio",
+                  "value" : "Bogotá D.C."
+                },
+                {
+                  "key" : "Información-de-la-Entidad_DIVIPOLA-Municipio",
+                  "value" : "11001"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Departamento",
+                  "value" : "Bogotá D.C."
+                }
+              ]
+          },
+        "metadata" :
+          {
+            "domain" : "www.datos.gov.co",
+            "license" : "Creative Commons Attribution | NoDerivatives 4.0 International License"
+          },
+        "permalink" : "https://www.datos.gov.co/d/psyr-i7bp",
+        "link" : "https://www.datos.gov.co/Justicia-y-Derecho/Licencias-Urbanisticas/psyr-i7bp",
+        "owner" :
+          {
+            "id" : "tzdg-stx9",
+            "user_type" : "interactive",
+            "display_name" : "SUPERINTENDENCIA DE NOTARIADO Y REGISTRO"
+          },
+        "creator" :
+          {
+            "id" : "tzdg-stx9",
+            "user_type" : "interactive",
+            "display_name" : "SUPERINTENDENCIA DE NOTARIADO Y REGISTRO"
+          }
+      }
+    ],
+  "resultSetSize" : 63,
+  "timings" : { "serviceMillis" : 21, "searchMillis" : [ 2, 6 ] },
+  "warnings" : []
+}

@@ -6,7 +6,14 @@ import { DemandGradientSection } from "./_components/demand-gradient-section";
 import { Phase2ResultsSection } from "./_components/phase2-results-section";
 import { TrafficChartsSection } from "./_components/traffic-charts-section";
 import { HealthGapSection } from "./_components/health-gap-section";
+import { OrienteDemographicsSection } from "./_components/oriente-demographics-section";
+import { OrienteFlowsSection } from "./_components/oriente-flows-section";
+import { OrienteHealthGapSection } from "./_components/oriente-health-gap-section";
+import { CompetitionExpandedSection } from "./_components/competition-expanded-section";
+import { AmbulatoryServicesSection } from "./_components/ambulatory-services-section";
+import { Candidate6AnalysisSection } from "./_components/candidate6-analysis-section";
 import { MCDAComparisonSection } from "./_components/mcda-comparison-section";
+import { FinancialSection } from "./_components/financial-section";
 import { DensurbamSection } from "./_components/densurbam-section";
 import { DataSourcesSection } from "./_components/data-sources-section";
 import { DataArchitectureSection } from "./_components/data-architecture-section";
@@ -26,12 +33,21 @@ export default function Home() {
       <HeroSection />
       <MethodologySection />
       <FormulaSection />
+      <MapSection />
       <DemandGradientSection />
       <Phase2ResultsSection />
       <TrafficChartsSection />
       <HealthGapSection />
-      <MapSection />
+      {/* Oriente Antioqueno expansion */}
+      <OrienteDemographicsSection />
+      <OrienteFlowsSection />
+      <OrienteHealthGapSection />
+      <CompetitionExpandedSection />
+      <AmbulatoryServicesSection />
+      <Candidate6AnalysisSection />
+      {/* Synthesis */}
       <MCDAComparisonSection />
+      <FinancialSection />
       <DensurbamSection />
       <DataSourcesSection />
       <DataArchitectureSection />

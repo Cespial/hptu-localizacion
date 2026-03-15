@@ -1,0 +1,767 @@
+{
+   "html_attributions" : [],
+   "results" : 
+   [
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 6.087088400000001,
+               "lng" : -75.33715219999999
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 6.088427280291504,
+                  "lng" : -75.3358632697085
+               },
+               "southwest" : 
+               {
+                  "lat" : 6.085729319708499,
+                  "lng" : -75.3385612302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/hospital-71.png",
+         "icon_background_color" : "#F88181",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/hospital-H_pinlet",
+         "name" : "PROMEDAN IPS EL CAMEN DE VIBORAL",
+         "opening_hours" : 
+         {
+            "open_now" : false
+         },
+         "place_id" : "ChIJmUEA3HmiRo4Rxq7AyXFesu0",
+         "plus_code" : 
+         {
+            "compound_code" : "3MP7+R4 Carmen de Viboral, Antioquia, Colombia",
+            "global_code" : "67R63MP7+R4"
+         },
+         "rating" : 3,
+         "reference" : "ChIJmUEA3HmiRo4Rxq7AyXFesu0",
+         "scope" : "GOOGLE",
+         "types" : 
+         [
+            "hospital",
+            "health",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 2,
+         "vicinity" : "Río Negro-El Carmen De Viboral"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 6.140691700000001,
+               "lng" : -75.37751639999999
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 6.142115380291502,
+                  "lng" : -75.3763554697085
+               },
+               "southwest" : 
+               {
+                  "lat" : 6.139417419708497,
+                  "lng" : -75.37905343029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/hospital-71.png",
+         "icon_background_color" : "#F88181",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/hospital-H_pinlet",
+         "international_phone_number" : "+57 604 6052626",
+         "name" : "Clínica Somer",
+         "opening_hours" : 
+         {
+            "open_now" : true
+         },
+         "photos" : 
+         [
+            {
+               "height" : 2542,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/111756457460223144980\"\u003eSergio Gaviria\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATCDNfXtbcKonFPu-MSuf6-82l-ejBjnRw9t17oHj-HbojdGy1WWgArlMP2DO92LrmghwChsFMQ32ZTkWZwxnIK85KPgI8TMqm9j2YhpHPbCVmKm00eZ9SjjnFMQ9FcZODSFQlwdXiaFJ2LXH2tPAPOflfqzhWJmFHsfnIOQdeyA5DszCU7qtlY7oHZcVKSlPsoBltsIjo2NqXEysm7DdmY501eEFG4s2M5NxkWtuj5ySd1UAusQaQnm13gU1IlL08_GHP4GSVCs4bZSafGzO7xhaRJtA_mozgKJ8G0WGcMpF72ZFF7pZfWnEBpWyBhk2lBLzSToTglsZwcV9XLkGCskm8iPY4FxT05kS4u7a1ex6_JxyCxikbun_2tTOvgU84jvO20XdAUrsy4rtaa1vSFQpDmd9xtk2xYz_CsiTk8EgO02l5rWITObehT2riieGN_RCyXfwBB52BXNa4JmayyBDObW0o8PL7p9d2wdRy4T_ysVMKS0EgwaruPRnONXGMaih1LQaEiKzyYJuqeuvZhJsKRn1yEOI_N-qGKWdQmnANYyUHwe5atLi_c5aGyLXTKJUM6y9jGXdeGt1uZslw9HAKsBg5Vlju2ynMEHlO9sfkZfX26HQwhXa2VvX6BosMxKnYgyDHeNnt_kvMno37zgIg",
+               "width" : 2834
+            }
+         ],
+         "place_id" : "ChIJ9ykx8CGfRo4RlzYwW6mtpN8",
+         "plus_code" : 
+         {
+            "compound_code" : "4JRC+7X Rionegro, Antioquia, Colombia",
+            "global_code" : "67R64JRC+7X"
+         },
+         "rating" : 3.7,
+         "reference" : "ChIJ9ykx8CGfRo4RlzYwW6mtpN8",
+         "scope" : "GOOGLE",
+         "types" : 
+         [
+            "hospital",
+            "health",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 372,
+         "vicinity" : "Calle 38 #No. 54A-35"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 6.083298099999999,
+               "lng" : -75.3343809
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 6.084656030291502,
+                  "lng" : -75.33303616970849
+               },
+               "southwest" : 
+               {
+                  "lat" : 6.081958069708499,
+                  "lng" : -75.3357341302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/hospital-71.png",
+         "icon_background_color" : "#F88181",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/hospital-H_pinlet",
+         "name" : "Atención al Usuario Coomeva Eps",
+         "opening_hours" : 
+         {
+            "open_now" : false
+         },
+         "place_id" : "ChIJL5oc6XuiRo4RM-E8MMNNag8",
+         "plus_code" : 
+         {
+            "compound_code" : "3MM8+86 Carmen de Viboral, Antioquia, Colombia",
+            "global_code" : "67R63MM8+86"
+         },
+         "reference" : "ChIJL5oc6XuiRo4RM-E8MMNNag8",
+         "scope" : "GOOGLE",
+         "types" : 
+         [
+            "hospital",
+            "health",
+            "point_of_interest",
+            "establishment"
+         ],
+         "vicinity" : "Calle 30 #60"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 6.083027,
+               "lng" : -75.334586
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 6.084342830291503,
+                  "lng" : -75.3333007197085
+               },
+               "southwest" : 
+               {
+                  "lat" : 6.081644869708498,
+                  "lng" : -75.33599868029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/hospital-71.png",
+         "icon_background_color" : "#F88181",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/hospital-H_pinlet",
+         "name" : "Eps Coomeva El Edén",
+         "place_id" : "ChIJ0b_s7nuiRo4R8SJCWJ3xYsE",
+         "plus_code" : 
+         {
+            "compound_code" : "3MM8+65 Carmen de Viboral, Antioquia, Colombia",
+            "global_code" : "67R63MM8+65"
+         },
+         "reference" : "ChIJ0b_s7nuiRo4R8SJCWJ3xYsE",
+         "scope" : "GOOGLE",
+         "types" : 
+         [
+            "hospital",
+            "health",
+            "point_of_interest",
+            "establishment"
+         ],
+         "vicinity" : "Carrera 30 #72"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 6.082779,
+               "lng" : -75.335302
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 6.084115880291503,
+                  "lng" : -75.33394651970849
+               },
+               "southwest" : 
+               {
+                  "lat" : 6.081417919708498,
+                  "lng" : -75.3366444802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/hospital-71.png",
+         "icon_background_color" : "#F88181",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/hospital-H_pinlet",
+         "international_phone_number" : "+57 311 6937990",
+         "name" : "Servicio médico Central Ips",
+         "opening_hours" : 
+         {
+            "open_now" : true
+         },
+         "photos" : 
+         [
+            {
+               "height" : 3000,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/106564983941348177575\"\u003eAna Isabel Bustamante\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATCDNfXVCxYQNCB-CZiLiUdEhkghaGtxf2Hw9VROMhjRuS2wEfaQP3Z8WA9HLpXm-mvIlvvDliy4MaKxdXSCWhUUOgWXPnuFtbJiDPWlN7QjfiXzu_HrqhykJqv2GpaqFgE7xb6hjVY6Lurd9pS6Bwu_09zG-24e1dAqD3czBMS8_QD0J8mAbGkZ8k4B9jJ2Y9OnA6ipKJPFIfsnnuGjwSlmU3n8iX_gSH0arvNzJvTVWNognGFzIKa23-868MsKUdS3c_UxpTFFLeG-ddfec6dvBgCNUMkcBz1Hi-Av4z8_lbTcqeh4jg2X10EWXHDgfB9-LNktgtRzueGCYp-qm4er7piNfPeggJTyxlyPiIGRDStLNQr5q0aeG-SrhwGCOs4LVuu8Eb6y3Pbmh4GD6yhuxO39jrnEDEVaztHOqso6HWYbtnCfhkfc-Nkzy2tuW6kuUj-8piXLbNVc0zaOPAmJs5xkbAoaw6cmGjUxgvW-Rh0K-famloXVdg8ykCW7f2AYGaRgMe3FjARrGWMITrUcvn-5XjPZn6NvtH5KXlDmVtzA8PmHHNyRH9MSHzV_pt_JVy7b0irNpaM2kWmsLRRwXaITrij15Itv0uHBx179mt-KTlSfbLGUpQVTZpSBw04n3iUIir1r",
+               "width" : 4000
+            }
+         ],
+         "place_id" : "ChIJDWBA_XuiRo4RW0Axs49RGOc",
+         "plus_code" : 
+         {
+            "compound_code" : "3MM7+4V Carmen de Viboral, Antioquia, Colombia",
+            "global_code" : "67R63MM7+4V"
+         },
+         "rating" : 4.5,
+         "reference" : "ChIJDWBA_XuiRo4RW0Axs49RGOc",
+         "scope" : "GOOGLE",
+         "types" : 
+         [
+            "hospital",
+            "health",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 2,
+         "vicinity" : "Calle 30 #63"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 6.0833078,
+               "lng" : -75.33620879999999
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 6.084651380291502,
+                  "lng" : -75.33485731970849
+               },
+               "southwest" : 
+               {
+                  "lat" : 6.081953419708499,
+                  "lng" : -75.33755528029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/hospital-71.png",
+         "icon_background_color" : "#F88181",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/hospital-H_pinlet",
+         "international_phone_number" : "+57 313 7421823",
+         "name" : "EPS Sura - El Carmen de Viboral",
+         "place_id" : "ChIJ51t53RejRo4RyCcUODb-zTQ",
+         "plus_code" : 
+         {
+            "compound_code" : "3MM7+8G Carmen de Viboral, Antioquia, Colombia",
+            "global_code" : "67R63MM7+8G"
+         },
+         "rating" : 3.2,
+         "reference" : "ChIJ51t53RejRo4RyCcUODb-zTQ",
+         "scope" : "GOOGLE",
+         "types" : 
+         [
+            "hospital",
+            "health",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 6,
+         "vicinity" : "Calle 31 #3126"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 6.0810715,
+               "lng" : -75.3319795
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 6.082414430291502,
+                  "lng" : -75.3306438197085
+               },
+               "southwest" : 
+               {
+                  "lat" : 6.079716469708497,
+                  "lng" : -75.33334178029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/hospital-71.png",
+         "icon_background_color" : "#F88181",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/hospital-H_pinlet",
+         "international_phone_number" : "+57 300 9074555",
+         "name" : "CRC certimedicos",
+         "opening_hours" : 
+         {
+            "open_now" : false
+         },
+         "photos" : 
+         [
+            {
+               "height" : 1156,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/103337928470224309696\"\u003eCRC CERTIMEDICOS SAS\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATCDNfW_lE3kshHOxhhl02bcwlXBvWVvRT2ceoFlfaPIWaoJN59BbTi8jzPzNq1QWGZw0qZ3bG78GlE-_PLqbZ0dVTgU3vzl-Ypu8Haob9tVX7L2f8QVyowxad-POn3aRQVrwnzkQ19sX-4gV-Y5T7PZWQ3PoXH68p9zYFbSfvdm9JL1ZUe853BG8Ae1itcuoeA-VRPmcgW4QFL-7zeQPuGn3O0_81a97aEW9an-THR6itgwDMk87PXywdIaNkwFSj6Pvb2T3WJDwEhuZLDYNs2olaxlGcFu2nRyC8fJ89JgzmaAUreA7ebf9W7w-7svr-F4SM6M0Hc0SZWeUL6YDw1LFJHW-SrrmXuNDTMtBFnzi5xoCf4u-clHcYIhja2JHMg96YLjIGu6bMhGvBQGtYG0DXhw73dVTSXJ9DWVSzYYh9iOjL8BydLBuR3CGlHM5lH72-0fokg79gXArJLace8JVdJN4FNRnbO3ffWxjCWaCYGRJ5STokVr54irmeFlLEOor5Ppg2WLiKZ9Fc7pyAnqAdoIRFBBqEj7rzCr8c0iPxcJYXlZYkJ1Cd8xFqFNgfgs2BMG2yTfGQfePeohdUz4YL1-8wfXSG9vP4vShVJFgiC3OwsFJOVy_ijC_zur3pjGiQkXK979",
+               "width" : 1600
+            }
+         ],
+         "place_id" : "ChIJUSOehMajRo4RJDIgkzVnWcw",
+         "plus_code" : 
+         {
+            "compound_code" : "3MJ9+C6 Carmen de Viboral, Antioquia, Colombia",
+            "global_code" : "67R63MJ9+C6"
+         },
+         "reference" : "ChIJUSOehMajRo4RJDIgkzVnWcw",
+         "scope" : "GOOGLE",
+         "types" : 
+         [
+            "hospital",
+            "health",
+            "point_of_interest",
+            "establishment"
+         ],
+         "vicinity" : "054030 tahamies"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 6.082162599999999,
+               "lng" : -75.3374295
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 6.083519130291502,
+                  "lng" : -75.33606086970849
+               },
+               "southwest" : 
+               {
+                  "lat" : 6.080821169708497,
+                  "lng" : -75.33875883029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/hospital-71.png",
+         "icon_background_color" : "#F88181",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/hospital-H_pinlet",
+         "international_phone_number" : "+57 45562629",
+         "name" : "UniMD MediArt TeleMedicina Especilizada",
+         "opening_hours" : 
+         {
+            "open_now" : true
+         },
+         "place_id" : "ChIJUULgzH6iRo4RteiPX120FgM",
+         "plus_code" : 
+         {
+            "compound_code" : "3MJ7+V2 Carmen de Viboral, Antioquia, Colombia",
+            "global_code" : "67R63MJ7+V2"
+         },
+         "reference" : "ChIJUULgzH6iRo4RteiPX120FgM",
+         "scope" : "GOOGLE",
+         "types" : 
+         [
+            "hospital",
+            "health",
+            "point_of_interest",
+            "establishment"
+         ],
+         "vicinity" : "Via al Carmen de Viboral Km2 Calle 13 a # 4, 07"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 6.075138000000001,
+               "lng" : -75.3325112
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 6.076469430291502,
+                  "lng" : -75.33115516970848
+               },
+               "southwest" : 
+               {
+                  "lat" : 6.073771469708498,
+                  "lng" : -75.33385313029149
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/hospital-71.png",
+         "icon_background_color" : "#F88181",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/hospital-H_pinlet",
+         "name" : "Epsm Ecoopsos",
+         "place_id" : "ChIJcWEZCIeiRo4RDPhsEFvQxCc",
+         "plus_code" : 
+         {
+            "compound_code" : "3MG8+3X Carmen de Viboral, Antioquia, Colombia",
+            "global_code" : "67R63MG8+3X"
+         },
+         "rating" : 3,
+         "reference" : "ChIJcWEZCIeiRo4RDPhsEFvQxCc",
+         "scope" : "GOOGLE",
+         "types" : 
+         [
+            "hospital",
+            "health",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 2,
+         "vicinity" : "Calle 20 #31a4"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 6.075207000000001,
+               "lng" : -75.33194979999999
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 6.076474880291503,
+                  "lng" : -75.33059586970849
+               },
+               "southwest" : 
+               {
+                  "lat" : 6.073776919708498,
+                  "lng" : -75.3332938302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/hospital-71.png",
+         "icon_background_color" : "#F88181",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/hospital-H_pinlet",
+         "international_phone_number" : "+57 45434343",
+         "name" : "Hospital San Juan De Dios",
+         "opening_hours" : 
+         {
+            "open_now" : true
+         },
+         "photos" : 
+         [
+            {
+               "height" : 1800,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/109563088979218661799\"\u003eH D\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATCDNfVyYMZB54xEBSpElflLdAhmogUU3K1gP_XKWFD6Hrf3AcVa0fks0dqrz2KEuYEhR6gfefETNVIqV5Tal0sJbazSBXAU2M-nxTSLVKKCl0tXiul3X1IpJaWCTn-10_bS6grL6PLZR15VVm3Q3em3LAWEHeKitmzjW_9XKwmkPTTuLeYIgdOWeJf0uDNQqMde1erCFInqczuQD4MfYqI4To4vAVbYT1cs_PANDq2wGav3IKQfP0wKJsHpP17cHTzKsXtV-fHBhIE0ASaRvv-2yMfeJlF3xClySUh6Jv4bBucBzMvHsSZh6Hb8mMfvCUweTbzzAgaevbF-DWDt-Yq0jPMqLEKH0NWFpFoH1ul6n-6QU4pNOrfaheV7hsltkrssG__NFwCRszLZqSmOvpe23GTzIcD7XWoRPqlwal68jrxc-B33UAEaFvKvMdgzR5tu9fV_0xWA8l3vsFdarOojYexATc09WiiFrqtrJ-HPYnAApPKu47kSSuFD9zxxEYC4QPNkJXtktTjUuCn5G-wadNcPz3iOE_GcWYJ3a_JqZG4sqc2oT1sNfHoXMqXbQpTvg4KWaKLkFjG0Z8eSxzrodn8g2V63-bj2llWXonYlDHCHIZhsq1SPOlGrq_C9JCYwwvMAYGJn",
+               "width" : 4000
+            }
+         ],
+         "place_id" : "ChIJmXRiuoeiRo4R4dNUlySQKi8",
+         "plus_code" : 
+         {
+            "compound_code" : "3MG9+36 Carmen de Viboral, Antioquia, Colombia",
+            "global_code" : "67R63MG9+36"
+         },
+         "rating" : 3.1,
+         "reference" : "ChIJmXRiuoeiRo4R4dNUlySQKi8",
+         "scope" : "GOOGLE",
+         "types" : 
+         [
+            "hospital",
+            "health",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 23,
+         "vicinity" : "Calle 19 #2865"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 6.130713999999999,
+               "lng" : -75.3776912
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 6.132106480291502,
+                  "lng" : -75.3763284697085
+               },
+               "southwest" : 
+               {
+                  "lat" : 6.129408519708497,
+                  "lng" : -75.3790264302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/hospital-71.png",
+         "icon_background_color" : "#F88181",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/hospital-H_pinlet",
+         "name" : "Flor María Gállego Quintero",
+         "place_id" : "ChIJE66JeBWfRo4REsMgsGjh0T8",
+         "plus_code" : 
+         {
+            "compound_code" : "4JJC+7W Rionegro, Antioquia, Colombia",
+            "global_code" : "67R64JJC+7W"
+         },
+         "reference" : "ChIJE66JeBWfRo4REsMgsGjh0T8",
+         "scope" : "GOOGLE",
+         "types" : 
+         [
+            "hospital",
+            "health",
+            "point_of_interest",
+            "establishment"
+         ],
+         "vicinity" : "Cl. 25b ## 53A 10"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 6.0350514,
+               "lng" : -75.3859748
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 6.036394380291504,
+                  "lng" : -75.38468581970849
+               },
+               "southwest" : 
+               {
+                  "lat" : 6.033696419708499,
+                  "lng" : -75.38738378029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/hospital-71.png",
+         "icon_background_color" : "#F88181",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/hospital-H_pinlet",
+         "name" : "Clinica Occidente",
+         "photos" : 
+         [
+            {
+               "height" : 3984,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/110582369354286193855\"\u003eLeonardo Cardona\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATCDNfWxNGAZcbR3oAd7bv8WrKxmdR_RSLlaD67MKMuHFyEiXsP7_E7deuc4TRI09nI2HnWrE82TGgdpyKncOyYecY6LPOuLk7OeK0nZHP4fYSqtH-1yq7KPScEECYjeM_0yx4AHge0lXmIeih84UdFtSr1oNt56ojtLbeH9IPLyk7bDPtemAAwPfXUAbz1t-K2e4_YohLRhBBj5OjN2luNESHmkWPrxIuMz23DJ6sZEIzVscJTA6-XszBdVtaY03dh_muVhECfdUjddiEhJT81Di_FTXiYhUnslVEwVP8BWCFuVH-OdAWdK9auouqmR3DiFzjbvk-pgRuQtTZW9j-sQRJQeOsL_Np_MRH9_xx3lSSMYBZqkxpSMFkBWRQdI7gKgOpepNdAcOE4bmeNmCCDQgyaIbfbeiipvDvwrbnEPwd-3GQUWXTL8Zc-pVgvwIM_AXzYeojhsqxfYk2FJ1CbVsiw8UJkyYmT3nXyoOK7aOWhE3kha6jrYK_FX_RVI7dSQCgreIBWdiecVpmPpk9A_F6mBEoB-4dQXemj5sEyCUqcvGpNmYrv-vrHpeIN8RYn4E6b9A9qFumTvl5wLTGdOjr8b8nelHPWL6CyMgcvkiEXd3e_QQ1GOBCUle-QSLr55j0xOjA",
+               "width" : 2988
+            }
+         ],
+         "place_id" : "ChIJ7wH4S4CXRo4RyF6-7zj8-6I",
+         "plus_code" : 
+         {
+            "compound_code" : "2JP7+2J La Ceja, Antioquia, Colombia",
+            "global_code" : "67R62JP7+2J"
+         },
+         "reference" : "ChIJ7wH4S4CXRo4RyF6-7zj8-6I",
+         "scope" : "GOOGLE",
+         "types" : 
+         [
+            "hospital",
+            "health",
+            "point_of_interest",
+            "establishment"
+         ],
+         "vicinity" : ""
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 6.139765,
+               "lng" : -75.378608
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 6.141241080291501,
+                  "lng" : -75.37726876970849
+               },
+               "southwest" : 
+               {
+                  "lat" : 6.138543119708497,
+                  "lng" : -75.3799667302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/hospital-71.png",
+         "icon_background_color" : "#F88181",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/hospital-H_pinlet",
+         "international_phone_number" : "+57 43607080",
+         "name" : "Centro Integral de Salud Comfama",
+         "opening_hours" : 
+         {
+            "open_now" : false
+         },
+         "photos" : 
+         [
+            {
+               "height" : 768,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/104579790877535879142\"\u003eBryan Alexander\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATCDNfU2nfWuSSezG4p-ZH4MzYREna0BlroLxOkIlOJcHf6sWffc783YBuZiEpnbEgGoERSXOv4FFrSBHi0sgXS5WOb-_iyU7WYBxG1XRYnopqUuYdDYqVy3xUACnWK6DJkfJR9sNX2MSYLLGkx9mHdo0cAJ0HajKFjYxUfHiom3F7JaZf5e5QaPTM9Rp4z_mgosIdk4W-NBagnxTXi2lihpZ-65OTx7Hh2s9HCT6VyqVGZG7SCbBOCMPfErTY_GwHW0Mo0yobSpzJoCHwayCV8DjQ2uNBn8BGb_ECG1UHeEEp3b0UXWMTsbx35JhWZGHUzhpYtQGGgr0GlF6YrVubWy9NmGyKy8zbUMjfPJmVgnY7fItptEOn9a_yKIDrXeM0VwqP67QBqe39Ls4wmfylAwKfpVagbPN2d8Q8t7bzg_IpoE8spNDxE8XNSqQohWIOUve0SgKMvXjRUIdQENjZGBySThom3KzixObRoB4N9xsfZHm6w8CAcg50jbogM7LiJL7RtGWA5W3EfyOavNCW51v0WwH50JU5pYRuCNOm407FNfZ8KsKkGQi0zIrVqYwfBOzoRLIcRwUr_rQZcdwKJ03XWRMVGG6YEdjIlzn6LLrMNuKCd4afBBqJUOU8SBTc2drT5AKKJvmAb6w8Of_9Y1Rb-wh8Y",
+               "width" : 1024
+            }
+         ],
+         "place_id" : "ChIJ_wCagyKfRo4RzOxMsmgo2B0",
+         "plus_code" : 
+         {
+            "compound_code" : "4JQC+WH Rionegro, Antioquia, Colombia",
+            "global_code" : "67R64JQC+WH"
+         },
+         "rating" : 3.9,
+         "reference" : "ChIJ_wCagyKfRo4RzOxMsmgo2B0",
+         "scope" : "GOOGLE",
+         "types" : 
+         [
+            "hospital",
+            "health",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 12,
+         "vicinity" : "Carrera 55A #229"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 6.140611,
+               "lng" : -75.37765469999999
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 6.142125280291502,
+                  "lng" : -75.37638406970849
+               },
+               "southwest" : 
+               {
+                  "lat" : 6.139427319708497,
+                  "lng" : -75.3790820302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/hospital-71.png",
+         "icon_background_color" : "#F88181",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/hospital-H_pinlet",
+         "international_phone_number" : "+57 319 5757138",
+         "name" : "Centro Médico Femo Estética Rionegro",
+         "opening_hours" : 
+         {
+            "open_now" : false
+         },
+         "photos" : 
+         [
+            {
+               "height" : 1350,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/117750979020202439223\"\u003eCentro Médico Femo Estética Rionegro\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATCDNfVZpfetMMbWmkrWKR-SqGFXvO-ojGgC336vy0i46UoDqk7OOE3G7XWsN76_tkZMtTfyh2NhwK-Ki4bwcFWcrN_7ukJP2XC3dntZEYa5ebLC0n4gUNP2eUbIcaa7QloDtLIHvvSDFcaVVX3IcHaGi8T2fCU13hQ99IhY0ZuQdrgse3d2wnrf9dthRBzJt4L3MsrX7AHhM5JFVwIBWGr1Y3y7PZRVWPGNcqpengMYCuy_i3cIk064FEuhSW74nLajySmS8lUi5tN0Rtg1EOI6Mtv0rmdg1qqp_lpQDqtPSpr0htFG6lvAFwQ71ujwkYy5JJHDYabeha8",
+               "width" : 1080
+            }
+         ],
+         "place_id" : "ChIJbc55_bafRo4Rbp1pmNdDcQE",
+         "plus_code" : 
+         {
+            "compound_code" : "4JRC+6W Rionegro, Antioquia, Colombia",
+            "global_code" : "67R64JRC+6W"
+         },
+         "rating" : 4.9,
+         "reference" : "ChIJbc55_bafRo4Rbp1pmNdDcQE",
+         "scope" : "GOOGLE",
+         "types" : 
+         [
+            "hospital",
+            "health",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 16,
+         "vicinity" : "Consultorio 310, Calle 38 #54A 35 Torre 1"
+      }
+   ],
+   "status" : "OK"
+}

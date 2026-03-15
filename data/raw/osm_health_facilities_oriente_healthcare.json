@@ -1,0 +1,3245 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-03-15T13:34:14Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+
+{
+  "type": "node",
+  "id": 1212791939,
+  "lat": 6.2159978,
+  "lon": -75.2389373,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Hospital San Juan de Dios"
+  }
+},
+{
+  "type": "node",
+  "id": 1945460332,
+  "lat": 6.3473464,
+  "lon": -75.5067770,
+  "tags": {
+    "amenity": "hospital",
+    "emergency": "no",
+    "healthcare": "hospital",
+    "name": "EPS Sura - Comfama"
+  }
+},
+{
+  "type": "node",
+  "id": 2972395707,
+  "lat": 6.2434231,
+  "lon": -75.5404091,
+  "tags": {
+    "amenity": "clinic",
+    "building": "yes",
+    "healthcare": "clinic",
+    "name": "Centro de Salud - Pinares de Oriente"
+  }
+},
+{
+  "type": "node",
+  "id": 3584027409,
+  "lat": 6.0815410,
+  "lon": -75.3348496,
+  "tags": {
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy"
+  }
+},
+{
+  "type": "node",
+  "id": 3584027410,
+  "lat": 6.0823238,
+  "lon": -75.3353874,
+  "tags": {
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy"
+  }
+},
+{
+  "type": "node",
+  "id": 4154627530,
+  "lat": 6.0306277,
+  "lon": -75.4312254,
+  "tags": {
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Droguería Profamiliar Parque"
+  }
+},
+{
+  "type": "node",
+  "id": 4154627542,
+  "lat": 6.0313318,
+  "lon": -75.4311611,
+  "tags": {
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy"
+  }
+},
+{
+  "type": "node",
+  "id": 4327588739,
+  "lat": 6.0578351,
+  "lon": -75.1854957,
+  "tags": {
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Drogueria"
+  }
+},
+{
+  "type": "node",
+  "id": 4330146061,
+  "lat": 6.0587743,
+  "lon": -75.1868305,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Hospital San juan de Dios"
+  }
+},
+{
+  "type": "node",
+  "id": 4332349859,
+  "lat": 6.2933251,
+  "lon": -75.5385274,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital"
+  }
+},
+{
+  "type": "node",
+  "id": 4341968794,
+  "lat": 6.0572380,
+  "lon": -75.1851477,
+  "tags": {
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Anita"
+  }
+},
+{
+  "type": "node",
+  "id": 4346600912,
+  "lat": 6.0587177,
+  "lon": -75.1868998,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Urgencias Hospitalarias"
+  }
+},
+{
+  "type": "node",
+  "id": 4346654197,
+  "lat": 6.0584108,
+  "lon": -75.1860988,
+  "tags": {
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Farmacia Nuevo Mundo"
+  }
+},
+{
+  "type": "node",
+  "id": 4376702668,
+  "lat": 6.0582362,
+  "lon": -75.1846025,
+  "tags": {
+    "amenity": "dentist",
+    "healthcare": "dentist",
+    "name": "Consultorio Odontológico"
+  }
+},
+{
+  "type": "node",
+  "id": 4376702675,
+  "lat": 6.0584536,
+  "lon": -75.1850210,
+  "tags": {
+    "amenity": "dentist",
+    "healthcare": "dentist",
+    "name": "Consultorio Odontologico Carlos León"
+  }
+},
+{
+  "type": "node",
+  "id": 4385805406,
+  "lat": 6.0568966,
+  "lon": -75.1848486,
+  "tags": {
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Drogería Nueva York"
+  }
+},
+{
+  "type": "node",
+  "id": 4395081010,
+  "lat": 6.0574520,
+  "lon": -75.1858337,
+  "tags": {
+    "amenity": "dentist",
+    "healthcare": "dentist",
+    "name": "Odontología Diana"
+  }
+},
+{
+  "type": "node",
+  "id": 4441418890,
+  "lat": 6.2342952,
+  "lon": -75.1620484,
+  "tags": {
+    "amenity": "pharmacy",
+    "description": "droguería",
+    "description:es": "droguería",
+    "healthcare": "pharmacy"
+  }
+},
+{
+  "type": "node",
+  "id": 4441426489,
+  "lat": 6.2346089,
+  "lon": -75.1619442,
+  "tags": {
+    "amenity": "pharmacy",
+    "description": "droguería",
+    "description:es": "droguería",
+    "healthcare": "pharmacy"
+  }
+},
+{
+  "type": "node",
+  "id": 4441427489,
+  "lat": 6.2332484,
+  "lon": -75.1571026,
+  "tags": {
+    "amenity": "hospital",
+    "description": "hospital",
+    "description:es": "hospital",
+    "healthcare": "hospital"
+  }
+},
+{
+  "type": "node",
+  "id": 4533054969,
+  "lat": 6.1514382,
+  "lon": -75.3733601,
+  "tags": {
+    "addr:housenumber": "46-22",
+    "addr:street": "Carrera 50",
+    "check_date": "2024-03-04",
+    "healthcare": "yes",
+    "name": "IPS SURA",
+    "operator": "EPS SURA",
+    "source": "gps samsung j1 ace"
+  }
+},
+{
+  "type": "node",
+  "id": 4698722891,
+  "lat": 6.3389999,
+  "lon": -75.5420590,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Clínica Emmsa",
+    "name:es": "Clínica Emmsa"
+  }
+},
+{
+  "type": "node",
+  "id": 4757205352,
+  "lat": 6.2828180,
+  "lon": -75.3320850,
+  "tags": {
+    "addr:city": "San Vicente",
+    "addr:street": "Calle 31",
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "healthcare:speciality": "general",
+    "name": "HOSPITAL",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 4757205358,
+  "lat": 6.2320290,
+  "lon": -75.1565590,
+  "tags": {
+    "amenity": "hospital",
+    "description": "hospital",
+    "healthcare": "hospital"
+  }
+},
+{
+  "type": "node",
+  "id": 4757205366,
+  "lat": 6.1365760,
+  "lon": -75.2619210,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Promedan Ips Santuario"
+  }
+},
+{
+  "type": "node",
+  "id": 4757205369,
+  "lat": 6.0576210,
+  "lon": -75.1865460,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "HOSPITAL"
+  }
+},
+{
+  "type": "node",
+  "id": 4802488624,
+  "lat": 6.0833257,
+  "lon": -75.3344075,
+  "tags": {
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Drofarma Droguería El Carmen",
+    "name:es": "Drofarma Droguería El Carmen"
+  }
+},
+{
+  "type": "node",
+  "id": 4949992521,
+  "lat": 6.0819426,
+  "lon": -75.3342529,
+  "tags": {
+    "addr:housenumber": "28-45",
+    "addr:street": "Carrera 30",
+    "amenity": "dentist",
+    "healthcare": "dentist",
+    "name": "Consultorio Odontologico Katerine Urrego",
+    "opening_hours": "Su-Fr 09:00-18:00",
+    "phone": "+57 311 3665029;+57 604 5436649"
+  }
+},
+{
+  "type": "node",
+  "id": 4985996842,
+  "lat": 6.2347223,
+  "lon": -75.1602086,
+  "tags": {
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Drofarma",
+    "name:es": "Drofarma"
+  }
+},
+{
+  "type": "node",
+  "id": 4985996844,
+  "lat": 6.2335810,
+  "lon": -75.1622488,
+  "tags": {
+    "amenity": "dentist",
+    "healthcare": "dentist",
+    "name": "Odontologico",
+    "name:es": "Odontologico"
+  }
+},
+{
+  "type": "node",
+  "id": 4985996848,
+  "lat": 6.2341675,
+  "lon": -75.1597332,
+  "tags": {
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy"
+  }
+},
+{
+  "type": "node",
+  "id": 4986004231,
+  "lat": 6.2345378,
+  "lon": -75.1594544,
+  "tags": {
+    "amenity": "dentist",
+    "healthcare": "dentist",
+    "name": "Gama dental",
+    "name:es": "Gama dental"
+  }
+},
+{
+  "type": "node",
+  "id": 5016776723,
+  "lat": 6.3497187,
+  "lon": -75.5048852,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Hospital Santa Margarita",
+    "name:es": "Hospital Santa Margarita"
+  }
+},
+{
+  "type": "node",
+  "id": 5249839582,
+  "lat": 6.2702686,
+  "lon": -75.5363906,
+  "tags": {
+    "addr:street": "Carrera 24",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Punto de Salud"
+  }
+},
+{
+  "type": "node",
+  "id": 5249839647,
+  "lat": 6.2715977,
+  "lon": -75.5376808,
+  "tags": {
+    "addr:street": "Carrera 24",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Farmacia Central"
+  }
+},
+{
+  "type": "node",
+  "id": 5426975195,
+  "lat": 6.2668654,
+  "lon": -75.5423047,
+  "tags": {
+    "addr:city": "Comuna 3 - Manrique",
+    "addr:housenumber": "28A-26",
+    "addr:street": "Calle 71B",
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Drogueria Dallas"
+  }
+},
+{
+  "type": "node",
+  "id": 5449543440,
+  "lat": 6.2659937,
+  "lon": -75.5446566,
+  "tags": {
+    "addr:street": "Carrera 31A #71-59",
+    "amenity": "pharmacy",
+    "dispensing": "yes",
+    "healthcare": "pharmacy"
+  }
+},
+{
+  "type": "node",
+  "id": 5523952640,
+  "lat": 6.3460315,
+  "lon": -75.5476484,
+  "tags": {
+    "addr:street": "Diagonal 65",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Droguería Jaimar",
+    "source": "Kaart Ground Survey 2018"
+  }
+},
+{
+  "type": "node",
+  "id": 5545675236,
+  "lat": 6.2641580,
+  "lon": -75.5423415,
+  "tags": {
+    "addr:city": "Comuna 3 - Manrique",
+    "addr:housenumber": "numero 28 30",
+    "addr:street": "Calle 70",
+    "amenity": "pharmacy",
+    "description": "venden medicamento ( ibuprofeno, acetaminofen, acetaminofen en jarabe, buscapina, calmidol,mareol) tienen estanterias para colocar los medicamentos",
+    "drive_through": "no",
+    "healthcare": "pharmacy",
+    "name": "Tienda Maria Hoyos",
+    "opening_hours": "7:00 am 8:00 pm",
+    "operator": "maria hoyos",
+    "payment:cash": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 5545722855,
+  "lat": 6.2666715,
+  "lon": -75.5447521,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "centro de salud raizal"
+  }
+},
+{
+  "type": "node",
+  "id": 5623291925,
+  "lat": 6.2347248,
+  "lon": -75.1620174,
+  "tags": {
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy"
+  }
+},
+{
+  "type": "node",
+  "id": 6453641086,
+  "lat": 6.0828013,
+  "lon": -75.3351311,
+  "tags": {
+    "addr:city": "El Carmen De Viboral",
+    "addr:postcode": "054030",
+    "addr:street": "Calle 30",
+    "amenity": "pharmacy",
+    "dispensing": "yes",
+    "drive_through": "no",
+    "healthcare": "pharmacy",
+    "name": "Farmacia Central"
+  }
+},
+{
+  "type": "node",
+  "id": 7326947124,
+  "lat": 6.2678716,
+  "lon": -75.5444098,
+  "tags": {
+    "amenity": "pharmacy",
+    "dispensing": "yes",
+    "healthcare": "pharmacy",
+    "shop": "clothes"
+  }
+},
+{
+  "type": "node",
+  "id": 7331865562,
+  "lat": 6.2665136,
+  "lon": -75.5444525,
+  "tags": {
+    "amenity": "pharmacy",
+    "dispensing": "yes",
+    "healthcare": "pharmacy",
+    "name": "Droguería Rolam"
+  }
+},
+{
+  "type": "node",
+  "id": 7332248640,
+  "lat": 6.2947617,
+  "lon": -75.5412716,
+  "tags": {
+    "addr:city": "Comuna 1 - Popular",
+    "addr:street": "Carrera 29",
+    "amenity": "pharmacy",
+    "building": "yes",
+    "dispensing": "no",
+    "drive_through": "no",
+    "healthcare": "pharmacy",
+    "name": "Farmacia Sol y Vida"
+  }
+},
+{
+  "type": "node",
+  "id": 7333556704,
+  "lat": 6.2651820,
+  "lon": -75.5446337,
+  "tags": {
+    "amenity": "pharmacy",
+    "dispensing": "no",
+    "drive_through": "no",
+    "healthcare": "pharmacy"
+  }
+},
+{
+  "type": "node",
+  "id": 7334649076,
+  "lat": 6.2653540,
+  "lon": -75.5432054,
+  "tags": {
+    "amenity": "dentist",
+    "healthcare": "dentist"
+  }
+},
+{
+  "type": "node",
+  "id": 7352544218,
+  "lat": 6.2870435,
+  "lon": -75.5490909,
+  "tags": {
+    "amenity": "pharmacy",
+    "dispensing": "yes",
+    "healthcare": "pharmacy",
+    "name": "Droguería River"
+  }
+},
+{
+  "type": "node",
+  "id": 7409123562,
+  "lat": 6.2926529,
+  "lon": -75.5454084,
+  "tags": {
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Droguerua Cafarma"
+  }
+},
+{
+  "type": "node",
+  "id": 7442341329,
+  "lat": 6.2814968,
+  "lon": -75.4433262,
+  "tags": {
+    "addr:city": "Guarne",
+    "addr:housenumber": "52-51",
+    "addr:street": "Carrera 50",
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Centro Medico Santa Ana"
+  }
+},
+{
+  "type": "node",
+  "id": 7461357303,
+  "lat": 6.2866613,
+  "lon": -75.5491567,
+  "tags": {
+    "amenity": "pharmacy",
+    "dispensing": "yes",
+    "healthcare": "pharmacy",
+    "name": "Droguería California"
+  }
+},
+{
+  "type": "node",
+  "id": 7461357306,
+  "lat": 6.2867493,
+  "lon": -75.5499667,
+  "tags": {
+    "amenity": "pharmacy",
+    "dispensing": "yes",
+    "healthcare": "pharmacy",
+    "name": "Droguería La Santillana"
+  }
+},
+{
+  "type": "node",
+  "id": 7855091948,
+  "lat": 6.2866150,
+  "lon": -75.5412540,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Centro de Salud Carpinello",
+    "phone": "+57 4 5285559",
+    "phone1": "+57 4 5285268"
+  }
+},
+{
+  "type": "node",
+  "id": 7855091952,
+  "lat": 6.2808860,
+  "lon": -75.5484040,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Centro de Salud San Blas",
+    "phone": "+57 4 2134274;+57 4 5713750"
+  }
+},
+{
+  "type": "node",
+  "id": 7855091954,
+  "lat": 6.2375294,
+  "lon": -75.5413127,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Centro de Salud Villatina",
+    "phone": "+57 4 2691461;+57 4 2272674"
+  }
+},
+{
+  "type": "node",
+  "id": 7855091959,
+  "lat": 6.2972595,
+  "lon": -75.5490022,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "CENTRO DE SALUD POPULAR 1",
+    "phone": "+57 4 2580024",
+    "phone1": "+57 4 5226174"
+  }
+},
+{
+  "type": "node",
+  "id": 9222585120,
+  "lat": 6.1540066,
+  "lon": -75.5330506,
+  "tags": {
+    "brand": "Synlab",
+    "brand:wikidata": "Q2376015",
+    "brand:wikipedia": "en:Synlab Group",
+    "healthcare": "laboratory",
+    "healthcare:speciality": "biology",
+    "name": "Synlab",
+    "opening_hours": "Mo-Fr 07:00-13:45; Sa 7:00-10:30; Mo off",
+    "phone": "+57 604 516 6740",
+    "website": "https://www.synlab.co/"
+  }
+},
+{
+  "type": "node",
+  "id": 9222585121,
+  "lat": 6.1540232,
+  "lon": -75.5329927,
+  "tags": {
+    "amenity": "pharmacy",
+    "brand": "Droguería Alemana",
+    "dispensing": "yes",
+    "healthcare": "pharmacy",
+    "name": "Droguería Alemana",
+    "phone": "+57 604 444 6060",
+    "website": "https://drogueriasalemana.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 9222614990,
+  "lat": 6.1542573,
+  "lon": -75.5333296,
+  "tags": {
+    "amenity": "pharmacy",
+    "dispensing": "yes",
+    "healthcare": "pharmacy",
+    "name": "Cruz Verde",
+    "operator": "Cruz Verde",
+    "website": "https://www.cruzverde.com.co/"
+  }
+},
+{
+  "type": "node",
+  "id": 10009399372,
+  "lat": 6.2829218,
+  "lon": -75.4430014,
+  "tags": {
+    "addr:city": "Guarne",
+    "addr:housenumber": "48-54",
+    "addr:street": "Calle 53",
+    "amenity": "dentist",
+    "healthcare": "dentist",
+    "healthcare:speciality": "dentist;dental_oral_maxillo_facial_surgery",
+    "name": "Jaime Adrian Cardona Castro Odontología",
+    "opening_hours": "Mo-Fr 08:00-18:00; Sa 08:00-12:00"
+  }
+},
+{
+  "type": "node",
+  "id": 10240216986,
+  "lat": 6.2798624,
+  "lon": -75.4429204,
+  "tags": {
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy"
+  }
+},
+{
+  "type": "node",
+  "id": 10845936649,
+  "lat": 6.1069071,
+  "lon": -75.4251096,
+  "tags": {
+    "amenity": "pharmacy",
+    "dispensing": "yes",
+    "healthcare": "pharmacy",
+    "name": "Drogueria Cabeceras"
+  }
+},
+{
+  "type": "node",
+  "id": 10869999304,
+  "lat": 6.0828556,
+  "lon": -75.3350713,
+  "tags": {
+    "addr:city": "El Carmen de Viboral",
+    "addr:postcode": "054030",
+    "addr:street": "Calle 30",
+    "amenity": "doctors",
+    "healthcare": "doctor",
+    "healthcare:speciality": "general",
+    "name": "Servicio Médico Central IPS",
+    "opening_hours": "Mo-Su 09:00-19:00",
+    "operator": "Jonh Jairo Hoyos Betancur"
+  }
+},
+{
+  "type": "node",
+  "id": 10886073700,
+  "lat": 6.0830843,
+  "lon": -75.3357552,
+  "tags": {
+    "addr:city": "El Carmen de Viboral",
+    "addr:postcode": "054030",
+    "addr:street": "Carrera 31",
+    "amenity": "pharmacy",
+    "dispensing": "no",
+    "healthcare": "pharmacy",
+    "name": "Droguería El Carmen",
+    "opening_hours": "Mo-Su 10:00-22:00",
+    "operator": "Mauricio Orozco"
+  }
+},
+{
+  "type": "node",
+  "id": 11083667842,
+  "lat": 6.2849093,
+  "lon": -75.4459266,
+  "tags": {
+    "healthcare": "eps",
+    "name": "Savia Salud"
+  }
+},
+{
+  "type": "node",
+  "id": 11270285741,
+  "lat": 6.1406693,
+  "lon": -75.3775989,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Clínica PROMTA - Sede Rionegro"
+  }
+},
+{
+  "type": "node",
+  "id": 12023765630,
+  "lat": 6.0644054,
+  "lon": -75.5016393,
+  "tags": {
+    "amenity": "pharmacy",
+    "check_date": "2024-06-30",
+    "healthcare": "pharmacy",
+    "name": "Droguería Alemana"
+  }
+},
+{
+  "type": "node",
+  "id": 12096326719,
+  "lat": 6.1760465,
+  "lon": -75.3334276,
+  "tags": {
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Droguería Mendur"
+  }
+},
+{
+  "type": "node",
+  "id": 12097361003,
+  "lat": 6.1742840,
+  "lon": -75.3375899,
+  "tags": {
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "El Boticario"
+  }
+},
+{
+  "type": "node",
+  "id": 12097361016,
+  "lat": 6.1704176,
+  "lon": -75.3370624,
+  "tags": {
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy"
+  }
+},
+{
+  "type": "node",
+  "id": 12097361019,
+  "lat": 6.1731242,
+  "lon": -75.3355105,
+  "tags": {
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Nueva Luz"
+  }
+},
+{
+  "type": "node",
+  "id": 12097361024,
+  "lat": 6.1725828,
+  "lon": -75.3349839,
+  "tags": {
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Drofarma"
+  }
+},
+{
+  "type": "node",
+  "id": 12389361456,
+  "lat": 6.1529237,
+  "lon": -75.5377568,
+  "tags": {
+    "addr:city": "Envigado",
+    "addr:housenumber": "Via Las Palmas",
+    "addr:street": "Km 15+990 Mall Le Mont Comercio, Consultorio 0335",
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "healthcare:speciality": "medicina_estética;botox;tricologia;radiesse;tensamax",
+    "name": "Dra Diamond - Medicina Estética y Tricologia",
+    "opening_hours": "Mo-Sa 08:00-17:00",
+    "website": "https://www.instagram.com/dra_diamond"
+  }
+},
+{
+  "type": "node",
+  "id": 12488671519,
+  "lat": 6.1712791,
+  "lon": -75.4275986,
+  "tags": {
+    "addr:unit": "L2040",
+    "amenity": "pharmacy",
+    "brand": "Pura",
+    "check_date": "2025-09-07",
+    "healthcare": "pharmacy",
+    "level": "1",
+    "name": "Pura",
+    "official_name:en": "Droguería Pura",
+    "official_name:es": "Pura Pharmacy"
+  }
+},
+{
+  "type": "node",
+  "id": 12678196232,
+  "lat": 6.1746961,
+  "lon": -75.3340976,
+  "tags": {
+    "amenity": "dentist",
+    "healthcare": "dentist"
+  }
+},
+{
+  "type": "node",
+  "id": 12685363246,
+  "lat": 6.1748253,
+  "lon": -75.3342261,
+  "tags": {
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Farmacia Natural"
+  }
+},
+{
+  "type": "node",
+  "id": 12685363262,
+  "lat": 6.1733034,
+  "lon": -75.3359104,
+  "tags": {
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Droguería Famidrogas 1"
+  }
+},
+{
+  "type": "node",
+  "id": 12688785209,
+  "lat": 6.1742280,
+  "lon": -75.3347078,
+  "tags": {
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Macrodrogas"
+  }
+},
+{
+  "type": "node",
+  "id": 12690133333,
+  "lat": 6.1729975,
+  "lon": -75.3352450,
+  "tags": {
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy"
+  }
+},
+{
+  "type": "node",
+  "id": 12706400270,
+  "lat": 6.1745861,
+  "lon": -75.3388570,
+  "tags": {
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy"
+  }
+},
+{
+  "type": "node",
+  "id": 12706403745,
+  "lat": 6.1751148,
+  "lon": -75.3350437,
+  "tags": {
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy"
+  }
+},
+{
+  "type": "node",
+  "id": 12993133401,
+  "lat": 6.3000014,
+  "lon": -75.5344277,
+  "tags": {
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "girasol de manantial"
+  }
+},
+{
+  "type": "node",
+  "id": 13145930462,
+  "lat": 6.1723821,
+  "lon": -75.4284318,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "level": "0",
+    "name": "Sanidad Aeroportuaria",
+    "name:en": "Airport Health",
+    "name:es": "Sanidad Aeroportuaria"
+  }
+},
+{
+  "type": "node",
+  "id": 13146027612,
+  "lat": 6.1721107,
+  "lon": -75.4278390,
+  "tags": {
+    "access": "permit",
+    "addr:unit": "L1021",
+    "amenity": "pharmacy",
+    "brand": "Pura",
+    "check_date": "2025-09-03",
+    "healthcare": "pharmacy",
+    "level": "0",
+    "name": "Pura",
+    "official_name:en": "Droguería Pura",
+    "official_name:es": "Pura Pharmacy",
+    "permit": "boarding_pass"
+  }
+},
+{
+  "type": "node",
+  "id": 13148934435,
+  "lat": 6.1725050,
+  "lon": -75.4281517,
+  "tags": {
+    "access": "permit",
+    "addr:unit": "L2013;L2014",
+    "amenity": "pharmacy",
+    "brand": "Pura",
+    "check_date": "2025-09-07",
+    "healthcare": "pharmacy",
+    "level": "1",
+    "name": "Pura",
+    "official_name:en": "Droguería Pura",
+    "official_name:es": "Pura Pharmacy",
+    "permit": "boarding_pass"
+  }
+},
+{
+  "type": "node",
+  "id": 13154155811,
+  "lat": 6.1702651,
+  "lon": -75.4282129,
+  "tags": {
+    "addr:unit": "L2103",
+    "amenity": "pharmacy",
+    "brand": "Pasteur",
+    "check_date": "2025-09-07",
+    "healthcare": "pharmacy",
+    "level": "1",
+    "name": "Pasteur"
+  }
+},
+{
+  "type": "way",
+  "id": 323902877,
+  "nodes": [
+    5401433490,
+    5509698874,
+    3306758502,
+    5401433488,
+    5401433490
+  ],
+  "tags": {
+    "amenity": "clinic",
+    "building": "yes",
+    "healthcare": "clinic",
+    "name": "Clínica del Norte"
+  }
+},
+{
+  "type": "way",
+  "id": 339231702,
+  "nodes": [
+    4140993554,
+    4140993556,
+    4140993564,
+    4140993562,
+    4140993554
+  ],
+  "tags": {
+    "addr:city": "Comuna 1 - Popular",
+    "addr:street": "Carrera 33",
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "healthcare:speciality": "general;emergency",
+    "name": "Centro de Salud Santo Domingo Savio",
+    "operator": "Metrosalud",
+    "operator:type": "public"
+  }
+},
+{
+  "type": "way",
+  "id": 456832153,
+  "nodes": [
+    4530647683,
+    4530647679,
+    4530647680,
+    4530647685,
+    4530647687,
+    4530647686,
+    4530647684,
+    4530647683
+  ],
+  "tags": {
+    "amenity": "hospital",
+    "building": "hospital",
+    "emergency": "yes",
+    "healthcare": "hospital",
+    "name": "ESE Hospital San Roque"
+  }
+},
+{
+  "type": "way",
+  "id": 501745730,
+  "nodes": [
+    4924594990,
+    4924594989,
+    4924594988,
+    4924594987,
+    4924594986,
+    4924594985,
+    4924594984,
+    4924594983,
+    4924594990
+  ],
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital"
+  }
+},
+{
+  "type": "way",
+  "id": 543112930,
+  "nodes": [
+    5250445653,
+    7357020466,
+    5250445654,
+    5243751778,
+    5250445655,
+    12650799542,
+    10023259881,
+    10023259882,
+    10023259883,
+    10023259884,
+    10023259885,
+    10023259880,
+    5250445656,
+    10023259886,
+    5250445653
+  ],
+  "tags": {
+    "addr:city": "Comuna 3 - Manrique",
+    "addr:housenumber": "75c-06",
+    "addr:street": "Carrera 25",
+    "amenity": "hospital",
+    "emergency": "no",
+    "healthcare": "hospital",
+    "healthcare:speciality": "general",
+    "name": "Metrosalud La Cruz",
+    "operator": "Metrosalud"
+  }
+},
+{
+  "type": "way",
+  "id": 547468808,
+  "nodes": [
+    5289966746,
+    5289966742,
+    5289966745,
+    5289966744,
+    5289966743,
+    5289966746
+  ],
+  "tags": {
+    "addr:city": "La Ceja",
+    "addr:country": "CO",
+    "addr:housenumber": "19-35",
+    "addr:state": "ANT",
+    "addr:street": "Calle 17",
+    "amenity": "hospital",
+    "email": "hospital@hospitaldelaceja.gov.co",
+    "healthcare": "hospital",
+    "name": "Hospital La Ceja",
+    "phone": "+57 4 5531444",
+    "website": "https://www.laceja-antioquia.gov.co/"
+  }
+},
+{
+  "type": "way",
+  "id": 571145492,
+  "nodes": [
+    5489949456,
+    5489949453,
+    5489949454,
+    5489949455,
+    5489949456
+  ],
+  "tags": {
+    "addr:street": "Calle 47",
+    "amenity": "pharmacy",
+    "building": "yes",
+    "healthcare": "pharmacy",
+    "source": "Kaart Ground Survey 2018"
+  }
+},
+{
+  "type": "way",
+  "id": 573767455,
+  "nodes": [
+    5509690128,
+    5509690125,
+    5509690126,
+    5509690127,
+    5509690128
+  ],
+  "tags": {
+    "addr:street": "Calle 50",
+    "amenity": "pharmacy",
+    "building": "yes",
+    "healthcare": "pharmacy",
+    "name": "Droguería Clarines Naturismo",
+    "source": "Kaart Ground Survey 2018"
+  }
+},
+{
+  "type": "way",
+  "id": 573767458,
+  "nodes": [
+    5509690142,
+    5509690141,
+    5509690140,
+    5509690139,
+    5509690142
+  ],
+  "tags": {
+    "addr:street": "Carrera 51",
+    "amenity": "pharmacy",
+    "building": "yes",
+    "healthcare": "pharmacy",
+    "name": "Drogueria Y Perfumería Copacabana",
+    "source": "Kaart Ground Survey 2018"
+  }
+},
+{
+  "type": "way",
+  "id": 574224562,
+  "nodes": [
+    5512651335,
+    5512651334,
+    5512651333,
+    5512651332,
+    5512651335
+  ],
+  "tags": {
+    "addr:street": "Calle 52",
+    "amenity": "pharmacy",
+    "building": "yes",
+    "healthcare": "pharmacy",
+    "name": "Droguería Farma Expertos",
+    "source": "Kaart Ground Survey 2018"
+  }
+},
+{
+  "type": "way",
+  "id": 575776579,
+  "nodes": [
+    5524113681,
+    5524113680,
+    5524113679,
+    5524113678,
+    5524113681
+  ],
+  "tags": {
+    "addr:street": "Avenida 42",
+    "amenity": "pharmacy",
+    "building": "yes",
+    "healthcare": "pharmacy",
+    "name": "Droguería",
+    "source": "Kaart Ground Survey 2018"
+  }
+},
+{
+  "type": "way",
+  "id": 575776585,
+  "nodes": [
+    5524113686,
+    5524113685,
+    5524113684,
+    5524113683,
+    5524113686
+  ],
+  "tags": {
+    "addr:street": "Carrera 42A",
+    "amenity": "pharmacy",
+    "building": "yes",
+    "healthcare": "pharmacy",
+    "name": "Droguería La 4Z De Bello",
+    "source": "Kaart Ground Survey 2018"
+  }
+},
+{
+  "type": "way",
+  "id": 689360795,
+  "nodes": [
+    6466889863,
+    667023708,
+    6466896014,
+    7736854420,
+    6466896015,
+    6466906681,
+    6466906680,
+    7736926396,
+    7736926395,
+    6466889863
+  ],
+  "tags": {
+    "amenity": "hospital",
+    "building:part": "yes",
+    "emergency": "no",
+    "healthcare": "hospital",
+    "healthcare:speciality": "general",
+    "level": "2",
+    "name": "EMMSA",
+    "operator": "Clinica EMMSA"
+  }
+},
+{
+  "type": "way",
+  "id": 689583523,
+  "nodes": [
+    1834321543,
+    1834321518,
+    1834312976,
+    9375904985,
+    1834321560,
+    1834321543
+  ],
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Marco Fidel Suarez"
+  }
+},
+{
+  "type": "way",
+  "id": 704186349,
+  "nodes": [
+    6612020526,
+    6612020527,
+    6612020528,
+    6612020529,
+    6612020526
+  ],
+  "tags": {
+    "building": "yes",
+    "building:levels": "6",
+    "healthcare": "yes",
+    "healthcare:speciality": "dentistry;general",
+    "name": "City Medica"
+  }
+},
+{
+  "type": "way",
+  "id": 785084650,
+  "nodes": [
+    7334953503,
+    7334953504,
+    7334953505,
+    7334953506,
+    7334953503
+  ],
+  "tags": {
+    "amenity": "pharmacy",
+    "building": "yes",
+    "dispensing": "yes",
+    "healthcare": "pharmacy"
+  }
+},
+{
+  "type": "way",
+  "id": 1063763642,
+  "nodes": [
+    9770898845,
+    9770898844,
+    9770898843,
+    9770898842,
+    9770898841,
+    9770898840,
+    9770898839,
+    9770898838,
+    9770898837,
+    9770898836,
+    9770898835,
+    9770898834,
+    9770898833,
+    9770898832,
+    9770898831,
+    9770898830,
+    9770898829,
+    9770898828,
+    9770898827,
+    9770891100,
+    9770898826,
+    9770898745,
+    9770898825,
+    9770898824,
+    9770898823,
+    9770898822,
+    9770898821,
+    9770898820,
+    9770898819,
+    9770898818,
+    9770898718,
+    9770891088,
+    9770898719,
+    9770898817,
+    9770898816,
+    9770898815,
+    9770898814,
+    9770898726,
+    9770891086,
+    9770898727,
+    9770898813,
+    9770898812,
+    9770898811,
+    9770898810,
+    9770898809,
+    9770898808,
+    9770891101,
+    9770898807,
+    9770898806,
+    9770898805,
+    9770898804,
+    9770898803,
+    9770898802,
+    9770898801,
+    9770898800,
+    9770898799,
+    9770898798,
+    9770898797,
+    9770898796,
+    9770898795,
+    9770898794,
+    9770898793,
+    9770898792,
+    9770898791,
+    9770898790,
+    9770898789,
+    9770898788,
+    9770898787,
+    9770898786,
+    9770898785,
+    9770898784,
+    9770898783,
+    9770898782,
+    9770898781,
+    9770898780,
+    9770898779,
+    9770898778,
+    9770898777,
+    9770898776,
+    9770898775,
+    9770898774,
+    9770898773,
+    9770898772,
+    9770898771,
+    9770898770,
+    9770898769,
+    9770898768,
+    9770898767,
+    9770898766,
+    3610677639,
+    9770898765,
+    9770898764,
+    9770891096,
+    9770898763,
+    9770898762,
+    9770898761,
+    9770891097,
+    9770898760,
+    9770898759,
+    9770898845
+  ],
+  "tags": {
+    "addr:city": "Rionegro",
+    "addr:housenumber": "KM 2.3",
+    "addr:street": "Vía Aeropuerto - Llanogrande",
+    "amenity": "hospital",
+    "emergency": "yes",
+    "healthcare": "hospital",
+    "name": "Hospital San Vicente Fundación Rionegro"
+  }
+},
+{
+  "type": "way",
+  "id": 1094340098,
+  "nodes": [
+    10022635011,
+    10047342920,
+    10022635012,
+    10047341208,
+    10047341205,
+    10022635013,
+    10022635014,
+    10022635015,
+    10047342937,
+    10047341213,
+    10022635016,
+    10047341204,
+    10047341209,
+    10022635011
+  ],
+  "tags": {
+    "addr:city": "Guarne",
+    "addr:street": "carrera 52 # 52-177",
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "E.S.E. Hospital Nuestra Señora de la Candelaria"
+  }
+},
+{
+  "type": "way",
+  "id": 1098678272,
+  "nodes": [
+    10059666570,
+    10059666571,
+    10059666572,
+    10059666573,
+    10059666570
+  ],
+  "tags": {
+    "addr:street": "Calle 58 # 72",
+    "amenity": "clinic",
+    "building": "yes",
+    "healthcare": "clinic",
+    "name": "Centro de salud Llanaditas",
+    "operator": "Metro Salud",
+    "operator:type": "public"
+  }
+},
+{
+  "type": "way",
+  "id": 1242091376,
+  "nodes": [
+    11541744288,
+    11541744289,
+    11541744290,
+    2378625355,
+    11541744288
+  ],
+  "tags": {
+    "amenity": "pharmacy",
+    "building": "yes",
+    "healthcare": "pharmacy"
+  }
+},
+{
+  "type": "way",
+  "id": 1391866982,
+  "nodes": [
+    12883882559,
+    12883882560,
+    12883882561,
+    12883882562,
+    12883882563,
+    12883882564,
+    12883882559
+  ],
+  "tags": {
+    "amenity": "pharmacy",
+    "building": "yes",
+    "dispensing": "yes",
+    "drive_through": "no",
+    "healthcare": "pharmacy",
+    "name": "Farmacia Barro Blanco",
+    "opening_hours": "Mo-Su 09:00-17:00"
+  }
+},
+{
+  "type": "way",
+  "id": 1414326782,
+  "nodes": [
+    12996422541,
+    12996422542,
+    12996422543,
+    12996420667,
+    12996422544,
+    12996422545,
+    12996422541
+  ],
+  "tags": {
+    "amenity": "pharmacy",
+    "building": "yes",
+    "healthcare": "pharmacy"
+  }
+},
+{
+  "type": "way",
+  "id": 1433614972,
+  "nodes": [
+    13175732742,
+    13175732743,
+    13175732744,
+    13175732745,
+    13175732742
+  ],
+  "tags": {
+    "healthcare": "rehabilitation"
+  }
+},
+{
+  "type": "way",
+  "id": 1433615420,
+  "nodes": [
+    13175693810,
+    13175732745,
+    13175693811,
+    13175693812,
+    13175693810
+  ],
+  "tags": {
+    "healthcare": "rehabilitation"
+  }
+},
+{
+  "type": "way",
+  "id": 1433615421,
+  "nodes": [
+    13175693813,
+    13175693814,
+    13175693815,
+    13175693816,
+    13175693817,
+    13175693813
+  ],
+  "tags": {
+    "healthcare": "rehabilitation"
+  }
+},
+{
+  "type": "way",
+  "id": 1433615422,
+  "nodes": [
+    13175693816,
+    13175693818,
+    13175693819,
+    13175693817,
+    13175693816
+  ],
+  "tags": {
+    "healthcare": "rehabilitation"
+  }
+},
+{
+  "type": "way",
+  "id": 1433615423,
+  "nodes": [
+    13175693820,
+    13175693821,
+    13175693822,
+    13175693823,
+    13175693820
+  ],
+  "tags": {
+    "healthcare": "rehabilitation"
+  }
+},
+{
+  "type": "way",
+  "id": 1478609945,
+  "nodes": [
+    13564556437,
+    13564556438,
+    13564556439,
+    13564556440,
+    13564556441,
+    13564556442,
+    13564556443,
+    13564556444,
+    13564556445,
+    13564556446,
+    13564556447,
+    13564556448,
+    13564556449,
+    13564556450,
+    13564556451,
+    13564556452,
+    13564556437
+  ],
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "operator": "Ministerio de Salud y Protección Social",
+    "operator:short": "MinSalud",
+    "operator:type": "government",
+    "operator:wikidata": "Q6867116"
+  }
+},
+{
+  "type": "node",
+  "id": 2378625355,
+  "lat": 6.2267557,
+  "lon": -75.5438287
+},
+{
+  "type": "node",
+  "id": 11541744288,
+  "lat": 6.2266319,
+  "lon": -75.5438564
+},
+{
+  "type": "node",
+  "id": 11541744289,
+  "lat": 6.2266620,
+  "lon": -75.5439349
+},
+{
+  "type": "node",
+  "id": 11541744290,
+  "lat": 6.2267789,
+  "lon": -75.5439012
+},
+{
+  "type": "node",
+  "id": 13564556437,
+  "lat": 6.2435251,
+  "lon": -75.5404411
+},
+{
+  "type": "node",
+  "id": 13564556438,
+  "lat": 6.2435207,
+  "lon": -75.5404178
+},
+{
+  "type": "node",
+  "id": 13564556439,
+  "lat": 6.2435354,
+  "lon": -75.5404150
+},
+{
+  "type": "node",
+  "id": 13564556440,
+  "lat": 6.2435087,
+  "lon": -75.5402732
+},
+{
+  "type": "node",
+  "id": 13564556441,
+  "lat": 6.2433766,
+  "lon": -75.5402983
+},
+{
+  "type": "node",
+  "id": 13564556442,
+  "lat": 6.2433830,
+  "lon": -75.5403324
+},
+{
+  "type": "node",
+  "id": 13564556443,
+  "lat": 6.2433607,
+  "lon": -75.5403367
+},
+{
+  "type": "node",
+  "id": 13564556444,
+  "lat": 6.2433636,
+  "lon": -75.5403522
+},
+{
+  "type": "node",
+  "id": 13564556445,
+  "lat": 6.2433154,
+  "lon": -75.5403614
+},
+{
+  "type": "node",
+  "id": 13564556446,
+  "lat": 6.2433179,
+  "lon": -75.5403742
+},
+{
+  "type": "node",
+  "id": 13564556447,
+  "lat": 6.2432985,
+  "lon": -75.5403779
+},
+{
+  "type": "node",
+  "id": 13564556448,
+  "lat": 6.2433084,
+  "lon": -75.5404304
+},
+{
+  "type": "node",
+  "id": 13564556449,
+  "lat": 6.2432908,
+  "lon": -75.5404338
+},
+{
+  "type": "node",
+  "id": 13564556450,
+  "lat": 6.2433027,
+  "lon": -75.5404967
+},
+{
+  "type": "node",
+  "id": 13564556451,
+  "lat": 6.2434595,
+  "lon": -75.5404668
+},
+{
+  "type": "node",
+  "id": 13564556452,
+  "lat": 6.2434571,
+  "lon": -75.5404540
+},
+{
+  "type": "node",
+  "id": 10059666570,
+  "lat": 6.2518037,
+  "lon": -75.5438911
+},
+{
+  "type": "node",
+  "id": 10059666571,
+  "lat": 6.2517514,
+  "lon": -75.5438307
+},
+{
+  "type": "node",
+  "id": 10059666572,
+  "lat": 6.2518803,
+  "lon": -75.5437178
+},
+{
+  "type": "node",
+  "id": 10059666573,
+  "lat": 6.2519326,
+  "lon": -75.5437783
+},
+{
+  "type": "node",
+  "id": 7334953503,
+  "lat": 6.2636881,
+  "lon": -75.5485695
+},
+{
+  "type": "node",
+  "id": 7334953504,
+  "lat": 6.2635473,
+  "lon": -75.5486278
+},
+{
+  "type": "node",
+  "id": 7334953505,
+  "lat": 6.2635496,
+  "lon": -75.5484206
+},
+{
+  "type": "node",
+  "id": 7334953506,
+  "lat": 6.2635743,
+  "lon": -75.5484208
+},
+{
+  "type": "node",
+  "id": 5250445653,
+  "lat": 6.2702913,
+  "lon": -75.5370136
+},
+{
+  "type": "node",
+  "id": 5250445656,
+  "lat": 6.2699492,
+  "lon": -75.5370004
+},
+{
+  "type": "node",
+  "id": 10023259880,
+  "lat": 6.2697653,
+  "lon": -75.5370371
+},
+{
+  "type": "node",
+  "id": 10023259884,
+  "lat": 6.2695875,
+  "lon": -75.5370511
+},
+{
+  "type": "node",
+  "id": 10023259885,
+  "lat": 6.2696442,
+  "lon": -75.5370503
+},
+{
+  "type": "node",
+  "id": 10023259886,
+  "lat": 6.2700693,
+  "lon": -75.5369617
+},
+{
+  "type": "node",
+  "id": 5243751778,
+  "lat": 6.2700883,
+  "lon": -75.5365369
+},
+{
+  "type": "node",
+  "id": 5250445654,
+  "lat": 6.2702003,
+  "lon": -75.5365932
+},
+{
+  "type": "node",
+  "id": 5250445655,
+  "lat": 6.2699597,
+  "lon": -75.5364722
+},
+{
+  "type": "node",
+  "id": 7357020466,
+  "lat": 6.2702107,
+  "lon": -75.5366412
+},
+{
+  "type": "node",
+  "id": 10023259881,
+  "lat": 6.2697138,
+  "lon": -75.5366794
+},
+{
+  "type": "node",
+  "id": 10023259882,
+  "lat": 6.2697161,
+  "lon": -75.5367200
+},
+{
+  "type": "node",
+  "id": 10023259883,
+  "lat": 6.2696011,
+  "lon": -75.5367646
+},
+{
+  "type": "node",
+  "id": 12650799542,
+  "lat": 6.2697449,
+  "lon": -75.5366532
+},
+{
+  "type": "node",
+  "id": 12996420667,
+  "lat": 6.2906571,
+  "lon": -75.5411383
+},
+{
+  "type": "node",
+  "id": 12996422541,
+  "lat": 6.2907562,
+  "lon": -75.5411559
+},
+{
+  "type": "node",
+  "id": 12996422542,
+  "lat": 6.2907142,
+  "lon": -75.5411145
+},
+{
+  "type": "node",
+  "id": 12996422543,
+  "lat": 6.2906539,
+  "lon": -75.5411256
+},
+{
+  "type": "node",
+  "id": 12996422544,
+  "lat": 6.2906707,
+  "lon": -75.5411913
+},
+{
+  "type": "node",
+  "id": 12996422545,
+  "lat": 6.2907345,
+  "lon": -75.5411805
+},
+{
+  "type": "node",
+  "id": 4140993562,
+  "lat": 6.2956146,
+  "lon": -75.5435040
+},
+{
+  "type": "node",
+  "id": 4140993554,
+  "lat": 6.2952912,
+  "lon": -75.5433383
+},
+{
+  "type": "node",
+  "id": 4140993556,
+  "lat": 6.2953606,
+  "lon": -75.5431969
+},
+{
+  "type": "node",
+  "id": 4140993564,
+  "lat": 6.2956879,
+  "lon": -75.5433370
+},
+{
+  "type": "node",
+  "id": 4530647679,
+  "lat": 5.9742864,
+  "lon": -75.3636186
+},
+{
+  "type": "node",
+  "id": 4530647680,
+  "lat": 5.9744071,
+  "lon": -75.3632237
+},
+{
+  "type": "node",
+  "id": 4530647683,
+  "lat": 5.9745226,
+  "lon": -75.3636939
+},
+{
+  "type": "node",
+  "id": 4530647684,
+  "lat": 5.9745857,
+  "lon": -75.3634933
+},
+{
+  "type": "node",
+  "id": 4530647685,
+  "lat": 5.9746378,
+  "lon": -75.3632919
+},
+{
+  "type": "node",
+  "id": 4530647686,
+  "lat": 5.9748233,
+  "lon": -75.3635575
+},
+{
+  "type": "node",
+  "id": 4530647687,
+  "lat": 5.9748872,
+  "lon": -75.3633645
+},
+{
+  "type": "node",
+  "id": 5289966742,
+  "lat": 6.0283557,
+  "lon": -75.4314672
+},
+{
+  "type": "node",
+  "id": 5289966743,
+  "lat": 6.0281519,
+  "lon": -75.4316213
+},
+{
+  "type": "node",
+  "id": 5289966744,
+  "lat": 6.0280212,
+  "lon": -75.4312176
+},
+{
+  "type": "node",
+  "id": 5289966745,
+  "lat": 6.0282626,
+  "lon": -75.4311519
+},
+{
+  "type": "node",
+  "id": 5289966746,
+  "lat": 6.0283786,
+  "lon": -75.4315449
+},
+{
+  "type": "node",
+  "id": 3610677639,
+  "lat": 6.1531233,
+  "lon": -75.4351261
+},
+{
+  "type": "node",
+  "id": 9770891086,
+  "lat": 6.1519158,
+  "lon": -75.4347898
+},
+{
+  "type": "node",
+  "id": 9770891088,
+  "lat": 6.1522337,
+  "lon": -75.4349750
+},
+{
+  "type": "node",
+  "id": 9770891096,
+  "lat": 6.1530622,
+  "lon": -75.4351999
+},
+{
+  "type": "node",
+  "id": 9770891097,
+  "lat": 6.1529165,
+  "lon": -75.4352685
+},
+{
+  "type": "node",
+  "id": 9770891100,
+  "lat": 6.1523991,
+  "lon": -75.4350889
+},
+{
+  "type": "node",
+  "id": 9770891101,
+  "lat": 6.1516025,
+  "lon": -75.4346008
+},
+{
+  "type": "node",
+  "id": 9770898718,
+  "lat": 6.1522560,
+  "lon": -75.4349881
+},
+{
+  "type": "node",
+  "id": 9770898719,
+  "lat": 6.1522106,
+  "lon": -75.4349614
+},
+{
+  "type": "node",
+  "id": 9770898726,
+  "lat": 6.1519381,
+  "lon": -75.4348029
+},
+{
+  "type": "node",
+  "id": 9770898727,
+  "lat": 6.1518929,
+  "lon": -75.4347763
+},
+{
+  "type": "node",
+  "id": 9770898745,
+  "lat": 6.1523936,
+  "lon": -75.4350600
+},
+{
+  "type": "node",
+  "id": 9770898759,
+  "lat": 6.1528248,
+  "lon": -75.4352739
+},
+{
+  "type": "node",
+  "id": 9770898760,
+  "lat": 6.1528707,
+  "lon": -75.4352749
+},
+{
+  "type": "node",
+  "id": 9770898761,
+  "lat": 6.1529552,
+  "lon": -75.4352589
+},
+{
+  "type": "node",
+  "id": 9770898762,
+  "lat": 6.1529973,
+  "lon": -75.4352412
+},
+{
+  "type": "node",
+  "id": 9770898763,
+  "lat": 6.1530450,
+  "lon": -75.4352147
+},
+{
+  "type": "node",
+  "id": 9770898764,
+  "lat": 6.1530821,
+  "lon": -75.4351827
+},
+{
+  "type": "node",
+  "id": 9770898765,
+  "lat": 6.1531083,
+  "lon": -75.4351506
+},
+{
+  "type": "node",
+  "id": 9770898766,
+  "lat": 6.1531343,
+  "lon": -75.4351030
+},
+{
+  "type": "node",
+  "id": 9770898767,
+  "lat": 6.1531437,
+  "lon": -75.4350768
+},
+{
+  "type": "node",
+  "id": 9770898768,
+  "lat": 6.1531523,
+  "lon": -75.4350369
+},
+{
+  "type": "node",
+  "id": 9770898769,
+  "lat": 6.1531531,
+  "lon": -75.4349805
+},
+{
+  "type": "node",
+  "id": 9770898770,
+  "lat": 6.1531407,
+  "lon": -75.4349168
+},
+{
+  "type": "node",
+  "id": 9770898771,
+  "lat": 6.1531238,
+  "lon": -75.4348727
+},
+{
+  "type": "node",
+  "id": 9770898772,
+  "lat": 6.1530915,
+  "lon": -75.4348209
+},
+{
+  "type": "node",
+  "id": 9770898773,
+  "lat": 6.1530570,
+  "lon": -75.4347843
+},
+{
+  "type": "node",
+  "id": 9770898774,
+  "lat": 6.1530321,
+  "lon": -75.4347646
+},
+{
+  "type": "node",
+  "id": 9770898775,
+  "lat": 6.1530291,
+  "lon": -75.4346334
+},
+{
+  "type": "node",
+  "id": 9770898776,
+  "lat": 6.1529088,
+  "lon": -75.4346452
+},
+{
+  "type": "node",
+  "id": 9770898777,
+  "lat": 6.1529413,
+  "lon": -75.4345902
+},
+{
+  "type": "node",
+  "id": 9770898778,
+  "lat": 6.1528731,
+  "lon": -75.4345494
+},
+{
+  "type": "node",
+  "id": 9770898779,
+  "lat": 6.1528387,
+  "lon": -75.4346075
+},
+{
+  "type": "node",
+  "id": 9770898780,
+  "lat": 6.1526200,
+  "lon": -75.4344820
+},
+{
+  "type": "node",
+  "id": 9770898781,
+  "lat": 6.1527553,
+  "lon": -75.4342464
+},
+{
+  "type": "node",
+  "id": 9770898782,
+  "lat": 6.1526250,
+  "lon": -75.4341706
+},
+{
+  "type": "node",
+  "id": 9770898783,
+  "lat": 6.1525402,
+  "lon": -75.4343184
+},
+{
+  "type": "node",
+  "id": 9770898784,
+  "lat": 6.1525138,
+  "lon": -75.4343030
+},
+{
+  "type": "node",
+  "id": 9770898785,
+  "lat": 6.1525298,
+  "lon": -75.4342751
+},
+{
+  "type": "node",
+  "id": 9770898786,
+  "lat": 6.1524004,
+  "lon": -75.4341999
+},
+{
+  "type": "node",
+  "id": 9770898787,
+  "lat": 6.1523913,
+  "lon": -75.4342158
+},
+{
+  "type": "node",
+  "id": 9770898788,
+  "lat": 6.1523643,
+  "lon": -75.4342001
+},
+{
+  "type": "node",
+  "id": 9770898789,
+  "lat": 6.1524444,
+  "lon": -75.4340605
+},
+{
+  "type": "node",
+  "id": 9770898790,
+  "lat": 6.1523164,
+  "lon": -75.4339861
+},
+{
+  "type": "node",
+  "id": 9770898791,
+  "lat": 6.1522274,
+  "lon": -75.4341267
+},
+{
+  "type": "node",
+  "id": 9770898792,
+  "lat": 6.1521977,
+  "lon": -75.4341086
+},
+{
+  "type": "node",
+  "id": 9770898793,
+  "lat": 6.1522171,
+  "lon": -75.4340763
+},
+{
+  "type": "node",
+  "id": 9770898794,
+  "lat": 6.1520895,
+  "lon": -75.4339987
+},
+{
+  "type": "node",
+  "id": 9770898795,
+  "lat": 6.1520705,
+  "lon": -75.4340305
+},
+{
+  "type": "node",
+  "id": 9770898796,
+  "lat": 6.1520426,
+  "lon": -75.4340135
+},
+{
+  "type": "node",
+  "id": 9770898797,
+  "lat": 6.1521313,
+  "lon": -75.4338659
+},
+{
+  "type": "node",
+  "id": 9770898798,
+  "lat": 6.1520004,
+  "lon": -75.4337864
+},
+{
+  "type": "node",
+  "id": 9770898799,
+  "lat": 6.1518651,
+  "lon": -75.4340115
+},
+{
+  "type": "node",
+  "id": 9770898800,
+  "lat": 6.1517140,
+  "lon": -75.4339196
+},
+{
+  "type": "node",
+  "id": 9770898801,
+  "lat": 6.1515788,
+  "lon": -75.4341444
+},
+{
+  "type": "node",
+  "id": 9770898802,
+  "lat": 6.1516435,
+  "lon": -75.4341838
+},
+{
+  "type": "node",
+  "id": 9770898803,
+  "lat": 6.1515577,
+  "lon": -75.4343290
+},
+{
+  "type": "node",
+  "id": 9770898804,
+  "lat": 6.1515863,
+  "lon": -75.4343460
+},
+{
+  "type": "node",
+  "id": 9770898805,
+  "lat": 6.1515089,
+  "lon": -75.4344778
+},
+{
+  "type": "node",
+  "id": 9770898806,
+  "lat": 6.1515338,
+  "lon": -75.4344925
+},
+{
+  "type": "node",
+  "id": 9770898807,
+  "lat": 6.1515044,
+  "lon": -75.4345425
+},
+{
+  "type": "node",
+  "id": 9770898808,
+  "lat": 6.1517137,
+  "lon": -75.4346668
+},
+{
+  "type": "node",
+  "id": 9770898809,
+  "lat": 6.1517456,
+  "lon": -75.4346126
+},
+{
+  "type": "node",
+  "id": 9770898810,
+  "lat": 6.1517629,
+  "lon": -75.4346229
+},
+{
+  "type": "node",
+  "id": 9770898811,
+  "lat": 6.1518515,
+  "lon": -75.4344720
+},
+{
+  "type": "node",
+  "id": 9770898812,
+  "lat": 6.1519386,
+  "lon": -75.4345202
+},
+{
+  "type": "node",
+  "id": 9770898813,
+  "lat": 6.1518182,
+  "lon": -75.4347343
+},
+{
+  "type": "node",
+  "id": 9770898814,
+  "lat": 6.1520227,
+  "lon": -75.4348506
+},
+{
+  "type": "node",
+  "id": 9770898815,
+  "lat": 6.1521401,
+  "lon": -75.4346418
+},
+{
+  "type": "node",
+  "id": 9770898816,
+  "lat": 6.1522431,
+  "lon": -75.4347004
+},
+{
+  "type": "node",
+  "id": 9770898817,
+  "lat": 6.1521238,
+  "lon": -75.4349125
+},
+{
+  "type": "node",
+  "id": 9770898818,
+  "lat": 6.1523456,
+  "lon": -75.4350387
+},
+{
+  "type": "node",
+  "id": 9770898819,
+  "lat": 6.1524458,
+  "lon": -75.4348604
+},
+{
+  "type": "node",
+  "id": 9770898820,
+  "lat": 6.1524735,
+  "lon": -75.4348772
+},
+{
+  "type": "node",
+  "id": 9770898821,
+  "lat": 6.1524460,
+  "lon": -75.4349272
+},
+{
+  "type": "node",
+  "id": 9770898822,
+  "lat": 6.1524247,
+  "lon": -75.4349472
+},
+{
+  "type": "node",
+  "id": 9770898823,
+  "lat": 6.1524077,
+  "lon": -75.4349729
+},
+{
+  "type": "node",
+  "id": 9770898824,
+  "lat": 6.1523952,
+  "lon": -75.4350068
+},
+{
+  "type": "node",
+  "id": 9770898825,
+  "lat": 6.1523913,
+  "lon": -75.4350455
+},
+{
+  "type": "node",
+  "id": 9770898826,
+  "lat": 6.1523966,
+  "lon": -75.4350799
+},
+{
+  "type": "node",
+  "id": 9770898827,
+  "lat": 6.1524035,
+  "lon": -75.4351004
+},
+{
+  "type": "node",
+  "id": 9770898828,
+  "lat": 6.1524127,
+  "lon": -75.4351177
+},
+{
+  "type": "node",
+  "id": 9770898829,
+  "lat": 6.1524273,
+  "lon": -75.4351363
+},
+{
+  "type": "node",
+  "id": 9770898830,
+  "lat": 6.1524433,
+  "lon": -75.4351527
+},
+{
+  "type": "node",
+  "id": 9770898831,
+  "lat": 6.1524620,
+  "lon": -75.4351660
+},
+{
+  "type": "node",
+  "id": 9770898832,
+  "lat": 6.1524925,
+  "lon": -75.4351795
+},
+{
+  "type": "node",
+  "id": 9770898833,
+  "lat": 6.1525168,
+  "lon": -75.4351850
+},
+{
+  "type": "node",
+  "id": 9770898834,
+  "lat": 6.1525482,
+  "lon": -75.4351861
+},
+{
+  "type": "node",
+  "id": 9770898835,
+  "lat": 6.1525699,
+  "lon": -75.4351828
+},
+{
+  "type": "node",
+  "id": 9770898836,
+  "lat": 6.1525932,
+  "lon": -75.4351751
+},
+{
+  "type": "node",
+  "id": 9770898837,
+  "lat": 6.1526203,
+  "lon": -75.4351610
+},
+{
+  "type": "node",
+  "id": 9770898838,
+  "lat": 6.1526412,
+  "lon": -75.4351451
+},
+{
+  "type": "node",
+  "id": 9770898839,
+  "lat": 6.1526618,
+  "lon": -75.4351231
+},
+{
+  "type": "node",
+  "id": 9770898840,
+  "lat": 6.1526782,
+  "lon": -75.4351020
+},
+{
+  "type": "node",
+  "id": 9770898841,
+  "lat": 6.1526971,
+  "lon": -75.4350851
+},
+{
+  "type": "node",
+  "id": 9770898842,
+  "lat": 6.1527081,
+  "lon": -75.4350813
+},
+{
+  "type": "node",
+  "id": 9770898843,
+  "lat": 6.1527169,
+  "lon": -75.4350794
+},
+{
+  "type": "node",
+  "id": 9770898844,
+  "lat": 6.1527307,
+  "lon": -75.4350858
+},
+{
+  "type": "node",
+  "id": 9770898845,
+  "lat": 6.1527785,
+  "lon": -75.4352660
+},
+{
+  "type": "node",
+  "id": 6612020526,
+  "lat": 6.1404681,
+  "lon": -75.3794348
+},
+{
+  "type": "node",
+  "id": 6612020527,
+  "lat": 6.1404209,
+  "lon": -75.3787250
+},
+{
+  "type": "node",
+  "id": 6612020528,
+  "lat": 6.1399613,
+  "lon": -75.3787560
+},
+{
+  "type": "node",
+  "id": 6612020529,
+  "lat": 6.1400086,
+  "lon": -75.3794657
+},
+{
+  "type": "node",
+  "id": 5489949453,
+  "lat": 6.1516403,
+  "lon": -75.3763608
+},
+{
+  "type": "node",
+  "id": 5489949454,
+  "lat": 6.1516237,
+  "lon": -75.3762736
+},
+{
+  "type": "node",
+  "id": 5489949455,
+  "lat": 6.1515840,
+  "lon": -75.3762813
+},
+{
+  "type": "node",
+  "id": 5489949456,
+  "lat": 6.1516006,
+  "lon": -75.3763685
+},
+{
+  "type": "node",
+  "id": 13175693810,
+  "lat": 6.2250027,
+  "lon": -75.4845285
+},
+{
+  "type": "node",
+  "id": 13175693811,
+  "lat": 6.2249604,
+  "lon": -75.4845182
+},
+{
+  "type": "node",
+  "id": 13175693812,
+  "lat": 6.2249814,
+  "lon": -75.4845489
+},
+{
+  "type": "node",
+  "id": 13175693813,
+  "lat": 6.2249815,
+  "lon": -75.4844584
+},
+{
+  "type": "node",
+  "id": 13175693814,
+  "lat": 6.2249410,
+  "lon": -75.4844018
+},
+{
+  "type": "node",
+  "id": 13175693815,
+  "lat": 6.2248795,
+  "lon": -75.4844520
+},
+{
+  "type": "node",
+  "id": 13175693816,
+  "lat": 6.2248890,
+  "lon": -75.4844626
+},
+{
+  "type": "node",
+  "id": 13175693817,
+  "lat": 6.2249246,
+  "lon": -75.4845069
+},
+{
+  "type": "node",
+  "id": 13175693818,
+  "lat": 6.2248455,
+  "lon": -75.4844885
+},
+{
+  "type": "node",
+  "id": 13175693819,
+  "lat": 6.2248884,
+  "lon": -75.4845418
+},
+{
+  "type": "node",
+  "id": 13175693820,
+  "lat": 6.2249210,
+  "lon": -75.4846544
+},
+{
+  "type": "node",
+  "id": 13175693821,
+  "lat": 6.2249443,
+  "lon": -75.4846223
+},
+{
+  "type": "node",
+  "id": 13175693822,
+  "lat": 6.2249155,
+  "lon": -75.4845910
+},
+{
+  "type": "node",
+  "id": 13175693823,
+  "lat": 6.2248824,
+  "lon": -75.4846216
+},
+{
+  "type": "node",
+  "id": 13175732742,
+  "lat": 6.2250127,
+  "lon": -75.4845057
+},
+{
+  "type": "node",
+  "id": 13175732743,
+  "lat": 6.2250216,
+  "lon": -75.4844505
+},
+{
+  "type": "node",
+  "id": 13175732744,
+  "lat": 6.2249925,
+  "lon": -75.4844431
+},
+{
+  "type": "node",
+  "id": 13175732745,
+  "lat": 6.2249802,
+  "lon": -75.4844974
+},
+{
+  "type": "node",
+  "id": 12883882559,
+  "lat": 6.2314785,
+  "lon": -75.4802550
+},
+{
+  "type": "node",
+  "id": 12883882560,
+  "lat": 6.2315057,
+  "lon": -75.4802282
+},
+{
+  "type": "node",
+  "id": 12883882561,
+  "lat": 6.2314347,
+  "lon": -75.4801611
+},
+{
+  "type": "node",
+  "id": 12883882562,
+  "lat": 6.2313921,
+  "lon": -75.4802067
+},
+{
+  "type": "node",
+  "id": 12883882563,
+  "lat": 6.2314369,
+  "lon": -75.4802496
+},
+{
+  "type": "node",
+  "id": 12883882564,
+  "lat": 6.2314561,
+  "lon": -75.4802314
+},
+{
+  "type": "node",
+  "id": 10022635013,
+  "lat": 6.2810144,
+  "lon": -75.4456339
+},
+{
+  "type": "node",
+  "id": 10022635014,
+  "lat": 6.2811822,
+  "lon": -75.4457643
+},
+{
+  "type": "node",
+  "id": 10022635015,
+  "lat": 6.2814379,
+  "lon": -75.4459512
+},
+{
+  "type": "node",
+  "id": 10047341204,
+  "lat": 6.2815989,
+  "lon": -75.4455003
+},
+{
+  "type": "node",
+  "id": 10047341205,
+  "lat": 6.2811384,
+  "lon": -75.4454610
+},
+{
+  "type": "node",
+  "id": 10047341208,
+  "lat": 6.2812020,
+  "lon": -75.4453723
+},
+{
+  "type": "node",
+  "id": 10047341213,
+  "lat": 6.2815845,
+  "lon": -75.4457293
+},
+{
+  "type": "node",
+  "id": 10047342937,
+  "lat": 6.2815019,
+  "lon": -75.4458543
+},
+{
+  "type": "node",
+  "id": 10022635011,
+  "lat": 6.2817664,
+  "lon": -75.4452510
+},
+{
+  "type": "node",
+  "id": 10022635016,
+  "lat": 6.2817083,
+  "lon": -75.4455753
+},
+{
+  "type": "node",
+  "id": 10047341209,
+  "lat": 6.2817530,
+  "lon": -75.4452709
+},
+{
+  "type": "node",
+  "id": 10047342920,
+  "lat": 6.2816606,
+  "lon": -75.4451760
+},
+{
+  "type": "node",
+  "id": 10022635012,
+  "lat": 6.2814531,
+  "lon": -75.4450222
+},
+{
+  "type": "node",
+  "id": 4924594983,
+  "lat": 6.1427021,
+  "lon": -75.1860468
+},
+{
+  "type": "node",
+  "id": 4924594984,
+  "lat": 6.1426266,
+  "lon": -75.1859038
+},
+{
+  "type": "node",
+  "id": 4924594985,
+  "lat": 6.1426505,
+  "lon": -75.1858911
+},
+{
+  "type": "node",
+  "id": 4924594986,
+  "lat": 6.1426025,
+  "lon": -75.1858002
+},
+{
+  "type": "node",
+  "id": 4924594987,
+  "lat": 6.1426466,
+  "lon": -75.1857767
+},
+{
+  "type": "node",
+  "id": 4924594988,
+  "lat": 6.1426176,
+  "lon": -75.1857217
+},
+{
+  "type": "node",
+  "id": 4924594989,
+  "lat": 6.1427908,
+  "lon": -75.1856293
+},
+{
+  "type": "node",
+  "id": 4924594990,
+  "lat": 6.1429432,
+  "lon": -75.1859182
+},
+{
+  "type": "node",
+  "id": 667023708,
+  "lat": 6.3392831,
+  "lon": -75.5418581
+},
+{
+  "type": "node",
+  "id": 6466889863,
+  "lat": 6.3389705,
+  "lon": -75.5417607
+},
+{
+  "type": "node",
+  "id": 6466896014,
+  "lat": 6.3390908,
+  "lon": -75.5425520
+},
+{
+  "type": "node",
+  "id": 6466896015,
+  "lat": 6.3388026,
+  "lon": -75.5424801
+},
+{
+  "type": "node",
+  "id": 6466906680,
+  "lat": 6.3389382,
+  "lon": -75.5420110
+},
+{
+  "type": "node",
+  "id": 6466906681,
+  "lat": 6.3388106,
+  "lon": -75.5424521
+},
+{
+  "type": "node",
+  "id": 7736854420,
+  "lat": 6.3390371,
+  "lon": -75.5425334
+},
+{
+  "type": "node",
+  "id": 7736926395,
+  "lat": 6.3389448,
+  "lon": -75.5418548
+},
+{
+  "type": "node",
+  "id": 7736926396,
+  "lat": 6.3389782,
+  "lon": -75.5418668
+},
+{
+  "type": "node",
+  "id": 1834312976,
+  "lat": 6.3418686,
+  "lon": -75.5484618
+},
+{
+  "type": "node",
+  "id": 1834321518,
+  "lat": 6.3432221,
+  "lon": -75.5486715
+},
+{
+  "type": "node",
+  "id": 1834321543,
+  "lat": 6.3434292,
+  "lon": -75.5478337
+},
+{
+  "type": "node",
+  "id": 1834321560,
+  "lat": 6.3421313,
+  "lon": -75.5474903
+},
+{
+  "type": "node",
+  "id": 3306758502,
+  "lat": 6.3432393,
+  "lon": -75.5458514
+},
+{
+  "type": "node",
+  "id": 5401433488,
+  "lat": 6.3431432,
+  "lon": -75.5461726
+},
+{
+  "type": "node",
+  "id": 5401433490,
+  "lat": 6.3426008,
+  "lon": -75.5459976
+},
+{
+  "type": "node",
+  "id": 5509698874,
+  "lat": 6.3427019,
+  "lon": -75.5456680
+},
+{
+  "type": "node",
+  "id": 5524113678,
+  "lat": 6.3423885,
+  "lon": -75.5488394
+},
+{
+  "type": "node",
+  "id": 5524113679,
+  "lat": 6.3423852,
+  "lon": -75.5487408
+},
+{
+  "type": "node",
+  "id": 5524113680,
+  "lat": 6.3424577,
+  "lon": -75.5487453
+},
+{
+  "type": "node",
+  "id": 5524113681,
+  "lat": 6.3424510,
+  "lon": -75.5488546
+},
+{
+  "type": "node",
+  "id": 5524113683,
+  "lat": 6.3465466,
+  "lon": -75.5493515
+},
+{
+  "type": "node",
+  "id": 5524113684,
+  "lat": 6.3465360,
+  "lon": -75.5493301
+},
+{
+  "type": "node",
+  "id": 5524113685,
+  "lat": 6.3465557,
+  "lon": -75.5492985
+},
+{
+  "type": "node",
+  "id": 5524113686,
+  "lat": 6.3465856,
+  "lon": -75.5493401
+},
+{
+  "type": "node",
+  "id": 9375904985,
+  "lat": 6.3420133,
+  "lon": -75.5479235
+},
+{
+  "type": "node",
+  "id": 5509690139,
+  "lat": 6.3453683,
+  "lon": -75.5085102
+},
+{
+  "type": "node",
+  "id": 5509690140,
+  "lat": 6.3453707,
+  "lon": -75.5084676
+},
+{
+  "type": "node",
+  "id": 5509690141,
+  "lat": 6.3454127,
+  "lon": -75.5084699
+},
+{
+  "type": "node",
+  "id": 5509690142,
+  "lat": 6.3454104,
+  "lon": -75.5085125
+},
+{
+  "type": "node",
+  "id": 5509690125,
+  "lat": 6.3475783,
+  "lon": -75.5058005
+},
+{
+  "type": "node",
+  "id": 5509690126,
+  "lat": 6.3475857,
+  "lon": -75.5057489
+},
+{
+  "type": "node",
+  "id": 5509690127,
+  "lat": 6.3475480,
+  "lon": -75.5057435
+},
+{
+  "type": "node",
+  "id": 5509690128,
+  "lat": 6.3475407,
+  "lon": -75.5057951
+},
+{
+  "type": "node",
+  "id": 5512651332,
+  "lat": 6.3490007,
+  "lon": -75.5063647
+},
+{
+  "type": "node",
+  "id": 5512651333,
+  "lat": 6.3490264,
+  "lon": -75.5062896
+},
+{
+  "type": "node",
+  "id": 5512651334,
+  "lat": 6.3490778,
+  "lon": -75.5063074
+},
+{
+  "type": "node",
+  "id": 5512651335,
+  "lat": 6.3490521,
+  "lon": -75.5063825
+}
+
+  ]
+}

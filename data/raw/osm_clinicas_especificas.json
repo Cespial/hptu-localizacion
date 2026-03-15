@@ -1,0 +1,245 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-03-15T13:36:14Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+
+{
+  "type": "way",
+  "id": 294740282,
+  "nodes": [
+    2983572538,
+    2983572540,
+    2983572539,
+    2983572537,
+    2983572538
+  ],
+  "tags": {
+    "amenity": "hospital",
+    "emergency": "yes",
+    "healthcare": "hospital",
+    "name": "Clínica las Americas del Sur",
+    "website": "https://clinicalasamericas.lasamericas.com.co/Sedes/Sede-Sur"
+  }
+},
+{
+  "type": "way",
+  "id": 314642349,
+  "nodes": [
+    3206869986,
+    3206869987,
+    3206869988,
+    3206869989,
+    3206869990,
+    3206869991,
+    3206869992,
+    3206869986
+  ],
+  "tags": {
+    "addr:city": "Medellin",
+    "addr:housenumber": "44-6",
+    "addr:postcode": "050022",
+    "addr:street": "Calle 17 Sur",
+    "amenity": "hospital",
+    "ele": "1548",
+    "emergency": "no",
+    "name": "Clínica del Campestre",
+    "phone": "+57 (4) 444-2006",
+    "website": "https://www.clinicadelcampestre.com/",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 374039628,
+  "nodes": [
+    3774440257,
+    3774440258,
+    3774440259,
+    3774440260,
+    3774440261,
+    3774440262,
+    4956866067,
+    3774440264,
+    3774440257
+  ],
+  "tags": {
+    "addr:city": "Medellín",
+    "addr:housenumber": "18 - 173",
+    "addr:postcode": "050022",
+    "addr:street": "Calle 12 Sur / Los Balsos",
+    "amenity": "school",
+    "name": "Colegio Campestre La Colina",
+    "phone": "+57 (4) 317-0790",
+    "website": "https://www.colegiolacolina.edu.co/"
+  }
+},
+{
+  "type": "way",
+  "id": 1094104907,
+  "nodes": [
+    10020627369,
+    10020627368,
+    10020627367,
+    10020627366,
+    7418066394,
+    10020627369
+  ],
+  "tags": {
+    "addr:city": "Medellín",
+    "addr:street": "Circular 73",
+    "amenity": "university",
+    "contact:website": "https://www.uam.edu.co/",
+    "name": "Institucion Universitaria Visión de las Americas Sede B"
+  }
+},
+{
+  "type": "node",
+  "id": 2983572537,
+  "lat": 6.1782332,
+  "lon": -75.5832715
+},
+{
+  "type": "node",
+  "id": 2983572538,
+  "lat": 6.1786273,
+  "lon": -75.5838438
+},
+{
+  "type": "node",
+  "id": 2983572539,
+  "lat": 6.1785224,
+  "lon": -75.5830458
+},
+{
+  "type": "node",
+  "id": 2983572540,
+  "lat": 6.1789243,
+  "lon": -75.5835979
+},
+{
+  "type": "node",
+  "id": 3206869986,
+  "lat": 6.1881799,
+  "lon": -75.5782560
+},
+{
+  "type": "node",
+  "id": 3206869987,
+  "lat": 6.1882626,
+  "lon": -75.5785900
+},
+{
+  "type": "node",
+  "id": 3206869988,
+  "lat": 6.1877359,
+  "lon": -75.5787429
+},
+{
+  "type": "node",
+  "id": 3206869989,
+  "lat": 6.1876873,
+  "lon": -75.5785002
+},
+{
+  "type": "node",
+  "id": 3206869990,
+  "lat": 6.1877012,
+  "lon": -75.5784277
+},
+{
+  "type": "node",
+  "id": 3206869991,
+  "lat": 6.1877572,
+  "lon": -75.5783834
+},
+{
+  "type": "node",
+  "id": 3206869992,
+  "lat": 6.1878666,
+  "lon": -75.5783419
+},
+{
+  "type": "node",
+  "id": 3774440257,
+  "lat": 6.1867981,
+  "lon": -75.5597968
+},
+{
+  "type": "node",
+  "id": 3774440258,
+  "lat": 6.1850256,
+  "lon": -75.5600339
+},
+{
+  "type": "node",
+  "id": 3774440259,
+  "lat": 6.1846331,
+  "lon": -75.5588755
+},
+{
+  "type": "node",
+  "id": 3774440260,
+  "lat": 6.1848202,
+  "lon": -75.5588497
+},
+{
+  "type": "node",
+  "id": 3774440261,
+  "lat": 6.1850916,
+  "lon": -75.5588532
+},
+{
+  "type": "node",
+  "id": 3774440262,
+  "lat": 6.1857092,
+  "lon": -75.5589433
+},
+{
+  "type": "node",
+  "id": 3774440264,
+  "lat": 6.1867793,
+  "lon": -75.5594554
+},
+{
+  "type": "node",
+  "id": 4956866067,
+  "lat": 6.1867843,
+  "lon": -75.5592046
+},
+{
+  "type": "node",
+  "id": 7418066394,
+  "lat": 6.2410833,
+  "lon": -75.5962359
+},
+{
+  "type": "node",
+  "id": 10020627366,
+  "lat": 6.2411511,
+  "lon": -75.5961574
+},
+{
+  "type": "node",
+  "id": 10020627367,
+  "lat": 6.2409642,
+  "lon": -75.5959940
+},
+{
+  "type": "node",
+  "id": 10020627368,
+  "lat": 6.2408529,
+  "lon": -75.5961229
+},
+{
+  "type": "node",
+  "id": 10020627369,
+  "lat": 6.2410398,
+  "lon": -75.5962862
+}
+
+  ]
+}

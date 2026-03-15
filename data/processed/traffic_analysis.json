@@ -1,0 +1,1161 @@
+{
+  "source": "Aforos Vehiculares Medellín - MEData",
+  "processing_notes": {
+    "script": "process_traffic.py",
+    "aforos_spatial_filter": "COORDENADAY in [6.17, 6.22], COORDENADAX in [-75.58, -75.52]",
+    "corridor_keywords": [
+      "palmas",
+      "poblado",
+      "transversal",
+      "las vegas",
+      "autopista",
+      "guayabal",
+      "regional",
+      "san juan"
+    ],
+    "am_peak_hours": [
+      6,
+      7,
+      8
+    ],
+    "pm_peak_hours": [
+      16,
+      17,
+      18
+    ],
+    "note_vehicle_counts": "Counts use raw 15-min fields (AUTOS, BUSES, CAMIONES, MOTOS, BICICLETAS). AUTOS_HORA/VOLUMEN_TOTAL_HORA are empty in most rows.",
+    "aforos_total_records_read": 74900,
+    "aforos_records_in_study_area": 4492,
+    "velocidad_total_records_read": 682502,
+    "velocidad_records_matched": 384308
+  },
+  "aforos_near_las_palmas": [
+    {
+      "nodo": "183",
+      "intersection": "Carrera 43A - Calle 19",
+      "via_principal": "Carrera 43A",
+      "via_secundaria": "Calle 19",
+      "lat": 6.21999,
+      "lon": -75.56949,
+      "codigo_comuna": "14",
+      "nombre_comuna": "14 - El Poblado",
+      "years_surveyed": [
+        2019
+      ],
+      "intervals_15min": 496,
+      "vehicle_composition": {
+        "autos": 47982,
+        "buses": 2521,
+        "camiones": 742,
+        "motos": 28238,
+        "bicicletas": 402,
+        "total_vehicles": 79885,
+        "pce_total": 63230
+      },
+      "mode_shares_pct": {
+        "autos": 60.1,
+        "motos": 35.3,
+        "buses": 3.2,
+        "camiones": 0.9
+      },
+      "peak_analysis": {
+        "dominant_peak": "PM",
+        "am_total_vehicles": 13876,
+        "pm_total_vehicles": 17802,
+        "off_peak_total": 48207,
+        "am_share_pct": 17.4,
+        "pm_share_pct": 22.3,
+        "busiest_am_hour": 7,
+        "busiest_pm_hour": 17,
+        "peak_hour_of_day": 17,
+        "hourly_profile": {
+          "6": 3079,
+          "7": 5840,
+          "8": 4957,
+          "9": 5313,
+          "10": 5436,
+          "11": 5079,
+          "12": 5277,
+          "13": 5306,
+          "14": 5700,
+          "15": 5656,
+          "16": 6201,
+          "17": 6373,
+          "18": 5228,
+          "19": 4532,
+          "20": 3145,
+          "21": 2763
+        }
+      }
+    },
+    {
+      "nodo": "71",
+      "intersection": "Carrera 43A - Calle 5A",
+      "via_principal": "Carrera 43A",
+      "via_secundaria": "Calle 5A",
+      "lat": 6.20607,
+      "lon": -75.57158,
+      "codigo_comuna": "14",
+      "nombre_comuna": "14 - El Poblado",
+      "years_surveyed": [
+        2018
+      ],
+      "intervals_15min": 416,
+      "vehicle_composition": {
+        "autos": 47742,
+        "buses": 2193,
+        "camiones": 620,
+        "motos": 24207,
+        "bicicletas": 335,
+        "total_vehicles": 75097,
+        "pce_total": 60839
+      },
+      "mode_shares_pct": {
+        "autos": 63.6,
+        "motos": 32.2,
+        "buses": 2.9,
+        "camiones": 0.8
+      },
+      "peak_analysis": {
+        "dominant_peak": "AM",
+        "am_total_vehicles": 17017,
+        "pm_total_vehicles": 15807,
+        "off_peak_total": 42273,
+        "am_share_pct": 22.7,
+        "pm_share_pct": 21.0,
+        "busiest_am_hour": 7,
+        "busiest_pm_hour": 16,
+        "peak_hour_of_day": 15,
+        "hourly_profile": {
+          "6": 4894,
+          "7": 6167,
+          "8": 5956,
+          "9": 6124,
+          "10": 5924,
+          "11": 5623,
+          "12": 5771,
+          "13": 6016,
+          "14": 6315,
+          "15": 6500,
+          "16": 5891,
+          "17": 5124,
+          "18": 4792
+        }
+      }
+    },
+    {
+      "nodo": "144",
+      "intersection": "Carrera 43A - Calle 3 Sur",
+      "via_principal": "Carrera 43A",
+      "via_secundaria": "Calle 3 Sur",
+      "lat": 6.200757,
+      "lon": -75.572728,
+      "codigo_comuna": "14",
+      "nombre_comuna": "14 - El Poblado",
+      "years_surveyed": [
+        2019
+      ],
+      "intervals_15min": 372,
+      "vehicle_composition": {
+        "autos": 37996,
+        "buses": 2068,
+        "camiones": 421,
+        "motos": 18617,
+        "bicicletas": 201,
+        "total_vehicles": 59303,
+        "pce_total": 48712
+      },
+      "mode_shares_pct": {
+        "autos": 64.1,
+        "motos": 31.4,
+        "buses": 3.5,
+        "camiones": 0.7
+      },
+      "peak_analysis": {
+        "dominant_peak": "PM",
+        "am_total_vehicles": 10247,
+        "pm_total_vehicles": 12227,
+        "off_peak_total": 36829,
+        "am_share_pct": 17.3,
+        "pm_share_pct": 20.6,
+        "busiest_am_hour": 7,
+        "busiest_pm_hour": 17,
+        "peak_hour_of_day": 7,
+        "hourly_profile": {
+          "6": 2150,
+          "7": 4411,
+          "8": 3686,
+          "9": 4065,
+          "10": 4227,
+          "11": 3948,
+          "12": 3959,
+          "13": 3924,
+          "14": 3978,
+          "15": 3742,
+          "16": 4106,
+          "17": 4122,
+          "18": 3999,
+          "19": 3469,
+          "20": 2903,
+          "21": 2614
+        }
+      }
+    },
+    {
+      "nodo": "74",
+      "intersection": "Carrera 45 - Transversal 6",
+      "via_principal": "Carrera 45",
+      "via_secundaria": "Transversal 6",
+      "lat": 6.20799,
+      "lon": -75.57445,
+      "codigo_comuna": "14",
+      "nombre_comuna": "14 - El Poblado",
+      "years_surveyed": [
+        2018
+      ],
+      "intervals_15min": 1488,
+      "vehicle_composition": {
+        "autos": 31551,
+        "buses": 95,
+        "camiones": 348,
+        "motos": 7027,
+        "bicicletas": 201,
+        "total_vehicles": 39222,
+        "pce_total": 34712
+      },
+      "mode_shares_pct": {
+        "autos": 80.4,
+        "motos": 17.9,
+        "buses": 0.2,
+        "camiones": 0.9
+      },
+      "peak_analysis": {
+        "dominant_peak": "PM",
+        "am_total_vehicles": 5913,
+        "pm_total_vehicles": 8585,
+        "off_peak_total": 24724,
+        "am_share_pct": 15.1,
+        "pm_share_pct": 21.9,
+        "busiest_am_hour": 8,
+        "busiest_pm_hour": 17,
+        "peak_hour_of_day": 12,
+        "hourly_profile": {
+          "6": 1046,
+          "7": 2318,
+          "8": 2549,
+          "9": 2688,
+          "10": 2755,
+          "11": 2859,
+          "12": 3367,
+          "13": 2828,
+          "14": 2876,
+          "15": 2991,
+          "16": 2913,
+          "17": 3287,
+          "18": 2385,
+          "19": 2012,
+          "20": 1326,
+          "21": 1022
+        }
+      }
+    },
+    {
+      "nodo": "7",
+      "intersection": "Carrera 43A - Calle 1 Sur",
+      "via_principal": "Carrera 43A",
+      "via_secundaria": "Calle 1 Sur",
+      "lat": 6.20352,
+      "lon": -75.57178,
+      "codigo_comuna": "14",
+      "nombre_comuna": "14 - El Poblado",
+      "years_surveyed": [
+        2018
+      ],
+      "intervals_15min": 288,
+      "vehicle_composition": {
+        "autos": 22136,
+        "buses": 1318,
+        "camiones": 337,
+        "motos": 12929,
+        "bicicletas": 235,
+        "total_vehicles": 36955,
+        "pce_total": 29440
+      },
+      "mode_shares_pct": {
+        "autos": 59.9,
+        "motos": 35.0,
+        "buses": 3.6,
+        "camiones": 0.9
+      },
+      "peak_analysis": {
+        "dominant_peak": "PM",
+        "am_total_vehicles": 13202,
+        "pm_total_vehicles": 14655,
+        "off_peak_total": 9098,
+        "am_share_pct": 35.7,
+        "pm_share_pct": 39.7,
+        "busiest_am_hour": 7,
+        "busiest_pm_hour": 17,
+        "peak_hour_of_day": 17,
+        "hourly_profile": {
+          "6": 3824,
+          "7": 4759,
+          "8": 4619,
+          "12": 4515,
+          "13": 4583,
+          "16": 4925,
+          "17": 5316,
+          "18": 4414
+        }
+      }
+    },
+    {
+      "nodo": "3",
+      "intersection": "Calle  1 Sur - Carrera 43D",
+      "via_principal": "Calle  1 Sur",
+      "via_secundaria": "Carrera 43D",
+      "lat": 6.2046,
+      "lon": -75.57427,
+      "codigo_comuna": "14",
+      "nombre_comuna": "14 - El Poblado",
+      "years_surveyed": [
+        2018
+      ],
+      "intervals_15min": 128,
+      "vehicle_composition": {
+        "autos": 10201,
+        "buses": 106,
+        "camiones": 42,
+        "motos": 2333,
+        "bicicletas": 79,
+        "total_vehicles": 12761,
+        "pce_total": 11213
+      },
+      "mode_shares_pct": {
+        "autos": 79.9,
+        "motos": 18.3,
+        "buses": 0.8,
+        "camiones": 0.3
+      },
+      "peak_analysis": {
+        "dominant_peak": "PM",
+        "am_total_vehicles": 3440,
+        "pm_total_vehicles": 5973,
+        "off_peak_total": 3348,
+        "am_share_pct": 27.0,
+        "pm_share_pct": 46.8,
+        "busiest_am_hour": 8,
+        "busiest_pm_hour": 17,
+        "peak_hour_of_day": 17,
+        "hourly_profile": {
+          "6": 828,
+          "7": 1251,
+          "8": 1361,
+          "12": 1917,
+          "13": 1431,
+          "16": 2008,
+          "17": 2221,
+          "18": 1744
+        }
+      }
+    },
+    {
+      "nodo": "6",
+      "intersection": "Calle  4 Sur - Carrera 43C",
+      "via_principal": "Calle  4 Sur",
+      "via_secundaria": "Carrera 43C",
+      "lat": 6.20147,
+      "lon": -75.57524,
+      "codigo_comuna": "14",
+      "nombre_comuna": "14 - El Poblado",
+      "years_surveyed": [
+        2018
+      ],
+      "intervals_15min": 96,
+      "vehicle_composition": {
+        "autos": 8581,
+        "buses": 29,
+        "camiones": 94,
+        "motos": 3536,
+        "bicicletas": 49,
+        "total_vehicles": 12289,
+        "pce_total": 9922
+      },
+      "mode_shares_pct": {
+        "autos": 69.8,
+        "motos": 28.8,
+        "buses": 0.2,
+        "camiones": 0.8
+      },
+      "peak_analysis": {
+        "dominant_peak": "AM",
+        "am_total_vehicles": 5010,
+        "pm_total_vehicles": 4592,
+        "off_peak_total": 2687,
+        "am_share_pct": 40.8,
+        "pm_share_pct": 37.4,
+        "busiest_am_hour": 7,
+        "busiest_pm_hour": 17,
+        "peak_hour_of_day": 7,
+        "hourly_profile": {
+          "6": 1200,
+          "7": 2191,
+          "8": 1619,
+          "12": 1347,
+          "13": 1340,
+          "16": 1382,
+          "17": 1735,
+          "18": 1475
+        }
+      }
+    },
+    {
+      "nodo": "5",
+      "intersection": "Calle  4 Sur - Carrera 43AA",
+      "via_principal": "Calle  4 Sur",
+      "via_secundaria": "Carrera 43AA",
+      "lat": 6.20055,
+      "lon": -75.57362,
+      "codigo_comuna": "14",
+      "nombre_comuna": "14 - El Poblado",
+      "years_surveyed": [
+        2018
+      ],
+      "intervals_15min": 96,
+      "vehicle_composition": {
+        "autos": 7730,
+        "buses": 61,
+        "camiones": 91,
+        "motos": 3835,
+        "bicicletas": 44,
+        "total_vehicles": 11761,
+        "pce_total": 9218
+      },
+      "mode_shares_pct": {
+        "autos": 65.7,
+        "motos": 32.6,
+        "buses": 0.5,
+        "camiones": 0.8
+      },
+      "peak_analysis": {
+        "dominant_peak": "PM",
+        "am_total_vehicles": 4499,
+        "pm_total_vehicles": 4671,
+        "off_peak_total": 2591,
+        "am_share_pct": 38.3,
+        "pm_share_pct": 39.7,
+        "busiest_am_hour": 7,
+        "busiest_pm_hour": 17,
+        "peak_hour_of_day": 7,
+        "hourly_profile": {
+          "6": 1198,
+          "7": 1780,
+          "8": 1521,
+          "12": 1336,
+          "13": 1255,
+          "16": 1446,
+          "17": 1688,
+          "18": 1537
+        }
+      }
+    },
+    {
+      "nodo": "8",
+      "intersection": "Carrera 43C - Calle 1A Sur",
+      "via_principal": "Carrera 43C",
+      "via_secundaria": "Calle 1A Sur",
+      "lat": 6.20338,
+      "lon": -75.57392,
+      "codigo_comuna": "14",
+      "nombre_comuna": "14 - El Poblado",
+      "years_surveyed": [
+        2018
+      ],
+      "intervals_15min": 96,
+      "vehicle_composition": {
+        "autos": 8297,
+        "buses": 69,
+        "camiones": 52,
+        "motos": 2403,
+        "bicicletas": 62,
+        "total_vehicles": 10883,
+        "pce_total": 9283
+      },
+      "mode_shares_pct": {
+        "autos": 76.2,
+        "motos": 22.1,
+        "buses": 0.6,
+        "camiones": 0.5
+      },
+      "peak_analysis": {
+        "dominant_peak": "PM",
+        "am_total_vehicles": 3051,
+        "pm_total_vehicles": 4990,
+        "off_peak_total": 2842,
+        "am_share_pct": 28.0,
+        "pm_share_pct": 45.9,
+        "busiest_am_hour": 8,
+        "busiest_pm_hour": 17,
+        "peak_hour_of_day": 17,
+        "hourly_profile": {
+          "6": 862,
+          "7": 1092,
+          "8": 1097,
+          "12": 1581,
+          "13": 1261,
+          "16": 1714,
+          "17": 1863,
+          "18": 1413
+        }
+      }
+    },
+    {
+      "nodo": "2",
+      "intersection": "Calle  1 Sur - Carrera 43C",
+      "via_principal": "Calle  1 Sur",
+      "via_secundaria": "Carrera 43C",
+      "lat": 6.20431,
+      "lon": -75.57346,
+      "codigo_comuna": "14",
+      "nombre_comuna": "14 - El Poblado",
+      "years_surveyed": [
+        2018
+      ],
+      "intervals_15min": 192,
+      "vehicle_composition": {
+        "autos": 5353,
+        "buses": 101,
+        "camiones": 46,
+        "motos": 1432,
+        "bicicletas": 54,
+        "total_vehicles": 6986,
+        "pce_total": 6095
+      },
+      "mode_shares_pct": {
+        "autos": 76.6,
+        "motos": 20.5,
+        "buses": 1.4,
+        "camiones": 0.7
+      },
+      "peak_analysis": {
+        "dominant_peak": "PM",
+        "am_total_vehicles": 2119,
+        "pm_total_vehicles": 3016,
+        "off_peak_total": 1851,
+        "am_share_pct": 30.3,
+        "pm_share_pct": 43.2,
+        "busiest_am_hour": 8,
+        "busiest_pm_hour": 17,
+        "peak_hour_of_day": 17,
+        "hourly_profile": {
+          "6": 434,
+          "7": 770,
+          "8": 915,
+          "12": 1064,
+          "13": 787,
+          "16": 1135,
+          "17": 1140,
+          "18": 741
+        }
+      }
+    },
+    {
+      "nodo": "4",
+      "intersection": "Calle  1A Sur - Carrera 43B",
+      "via_principal": "Calle  1A Sur",
+      "via_secundaria": "Carrera 43B",
+      "lat": 6.20322,
+      "lon": -75.57304,
+      "codigo_comuna": "14",
+      "nombre_comuna": "14 - El Poblado",
+      "years_surveyed": [
+        2018
+      ],
+      "intervals_15min": 128,
+      "vehicle_composition": {
+        "autos": 3966,
+        "buses": 38,
+        "camiones": 37,
+        "motos": 1642,
+        "bicicletas": 56,
+        "total_vehicles": 5739,
+        "pce_total": 4625
+      },
+      "mode_shares_pct": {
+        "autos": 69.1,
+        "motos": 28.6,
+        "buses": 0.7,
+        "camiones": 0.6
+      },
+      "peak_analysis": {
+        "dominant_peak": "PM",
+        "am_total_vehicles": 2069,
+        "pm_total_vehicles": 2338,
+        "off_peak_total": 1332,
+        "am_share_pct": 36.1,
+        "pm_share_pct": 40.7,
+        "busiest_am_hour": 7,
+        "busiest_pm_hour": 17,
+        "peak_hour_of_day": 17,
+        "hourly_profile": {
+          "6": 564,
+          "7": 825,
+          "8": 680,
+          "12": 704,
+          "13": 628,
+          "16": 815,
+          "17": 878,
+          "18": 645
+        }
+      }
+    },
+    {
+      "nodo": "",
+      "intersection": "Carrera 30 - Calle 16",
+      "via_principal": "Carrera 30",
+      "via_secundaria": "Calle 16",
+      "lat": 6.21534,
+      "lon": -75.56164,
+      "codigo_comuna": "9",
+      "nombre_comuna": "9 - Buenos aires",
+      "years_surveyed": [
+        2018
+      ],
+      "intervals_15min": 336,
+      "vehicle_composition": {
+        "autos": 4395,
+        "buses": 26,
+        "camiones": 33,
+        "motos": 835,
+        "bicicletas": 793,
+        "total_vehicles": 6082,
+        "pce_total": 4772
+      },
+      "mode_shares_pct": {
+        "autos": 72.3,
+        "motos": 13.7,
+        "buses": 0.4,
+        "camiones": 0.5
+      },
+      "peak_analysis": {
+        "dominant_peak": "unknown",
+        "am_total_vehicles": 0,
+        "pm_total_vehicles": 0,
+        "off_peak_total": 6082,
+        "am_share_pct": 0.0,
+        "pm_share_pct": 0.0,
+        "busiest_am_hour": null,
+        "busiest_pm_hour": null,
+        "peak_hour_of_day": 0,
+        "hourly_profile": {
+          "0": 6082
+        }
+      }
+    },
+    {
+      "nodo": "166",
+      "intersection": "Carrera 45 - Calle 7",
+      "via_principal": "Carrera 45",
+      "via_secundaria": "Calle 7",
+      "lat": 6.20932,
+      "lon": -75.5748,
+      "codigo_comuna": "14",
+      "nombre_comuna": "14 - El Poblado",
+      "years_surveyed": [
+        2019
+      ],
+      "intervals_15min": 288,
+      "vehicle_composition": {
+        "autos": 444,
+        "buses": 0,
+        "camiones": 5,
+        "motos": 178,
+        "bicicletas": 36,
+        "total_vehicles": 663,
+        "pce_total": 508
+      },
+      "mode_shares_pct": {
+        "autos": 67.0,
+        "motos": 26.8,
+        "buses": 0.0,
+        "camiones": 0.8
+      },
+      "peak_analysis": {
+        "dominant_peak": "AM",
+        "am_total_vehicles": 299,
+        "pm_total_vehicles": 288,
+        "off_peak_total": 76,
+        "am_share_pct": 45.1,
+        "pm_share_pct": 43.4,
+        "busiest_am_hour": 7,
+        "busiest_pm_hour": 17,
+        "peak_hour_of_day": 17,
+        "hourly_profile": {
+          "6": 57,
+          "7": 126,
+          "8": 116,
+          "17": 177,
+          "18": 111,
+          "19": 76
+        }
+      }
+    },
+    {
+      "nodo": "165",
+      "intersection": "Carrera 45 - Calle 6",
+      "via_principal": "Carrera 45",
+      "via_secundaria": "Calle 6",
+      "lat": 6.20799,
+      "lon": -75.57436,
+      "codigo_comuna": "14",
+      "nombre_comuna": "14 - El Poblado",
+      "years_surveyed": [
+        2019
+      ],
+      "intervals_15min": 72,
+      "vehicle_composition": {
+        "autos": 359,
+        "buses": 0,
+        "camiones": 3,
+        "motos": 108,
+        "bicicletas": 4,
+        "total_vehicles": 474,
+        "pce_total": 400
+      },
+      "mode_shares_pct": {
+        "autos": 75.7,
+        "motos": 22.8,
+        "buses": 0.0,
+        "camiones": 0.6
+      },
+      "peak_analysis": {
+        "dominant_peak": "AM",
+        "am_total_vehicles": 232,
+        "pm_total_vehicles": 201,
+        "off_peak_total": 41,
+        "am_share_pct": 48.9,
+        "pm_share_pct": 42.4,
+        "busiest_am_hour": 7,
+        "busiest_pm_hour": 17,
+        "peak_hour_of_day": 17,
+        "hourly_profile": {
+          "6": 50,
+          "7": 102,
+          "8": 80,
+          "17": 155,
+          "18": 46,
+          "19": 41
+        }
+      }
+    }
+  ],
+  "corridor_speeds": [
+    {
+      "corridor_name": "Avenida Las Palmas",
+      "corridor_id": "11",
+      "directions": [
+        "NS",
+        "SN"
+      ],
+      "segment_endpoints": [
+        "Chuscalito → Sandiego",
+        "Sandiego → Chuscalito"
+      ],
+      "length_km": 5.9,
+      "years_available": [
+        2017,
+        2018,
+        2019,
+        2020
+      ],
+      "speed_stats": {
+        "avg_speed_kmh": 40.95,
+        "min_speed_kmh": 11.0,
+        "max_speed_kmh": 55.0,
+        "avg_travel_time_min": 9.02,
+        "total_observations": 64285
+      },
+      "peak_analysis": {
+        "am_avg_speed_kmh": 42.88,
+        "pm_avg_speed_kmh": 37.36,
+        "off_peak_avg_speed_kmh": 41.57,
+        "am_travel_time_est_min": 8.3,
+        "pm_travel_time_est_min": 9.5,
+        "off_peak_travel_time_est_min": 8.5,
+        "am_congestion_index": -0.032,
+        "pm_congestion_index": 0.101,
+        "slower_peak": "PM"
+      },
+      "hourly_speed_profile_kmh": {
+        "6": 45.08,
+        "7": 41.69,
+        "8": 42.61,
+        "9": 40.33,
+        "10": 41.26,
+        "11": 43.11,
+        "12": 42.76,
+        "13": 42.86,
+        "14": 41.67,
+        "15": 40.87,
+        "16": 39.37,
+        "17": 36.15,
+        "18": 36.64,
+        "19": 39.0,
+        "20": 42.16
+      }
+    },
+    {
+      "corridor_name": "Avenida El Poblado",
+      "corridor_id": "13",
+      "directions": [
+        "NS",
+        "SN"
+      ],
+      "segment_endpoints": [
+        "Calle 12Sur → Calle 30",
+        "Calle 30 → Calle 12Sur"
+      ],
+      "length_km": 3.8,
+      "years_available": [
+        2017,
+        2018,
+        2019,
+        2020
+      ],
+      "speed_stats": {
+        "avg_speed_kmh": 21.62,
+        "min_speed_kmh": 4.0,
+        "max_speed_kmh": 43.4,
+        "avg_travel_time_min": 11.53,
+        "total_observations": 64167
+      },
+      "peak_analysis": {
+        "am_avg_speed_kmh": 25.1,
+        "pm_avg_speed_kmh": 19.15,
+        "off_peak_avg_speed_kmh": 21.39,
+        "am_travel_time_est_min": 9.1,
+        "pm_travel_time_est_min": 11.9,
+        "off_peak_travel_time_est_min": 10.7,
+        "am_congestion_index": -0.173,
+        "pm_congestion_index": 0.105,
+        "slower_peak": "PM"
+      },
+      "hourly_speed_profile_kmh": {
+        "6": 29.99,
+        "7": 24.55,
+        "8": 22.19,
+        "9": 21.66,
+        "10": 20.79,
+        "11": 19.78,
+        "12": 19.33,
+        "13": 21.69,
+        "14": 21.36,
+        "15": 20.53,
+        "16": 19.82,
+        "17": 18.03,
+        "18": 19.55,
+        "19": 22.22,
+        "20": 25.1
+      }
+    },
+    {
+      "corridor_name": "Autopista Norte",
+      "corridor_id": "5",
+      "directions": [
+        "NS",
+        "SN"
+      ],
+      "segment_endpoints": [
+        "Punto Cero → Solla",
+        "Solla → Punto Cero"
+      ],
+      "length_km": 5.3,
+      "years_available": [
+        2017,
+        2018,
+        2019,
+        2020
+      ],
+      "speed_stats": {
+        "avg_speed_kmh": 45.9,
+        "min_speed_kmh": 8.0,
+        "max_speed_kmh": 71.5,
+        "avg_travel_time_min": 7.57,
+        "total_observations": 64589
+      },
+      "peak_analysis": {
+        "am_avg_speed_kmh": 47.11,
+        "pm_avg_speed_kmh": 42.16,
+        "off_peak_avg_speed_kmh": 46.8,
+        "am_travel_time_est_min": 6.8,
+        "pm_travel_time_est_min": 7.5,
+        "off_peak_travel_time_est_min": 6.8,
+        "am_congestion_index": -0.007,
+        "pm_congestion_index": 0.099,
+        "slower_peak": "PM"
+      },
+      "hourly_speed_profile_kmh": {
+        "6": 45.77,
+        "7": 46.32,
+        "8": 48.94,
+        "9": 47.23,
+        "10": 48.17,
+        "11": 48.84,
+        "12": 48.18,
+        "13": 47.7,
+        "14": 47.18,
+        "15": 45.92,
+        "16": 44.28,
+        "17": 41.17,
+        "18": 41.12,
+        "19": 42.51,
+        "20": 45.35
+      }
+    },
+    {
+      "corridor_name": "Autopista Sur",
+      "corridor_id": "4",
+      "directions": [
+        "NS"
+      ],
+      "segment_endpoints": [
+        "CTI → Calle 10"
+      ],
+      "length_km": 6.5,
+      "years_available": [
+        2017,
+        2018,
+        2019,
+        2020
+      ],
+      "speed_stats": {
+        "avg_speed_kmh": 45.58,
+        "min_speed_kmh": 8.0,
+        "max_speed_kmh": 72.7,
+        "avg_travel_time_min": 9.48,
+        "total_observations": 32338
+      },
+      "peak_analysis": {
+        "am_avg_speed_kmh": 43.15,
+        "pm_avg_speed_kmh": 43.6,
+        "off_peak_avg_speed_kmh": 47.0,
+        "am_travel_time_est_min": 9.0,
+        "pm_travel_time_est_min": 8.9,
+        "off_peak_travel_time_est_min": 8.3,
+        "am_congestion_index": 0.082,
+        "pm_congestion_index": 0.072,
+        "slower_peak": "AM"
+      },
+      "hourly_speed_profile_kmh": {
+        "6": 44.18,
+        "7": 39.55,
+        "8": 46.37,
+        "9": 45.64,
+        "10": 46.45,
+        "11": 46.83,
+        "12": 44.84,
+        "13": 45.28,
+        "14": 45.36,
+        "15": 46.46,
+        "16": 42.44,
+        "17": 40.68,
+        "18": 47.32,
+        "19": 51.29,
+        "20": 51.01
+      }
+    },
+    {
+      "corridor_name": "Avenida Guayabal",
+      "corridor_id": "15",
+      "directions": [
+        "NS",
+        "SN"
+      ],
+      "segment_endpoints": [
+        "Calle 12Sur → Calle 30",
+        "Calle 30 → Calle 12Sur"
+      ],
+      "length_km": 4.1,
+      "years_available": [
+        2017,
+        2018,
+        2019,
+        2020
+      ],
+      "speed_stats": {
+        "avg_speed_kmh": 32.52,
+        "min_speed_kmh": 6.0,
+        "max_speed_kmh": 50.5,
+        "avg_travel_time_min": 8.14,
+        "total_observations": 62771
+      },
+      "peak_analysis": {
+        "am_avg_speed_kmh": 34.04,
+        "pm_avg_speed_kmh": 28.98,
+        "off_peak_avg_speed_kmh": 33.24,
+        "am_travel_time_est_min": 7.2,
+        "pm_travel_time_est_min": 8.5,
+        "off_peak_travel_time_est_min": 7.4,
+        "am_congestion_index": -0.024,
+        "pm_congestion_index": 0.128,
+        "slower_peak": "PM"
+      },
+      "hourly_speed_profile_kmh": {
+        "6": 35.64,
+        "7": 32.89,
+        "8": 34.04,
+        "9": 33.12,
+        "10": 33.0,
+        "11": 33.25,
+        "12": 33.03,
+        "13": 32.99,
+        "14": 31.73,
+        "15": 31.54,
+        "16": 30.22,
+        "17": 26.89,
+        "18": 29.84,
+        "19": 33.96,
+        "20": 36.51
+      }
+    },
+    {
+      "corridor_name": "Avenida Regional",
+      "corridor_id": "2",
+      "directions": [
+        "SN"
+      ],
+      "segment_endpoints": [
+        "Tugo → San Juan"
+      ],
+      "length_km": 6.6,
+      "years_available": [
+        2017,
+        2018,
+        2019,
+        2020
+      ],
+      "speed_stats": {
+        "avg_speed_kmh": 53.7,
+        "min_speed_kmh": 5.2,
+        "max_speed_kmh": 79.2,
+        "avg_travel_time_min": 8.44,
+        "total_observations": 32377
+      },
+      "peak_analysis": {
+        "am_avg_speed_kmh": 59.37,
+        "pm_avg_speed_kmh": 45.14,
+        "off_peak_avg_speed_kmh": 54.86,
+        "am_travel_time_est_min": 6.7,
+        "pm_travel_time_est_min": 8.8,
+        "off_peak_travel_time_est_min": 7.2,
+        "am_congestion_index": -0.082,
+        "pm_congestion_index": 0.177,
+        "slower_peak": "PM"
+      },
+      "hourly_speed_profile_kmh": {
+        "6": 61.16,
+        "7": 58.63,
+        "8": 58.9,
+        "9": 55.3,
+        "10": 54.39,
+        "11": 55.13,
+        "12": 55.55,
+        "13": 56.21,
+        "14": 54.83,
+        "15": 52.86,
+        "16": 50.13,
+        "17": 42.48,
+        "18": 43.02,
+        "19": 52.16,
+        "20": 57.14
+      }
+    },
+    {
+      "corridor_name": "Avenida San Juan",
+      "corridor_id": "21",
+      "directions": [
+        "EW",
+        "WE"
+      ],
+      "segment_endpoints": [
+        "Avenida 80 → Avenida Regional",
+        "Avenida Regional → Avenida 80"
+      ],
+      "length_km": 2.5,
+      "years_available": [
+        2017,
+        2018,
+        2019,
+        2020
+      ],
+      "speed_stats": {
+        "avg_speed_kmh": 22.95,
+        "min_speed_kmh": 7.7,
+        "max_speed_kmh": 42.3,
+        "avg_travel_time_min": 6.85,
+        "total_observations": 63781
+      },
+      "peak_analysis": {
+        "am_avg_speed_kmh": 26.11,
+        "pm_avg_speed_kmh": 20.95,
+        "off_peak_avg_speed_kmh": 22.66,
+        "am_travel_time_est_min": 5.7,
+        "pm_travel_time_est_min": 7.2,
+        "off_peak_travel_time_est_min": 6.6,
+        "am_congestion_index": -0.152,
+        "pm_congestion_index": 0.075,
+        "slower_peak": "PM"
+      },
+      "hourly_speed_profile_kmh": {
+        "6": 28.07,
+        "7": 25.79,
+        "8": 25.05,
+        "9": 23.35,
+        "10": 22.56,
+        "11": 22.67,
+        "12": 22.18,
+        "13": 22.61,
+        "14": 22.05,
+        "15": 21.25,
+        "16": 20.99,
+        "17": 20.32,
+        "18": 21.5,
+        "19": 22.45,
+        "20": 24.77
+      }
+    }
+  ],
+  "peak_patterns": {
+    "study_area": "El Poblado / Las Palmas corridor (lat 6.17–6.22, lon −75.58 to −75.52)",
+    "intersections_analysed": 14,
+    "total_vehicles_all_intervals": 358100,
+    "am_peak_total": 80974,
+    "pm_peak_total": 95145,
+    "off_peak_total": 181981,
+    "am_peak_share_pct": 22.6,
+    "pm_peak_share_pct": 26.6,
+    "dominant_peak_study_area": "PM",
+    "busiest_hour_of_day": 17,
+    "peak_hour_AM": 7,
+    "peak_hour_PM": 17,
+    "hourly_profile": {
+      "0": 6082,
+      "6": 20186,
+      "7": 31632,
+      "8": 29156,
+      "9": 18190,
+      "10": 18342,
+      "11": 17509,
+      "12": 30838,
+      "13": 29359,
+      "14": 18869,
+      "15": 18889,
+      "16": 32536,
+      "17": 34079,
+      "18": 28530,
+      "19": 10130,
+      "20": 7374,
+      "21": 6399
+    }
+  }
+}

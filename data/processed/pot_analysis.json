@@ -1,0 +1,2599 @@
+{
+  "metadata": {
+    "estudio": "Localización Hospital Público Terciario Universitario (HPTU) - Medellín",
+    "area_estudio": "Comuna 14 El Poblado y barrios circundantes - Corredor Las Palmas",
+    "fecha_generacion": "2026-02-27",
+    "fuentes": {
+      "bateria_indicadores": "bateria_indicadores_capacidad_soporte_barrio.csv - Sistema de indicadores POT Medellín",
+      "licencias_urbanisticas": "licencias_urbanisticas.csv - Curadurías Urbanas de Medellín",
+      "lotes_potenciales": "lotes_potenciales_desarrollo.csv - Suelo potencial de desarrollo POT"
+    },
+    "año_referencia_indicadores": "2021",
+    "descripcion_tratamientos": {
+      "CN3": "Consolidación Nivel 3 - consolidación con densificación moderada",
+      "CN4": "Consolidación Nivel 4 - consolidación con restricción de densificación",
+      "CN5": "Consolidación Nivel 5 - conservación y mejoramiento morfológico",
+      "R": "Redesarrollo - transformación integral del sector",
+      "D": "Desarrollo - urbanización de suelo sin desarrollar",
+      "API": "Área de Preservación de la Infraestructura"
+    }
+  },
+  "resumen_ejecutivo": {
+    "barrios_analizados": 22,
+    "barrios_viabilidad_alta": [
+      "Barrio Colombia",
+      "Villa Carlota",
+      "Las Lomas No.1",
+      "Altos del Poblado",
+      "El Tesoro",
+      "Los Naranjos",
+      "Los Balsos No.1",
+      "El Castillo",
+      "El Poblado",
+      "Manila",
+      "Astorga",
+      "Patio Bonito",
+      "La Aguacatala",
+      "Santa María de Los Ángeles"
+    ],
+    "barrios_viabilidad_media_alta": [
+      "Castropol",
+      "Lalinde",
+      "Las Lomas No.2",
+      "San Lucas",
+      "El Diamante No.2",
+      "Los Balsos No.2",
+      "Alejandría",
+      "La Florida"
+    ],
+    "licencias_salud_dotacional_total": 27,
+    "total_lotes_potenciales_corredor_las_palmas": 592,
+    "area_neta_disponible_corredor_m2": 414309.0,
+    "notas_uso_dotacional_salud": [
+      "El uso dotacional en salud (hospitales) es permitido en zonas de alta mixtura y en suelos de tratamiento R (Redesarrollo) y zonas de equipamiento del POT de Medellín.",
+      "Barrios con mayor concentración dotacional existente (CL_D > 1.0): Altos del Poblado (2.38), La Aguacatala (4.93), El Castillo (3.44), Patio Bonito (2.15), El Poblado (1.30).",
+      "Patio Bonito tiene el mayor suelo de equipamiento de salud existente (29,896 m2), con presencia de Clínica Las Américas.",
+      "Villa Carlota (23,372 m2) y Los Naranjos (23,780 m2) tienen infraestructura de salud relevante.",
+      "El corredor Las Palmas (Vía Las Palmas) atraviesa barrios: Las Lomas No.1, Las Lomas No.2, Los Balsos No.1, El Tesoro, Altos del Poblado - con alturas permitidas de 11-20 pisos.",
+      "San Lucas tiene el mayor suelo potencial de desarrollo (192,397 m2 netos, 2021) con alturas hasta 19 pisos y tratamiento CN5."
+    ]
+  },
+  "normas_pot_por_barrio": {
+    "1401": {
+      "cod_barrio": "1401",
+      "nom_barrio": "Barrio Colombia",
+      "data_year": "2021",
+      "normas_construccion": {
+        "densidad_norma_basica_viv_ha": 330.0,
+        "densidad_norma_adicional_viv_ha": 70.0,
+        "IC_indice_construccion": 3.0,
+        "altura_maxima_pisos": 0.0
+      },
+      "ocupacion_actual_suelo": {
+        "area_poligono_ha": 40.1681710502,
+        "area_neta_ha": 32.3995798761434,
+        "densidad_habitacional_viv_ha": 1.45063609403798,
+        "densidad_poblacional_hab_ha": 6.14205495135228,
+        "suelo_vivienda_m2": 2131.4909941816,
+        "suelo_multiple_comercio_servicios_m2": 80492.3384029221
+      },
+      "suelo_desarrollo": {
+        "suelo_potencial_desarrollo_m2": 90904.9826319962,
+        "suelo_lotes_urbanizables_m2": 0.0
+      },
+      "equipamiento_salud": {
+        "suelo_equipamiento_salud_existente_m2": 0.0,
+        "equipamiento_salud_por_hab_m2": 0.153211952358801
+      },
+      "indices_urbanos": {
+        "cociente_localizacion_dotacional": 0.0,
+        "ICS_indice_capacidad_soporte": 70.1955604498026,
+        "ICF_indice_capacidad_funcional": 2.93529976296026,
+        "indice_centralidades_zscore": null
+      },
+      "viabilidad_dotacional_salud": {
+        "clasificacion": "ALTA",
+        "score": 6,
+        "factores": [
+          "Alta capacidad de soporte (ICS=70.2)",
+          "Alta capacidad funcional (ICF=2.94)",
+          "Suelo potencial disponible (90905 m2)"
+        ]
+      }
+    },
+    "1403": {
+      "cod_barrio": "1403",
+      "nom_barrio": "Villa Carlota",
+      "data_year": "2021",
+      "normas_construccion": {
+        "densidad_norma_basica_viv_ha": 220.459061322371,
+        "densidad_norma_adicional_viv_ha": 12.1274409044193,
+        "IC_indice_construccion": 2.6209318259678,
+        "altura_maxima_pisos": 0.0
+      },
+      "ocupacion_actual_suelo": {
+        "area_poligono_ha": 93.5206769007,
+        "area_neta_ha": 74.1834146197713,
+        "densidad_habitacional_viv_ha": 39.3484179039398,
+        "densidad_poblacional_hab_ha": 64.1113653823699,
+        "suelo_vivienda_m2": 42773.5242153916,
+        "suelo_multiple_comercio_servicios_m2": 120074.912550582
+      },
+      "suelo_desarrollo": {
+        "suelo_potencial_desarrollo_m2": 171197.846292042,
+        "suelo_lotes_urbanizables_m2": 0.0
+      },
+      "equipamiento_salud": {
+        "suelo_equipamiento_salud_existente_m2": 22371.1931712751,
+        "equipamiento_salud_por_hab_m2": 3.40484558277262
+      },
+      "indices_urbanos": {
+        "cociente_localizacion_dotacional": 0.658439701592748,
+        "ICS_indice_capacidad_soporte": 60.9619927634529,
+        "ICF_indice_capacidad_funcional": 2.37295858468585,
+        "indice_centralidades_zscore": 0.381676793868828
+      },
+      "viabilidad_dotacional_salud": {
+        "clasificacion": "ALTA",
+        "score": 7,
+        "factores": [
+          "Presencia dotacional moderada (CL_D=0.66)",
+          "Alta capacidad de soporte (ICS=61.0)",
+          "Alta capacidad funcional (ICF=2.37)",
+          "Suelo potencial disponible (171198 m2)"
+        ]
+      }
+    },
+    "1404": {
+      "cod_barrio": "1404",
+      "nom_barrio": "Castropol",
+      "data_year": "2021",
+      "normas_construccion": {
+        "densidad_norma_basica_viv_ha": 127.798974358974,
+        "densidad_norma_adicional_viv_ha": 0.488205128205128,
+        "IC_indice_construccion": 1.49825641025641,
+        "altura_maxima_pisos": 0.0
+      },
+      "ocupacion_actual_suelo": {
+        "area_poligono_ha": 60.6173412423,
+        "area_neta_ha": 53.2431571074209,
+        "densidad_habitacional_viv_ha": 91.5610618311839,
+        "densidad_poblacional_hab_ha": 185.432279683955,
+        "suelo_vivienda_m2": 219876.877195741,
+        "suelo_multiple_comercio_servicios_m2": 101374.332690474
+      },
+      "suelo_desarrollo": {
+        "suelo_potencial_desarrollo_m2": 138551.570621226,
+        "suelo_lotes_urbanizables_m2": 0.0
+      },
+      "equipamiento_salud": {
+        "suelo_equipamiento_salud_existente_m2": 0.0,
+        "equipamiento_salud_por_hab_m2": 0.153211952358801
+      },
+      "indices_urbanos": {
+        "cociente_localizacion_dotacional": 0.0,
+        "ICS_indice_capacidad_soporte": 48.8491090265604,
+        "ICF_indice_capacidad_funcional": 2.26353480199198,
+        "indice_centralidades_zscore": -0.278492175423482
+      },
+      "viabilidad_dotacional_salud": {
+        "clasificacion": "MEDIA-ALTA",
+        "score": 5,
+        "factores": [
+          "Capacidad de soporte media (ICS=48.8)",
+          "Alta capacidad funcional (ICF=2.26)",
+          "Suelo potencial disponible (138552 m2)"
+        ]
+      }
+    },
+    "1405": {
+      "cod_barrio": "1405",
+      "nom_barrio": "Lalinde",
+      "data_year": "2021",
+      "normas_construccion": {
+        "densidad_norma_basica_viv_ha": 125.840151038389,
+        "densidad_norma_adicional_viv_ha": 0.0,
+        "IC_indice_construccion": 1.48030207677785,
+        "altura_maxima_pisos": 0.0
+      },
+      "ocupacion_actual_suelo": {
+        "area_poligono_ha": 23.0059931101,
+        "area_neta_ha": 21.0635094565791,
+        "densidad_habitacional_viv_ha": 75.4385209775042,
+        "densidad_poblacional_hab_ha": 126.379699711842,
+        "suelo_vivienda_m2": 101918.930925249,
+        "suelo_multiple_comercio_servicios_m2": 31504.3478192798
+      },
+      "suelo_desarrollo": {
+        "suelo_potencial_desarrollo_m2": 50480.7955606533,
+        "suelo_lotes_urbanizables_m2": 0.0
+      },
+      "equipamiento_salud": {
+        "suelo_equipamiento_salud_existente_m2": 0.0,
+        "equipamiento_salud_por_hab_m2": 0.153211952358801
+      },
+      "indices_urbanos": {
+        "cociente_localizacion_dotacional": 0.184303531972571,
+        "ICS_indice_capacidad_soporte": 45.7504614351574,
+        "ICF_indice_capacidad_funcional": 2.01959808376859,
+        "indice_centralidades_zscore": 1.88940855690217
+      },
+      "viabilidad_dotacional_salud": {
+        "clasificacion": "MEDIA-ALTA",
+        "score": 5,
+        "factores": [
+          "Capacidad de soporte media (ICS=45.8)",
+          "Alta capacidad funcional (ICF=2.02)",
+          "Suelo potencial disponible (50481 m2)"
+        ]
+      }
+    },
+    "1406": {
+      "cod_barrio": "1406",
+      "nom_barrio": "Las Lomas No.1",
+      "data_year": "2021",
+      "normas_construccion": {
+        "densidad_norma_basica_viv_ha": 85.5648099947944,
+        "densidad_norma_adicional_viv_ha": 0.0,
+        "IC_indice_construccion": 1.24695471108798,
+        "altura_maxima_pisos": 15.3045288912025
+      },
+      "ocupacion_actual_suelo": {
+        "area_poligono_ha": 48.6146148156,
+        "area_neta_ha": 40.2322652965281,
+        "densidad_habitacional_viv_ha": 47.7477463881651,
+        "densidad_poblacional_hab_ha": 78.0468108583229,
+        "suelo_vivienda_m2": 182844.0235801,
+        "suelo_multiple_comercio_servicios_m2": 67689.9567412994
+      },
+      "suelo_desarrollo": {
+        "suelo_potencial_desarrollo_m2": 92443.8968212983,
+        "suelo_lotes_urbanizables_m2": 0.0
+      },
+      "equipamiento_salud": {
+        "suelo_equipamiento_salud_existente_m2": 0.0,
+        "equipamiento_salud_por_hab_m2": 0.153211952358801
+      },
+      "indices_urbanos": {
+        "cociente_localizacion_dotacional": 0.357935219472166,
+        "ICS_indice_capacidad_soporte": 53.1929770151032,
+        "ICF_indice_capacidad_funcional": 2.37062634095498,
+        "indice_centralidades_zscore": 1.0216258268536
+      },
+      "viabilidad_dotacional_salud": {
+        "clasificacion": "ALTA",
+        "score": 6,
+        "factores": [
+          "Capacidad de soporte media (ICS=53.2)",
+          "Alta capacidad funcional (ICF=2.37)",
+          "Suelo potencial disponible (92444 m2)",
+          "Altura permisible adecuada (15.3 pisos)"
+        ]
+      }
+    },
+    "1407": {
+      "cod_barrio": "1407",
+      "nom_barrio": "Las Lomas No.2",
+      "data_year": "2021",
+      "normas_construccion": {
+        "densidad_norma_basica_viv_ha": 75.0,
+        "densidad_norma_adicional_viv_ha": 0.0,
+        "IC_indice_construccion": 1.2,
+        "altura_maxima_pisos": 20.0
+      },
+      "ocupacion_actual_suelo": {
+        "area_poligono_ha": 33.5754221769,
+        "area_neta_ha": 30.3941264367083,
+        "densidad_habitacional_viv_ha": 36.487312846755,
+        "densidad_poblacional_hab_ha": 84.7532172166283,
+        "suelo_vivienda_m2": 149128.379032717,
+        "suelo_multiple_comercio_servicios_m2": 70035.7281654023
+      },
+      "suelo_desarrollo": {
+        "suelo_potencial_desarrollo_m2": 30281.1240040542,
+        "suelo_lotes_urbanizables_m2": 0.0
+      },
+      "equipamiento_salud": {
+        "suelo_equipamiento_salud_existente_m2": 0.0,
+        "equipamiento_salud_por_hab_m2": 0.153211952358801
+      },
+      "indices_urbanos": {
+        "cociente_localizacion_dotacional": 0.0,
+        "ICS_indice_capacidad_soporte": 48.1963881637421,
+        "ICF_indice_capacidad_funcional": 2.48452271997346,
+        "indice_centralidades_zscore": 0.279626383908219
+      },
+      "viabilidad_dotacional_salud": {
+        "clasificacion": "MEDIA-ALTA",
+        "score": 5,
+        "factores": [
+          "Capacidad de soporte media (ICS=48.2)",
+          "Alta capacidad funcional (ICF=2.48)",
+          "Suelo potencial limitado (30281 m2)",
+          "Altura permisible adecuada (20.0 pisos)"
+        ]
+      }
+    },
+    "1408": {
+      "cod_barrio": "1408",
+      "nom_barrio": "Altos del Poblado",
+      "data_year": "2021",
+      "normas_construccion": {
+        "densidad_norma_basica_viv_ha": 43.9791437980241,
+        "densidad_norma_adicional_viv_ha": 0.0,
+        "IC_indice_construccion": 0.755433589462129,
+        "altura_maxima_pisos": 11.7277716794731
+      },
+      "ocupacion_actual_suelo": {
+        "area_poligono_ha": 91.095257727,
+        "area_neta_ha": 74.5135966098247,
+        "densidad_habitacional_viv_ha": 24.4519132466593,
+        "densidad_poblacional_hab_ha": 52.1381355451544,
+        "suelo_vivienda_m2": 355157.470551002,
+        "suelo_multiple_comercio_servicios_m2": 31191.3470719574
+      },
+      "suelo_desarrollo": {
+        "suelo_potencial_desarrollo_m2": 68019.9350926709,
+        "suelo_lotes_urbanizables_m2": 0.0
+      },
+      "equipamiento_salud": {
+        "suelo_equipamiento_salud_existente_m2": 0.0,
+        "equipamiento_salud_por_hab_m2": 0.153211952358801
+      },
+      "indices_urbanos": {
+        "cociente_localizacion_dotacional": 2.37974816436746,
+        "ICS_indice_capacidad_soporte": 57.3697700986435,
+        "ICF_indice_capacidad_funcional": 1.86290433405618,
+        "indice_centralidades_zscore": 0.657403068981631
+      },
+      "viabilidad_dotacional_salud": {
+        "clasificacion": "ALTA",
+        "score": 9,
+        "factores": [
+          "Alta concentración dotacional (CL_D=2.38)",
+          "Alta capacidad de soporte (ICS=57.4)",
+          "Capacidad funcional media (ICF=1.86)",
+          "Suelo potencial disponible (68020 m2)",
+          "Altura permisible adecuada (11.7 pisos)"
+        ]
+      }
+    },
+    "1409": {
+      "cod_barrio": "1409",
+      "nom_barrio": "El Tesoro",
+      "data_year": "2021",
+      "normas_construccion": {
+        "densidad_norma_basica_viv_ha": 59.1535194174757,
+        "densidad_norma_adicional_viv_ha": 0.0,
+        "IC_indice_construccion": 0.953155339805825,
+        "altura_maxima_pisos": 15.4463996763754
+      },
+      "ocupacion_actual_suelo": {
+        "area_poligono_ha": 117.485505797,
+        "area_neta_ha": 96.7818826517775,
+        "densidad_habitacional_viv_ha": 51.0839411730456,
+        "densidad_poblacional_hab_ha": 106.021909461291,
+        "suelo_vivienda_m2": 583361.024593357,
+        "suelo_multiple_comercio_servicios_m2": 26303.7843061074
+      },
+      "suelo_desarrollo": {
+        "suelo_potencial_desarrollo_m2": 119481.661328679,
+        "suelo_lotes_urbanizables_m2": 0.0
+      },
+      "equipamiento_salud": {
+        "suelo_equipamiento_salud_existente_m2": 0.0,
+        "equipamiento_salud_por_hab_m2": 0.153211952358801
+      },
+      "indices_urbanos": {
+        "cociente_localizacion_dotacional": 0.545839084655634,
+        "ICS_indice_capacidad_soporte": 53.3398935167057,
+        "ICF_indice_capacidad_funcional": 2.02274912295016,
+        "indice_centralidades_zscore": -0.640854656230048
+      },
+      "viabilidad_dotacional_salud": {
+        "clasificacion": "ALTA",
+        "score": 7,
+        "factores": [
+          "Presencia dotacional moderada (CL_D=0.55)",
+          "Capacidad de soporte media (ICS=53.3)",
+          "Alta capacidad funcional (ICF=2.02)",
+          "Suelo potencial disponible (119482 m2)",
+          "Altura permisible adecuada (15.4 pisos)"
+        ]
+      }
+    },
+    "1410": {
+      "cod_barrio": "1410",
+      "nom_barrio": "Los Naranjos",
+      "data_year": "2021",
+      "normas_construccion": {
+        "densidad_norma_basica_viv_ha": 63.1617888852351,
+        "densidad_norma_adicional_viv_ha": 0.0,
+        "IC_indice_construccion": 0.799079250246629,
+        "altura_maxima_pisos": 13.6021045708648
+      },
+      "ocupacion_actual_suelo": {
+        "area_poligono_ha": 96.5373331134,
+        "area_neta_ha": 76.7560994327483,
+        "densidad_habitacional_viv_ha": 39.6190012581924,
+        "densidad_poblacional_hab_ha": 89.23069372488,
+        "suelo_vivienda_m2": 433530.074841611,
+        "suelo_multiple_comercio_servicios_m2": 57208.9740444406
+      },
+      "suelo_desarrollo": {
+        "suelo_potencial_desarrollo_m2": 130717.82490772,
+        "suelo_lotes_urbanizables_m2": 0.0
+      },
+      "equipamiento_salud": {
+        "suelo_equipamiento_salud_existente_m2": 23779.9751439883,
+        "equipamiento_salud_por_hab_m2": 1.88922999469989
+      },
+      "indices_urbanos": {
+        "cociente_localizacion_dotacional": 0.723423955066189,
+        "ICS_indice_capacidad_soporte": 53.5556951957121,
+        "ICF_indice_capacidad_funcional": 1.90640182964245,
+        "indice_centralidades_zscore": null
+      },
+      "viabilidad_dotacional_salud": {
+        "clasificacion": "ALTA",
+        "score": 6,
+        "factores": [
+          "Presencia dotacional moderada (CL_D=0.72)",
+          "Capacidad de soporte media (ICS=53.6)",
+          "Capacidad funcional media (ICF=1.91)",
+          "Suelo potencial disponible (130718 m2)",
+          "Altura permisible adecuada (13.6 pisos)"
+        ]
+      }
+    },
+    "1411": {
+      "cod_barrio": "1411",
+      "nom_barrio": "Los Balsos No.1",
+      "data_year": "2021",
+      "normas_construccion": {
+        "densidad_norma_basica_viv_ha": 62.8116591928251,
+        "densidad_norma_adicional_viv_ha": 0.0,
+        "IC_indice_construccion": 1.02457399103139,
+        "altura_maxima_pisos": 16.6636771300448
+      },
+      "ocupacion_actual_suelo": {
+        "area_poligono_ha": 140.363037628,
+        "area_neta_ha": 88.4911445957654,
+        "densidad_habitacional_viv_ha": 50.4005233560221,
+        "densidad_poblacional_hab_ha": 115.548285048279,
+        "suelo_vivienda_m2": 600392.963976334,
+        "suelo_multiple_comercio_servicios_m2": 175171.72499459
+      },
+      "suelo_desarrollo": {
+        "suelo_potencial_desarrollo_m2": 132160.619659922,
+        "suelo_lotes_urbanizables_m2": 0.0
+      },
+      "equipamiento_salud": {
+        "suelo_equipamiento_salud_existente_m2": 0.0,
+        "equipamiento_salud_por_hab_m2": 0.153211952358801
+      },
+      "indices_urbanos": {
+        "cociente_localizacion_dotacional": 0.450078410750867,
+        "ICS_indice_capacidad_soporte": 58.1557733886019,
+        "ICF_indice_capacidad_funcional": 1.86507107662046,
+        "indice_centralidades_zscore": null
+      },
+      "viabilidad_dotacional_salud": {
+        "clasificacion": "ALTA",
+        "score": 6,
+        "factores": [
+          "Alta capacidad de soporte (ICS=58.2)",
+          "Capacidad funcional media (ICF=1.87)",
+          "Suelo potencial disponible (132161 m2)",
+          "Altura permisible adecuada (16.7 pisos)"
+        ]
+      }
+    },
+    "1412": {
+      "cod_barrio": "1412",
+      "nom_barrio": "San Lucas",
+      "data_year": "2021",
+      "normas_construccion": {
+        "densidad_norma_basica_viv_ha": 71.6402997502082,
+        "densidad_norma_adicional_viv_ha": 0.0,
+        "IC_indice_construccion": 1.15520399666944,
+        "altura_maxima_pisos": 19.1040799333888
+      },
+      "ocupacion_actual_suelo": {
+        "area_poligono_ha": 122.834992421,
+        "area_neta_ha": 109.865902888439,
+        "densidad_habitacional_viv_ha": 32.7945240996069,
+        "densidad_poblacional_hab_ha": 81.0988647592278,
+        "suelo_vivienda_m2": 741922.864760061,
+        "suelo_multiple_comercio_servicios_m2": 68873.2576845212
+      },
+      "suelo_desarrollo": {
+        "suelo_potencial_desarrollo_m2": 192397.377225501,
+        "suelo_lotes_urbanizables_m2": 0.0
+      },
+      "equipamiento_salud": {
+        "suelo_equipamiento_salud_existente_m2": 0.0,
+        "equipamiento_salud_por_hab_m2": 0.153211952358801
+      },
+      "indices_urbanos": {
+        "cociente_localizacion_dotacional": 0.310590582336371,
+        "ICS_indice_capacidad_soporte": 50.2373116059574,
+        "ICF_indice_capacidad_funcional": 1.7909012925911,
+        "indice_centralidades_zscore": null
+      },
+      "viabilidad_dotacional_salud": {
+        "clasificacion": "MEDIA-ALTA",
+        "score": 5,
+        "factores": [
+          "Capacidad de soporte media (ICS=50.2)",
+          "Capacidad funcional media (ICF=1.79)",
+          "Suelo potencial disponible (192397 m2)",
+          "Altura permisible adecuada (19.1 pisos)"
+        ]
+      }
+    },
+    "1413": {
+      "cod_barrio": "1413",
+      "nom_barrio": "El Diamante No.2",
+      "data_year": "2021",
+      "normas_construccion": {
+        "densidad_norma_basica_viv_ha": 80.7207347447073,
+        "densidad_norma_adicional_viv_ha": 0.0,
+        "IC_indice_construccion": 1.42864259028643,
+        "altura_maxima_pisos": 2.05479452054794
+      },
+      "ocupacion_actual_suelo": {
+        "area_poligono_ha": 66.1036427872,
+        "area_neta_ha": 52.2987996533738,
+        "densidad_habitacional_viv_ha": 61.4163235349283,
+        "densidad_poblacional_hab_ha": 134.936175338104,
+        "suelo_vivienda_m2": 337850.276268523,
+        "suelo_multiple_comercio_servicios_m2": 30122.5514083552
+      },
+      "suelo_desarrollo": {
+        "suelo_potencial_desarrollo_m2": 96314.8503088242,
+        "suelo_lotes_urbanizables_m2": 0.0
+      },
+      "equipamiento_salud": {
+        "suelo_equipamiento_salud_existente_m2": 0.0,
+        "equipamiento_salud_por_hab_m2": 0.153211952358801
+      },
+      "indices_urbanos": {
+        "cociente_localizacion_dotacional": 0.110466102334482,
+        "ICS_indice_capacidad_soporte": 48.9214034944138,
+        "ICF_indice_capacidad_funcional": 2.49845345934309,
+        "indice_centralidades_zscore": null
+      },
+      "viabilidad_dotacional_salud": {
+        "clasificacion": "MEDIA-ALTA",
+        "score": 5,
+        "factores": [
+          "Capacidad de soporte media (ICS=48.9)",
+          "Alta capacidad funcional (ICF=2.50)",
+          "Suelo potencial disponible (96315 m2)"
+        ]
+      }
+    },
+    "1414": {
+      "cod_barrio": "1414",
+      "nom_barrio": "El Castillo",
+      "data_year": "2021",
+      "normas_construccion": {
+        "densidad_norma_basica_viv_ha": 134.64759959142,
+        "densidad_norma_adicional_viv_ha": 0.0,
+        "IC_indice_construccion": 1.70919305413687,
+        "altura_maxima_pisos": 5.14811031664964
+      },
+      "ocupacion_actual_suelo": {
+        "area_poligono_ha": 72.2756081801,
+        "area_neta_ha": 3.23663210137746,
+        "densidad_habitacional_viv_ha": 302.474908897849,
+        "densidad_poblacional_hab_ha": 626.577237226596,
+        "suelo_vivienda_m2": 138905.891046179,
+        "suelo_multiple_comercio_servicios_m2": 9133.01468862378
+      },
+      "suelo_desarrollo": {
+        "suelo_potencial_desarrollo_m2": 30251.5758818396,
+        "suelo_lotes_urbanizables_m2": 0.0
+      },
+      "equipamiento_salud": {
+        "suelo_equipamiento_salud_existente_m2": 0.0,
+        "equipamiento_salud_por_hab_m2": 0.153211952358801
+      },
+      "indices_urbanos": {
+        "cociente_localizacion_dotacional": 3.43519191862513,
+        "ICS_indice_capacidad_soporte": 48.9480364229837,
+        "ICF_indice_capacidad_funcional": 2.00694657862376,
+        "indice_centralidades_zscore": 0.621687276229867
+      },
+      "viabilidad_dotacional_salud": {
+        "clasificacion": "ALTA",
+        "score": 7,
+        "factores": [
+          "Alta concentración dotacional (CL_D=3.44)",
+          "Capacidad de soporte media (ICS=48.9)",
+          "Alta capacidad funcional (ICF=2.01)",
+          "Suelo potencial limitado (30252 m2)"
+        ]
+      }
+    },
+    "1415": {
+      "cod_barrio": "1415",
+      "nom_barrio": "Los Balsos No.2",
+      "data_year": "2021",
+      "normas_construccion": {
+        "densidad_norma_basica_viv_ha": 112.787294789436,
+        "densidad_norma_adicional_viv_ha": 0.0,
+        "IC_indice_construccion": 1.39079229122056,
+        "altura_maxima_pisos": 4.29693076374019
+      },
+      "ocupacion_actual_suelo": {
+        "area_poligono_ha": 48.6361131204,
+        "area_neta_ha": 42.779616146425,
+        "densidad_habitacional_viv_ha": 65.4984839136795,
+        "densidad_poblacional_hab_ha": 150.842868199491,
+        "suelo_vivienda_m2": 180457.7752176,
+        "suelo_multiple_comercio_servicios_m2": 54610.224856069
+      },
+      "suelo_desarrollo": {
+        "suelo_potencial_desarrollo_m2": 81865.8138687733,
+        "suelo_lotes_urbanizables_m2": 0.0
+      },
+      "equipamiento_salud": {
+        "suelo_equipamiento_salud_existente_m2": 0.0,
+        "equipamiento_salud_por_hab_m2": 0.153211952358801
+      },
+      "indices_urbanos": {
+        "cociente_localizacion_dotacional": 0.0343480727838886,
+        "ICS_indice_capacidad_soporte": 50.8798089098473,
+        "ICF_indice_capacidad_funcional": 2.45564120971881,
+        "indice_centralidades_zscore": 0.376856341556219
+      },
+      "viabilidad_dotacional_salud": {
+        "clasificacion": "MEDIA-ALTA",
+        "score": 5,
+        "factores": [
+          "Capacidad de soporte media (ICS=50.9)",
+          "Alta capacidad funcional (ICF=2.46)",
+          "Suelo potencial disponible (81866 m2)"
+        ]
+      }
+    },
+    "1416": {
+      "cod_barrio": "1416",
+      "nom_barrio": "Alejandría",
+      "data_year": "2021",
+      "normas_construccion": {
+        "densidad_norma_basica_viv_ha": 110.683269476373,
+        "densidad_norma_adicional_viv_ha": 0.0,
+        "IC_indice_construccion": 1.21864623243934,
+        "altura_maxima_pisos": 2.7330779054917
+      },
+      "ocupacion_actual_suelo": {
+        "area_poligono_ha": 43.2153452826,
+        "area_neta_ha": 38.8740232572473,
+        "densidad_habitacional_viv_ha": 60.4259555141897,
+        "densidad_poblacional_hab_ha": 132.916522836023,
+        "suelo_vivienda_m2": 182823.334978569,
+        "suelo_multiple_comercio_servicios_m2": 48453.949334722
+      },
+      "suelo_desarrollo": {
+        "suelo_potencial_desarrollo_m2": 94281.8885370069,
+        "suelo_lotes_urbanizables_m2": 0.0
+      },
+      "equipamiento_salud": {
+        "suelo_equipamiento_salud_existente_m2": 0.0,
+        "equipamiento_salud_por_hab_m2": 0.153211952358801
+      },
+      "indices_urbanos": {
+        "cociente_localizacion_dotacional": 0.121021298435815,
+        "ICS_indice_capacidad_soporte": 46.0874920802556,
+        "ICF_indice_capacidad_funcional": 2.33575154585684,
+        "indice_centralidades_zscore": 1.16440298925161
+      },
+      "viabilidad_dotacional_salud": {
+        "clasificacion": "MEDIA-ALTA",
+        "score": 5,
+        "factores": [
+          "Capacidad de soporte media (ICS=46.1)",
+          "Alta capacidad funcional (ICF=2.34)",
+          "Suelo potencial disponible (94282 m2)"
+        ]
+      }
+    },
+    "1417": {
+      "cod_barrio": "1417",
+      "nom_barrio": "La Florida",
+      "data_year": "2021",
+      "normas_construccion": {
+        "densidad_norma_basica_viv_ha": 104.441267572075,
+        "densidad_norma_adicional_viv_ha": 0.0,
+        "IC_indice_construccion": 1.35835120324041,
+        "altura_maxima_pisos": 8.29640219204193
+      },
+      "ocupacion_actual_suelo": {
+        "area_poligono_ha": 76.7667973104,
+        "area_neta_ha": 65.4804171195105,
+        "densidad_habitacional_viv_ha": 64.0954988472342,
+        "densidad_poblacional_hab_ha": 134.131705116811,
+        "suelo_vivienda_m2": 350621.671943968,
+        "suelo_multiple_comercio_servicios_m2": 63434.1762043404
+      },
+      "suelo_desarrollo": {
+        "suelo_potencial_desarrollo_m2": 128104.471879655,
+        "suelo_lotes_urbanizables_m2": 0.0
+      },
+      "equipamiento_salud": {
+        "suelo_equipamiento_salud_existente_m2": 13418.7850732264,
+        "equipamiento_salud_por_hab_m2": 0.917118651278668
+      },
+      "indices_urbanos": {
+        "cociente_localizacion_dotacional": 0.215409710119379,
+        "ICS_indice_capacidad_soporte": 50.5189863918822,
+        "ICF_indice_capacidad_funcional": 2.7706382508912,
+        "indice_centralidades_zscore": 1.0676038817818
+      },
+      "viabilidad_dotacional_salud": {
+        "clasificacion": "MEDIA-ALTA",
+        "score": 5,
+        "factores": [
+          "Capacidad de soporte media (ICS=50.5)",
+          "Alta capacidad funcional (ICF=2.77)",
+          "Suelo potencial disponible (128104 m2)"
+        ]
+      }
+    },
+    "1418": {
+      "cod_barrio": "1418",
+      "nom_barrio": "El Poblado",
+      "data_year": "2021",
+      "normas_construccion": {
+        "densidad_norma_basica_viv_ha": 191.555555555556,
+        "densidad_norma_adicional_viv_ha": 0.0,
+        "IC_indice_construccion": 0.398222222222222,
+        "altura_maxima_pisos": 7.15555555555556
+      },
+      "ocupacion_actual_suelo": {
+        "area_poligono_ha": 26.1433113763,
+        "area_neta_ha": 20.4269266810248,
+        "densidad_habitacional_viv_ha": 22.0297456894491,
+        "densidad_poblacional_hab_ha": 19.9736360917672,
+        "suelo_vivienda_m2": 23227.4770892493,
+        "suelo_multiple_comercio_servicios_m2": 101840.868858731
+      },
+      "suelo_desarrollo": {
+        "suelo_potencial_desarrollo_m2": 65590.8202173359,
+        "suelo_lotes_urbanizables_m2": 0.0
+      },
+      "equipamiento_salud": {
+        "suelo_equipamiento_salud_existente_m2": 0.0,
+        "equipamiento_salud_por_hab_m2": 0.153211952358801
+      },
+      "indices_urbanos": {
+        "cociente_localizacion_dotacional": 1.29774769096851,
+        "ICS_indice_capacidad_soporte": 62.348752530732,
+        "ICF_indice_capacidad_funcional": 2.77706720203761,
+        "indice_centralidades_zscore": 1.45279291891018
+      },
+      "viabilidad_dotacional_salud": {
+        "clasificacion": "ALTA",
+        "score": 9,
+        "factores": [
+          "Alta concentración dotacional (CL_D=1.30)",
+          "Alta capacidad de soporte (ICS=62.3)",
+          "Alta capacidad funcional (ICF=2.78)",
+          "Suelo potencial disponible (65591 m2)"
+        ]
+      }
+    },
+    "1419": {
+      "cod_barrio": "1419",
+      "nom_barrio": "Manila",
+      "data_year": "2021",
+      "normas_construccion": {
+        "densidad_norma_basica_viv_ha": 222.716593245228,
+        "densidad_norma_adicional_viv_ha": 11.3069016152717,
+        "IC_indice_construccion": 0.370778267254038,
+        "altura_maxima_pisos": 8.51688693098385
+      },
+      "ocupacion_actual_suelo": {
+        "area_poligono_ha": 27.4139270677,
+        "area_neta_ha": 20.4383565531713,
+        "densidad_habitacional_viv_ha": 33.3197044600112,
+        "densidad_poblacional_hab_ha": 39.2888732472672,
+        "suelo_vivienda_m2": 46296.2361664343,
+        "suelo_multiple_comercio_servicios_m2": 94319.0039054557
+      },
+      "suelo_desarrollo": {
+        "suelo_potencial_desarrollo_m2": 78463.9447267143,
+        "suelo_lotes_urbanizables_m2": 0.0
+      },
+      "equipamiento_salud": {
+        "suelo_equipamiento_salud_existente_m2": 1027.63145395685,
+        "equipamiento_salud_por_hab_m2": 1.43295224371229
+      },
+      "indices_urbanos": {
+        "cociente_localizacion_dotacional": 0.550644212946164,
+        "ICS_indice_capacidad_soporte": 69.4946452286002,
+        "ICF_indice_capacidad_funcional": 3.32734812405368,
+        "indice_centralidades_zscore": 0.960844796679965
+      },
+      "viabilidad_dotacional_salud": {
+        "clasificacion": "ALTA",
+        "score": 7,
+        "factores": [
+          "Presencia dotacional moderada (CL_D=0.55)",
+          "Alta capacidad de soporte (ICS=69.5)",
+          "Alta capacidad funcional (ICF=3.33)",
+          "Suelo potencial disponible (78464 m2)"
+        ]
+      }
+    },
+    "1420": {
+      "cod_barrio": "1420",
+      "nom_barrio": "Astorga",
+      "data_year": "2021",
+      "normas_construccion": {
+        "densidad_norma_basica_viv_ha": 225.640243902439,
+        "densidad_norma_adicional_viv_ha": 32.6219512195122,
+        "IC_indice_construccion": 1.33384146341463,
+        "altura_maxima_pisos": 4.66463414634146
+      },
+      "ocupacion_actual_suelo": {
+        "area_poligono_ha": 22.2216926338,
+        "area_neta_ha": 17.2451222980487,
+        "densidad_habitacional_viv_ha": 38.0397418274166,
+        "densidad_poblacional_hab_ha": 37.1699306575824,
+        "suelo_vivienda_m2": 48836.185553837,
+        "suelo_multiple_comercio_servicios_m2": 68776.8315853163
+      },
+      "suelo_desarrollo": {
+        "suelo_potencial_desarrollo_m2": 51058.1434111993,
+        "suelo_lotes_urbanizables_m2": 0.0
+      },
+      "equipamiento_salud": {
+        "suelo_equipamiento_salud_existente_m2": 639.975435277214,
+        "equipamiento_salud_por_hab_m2": 1.15161356745586
+      },
+      "indices_urbanos": {
+        "cociente_localizacion_dotacional": 0.867767954980909,
+        "ICS_indice_capacidad_soporte": 65.0149993143968,
+        "ICF_indice_capacidad_funcional": 2.96586751800642,
+        "indice_centralidades_zscore": 2.09913122551947
+      },
+      "viabilidad_dotacional_salud": {
+        "clasificacion": "ALTA",
+        "score": 7,
+        "factores": [
+          "Presencia dotacional moderada (CL_D=0.87)",
+          "Alta capacidad de soporte (ICS=65.0)",
+          "Alta capacidad funcional (ICF=2.97)",
+          "Suelo potencial disponible (51058 m2)"
+        ]
+      }
+    },
+    "1421": {
+      "cod_barrio": "1421",
+      "nom_barrio": "Patio Bonito",
+      "data_year": "2021",
+      "normas_construccion": {
+        "densidad_norma_basica_viv_ha": 204.834739803094,
+        "densidad_norma_adicional_viv_ha": 9.66947960618847,
+        "IC_indice_construccion": 2.5,
+        "altura_maxima_pisos": 0.0
+      },
+      "ocupacion_actual_suelo": {
+        "area_poligono_ha": 72.9057833139,
+        "area_neta_ha": 35.4911818444832,
+        "densidad_habitacional_viv_ha": 80.1325808890208,
+        "densidad_poblacional_hab_ha": 169.309661941676,
+        "suelo_vivienda_m2": 161527.328486451,
+        "suelo_multiple_comercio_servicios_m2": 79915.9297915824
+      },
+      "suelo_desarrollo": {
+        "suelo_potencial_desarrollo_m2": 86112.3525661603,
+        "suelo_lotes_urbanizables_m2": 0.0
+      },
+      "equipamiento_salud": {
+        "suelo_equipamiento_salud_existente_m2": 29895.7414868284,
+        "equipamiento_salud_por_hab_m2": 2.70595811980876
+      },
+      "indices_urbanos": {
+        "cociente_localizacion_dotacional": 2.15405158724101,
+        "ICS_indice_capacidad_soporte": 61.5554424556506,
+        "ICF_indice_capacidad_funcional": 2.63922767176605,
+        "indice_centralidades_zscore": 1.26872653711042
+      },
+      "viabilidad_dotacional_salud": {
+        "clasificacion": "ALTA",
+        "score": 9,
+        "factores": [
+          "Alta concentración dotacional (CL_D=2.15)",
+          "Alta capacidad de soporte (ICS=61.6)",
+          "Alta capacidad funcional (ICF=2.64)",
+          "Suelo potencial disponible (86112 m2)"
+        ]
+      }
+    },
+    "1422": {
+      "cod_barrio": "1422",
+      "nom_barrio": "La Aguacatala",
+      "data_year": "2021",
+      "normas_construccion": {
+        "densidad_norma_basica_viv_ha": 202.037169406719,
+        "densidad_norma_adicional_viv_ha": 4.07433881343817,
+        "IC_indice_construccion": 2.5,
+        "altura_maxima_pisos": 0.0
+      },
+      "ocupacion_actual_suelo": {
+        "area_poligono_ha": 62.2091818042,
+        "area_neta_ha": 26.8289650437628,
+        "densidad_habitacional_viv_ha": 52.1451348465355,
+        "densidad_poblacional_hab_ha": 85.355510220562,
+        "suelo_vivienda_m2": 86157.6725682061,
+        "suelo_multiple_comercio_servicios_m2": 102932.884690062
+      },
+      "suelo_desarrollo": {
+        "suelo_potencial_desarrollo_m2": 86847.4112552619,
+        "suelo_lotes_urbanizables_m2": 0.0
+      },
+      "equipamiento_salud": {
+        "suelo_equipamiento_salud_existente_m2": 755.869133539498,
+        "equipamiento_salud_por_hab_m2": 0.461711140724127
+      },
+      "indices_urbanos": {
+        "cociente_localizacion_dotacional": 4.92522412490769,
+        "ICS_indice_capacidad_soporte": 61.9901938564373,
+        "ICF_indice_capacidad_funcional": 1.30142981197794,
+        "indice_centralidades_zscore": null
+      },
+      "viabilidad_dotacional_salud": {
+        "clasificacion": "ALTA",
+        "score": 7,
+        "factores": [
+          "Alta concentración dotacional (CL_D=4.93)",
+          "Alta capacidad de soporte (ICS=62.0)",
+          "Suelo potencial disponible (86847 m2)"
+        ]
+      }
+    },
+    "1423": {
+      "cod_barrio": "1423",
+      "nom_barrio": "Santa María de Los Ángeles",
+      "data_year": "2021",
+      "normas_construccion": {
+        "densidad_norma_basica_viv_ha": 243.251295336788,
+        "densidad_norma_adicional_viv_ha": 86.5025906735751,
+        "IC_indice_construccion": 2.5,
+        "altura_maxima_pisos": 0.0
+      },
+      "ocupacion_actual_suelo": {
+        "area_poligono_ha": 55.8377276005,
+        "area_neta_ha": 45.4554478926893,
+        "densidad_habitacional_viv_ha": 84.9183140624341,
+        "densidad_poblacional_hab_ha": 165.084722467488,
+        "suelo_vivienda_m2": 175971.364522312,
+        "suelo_multiple_comercio_servicios_m2": 73604.5366064998
+      },
+      "suelo_desarrollo": {
+        "suelo_potencial_desarrollo_m2": 96023.3405809597,
+        "suelo_lotes_urbanizables_m2": 0.0
+      },
+      "equipamiento_salud": {
+        "suelo_equipamiento_salud_existente_m2": 3779.39732449874,
+        "equipamiento_salud_por_hab_m2": 0.405037467050882
+      },
+      "indices_urbanos": {
+        "cociente_localizacion_dotacional": 0.355896451575012,
+        "ICS_indice_capacidad_soporte": 55.7660521944338,
+        "ICF_indice_capacidad_funcional": 2.27234772069679,
+        "indice_centralidades_zscore": null
+      },
+      "viabilidad_dotacional_salud": {
+        "clasificacion": "ALTA",
+        "score": 6,
+        "factores": [
+          "Alta capacidad de soporte (ICS=55.8)",
+          "Alta capacidad funcional (ICF=2.27)",
+          "Suelo potencial disponible (96023 m2)"
+        ]
+      }
+    }
+  },
+  "licencias_urbanisticas": {
+    "descripcion": "Licencias otorgadas y negadas por la Curaduría Urbana en El Poblado (todas las tipologías)",
+    "actividad_por_año": {
+      "0": 2,
+      "2006": 1,
+      "2007": 1,
+      "2010": 1,
+      "2011": 6,
+      "2012": 8,
+      "2013": 13,
+      "2014": 108,
+      "2015": 145,
+      "2016": 115,
+      "2017": 162,
+      "2018": 193,
+      "2019": 186,
+      "2020": 145,
+      "2021": 104,
+      "2022": 45,
+      "2023": 3
+    },
+    "por_barrio": {
+      "Alejandría": {
+        "total": 57,
+        "otorgadas": 57,
+        "negadas": 0,
+        "usos_principales": {
+          "RESIDENCIAL": 15,
+          "RESIDENCIAL-COMERCIAL": 3,
+          "COMERCIAL": 3,
+          "RESIDENCIAL URBANO TIPO 1": 1,
+          "AREAS CORREDODERES DE ALTA MIXTURA": 1,
+          "COMERCIAL, RESIDENCIAL": 1,
+          "COMERCIAL-SERVICIOS": 1,
+          "MIXTO RESIDENCIAL COMERCIAL": 1,
+          "RESIDENCIA": 1,
+          "CORREDOR BARRIAL AV. 34 Y RESIDENCIAL TIPO 1": 1
+        }
+      },
+      "Lalinde": {
+        "total": 44,
+        "otorgadas": 44,
+        "negadas": 0,
+        "usos_principales": {
+          "RESIDENCIAL": 15,
+          "SERVICIOS": 2,
+          "RESIDENCIAL TIPO 1 CORREDOR ACTIVIDAD MULTIPLE BARRIAL": 1,
+          "VIVIENDA, SERVICIOS, COMERCIO": 1,
+          "RESIDENCIAL-SERVICIOS": 1,
+          "RESIDENCIAL TIPO 1 Y CORREDOR DE ACTIVIDAD MULTIPLE BARRIAL": 1,
+          "REDIDENCIAL": 1,
+          "REDIDENCIAL TIPO 1": 1,
+          "RESIDENCIAL-TIPO 1": 1,
+          "MIXTO": 1
+        }
+      },
+      "Los Balsos No.1": {
+        "total": 51,
+        "otorgadas": 51,
+        "negadas": 0,
+        "usos_principales": {
+          "RESIDENCIAL": 24,
+          "DOTACIONAL": 3,
+          "SERVICIOS": 2,
+          "COMERCIAL": 1,
+          "RESIDENCIAL TIPO 1": 1,
+          "URBANO": 1,
+          "EQUIPAMENTO CULTO": 1,
+          "RESIDENCIAL-COMERCIAL": 1
+        }
+      },
+      "Villa Carlota": {
+        "total": 92,
+        "otorgadas": 92,
+        "negadas": 0,
+        "usos_principales": {
+          "COMERCIAL": 12,
+          "MIXTO": 12,
+          "RESIDENCIAL": 11,
+          "COMERCIO Y SERVICIOS": 4,
+          "RESIDENCIAL-COMERCIAL": 3,
+          "CORREDOR ESPECIALIZADO": 1,
+          "AREAS Y CORREDORES DE ALTA MIXTURA- CENTRALIDADES Y CORREDORES CON ALTA INTENSIDAD": 1,
+          "INSTITUCIONAL": 1,
+          "CORREDOR ESPECIALIZADO EN GESTION EMPRESARIAL Y FINANCIERO": 1,
+          "COMERCIAL Y SERVICIOS": 1
+        }
+      },
+      "Las Lomas No.1": {
+        "total": 47,
+        "otorgadas": 47,
+        "negadas": 0,
+        "usos_principales": {
+          "RESIDENCIAL": 7,
+          "MIXTO": 3,
+          "COMERCIAL": 3,
+          "COMERCIAL-SERVICIOS": 2,
+          "AREA DAE BAJA MIXTURA": 1,
+          "RESIDENCIAL-COMERCIAL": 1,
+          "AREA DE ACTIVIDAD MULTIPLE COBERTURA ZONAL": 1,
+          "AREA DE ACTIVIDAD MULTIPLE DE COBERTURA ZONAL": 1,
+          "RESIDENCIAL-ALOJAMIENTO": 1,
+          "AREA Y CORREDORES DE MEDIA MIXTURA": 1
+        }
+      },
+      "Manila": {
+        "total": 79,
+        "otorgadas": 79,
+        "negadas": 0,
+        "usos_principales": {
+          "RESIDENCIAL": 9,
+          "RESIDENCIAL-COMERCIAL": 5,
+          "MIXTO": 5,
+          "SERVICIOS": 4,
+          "COMERCIAL": 3,
+          "AREAS Y CORREDORES DE ALTA MIXTURA": 3,
+          "HOTEL": 2,
+          "CORREDOR DE MEDIA MIXTURA": 2,
+          "MIXTO-COMERCIAL Y VIVIENDA MULTIFAMILIAR": 1,
+          "ALTA MIXTURA(CENTRALIDADESY CORREDORES CON ALTA INTENSIDAD)": 1
+        }
+      },
+      "El Poblado": {
+        "total": 141,
+        "otorgadas": 140,
+        "negadas": 0,
+        "usos_principales": {
+          "COMERCIAL": 23,
+          "RESIDENCIAL": 14,
+          "SERVICIOS": 10,
+          "ALOJAMIENTO": 4,
+          "RESIDENCIAL-COMERCIAL": 3,
+          "SERVICIO": 3,
+          "HOTEL": 2,
+          "SERVICIO DE ALOJAMIENTO": 2,
+          "SERVICIOS Y COMERCIO": 2,
+          "COMERCIO": 2
+        }
+      },
+      "El Diamante No. 2": {
+        "total": 35,
+        "otorgadas": 35,
+        "negadas": 0,
+        "usos_principales": {
+          "RESIDENCIAL": 8,
+          "MIXTO": 3,
+          "RESIDENCIAL- BAJA MIXTURA": 1,
+          "AREA BAJA MIXTURA": 1,
+          "AREAS DE BAJA MIXTURA Y AREA DE ALTA MIXTURA": 1,
+          "RESIDENCIAL-COMERCIAL": 1,
+          "RESIDENCIAL-AREA DE BAJA MIXTURA": 1,
+          "RESIDENCIAL -COMERCIAL": 1,
+          "COMERCIAL": 1,
+          "DOTACIONAL GUARDERIA": 1
+        }
+      },
+      "Castropol": {
+        "total": 68,
+        "otorgadas": 68,
+        "negadas": 0,
+        "usos_principales": {
+          "RESIDENCIAL": 29,
+          "MIXTO": 3,
+          "AREAS Y CORREDORES DE ALTA MIXTURA-CENTRALIDADES Y CORREDORES CON ALTA INTENSIDAD": 1,
+          "CORREDOR ESPECIALIZADO": 1,
+          "CORREDOR ESPECIALIZADO DE GESTION EMPRESARIAL Y FINACIERA": 1,
+          "RESIDENCIAL-COMERCIAL-SERVICIO": 1,
+          "RESIDENCIAL-COMERCIAL- MIXTO": 1,
+          "COMERCIO": 1,
+          "COMERCIAL": 1,
+          "COMERCIO Y SERVICIOS": 1
+        }
+      },
+      "La Florida": {
+        "total": 77,
+        "otorgadas": 76,
+        "negadas": 1,
+        "usos_principales": {
+          "RESIDENCIAL": 12,
+          "COMERCIAL": 4,
+          "SERVICIOS": 4,
+          "RESIDENCIAL TIPO 1": 3,
+          "RESIDENCIAL-COMERCIAL": 3,
+          "VIVIENDA": 2,
+          "AREAS Y CORREDORES DE ALTA MIXTURA": 1,
+          "SERVICIOS HOTEL; EN AREAS Y CORREDORES DE ALTA MIXTURA- CENTRALIDADES CON PREDOMINANCIA ECONOMICA": 1,
+          "COMERCIAL (AREAS Y CORREDORESDE MEDIA MIXTURA": 1,
+          "AREAS Y CORREDORES DER ALTA MIXTURA": 1
+        }
+      },
+      "San Lucas": {
+        "total": 67,
+        "otorgadas": 67,
+        "negadas": 0,
+        "usos_principales": {
+          "RESIDENCIAL": 28,
+          "RESIDENCIAL-COMERCIAL": 2,
+          "COMERCIAL": 2,
+          "CORREDOR DE ACTIVIDAD MULTIPLE DE COBERTURA BARRIAL": 1,
+          "SERVICIO-HOTEL": 1,
+          "VIVIENDA-MULTIFAMILIAR": 1,
+          "EQUIPAMENTOS DE ASISTENCIA SOCIAL": 1,
+          "CORREDOR DE ACTIVIDAD MULTIPLE DE COBERTURA": 1,
+          "SERVICIO": 1,
+          "EQUIPAMIENTO DE ASISTENCIA SOCIAL": 1
+        }
+      },
+      "Santa María de los Ángeles": {
+        "total": 61,
+        "otorgadas": 61,
+        "negadas": 0,
+        "usos_principales": {
+          "RESIDENCIAL": 12,
+          "SERVICIOS": 5,
+          "COMERCIAL": 3,
+          "SERVICIOS DE SALUD": 1,
+          "SALUD": 1,
+          "RESIDENCIAL TIPO 3": 1,
+          "CORREDOR ALTA MIXTURA": 1,
+          "RESIDENCIAL-SERVICIOS": 1,
+          "COMERCIAL Y SERVICIOS": 1,
+          "SALUD NIVEL 1": 1
+        }
+      },
+      "El Castillo": {
+        "total": 24,
+        "otorgadas": 24,
+        "negadas": 0,
+        "usos_principales": {
+          "RESIDENCIAL": 10,
+          "URBANO": 3,
+          "EDUCATIVO": 1,
+          "MIXTO-COMERCIO-SERVICIOS-VIVIENDA": 1,
+          "AREA Y CORREDOR DE MEDIA MIXTURA": 1,
+          "CORREDOR ESPECIALIZADO EN GESTION EMPRESARIAL Y FINANCIERA": 1
+        }
+      },
+      "Barrio Colombia": {
+        "total": 50,
+        "otorgadas": 50,
+        "negadas": 0,
+        "usos_principales": {
+          "COMERCIAL": 8,
+          "COMERCIO Y SERVICIOS": 4,
+          "SERVICIOS": 2,
+          "MIXTO,SERVICIO Y COMERCIO": 1,
+          "AREAS CORREDORES DE ALTA MIXTURA": 1,
+          "COMERCIAL-SERVICIOS": 1,
+          "AREAS Y CORREDORES DE ALTA MIXTURA-ÁREAS DE ACTIVIDAD ECONOMICA EN TRANSFORMACION": 1,
+          "MIXTO COMERCIAL-SERVICIOS": 1,
+          "ÁREA Y CORREDOR DE ACTIVIDAD MULTIPLE DE COBERTURA ZONAL": 1,
+          "COMERCIAL Y SERVICIOS": 1
+        }
+      },
+      "Altos del Poblado": {
+        "total": 49,
+        "otorgadas": 49,
+        "negadas": 0,
+        "usos_principales": {
+          "RESIDENCIAL": 21,
+          "RESIDENCIAL-COMERCIAL": 2,
+          "EQUIPAMIENTO EDUCATIVO": 1,
+          "AREAS Y CORREDORES DE USO ESPECIALIZADO CORREDOR TURISTICO LAS PALMAS Y RESIDENCIAL TIPO 1": 1,
+          "VIVIENDA": 1,
+          "AREAS Y CORREDORES DE USO ESPECIALIZADO CORREDOR TURISTICO": 1,
+          "COMERCIO-SERVICIO": 1,
+          "COMERCIAL Y SERVICIO": 1,
+          "DOTACIONAL": 1
+        }
+      },
+      "Los Balsos No.2": {
+        "total": 27,
+        "otorgadas": 27,
+        "negadas": 0,
+        "usos_principales": {
+          "RESIDENCIAL": 5,
+          "COMERCIAL": 2,
+          "COMERCIAL-MIXTO": 1,
+          "CORREDOR DE COMERCIO ESPECIALIZADO EN GESTION EMPRESARIAL Y FINANCIERA": 1,
+          "AREAS Y CORREDORES DE ALTA MIXTURA Y CENTRALIDADES Y CORREDORES CON ALTA DENSIDAD": 1,
+          "COMERCIAL-SERVICIO": 1,
+          "MIXTO-PUG": 1,
+          "COMERCIO Y SERVICIOS": 1,
+          "COMERCIO": 1,
+          "MIXTO": 1
+        }
+      },
+      "La Aguacatala": {
+        "total": 51,
+        "otorgadas": 51,
+        "negadas": 0,
+        "usos_principales": {
+          "INSTITUCIONAL": 8,
+          "COMERCIAL": 5,
+          "RESIDENCIAL": 5,
+          "INSTITUCIONAL EDUCACION PRIVADA": 2,
+          "SERVICIOS": 2,
+          "SEVICIOS": 1,
+          "SERVICIO-COMERCIAL": 1,
+          "AREAS Y CORREDORES DE ALTA MIXTURA - AREAS DE ACTIVIDAD ECONOMICA EN TRANSFORMACION": 1,
+          "SERVICIOS Y COMERCIAL": 1,
+          "CCOMERCIO-RESIDENCIAL Y SERVICIOS": 1
+        }
+      },
+      "Patio Bonito": {
+        "total": 39,
+        "otorgadas": 39,
+        "negadas": 0,
+        "usos_principales": {
+          "RESIDENCIAL": 3,
+          "COMERCIAL": 3,
+          "MIXTO": 2,
+          "SERVICIOS": 2,
+          "AREAS Y CORREDORES DE ALTA MIXTURA(CENTRALIDADES Y CORREDORES CON ALTA INTENSIDAD )": 1,
+          "SERVICIOS COMUNICACION": 1,
+          "SERVICIO COMERCIO ALTA MIXTURA": 1,
+          "CORREDOR ESPECIALIZADO EN GESTION EMPRESARIAL Y FINANCIERA": 1,
+          "SERVICIOS Y COMERCIO": 1,
+          "SERVICIO DE SALUD COMERCIO": 1
+        }
+      },
+      "Astorga": {
+        "total": 37,
+        "otorgadas": 37,
+        "negadas": 0,
+        "usos_principales": {
+          "COMERCIAL": 4,
+          "RESIDENCIAL": 3,
+          "AREAS Y CORREDORES DE ALTA MIXTURA": 2,
+          "RESIDENCIAL-COMERCIAL": 2,
+          "COMERCIAL-SERVICIOS": 2,
+          "SERVICIOS": 2,
+          "COMERCIO Y SERVICIOS": 2,
+          "ALTA-MIXTURA": 1,
+          "AREAS Y CORREDORES DE ALTA MIXTURA-CENTRALIDADES Y CORREDORES CON ALTA INTENSIDAD": 1,
+          "COMERCIAL AREAS Y CORREDORES DE ALTA MIXTURA CENTRALIDADES CON PREDOMINANCIA ECONOMICA": 1
+        }
+      },
+      "Los Naranjos": {
+        "total": 75,
+        "otorgadas": 75,
+        "negadas": 0,
+        "usos_principales": {
+          "RESIDENCIAL": 24,
+          "RESIDENCIAL-COMERCIAL": 3,
+          "COMERCIAL": 3,
+          "SERVICIOS": 2,
+          "MIXTO": 2,
+          "APARTAOFICINA": 1,
+          "RESIDENCIAL URBANO": 1,
+          "BAJA MIXTURA, RESIDENCIAL PREDOMINANTE": 1,
+          "AREAS Y CORREDORES DE ALTA MIXTURA Y CENTRALIDADES Y CORREDORES CON ALTA DENSIDAD": 1,
+          "RESIDENCIAL TIPO 1 Y CORREDOR BARRIAL": 1
+        }
+      },
+      "El Tesoro": {
+        "total": 56,
+        "otorgadas": 55,
+        "negadas": 1,
+        "usos_principales": {
+          "RESIDENCIAL": 22,
+          "RESIDENCIAL-VIP": 3,
+          "RESIDENCIAL-COMERCIAL": 2,
+          "MIXTA RESIDENCIAL-COMERCIAL": 1,
+          "EQUIPAMIENTO EDUCATIVO": 1,
+          "RESIDENCIAL TIPO 1 Y CORREDOR DE ACTIVIDAD MULTIPLE BARRIAL": 1,
+          "MULTIFAMILIAR": 1,
+          "COMERCIAL-OFICINA": 1,
+          "COMERCIAL": 1,
+          "COMERCIAL-SERVICIOS": 1
+        }
+      },
+      "Santa María de Los Ángeles": {
+        "total": 1,
+        "otorgadas": 1,
+        "negadas": 0,
+        "usos_principales": {
+          "RESIDENCIAL": 1
+        }
+      },
+      "Las Lomas No.2": {
+        "total": 15,
+        "otorgadas": 15,
+        "negadas": 0,
+        "usos_principales": {
+          "RESIDENCIAL": 4,
+          "COMERCIO-OFICINAS": 1,
+          "SERVICIOS Y COMERCIO": 1,
+          "REDIDENCIAL-COMERCIAL": 1,
+          "RESIDENCIAL-COMERCIAL": 1,
+          "VIVIENDA ESTRATO 3": 1,
+          "MIXTO": 1,
+          "EQUIPAMIENTO BASICO COMUNITARIO": 1,
+          "SERVICIOS": 1
+        }
+      },
+      "El Diamante No.2": {
+        "total": 1,
+        "otorgadas": 1,
+        "negadas": 0,
+        "usos_principales": {
+          "MIXTO": 1
+        }
+      },
+      "Santa MarÃ­a de los Ãngeles": {
+        "total": 1,
+        "otorgadas": 1,
+        "negadas": 0,
+        "usos_principales": {
+          "SERVICIOS": 1
+        }
+      },
+      "AlejandrÃ­a": {
+        "total": 3,
+        "otorgadas": 3,
+        "negadas": 0,
+        "usos_principales": {
+          "RESIDENCIAL": 2
+        }
+      }
+    },
+    "licencias_dotacional_salud": [
+      {
+        "barrio": "Santa María de los Ángeles",
+        "tipo_licencia": "Otorgadas",
+        "uso_edificacion": "SERVICIOS DE SALUD",
+        "objeto": "Modificación;Demolición;Ampliación",
+        "año_radicado": "2014",
+        "area_m2": "1.844,99",
+        "resolucion": "0028",
+        "edificacion_pot": "Urbano"
+      },
+      {
+        "barrio": "Santa María de los Ángeles",
+        "tipo_licencia": "Otorgadas",
+        "uso_edificacion": "SALUD",
+        "objeto": "Obra nueva;Construcción",
+        "año_radicado": "2014",
+        "area_m2": "1685.25",
+        "resolucion": "0172",
+        "edificacion_pot": "Urbano"
+      },
+      {
+        "barrio": "Santa María de los Ángeles",
+        "tipo_licencia": "Otorgadas",
+        "uso_edificacion": "SALUD NIVEL 1",
+        "objeto": "Obra nueva;Modificación",
+        "año_radicado": "2016",
+        "area_m2": "1560,92",
+        "resolucion": "0585",
+        "edificacion_pot": "Urbano"
+      },
+      {
+        "barrio": "Santa María de los Ángeles",
+        "tipo_licencia": "Otorgadas",
+        "uso_edificacion": "EQUIPAMENTO SALUD",
+        "objeto": "Obra nueva;Modificación",
+        "año_radicado": "2016",
+        "area_m2": "262,68",
+        "resolucion": "0375",
+        "edificacion_pot": "Urbano"
+      },
+      {
+        "barrio": "Altos del Poblado",
+        "tipo_licencia": "Otorgadas",
+        "uso_edificacion": "EQUIPAMIENTO EDUCATIVO",
+        "objeto": "Prórrogas;<ACLARAR RESOLUCION 2283 DE 2012>;Ampliación",
+        "año_radicado": "2016",
+        "area_m2": "12504,5",
+        "resolucion": "0147-2283-3321",
+        "edificacion_pot": "Urbano"
+      },
+      {
+        "barrio": "El Tesoro",
+        "tipo_licencia": "Otorgadas",
+        "uso_edificacion": "EQUIPAMIENTO EDUCATIVO",
+        "objeto": "Construcción;Ampliación;Adición;Obra nueva",
+        "año_radicado": "2015",
+        "area_m2": "831,18",
+        "resolucion": "0320",
+        "edificacion_pot": "Urbano"
+      },
+      {
+        "barrio": "Los Balsos No.1",
+        "tipo_licencia": "Otorgadas",
+        "uso_edificacion": "DOTACIONAL",
+        "objeto": "Reconocimiento Construcción;Ampliación;Construcción",
+        "año_radicado": "2017",
+        "area_m2": "248.8",
+        "resolucion": "",
+        "edificacion_pot": "Urbano"
+      },
+      {
+        "barrio": "San Lucas",
+        "tipo_licencia": "Otorgadas",
+        "uso_edificacion": "EQUIPAMENTOS DE ASISTENCIA SOCIAL",
+        "objeto": "Construcción;Obra nueva;Demolición",
+        "año_radicado": "2017",
+        "area_m2": "3013,40",
+        "resolucion": "1924",
+        "edificacion_pot": "Urbano"
+      },
+      {
+        "barrio": "La Florida",
+        "tipo_licencia": "Otorgadas",
+        "uso_edificacion": "EQUIPAMIENTO DE SALUD",
+        "objeto": "Prórrogas;Reconocimiento;Modificación;Aprobación de planos;<ACLARACION>",
+        "año_radicado": "2016",
+        "area_m2": "1147.44",
+        "resolucion": "0275-0189-0014",
+        "edificacion_pot": "Urbano"
+      },
+      {
+        "barrio": "La Florida",
+        "tipo_licencia": "Otorgadas",
+        "uso_edificacion": "EQUIPAMENTO DE SALUD",
+        "objeto": "Modificación;Aprobación de planos;Ampliación;Demolición",
+        "año_radicado": "2017",
+        "area_m2": "355.67",
+        "resolucion": "1888",
+        "edificacion_pot": "Urbano"
+      },
+      {
+        "barrio": "San Lucas",
+        "tipo_licencia": "Otorgadas",
+        "uso_edificacion": "EQUIPAMIENTO DE ASISTENCIA SOCIAL",
+        "objeto": "Construcción;Obra Nueva;Demolición",
+        "año_radicado": "2018",
+        "area_m2": "1.378..90",
+        "resolucion": "0327",
+        "edificacion_pot": "Urbano"
+      },
+      {
+        "barrio": "Patio Bonito",
+        "tipo_licencia": "Otorgadas",
+        "uso_edificacion": "SERVICIO DE SALUD COMERCIO",
+        "objeto": "Urbanización;Obra nueva;<Aclaración>",
+        "año_radicado": "2017",
+        "area_m2": "34.632,71",
+        "resolucion": "2096-0755",
+        "edificacion_pot": "Urbano"
+      },
+      {
+        "barrio": "Patio Bonito",
+        "tipo_licencia": "Otorgadas",
+        "uso_edificacion": "DOTACIONAL",
+        "objeto": "Construcción;Ampliación",
+        "año_radicado": "2017",
+        "area_m2": "2.711.76",
+        "resolucion": "0030",
+        "edificacion_pot": "Urbano"
+      },
+      {
+        "barrio": "Patio Bonito",
+        "tipo_licencia": "Otorgadas",
+        "uso_edificacion": "SALUD",
+        "objeto": "Reconocimiento;Construcción",
+        "año_radicado": "2017",
+        "area_m2": "375.56",
+        "resolucion": "0252",
+        "edificacion_pot": "Urbano"
+      },
+      {
+        "barrio": "Los Balsos No.1",
+        "tipo_licencia": "Otorgadas",
+        "uso_edificacion": "DOTACIONAL",
+        "objeto": "Reconocimiento Construcción;Construcción;Ampliación;Prórrogas;Urbanización",
+        "año_radicado": "2019",
+        "area_m2": "137,87",
+        "resolucion": "1023-0571",
+        "edificacion_pot": "Urbano"
+      },
+      {
+        "barrio": "Los Naranjos",
+        "tipo_licencia": "Otorgadas",
+        "uso_edificacion": "DOTACION",
+        "objeto": "Modificación",
+        "año_radicado": "2018",
+        "area_m2": "187.52",
+        "resolucion": "368",
+        "edificacion_pot": "Urbano"
+      },
+      {
+        "barrio": "El Diamante No. 2",
+        "tipo_licencia": "Otorgadas",
+        "uso_edificacion": "DOTACIONAL GUARDERIA",
+        "objeto": "Reconocimiento;Adecuación;Demolición;Construcción",
+        "año_radicado": "2018",
+        "area_m2": "476",
+        "resolucion": "839",
+        "edificacion_pot": "Urbano"
+      },
+      {
+        "barrio": "Los Balsos No.1",
+        "tipo_licencia": "Otorgadas",
+        "uso_edificacion": "EQUIPAMENTO CULTO",
+        "objeto": "Modificación;Ampliación;Construcción",
+        "año_radicado": "2021",
+        "area_m2": "1.220,89",
+        "resolucion": "2020",
+        "edificacion_pot": "Urbano"
+      },
+      {
+        "barrio": "La Aguacatala",
+        "tipo_licencia": "Otorgadas",
+        "uso_edificacion": "EQUIPAMIENTO EDUCATIVO",
+        "objeto": "Urbanización;Construcción;Obra nueva;<ACLARACION>",
+        "año_radicado": "2019",
+        "area_m2": "1.205,11",
+        "resolucion": "2522-3302-0147-0257",
+        "edificacion_pot": "Urbano"
+      },
+      {
+        "barrio": "Alejandría",
+        "tipo_licencia": "Otorgadas",
+        "uso_edificacion": "COMERCIO Y SERVICIOS-EQUIPAMIENTO",
+        "objeto": "Modificación;Aprobación de planos;<ACLARACION>",
+        "año_radicado": "2021",
+        "area_m2": "2910,39",
+        "resolucion": "0616-0054-0387-0882-0546",
+        "edificacion_pot": "Urbano"
+      },
+      {
+        "barrio": "Los Balsos No.1",
+        "tipo_licencia": "Otorgadas",
+        "uso_edificacion": "DOTACIONAL",
+        "objeto": "Ampliación;Modificación",
+        "año_radicado": "2021",
+        "area_m2": "3.224,8",
+        "resolucion": "0309",
+        "edificacion_pot": "Urbano"
+      },
+      {
+        "barrio": "Altos del Poblado",
+        "tipo_licencia": "Otorgadas",
+        "uso_edificacion": "DOTACIONAL",
+        "objeto": "Modificación de licencia urbanística",
+        "año_radicado": "2022",
+        "area_m2": "18045",
+        "resolucion": "2199",
+        "edificacion_pot": "Urbano"
+      },
+      {
+        "barrio": "San Lucas",
+        "tipo_licencia": "Otorgadas",
+        "uso_edificacion": "DOTACIONAL- EQUIPAMIENTO BASICO COMUNITARIO -EQUIPAMIENTO DE ASISTENCIA SOCIAL -EQUIPAMIENTO PARA ATENCION FISICA Y PSICOSOCIAL",
+        "objeto": "Autorizacion Movimiento de Tierras;Urbanización;Subdivisión de predios",
+        "año_radicado": "2022",
+        "area_m2": "",
+        "resolucion": "",
+        "edificacion_pot": "Urbano"
+      },
+      {
+        "barrio": "Las Lomas No.2",
+        "tipo_licencia": "Otorgadas",
+        "uso_edificacion": "EQUIPAMIENTO BASICO COMUNITARIO",
+        "objeto": "Reconocimiento;Aclaración",
+        "año_radicado": "2021",
+        "area_m2": "449.38",
+        "resolucion": "0514-1773",
+        "edificacion_pot": "Urbano"
+      },
+      {
+        "barrio": "San Lucas",
+        "tipo_licencia": "Otorgadas",
+        "uso_edificacion": "DOTACIONAL, EQUIPAMIENTO BASICO COMUNITARIO, EQUIPAMIENTO DE ASISTENCIA SOCIAL, EQUIPAMIENTO PARA ATENCION FISICA Y PSICOSOCIAL",
+        "objeto": "Urbanización;Reurbanizacion;Visto bueno Subdivision;Demolición;Cerramiento",
+        "año_radicado": "2021",
+        "area_m2": "12,679,52",
+        "resolucion": "0449",
+        "edificacion_pot": "Urbano"
+      },
+      {
+        "barrio": "Santa María de los Ángeles",
+        "tipo_licencia": "Otorgadas",
+        "uso_edificacion": "EQUIPAMIENTO PARA EL TRABAJO Y DESARROLLO HUMANO",
+        "objeto": "Construcción;Modificación",
+        "año_radicado": "2022",
+        "area_m2": "63.10",
+        "resolucion": "1619",
+        "edificacion_pot": "Urbano"
+      },
+      {
+        "barrio": "La Aguacatala",
+        "tipo_licencia": "Otorgadas",
+        "uso_edificacion": "EQUIPAMIENTO PARA EL TRABAJO Y DESARROLLO HUMANO",
+        "objeto": "Reconocimiento;Aclaración",
+        "año_radicado": "2022",
+        "area_m2": "285.00",
+        "resolucion": "",
+        "edificacion_pot": ""
+      }
+    ]
+  },
+  "lotes_potenciales_desarrollo": {
+    "corredor_las_palmas": {
+      "descripcion": "Lotes con potencial de desarrollo (Potenc=SI, año 2021) en barrios del corredor vía Las Palmas",
+      "barrios_incluidos": [
+        "Alejandría",
+        "Altos del Poblado",
+        "El Castillo",
+        "El Tesoro",
+        "La Florida",
+        "Las Lomas No.1",
+        "Las Lomas No.2",
+        "Los Balsos No.1",
+        "Los Balsos No.2"
+      ],
+      "por_barrio": {
+        "Las Lomas No.2": {
+          "total_lotes": 16,
+          "area_bruta_m2": 18367.11,
+          "area_neta_m2": 16517.34,
+          "tratamientos_pot": [
+            "CN5"
+          ],
+          "calificaciones_redensificacion": {
+            "Medio": 7,
+            "Medio-Alto": 3,
+            "Medio-Bajo": 1
+          },
+          "aie_nombre": [
+            "Ladera Suroriental"
+          ]
+        },
+        "Alejandría": {
+          "total_lotes": 168,
+          "area_bruta_m2": 60336.05,
+          "area_neta_m2": 54116.72,
+          "tratamientos_pot": [
+            "CN3",
+            "CN5"
+          ],
+          "calificaciones_redensificacion": {
+            "Medio-Alto": 23,
+            "Bajo": 7,
+            "Medio-Bajo": 15,
+            "Medio": 9
+          },
+          "aie_nombre": [
+            "Ladera Suroriental",
+            "Rio Sur"
+          ]
+        },
+        "El Castillo": {
+          "total_lotes": 14,
+          "area_bruta_m2": 15032.84,
+          "area_neta_m2": 13434.95,
+          "tratamientos_pot": [
+            "CN5"
+          ],
+          "calificaciones_redensificacion": {
+            "Medio-Alto": 8,
+            "Medio": 2
+          },
+          "aie_nombre": [
+            "Ladera Suroriental",
+            "Rio Sur"
+          ]
+        },
+        "El Tesoro": {
+          "total_lotes": 56,
+          "area_bruta_m2": 41239.9,
+          "area_neta_m2": 38754.62,
+          "tratamientos_pot": [
+            "CN3",
+            "CN5"
+          ],
+          "calificaciones_redensificacion": {
+            "Medio-Alto": 16,
+            "Bajo": 3,
+            "Medio": 7,
+            "Medio-Bajo": 12
+          },
+          "aie_nombre": [
+            "Ladera Suroriental",
+            "MED Borde Suroriental"
+          ]
+        },
+        "La Florida": {
+          "total_lotes": 130,
+          "area_bruta_m2": 58311.06,
+          "area_neta_m2": 52485.19,
+          "tratamientos_pot": [
+            "CN5"
+          ],
+          "calificaciones_redensificacion": {
+            "Medio-Alto": 22,
+            "Bajo": 7,
+            "Medio": 17,
+            "Medio-Bajo": 9,
+            "Bajo-Bajo": 1
+          },
+          "aie_nombre": [
+            "Ladera Suroriental",
+            "Rio Sur"
+          ]
+        },
+        "Las Lomas No.1": {
+          "total_lotes": 83,
+          "area_bruta_m2": 83928.81,
+          "area_neta_m2": 75715.35,
+          "tratamientos_pot": [
+            "CN5"
+          ],
+          "calificaciones_redensificacion": {
+            "Medio-Alto": 25,
+            "Medio-Bajo": 5,
+            "Medio": 9,
+            "Alto": 1
+          },
+          "aie_nombre": [
+            "Ladera Suroriental"
+          ]
+        },
+        "Los Balsos No.1": {
+          "total_lotes": 80,
+          "area_bruta_m2": 103632.63,
+          "area_neta_m2": 97439.89,
+          "tratamientos_pot": [
+            "CN3",
+            "CN5"
+          ],
+          "calificaciones_redensificacion": {
+            "Medio-Alto": 24,
+            "Bajo": 4,
+            "Medio-Bajo": 10,
+            "Medio": 3,
+            "Alto": 1
+          },
+          "aie_nombre": [
+            "Ladera Suroriental",
+            "MED Borde Suroriental"
+          ]
+        },
+        "Los Balsos No.2": {
+          "total_lotes": 11,
+          "area_bruta_m2": 17322.67,
+          "area_neta_m2": 15269.51,
+          "tratamientos_pot": [
+            "CN5"
+          ],
+          "calificaciones_redensificacion": {
+            "Medio-Alto": 8,
+            "Medio": 1
+          },
+          "aie_nombre": [
+            "Ladera Suroriental",
+            "Rio Sur"
+          ]
+        },
+        "Altos del Poblado": {
+          "total_lotes": 34,
+          "area_bruta_m2": 50848.6,
+          "area_neta_m2": 50575.57,
+          "tratamientos_pot": [
+            "CN5"
+          ],
+          "calificaciones_redensificacion": {
+            "Medio-Alto": 8,
+            "Medio": 4,
+            "Bajo": 1,
+            "Alto": 1,
+            "Medio-Bajo": 1
+          },
+          "aie_nombre": [
+            "Ladera Suroriental",
+            "MED Borde Suroriental"
+          ]
+        }
+      }
+    },
+    "toda_la_comuna_14": {
+      "descripcion": "Lotes con potencial de desarrollo (Potenc=SI, año 2021) en toda la comuna 14",
+      "por_barrio": {
+        "Manila": {
+          "total_lotes": 172,
+          "area_bruta_m2": 90649.76,
+          "area_neta_m2": 67340.56,
+          "tratamientos_pot": [
+            "CN4",
+            "R"
+          ],
+          "calificaciones_redensificacion": {
+            "Medio": 33,
+            "Medio-Bajo": 15,
+            "Medio-Alto": 10,
+            "Bajo": 3,
+            "Sin calificación": 1
+          }
+        },
+        "El Poblado": {
+          "total_lotes": 286,
+          "area_bruta_m2": 79593.67,
+          "area_neta_m2": 59244.75,
+          "tratamientos_pot": [
+            "CN4",
+            "CN5"
+          ],
+          "calificaciones_redensificacion": {
+            "Medio": 36,
+            "Medio-Bajo": 9,
+            "Medio-Alto": 11,
+            "Alto": 1
+          }
+        },
+        "Las Lomas No.2": {
+          "total_lotes": 16,
+          "area_bruta_m2": 18367.11,
+          "area_neta_m2": 16517.34,
+          "tratamientos_pot": [
+            "CN5"
+          ],
+          "calificaciones_redensificacion": {
+            "Medio": 7,
+            "Medio-Alto": 3,
+            "Medio-Bajo": 1
+          }
+        },
+        "Los Naranjos": {
+          "total_lotes": 162,
+          "area_bruta_m2": 74984.31,
+          "area_neta_m2": 70315.98,
+          "tratamientos_pot": [
+            "CN3",
+            "CN5"
+          ],
+          "calificaciones_redensificacion": {
+            "Medio": 11,
+            "Medio-Alto": 26,
+            "Medio-Bajo": 22,
+            "Bajo": 12,
+            "Bajo-Bajo": 1
+          }
+        },
+        "Barrio Colombia": {
+          "total_lotes": 173,
+          "area_bruta_m2": 110500.35,
+          "area_neta_m2": 85413.51,
+          "tratamientos_pot": [
+            "R"
+          ],
+          "calificaciones_redensificacion": {
+            "Medio-Alto": 16,
+            "Bajo": 3,
+            "Medio": 14,
+            "Medio-Bajo": 8,
+            "Alto": 2
+          }
+        },
+        "Castropol": {
+          "total_lotes": 67,
+          "area_bruta_m2": 110715.06,
+          "area_neta_m2": 97784.75,
+          "tratamientos_pot": [
+            "CN5",
+            "R"
+          ],
+          "calificaciones_redensificacion": {
+            "Medio-Alto": 23,
+            "Medio": 10,
+            "Medio-Bajo": 3
+          }
+        },
+        "Santa María de Los Ángeles": {
+          "total_lotes": 66,
+          "area_bruta_m2": 66372.89,
+          "area_neta_m2": 53590.93,
+          "tratamientos_pot": [
+            "CN5",
+            "R"
+          ],
+          "calificaciones_redensificacion": {
+            "Medio-Alto": 14,
+            "Medio": 9
+          }
+        },
+        "Alejandría": {
+          "total_lotes": 168,
+          "area_bruta_m2": 60336.05,
+          "area_neta_m2": 54116.72,
+          "tratamientos_pot": [
+            "CN3",
+            "CN5"
+          ],
+          "calificaciones_redensificacion": {
+            "Medio-Alto": 23,
+            "Bajo": 7,
+            "Medio-Bajo": 15,
+            "Medio": 9
+          }
+        },
+        "Astorga": {
+          "total_lotes": 123,
+          "area_bruta_m2": 73526.01,
+          "area_neta_m2": 50433.81,
+          "tratamientos_pot": [
+            "CN4",
+            "CN5",
+            "R"
+          ],
+          "calificaciones_redensificacion": {
+            "Medio-Alto": 13,
+            "Bajo": 4,
+            "Medio": 14,
+            "Medio-Bajo": 10,
+            "Alto": 3
+          }
+        },
+        "El Castillo": {
+          "total_lotes": 14,
+          "area_bruta_m2": 15032.84,
+          "area_neta_m2": 13434.95,
+          "tratamientos_pot": [
+            "CN5"
+          ],
+          "calificaciones_redensificacion": {
+            "Medio-Alto": 8,
+            "Medio": 2
+          }
+        },
+        "El Tesoro": {
+          "total_lotes": 56,
+          "area_bruta_m2": 41239.9,
+          "area_neta_m2": 38754.62,
+          "tratamientos_pot": [
+            "CN3",
+            "CN5"
+          ],
+          "calificaciones_redensificacion": {
+            "Medio-Alto": 16,
+            "Bajo": 3,
+            "Medio": 7,
+            "Medio-Bajo": 12
+          }
+        },
+        "La Aguacatala": {
+          "total_lotes": 65,
+          "area_bruta_m2": 71033.37,
+          "area_neta_m2": 58261.6,
+          "tratamientos_pot": [
+            "CN5",
+            "R"
+          ],
+          "calificaciones_redensificacion": {
+            "Medio-Alto": 11,
+            "Medio": 6,
+            "Medio-Bajo": 2
+          }
+        },
+        "La Florida": {
+          "total_lotes": 130,
+          "area_bruta_m2": 58311.06,
+          "area_neta_m2": 52485.19,
+          "tratamientos_pot": [
+            "CN5"
+          ],
+          "calificaciones_redensificacion": {
+            "Medio-Alto": 22,
+            "Bajo": 7,
+            "Medio": 17,
+            "Medio-Bajo": 9,
+            "Bajo-Bajo": 1
+          }
+        },
+        "Lalinde": {
+          "total_lotes": 38,
+          "area_bruta_m2": 31345.04,
+          "area_neta_m2": 26820.54,
+          "tratamientos_pot": [
+            "CN5"
+          ],
+          "calificaciones_redensificacion": {
+            "Medio-Alto": 11,
+            "Medio": 8
+          }
+        },
+        "Las Lomas No.1": {
+          "total_lotes": 83,
+          "area_bruta_m2": 83928.81,
+          "area_neta_m2": 75715.35,
+          "tratamientos_pot": [
+            "CN5"
+          ],
+          "calificaciones_redensificacion": {
+            "Medio-Alto": 25,
+            "Medio-Bajo": 5,
+            "Medio": 9,
+            "Alto": 1
+          }
+        },
+        "Los Balsos No.1": {
+          "total_lotes": 80,
+          "area_bruta_m2": 103632.63,
+          "area_neta_m2": 97439.89,
+          "tratamientos_pot": [
+            "CN3",
+            "CN5"
+          ],
+          "calificaciones_redensificacion": {
+            "Medio-Alto": 24,
+            "Bajo": 4,
+            "Medio-Bajo": 10,
+            "Medio": 3,
+            "Alto": 1
+          }
+        },
+        "Los Balsos No.2": {
+          "total_lotes": 11,
+          "area_bruta_m2": 17322.67,
+          "area_neta_m2": 15269.51,
+          "tratamientos_pot": [
+            "CN5"
+          ],
+          "calificaciones_redensificacion": {
+            "Medio-Alto": 8,
+            "Medio": 1
+          }
+        },
+        "Patio Bonito": {
+          "total_lotes": 66,
+          "area_bruta_m2": 51554.13,
+          "area_neta_m2": 34179.63,
+          "tratamientos_pot": [
+            "CN5",
+            "R"
+          ],
+          "calificaciones_redensificacion": {
+            "Medio-Alto": 11,
+            "Medio-Bajo": 2,
+            "Medio": 4,
+            "Bajo": 1
+          }
+        },
+        "San Lucas": {
+          "total_lotes": 100,
+          "area_bruta_m2": 154993.98,
+          "area_neta_m2": 146648.09,
+          "tratamientos_pot": [
+            "CN5"
+          ],
+          "calificaciones_redensificacion": {
+            "Medio-Alto": 19,
+            "Medio-Bajo": 14,
+            "Medio": 16,
+            "Bajo": 1,
+            "Alto": 2
+          }
+        },
+        "Altos del Poblado": {
+          "total_lotes": 34,
+          "area_bruta_m2": 50848.6,
+          "area_neta_m2": 50575.57,
+          "tratamientos_pot": [
+            "CN5"
+          ],
+          "calificaciones_redensificacion": {
+            "Medio-Alto": 8,
+            "Medio": 4,
+            "Bajo": 1,
+            "Alto": 1,
+            "Medio-Bajo": 1
+          }
+        },
+        "El Diamante No.2": {
+          "total_lotes": 41,
+          "area_bruta_m2": 55560.32,
+          "area_neta_m2": 49147.91,
+          "tratamientos_pot": [
+            "CN5"
+          ],
+          "calificaciones_redensificacion": {
+            "Medio-Alto": 14,
+            "Medio": 5
+          }
+        },
+        "Villa Carlota": {
+          "total_lotes": 93,
+          "area_bruta_m2": 170107.61,
+          "area_neta_m2": 140118.14,
+          "tratamientos_pot": [
+            "CN5",
+            "R"
+          ],
+          "calificaciones_redensificacion": {
+            "Medio-Alto": 25,
+            "Alto": 7,
+            "Medio-Bajo": 3,
+            "Medio": 11
+          }
+        }
+      }
+    }
+  },
+  "viabilidad_uso_dotacional_salud": {
+    "descripcion": "Evaluación de viabilidad para implantar un equipamiento dotacional en salud (HPTU) por barrio",
+    "criterios": {
+      "cociente_localizacion_dotacional_CL_D": "Valor > 1.0 indica concentración de usos dotacionales. Base POT para equipamientos.",
+      "ICS_indice_capacidad_soporte": "Escala 0-100. >55 = alta capacidad para absorber nueva infraestructura.",
+      "ICF_indice_capacidad_funcional": "Escala 0-7. >2.0 = alta dotación urbana, movilidad y complejidad.",
+      "suelo_potencial_desarrollo_m2": "Disponibilidad de suelo no desarrollado o redensificable.",
+      "altura_maxima_pisos": "Pisos permitidos por POT. >10 pisos permite programa hospitalario vertical."
+    },
+    "resultados_por_barrio": {
+      "1401": {
+        "nom_barrio": "Barrio Colombia",
+        "viabilidad": "ALTA",
+        "score": 6,
+        "factores_positivos": [
+          "Alta capacidad de soporte (ICS=70.2)",
+          "Alta capacidad funcional (ICF=2.94)",
+          "Suelo potencial disponible (90905 m2)"
+        ],
+        "IC_construccion": 3.0,
+        "altura_pisos": 0.0,
+        "suelo_potencial_m2": 90904.9826319962,
+        "CL_dotacional": 0.0,
+        "ICS": 70.1955604498026,
+        "ICF": 2.93529976296026,
+        "suelo_salud_existente_m2": 0.0
+      },
+      "1403": {
+        "nom_barrio": "Villa Carlota",
+        "viabilidad": "ALTA",
+        "score": 7,
+        "factores_positivos": [
+          "Presencia dotacional moderada (CL_D=0.66)",
+          "Alta capacidad de soporte (ICS=61.0)",
+          "Alta capacidad funcional (ICF=2.37)",
+          "Suelo potencial disponible (171198 m2)"
+        ],
+        "IC_construccion": 2.6209318259678,
+        "altura_pisos": 0.0,
+        "suelo_potencial_m2": 171197.846292042,
+        "CL_dotacional": 0.658439701592748,
+        "ICS": 60.9619927634529,
+        "ICF": 2.37295858468585,
+        "suelo_salud_existente_m2": 22371.1931712751
+      },
+      "1404": {
+        "nom_barrio": "Castropol",
+        "viabilidad": "MEDIA-ALTA",
+        "score": 5,
+        "factores_positivos": [
+          "Capacidad de soporte media (ICS=48.8)",
+          "Alta capacidad funcional (ICF=2.26)",
+          "Suelo potencial disponible (138552 m2)"
+        ],
+        "IC_construccion": 1.49825641025641,
+        "altura_pisos": 0.0,
+        "suelo_potencial_m2": 138551.570621226,
+        "CL_dotacional": 0.0,
+        "ICS": 48.8491090265604,
+        "ICF": 2.26353480199198,
+        "suelo_salud_existente_m2": 0.0
+      },
+      "1405": {
+        "nom_barrio": "Lalinde",
+        "viabilidad": "MEDIA-ALTA",
+        "score": 5,
+        "factores_positivos": [
+          "Capacidad de soporte media (ICS=45.8)",
+          "Alta capacidad funcional (ICF=2.02)",
+          "Suelo potencial disponible (50481 m2)"
+        ],
+        "IC_construccion": 1.48030207677785,
+        "altura_pisos": 0.0,
+        "suelo_potencial_m2": 50480.7955606533,
+        "CL_dotacional": 0.184303531972571,
+        "ICS": 45.7504614351574,
+        "ICF": 2.01959808376859,
+        "suelo_salud_existente_m2": 0.0
+      },
+      "1406": {
+        "nom_barrio": "Las Lomas No.1",
+        "viabilidad": "ALTA",
+        "score": 6,
+        "factores_positivos": [
+          "Capacidad de soporte media (ICS=53.2)",
+          "Alta capacidad funcional (ICF=2.37)",
+          "Suelo potencial disponible (92444 m2)",
+          "Altura permisible adecuada (15.3 pisos)"
+        ],
+        "IC_construccion": 1.24695471108798,
+        "altura_pisos": 15.3045288912025,
+        "suelo_potencial_m2": 92443.8968212983,
+        "CL_dotacional": 0.357935219472166,
+        "ICS": 53.1929770151032,
+        "ICF": 2.37062634095498,
+        "suelo_salud_existente_m2": 0.0
+      },
+      "1407": {
+        "nom_barrio": "Las Lomas No.2",
+        "viabilidad": "MEDIA-ALTA",
+        "score": 5,
+        "factores_positivos": [
+          "Capacidad de soporte media (ICS=48.2)",
+          "Alta capacidad funcional (ICF=2.48)",
+          "Suelo potencial limitado (30281 m2)",
+          "Altura permisible adecuada (20.0 pisos)"
+        ],
+        "IC_construccion": 1.2,
+        "altura_pisos": 20.0,
+        "suelo_potencial_m2": 30281.1240040542,
+        "CL_dotacional": 0.0,
+        "ICS": 48.1963881637421,
+        "ICF": 2.48452271997346,
+        "suelo_salud_existente_m2": 0.0
+      },
+      "1408": {
+        "nom_barrio": "Altos del Poblado",
+        "viabilidad": "ALTA",
+        "score": 9,
+        "factores_positivos": [
+          "Alta concentración dotacional (CL_D=2.38)",
+          "Alta capacidad de soporte (ICS=57.4)",
+          "Capacidad funcional media (ICF=1.86)",
+          "Suelo potencial disponible (68020 m2)",
+          "Altura permisible adecuada (11.7 pisos)"
+        ],
+        "IC_construccion": 0.755433589462129,
+        "altura_pisos": 11.7277716794731,
+        "suelo_potencial_m2": 68019.9350926709,
+        "CL_dotacional": 2.37974816436746,
+        "ICS": 57.3697700986435,
+        "ICF": 1.86290433405618,
+        "suelo_salud_existente_m2": 0.0
+      },
+      "1409": {
+        "nom_barrio": "El Tesoro",
+        "viabilidad": "ALTA",
+        "score": 7,
+        "factores_positivos": [
+          "Presencia dotacional moderada (CL_D=0.55)",
+          "Capacidad de soporte media (ICS=53.3)",
+          "Alta capacidad funcional (ICF=2.02)",
+          "Suelo potencial disponible (119482 m2)",
+          "Altura permisible adecuada (15.4 pisos)"
+        ],
+        "IC_construccion": 0.953155339805825,
+        "altura_pisos": 15.4463996763754,
+        "suelo_potencial_m2": 119481.661328679,
+        "CL_dotacional": 0.545839084655634,
+        "ICS": 53.3398935167057,
+        "ICF": 2.02274912295016,
+        "suelo_salud_existente_m2": 0.0
+      },
+      "1410": {
+        "nom_barrio": "Los Naranjos",
+        "viabilidad": "ALTA",
+        "score": 6,
+        "factores_positivos": [
+          "Presencia dotacional moderada (CL_D=0.72)",
+          "Capacidad de soporte media (ICS=53.6)",
+          "Capacidad funcional media (ICF=1.91)",
+          "Suelo potencial disponible (130718 m2)",
+          "Altura permisible adecuada (13.6 pisos)"
+        ],
+        "IC_construccion": 0.799079250246629,
+        "altura_pisos": 13.6021045708648,
+        "suelo_potencial_m2": 130717.82490772,
+        "CL_dotacional": 0.723423955066189,
+        "ICS": 53.5556951957121,
+        "ICF": 1.90640182964245,
+        "suelo_salud_existente_m2": 23779.9751439883
+      },
+      "1411": {
+        "nom_barrio": "Los Balsos No.1",
+        "viabilidad": "ALTA",
+        "score": 6,
+        "factores_positivos": [
+          "Alta capacidad de soporte (ICS=58.2)",
+          "Capacidad funcional media (ICF=1.87)",
+          "Suelo potencial disponible (132161 m2)",
+          "Altura permisible adecuada (16.7 pisos)"
+        ],
+        "IC_construccion": 1.02457399103139,
+        "altura_pisos": 16.6636771300448,
+        "suelo_potencial_m2": 132160.619659922,
+        "CL_dotacional": 0.450078410750867,
+        "ICS": 58.1557733886019,
+        "ICF": 1.86507107662046,
+        "suelo_salud_existente_m2": 0.0
+      },
+      "1412": {
+        "nom_barrio": "San Lucas",
+        "viabilidad": "MEDIA-ALTA",
+        "score": 5,
+        "factores_positivos": [
+          "Capacidad de soporte media (ICS=50.2)",
+          "Capacidad funcional media (ICF=1.79)",
+          "Suelo potencial disponible (192397 m2)",
+          "Altura permisible adecuada (19.1 pisos)"
+        ],
+        "IC_construccion": 1.15520399666944,
+        "altura_pisos": 19.1040799333888,
+        "suelo_potencial_m2": 192397.377225501,
+        "CL_dotacional": 0.310590582336371,
+        "ICS": 50.2373116059574,
+        "ICF": 1.7909012925911,
+        "suelo_salud_existente_m2": 0.0
+      },
+      "1413": {
+        "nom_barrio": "El Diamante No.2",
+        "viabilidad": "MEDIA-ALTA",
+        "score": 5,
+        "factores_positivos": [
+          "Capacidad de soporte media (ICS=48.9)",
+          "Alta capacidad funcional (ICF=2.50)",
+          "Suelo potencial disponible (96315 m2)"
+        ],
+        "IC_construccion": 1.42864259028643,
+        "altura_pisos": 2.05479452054794,
+        "suelo_potencial_m2": 96314.8503088242,
+        "CL_dotacional": 0.110466102334482,
+        "ICS": 48.9214034944138,
+        "ICF": 2.49845345934309,
+        "suelo_salud_existente_m2": 0.0
+      },
+      "1414": {
+        "nom_barrio": "El Castillo",
+        "viabilidad": "ALTA",
+        "score": 7,
+        "factores_positivos": [
+          "Alta concentración dotacional (CL_D=3.44)",
+          "Capacidad de soporte media (ICS=48.9)",
+          "Alta capacidad funcional (ICF=2.01)",
+          "Suelo potencial limitado (30252 m2)"
+        ],
+        "IC_construccion": 1.70919305413687,
+        "altura_pisos": 5.14811031664964,
+        "suelo_potencial_m2": 30251.5758818396,
+        "CL_dotacional": 3.43519191862513,
+        "ICS": 48.9480364229837,
+        "ICF": 2.00694657862376,
+        "suelo_salud_existente_m2": 0.0
+      },
+      "1415": {
+        "nom_barrio": "Los Balsos No.2",
+        "viabilidad": "MEDIA-ALTA",
+        "score": 5,
+        "factores_positivos": [
+          "Capacidad de soporte media (ICS=50.9)",
+          "Alta capacidad funcional (ICF=2.46)",
+          "Suelo potencial disponible (81866 m2)"
+        ],
+        "IC_construccion": 1.39079229122056,
+        "altura_pisos": 4.29693076374019,
+        "suelo_potencial_m2": 81865.8138687733,
+        "CL_dotacional": 0.0343480727838886,
+        "ICS": 50.8798089098473,
+        "ICF": 2.45564120971881,
+        "suelo_salud_existente_m2": 0.0
+      },
+      "1416": {
+        "nom_barrio": "Alejandría",
+        "viabilidad": "MEDIA-ALTA",
+        "score": 5,
+        "factores_positivos": [
+          "Capacidad de soporte media (ICS=46.1)",
+          "Alta capacidad funcional (ICF=2.34)",
+          "Suelo potencial disponible (94282 m2)"
+        ],
+        "IC_construccion": 1.21864623243934,
+        "altura_pisos": 2.7330779054917,
+        "suelo_potencial_m2": 94281.8885370069,
+        "CL_dotacional": 0.121021298435815,
+        "ICS": 46.0874920802556,
+        "ICF": 2.33575154585684,
+        "suelo_salud_existente_m2": 0.0
+      },
+      "1417": {
+        "nom_barrio": "La Florida",
+        "viabilidad": "MEDIA-ALTA",
+        "score": 5,
+        "factores_positivos": [
+          "Capacidad de soporte media (ICS=50.5)",
+          "Alta capacidad funcional (ICF=2.77)",
+          "Suelo potencial disponible (128104 m2)"
+        ],
+        "IC_construccion": 1.35835120324041,
+        "altura_pisos": 8.29640219204193,
+        "suelo_potencial_m2": 128104.471879655,
+        "CL_dotacional": 0.215409710119379,
+        "ICS": 50.5189863918822,
+        "ICF": 2.7706382508912,
+        "suelo_salud_existente_m2": 13418.7850732264
+      },
+      "1418": {
+        "nom_barrio": "El Poblado",
+        "viabilidad": "ALTA",
+        "score": 9,
+        "factores_positivos": [
+          "Alta concentración dotacional (CL_D=1.30)",
+          "Alta capacidad de soporte (ICS=62.3)",
+          "Alta capacidad funcional (ICF=2.78)",
+          "Suelo potencial disponible (65591 m2)"
+        ],
+        "IC_construccion": 0.398222222222222,
+        "altura_pisos": 7.15555555555556,
+        "suelo_potencial_m2": 65590.8202173359,
+        "CL_dotacional": 1.29774769096851,
+        "ICS": 62.348752530732,
+        "ICF": 2.77706720203761,
+        "suelo_salud_existente_m2": 0.0
+      },
+      "1419": {
+        "nom_barrio": "Manila",
+        "viabilidad": "ALTA",
+        "score": 7,
+        "factores_positivos": [
+          "Presencia dotacional moderada (CL_D=0.55)",
+          "Alta capacidad de soporte (ICS=69.5)",
+          "Alta capacidad funcional (ICF=3.33)",
+          "Suelo potencial disponible (78464 m2)"
+        ],
+        "IC_construccion": 0.370778267254038,
+        "altura_pisos": 8.51688693098385,
+        "suelo_potencial_m2": 78463.9447267143,
+        "CL_dotacional": 0.550644212946164,
+        "ICS": 69.4946452286002,
+        "ICF": 3.32734812405368,
+        "suelo_salud_existente_m2": 1027.63145395685
+      },
+      "1420": {
+        "nom_barrio": "Astorga",
+        "viabilidad": "ALTA",
+        "score": 7,
+        "factores_positivos": [
+          "Presencia dotacional moderada (CL_D=0.87)",
+          "Alta capacidad de soporte (ICS=65.0)",
+          "Alta capacidad funcional (ICF=2.97)",
+          "Suelo potencial disponible (51058 m2)"
+        ],
+        "IC_construccion": 1.33384146341463,
+        "altura_pisos": 4.66463414634146,
+        "suelo_potencial_m2": 51058.1434111993,
+        "CL_dotacional": 0.867767954980909,
+        "ICS": 65.0149993143968,
+        "ICF": 2.96586751800642,
+        "suelo_salud_existente_m2": 639.975435277214
+      },
+      "1421": {
+        "nom_barrio": "Patio Bonito",
+        "viabilidad": "ALTA",
+        "score": 9,
+        "factores_positivos": [
+          "Alta concentración dotacional (CL_D=2.15)",
+          "Alta capacidad de soporte (ICS=61.6)",
+          "Alta capacidad funcional (ICF=2.64)",
+          "Suelo potencial disponible (86112 m2)"
+        ],
+        "IC_construccion": 2.5,
+        "altura_pisos": 0.0,
+        "suelo_potencial_m2": 86112.3525661603,
+        "CL_dotacional": 2.15405158724101,
+        "ICS": 61.5554424556506,
+        "ICF": 2.63922767176605,
+        "suelo_salud_existente_m2": 29895.7414868284
+      },
+      "1422": {
+        "nom_barrio": "La Aguacatala",
+        "viabilidad": "ALTA",
+        "score": 7,
+        "factores_positivos": [
+          "Alta concentración dotacional (CL_D=4.93)",
+          "Alta capacidad de soporte (ICS=62.0)",
+          "Suelo potencial disponible (86847 m2)"
+        ],
+        "IC_construccion": 2.5,
+        "altura_pisos": 0.0,
+        "suelo_potencial_m2": 86847.4112552619,
+        "CL_dotacional": 4.92522412490769,
+        "ICS": 61.9901938564373,
+        "ICF": 1.30142981197794,
+        "suelo_salud_existente_m2": 755.869133539498
+      },
+      "1423": {
+        "nom_barrio": "Santa María de Los Ángeles",
+        "viabilidad": "ALTA",
+        "score": 6,
+        "factores_positivos": [
+          "Alta capacidad de soporte (ICS=55.8)",
+          "Alta capacidad funcional (ICF=2.27)",
+          "Suelo potencial disponible (96023 m2)"
+        ],
+        "IC_construccion": 2.5,
+        "altura_pisos": 0.0,
+        "suelo_potencial_m2": 96023.3405809597,
+        "CL_dotacional": 0.355896451575012,
+        "ICS": 55.7660521944338,
+        "ICF": 2.27234772069679,
+        "suelo_salud_existente_m2": 3779.39732449874
+      }
+    }
+  }
+}

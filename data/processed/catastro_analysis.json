@@ -1,0 +1,698 @@
+{
+  "source": "Catastro Municipal Medellín - datos.gov.co",
+  "dataset_id": "bp59-rj8r",
+  "total_records": 1041413,
+  "el_poblado": {
+    "commune_code": "14",
+    "total_predios": 174543,
+    "by_estrato": {
+      "0": {
+        "count": 124609,
+        "avg_avaluo": 130623491.58,
+        "total_avaluo": 16276862662000.0
+      },
+      "1": {
+        "count": 9,
+        "avg_avaluo": 113106555.56,
+        "total_avaluo": 1017959000.0
+      },
+      "2": {
+        "count": 355,
+        "avg_avaluo": 182038847.89,
+        "total_avaluo": 64623791000.0
+      },
+      "3": {
+        "count": 478,
+        "avg_avaluo": 283631922.59,
+        "total_avaluo": 135576059000.0
+      },
+      "4": {
+        "count": 1377,
+        "avg_avaluo": 336225899.78,
+        "total_avaluo": 462983064000.0
+      },
+      "5": {
+        "count": 9300,
+        "avg_avaluo": 327605383.33,
+        "total_avaluo": 3046730065000.0
+      },
+      "6": {
+        "count": 38415,
+        "avg_avaluo": 437751098.11,
+        "total_avaluo": 16816208434000.0
+      }
+    },
+    "by_barrio": {
+      "ALEJANDRIA": {
+        "dominant_estrato": "0",
+        "estrato_breakdown": {
+          "0": 6590,
+          "1": 5,
+          "2": 94,
+          "3": 101,
+          "4": 4,
+          "5": 187,
+          "6": 1747
+        },
+        "count": 8728,
+        "avg_avaluo": 165274484.42,
+        "total_avaluo": 1442515700000.0,
+        "on_las_palmas_corridor": true
+      },
+      "ALTOS DEL POBLADO": {
+        "dominant_estrato": "0",
+        "estrato_breakdown": {
+          "0": 4191,
+          "3": 4,
+          "5": 365,
+          "6": 1502
+        },
+        "count": 6062,
+        "avg_avaluo": 244804938.8,
+        "total_avaluo": 1484007539000.0,
+        "on_las_palmas_corridor": true
+      },
+      "ASTORGA": {
+        "dominant_estrato": "0",
+        "estrato_breakdown": {
+          "0": 1605,
+          "3": 2,
+          "4": 109,
+          "5": 110,
+          "6": 422
+        },
+        "count": 2248,
+        "avg_avaluo": 260014191.73,
+        "total_avaluo": 584511903000.0,
+        "on_las_palmas_corridor": true
+      },
+      "BARRIO COLOMBIA": {
+        "dominant_estrato": "0",
+        "estrato_breakdown": {
+          "0": 729,
+          "2": 3,
+          "3": 20,
+          "6": 1
+        },
+        "count": 753,
+        "avg_avaluo": 1568400568.39,
+        "total_avaluo": 1181005628000.0,
+        "on_las_palmas_corridor": false
+      },
+      "CASTROPOL": {
+        "dominant_estrato": "0",
+        "estrato_breakdown": {
+          "0": 9701,
+          "5": 1121,
+          "6": 3481
+        },
+        "count": 14303,
+        "avg_avaluo": 143568078.65,
+        "total_avaluo": 2053454229000.0,
+        "on_las_palmas_corridor": true
+      },
+      "EL CASTILLO": {
+        "dominant_estrato": "0",
+        "estrato_breakdown": {
+          "0": 2427,
+          "6": 947
+        },
+        "count": 3374,
+        "avg_avaluo": 316366092.47,
+        "total_avaluo": 1067419196000.0,
+        "on_las_palmas_corridor": false
+      },
+      "EL DIAMANTE # 2": {
+        "dominant_estrato": "0",
+        "estrato_breakdown": {
+          "0": 6653,
+          "2": 2,
+          "3": 1,
+          "4": 3,
+          "5": 76,
+          "6": 3313
+        },
+        "count": 10048,
+        "avg_avaluo": 164139546.78,
+        "total_avaluo": 1649274166000.0,
+        "on_las_palmas_corridor": true
+      },
+      "EL POBLADO": {
+        "dominant_estrato": "0",
+        "estrato_breakdown": {
+          "0": 1880,
+          "3": 13,
+          "4": 163,
+          "5": 114,
+          "6": 5
+        },
+        "count": 2175,
+        "avg_avaluo": 379376080.0,
+        "total_avaluo": 825142974000.0,
+        "on_las_palmas_corridor": true
+      },
+      "EL TESORO": {
+        "dominant_estrato": "0",
+        "estrato_breakdown": {
+          "0": 9516,
+          "2": 68,
+          "3": 40,
+          "4": 52,
+          "5": 595,
+          "6": 3515
+        },
+        "count": 13786,
+        "avg_avaluo": 203782455.68,
+        "total_avaluo": 2809344934000.0,
+        "on_las_palmas_corridor": true
+      },
+      "LA AGUACATALA": {
+        "dominant_estrato": "0",
+        "estrato_breakdown": {
+          "0": 5061,
+          "5": 76,
+          "6": 1493
+        },
+        "count": 6630,
+        "avg_avaluo": 246591617.8,
+        "total_avaluo": 1634902426000.0,
+        "on_las_palmas_corridor": true
+      },
+      "LA FLORIDA": {
+        "dominant_estrato": "0",
+        "estrato_breakdown": {
+          "0": 11594,
+          "1": 3,
+          "2": 51,
+          "3": 1,
+          "4": 4,
+          "5": 454,
+          "6": 3463
+        },
+        "count": 15570,
+        "avg_avaluo": 174370307.9,
+        "total_avaluo": 2714945694000.0,
+        "on_las_palmas_corridor": true
+      },
+      "LALINDE": {
+        "dominant_estrato": "0",
+        "estrato_breakdown": {
+          "0": 3242,
+          "5": 209,
+          "6": 1201
+        },
+        "count": 4652,
+        "avg_avaluo": 158686404.56,
+        "total_avaluo": 738209154000.0,
+        "on_las_palmas_corridor": true
+      },
+      "LAS LOMAS # 1": {
+        "dominant_estrato": "0",
+        "estrato_breakdown": {
+          "0": 4289,
+          "4": 1,
+          "5": 313,
+          "6": 1480
+        },
+        "count": 6083,
+        "avg_avaluo": 181382919.28,
+        "total_avaluo": 1103352298000.0,
+        "on_las_palmas_corridor": true
+      },
+      "LAS LOMAS # 2": {
+        "dominant_estrato": "0",
+        "estrato_breakdown": {
+          "0": 2504,
+          "5": 43,
+          "6": 1077
+        },
+        "count": 3624,
+        "avg_avaluo": 204250287.8,
+        "total_avaluo": 740203043000.0,
+        "on_las_palmas_corridor": true
+      },
+      "LOS BALSOS # 1": {
+        "dominant_estrato": "0",
+        "estrato_breakdown": {
+          "0": 9299,
+          "2": 53,
+          "3": 6,
+          "4": 2,
+          "5": 604,
+          "6": 3520
+        },
+        "count": 13484,
+        "avg_avaluo": 224970570.31,
+        "total_avaluo": 3033503170000.0,
+        "on_las_palmas_corridor": true
+      },
+      "LOS BALSOS # 2": {
+        "dominant_estrato": "0",
+        "estrato_breakdown": {
+          "0": 7072,
+          "5": 444,
+          "6": 2273
+        },
+        "count": 9789,
+        "avg_avaluo": 251650684.24,
+        "total_avaluo": 2463408548000.0,
+        "on_las_palmas_corridor": true
+      },
+      "LOS NARANJOS": {
+        "dominant_estrato": "0",
+        "estrato_breakdown": {
+          "0": 6721,
+          "1": 1,
+          "2": 82,
+          "3": 209,
+          "4": 21,
+          "5": 335,
+          "6": 1920
+        },
+        "count": 9289,
+        "avg_avaluo": 260200801.27,
+        "total_avaluo": 2417005243000.0,
+        "on_las_palmas_corridor": false
+      },
+      "MANILA": {
+        "dominant_estrato": "0",
+        "estrato_breakdown": {
+          "0": 1519,
+          "3": 11,
+          "4": 509,
+          "5": 102
+        },
+        "count": 2141,
+        "avg_avaluo": 245974572.16,
+        "total_avaluo": 526631559000.0,
+        "on_las_palmas_corridor": true
+      },
+      "PATIO BONITO": {
+        "dominant_estrato": "0",
+        "estrato_breakdown": {
+          "0": 7684,
+          "3": 1,
+          "5": 670,
+          "6": 1961
+        },
+        "count": 10316,
+        "avg_avaluo": 173623135.81,
+        "total_avaluo": 1791096269000.0,
+        "on_las_palmas_corridor": true
+      },
+      "SAN LUCAS": {
+        "dominant_estrato": "0",
+        "estrato_breakdown": {
+          "0": 5562,
+          "2": 2,
+          "3": 69,
+          "4": 141,
+          "5": 637,
+          "6": 2146
+        },
+        "count": 8557,
+        "avg_avaluo": 235179650.23,
+        "total_avaluo": 2012432267000.0,
+        "on_las_palmas_corridor": false
+      },
+      "SANTA MARIA DE LOS ANGELES": {
+        "dominant_estrato": "0",
+        "estrato_breakdown": {
+          "0": 7693,
+          "5": 755,
+          "6": 2886
+        },
+        "count": 11334,
+        "avg_avaluo": 155578517.03,
+        "total_avaluo": 1763326912000.0,
+        "on_las_palmas_corridor": true
+      },
+      "VILLA CARLOTA": {
+        "dominant_estrato": "0",
+        "estrato_breakdown": {
+          "0": 9077,
+          "4": 368,
+          "5": 2090,
+          "6": 62
+        },
+        "count": 11597,
+        "avg_avaluo": 238709078.38,
+        "total_avaluo": 2768309182000.0,
+        "on_las_palmas_corridor": false
+      }
+    }
+  },
+  "las_palmas_corridor_barrios": {
+    "ALEJANDRIA": {
+      "dominant_estrato": "0",
+      "estrato_breakdown": {
+        "0": 6590,
+        "1": 5,
+        "2": 94,
+        "3": 101,
+        "4": 4,
+        "5": 187,
+        "6": 1747
+      },
+      "count": 8728,
+      "avg_avaluo": 165274484.42,
+      "total_avaluo": 1442515700000.0,
+      "on_las_palmas_corridor": true
+    },
+    "ALTOS DEL POBLADO": {
+      "dominant_estrato": "0",
+      "estrato_breakdown": {
+        "0": 4191,
+        "3": 4,
+        "5": 365,
+        "6": 1502
+      },
+      "count": 6062,
+      "avg_avaluo": 244804938.8,
+      "total_avaluo": 1484007539000.0,
+      "on_las_palmas_corridor": true
+    },
+    "ASTORGA": {
+      "dominant_estrato": "0",
+      "estrato_breakdown": {
+        "0": 1605,
+        "3": 2,
+        "4": 109,
+        "5": 110,
+        "6": 422
+      },
+      "count": 2248,
+      "avg_avaluo": 260014191.73,
+      "total_avaluo": 584511903000.0,
+      "on_las_palmas_corridor": true
+    },
+    "CASTROPOL": {
+      "dominant_estrato": "0",
+      "estrato_breakdown": {
+        "0": 9701,
+        "5": 1121,
+        "6": 3481
+      },
+      "count": 14303,
+      "avg_avaluo": 143568078.65,
+      "total_avaluo": 2053454229000.0,
+      "on_las_palmas_corridor": true
+    },
+    "EL DIAMANTE # 2": {
+      "dominant_estrato": "0",
+      "estrato_breakdown": {
+        "0": 6653,
+        "2": 2,
+        "3": 1,
+        "4": 3,
+        "5": 76,
+        "6": 3313
+      },
+      "count": 10048,
+      "avg_avaluo": 164139546.78,
+      "total_avaluo": 1649274166000.0,
+      "on_las_palmas_corridor": true
+    },
+    "EL POBLADO": {
+      "dominant_estrato": "0",
+      "estrato_breakdown": {
+        "0": 1880,
+        "3": 13,
+        "4": 163,
+        "5": 114,
+        "6": 5
+      },
+      "count": 2175,
+      "avg_avaluo": 379376080.0,
+      "total_avaluo": 825142974000.0,
+      "on_las_palmas_corridor": true
+    },
+    "EL TESORO": {
+      "dominant_estrato": "0",
+      "estrato_breakdown": {
+        "0": 9516,
+        "2": 68,
+        "3": 40,
+        "4": 52,
+        "5": 595,
+        "6": 3515
+      },
+      "count": 13786,
+      "avg_avaluo": 203782455.68,
+      "total_avaluo": 2809344934000.0,
+      "on_las_palmas_corridor": true
+    },
+    "LA AGUACATALA": {
+      "dominant_estrato": "0",
+      "estrato_breakdown": {
+        "0": 5061,
+        "5": 76,
+        "6": 1493
+      },
+      "count": 6630,
+      "avg_avaluo": 246591617.8,
+      "total_avaluo": 1634902426000.0,
+      "on_las_palmas_corridor": true
+    },
+    "LA FLORIDA": {
+      "dominant_estrato": "0",
+      "estrato_breakdown": {
+        "0": 11594,
+        "1": 3,
+        "2": 51,
+        "3": 1,
+        "4": 4,
+        "5": 454,
+        "6": 3463
+      },
+      "count": 15570,
+      "avg_avaluo": 174370307.9,
+      "total_avaluo": 2714945694000.0,
+      "on_las_palmas_corridor": true
+    },
+    "LALINDE": {
+      "dominant_estrato": "0",
+      "estrato_breakdown": {
+        "0": 3242,
+        "5": 209,
+        "6": 1201
+      },
+      "count": 4652,
+      "avg_avaluo": 158686404.56,
+      "total_avaluo": 738209154000.0,
+      "on_las_palmas_corridor": true
+    },
+    "LAS LOMAS # 1": {
+      "dominant_estrato": "0",
+      "estrato_breakdown": {
+        "0": 4289,
+        "4": 1,
+        "5": 313,
+        "6": 1480
+      },
+      "count": 6083,
+      "avg_avaluo": 181382919.28,
+      "total_avaluo": 1103352298000.0,
+      "on_las_palmas_corridor": true
+    },
+    "LAS LOMAS # 2": {
+      "dominant_estrato": "0",
+      "estrato_breakdown": {
+        "0": 2504,
+        "5": 43,
+        "6": 1077
+      },
+      "count": 3624,
+      "avg_avaluo": 204250287.8,
+      "total_avaluo": 740203043000.0,
+      "on_las_palmas_corridor": true
+    },
+    "LOS BALSOS # 1": {
+      "dominant_estrato": "0",
+      "estrato_breakdown": {
+        "0": 9299,
+        "2": 53,
+        "3": 6,
+        "4": 2,
+        "5": 604,
+        "6": 3520
+      },
+      "count": 13484,
+      "avg_avaluo": 224970570.31,
+      "total_avaluo": 3033503170000.0,
+      "on_las_palmas_corridor": true
+    },
+    "LOS BALSOS # 2": {
+      "dominant_estrato": "0",
+      "estrato_breakdown": {
+        "0": 7072,
+        "5": 444,
+        "6": 2273
+      },
+      "count": 9789,
+      "avg_avaluo": 251650684.24,
+      "total_avaluo": 2463408548000.0,
+      "on_las_palmas_corridor": true
+    },
+    "MANILA": {
+      "dominant_estrato": "0",
+      "estrato_breakdown": {
+        "0": 1519,
+        "3": 11,
+        "4": 509,
+        "5": 102
+      },
+      "count": 2141,
+      "avg_avaluo": 245974572.16,
+      "total_avaluo": 526631559000.0,
+      "on_las_palmas_corridor": true
+    },
+    "PATIO BONITO": {
+      "dominant_estrato": "0",
+      "estrato_breakdown": {
+        "0": 7684,
+        "3": 1,
+        "5": 670,
+        "6": 1961
+      },
+      "count": 10316,
+      "avg_avaluo": 173623135.81,
+      "total_avaluo": 1791096269000.0,
+      "on_las_palmas_corridor": true
+    },
+    "SANTA MARIA DE LOS ANGELES": {
+      "dominant_estrato": "0",
+      "estrato_breakdown": {
+        "0": 7693,
+        "5": 755,
+        "6": 2886
+      },
+      "count": 11334,
+      "avg_avaluo": 155578517.03,
+      "total_avaluo": 1763326912000.0,
+      "on_las_palmas_corridor": true
+    }
+  },
+  "all_comunas_e456": {
+    "ALTAVISTA": {
+      "e4": 1327,
+      "e5": 2791,
+      "e6": 397,
+      "total_e456": 4515
+    },
+    "ARANJUEZ": {
+      "e4": 23,
+      "e5": 0,
+      "e6": 0,
+      "total_e456": 23
+    },
+    "BELEN": {
+      "e4": 21063,
+      "e5": 14760,
+      "e6": 117,
+      "total_e456": 35940
+    },
+    "BUENOS AIRES": {
+      "e4": 5861,
+      "e5": 322,
+      "e6": 440,
+      "total_e456": 6623
+    },
+    "CASTILLA": {
+      "e4": 569,
+      "e5": 2,
+      "e6": 0,
+      "total_e456": 571
+    },
+    "DOCE DE OCTUBRE": {
+      "e4": 4,
+      "e5": 0,
+      "e6": 0,
+      "total_e456": 4
+    },
+    "EL POBLADO": {
+      "e4": 1377,
+      "e5": 9300,
+      "e6": 38415,
+      "total_e456": 49092
+    },
+    "GUAYABAL": {
+      "e4": 5425,
+      "e5": 18,
+      "e6": 0,
+      "total_e456": 5443
+    },
+    "LA AMERIA": {
+      "e4": 15288,
+      "e5": 9496,
+      "e6": 129,
+      "total_e456": 24913
+    },
+    "LA CANDELARIA": {
+      "e4": 16312,
+      "e5": 1897,
+      "e6": 3,
+      "total_e456": 18212
+    },
+    "LAURELES": {
+      "e4": 13117,
+      "e5": 27172,
+      "e6": 1032,
+      "total_e456": 41321
+    },
+    "MANRRIQUE": {
+      "e4": 9,
+      "e5": 2,
+      "e6": 0,
+      "total_e456": 11
+    },
+    "PALMITAS": {
+      "e4": 5,
+      "e5": 0,
+      "e6": 0,
+      "total_e456": 5
+    },
+    "ROBLEDO": {
+      "e4": 7643,
+      "e5": 1877,
+      "e6": 0,
+      "total_e456": 9520
+    },
+    "SAN ANTONIO DE PRADO": {
+      "e4": 59,
+      "e5": 4,
+      "e6": 0,
+      "total_e456": 63
+    },
+    "SAN CRISTOBAL": {
+      "e4": 1843,
+      "e5": 12,
+      "e6": 0,
+      "total_e456": 1855
+    },
+    "SAN JAVIER": {
+      "e4": 3297,
+      "e5": 24,
+      "e6": 0,
+      "total_e456": 3321
+    },
+    "SANTA CRUZ": {
+      "e4": 1,
+      "e5": 0,
+      "e6": 0,
+      "total_e456": 1
+    },
+    "SANTA ELENA": {
+      "e4": 84,
+      "e5": 98,
+      "e6": 422,
+      "total_e456": 604
+    },
+    "VILLA HERMOSA": {
+      "e4": 1140,
+      "e5": 0,
+      "e6": 0,
+      "total_e456": 1140
+    }
+  }
+}

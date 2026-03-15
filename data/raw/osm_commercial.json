@@ -1,0 +1,6298 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.10 2d4cfc48",
+  "osm3s": {
+    "timestamp_osm_base": "2026-02-27T14:52:52Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+
+{
+  "type": "node",
+  "id": 1190038824,
+  "lat": 6.2484539,
+  "lon": -75.5836994,
+  "tags": {
+    "name": "DANE",
+    "office": "government"
+  }
+},
+{
+  "type": "node",
+  "id": 1679076664,
+  "lat": 6.2562732,
+  "lon": -75.5933390,
+  "tags": {
+    "addr:housenumber": "75-276",
+    "addr:street": "Calle 47D",
+    "building": "office",
+    "name": "Instituto de Deporte y Recreación de Medellin",
+    "office": "government",
+    "short_name": "INDER"
+  }
+},
+{
+  "type": "node",
+  "id": 1946462762,
+  "lat": 6.2028489,
+  "lon": -75.6016238,
+  "tags": {
+    "name": "Mall Santa Maria Rodeo Alto",
+    "shop": "mall"
+  }
+},
+{
+  "type": "node",
+  "id": 2379654299,
+  "lat": 6.2127697,
+  "lon": -75.5590425,
+  "tags": {
+    "addr:street": "Carrera 30 #10C-228",
+    "name": "Interplaza",
+    "shop": "mall"
+  }
+},
+{
+  "type": "node",
+  "id": 2379659017,
+  "lat": 6.2066200,
+  "lon": -75.5601129,
+  "tags": {
+    "name": "Verona Mall",
+    "shop": "mall"
+  }
+},
+{
+  "type": "node",
+  "id": 2379659031,
+  "lat": 6.1862354,
+  "lon": -75.5622127,
+  "tags": {
+    "addr:city": "Medellín",
+    "name": "Complex Los Balsos",
+    "shop": "mall"
+  }
+},
+{
+  "type": "node",
+  "id": 2391467032,
+  "lat": 6.2399859,
+  "lon": -75.5879788,
+  "tags": {
+    "name": "Notaria",
+    "office": "notary"
+  }
+},
+{
+  "type": "node",
+  "id": 2706788100,
+  "lat": 6.2448573,
+  "lon": -75.6086339,
+  "tags": {
+    "name": "Gráfica Pubblicidad",
+    "office": "company"
+  }
+},
+{
+  "type": "node",
+  "id": 2882081873,
+  "lat": 6.2367536,
+  "lon": -75.5728946,
+  "tags": {
+    "name": "Electrovan",
+    "office": "company"
+  }
+},
+{
+  "type": "node",
+  "id": 2933306916,
+  "lat": 6.1967653,
+  "lon": -75.5791917,
+  "tags": {
+    "name": "Ingeneo S.A",
+    "office": "software"
+  }
+},
+{
+  "type": "node",
+  "id": 3076161481,
+  "lat": 6.2459964,
+  "lon": -75.5713778,
+  "tags": {
+    "name": "Secretaria de Educación",
+    "office": "government",
+    "opening_hours": "Mo-Fr 08:00-17:00",
+    "operator": "Alcaldía de Medellín",
+    "smoking": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 3110442460,
+  "lat": 6.1782234,
+  "lon": -75.5895617,
+  "tags": {
+    "addr:city": "Envigado",
+    "addr:full": "Carrera 48 # 30 sur - 119",
+    "addr:housenumber": "30 Sur - 119",
+    "addr:street": "Carrera 48",
+    "name": "El Colombiano",
+    "office": "newspaper",
+    "phone": "+57 (4) 331 52 52",
+    "website": "https://www.elcolombiano.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 3291769675,
+  "lat": 6.2293264,
+  "lon": -75.6013051,
+  "tags": {
+    "addr:city": "Medellín",
+    "addr:postcode": "050025",
+    "addr:street": "Calle 28",
+    "name": "Rastreo Siglo XXI",
+    "office": "company",
+    "opening_hours": "08:00-17:00"
+  }
+},
+{
+  "type": "node",
+  "id": 3397767027,
+  "lat": 6.1579320,
+  "lon": -75.6172805,
+  "tags": {
+    "addr:city": "Medellin",
+    "addr:housenumber": "61 Sur - 540",
+    "addr:street": "Carrera 49",
+    "name": "Parque de Bodegas La Regional",
+    "office": "company",
+    "phone": "+57 4 2885240"
+  }
+},
+{
+  "type": "node",
+  "id": 3576470687,
+  "lat": 6.1889570,
+  "lon": -75.5813210,
+  "tags": {
+    "name": "Delima Marsh",
+    "office": "insurance"
+  }
+},
+{
+  "type": "node",
+  "id": 3634329923,
+  "lat": 6.2136353,
+  "lon": -75.5718048,
+  "tags": {
+    "addr:city": "El Poblado, Medellín",
+    "addr:housenumber": "43D-19",
+    "addr:street": "Calle 13",
+    "name": "Summan S.A.S.",
+    "office": "company",
+    "opening_hours": "Mo-Fr 09:00-18:00",
+    "phone": "+57 6046051572",
+    "website": "https://www.summan.com"
+  }
+},
+{
+  "type": "node",
+  "id": 3774436757,
+  "lat": 6.1861334,
+  "lon": -75.5564112,
+  "tags": {
+    "addr:city": "Medellín",
+    "addr:housenumber": "11A Sur - 100",
+    "addr:postcode": "050022",
+    "addr:street": "Carrera 16",
+    "name": "Tigo-UNE Balsos",
+    "office": "it",
+    "phone": "+57 (4) 325-1650"
+  }
+},
+{
+  "type": "node",
+  "id": 3811569315,
+  "lat": 6.2607309,
+  "lon": -75.5897696,
+  "tags": {
+    "name": "Centro Comercial El Diamante",
+    "opening_hours": "10:00-19:00",
+    "shop": "mall"
+  }
+},
+{
+  "type": "node",
+  "id": 3971951859,
+  "lat": 6.2317225,
+  "lon": -75.5737537,
+  "tags": {
+    "addr:city": "Medellín",
+    "addr:housenumber": "46-30",
+    "addr:street": "Calle 30",
+    "name": "DUALL CO",
+    "office": "company"
+  }
+},
+{
+  "type": "node",
+  "id": 4005449790,
+  "lat": 6.2004930,
+  "lon": -75.5639390,
+  "tags": {
+    "name": "Mall Plaza",
+    "name:es": "Mall Plaza",
+    "shop": "mall"
+  }
+},
+{
+  "type": "node",
+  "id": 4107277290,
+  "lat": 6.2471607,
+  "lon": -75.5967727,
+  "tags": {
+    "addr:housenumber": "39B-16",
+    "addr:street": "Carrera 77",
+    "name": "UNE La América",
+    "office": "telecommunication",
+    "website": "https://www.une.com.co/"
+  }
+},
+{
+  "type": "node",
+  "id": 4121140669,
+  "lat": 6.1928088,
+  "lon": -75.5794908,
+  "tags": {
+    "name": "Automall Santa María de Las Vegas",
+    "shop": "mall"
+  }
+},
+{
+  "type": "node",
+  "id": 4166170620,
+  "lat": 6.2503277,
+  "lon": -75.5633442,
+  "tags": {
+    "addr:city": "Medellin",
+    "addr:street": "Calle 53;Maracaibo",
+    "name": "Colombia Reports",
+    "office": "newspaper",
+    "opening_hours": "Mo-Fr 08:00-17:00"
+  }
+},
+{
+  "type": "node",
+  "id": 4190947690,
+  "lat": 6.1736308,
+  "lon": -75.6090467,
+  "tags": {
+    "name": "CAMI",
+    "office": "government"
+  }
+},
+{
+  "type": "node",
+  "id": 4319428193,
+  "lat": 6.2194874,
+  "lon": -75.5716411,
+  "tags": {
+    "addr:street": "Carrera 43 F",
+    "name": "Telemedellín sede Gabriel García Márquez",
+    "office": "government",
+    "opening_hours": "Mo-Fr 07:30-22:00; Sa-Su 11:00-15:00",
+    "website": "https://www.telemedellin.tv/"
+  }
+},
+{
+  "type": "node",
+  "id": 4320182036,
+  "lat": 6.2542453,
+  "lon": -75.5907306,
+  "tags": {
+    "addr:city": "Medellín",
+    "addr:street": "Calle 48;Pichincha",
+    "name": "Liga de Actividades Subacuáticas LASA",
+    "office": "government",
+    "opening_hours": "Mo-Fr 09:00-17:00"
+  }
+},
+{
+  "type": "node",
+  "id": 4457292229,
+  "lat": 6.2598934,
+  "lon": -75.5984481,
+  "tags": {
+    "name": "Programa de las Naciones Unidas para el Desarrollo - PNUD Regional Antioquia",
+    "office": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 4600620790,
+  "lat": 6.1729848,
+  "lon": -75.6101592,
+  "tags": {
+    "name": "Mall Itagüí",
+    "shop": "mall"
+  }
+},
+{
+  "type": "node",
+  "id": 4643427589,
+  "lat": 6.2571748,
+  "lon": -75.6134604,
+  "tags": {
+    "addr:street": "Carrera 98 #47a-20",
+    "name": "Fantasía",
+    "name:es": "Fantasía",
+    "office": "government"
+  }
+},
+{
+  "type": "node",
+  "id": 4814326551,
+  "lat": 6.2092551,
+  "lon": -75.5716548,
+  "tags": {
+    "addr:city": "Medellín",
+    "addr:housenumber": "43A-49",
+    "addr:street": "Calle 8",
+    "amenity": "coworking_space",
+    "contact:facebook": "https://www.facebook.com/atomhouse.co",
+    "name": "Atom House Coworking",
+    "office": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 5101182875,
+  "lat": 6.2149071,
+  "lon": -75.5973603,
+  "tags": {
+    "name": "Centro Comercial La Mota",
+    "shop": "mall"
+  }
+},
+{
+  "type": "node",
+  "id": 5108676822,
+  "lat": 6.2107940,
+  "lon": -75.5693025,
+  "tags": {
+    "name": "Notaría 12",
+    "office": "government"
+  }
+},
+{
+  "type": "node",
+  "id": 5108684321,
+  "lat": 6.2042008,
+  "lon": -75.5723430,
+  "tags": {
+    "check_date": "2023-10-18",
+    "name": "Notaría 11",
+    "office": "notary"
+  }
+},
+{
+  "type": "node",
+  "id": 5145336280,
+  "lat": 6.2138606,
+  "lon": -75.5852703,
+  "tags": {
+    "name": "Une",
+    "office": "telecommunication"
+  }
+},
+{
+  "type": "node",
+  "id": 5168887218,
+  "lat": 6.1965566,
+  "lon": -75.5594697,
+  "tags": {
+    "name": "ApostillayLegalizaEnVenezuela",
+    "office": "lawyer",
+    "website": "https://www.woohands.com/en/provider-profile/apostillaylegalizaenvenezuela-1"
+  }
+},
+{
+  "type": "node",
+  "id": 5188775921,
+  "lat": 6.2135204,
+  "lon": -75.5593214,
+  "tags": {
+    "name": "ISAGEN",
+    "name:en": "Isagen",
+    "office": "company"
+  }
+},
+{
+  "type": "node",
+  "id": 5244406122,
+  "lat": 6.1996498,
+  "lon": -75.5722652,
+  "tags": {
+    "addr:housenumber": "3 sur 81",
+    "addr:street": "Carrera 42",
+    "email": "exponencial@affirmatum.com",
+    "name": "Exponencial Confirming S.A.S.",
+    "name:en": "Exponencial Confirming S.A.S.",
+    "name:es": "Exponencial Confirming S.A.S.",
+    "office": "company",
+    "opening_hours": "Mo-Fr 07:30-17:00",
+    "phone": "+57 4 4481248",
+    "website": "https://www.exponencialconfirming.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 5249851913,
+  "lat": 6.2694234,
+  "lon": -75.5384579,
+  "tags": {
+    "addr:street": "Carrera 24b",
+    "description": "Allí enseñan corte y confección a mujeres de bajo resursos bajo el acmpañamiento de una docente del Sena",
+    "name": "Sena",
+    "office": "educational_institution",
+    "opening_hours": "Mo-Fr 08:00-17:00"
+  }
+},
+{
+  "type": "node",
+  "id": 5322269429,
+  "lat": 6.2450989,
+  "lon": -75.5710762,
+  "tags": {
+    "lawyer": "notary",
+    "office": "lawyer"
+  }
+},
+{
+  "type": "node",
+  "id": 5322269430,
+  "lat": 6.2441876,
+  "lon": -75.5731752,
+  "tags": {
+    "name": "Pasaportes",
+    "office": "government"
+  }
+},
+{
+  "type": "node",
+  "id": 5333186921,
+  "lat": 6.2000322,
+  "lon": -75.5693477,
+  "tags": {
+    "addr:housenumber": "2 Sur - 104",
+    "addr:street": "Carrera 37 A",
+    "name": "Ophtha",
+    "office": "company",
+    "opening_hours": "Mo-Fr 08:00-17:30",
+    "phone": "+57 4 4481918",
+    "website": "https://www.ophtha.com.co/"
+  }
+},
+{
+  "type": "node",
+  "id": 5340913821,
+  "lat": 6.1677791,
+  "lon": -75.6159463,
+  "tags": {
+    "name": "De usura Eps.",
+    "office": "company"
+  }
+},
+{
+  "type": "node",
+  "id": 5341286923,
+  "lat": 6.1720557,
+  "lon": -75.6112824,
+  "tags": {
+    "name": "Registraduria De itagui",
+    "office": "government"
+  }
+},
+{
+  "type": "node",
+  "id": 5341309221,
+  "lat": 6.1734167,
+  "lon": -75.6078537,
+  "tags": {
+    "name": "Sisben",
+    "office": "ngo"
+  }
+},
+{
+  "type": "node",
+  "id": 5352008321,
+  "lat": 6.1590978,
+  "lon": -75.6187793,
+  "tags": {
+    "addr:city": "Itagüí",
+    "addr:full": "Cra. 42 #26-18",
+    "addr:housenumber": "26-18",
+    "addr:street": "Carrera 42",
+    "name": "Ternium-Ferrasa",
+    "office": "company"
+  }
+},
+{
+  "type": "node",
+  "id": 5355875724,
+  "lat": 6.2421317,
+  "lon": -75.5748888,
+  "tags": {
+    "name": "Edificio Nuevo Centro La Alpujarra",
+    "office": "company"
+  }
+},
+{
+  "type": "node",
+  "id": 5355892022,
+  "lat": 6.2472938,
+  "lon": -75.5748450,
+  "tags": {
+    "name": "Edificio Business Plaza",
+    "office": "government"
+  }
+},
+{
+  "type": "node",
+  "id": 5357421221,
+  "lat": 6.2297519,
+  "lon": -75.5777424,
+  "tags": {
+    "name": "Centro mercantil Emtelco",
+    "office": "company"
+  }
+},
+{
+  "type": "node",
+  "id": 5493812125,
+  "lat": 6.2472469,
+  "lon": -75.5625520,
+  "tags": {
+    "addr:city": "Medellín",
+    "addr:housenumber": "42-54",
+    "addr:street": "Calle 50",
+    "building": "yes",
+    "consulate": "honorary_consul",
+    "contact:email": "medellin@honorary.mzv.cz",
+    "contact:phone": "+57-4-2393333",
+    "country": "CZ",
+    "diplomatic": "consulate",
+    "name": "Honorary Consulate of the Czech Republic",
+    "name:cs": "Honorární konzulát České republiky",
+    "name:fr": "Consulat honoraire de Tchéquie",
+    "office": "diplomatic",
+    "opening_hours": "Mo, We, Fr 09:00-12:00",
+    "target": "CO",
+    "website": "https://www.mzv.cz/jnp/cz/o_ministerstvu/adresar_diplomatickych_misi/ceske_urady_v_zahranici/kolumbie_honorarni_konzulat_medellin.html"
+  }
+},
+{
+  "type": "node",
+  "id": 5548531936,
+  "lat": 6.2292431,
+  "lon": -75.6022755,
+  "tags": {
+    "name": "Notaria 29",
+    "name:es": "Notaria 29",
+    "office": "lawyer"
+  }
+},
+{
+  "type": "node",
+  "id": 5548531946,
+  "lat": 6.2313952,
+  "lon": -75.5828224,
+  "tags": {
+    "name": "Oficinas Tigo Une",
+    "name:es": "Oficinas Tigo Une",
+    "office": "telecommunication"
+  }
+},
+{
+  "type": "node",
+  "id": 5636405478,
+  "lat": 6.2617582,
+  "lon": -75.5761413,
+  "tags": {
+    "name": "Registro y matrícula",
+    "office": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 5758740986,
+  "lat": 6.1626296,
+  "lon": -75.6077489,
+  "tags": {
+    "name": "Punto de Atención al Cliente Metro",
+    "office": "public_transport",
+    "opening_hours": "Mo-Fr 06:30-20:30, Sa 09:30-16:30",
+    "operator": "Metro de Medellín",
+    "short_name": "PAC"
+  }
+},
+{
+  "type": "node",
+  "id": 5852278486,
+  "lat": 6.2378898,
+  "lon": -75.5904886,
+  "tags": {
+    "name": "Colviseg. Ltda",
+    "office": "company"
+  }
+},
+{
+  "type": "node",
+  "id": 5856744648,
+  "lat": 6.1780448,
+  "lon": -75.5898014,
+  "tags": {
+    "addr:city": "Envigado",
+    "addr:housenumber": "30 - 119",
+    "addr:postcode": "055422",
+    "addr:street": "Avenida Carrera 48",
+    "name": "Secretaría de Movilidad Envigado",
+    "office": "government",
+    "phone": "+57 6043394000",
+    "website": "https://www.envigado.gov.co/tema/secretaria-de-movilidad"
+  }
+},
+{
+  "type": "node",
+  "id": 5856834904,
+  "lat": 6.2494965,
+  "lon": -75.5641928,
+  "tags": {
+    "name": "Delima",
+    "office": "insurance"
+  }
+},
+{
+  "type": "node",
+  "id": 5856834905,
+  "lat": 6.2493925,
+  "lon": -75.5642036,
+  "tags": {
+    "addr:city": "Medellín",
+    "addr:housenumber": "45-77",
+    "addr:street": "Calle 53",
+    "check_date": "2026-02-02",
+    "name": "Cámara de Comercio de Medellín",
+    "office": "association",
+    "website": "https://www.camaramedellin.com.co"
+  }
+},
+{
+  "type": "node",
+  "id": 5860013170,
+  "lat": 6.2493347,
+  "lon": -75.5909619,
+  "tags": {
+    "description": "JORNADA CONTINUA 8:00 AM - 6:00 PM",
+    "name": "NOTARIA PRIMERA",
+    "office": "notary",
+    "phone": "+57 4 4116255"
+  }
+},
+{
+  "type": "node",
+  "id": 5867581240,
+  "lat": 6.2580092,
+  "lon": -75.5703317,
+  "tags": {
+    "name": "Antioqueña de Químicos",
+    "office": "company",
+    "source": "mapillary"
+  }
+},
+{
+  "type": "node",
+  "id": 5871261711,
+  "lat": 6.1892323,
+  "lon": -75.5769305,
+  "tags": {
+    "government": "tax",
+    "name": "Dirección de Impuestos y Aduanas Nacionales",
+    "office": "government",
+    "short_name": "DIAN"
+  }
+},
+{
+  "type": "node",
+  "id": 6226250587,
+  "lat": 6.1955843,
+  "lon": -75.5783069,
+  "tags": {
+    "name": "AGUACATALA OFICINA",
+    "office": "company"
+  }
+},
+{
+  "type": "node",
+  "id": 6251484087,
+  "lat": 6.2457531,
+  "lon": -75.5637191,
+  "tags": {
+    "addr:street": "Carrera 43",
+    "name": "Comfama Claustro San Ignacio",
+    "office": "company",
+    "website": "https://www.comfama.com/",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 6253702388,
+  "lat": 6.2325662,
+  "lon": -75.5712981,
+  "tags": {
+    "name": "B-hip global",
+    "office": "company"
+  }
+},
+{
+  "type": "node",
+  "id": 6345537908,
+  "lat": 6.2566850,
+  "lon": -75.5812703,
+  "tags": {
+    "name": "Gps Moviltrack S.A.S",
+    "office": "company"
+  }
+},
+{
+  "type": "node",
+  "id": 6535301760,
+  "lat": 6.2016213,
+  "lon": -75.5726408,
+  "tags": {
+    "addr:city": "Medellin",
+    "addr:housenumber": "81",
+    "addr:postcode": "050022",
+    "addr:street": "Carrera 43A",
+    "name": "McKinsey & Company",
+    "office": "company",
+    "phone": "+57(4) 319 6200",
+    "website": "https://www.mckinsey.com/co/medellin",
+    "wikidata": "Q310207"
+  }
+},
+{
+  "type": "node",
+  "id": 6555064487,
+  "lat": 6.2209368,
+  "lon": -75.5804544,
+  "tags": {
+    "addr:housenumber": "15",
+    "addr:street": "Calle 18",
+    "name": "ACT",
+    "office": "company"
+  }
+},
+{
+  "type": "node",
+  "id": 6695689615,
+  "lat": 6.2060627,
+  "lon": -75.5710874,
+  "tags": {
+    "addr:housenumber": "39-215",
+    "addr:street": "Calle 7",
+    "name": "ACNUR",
+    "office": "ngo"
+  }
+},
+{
+  "type": "node",
+  "id": 6902875885,
+  "lat": 6.2499585,
+  "lon": -75.5688841,
+  "tags": {
+    "addr:housenumber": "51- 24",
+    "addr:street": "Calle 50",
+    "name": "Ed. Banco Ganadero",
+    "office": "company"
+  }
+},
+{
+  "type": "node",
+  "id": 7177457685,
+  "lat": 6.2292535,
+  "lon": -75.5708284,
+  "tags": {
+    "addr:housenumber": "30-25",
+    "addr:street": "Carrera 43A",
+    "addr:unit": "3428-3491",
+    "internet_access": "wlan",
+    "level": "3",
+    "name": "Claro",
+    "office": "telecommunication",
+    "opening_hours": "Mo-Sa 09:30-20:00; Su 10:00-18:00",
+    "phone": "+57 604 5800200",
+    "website": "https://www.claro.com.co/"
+  }
+},
+{
+  "type": "node",
+  "id": 7194170714,
+  "lat": 6.2297467,
+  "lon": -75.5734330,
+  "tags": {
+    "addr:street": "Carrera 46",
+    "name": "Almacenes Flamingo",
+    "office": "company",
+    "opening_hours": "Mo-Fr 08:00-17:00"
+  }
+},
+{
+  "type": "node",
+  "id": 7234364356,
+  "lat": 6.1573515,
+  "lon": -75.6054767,
+  "tags": {
+    "name": "Arconci Ltd",
+    "office": "architect"
+  }
+},
+{
+  "type": "node",
+  "id": 7333499345,
+  "lat": 6.2331428,
+  "lon": -75.5964046,
+  "tags": {
+    "name": "Notaría 29",
+    "office": "notary"
+  }
+},
+{
+  "type": "node",
+  "id": 7483233612,
+  "lat": 6.1833840,
+  "lon": -75.5901539,
+  "tags": {
+    "addr:city": "Itagüí",
+    "addr:housenumber": "75-125",
+    "addr:street": "Carrera 42",
+    "name": "Conconcreto S.A.",
+    "office": "company",
+    "opening_hours": "Mo-Fr 09:00-17:00"
+  }
+},
+{
+  "type": "node",
+  "id": 7514569285,
+  "lat": 6.2445230,
+  "lon": -75.5931734,
+  "tags": {
+    "addr:street": "Transversal 74",
+    "alt_name": "Notaría Sexta",
+    "name": "Notaría 6",
+    "office": "notary",
+    "opening_hours": "Mo-Su 08:00-12:00, 14:00-18:00",
+    "phone": "+57 4 3222870"
+  }
+},
+{
+  "type": "node",
+  "id": 8034471600,
+  "lat": 6.1940201,
+  "lon": -75.5211374,
+  "tags": {
+    "divipola": "05266",
+    "fixme": "Hogar de Leo Jimenez",
+    "is_in": "Colombia;Antioquia;Envigado",
+    "name": "Antigua estación de Telecom",
+    "office": "telecommunication"
+  }
+},
+{
+  "type": "node",
+  "id": 8600878751,
+  "lat": 6.2428623,
+  "lon": -75.5967999,
+  "tags": {
+    "addr:city": "Medellín",
+    "addr:housenumber": "35-20",
+    "addr:street": "Carrera 76",
+    "name": "Caja Honor",
+    "office": "government",
+    "website": "https://www.cajahonor.gov.co"
+  }
+},
+{
+  "type": "node",
+  "id": 8666190310,
+  "lat": 6.1682042,
+  "lon": -75.5871361,
+  "tags": {
+    "name": "Arrendamientos Colombia",
+    "office": "estate_agent"
+  }
+},
+{
+  "type": "node",
+  "id": 8766443054,
+  "lat": 6.1723891,
+  "lon": -75.6093397,
+  "tags": {
+    "name": "Itagui",
+    "office": "newspaper"
+  }
+},
+{
+  "type": "node",
+  "id": 8936707388,
+  "lat": 6.2647660,
+  "lon": -75.5939841,
+  "tags": {
+    "name": "Ingeade",
+    "office": "engineer"
+  }
+},
+{
+  "type": "node",
+  "id": 9115547076,
+  "lat": 6.2508162,
+  "lon": -75.5867285,
+  "tags": {
+    "addr:city": "Medellin",
+    "addr:housenumber": "45-5",
+    "addr:street": "Cra. 68A",
+    "name": "Cootraespeciales",
+    "office": "company",
+    "phone": "+57 231 80 86 - Ext. 0",
+    "website": "https://cootraespeciales.com/sitio/"
+  }
+},
+{
+  "type": "node",
+  "id": 9122307546,
+  "lat": 6.2472901,
+  "lon": -75.5896869,
+  "tags": {
+    "name": "Notaria 13",
+    "office": "notary"
+  }
+},
+{
+  "type": "node",
+  "id": 9130364499,
+  "lat": 6.2438118,
+  "lon": -75.5858763,
+  "tags": {
+    "name": "C&J Abogados",
+    "office": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 9130379939,
+  "lat": 6.2436332,
+  "lon": -75.5864291,
+  "tags": {
+    "name": "Multiempresas",
+    "office": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 9133562661,
+  "lat": 6.2388265,
+  "lon": -75.6042584,
+  "tags": {
+    "name": "Cristalida",
+    "shop": "mall"
+  }
+},
+{
+  "type": "node",
+  "id": 9146859977,
+  "lat": 6.2499563,
+  "lon": -75.6020136,
+  "tags": {
+    "shop": "mall"
+  }
+},
+{
+  "type": "node",
+  "id": 9163802074,
+  "lat": 6.2508534,
+  "lon": -75.6029315,
+  "tags": {
+    "name": "Centro Comercial San Juan",
+    "shop": "mall"
+  }
+},
+{
+  "type": "node",
+  "id": 9163802078,
+  "lat": 6.2541809,
+  "lon": -75.6102834,
+  "tags": {
+    "name": "Moll del Danubio",
+    "shop": "mall"
+  }
+},
+{
+  "type": "node",
+  "id": 9181569980,
+  "lat": 6.2465043,
+  "lon": -75.5968306,
+  "tags": {
+    "name": "Laboratorio de Ideas",
+    "office": "company"
+  }
+},
+{
+  "type": "node",
+  "id": 9181611769,
+  "lat": 6.2516902,
+  "lon": -75.5872793,
+  "tags": {
+    "name": "Movimiento Centro de Rehabilitación Especializado",
+    "office": "company"
+  }
+},
+{
+  "type": "node",
+  "id": 9181652411,
+  "lat": 6.2531239,
+  "lon": -75.6092727,
+  "tags": {
+    "name": "io electronica",
+    "office": "company"
+  }
+},
+{
+  "type": "node",
+  "id": 9181672517,
+  "lat": 6.2564341,
+  "lon": -75.5846849,
+  "tags": {
+    "office": "lawyer"
+  }
+},
+{
+  "type": "node",
+  "id": 9188433190,
+  "lat": 6.2476274,
+  "lon": -75.5749190,
+  "tags": {
+    "name": "Nueva Sede La Cabalgata Construpinturas",
+    "office": "company"
+  }
+},
+{
+  "type": "node",
+  "id": 9188543653,
+  "lat": 6.2443186,
+  "lon": -75.5731407,
+  "tags": {
+    "government": "administrative",
+    "name": "Planeación",
+    "office": "government"
+  }
+},
+{
+  "type": "node",
+  "id": 9188592934,
+  "lat": 6.2480740,
+  "lon": -75.5646743,
+  "tags": {
+    "government": "administrative",
+    "name": "Archivo Histórico de Medellín",
+    "office": "government"
+  }
+},
+{
+  "type": "node",
+  "id": 9188593689,
+  "lat": 6.2601215,
+  "lon": -75.5606584,
+  "tags": {
+    "name": "Plazarte",
+    "office": "company"
+  }
+},
+{
+  "type": "node",
+  "id": 9198830344,
+  "lat": 6.2617762,
+  "lon": -75.5974597,
+  "tags": {
+    "check_date": "2023-11-29",
+    "name": "Notaria 28",
+    "office": "notary",
+    "payment:cards": "no",
+    "payment:cash": "yes",
+    "payment:credit_cards": "no",
+    "payment:debit_cards": "no",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 9215326322,
+  "lat": 6.2325235,
+  "lon": -75.6036326,
+  "tags": {
+    "addr:city": "Medellín",
+    "addr:housenumber": "82A-26",
+    "addr:postcode": "050030",
+    "addr:street": "Calle 30A",
+    "addr:unit": "306",
+    "description": "HolaTelCol es una empresa de telecomunicaciones líder en su industria, especializada en servicios de telefonía, SMS, Recargas y mucha más. Con una amplia cobertura en Colombia, HolaTelCol se ha ganado una sólida reputación por ofrecer soluciones innovador",
+    "email": "info@holatelcol.com",
+    "level": "3",
+    "name": "HolaTelCol",
+    "office": "telecommunication",
+    "opening_hours": "Mo-Fr 09:00-13:00,14:00-18:00; Sa 09:00-13:00; Su,PH off",
+    "operator": "HolaTelCol",
+    "payment:american_express": "yes",
+    "payment:maestro": "yes",
+    "payment:mastercard": "yes",
+    "payment:visa": "yes",
+    "payment:visa_electron": "yes",
+    "phone": "+57 305 3598888",
+    "shop": "mobile_phone",
+    "website": "https://holatelcol.com"
+  }
+},
+{
+  "type": "node",
+  "id": 9222394341,
+  "lat": 6.1553122,
+  "lon": -75.5319312,
+  "tags": {
+    "name": "Melborp",
+    "office": "advertising_agency",
+    "opening_hours": "Mo-Fr 08:00-17:00",
+    "phone": "+57 604 3119826",
+    "website": "https://melborp.art/"
+  }
+},
+{
+  "type": "node",
+  "id": 9222614984,
+  "lat": 6.1543252,
+  "lon": -75.5329568,
+  "tags": {
+    "name": "SR Inmobiliario",
+    "office": "estate_agent"
+  }
+},
+{
+  "type": "node",
+  "id": 9222659951,
+  "lat": 6.1551392,
+  "lon": -75.5317398,
+  "tags": {
+    "name": "ESIC Business & Marketing School",
+    "office": "educational_institution",
+    "website": "https://www.esic.edu/"
+  }
+},
+{
+  "type": "node",
+  "id": 9222659952,
+  "lat": 6.1552109,
+  "lon": -75.5317766,
+  "tags": {
+    "disused:amenity": "office",
+    "name": "Mitacoin",
+    "office": "it",
+    "website": "https://mitacoins.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 9222659953,
+  "lat": 6.1552899,
+  "lon": -75.5318540,
+  "tags": {
+    "disused:amenity": "office",
+    "name": "574 Studio",
+    "office": "entertainment"
+  }
+},
+{
+  "type": "node",
+  "id": 9236664171,
+  "lat": 6.2342514,
+  "lon": -75.6037444,
+  "tags": {
+    "name": "Inmoviliaria La Villa",
+    "office": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 9239145691,
+  "lat": 6.2378972,
+  "lon": -75.6014542,
+  "tags": {
+    "name": "The Global Bookstore",
+    "office": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 9239153668,
+  "lat": 6.2378015,
+  "lon": -75.6004319,
+  "tags": {
+    "name": "Inmobiliaria El Trebol",
+    "office": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 9239156359,
+  "lat": 6.2380357,
+  "lon": -75.6021694,
+  "tags": {
+    "name": "Pura +",
+    "office": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 9239158242,
+  "lat": 6.2371440,
+  "lon": -75.6011750,
+  "tags": {
+    "name": "Inmobiliaria Enlace",
+    "office": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 9239159467,
+  "lat": 6.2371566,
+  "lon": -75.6016075,
+  "tags": {
+    "name": "Total Juridica",
+    "office": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 9239170362,
+  "lat": 6.2383547,
+  "lon": -75.5991939,
+  "tags": {
+    "name": "Sp Wash N Go",
+    "office": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 9239177880,
+  "lat": 6.2384395,
+  "lon": -75.6016826,
+  "tags": {
+    "name": "ET de A",
+    "office": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 9239177883,
+  "lat": 6.2387817,
+  "lon": -75.5984950,
+  "tags": {
+    "name": "Arrendamientos Panorama",
+    "office": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 9239187264,
+  "lat": 6.2395070,
+  "lon": -75.6001246,
+  "tags": {
+    "name": "Arrendamientos Mejia Correa",
+    "office": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 9239189400,
+  "lat": 6.2390935,
+  "lon": -75.5982461,
+  "tags": {
+    "name": "Tramitar",
+    "office": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 9265263221,
+  "lat": 6.1619743,
+  "lon": -75.6046701,
+  "tags": {
+    "name": "Kioglass",
+    "office": "company"
+  }
+},
+{
+  "type": "node",
+  "id": 9265286859,
+  "lat": 6.1632129,
+  "lon": -75.6019650,
+  "tags": {
+    "name": "Maxitel",
+    "office": "company"
+  }
+},
+{
+  "type": "node",
+  "id": 9265340233,
+  "lat": 6.1573728,
+  "lon": -75.6084225,
+  "tags": {
+    "name": "Automatización S.A.",
+    "office": "company"
+  }
+},
+{
+  "type": "node",
+  "id": 9279122511,
+  "lat": 6.1700310,
+  "lon": -75.5898140,
+  "tags": {
+    "addr:housenumber": "38A Sur 09",
+    "addr:street": "Carrera 44A",
+    "description": "Agencia de Viajes y Turismo Receptivo",
+    "name": "Tourenvias SAS",
+    "office": "travel_agent",
+    "website": "https://www.tourenvias.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 9281968075,
+  "lat": 6.2409324,
+  "lon": -75.5526942,
+  "tags": {
+    "name": "Comfama",
+    "office": "company"
+  }
+},
+{
+  "type": "node",
+  "id": 9282057331,
+  "lat": 6.2107062,
+  "lon": -75.5654360,
+  "tags": {
+    "country": "IT",
+    "diplomatic": "consulate",
+    "name": "Consulado italiano",
+    "office": "diplomatic"
+  }
+},
+{
+  "type": "node",
+  "id": 9282073463,
+  "lat": 6.2519321,
+  "lon": -75.5737033,
+  "tags": {
+    "name": "Claro CCM",
+    "office": "company"
+  }
+},
+{
+  "type": "node",
+  "id": 9344002694,
+  "lat": 6.2735370,
+  "lon": -75.5484630,
+  "tags": {
+    "addr:housenumber": "81-90",
+    "addr:street": "Carrera 39",
+    "name": "Merkam",
+    "office": "company"
+  }
+},
+{
+  "type": "node",
+  "id": 9455792644,
+  "lat": 6.1974430,
+  "lon": -75.5734909,
+  "tags": {
+    "addr:city": "Medellín",
+    "addr:full": "Calle 7 Sur #42-70, oficina 415, Medellín",
+    "addr:housenumber": "42-70",
+    "addr:street": "Calle 7 Sur",
+    "consulate": "consulate_general",
+    "country": "PE",
+    "diplomatic": "consulate",
+    "name": "Consulado General del Perú",
+    "office": "diplomatic",
+    "phone": "+57 - 4 - 5571274",
+    "target": "CO",
+    "website": "http://www.consulado.pe/es/Medellin"
+  }
+},
+{
+  "type": "node",
+  "id": 9484905644,
+  "lat": 6.2408726,
+  "lon": -75.5909489,
+  "tags": {
+    "name": "Edificio de Laboratorios UPB",
+    "office": "research"
+  }
+},
+{
+  "type": "node",
+  "id": 9586954332,
+  "lat": 6.2061265,
+  "lon": -75.5710714,
+  "tags": {
+    "government": "public_service",
+    "name": "IC Asesorías y Proyectos S.A.S. E.S.P.",
+    "office": "government"
+  }
+},
+{
+  "type": "node",
+  "id": 9604597092,
+  "lat": 6.1510716,
+  "lon": -75.6144068,
+  "tags": {
+    "addr:housenumber": "72 Sur 83",
+    "addr:street": "Carrera 43B",
+    "government": "register_office",
+    "name": "Registraduría Municipal del Estado Civil de Sabaneta",
+    "office": "government",
+    "opening_hours": "Mo-Fr 08:00-16:00",
+    "phone": "+57 604 2885928"
+  }
+},
+{
+  "type": "node",
+  "id": 10075900220,
+  "lat": 6.2193989,
+  "lon": -75.5589707,
+  "tags": {
+    "addr:city": "Medellín",
+    "addr:housenumber": "116-125",
+    "addr:street": "Diagonal 28",
+    "name": "Grupo Familia",
+    "office": "company",
+    "opening_hours": "Mo-Fr 08:00-17:30",
+    "phone": "+57 43609500",
+    "website": "https://www.grupofamilia.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 10120169446,
+  "lat": 6.2614439,
+  "lon": -75.5586648,
+  "tags": {
+    "addr:housenumber": "47-39",
+    "addr:street": "Calle 65F",
+    "name": "Fundacion Ciudad Refugio",
+    "office": "foundation"
+  }
+},
+{
+  "type": "node",
+  "id": 10136715714,
+  "lat": 6.2393046,
+  "lon": -75.6092231,
+  "tags": {
+    "name": "Asperi Ltda.",
+    "office": "company"
+  }
+},
+{
+  "type": "node",
+  "id": 10234569917,
+  "lat": 6.2375831,
+  "lon": -75.6065413,
+  "tags": {
+    "addr:housenumber": "83-52",
+    "addr:street": "Calle 32EE",
+    "check_date": "2023-01-13",
+    "name": "Geotech Ingeniería",
+    "office": "company",
+    "opening_hours": "Mo-Fr 07:00-17:00",
+    "phone": "+57 604 4982308",
+    "survey:date": "2022-12-02",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 10871012305,
+  "lat": 6.2262800,
+  "lon": -75.5711023,
+  "tags": {
+    "name:de": "Pulitec Ronny Fürst",
+    "office": "company"
+  }
+},
+{
+  "type": "node",
+  "id": 11100342666,
+  "lat": 6.1528980,
+  "lon": -75.5387051,
+  "tags": {
+    "name": "Arquitectura and Concreto",
+    "office": "architect"
+  }
+},
+{
+  "type": "node",
+  "id": 11201291211,
+  "lat": 6.2354327,
+  "lon": -75.6012991,
+  "tags": {
+    "addr:city": "Comuna 16 - Belén",
+    "addr:housenumber": "32-204",
+    "addr:street": "Carrera 81A",
+    "name": "Liga de Radioaficionados de Medellin",
+    "office": "ngo",
+    "opening_hours": "Mo-Fr 14:00-18:00, Sat 09:00-13:00",
+    "phone": "+573112160031",
+    "website": "https://ligaradio.co/"
+  }
+},
+{
+  "type": "node",
+  "id": 11207799804,
+  "lat": 6.2508332,
+  "lon": -75.5691709,
+  "tags": {
+    "name": "La Media Naranja",
+    "shop": "mall"
+  }
+},
+{
+  "type": "node",
+  "id": 11207806154,
+  "lat": 6.2515052,
+  "lon": -75.5689482,
+  "tags": {
+    "name": "Centro comercial Butenberg",
+    "shop": "mall"
+  }
+},
+{
+  "type": "node",
+  "id": 11207818272,
+  "lat": 6.2511346,
+  "lon": -75.5693448,
+  "tags": {
+    "name": "Pioner",
+    "office": "it"
+  }
+},
+{
+  "type": "node",
+  "id": 11207859432,
+  "lat": 6.2501821,
+  "lon": -75.5664270,
+  "tags": {
+    "name": "Edificio Lonja de Porpiedad Raiz",
+    "office": "company"
+  }
+},
+{
+  "type": "node",
+  "id": 11207884085,
+  "lat": 6.2502190,
+  "lon": -75.5674271,
+  "tags": {
+    "name": "Notaría 18",
+    "office": "notary"
+  }
+},
+{
+  "type": "node",
+  "id": 11207895052,
+  "lat": 6.2508003,
+  "lon": -75.5661307,
+  "tags": {
+    "name": "Centro Comercial Orquídea Plaza",
+    "opening_hours": "Mo-Sa 08:00-19:00",
+    "shop": "mall"
+  }
+},
+{
+  "type": "node",
+  "id": 11207895054,
+  "lat": 6.2511899,
+  "lon": -75.5656010,
+  "tags": {
+    "name": "Edificio Los Cambulos",
+    "office": "company"
+  }
+},
+{
+  "type": "node",
+  "id": 11218454404,
+  "lat": 6.2614084,
+  "lon": -75.5763096,
+  "tags": {
+    "check_date": "2023-09-25",
+    "name": "Laboratorio de geomática",
+    "office": "research"
+  }
+},
+{
+  "type": "node",
+  "id": 11277426575,
+  "lat": 6.2502596,
+  "lon": -75.5663670,
+  "tags": {
+    "name": "Notaría 16",
+    "office": "notary"
+  }
+},
+{
+  "type": "node",
+  "id": 11277435314,
+  "lat": 6.2634429,
+  "lon": -75.5591201,
+  "tags": {
+    "name": "Escuela santa María Goretti",
+    "office": "educational_institution"
+  }
+},
+{
+  "type": "node",
+  "id": 11298880359,
+  "lat": 6.2514142,
+  "lon": -75.5642753,
+  "tags": {
+    "name": "Corporación Jurídica Libertad",
+    "office": "company"
+  }
+},
+{
+  "type": "node",
+  "id": 11310601258,
+  "lat": 6.2074406,
+  "lon": -75.5874822,
+  "tags": {
+    "addr:city": "Medellín",
+    "description": "caja de compensación Comfama",
+    "name": "sede comfama Cristo Rey",
+    "office": "educational_institution",
+    "opening_hours": "Mo-Su 07:00-21:00",
+    "website": "https://www.comfama.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 11339420185,
+  "lat": 6.2093794,
+  "lon": -75.5885695,
+  "tags": {
+    "addr:city": "Medellín",
+    "addr:street": "Carrera 65 # 1 A 25",
+    "name": "VICO construcciones y Etiquetas S.A.S",
+    "office": "engineer",
+    "opening_hours": "Mo-Sa 08:00-18:00",
+    "phone": "3147995740"
+  }
+},
+{
+  "type": "node",
+  "id": 11359140340,
+  "lat": 6.2469979,
+  "lon": -75.5838558,
+  "tags": {
+    "name": "F5 - Operador Catastral",
+    "office": "government"
+  }
+},
+{
+  "type": "node",
+  "id": 11359140341,
+  "lat": 6.2472830,
+  "lon": -75.5747437,
+  "tags": {
+    "name": "Subsecretaria de catastro Medellin",
+    "office": "government"
+  }
+},
+{
+  "type": "node",
+  "id": 11386878681,
+  "lat": 6.2080645,
+  "lon": -75.5632737,
+  "tags": {
+    "addr:street": "Calle 10 #32-115",
+    "name": "Vizcaya Business Center",
+    "shop": "mall"
+  }
+},
+{
+  "type": "node",
+  "id": 11401778489,
+  "lat": 6.2558368,
+  "lon": -75.5809164,
+  "tags": {
+    "government": "pension_fund",
+    "name": "Colpensiones",
+    "office": "government"
+  }
+},
+{
+  "type": "node",
+  "id": 11403591452,
+  "lat": 6.2213298,
+  "lon": -75.5751538,
+  "tags": {
+    "addr:street": "FIC 48, 5th floor",
+    "name": "SoftServe",
+    "office": "company",
+    "website": "https://www.softserveinc.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 11436037905,
+  "lat": 6.2529413,
+  "lon": -75.5686319,
+  "tags": {
+    "name": "Contraloría Distrital de Medellín",
+    "office": "government"
+  }
+},
+{
+  "type": "node",
+  "id": 11681729904,
+  "lat": 6.1915798,
+  "lon": -75.5809715,
+  "tags": {
+    "addr:city": "MEDELLIN",
+    "addr:housenumber": "16 Sur 01",
+    "addr:street": "Carrera 48A",
+    "name": "Haru No Hinata",
+    "office": "educational_institution",
+    "phone": "+57-6045501415",
+    "website": "https://www.harunohinata.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 11828234334,
+  "lat": 6.2637221,
+  "lon": -75.5690874,
+  "tags": {
+    "addr:city": "Medellín",
+    "addr:housenumber": "55A-51",
+    "addr:postcode": "050010",
+    "addr:street": "Calle 66A",
+    "name": "Estudios YBC",
+    "office": "it",
+    "operator": "Grupo YBC Corp",
+    "phone": "3107327591",
+    "website": "https://www.ybc.com.co/"
+  }
+},
+{
+  "type": "node",
+  "id": 11940075869,
+  "lat": 6.2552183,
+  "lon": -75.5426073,
+  "tags": {
+    "name": "Coordinación",
+    "office": "company"
+  }
+},
+{
+  "type": "node",
+  "id": 11940075870,
+  "lat": 6.2550885,
+  "lon": -75.5426174,
+  "tags": {
+    "name": "Sala de profesores",
+    "office": "company"
+  }
+},
+{
+  "type": "node",
+  "id": 11940080369,
+  "lat": 6.2550149,
+  "lon": -75.5425855,
+  "tags": {
+    "name": "Sala de profesores",
+    "office": "company"
+  }
+},
+{
+  "type": "node",
+  "id": 11940084269,
+  "lat": 6.2550263,
+  "lon": -75.5426671,
+  "tags": {
+    "name": "Sala de profesores",
+    "office": "company"
+  }
+},
+{
+  "type": "node",
+  "id": 11940097169,
+  "lat": 6.2550239,
+  "lon": -75.5424025,
+  "tags": {
+    "name": "Coordinacion",
+    "office": "company"
+  }
+},
+{
+  "type": "node",
+  "id": 11940097269,
+  "lat": 6.2551729,
+  "lon": -75.5426038,
+  "tags": {
+    "name": "Sala de profesores",
+    "office": "company"
+  }
+},
+{
+  "type": "node",
+  "id": 11940097270,
+  "lat": 6.2552284,
+  "lon": -75.5427075,
+  "tags": {
+    "name": "Restaurante",
+    "office": "company"
+  }
+},
+{
+  "type": "node",
+  "id": 12055222769,
+  "lat": 6.2551915,
+  "lon": -75.5426087,
+  "tags": {
+    "name": "Sala de profes",
+    "office": "company"
+  }
+},
+{
+  "type": "node",
+  "id": 12057505869,
+  "lat": 6.2549626,
+  "lon": -75.5394829,
+  "tags": {
+    "name": "Fundación Aire Eterno",
+    "office": "ngo"
+  }
+},
+{
+  "type": "node",
+  "id": 12057511369,
+  "lat": 6.2547663,
+  "lon": -75.5394637,
+  "tags": {
+    "name": "Fundación aire eterno",
+    "office": "ngo"
+  }
+},
+{
+  "type": "node",
+  "id": 12337974701,
+  "lat": 6.2468242,
+  "lon": -75.5710856,
+  "tags": {
+    "addr:housenumber": "45-78",
+    "addr:street": "Carrera 52",
+    "name": "Alhambra Centro Comercial",
+    "opening_hours": "Mo-Sa 09:00-18:00",
+    "phone": "+57 49138644",
+    "shop": "mall"
+  }
+},
+{
+  "type": "node",
+  "id": 12337982901,
+  "lat": 6.2470024,
+  "lon": -75.5705467,
+  "tags": {
+    "addr:housenumber": "45-75",
+    "addr:street": "Carrera 51",
+    "name": "Centro Comercial Los Pioneros",
+    "opening_hours": "Mo-Sa 08:30-19:00",
+    "phone": "+57 604 5124183",
+    "shop": "mall"
+  }
+},
+{
+  "type": "node",
+  "id": 12650186902,
+  "lat": 6.2010203,
+  "lon": -75.5728882,
+  "tags": {
+    "name": "AHK Colombia",
+    "office": "company"
+  }
+},
+{
+  "type": "node",
+  "id": 12673901601,
+  "lat": 6.1886955,
+  "lon": -75.5777841,
+  "tags": {
+    "name": "Cámara de Comercio de Medellín",
+    "office": "company"
+  }
+},
+{
+  "type": "node",
+  "id": 12873751314,
+  "lat": 6.1973323,
+  "lon": -75.5731110,
+  "tags": {
+    "addr:city": "Medellín",
+    "addr:housenumber": "5 Sur 145",
+    "addr:street": "Carrera 42",
+    "brand": "WeWork",
+    "brand:wikidata": "Q19995004",
+    "fee": "yes",
+    "name": "WeWork",
+    "office": "coworking",
+    "opening_hours": "Mo-Fr 09:00-17:00"
+  }
+},
+{
+  "type": "node",
+  "id": 12875301744,
+  "lat": 6.2381981,
+  "lon": -75.5717478,
+  "tags": {
+    "addr:housenumber": "37 27",
+    "addr:street": "Carrera 48",
+    "internet_access": "yes",
+    "name": "Vertical Coworking",
+    "office": "coworking",
+    "phone": "+57 3122920126",
+    "website": "https://verticalcoworking.co"
+  }
+},
+{
+  "type": "node",
+  "id": 12974496942,
+  "lat": 6.2328203,
+  "lon": -75.6110327,
+  "tags": {
+    "name": "Admisiones y Registro",
+    "office": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 12974496943,
+  "lat": 6.2325331,
+  "lon": -75.6110722,
+  "tags": {
+    "name": "Tesorería",
+    "office": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13066976701,
+  "lat": 6.2528241,
+  "lon": -75.5721835,
+  "tags": {
+    "addr:housenumber": "#55-84",
+    "addr:street": "Calle 51",
+    "name": "Escuela Nacional Sindical",
+    "office": "ngo"
+  }
+},
+{
+  "type": "node",
+  "id": 13087991366,
+  "lat": 6.2113136,
+  "lon": -75.6047138,
+  "tags": {
+    "office": "lawyer"
+  }
+},
+{
+  "type": "node",
+  "id": 13090049281,
+  "lat": 6.2145719,
+  "lon": -75.5626931,
+  "tags": {
+    "addr:city": "Medellín",
+    "addr:housenumber": "13-49",
+    "addr:postcode": "050021",
+    "addr:street": "Carrera 32",
+    "addr:unit": "408",
+    "name": "SAHA HUMANOS",
+    "office": "construction_company"
+  }
+},
+{
+  "type": "node",
+  "id": 13092935840,
+  "lat": 6.2168782,
+  "lon": -75.5985101,
+  "tags": {
+    "name": "Las Lomas S. A. S.",
+    "office": "estate_agent"
+  }
+},
+{
+  "type": "node",
+  "id": 13097385015,
+  "lat": 6.2093475,
+  "lon": -75.5596084,
+  "tags": {
+    "name": "Aviatur",
+    "office": "travel_agent"
+  }
+},
+{
+  "type": "node",
+  "id": 13101086769,
+  "lat": 6.2188191,
+  "lon": -75.5693782,
+  "tags": {
+    "name": "Coomeva Medicina Prepagada",
+    "office": "company"
+  }
+},
+{
+  "type": "node",
+  "id": 13101125473,
+  "lat": 6.2207413,
+  "lon": -75.5697339,
+  "tags": {
+    "addr:city": "Medellín",
+    "addr:housenumber": "19-17",
+    "addr:street": "Carrera 43A",
+    "name": "Block Centro Empresarial",
+    "shop": "mall"
+  }
+},
+{
+  "type": "node",
+  "id": 13112858786,
+  "lat": 6.2456176,
+  "lon": -75.5928123,
+  "tags": {
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "Semilla Coworking",
+    "office": "coworking",
+    "opening_hours": "Mo-Fr 08:00-20:30; Sa 08:00-20:30; PH 11:00-18:30",
+    "phone": "+44 317 5159876",
+    "website": "https://www.semilla.com.co"
+  }
+},
+{
+  "type": "node",
+  "id": 13113013016,
+  "lat": 6.2454670,
+  "lon": -75.5933787,
+  "tags": {
+    "check_date": "2025-09-01",
+    "name": "Seguros Sura",
+    "office": "insurance"
+  }
+},
+{
+  "type": "node",
+  "id": 13115034739,
+  "lat": 6.2442283,
+  "lon": -75.5881743,
+  "tags": {
+    "brand": "Mapfre",
+    "brand:wikidata": "Q544532",
+    "check_date": "2025-09-02",
+    "name": "Mapfre",
+    "office": "insurance",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13124085567,
+  "lat": 6.2499766,
+  "lon": -75.5972805,
+  "tags": {
+    "check_date": "2025-09-06",
+    "name": "Villacruz Arrendamientos",
+    "office": "estate_agent"
+  }
+},
+{
+  "type": "node",
+  "id": 13137131060,
+  "lat": 6.2430420,
+  "lon": -75.5968161,
+  "tags": {
+    "name": "Aseguradora Solidaria de Colombia",
+    "office": "insurance",
+    "website": "https://aseguradorasolidaria.com.co/"
+  }
+},
+{
+  "type": "node",
+  "id": 13153427955,
+  "lat": 6.1988847,
+  "lon": -75.5570019,
+  "tags": {
+    "name": "Auros",
+    "office": "insurance"
+  }
+},
+{
+  "type": "node",
+  "id": 13153875536,
+  "lat": 6.2185350,
+  "lon": -75.5866300,
+  "tags": {
+    "brand": "SATENA",
+    "name": "SATENA",
+    "office": "airline"
+  }
+},
+{
+  "type": "node",
+  "id": 13160996761,
+  "lat": 6.2344579,
+  "lon": -75.5961834,
+  "tags": {
+    "government": "yes",
+    "name": "Registraduría Auxiliar de Belén",
+    "office": "government"
+  }
+},
+{
+  "type": "node",
+  "id": 13296780381,
+  "lat": 6.1666176,
+  "lon": -75.5858684,
+  "tags": {
+    "addr:city": "Envigado",
+    "addr:postcode": "055420",
+    "addr:street": "Calle 39 Sur 38-23",
+    "name": "DPS Creativo",
+    "office": "advertising_agency",
+    "phone": "+573105232025",
+    "website": "https://dpscreativo.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 13336836337,
+  "lat": 6.1751819,
+  "lon": -75.6013719,
+  "tags": {
+    "addr:city": "Itagui",
+    "addr:postcode": "055422",
+    "addr:street": "Carrera 45A # 58-131",
+    "check_date": "2025-11-11",
+    "check_date:currency:XBT": "2025-08-01",
+    "currency:XBT": "yes",
+    "name": "V-Cad Constructions",
+    "office": "engineer",
+    "payment:lightning": "yes",
+    "payment:onchain": "yes",
+    "phone": "+573014755446",
+    "survey:date": "2025-11-27",
+    "website": "https://www.instagram.com/vcadconstructions?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+  }
+},
+{
+  "type": "node",
+  "id": 13555924701,
+  "lat": 6.2429511,
+  "lon": -75.5635989,
+  "tags": {
+    "addr:street": "Carrera 41",
+    "name": "UNO-A",
+    "office": "company"
+  }
+},
+{
+  "type": "way",
+  "id": 29275853,
+  "center": {
+    "lat": 6.2328294,
+    "lon": -75.6038884
+  },
+  "nodes": [
+    321924498,
+    7719415978,
+    4092155926,
+    321924501,
+    321924502,
+    321924503,
+    4092155936,
+    12632094530,
+    8595539286,
+    321924505,
+    8595539284,
+    321924506,
+    12632094528,
+    321924498
+  ],
+  "tags": {
+    "building": "retail",
+    "name": "Centro Comercial Los Molinos",
+    "shop": "mall"
+  }
+},
+{
+  "type": "way",
+  "id": 31973366,
+  "center": {
+    "lat": 6.2490095,
+    "lon": -75.5704016
+  },
+  "nodes": [
+    9942951067,
+    9942951066,
+    9942951064,
+    9942951063,
+    9942951065,
+    9942951062,
+    9942951060,
+    9942951059,
+    9942951061,
+    9942951058,
+    9942951057,
+    358216729,
+    9942951056,
+    9942951055,
+    9942951046,
+    9942951044,
+    9942951047,
+    9942951052,
+    9942951051,
+    9942951048,
+    9942951049,
+    9942951050,
+    9942951053,
+    9942951054,
+    9942951067
+  ],
+  "tags": {
+    "building": "yes",
+    "historic": "monument",
+    "name": "Palacio Nacional",
+    "shop": "mall"
+  }
+},
+{
+  "type": "way",
+  "id": 32470439,
+  "center": {
+    "lat": 6.2445818,
+    "lon": -75.5725323
+  },
+  "nodes": [
+    365053777,
+    365053782,
+    365053787,
+    365053791,
+    365053777
+  ],
+  "tags": {
+    "alt_name": "Juzgados",
+    "amenity": "courthouse",
+    "building": "yes",
+    "int_name": "Courts of Justice",
+    "name": "Palacio de Justicia José Feliz de Restrepo",
+    "office": "government",
+    "old_name": "Juzgados"
+  }
+},
+{
+  "type": "way",
+  "id": 35584086,
+  "center": {
+    "lat": 6.1972727,
+    "lon": -75.5592353
+  },
+  "nodes": [
+    416999232,
+    416999233,
+    416999234,
+    6348347124,
+    6348347125,
+    3454993960,
+    4320087800,
+    4320087799,
+    4320087797,
+    416999236,
+    416999238,
+    416999239,
+    416999241,
+    416999242,
+    416999243,
+    416999245,
+    416999247,
+    416999248,
+    416999249,
+    416999250,
+    416999251,
+    416999252,
+    416999253,
+    416999254,
+    416999256,
+    416999232
+  ],
+  "tags": {
+    "addr:city": "Medellín",
+    "addr:housename": "El Tesoro Parque Comercial",
+    "addr:housenumber": "1 Sur - 45",
+    "addr:postcode": "050022",
+    "addr:street": "Carrera 25 A",
+    "alt_name": "El Tesoro",
+    "alt_name:en": "El Tesoro Mall",
+    "landuse": "retail",
+    "location": "surface",
+    "name": "El Tesoro Parque Comercial",
+    "old_name": "El Tesoro",
+    "opening_hours": "Mo-Th 08:00-22:30, Fr-Su 10:00-23:59",
+    "operator": "El Tesoro",
+    "shop": "mall",
+    "website": "https://eltesoro.com.co/",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 44923912,
+  "center": {
+    "lat": 6.1780556,
+    "lon": -75.5836714
+  },
+  "nodes": [
+    569685706,
+    569685708,
+    569685710,
+    569685712,
+    569685714,
+    569685716,
+    569685718,
+    569685719,
+    569685730,
+    569685733,
+    569685735,
+    569685721,
+    569685723,
+    569685729,
+    569685725,
+    569685727,
+    569685706
+  ],
+  "tags": {
+    "building": "yes",
+    "name": "La Casona",
+    "shop": "mall"
+  }
+},
+{
+  "type": "way",
+  "id": 88060930,
+  "center": {
+    "lat": 6.1988329,
+    "lon": -75.5733077
+  },
+  "nodes": [
+    1023450534,
+    1023450424,
+    1023450539,
+    1023450466,
+    1023450264,
+    1023450245,
+    1023450360,
+    1023450375,
+    7621532539,
+    1023450515,
+    1023450459,
+    1023450253,
+    7621532541,
+    7621532540,
+    1023450527,
+    1023450339,
+    1023450257,
+    7621532543,
+    7621532542,
+    10925356612,
+    10925356611,
+    10925356610,
+    1023450534
+  ],
+  "tags": {
+    "building": "yes",
+    "building:levels": "7",
+    "name": "Rio Sur",
+    "shop": "mall"
+  }
+},
+{
+  "type": "way",
+  "id": 92975733,
+  "center": {
+    "lat": 6.1964257,
+    "lon": -75.5738343
+  },
+  "nodes": [
+    1077838529,
+    9972913718,
+    1194445298,
+    7621732273,
+    7621732269,
+    7621732268,
+    7621732266,
+    7621732267,
+    7621732270,
+    7621732265,
+    7621732271,
+    7621732272,
+    7621732257,
+    7621732254,
+    7621732255,
+    7621732256,
+    7621732264,
+    1077839673,
+    9972912805,
+    1077839671,
+    9972913787,
+    7621732278,
+    7621732277,
+    7621732276,
+    7621732275,
+    3665677503,
+    1077839672,
+    3665677505,
+    9972913781,
+    7621732259,
+    1194445139,
+    9972913783,
+    9972913782,
+    7621732258,
+    3665677504,
+    7621732263,
+    7621732262,
+    1077839670,
+    9972913765,
+    7621732253,
+    1077839668,
+    9972913745,
+    7621732261,
+    1077839669,
+    7621732260,
+    9972912814,
+    1077838529
+  ],
+  "tags": {
+    "alt_name": "Santa Fe Mall",
+    "building": "yes",
+    "name": "Centro Comercial Santafé",
+    "name:es": "Centro Comercial Santafé Medellín",
+    "shop": "mall"
+  }
+},
+{
+  "type": "way",
+  "id": 93288427,
+  "center": {
+    "lat": 6.2019819,
+    "lon": -75.5718613
+  },
+  "nodes": [
+    1081488851,
+    1081488850,
+    1081488849,
+    1081488848,
+    1081488851
+  ],
+  "tags": {
+    "building": "yes",
+    "name": "La Strada",
+    "shop": "mall"
+  }
+},
+{
+  "type": "way",
+  "id": 112578023,
+  "center": {
+    "lat": 6.1828723,
+    "lon": -75.5851920
+  },
+  "nodes": [
+    1279244904,
+    1279244902,
+    1279244903,
+    1279244906,
+    1279244904
+  ],
+  "tags": {
+    "landuse": "retail",
+    "name": "Complex las Vegas",
+    "shop": "mall"
+  }
+},
+{
+  "type": "way",
+  "id": 129724168,
+  "center": {
+    "lat": 6.1734862,
+    "lon": -75.5915747
+  },
+  "nodes": [
+    1430586131,
+    1430586126,
+    1430586124,
+    1430586127,
+    1430586129,
+    10827168973,
+    5524117632,
+    1430586130,
+    1430586131
+  ],
+  "tags": {
+    "shop": "mall",
+    "wheelchair": "limited"
+  }
+},
+{
+  "type": "way",
+  "id": 134543871,
+  "center": {
+    "lat": 6.1520211,
+    "lon": -75.6157505
+  },
+  "nodes": [
+    1479095198,
+    1479095153,
+    1479095174,
+    12617326462,
+    1479095227,
+    1479095198
+  ],
+  "tags": {
+    "building": "yes",
+    "name": "Centro Comercial Sabaneta Plaza",
+    "shop": "mall"
+  }
+},
+{
+  "type": "way",
+  "id": 137622711,
+  "center": {
+    "lat": 6.1615609,
+    "lon": -75.6055188
+  },
+  "nodes": [
+    1509395215,
+    4314615710,
+    4314615709,
+    4314615707,
+    4314615708,
+    9694211078,
+    1509395203,
+    2593288909,
+    2593288905,
+    2593288907,
+    1509395185,
+    1509395159,
+    12803606123,
+    2593288864,
+    2593288866,
+    5532293238,
+    2593288868,
+    9694211077,
+    4314615705,
+    2593288901,
+    9694211079,
+    1509395190,
+    11933487862,
+    12803606122,
+    9694211076,
+    2593288917,
+    2593288913,
+    4314615714,
+    1509395215
+  ],
+  "tags": {
+    "addr:street": "Carrera 48",
+    "building": "yes",
+    "layer": "1",
+    "name": "Centro Comercial Outlet Mayorca Etapa I",
+    "shop": "mall"
+  }
+},
+{
+  "type": "way",
+  "id": 142708699,
+  "center": {
+    "lat": 6.2542562,
+    "lon": -75.5794607
+  },
+  "nodes": [
+    1561745257,
+    2648933660,
+    2648933659,
+    13564303771,
+    1561745238,
+    1561745257
+  ],
+  "tags": {
+    "building": "office",
+    "designation": "Sede Central",
+    "name": "Seguros Suramericana",
+    "office": "insurance"
+  }
+},
+{
+  "type": "way",
+  "id": 142708889,
+  "center": {
+    "lat": 6.2560508,
+    "lon": -75.5816923
+  },
+  "nodes": [
+    1561751421,
+    2641476041,
+    2641476043,
+    2641476042,
+    9708593000,
+    1561751421
+  ],
+  "tags": {
+    "name": "Los Sauces",
+    "shop": "mall"
+  }
+},
+{
+  "type": "way",
+  "id": 152942893,
+  "center": {
+    "lat": 6.1990097,
+    "lon": -75.5750493
+  },
+  "nodes": [
+    1657087265,
+    7739976368,
+    6256781085,
+    6256781089,
+    6256781088,
+    6256781087,
+    6256781086,
+    1657087263,
+    5396555408,
+    5396555411,
+    5396555409,
+    7739958785,
+    7739929884,
+    7739967224,
+    1657087244,
+    7739951635,
+    7739929881,
+    7739981692,
+    1657087273,
+    9943516256,
+    9943516255,
+    9943516254,
+    9943516253,
+    4449251428,
+    9943516252,
+    9943516251,
+    9943516250,
+    1657087260,
+    7739929877,
+    4449251415,
+    9943514207,
+    9943514206,
+    1657087252,
+    7739976366,
+    9943514205,
+    1657087265
+  ],
+  "tags": {
+    "landuse": "retail",
+    "name": "Centro Comercial Oviedo",
+    "opening_hours": "Mo-Su 07:00-23:00",
+    "shop": "mall"
+  }
+},
+{
+  "type": "way",
+  "id": 153413633,
+  "center": {
+    "lat": 6.2294591,
+    "lon": -75.5706023
+  },
+  "nodes": [
+    1661049563,
+    7649177710,
+    1661049477,
+    7649177709,
+    7649177707,
+    7649177706,
+    7649177708,
+    7649177705,
+    7649177704,
+    7649177692,
+    7649177703,
+    7649177702,
+    7649177701,
+    7649177699,
+    7649177700,
+    7649177691,
+    7649177697,
+    7649177698,
+    7649177695,
+    7649177690,
+    7649177696,
+    1661049475,
+    7649186561,
+    7649177693,
+    7649177694,
+    1661049590,
+    7649177712,
+    1661049490,
+    3547429910,
+    7649177711,
+    1661049476,
+    1661049563
+  ],
+  "tags": {
+    "addr:housenumber": "# 30-25",
+    "addr:street": "Carrera 43A",
+    "building": "yes",
+    "email": "servicioalcliente@ccpremiumplaza.com",
+    "internet_access": "wlan",
+    "name": "Premium Plaza",
+    "opening_hours": "Mo-Th 10:00-20:00; Fr-Sa 10:00-21:00; Su 11:00-19:00",
+    "phone": "+57 4 4487071",
+    "shop": "mall",
+    "website": "https://www.ccpremiumplaza.com/",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 153413635,
+  "center": {
+    "lat": 6.2297986,
+    "lon": -75.5737434
+  },
+  "nodes": [
+    1661049548,
+    7253680754,
+    7253680753,
+    1661049523,
+    1661049478,
+    1661049579,
+    2751954948,
+    1661049550,
+    1661049569,
+    5619768795,
+    1661049570,
+    5619768796,
+    5619768797,
+    1661049548
+  ],
+  "tags": {
+    "building": "yes",
+    "name": "Punto Clave",
+    "opening_hours": "Mo-Fr 08:00-19:00; Sa 08:00-16:00",
+    "shop": "mall",
+    "toilets": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 153466192,
+  "center": {
+    "lat": 6.1634446,
+    "lon": -75.5734844
+  },
+  "nodes": [
+    1661355682,
+    1661355774,
+    1661355739,
+    1661355734,
+    3924033243,
+    3924033238,
+    3924033242,
+    3924033236,
+    1661355682
+  ],
+  "tags": {
+    "building": "yes",
+    "name": "City Plaza",
+    "shop": "mall"
+  }
+},
+{
+  "type": "way",
+  "id": 153466193,
+  "center": {
+    "lat": 6.1817027,
+    "lon": -75.5823124
+  },
+  "nodes": [
+    1661355891,
+    3576471337,
+    1661355743,
+    3576471353,
+    1661355725,
+    1661355688,
+    1661355800,
+    3576471365,
+    3576471367,
+    1661355785,
+    3576471389,
+    3576471495,
+    1661355839,
+    1661355891
+  ],
+  "tags": {
+    "area": "yes",
+    "landuse": "retail",
+    "name": "Mall Villa Grande",
+    "shop": "mall"
+  }
+},
+{
+  "type": "way",
+  "id": 155204706,
+  "center": {
+    "lat": 6.2041700,
+    "lon": -75.5709440
+  },
+  "nodes": [
+    1676202310,
+    7731110720,
+    8301813959,
+    4343460056,
+    8301813963,
+    4343460074,
+    1676202300,
+    1676202296,
+    8301813961,
+    1676202310
+  ],
+  "tags": {
+    "addr:city": "Medellin",
+    "addr:street": "Carrera 43 A con Calle 7",
+    "landuse": "commercial",
+    "name": "San Fernando Plaza",
+    "shop": "mall",
+    "wheelchair": "no",
+    "wheelchair:description": "tiene escaleras electricas pero no son accesibles para personas con movilidad reducida"
+  }
+},
+{
+  "type": "way",
+  "id": 155205082,
+  "center": {
+    "lat": 6.2143508,
+    "lon": -75.5767582
+  },
+  "nodes": [
+    1676206190,
+    1676206157,
+    1676206185,
+    1676206176,
+    4120987789,
+    4120986388,
+    4120986387,
+    1676206165,
+    4120987793,
+    4120987797,
+    4120987796,
+    1676206179,
+    4120987795,
+    4120987792,
+    4120987794,
+    4120987791,
+    1676206197,
+    4120987790,
+    1676206194,
+    4120987802,
+    4120987801,
+    4120987800,
+    4120987799,
+    4120987798,
+    1676206162,
+    4120987804,
+    4120987805,
+    4120987806,
+    4120987803,
+    1676206190
+  ],
+  "tags": {
+    "building": "yes",
+    "covered": "yes",
+    "name": "Centro Comercial Monterrey",
+    "name:es": "Centro Commercial Monterrey",
+    "official_name": "Centro Comercial Monterrey",
+    "shop": "mall",
+    "supervised": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 196864606,
+  "center": {
+    "lat": 6.2709178,
+    "lon": -75.5725287
+  },
+  "nodes": [
+    1282257222,
+    2071562876,
+    13525338127,
+    13525338128,
+    13525338129,
+    9418384635,
+    1721445681,
+    1721445687,
+    1282257226,
+    13525338130,
+    1282257222
+  ],
+  "tags": {
+    "addr:housenumber": "72-58",
+    "addr:street": "Carrera 64 C",
+    "barrier": "wall",
+    "name": "Secretaría de Movilidad de Medellín",
+    "office": "government",
+    "toilets:wheelchair": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 197615625,
+  "center": {
+    "lat": 6.2117787,
+    "lon": -75.5705291
+  },
+  "nodes": [
+    2078269402,
+    2078269399,
+    2078269398,
+    2078269404,
+    2078269407,
+    2078269412,
+    2078269402
+  ],
+  "tags": {
+    "building": "yes",
+    "name": "MasCerca El Poblado",
+    "office": "utility"
+  }
+},
+{
+  "type": "way",
+  "id": 219157026,
+  "center": {
+    "lat": 6.1986430,
+    "lon": -75.5568473
+  },
+  "nodes": [
+    2283552641,
+    2283552631,
+    2283552637,
+    2283552635,
+    2283552629,
+    2283552623,
+    2283552627,
+    2283552633,
+    2283552639,
+    2283552625,
+    2283552641
+  ],
+  "tags": {
+    "addr:city": "Medellín",
+    "addr:housenumber": "1-45",
+    "addr:postcode": "050021",
+    "addr:street": "Carrera 25",
+    "landuse": "retail",
+    "name": "Centro Comercial del Este",
+    "shop": "mall"
+  }
+},
+{
+  "type": "way",
+  "id": 230294197,
+  "center": {
+    "lat": 6.2429183,
+    "lon": -75.5746603
+  },
+  "nodes": [
+    2388160378,
+    2388160376,
+    13390826499,
+    13390826500,
+    5320980188,
+    13390855801,
+    2388160382,
+    13390855802,
+    5320980189,
+    13390855803,
+    2388160374,
+    2388160385,
+    5320980190,
+    2388160380,
+    5320980191,
+    13390826498,
+    2388160378
+  ],
+  "tags": {
+    "addr:city": "Medellín",
+    "building": "yes",
+    "int_name": "Antioquia Development Institute",
+    "name": "Instituto para el Desarrollo de Antioquia",
+    "office": "government",
+    "short_name": "IDEA",
+    "source": "http://www.idea.gov.co/"
+  }
+},
+{
+  "type": "way",
+  "id": 230296296,
+  "center": {
+    "lat": 6.2445301,
+    "lon": -75.5740685
+  },
+  "nodes": [
+    365048770,
+    365048789,
+    365048765,
+    365048767,
+    365048770
+  ],
+  "tags": {
+    "building:part": "yes",
+    "designation": "Concejo de Medellín",
+    "int_name": "Medellin Council",
+    "name": "Concejo de Medellín",
+    "office": "government",
+    "source": "Julian Vlez"
+  }
+},
+{
+  "type": "way",
+  "id": 233418988,
+  "center": {
+    "lat": 6.2511670,
+    "lon": -75.5703577
+  },
+  "nodes": [
+    2418112365,
+    2418112359,
+    2418112353,
+    6591740705,
+    2418112356,
+    11436000794,
+    11436000793,
+    11436000795,
+    6591740700,
+    11436000792,
+    11436000791,
+    11436000790,
+    6591740701,
+    2418112365
+  ],
+  "tags": {
+    "addr:housenumber": "50-51",
+    "addr:street": "Carrera 53",
+    "building": "yes",
+    "name": "La Cascada",
+    "opening_hours": "Mo-Sa 08:00-18:00",
+    "shop": "mall"
+  }
+},
+{
+  "type": "way",
+  "id": 260857787,
+  "center": {
+    "lat": 6.2721712,
+    "lon": -75.5770438
+  },
+  "nodes": [
+    5867899836,
+    2664313161,
+    2664313162,
+    5867899831,
+    2664313169,
+    12943539810,
+    12943539802,
+    12943539805,
+    12943539804,
+    12943539803,
+    12943539806,
+    12943539807,
+    2664313171,
+    5867899832,
+    5867899838,
+    6023414402,
+    5867899830,
+    2664313163,
+    7740100573,
+    5867899839,
+    5867899828,
+    5867899833,
+    7740147257,
+    7740147258,
+    5867899834,
+    5867899835,
+    5867899836
+  ],
+  "tags": {
+    "addr:city": "Medellín",
+    "addr:housenumber": "65-150",
+    "addr:street": "Calle 71",
+    "landuse": "retail",
+    "name": "Florida Parque Comercial",
+    "phone": "+574 5202880",
+    "shop": "mall",
+    "website": "https://www.facebook.com/FloridaPQOficial"
+  }
+},
+{
+  "type": "way",
+  "id": 271178305,
+  "center": {
+    "lat": 6.1841632,
+    "lon": -75.5788064
+  },
+  "nodes": [
+    2761470970,
+    2761470972,
+    2761470975,
+    2761470976,
+    2761470970
+  ],
+  "tags": {
+    "area": "yes",
+    "name": "Mall La Frontera",
+    "shop": "mall"
+  }
+},
+{
+  "type": "way",
+  "id": 271178928,
+  "center": {
+    "lat": 6.1848412,
+    "lon": -75.5793933
+  },
+  "nodes": [
+    2761473529,
+    7542359760,
+    7542359755,
+    2761473533,
+    2761473536,
+    2761473540,
+    2761473529
+  ],
+  "tags": {
+    "area": "yes",
+    "name": "Mall Sao Paulo",
+    "opening_hours": "Mo-Su 07:00-20:00",
+    "shop": "mall"
+  }
+},
+{
+  "type": "way",
+  "id": 304704619,
+  "center": {
+    "lat": 6.1807948,
+    "lon": -75.5689026
+  },
+  "nodes": [
+    3092920105,
+    3135852841,
+    3092920106,
+    3092920107,
+    3135852843,
+    3135852842,
+    3092920108,
+    3092920109,
+    3092920110,
+    3092920111,
+    2925089759,
+    3135852833,
+    3092920112,
+    3092920113,
+    3092920114,
+    3092920115,
+    3092920116,
+    3092920117,
+    3092920118,
+    3092920119,
+    3092920120,
+    3092920121,
+    3092920122,
+    3092920123,
+    3092920124,
+    3135852840,
+    3092920105
+  ],
+  "tags": {
+    "addr:city": "Medellín",
+    "addr:housenumber": "27-55",
+    "addr:street": "Calle 20 Sur",
+    "area": "yes",
+    "name": "San Lucas Plaza",
+    "phone": "+57 4 3136729",
+    "shop": "mall"
+  }
+},
+{
+  "type": "way",
+  "id": 304798257,
+  "center": {
+    "lat": 6.1676796,
+    "lon": -75.5689024
+  },
+  "nodes": [
+    9023889056,
+    3093989658,
+    9023889057,
+    3093989659,
+    3093989660,
+    3093989661,
+    9023889056
+  ],
+  "tags": {
+    "addr:city": "Envigado",
+    "addr:housenumber": "36 Sur - 162",
+    "addr:postcode": "055420",
+    "addr:street": "Carrera 27",
+    "building": "yes",
+    "ele": "1712",
+    "name": "Terracina Plaza",
+    "opening_hours": "Mo-Sa 07:00-22:00",
+    "phone": "+57 4 3113666",
+    "shop": "mall"
+  }
+},
+{
+  "type": "way",
+  "id": 304913544,
+  "center": {
+    "lat": 6.1860221,
+    "lon": -75.5696202
+  },
+  "nodes": [
+    3094830365,
+    3094830366,
+    3094830367,
+    3094830368,
+    3094830365
+  ],
+  "tags": {
+    "addr:city": "Medellín",
+    "addr:housenumber": "32B-38",
+    "addr:street": "Calle 16A Sur",
+    "building": "yes",
+    "name": "Campestre Drive In",
+    "phone": "+57 (4) 3136577",
+    "shop": "mall",
+    "website": "https://campestredrivein.com/"
+  }
+},
+{
+  "type": "way",
+  "id": 311210020,
+  "center": {
+    "lat": 6.2679258,
+    "lon": -75.5737994
+  },
+  "nodes": [
+    3167929196,
+    3167929201,
+    13527054786,
+    3167929200,
+    13527057005,
+    13527057002,
+    13527057001,
+    13527057013,
+    3167929197,
+    5868156857,
+    4005678998,
+    5868156862,
+    5868156861,
+    5868156881,
+    13527612729,
+    3167929198,
+    13527057009,
+    13527057010,
+    13527057011,
+    13527057012,
+    3167929199,
+    4005678991,
+    4005679001,
+    4005679000,
+    13527612721,
+    3167929196
+  ],
+  "tags": {
+    "addr:city": "Medellín",
+    "addr:housenumber": "67-300",
+    "addr:street": "Carrera 64C",
+    "barrier": "wall",
+    "building:levels": "5",
+    "government": "prosecutor",
+    "name": "Fiscalía General de la Nación",
+    "office": "government",
+    "phone": "+57 4 5903108",
+    "website": "http://www.fiscalia.gov.co",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 322269704,
+  "center": {
+    "lat": 6.2175786,
+    "lon": -75.5649505
+  },
+  "nodes": [
+    3290424710,
+    3290424711,
+    3290424712,
+    3733736483,
+    3290424713,
+    3613155949,
+    3613155950,
+    3290424714,
+    3613155957,
+    3613155971,
+    3290424715,
+    3613155981,
+    3290424716,
+    3613155987,
+    3613155988,
+    3290424717,
+    3290424710
+  ],
+  "tags": {
+    "addr:city": "Medellín",
+    "addr:postcode": "050020",
+    "addr:street": "Vía Las Palmas",
+    "name": "Mall Palms Avenue",
+    "shop": "mall",
+    "smoking": "isolated"
+  }
+},
+{
+  "type": "way",
+  "id": 323899715,
+  "center": {
+    "lat": 6.2716133,
+    "lon": -75.5874020
+  },
+  "nodes": [
+    3306729874,
+    12073535700,
+    12073535702,
+    3306729865,
+    3306729866,
+    3306729867,
+    3306729868,
+    3306729869,
+    3306729874
+  ],
+  "tags": {
+    "building": "university",
+    "building:levels": "2",
+    "name": "Bloque 43 - Administrativo",
+    "nohousenumber": "yes",
+    "note": "Mapeadas utilizando la Ortofoto de Medellín de Agosto 2021",
+    "office": "university",
+    "operator": "Universidad de Antioquia",
+    "roof:shape": "flat"
+  }
+},
+{
+  "type": "way",
+  "id": 329329355,
+  "center": {
+    "lat": 6.1999712,
+    "lon": -75.5723441
+  },
+  "nodes": [
+    3362000827,
+    10925375292,
+    10925375293,
+    3362000828,
+    3362000829,
+    3362000830,
+    3362000831,
+    3362000832,
+    3362000833,
+    3362000834,
+    3362000835,
+    3362000836,
+    3362000837,
+    3362000838,
+    3362000839,
+    3362000827
+  ],
+  "tags": {
+    "building": "yes",
+    "name": "Milla de Oro",
+    "shop": "mall"
+  }
+},
+{
+  "type": "way",
+  "id": 338422365,
+  "center": {
+    "lat": 6.2092962,
+    "lon": -75.5594785
+  },
+  "nodes": [
+    3454999215,
+    13153867807,
+    3454999216,
+    3454999217,
+    7179777388,
+    7179777404,
+    3454999218,
+    3454999219,
+    3454999220,
+    3454999221,
+    3454999222,
+    3454999223,
+    3454999224,
+    7179777403,
+    3454999225,
+    3454999226,
+    7179777407,
+    7179777406,
+    7179777405,
+    3454999215
+  ],
+  "tags": {
+    "addr:city": "Medellín",
+    "addr:housenumber": "30-30",
+    "addr:postcode": "050021",
+    "addr:street": "Calle 10",
+    "building": "retail",
+    "building:levels": "2",
+    "location": "surface",
+    "name": "Pinar del Río Mall",
+    "shop": "mall",
+    "smoking": "outside",
+    "website": "https://pinardelriomall.com/"
+  }
+},
+{
+  "type": "way",
+  "id": 344570021,
+  "center": {
+    "lat": 6.2115271,
+    "lon": -75.6033042
+  },
+  "nodes": [
+    3513149823,
+    3513149824,
+    3513149825,
+    3513149826,
+    3513149823
+  ],
+  "tags": {
+    "building": "yes",
+    "name": "Une",
+    "office": "telecommunication"
+  }
+},
+{
+  "type": "way",
+  "id": 346388985,
+  "center": {
+    "lat": 6.2759423,
+    "lon": -75.5895589
+  },
+  "nodes": [
+    3529310757,
+    3529310758,
+    8457662675,
+    8457662676,
+    3529310759,
+    3529310760,
+    3529310757
+  ],
+  "tags": {
+    "alt_name": "Servicio Geológico Colombiano",
+    "building": "yes",
+    "loc_name": "Ingeominas",
+    "name": "M12",
+    "office": "government"
+  }
+},
+{
+  "type": "way",
+  "id": 349899321,
+  "center": {
+    "lat": 6.1881333,
+    "lon": -75.5977956
+  },
+  "nodes": [
+    3556841481,
+    3556841482,
+    3556841483,
+    3556841484,
+    3556841481
+  ],
+  "tags": {
+    "building": "yes",
+    "name": "Platino Plaza Centro Comercial",
+    "shop": "mall"
+  }
+},
+{
+  "type": "way",
+  "id": 358523074,
+  "center": {
+    "lat": 6.1796537,
+    "lon": -75.5875801
+  },
+  "nodes": [
+    3634340787,
+    3634340788,
+    3634340789,
+    3634340790,
+    3634340791,
+    3634340787
+  ],
+  "tags": {
+    "area": "yes",
+    "name": "Nissan",
+    "office": "company"
+  }
+},
+{
+  "type": "way",
+  "id": 358565068,
+  "center": {
+    "lat": 6.1595163,
+    "lon": -75.5980512
+  },
+  "nodes": [
+    3634696387,
+    3634696388,
+    3634696389,
+    3634696390,
+    3634696387
+  ],
+  "tags": {
+    "building": "retail",
+    "name": "Mall Señorial",
+    "shop": "mall"
+  }
+},
+{
+  "type": "way",
+  "id": 358571758,
+  "center": {
+    "lat": 6.2229045,
+    "lon": -75.5703648
+  },
+  "nodes": [
+    3634750941,
+    3634750942,
+    3634750943,
+    3634750944,
+    3634750945,
+    3634750941
+  ],
+  "tags": {
+    "name": "Centro Comercial Automotriz",
+    "shop": "mall"
+  }
+},
+{
+  "type": "way",
+  "id": 358572326,
+  "center": {
+    "lat": 6.2351687,
+    "lon": -75.5707815
+  },
+  "nodes": [
+    3634784370,
+    3634784371,
+    4404804814,
+    4404804812,
+    4404804804,
+    4404804801,
+    4404804790,
+    4404804787,
+    13175568700,
+    13175613901,
+    13175613902,
+    13175613903,
+    13175568699,
+    13175613904,
+    13175613905,
+    13175613906,
+    13175613961,
+    13175568698,
+    13175613907,
+    13175613908,
+    13175613909,
+    13175613910,
+    3634784372,
+    4404804749,
+    13175613911,
+    3634784373,
+    13175568689,
+    4404804746,
+    3634784374,
+    3634784375,
+    4404804805,
+    4404804806,
+    3634784370
+  ],
+  "tags": {
+    "addr:housenumber": "# 34 - 95",
+    "addr:street": "Carrera 43A",
+    "building": "yes",
+    "email": "directorcomercial@almacentro.com.co",
+    "internet_access": "wlan",
+    "name": "Almacentro",
+    "opening_hours": "Mo-Sa 06:00-21:00",
+    "phone": "+57 4 4446213",
+    "shop": "mall",
+    "website": "https://almacentro.com.co/"
+  }
+},
+{
+  "type": "way",
+  "id": 374748914,
+  "center": {
+    "lat": 6.2697788,
+    "lon": -75.5949684
+  },
+  "nodes": [
+    3781265007,
+    3781265008,
+    3781265009,
+    3781265010,
+    3781265007
+  ],
+  "tags": {
+    "name": "Mixy Mall Los Colores",
+    "shop": "mall"
+  }
+},
+{
+  "type": "way",
+  "id": 374783544,
+  "center": {
+    "lat": 6.2460168,
+    "lon": -75.6017877
+  },
+  "nodes": [
+    3781562228,
+    3781562229,
+    3781562230,
+    3781562231,
+    3781562232,
+    3781562233,
+    4449295093,
+    3781562228
+  ],
+  "tags": {
+    "addr:street": "Avenida 80",
+    "landuse": "retail",
+    "name": "Centro Comercial Viva Laureles",
+    "opening_hours": "Mo-Th 08:30-21:00, Fr,Sa 08:30-11:00, Su,PH 09:00-20:00",
+    "shop": "mall",
+    "toilets": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 377765720,
+  "center": {
+    "lat": 6.2452497,
+    "lon": -75.6005765
+  },
+  "nodes": [
+    3811574080,
+    3811574081,
+    3811569316,
+    3811569325,
+    3811574082,
+    3811574083,
+    3811574085,
+    3811574080
+  ],
+  "tags": {
+    "building": "yes",
+    "name": "Mall Laureles",
+    "shop": "mall"
+  }
+},
+{
+  "type": "way",
+  "id": 377766013,
+  "center": {
+    "lat": 6.1728264,
+    "lon": -75.6086253
+  },
+  "nodes": [
+    4065242532,
+    7634607261,
+    3811576805,
+    7634607262,
+    3811576806,
+    3811576807,
+    3811576808,
+    7634607264,
+    3811576809,
+    7634607263,
+    3811576811,
+    3811576810,
+    4065242532
+  ],
+  "tags": {
+    "building": "yes",
+    "name": "Centro Comercial Itagüí",
+    "shop": "mall"
+  }
+},
+{
+  "type": "way",
+  "id": 398504846,
+  "center": {
+    "lat": 6.2398201,
+    "lon": -75.5845121
+  },
+  "nodes": [
+    4012547802,
+    4012547803,
+    4012547804,
+    4012547805,
+    4012547802
+  ],
+  "tags": {
+    "addr:housenumber": "65 139",
+    "addr:street": "Calle 34",
+    "building": "yes",
+    "name": "AES - Asociación de Estaciones de Servicio",
+    "office": "government"
+  }
+},
+{
+  "type": "way",
+  "id": 403539074,
+  "center": {
+    "lat": 6.2566620,
+    "lon": -75.5992358
+  },
+  "nodes": [
+    4058887289,
+    4058887189,
+    4058886989,
+    4058887190,
+    4058887289
+  ],
+  "tags": {
+    "name": "Visión Mercados",
+    "office": "company"
+  }
+},
+{
+  "type": "way",
+  "id": 434582077,
+  "center": {
+    "lat": 6.2542569,
+    "lon": -75.5728963
+  },
+  "nodes": [
+    4326035324,
+    4326035321,
+    4326035306,
+    4326035309,
+    4326035324
+  ],
+  "tags": {
+    "building": "yes",
+    "building:levels": "2",
+    "office": "administrative"
+  }
+},
+{
+  "type": "way",
+  "id": 434582095,
+  "center": {
+    "lat": 6.2542630,
+    "lon": -75.5730031
+  },
+  "nodes": [
+    4326035343,
+    4326035338,
+    4326035291,
+    4326035300,
+    4326035343
+  ],
+  "tags": {
+    "building": "yes",
+    "building:levels": "1",
+    "office": "administrative"
+  }
+},
+{
+  "type": "way",
+  "id": 434582098,
+  "center": {
+    "lat": 6.2539284,
+    "lon": -75.5730008
+  },
+  "nodes": [
+    4326035165,
+    4326035151,
+    4326035136,
+    4326035154,
+    4326035165
+  ],
+  "tags": {
+    "building": "yes",
+    "building:levels": "1",
+    "office": "administrative"
+  }
+},
+{
+  "type": "way",
+  "id": 434582109,
+  "center": {
+    "lat": 6.2542698,
+    "lon": -75.5729140
+  },
+  "nodes": [
+    4326035331,
+    4326035330,
+    4326035324,
+    4326035309,
+    4326035316,
+    4326035331
+  ],
+  "tags": {
+    "building": "yes",
+    "building:levels": "1",
+    "office": "administrative"
+  }
+},
+{
+  "type": "way",
+  "id": 434582117,
+  "center": {
+    "lat": 6.2539599,
+    "lon": -75.5729511
+  },
+  "nodes": [
+    4326035189,
+    4326035142,
+    4326035151,
+    4326035197,
+    4326035191,
+    4326035189
+  ],
+  "tags": {
+    "building": "yes",
+    "building:levels": "2",
+    "office": "administrative"
+  }
+},
+{
+  "type": "way",
+  "id": 434582121,
+  "center": {
+    "lat": 6.2541199,
+    "lon": -75.5728482
+  },
+  "nodes": [
+    4326035195,
+    4326035188,
+    4326035192,
+    4326035201,
+    4326035206,
+    4326035212,
+    4326035216,
+    4326035221,
+    4326035228,
+    4326035232,
+    4326035238,
+    4326035241,
+    4326035240,
+    4326035254,
+    4326035256,
+    4326035259,
+    4326035262,
+    4326035268,
+    4326035273,
+    4326035276,
+    4326035279,
+    4326035282,
+    4326035286,
+    4326035293,
+    4326035297,
+    4326035302,
+    4326035305,
+    4326035307,
+    4326035312,
+    4326035311,
+    4326035303,
+    4326035301,
+    4326035298,
+    4326035295,
+    4326035289,
+    4326035285,
+    4326035281,
+    4326035277,
+    4326035272,
+    4326035264,
+    4326035261,
+    4326035257,
+    4326035250,
+    4326035246,
+    4326035242,
+    4326035233,
+    4326035229,
+    4326035225,
+    4326035219,
+    4326035213,
+    4326035209,
+    4326035210,
+    4326035204,
+    4326035203,
+    4326035196,
+    4326035195
+  ],
+  "tags": {
+    "addr:city": "Medellin",
+    "addr:street": "Carrera 56 A",
+    "building": "yes",
+    "building:levels": "3",
+    "office": "administrative"
+  }
+},
+{
+  "type": "way",
+  "id": 434582124,
+  "center": {
+    "lat": 6.2540834,
+    "lon": -75.5729475
+  },
+  "nodes": [
+    4326035338,
+    4326035331,
+    4326035316,
+    4326035309,
+    4326035306,
+    4326035321,
+    4326035315,
+    4326035313,
+    4326035312,
+    4326035307,
+    4326035305,
+    4326035302,
+    4326035297,
+    4326035293,
+    4326035286,
+    4326035282,
+    4326035279,
+    4326035276,
+    4326035273,
+    4326035268,
+    4326035262,
+    4326035259,
+    4326035256,
+    4326035254,
+    4326035240,
+    4326035241,
+    4326035238,
+    4326035232,
+    4326035228,
+    4326035221,
+    4326035216,
+    4326035212,
+    4326035206,
+    4326035201,
+    4326035192,
+    4326035188,
+    4326035162,
+    4326035150,
+    4326035114,
+    4326035126,
+    4326035136,
+    4326035151,
+    4326035142,
+    4326035133,
+    4326035174,
+    4326035186,
+    4326035189,
+    4326035191,
+    4326035226,
+    4326035251,
+    4326035274,
+    4326035280,
+    4326035283,
+    4326035265,
+    4326035269,
+    4326035287,
+    4326035300,
+    4326035291,
+    4326035338
+  ],
+  "tags": {
+    "addr:city": "Medellin",
+    "addr:street": "Carrera 56 A",
+    "building": "yes",
+    "building:levels": "4",
+    "government": "administrative",
+    "height": "9.6",
+    "level": "4",
+    "name": "Ministerio de Trabajo",
+    "office": "government"
+  }
+},
+{
+  "type": "way",
+  "id": 441444011,
+  "center": {
+    "lat": 6.1984383,
+    "lon": -75.5658495
+  },
+  "nodes": [
+    4391850454,
+    4391850458,
+    4391850457,
+    4391850456,
+    4391850455,
+    4391850449,
+    4391850454
+  ],
+  "tags": {
+    "landuse": "retail",
+    "name": "Mall Zona Dos",
+    "shop": "mall"
+  }
+},
+{
+  "type": "way",
+  "id": 446717024,
+  "center": {
+    "lat": 6.2673203,
+    "lon": -75.5725066
+  },
+  "nodes": [
+    4439529428,
+    4439529427,
+    4439529429,
+    4439529426,
+    4439529428
+  ],
+  "tags": {
+    "addr:city": "Medellín",
+    "building": "yes",
+    "name": "TCC Medellín",
+    "office": "company",
+    "source": "BING"
+  }
+},
+{
+  "type": "way",
+  "id": 455877831,
+  "center": {
+    "lat": 6.1489897,
+    "lon": -75.6171950
+  },
+  "nodes": [
+    4522451958,
+    4522451968,
+    4522451966,
+    4522451961,
+    4522451962,
+    4522451963,
+    4522451958
+  ],
+  "tags": {
+    "building": "retail",
+    "building:levels": "3",
+    "changing_table": "no",
+    "name": "Centro Comercial Aves Maria",
+    "opening_hours": "Mo-Sa 07:30-21:00; PH,Su 09:00-20:00",
+    "roof:levels": "3",
+    "roof:shape": "flat",
+    "shop": "mall",
+    "toilets": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 505902009,
+  "center": {
+    "lat": 6.2080025,
+    "lon": -75.5633177
+  },
+  "nodes": [
+    4957296240,
+    4957296241,
+    4957296242,
+    4957296243,
+    4957296254,
+    4957296253,
+    4957296252,
+    4957296251,
+    4957296250,
+    4957296249,
+    4957296248,
+    4957296247,
+    4957296246,
+    4957296245,
+    4957296244,
+    4957296267,
+    4957296262,
+    4957296261,
+    4957296260,
+    4957296259,
+    4957296258,
+    4957296257,
+    4957296256,
+    4957296255,
+    4957296263,
+    4957296264,
+    4957296265,
+    4957296266,
+    4957296240
+  ],
+  "tags": {
+    "building": "retail",
+    "name": "Vizcaya",
+    "shop": "mall"
+  }
+},
+{
+  "type": "way",
+  "id": 512408536,
+  "center": {
+    "lat": 6.2679895,
+    "lon": -75.5653065
+  },
+  "nodes": [
+    5010370889,
+    5010370890,
+    5010370891,
+    5010370892,
+    5010370893,
+    5010370894,
+    5010370895,
+    5010370896,
+    5010370897,
+    5010370898,
+    5504432099,
+    5010370889
+  ],
+  "tags": {
+    "building": "yes",
+    "government": "yes",
+    "name": "Casa de Justicia El Bosque",
+    "office": "government",
+    "opening_hours": "Mo-Fr 08:00-17:00"
+  }
+},
+{
+  "type": "way",
+  "id": 550953230,
+  "center": {
+    "lat": 6.2442594,
+    "lon": -75.5746419
+  },
+  "nodes": [
+    5320951045,
+    5320951046,
+    5320951047,
+    5320951048,
+    13390871258,
+    5320951045
+  ],
+  "tags": {
+    "addr:city": "Medellín",
+    "building": "yes",
+    "building:levels": "2",
+    "name": "Personería de Medellín",
+    "office": "government"
+  }
+},
+{
+  "type": "way",
+  "id": 550980995,
+  "center": {
+    "lat": 6.2514251,
+    "lon": -75.6138869
+  },
+  "nodes": [
+    5321239207,
+    5321239208,
+    5321239209,
+    5321239210,
+    5321239207
+  ],
+  "tags": {
+    "building": "yes",
+    "name": "Porteria y administracion Urbanizacion Poblado de Santa Monica",
+    "office": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 551081154,
+  "center": {
+    "lat": 6.2436821,
+    "lon": -75.5715744
+  },
+  "nodes": [
+    5322210049,
+    5322210054,
+    5322210050,
+    7602706304,
+    7602706302,
+    7602706301,
+    7602706299,
+    7602706300,
+    5322210051,
+    5322210052,
+    7602706303,
+    7602706305,
+    5322210049
+  ],
+  "tags": {
+    "building": "yes",
+    "name": "Centro comercial MetroCentro I",
+    "shop": "mall"
+  }
+},
+{
+  "type": "way",
+  "id": 551081672,
+  "center": {
+    "lat": 6.2471087,
+    "lon": -75.5723118
+  },
+  "nodes": [
+    5322220948,
+    5322220949,
+    9943116549,
+    5322220950,
+    5322220951,
+    5322220948
+  ],
+  "tags": {
+    "building": "yes",
+    "name": "Centro Comercial Gran Plaza",
+    "shop": "mall"
+  }
+},
+{
+  "type": "way",
+  "id": 551115035,
+  "center": {
+    "lat": 6.2548554,
+    "lon": -75.5749547
+  },
+  "nodes": [
+    5322471402,
+    5322471403,
+    5322471404,
+    5322471405,
+    5322471402
+  ],
+  "tags": {
+    "building": "yes",
+    "name": "Servicio Público de Empleo SENA",
+    "office": "employment_agency"
+  }
+},
+{
+  "type": "way",
+  "id": 551126308,
+  "center": {
+    "lat": 6.2531153,
+    "lon": -75.6121480
+  },
+  "nodes": [
+    5322571721,
+    5322571722,
+    5322571723,
+    5322571724,
+    5322571725,
+    5322571726,
+    5322571721
+  ],
+  "tags": {
+    "building": "yes",
+    "name": "Porteria",
+    "office": "administrative"
+  }
+},
+{
+  "type": "way",
+  "id": 551126317,
+  "center": {
+    "lat": 6.2530503,
+    "lon": -75.6123243
+  },
+  "nodes": [
+    5322571765,
+    5322571766,
+    5322571767,
+    5322571768,
+    5322571765
+  ],
+  "tags": {
+    "building": "yes",
+    "office": "administrative"
+  }
+},
+{
+  "type": "way",
+  "id": 571089170,
+  "center": {
+    "lat": 6.2315859,
+    "lon": -75.5959561
+  },
+  "nodes": [
+    5489522817,
+    5489522810,
+    5489522814,
+    7188217143,
+    5489522815,
+    5489522816,
+    7188217132,
+    5489522817
+  ],
+  "tags": {
+    "addr:street": "Calle 30A",
+    "building": "yes",
+    "name": "JFK Cooperativo Financiero",
+    "office": "financial",
+    "source": "Kaart Ground Survey 2018"
+  }
+},
+{
+  "type": "way",
+  "id": 572103884,
+  "center": {
+    "lat": 6.2538757,
+    "lon": -75.5577144
+  },
+  "nodes": [
+    5496877856,
+    5496877855,
+    5496877854,
+    5496877853,
+    5496877856
+  ],
+  "tags": {
+    "addr:street": "Calle 60",
+    "building": "office",
+    "government": "civil_defense",
+    "name": "Defensa Civil Colombiana",
+    "office": "government",
+    "source": "Kaart Ground Survey 2018"
+  }
+},
+{
+  "type": "way",
+  "id": 572983890,
+  "center": {
+    "lat": 6.2685572,
+    "lon": -75.5651389
+  },
+  "nodes": [
+    5504432098,
+    5504432099,
+    5010370898,
+    5504432100,
+    5504432101,
+    5031440015,
+    5504432098
+  ],
+  "tags": {
+    "building": "yes",
+    "name": "Centro Comercial Bosque Plaza",
+    "shop": "mall"
+  }
+},
+{
+  "type": "way",
+  "id": 580591112,
+  "center": {
+    "lat": 6.2408486,
+    "lon": -75.5871228
+  },
+  "nodes": [
+    5557523756,
+    5557523750,
+    5557523751,
+    4379977936,
+    5557523752,
+    5557523753,
+    5557523754,
+    5557523755,
+    5557523758,
+    4379977932,
+    5557523757,
+    5557523748,
+    5557523747,
+    5557523746,
+    5557523749,
+    5557523756
+  ],
+  "tags": {
+    "addr:city": "Medellín",
+    "addr:housenumber": "34A - 76",
+    "addr:street": "Carrera 66B",
+    "building": "retail",
+    "building:levels": "5",
+    "check_date:opening_hours": "2023-09-19",
+    "internet_access": "wlan",
+    "name": "Unicentro Medelllín",
+    "opening_hours": "Mo-Sa 10:00-21:00; Su 11:00-20:00",
+    "phone": "+57 4 3507050",
+    "shop": "mall",
+    "toilets": "yes",
+    "website": "https://www.unicentromedellin.com.co/"
+  }
+},
+{
+  "type": "way",
+  "id": 590310974,
+  "center": {
+    "lat": 6.2645131,
+    "lon": -75.5779323
+  },
+  "nodes": [
+    5636405427,
+    5636405428,
+    5636405429,
+    5636405430,
+    5636405427
+  ],
+  "tags": {
+    "building": "university",
+    "office": "yes",
+    "ref": "55a"
+  }
+},
+{
+  "type": "way",
+  "id": 620313742,
+  "center": {
+    "lat": 6.1964441,
+    "lon": -75.5655107
+  },
+  "nodes": [
+    2379659028,
+    5860796288,
+    5860796289,
+    5860796290,
+    5860796291,
+    5860796292,
+    2379659028
+  ],
+  "tags": {
+    "landuse": "retail",
+    "name": "Mall La Visitación",
+    "shop": "mall"
+  }
+},
+{
+  "type": "way",
+  "id": 621092914,
+  "center": {
+    "lat": 6.2567986,
+    "lon": -75.5657335
+  },
+  "nodes": [
+    5867364990,
+    5867364989,
+    5867364988,
+    5867364987,
+    5867364990
+  ],
+  "tags": {
+    "building": "yes",
+    "layer": "2",
+    "name": "Los Puentes",
+    "shop": "mall"
+  }
+},
+{
+  "type": "way",
+  "id": 670006992,
+  "center": {
+    "lat": 6.2378727,
+    "lon": -75.6058769
+  },
+  "nodes": [
+    6274662377,
+    6274662378,
+    6274662379,
+    6274662380,
+    6274662377
+  ],
+  "tags": {
+    "addr:city": "Medellín",
+    "addr:street": "Carrera 83 #32EE-38",
+    "building": "yes",
+    "email": "info@gulupa.com.co",
+    "name": "Gulupa Digital",
+    "office": "advertising_agency",
+    "opening_hours": "Mo-Fr 07:30-18:00",
+    "phone": "+57 4 3224650",
+    "website": "https://www.gulupa.com.co"
+  }
+},
+{
+  "type": "way",
+  "id": 712124079,
+  "center": {
+    "lat": 6.2444557,
+    "lon": -75.5713712
+  },
+  "nodes": [
+    6695689616,
+    6695689617,
+    6695689618,
+    6695689619,
+    6695689616
+  ],
+  "tags": {
+    "addr:housenumber": "#51-21",
+    "addr:street": "Calle 44",
+    "building": "yes",
+    "name": "Punto de Atención y Orientación ACNUR",
+    "office": "ngo"
+  }
+},
+{
+  "type": "way",
+  "id": 765684189,
+  "center": {
+    "lat": 6.2320675,
+    "lon": -75.5916486
+  },
+  "nodes": [
+    7151042458,
+    7151128937,
+    7151128938,
+    7151128939,
+    7151042459,
+    7151042458
+  ],
+  "tags": {
+    "building": "yes",
+    "name": "Centro Empresarial - Edificio la 70",
+    "office": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 771626416,
+  "center": {
+    "lat": 6.2359244,
+    "lon": -75.5905728
+  },
+  "nodes": [
+    7203400280,
+    7203400281,
+    7203400282,
+    7203400283,
+    7203400280
+  ],
+  "tags": {
+    "addr:housenumber": "69 - 59",
+    "addr:street": "Calle 32B",
+    "building": "yes",
+    "consulate": "yes",
+    "country": "VE",
+    "diplomatic": "consulate",
+    "name": "Consulado de Venezuela",
+    "office": "diplomatic"
+  }
+},
+{
+  "type": "way",
+  "id": 771717600,
+  "center": {
+    "lat": 6.1763588,
+    "lon": -75.5917948
+  },
+  "nodes": [
+    7738923147,
+    7738923128,
+    7738923101,
+    11986525304,
+    9945626386,
+    569683020,
+    7739056800,
+    9945667817,
+    9945626416,
+    7738923110,
+    7738923109,
+    7738923121,
+    7738923122,
+    7738923103,
+    9945626390,
+    9945626393,
+    4404868669,
+    4404868662,
+    9945626392,
+    4404868658,
+    7738923095,
+    4404868652,
+    7738923141,
+    7739056787,
+    7739056786,
+    6975048366,
+    9945626387,
+    7739177013,
+    11935926232,
+    4404868654,
+    7738923136,
+    7738923144,
+    7738923132,
+    7738923130,
+    7738923131,
+    7738923140,
+    3914597889,
+    3914597888,
+    9371447538,
+    7738923098,
+    7738923147
+  ],
+  "tags": {
+    "addr:city": "Envigado",
+    "building": "yes",
+    "layer": "1",
+    "name": "Viva Envigado",
+    "shop": "mall"
+  }
+},
+{
+  "type": "way",
+  "id": 774600636,
+  "center": {
+    "lat": 6.2402201,
+    "lon": -75.5885837
+  },
+  "nodes": [
+    7226980356,
+    7226980357,
+    7226980358,
+    4379977919,
+    4379977914,
+    7226980356
+  ],
+  "tags": {
+    "building": "yes",
+    "name": "Notaria Quinta",
+    "office": "notary"
+  }
+},
+{
+  "type": "way",
+  "id": 775054473,
+  "center": {
+    "lat": 6.2359449,
+    "lon": -75.5866385
+  },
+  "nodes": [
+    7230938454,
+    7230938455,
+    7230938456,
+    7230938457,
+    7230938458,
+    7230938459,
+    7230938460,
+    7230938464,
+    7230938466,
+    7230938468,
+    7230938467,
+    7230938470,
+    7230938471,
+    7230938472,
+    7230938469,
+    7230938465,
+    7230938461,
+    7230938454
+  ],
+  "tags": {
+    "building": "yes",
+    "name": "Despacho Belén Acueducto EPM",
+    "office": "company"
+  }
+},
+{
+  "type": "way",
+  "id": 775333949,
+  "center": {
+    "lat": 6.2336750,
+    "lon": -75.5824258
+  },
+  "nodes": [
+    7233522337,
+    7233522338,
+    7233522340,
+    7233522341,
+    7233522342,
+    7233522343,
+    7233522344,
+    7233522345,
+    7233522346,
+    7233522347,
+    7233522336,
+    7233522337
+  ],
+  "tags": {
+    "building": "yes",
+    "name": "Punto de Venta Une",
+    "office": "telecommunication"
+  }
+},
+{
+  "type": "way",
+  "id": 776541218,
+  "center": {
+    "lat": 6.2387481,
+    "lon": -75.5941165
+  },
+  "nodes": [
+    7245386318,
+    7279444055,
+    7245386319,
+    7245386320,
+    7245386321,
+    7245386322,
+    7245386323,
+    7245386324,
+    7279479589,
+    7245386325,
+    7245386326,
+    7245386327,
+    7245386328,
+    7245386329,
+    7245386318
+  ],
+  "tags": {
+    "building": "yes",
+    "name": "Edificio Coomeva Medellin",
+    "office": "financial"
+  }
+},
+{
+  "type": "way",
+  "id": 778684464,
+  "center": {
+    "lat": 6.2121181,
+    "lon": -75.5947149
+  },
+  "nodes": [
+    7269716798,
+    7269716799,
+    9728572688,
+    7269716800,
+    7269716801,
+    7269716802,
+    7269716803,
+    7269716798
+  ],
+  "tags": {
+    "addr:city": "Medellín",
+    "addr:housenumber": "# 1-141",
+    "addr:street": "Carrera 70",
+    "name": "Centro Comercial Arkadia",
+    "opening_hours": "Mo-Sa 09:00-22:00; Su 10:00-21:00",
+    "phone": "+57 (4) 590 7070",
+    "shop": "mall",
+    "website": "https://www.arkadiacentrocomercial.com"
+  }
+},
+{
+  "type": "way",
+  "id": 779546295,
+  "center": {
+    "lat": 6.2386712,
+    "lon": -75.5959184
+  },
+  "nodes": [
+    7279410105,
+    7279410110,
+    7279410111,
+    7279410109,
+    7279410107,
+    7279410104,
+    7279410105
+  ],
+  "tags": {
+    "building": "yes",
+    "name": "Centro de Negocios tres 33",
+    "office": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 780919991,
+  "center": {
+    "lat": 6.2285722,
+    "lon": -75.5909809
+  },
+  "nodes": [
+    7291643361,
+    7291643375,
+    3688474305,
+    3688474306,
+    7291643362,
+    7291646802,
+    7291646788,
+    7291643361
+  ],
+  "tags": {
+    "building": "yes",
+    "name": "Coomeva",
+    "office": "health_services"
+  }
+},
+{
+  "type": "way",
+  "id": 781807968,
+  "center": {
+    "lat": 6.2357275,
+    "lon": -75.5828863
+  },
+  "nodes": [
+    7299364362,
+    7299364363,
+    7299364360,
+    7299364361,
+    7299364362
+  ],
+  "tags": {
+    "addr:city": "Medellín",
+    "building": "yes",
+    "name": "IMACON SAS",
+    "office": "material_transport"
+  }
+},
+{
+  "type": "way",
+  "id": 782067634,
+  "center": {
+    "lat": 6.2388522,
+    "lon": -75.5929692
+  },
+  "nodes": [
+    7301847569,
+    7301847564,
+    7301847572,
+    7301892661,
+    7301847573,
+    7301847574,
+    7301847568,
+    7301847569
+  ],
+  "tags": {
+    "building": "yes",
+    "name": "Superintendencia de Servicios Publicos",
+    "office": "government"
+  }
+},
+{
+  "type": "way",
+  "id": 785199468,
+  "center": {
+    "lat": 6.2308832,
+    "lon": -75.6025650
+  },
+  "nodes": [
+    7337102686,
+    7337102687,
+    7337102688,
+    7337102689,
+    7337102690,
+    7337102686
+  ],
+  "tags": {
+    "building": "yes",
+    "name": "Mall 80- 30",
+    "shop": "mall"
+  }
+},
+{
+  "type": "way",
+  "id": 785228374,
+  "center": {
+    "lat": 6.2609771,
+    "lon": -75.5894014
+  },
+  "nodes": [
+    7338112815,
+    7338112816,
+    7338112817,
+    7338112818,
+    7338112815
+  ],
+  "tags": {
+    "building": "yes",
+    "name": "centro comercial los colores",
+    "shop": "mall"
+  }
+},
+{
+  "type": "way",
+  "id": 785737873,
+  "center": {
+    "lat": 6.2199028,
+    "lon": -75.6088336
+  },
+  "nodes": [
+    7344875858,
+    7344875859,
+    7344875860,
+    7344875861,
+    7344875862,
+    7344875863,
+    7344875864,
+    7344875858
+  ],
+  "tags": {
+    "building": "yes",
+    "office": "educational_institution"
+  }
+},
+{
+  "type": "way",
+  "id": 785737874,
+  "center": {
+    "lat": 6.2200485,
+    "lon": -75.6089634
+  },
+  "nodes": [
+    7344875865,
+    7344875866,
+    7344875867,
+    7344875868,
+    7344875865
+  ],
+  "tags": {
+    "building": "yes",
+    "office": "educational_institution"
+  }
+},
+{
+  "type": "way",
+  "id": 785737875,
+  "center": {
+    "lat": 6.2200352,
+    "lon": -75.6092824
+  },
+  "nodes": [
+    7344875869,
+    7344875870,
+    7344875871,
+    7344875872,
+    7344875869
+  ],
+  "tags": {
+    "building": "yes",
+    "office": "educational_institution"
+  }
+},
+{
+  "type": "way",
+  "id": 785737876,
+  "center": {
+    "lat": 6.2200398,
+    "lon": -75.6091289
+  },
+  "nodes": [
+    7344875873,
+    7344875874,
+    7344875875,
+    7344875876,
+    7344875877,
+    7344875878,
+    7344875879,
+    7344875880,
+    7344875873
+  ],
+  "tags": {
+    "building": "yes",
+    "office": "educational_institution"
+  }
+},
+{
+  "type": "way",
+  "id": 785737877,
+  "center": {
+    "lat": 6.2197361,
+    "lon": -75.6092532
+  },
+  "nodes": [
+    7344875881,
+    7344875882,
+    7344875883,
+    7344875884,
+    7344875881
+  ],
+  "tags": {
+    "building": "yes",
+    "office": "educational_institution"
+  }
+},
+{
+  "type": "way",
+  "id": 785737878,
+  "center": {
+    "lat": 6.2197560,
+    "lon": -75.6091014
+  },
+  "nodes": [
+    7344875884,
+    7344875885,
+    7344875886,
+    7344875887,
+    7344875884
+  ],
+  "tags": {
+    "building": "yes",
+    "office": "educational_institution"
+  }
+},
+{
+  "type": "way",
+  "id": 785737879,
+  "center": {
+    "lat": 6.2197526,
+    "lon": -75.6089313
+  },
+  "nodes": [
+    7344875888,
+    7344875859,
+    7344875889,
+    7344875890,
+    7344875888
+  ],
+  "tags": {
+    "building": "yes",
+    "office": "educational_institution"
+  }
+},
+{
+  "type": "way",
+  "id": 785737880,
+  "center": {
+    "lat": 6.2196971,
+    "lon": -75.6096091
+  },
+  "nodes": [
+    7344875891,
+    7344875892,
+    7344875893,
+    7344875894,
+    7344875895,
+    7344875896,
+    7344875897,
+    7344875898,
+    7344875899,
+    7344875900,
+    7344875901,
+    7344875902,
+    7344875903,
+    7344875904,
+    7344875909,
+    7344875905,
+    7344875906,
+    7344875907,
+    7344875881,
+    7344875891
+  ],
+  "tags": {
+    "building": "yes",
+    "office": "educational_institution"
+  }
+},
+{
+  "type": "way",
+  "id": 785737883,
+  "center": {
+    "lat": 6.2201211,
+    "lon": -75.6101107
+  },
+  "nodes": [
+    7344875911,
+    7344875912,
+    7344875913,
+    7344875914,
+    7344875915,
+    7344875916,
+    7344875917,
+    7344875911
+  ],
+  "tags": {
+    "building": "yes",
+    "office": "educational_institution"
+  }
+},
+{
+  "type": "way",
+  "id": 785737884,
+  "center": {
+    "lat": 6.2200222,
+    "lon": -75.6096318
+  },
+  "nodes": [
+    7344875918,
+    7344875919,
+    7344875920,
+    7344875921,
+    7344875922,
+    7344875923,
+    7344875924,
+    7344875925,
+    7344875926,
+    7344875927,
+    7344875928,
+    7344875943,
+    7344875930,
+    7344875931,
+    7344875932,
+    7344875939,
+    7344875936,
+    7344875933,
+    7344875934,
+    7344875935,
+    7344875918
+  ],
+  "tags": {
+    "building": "yes",
+    "office": "educational_institution"
+  }
+},
+{
+  "type": "way",
+  "id": 785737887,
+  "center": {
+    "lat": 6.2198488,
+    "lon": -75.6100096
+  },
+  "nodes": [
+    7344875940,
+    7344875941,
+    7344875902,
+    7344875942,
+    7344875938,
+    7344875931,
+    7344875930,
+    7344875943,
+    7344875944,
+    7344875945,
+    7344875946,
+    7344875947,
+    7344875948,
+    7344875949,
+    7344875940
+  ],
+  "tags": {
+    "building": "yes",
+    "office": "educational_institution"
+  }
+},
+{
+  "type": "way",
+  "id": 785737888,
+  "center": {
+    "lat": 6.2203728,
+    "lon": -75.6091957
+  },
+  "nodes": [
+    7344875950,
+    7344875951,
+    7344875952,
+    7344875953,
+    7344875950
+  ],
+  "tags": {
+    "building": "yes",
+    "office": "educational_institution"
+  }
+},
+{
+  "type": "way",
+  "id": 786388430,
+  "center": {
+    "lat": 6.2053049,
+    "lon": -75.5876935
+  },
+  "nodes": [
+    7352830235,
+    7352830250,
+    7352830236,
+    13390676408,
+    7352830246,
+    13390676409,
+    7352830245,
+    7352830247,
+    7352830237,
+    7352830238,
+    7352830252,
+    7352830239,
+    7352830240,
+    7352830241,
+    7352830242,
+    7352830243,
+    7352830244,
+    7352830235
+  ],
+  "tags": {
+    "building": "yes",
+    "name": "Centro de comercio El Rodeo",
+    "shop": "mall"
+  }
+},
+{
+  "type": "way",
+  "id": 787893460,
+  "center": {
+    "lat": 6.2191496,
+    "lon": -75.5836372
+  },
+  "nodes": [
+    7366238015,
+    7366238018,
+    7366238024,
+    7366238093,
+    7366238092,
+    7366238091,
+    7366238136,
+    7366238015
+  ],
+  "tags": {
+    "addr:city": "Medellín",
+    "addr:housenumber": "55-129",
+    "addr:street": "Calle 16",
+    "building": "yes",
+    "building:levels": "4",
+    "name": "De Moda Outlet",
+    "opening_hours": "11:00-19:00",
+    "shop": "mall",
+    "website": "https://demodaoutlet.com/"
+  }
+},
+{
+  "type": "way",
+  "id": 787955617,
+  "center": {
+    "lat": 6.2528632,
+    "lon": -75.5928219
+  },
+  "nodes": [
+    7366806246,
+    7366806247,
+    7366806248,
+    7366806249,
+    7366806246
+  ],
+  "tags": {
+    "building": "yes",
+    "name": "Corporación educativa nueva gente Coringe",
+    "office": "government"
+  }
+},
+{
+  "type": "way",
+  "id": 787961633,
+  "center": {
+    "lat": 6.2523813,
+    "lon": -75.5948267
+  },
+  "nodes": [
+    7366858986,
+    7366858987,
+    7366858988,
+    7366858989,
+    7366858986
+  ],
+  "tags": {
+    "building": "yes",
+    "name": "Liga  Antioqueña de hemofílicos",
+    "office": "foundation"
+  }
+},
+{
+  "type": "way",
+  "id": 793260368,
+  "center": {
+    "lat": 6.2097236,
+    "lon": -75.5593017
+  },
+  "nodes": [
+    7417507822,
+    7417507823,
+    7417507824,
+    7417507825,
+    7417507826,
+    7417507827,
+    7417507828,
+    7417507829,
+    7417507822
+  ],
+  "tags": {
+    "brand": "sura",
+    "building": "yes",
+    "name": "sura",
+    "office": "insurance"
+  }
+},
+{
+  "type": "way",
+  "id": 824411188,
+  "center": {
+    "lat": 6.2388020,
+    "lon": -75.5478411
+  },
+  "nodes": [
+    7697872509,
+    7697872522,
+    9945234608,
+    6819601681,
+    9945234607,
+    9945234606,
+    9945234605,
+    7697872520,
+    7697872519,
+    9945234610,
+    7697872518,
+    7697872509
+  ],
+  "tags": {
+    "building": "yes",
+    "name": "Centro Comercial La Central",
+    "shop": "mall"
+  }
+},
+{
+  "type": "way",
+  "id": 854089043,
+  "center": {
+    "lat": 6.2085611,
+    "lon": -75.5715799
+  },
+  "nodes": [
+    7965270594,
+    7965270595,
+    7965270596,
+    7965270597,
+    7965270598,
+    7965270599,
+    7965270594
+  ],
+  "tags": {
+    "brand": "WeWork",
+    "brand:wikidata": "Q19995004",
+    "building": "yes",
+    "fee": "yes",
+    "name": "WeWork",
+    "office": "coworking"
+  }
+},
+{
+  "type": "way",
+  "id": 878916067,
+  "center": {
+    "lat": 6.1946820,
+    "lon": -75.5755314
+  },
+  "nodes": [
+    8176512198,
+    8176512199,
+    9973481184,
+    9973481185,
+    8176512200,
+    9973481186,
+    9973481183,
+    9973481187,
+    9973481075,
+    8176512201,
+    8176512202,
+    9973481188,
+    8176512203,
+    9973481189,
+    9973481190,
+    8176512204,
+    9973481191,
+    9973481192,
+    9973481193,
+    8176512205,
+    9973481194,
+    9973481195,
+    8176512206,
+    9973481196,
+    9973481197,
+    9973481198,
+    8176512207,
+    9973481199,
+    9973481200,
+    8176512208,
+    9973481112,
+    8176512209,
+    9973481111,
+    8176512210,
+    8176512211,
+    8176512212,
+    8176512213,
+    8176512214,
+    8176512198
+  ],
+  "tags": {
+    "addr:city": "Medellín",
+    "addr:postcode": "050022",
+    "addr:street": "Carrera 43A",
+    "landuse": "commercial",
+    "name": "Square Plaza",
+    "shop": "mall"
+  }
+},
+{
+  "type": "way",
+  "id": 913151396,
+  "center": {
+    "lat": 6.1530373,
+    "lon": -75.5415679
+  },
+  "nodes": [
+    8482632410,
+    8482632411,
+    8482632412,
+    8482632413,
+    8482632410
+  ],
+  "tags": {
+    "addr:street": "Vía Las Palmas",
+    "amenity": "parking",
+    "building": "retail",
+    "name": "Viva Las Palmas",
+    "operator": "Grupo exito",
+    "parking": "underground",
+    "shop": "mall",
+    "website": "https://www.ccviva.com/palmas"
+  }
+},
+{
+  "type": "way",
+  "id": 913151397,
+  "center": {
+    "lat": 6.1529717,
+    "lon": -75.5413858
+  },
+  "nodes": [
+    8482632414,
+    8482632415,
+    8482632416,
+    8482648017,
+    8482632414
+  ],
+  "tags": {
+    "addr:street": "Vía Las Palmas",
+    "amenity": "parking",
+    "building": "retail",
+    "name": "Viva Las Palmas",
+    "operator": "Grupo exito",
+    "parking": "underground",
+    "shop": "mall",
+    "website": "https://www.ccviva.com/palmas"
+  }
+},
+{
+  "type": "way",
+  "id": 913151398,
+  "center": {
+    "lat": 6.1525549,
+    "lon": -75.5405558
+  },
+  "nodes": [
+    8482648018,
+    8482648019,
+    8482648020,
+    8482648021,
+    8482648022,
+    8482648023,
+    8482648024,
+    8482648025,
+    8482829014,
+    8482648026,
+    8482648027,
+    8482648028,
+    8482648029,
+    8482648030,
+    8482648031,
+    8482648032,
+    8482648033,
+    8482648018
+  ],
+  "tags": {
+    "addr:street": "Vía Las Palmas",
+    "amenity": "parking",
+    "building": "retail",
+    "layer": "-1",
+    "name": "Viva Las Palmas",
+    "operator": "Grupo exito",
+    "parking": "underground",
+    "shop": "mall",
+    "website": "https://www.ccviva.com/palmas"
+  }
+},
+{
+  "type": "way",
+  "id": 913480942,
+  "center": {
+    "lat": 6.1552235,
+    "lon": -75.5318775
+  },
+  "nodes": [
+    8485656107,
+    8485656108,
+    8485656109,
+    8485679528,
+    8485679529,
+    8485679530,
+    8485679527,
+    8485656110,
+    8485679526,
+    8485656115,
+    8485679525,
+    8485656114,
+    8485679524,
+    8485656116,
+    8485679523,
+    8485656111,
+    8485679522,
+    8485679517,
+    8485679521,
+    8485656113,
+    8485679520,
+    8485679518,
+    8485679519,
+    8485656112,
+    8485656107
+  ],
+  "tags": {
+    "building": "yes",
+    "name": "Parque La Reserva",
+    "shop": "mall"
+  }
+},
+{
+  "type": "way",
+  "id": 913758682,
+  "center": {
+    "lat": 6.1532262,
+    "lon": -75.5420831
+  },
+  "nodes": [
+    8488176765,
+    8488176766,
+    8488176767,
+    8488176768,
+    8488176765
+  ],
+  "tags": {
+    "addr:street": "Vía Las Palmas",
+    "amenity": "parking",
+    "building": "retail",
+    "name": "Viva Las Palmas",
+    "operator": "Grupo exito",
+    "parking": "underground",
+    "shop": "mall",
+    "website": "https://www.ccviva.com/palmas"
+  }
+},
+{
+  "type": "way",
+  "id": 913834033,
+  "center": {
+    "lat": 6.1615042,
+    "lon": -75.5424041
+  },
+  "nodes": [
+    8488842700,
+    8488842701,
+    8488842702,
+    8488842703,
+    8488842704,
+    8488842705,
+    8488842706,
+    8488842707,
+    8488842708,
+    8488842709,
+    8488842710,
+    8488842711,
+    8488842712,
+    8488842713,
+    8488842714,
+    8488842715,
+    8488842716,
+    8488869117,
+    8488869118,
+    8488869119,
+    8488869120,
+    8488869121,
+    8488869122,
+    8488869123,
+    8488869124,
+    8488869173,
+    8488869125,
+    8488869126,
+    8488869127,
+    8488869128,
+    8488869129,
+    8488869172,
+    8488869130,
+    8488869171,
+    8488869169,
+    8488869170,
+    8488869161,
+    8488869163,
+    8488869162,
+    8488869131,
+    8488869165,
+    8488869164,
+    8488869166,
+    8488869160,
+    8488869168,
+    8488869167,
+    8488869132,
+    8488869133,
+    8488869134,
+    8488869135,
+    8488869136,
+    8488869159,
+    8488869158,
+    8488869137,
+    8488869157,
+    8488869154,
+    8488869155,
+    8488869138,
+    8488869156,
+    8488869151,
+    8488869152,
+    8488869139,
+    8488869153,
+    8488869143,
+    8488869144,
+    8488869140,
+    8488869146,
+    8488869145,
+    8488869147,
+    8488869141,
+    8488869148,
+    8488869142,
+    8488869150,
+    8488869149,
+    8488842700
+  ],
+  "tags": {
+    "building": "yes",
+    "name": "Linea Directa",
+    "office": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 934504286,
+  "center": {
+    "lat": 6.2552201,
+    "lon": -75.5663532
+  },
+  "nodes": [
+    8660827843,
+    8660827838,
+    8660827844,
+    8660827845,
+    8660827846,
+    8660827847,
+    8660827848,
+    8660827843
+  ],
+  "tags": {
+    "building": "yes",
+    "shop": "mall"
+  }
+},
+{
+  "type": "way",
+  "id": 934504296,
+  "center": {
+    "lat": 6.2510116,
+    "lon": -75.5683174
+  },
+  "nodes": [
+    8660831067,
+    8660831066,
+    8660831068,
+    8660831069,
+    8660831070,
+    8660831067
+  ],
+  "tags": {
+    "building": "yes",
+    "shop": "mall"
+  }
+},
+{
+  "type": "way",
+  "id": 972968675,
+  "center": {
+    "lat": 6.1671293,
+    "lon": -75.6192458
+  },
+  "nodes": [
+    9005333463,
+    9005333464,
+    9005333465,
+    9005333466,
+    9005333467,
+    9005333468,
+    9005333469,
+    9005333470,
+    9005333471,
+    9005333472,
+    9005333473,
+    9005333474,
+    9005333475,
+    9005333476,
+    9005333477,
+    9005333478,
+    8630141995,
+    9005333463
+  ],
+  "tags": {
+    "building": "yes",
+    "name": "Plaza Arrayanes",
+    "shop": "mall"
+  }
+},
+{
+  "type": "way",
+  "id": 1074652570,
+  "center": {
+    "lat": 6.1650763,
+    "lon": -75.5864946
+  },
+  "nodes": [
+    9856819644,
+    7406378506,
+    9856819645,
+    9856819666,
+    9856819646,
+    9856819647,
+    9856819648,
+    9856819649,
+    9856819650,
+    9856819651,
+    9856819652,
+    9856819653,
+    9856819654,
+    9856811412,
+    9856819655,
+    9856819644
+  ],
+  "tags": {
+    "addr:city": "Envigado",
+    "addr:street": "Calle 40 B Sur # 37 -24",
+    "building": "yes",
+    "government": "environment",
+    "name": "Secretaría de Medio Ambiente y Desarrollo Agropecuario de Envigado",
+    "office": "government"
+  }
+},
+{
+  "type": "way",
+  "id": 1074652571,
+  "center": {
+    "lat": 6.1647451,
+    "lon": -75.5865960
+  },
+  "nodes": [
+    9856819656,
+    9856819657,
+    9856819658,
+    9856819659,
+    9856819656
+  ],
+  "tags": {
+    "building": "yes",
+    "name": "Oficinas AMVA y Corantioquia",
+    "office": "government"
+  }
+},
+{
+  "type": "way",
+  "id": 1074652572,
+  "center": {
+    "lat": 6.1649627,
+    "lon": -75.5865300
+  },
+  "nodes": [
+    9856819660,
+    9856819661,
+    9856819662,
+    9856819663,
+    9856819660
+  ],
+  "tags": {
+    "building": "yes",
+    "name": "Oficinas Secretaía de Medio Ambiente y Desarrollo Agropecuario",
+    "office": "government"
+  }
+},
+{
+  "type": "way",
+  "id": 1074652573,
+  "center": {
+    "lat": 6.1649124,
+    "lon": -75.5863445
+  },
+  "nodes": [
+    9856819664,
+    9856819665,
+    9856819666,
+    9856819667,
+    9856819664
+  ],
+  "tags": {
+    "building": "yes",
+    "name": "Oficinas Secretaía de Medio Ambiente y Desarrollo Agropecuario",
+    "office": "government"
+  }
+},
+{
+  "type": "way",
+  "id": 1074652574,
+  "center": {
+    "lat": 6.1653548,
+    "lon": -75.5863074
+  },
+  "nodes": [
+    9856819668,
+    9856819669,
+    9856819670,
+    9856819671,
+    9856819672,
+    9856819673,
+    9856819674,
+    9856819668
+  ],
+  "tags": {
+    "building": "yes",
+    "government": "yes",
+    "office": "government"
+  }
+},
+{
+  "type": "way",
+  "id": 1112750281,
+  "center": {
+    "lat": 6.2363027,
+    "lon": -75.5478444
+  },
+  "nodes": [
+    10181121531,
+    10181056327,
+    10181121533,
+    10181121534,
+    10181121531
+  ],
+  "tags": {
+    "building": "yes",
+    "name": "Garita de seguridad - Urbanización serranía",
+    "office": "security"
+  }
+},
+{
+  "type": "way",
+  "id": 1131120001,
+  "center": {
+    "lat": 6.2016879,
+    "lon": -75.5566142
+  },
+  "nodes": [
+    10542602388,
+    10542602387,
+    10542602386,
+    10542602385,
+    10542602374,
+    10542602373,
+    10542602384,
+    10542602371,
+    10542602372,
+    10542602380,
+    10542602379,
+    10542602378,
+    10542602377,
+    10542602376,
+    10542602383,
+    10542602382,
+    10542602381,
+    10542602375,
+    10542602388
+  ],
+  "tags": {
+    "addr:city": "Medellín",
+    "addr:postcode": "050021",
+    "addr:street": "Carrera 25 #4-165",
+    "building": "yes",
+    "name": "Amsterdam Plaza",
+    "opening_hours": "Mo-Su 08:00-23:30",
+    "payment:apple_pay": "yes",
+    "payment:cash": "yes",
+    "payment:contactless": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "payment:mastercard": "yes",
+    "payment:visa": "yes",
+    "shop": "mall"
+  }
+},
+{
+  "type": "way",
+  "id": 1233743276,
+  "center": {
+    "lat": 6.2495724,
+    "lon": -75.5647635
+  },
+  "nodes": [
+    11448587948,
+    11448587949,
+    11448587930,
+    11448587947,
+    11448587946,
+    11448587948
+  ],
+  "tags": {
+    "addr:city": "Medellín",
+    "addr:street": "Carrera 46  52  -25 of 309",
+    "building": "yes",
+    "name": "Centro Jurídico Araucaria",
+    "office": "lawyer",
+    "opening_hours": "Mo-Fr 08:00-17:00",
+    "phone": "+573165242476",
+    "website": "https://centrojuridicoaraucaria.com/"
+  }
+},
+{
+  "type": "way",
+  "id": 1256417738,
+  "center": {
+    "lat": 6.1915917,
+    "lon": -75.5810284
+  },
+  "nodes": [
+    11680153649,
+    11680153650,
+    11680153651,
+    11680153652,
+    11680153649
+  ],
+  "tags": {
+    "addr:city": "MEDELLIN",
+    "addr:housenumber": "Carrera 48A",
+    "addr:street": "Calle 16 Sur 01",
+    "building": "yes",
+    "name": "Haru No Hinata",
+    "office": "educational_institution",
+    "phone": "+57-6045501415",
+    "website": "https://www.harunohinata.com/"
+  }
+},
+{
+  "type": "way",
+  "id": 1286666625,
+  "center": {
+    "lat": 6.1456697,
+    "lon": -75.6195340
+  },
+  "nodes": [
+    11933751997,
+    11933751986,
+    11933751987,
+    11933751988,
+    11933751989,
+    11933751993,
+    11933751999,
+    11933751998,
+    11933751997
+  ],
+  "tags": {
+    "name": "Mall Zona Sur",
+    "shop": "mall"
+  }
+},
+{
+  "type": "way",
+  "id": 1304383307,
+  "center": {
+    "lat": 6.2636916,
+    "lon": -75.5670102
+  },
+  "nodes": [
+    5504432060,
+    5504432061,
+    12079555348,
+    12079555354,
+    12079555353,
+    13593736509,
+    12079555355,
+    12079555345,
+    12079555350,
+    12079555347,
+    12079555346,
+    12079555349,
+    5504432063,
+    12079555338,
+    5504432060
+  ],
+  "tags": {
+    "addr:city": "Medellín",
+    "addr:country": "CO",
+    "addr:housenumber": "65-91",
+    "addr:postcode": "050010",
+    "addr:street": "Carrera 52",
+    "building": "retail",
+    "building:levels": "7",
+    "building:levels:underground": "1",
+    "name": "Aventura Centro Comercial",
+    "opening_hours": "Mo-Sa 10:00-21:00; Su 11:00-20:00; PH 11:00-20:00",
+    "shop": "mall",
+    "website": "https://ccaventura.com"
+  }
+},
+{
+  "type": "way",
+  "id": 1363178852,
+  "center": {
+    "lat": 6.2485113,
+    "lon": -75.5710071
+  },
+  "nodes": [
+    12621550112,
+    12621550113,
+    12621550114,
+    12621550115,
+    12621550112
+  ],
+  "tags": {
+    "addr:city": "Medellín",
+    "addr:street": "Carrera 53",
+    "building": "yes",
+    "name": "Centro comercial Megacentro",
+    "operator": "Megacentro",
+    "shop": "mall"
+  }
+},
+{
+  "type": "way",
+  "id": 1367603423,
+  "center": {
+    "lat": 6.2295587,
+    "lon": -75.6129200
+  },
+  "nodes": [
+    12607648125,
+    12665294529,
+    12665294530,
+    12607648124,
+    12607648125
+  ],
+  "tags": {
+    "building": "yes",
+    "name": "Deportes",
+    "office": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 1383063189,
+  "center": {
+    "lat": 6.1787072,
+    "lon": -75.5942532
+  },
+  "nodes": [
+    12804944916,
+    12804944917,
+    12804944918,
+    12804944919,
+    12804944916
+  ],
+  "tags": {
+    "name": "Perficient Medellín (PSL)",
+    "office": "engineer",
+    "website": "https://www.perficient.com/"
+  }
+},
+{
+  "type": "way",
+  "id": 1408419845,
+  "center": {
+    "lat": 6.2714169,
+    "lon": -75.5778818
+  },
+  "nodes": [
+    12943536491,
+    12943536492,
+    12943539801,
+    12943536493,
+    12943536494,
+    12943536498,
+    12943536500,
+    12943536499,
+    12943536497,
+    12943536496,
+    12943536495,
+    12943536491
+  ],
+  "tags": {
+    "building": "yes",
+    "government": "yes",
+    "name": "Sapiencia - Sede Principal",
+    "office": "government",
+    "opening_hours": "Mo-Th 08:00-17:15, Fr 08:00-16:00",
+    "website": "https://sapiencia.gov.co/"
+  }
+},
+{
+  "type": "way",
+  "id": 1433622738,
+  "center": {
+    "lat": 6.2193375,
+    "lon": -75.5020080
+  },
+  "nodes": [
+    13175805641,
+    13175805642,
+    13175800878,
+    13175805643,
+    13175805644,
+    13175805645,
+    13175805641
+  ],
+  "tags": {
+    "building": "yes",
+    "name": "Vivamos Oriente",
+    "office": "property_management"
+  }
+},
+{
+  "type": "way",
+  "id": 1475168890,
+  "center": {
+    "lat": 6.2562489,
+    "lon": -75.5737121
+  },
+  "nodes": [
+    13533408054,
+    13533408055,
+    13533408056,
+    13533408057,
+    13533408058,
+    13533408059,
+    13533408060,
+    13533408061,
+    13533408062,
+    13533408054
+  ],
+  "tags": {
+    "building": "yes",
+    "name": "Centro Comercial Medellín",
+    "shop": "mall"
+  }
+},
+{
+  "type": "way",
+  "id": 1478458993,
+  "center": {
+    "lat": 6.2453749,
+    "lon": -75.5780840
+  },
+  "nodes": [
+    7301701938,
+    13563310727,
+    13563310728,
+    9836506091,
+    2668975632,
+    13563310733,
+    13563310732,
+    2668975626,
+    13563310725,
+    2668975638,
+    2668975637,
+    2668975639,
+    13563351320,
+    2668975635,
+    13563310724,
+    13563310723,
+    2668975647,
+    9678992449,
+    13563310743,
+    2668975648,
+    315063692,
+    315063694,
+    315063696,
+    2388212771,
+    7301701938
+  ],
+  "tags": {
+    "barrier": "fence",
+    "name": "Edificio Inteligente EPM",
+    "office": "water_utility"
+  }
+},
+{
+  "type": "way",
+  "id": 1481444512,
+  "center": {
+    "lat": 6.2635461,
+    "lon": -75.5685820
+  },
+  "nodes": [
+    12052452657,
+    12052383055,
+    11541724023,
+    11541724024,
+    12052452657
+  ],
+  "tags": {
+    "building": "yes",
+    "name": "Universidad de Antioquia - Edificio de Proyectos de Extensión",
+    "office": "educational_institution"
+  }
+}
+
+  ]
+}

@@ -1,0 +1,70 @@
+[{"a_o":"2020","tipo_o_modalidad_de_licencia":"OBRA NUEVA","cantidad":"17"}
+,{"a_o":"2020","tipo_o_modalidad_de_licencia":"PRÓRROGA","cantidad":"2"}
+,{"a_o":"2020","tipo_o_modalidad_de_licencia":"MODIFICA LICENCIA PREVIA","cantidad":"6"}
+,{"a_o":"2020","tipo_o_modalidad_de_licencia":"NEGACIÓN DE LICENCIA","cantidad":"7"}
+,{"a_o":"2020","tipo_o_modalidad_de_licencia":"AMPLIACIÓN","cantidad":"1"}
+,{"a_o":"2020","tipo_o_modalidad_de_licencia":"DESISTIMIENTO","cantidad":"3"}
+,{"a_o":"2020","tipo_o_modalidad_de_licencia":"MODIFICACIÓN","cantidad":"1"}
+,{"a_o":"2020","tipo_o_modalidad_de_licencia":"SUBDIVISIÓN RURAL","cantidad":"2"}
+,{"a_o":"2020","tipo_o_modalidad_de_licencia":"APROBACIÓN PLANOS DE PROPIEDAD HORIZONTAL","cantidad":"3"}
+,{"a_o":"2020","tipo_o_modalidad_de_licencia":"RECONOCIMIENTO Y SUBDIVISIÓN URBANA","cantidad":"2"}
+,{"a_o":"2020","tipo_o_modalidad_de_licencia":"RECONOCIMIENTO Y APROBACIÓN PLANOS DE PROPIEDAD HORIZONTAL","cantidad":"2"}
+,{"a_o":"2021","tipo_o_modalidad_de_licencia":"OBRA NUEVA","cantidad":"29"}
+,{"a_o":"2021","tipo_o_modalidad_de_licencia":"PRÓRROGA","cantidad":"1"}
+,{"a_o":"2021","tipo_o_modalidad_de_licencia":"MODIFICA LICENCIA PREVIA","cantidad":"2"}
+,{"a_o":"2021","tipo_o_modalidad_de_licencia":"NEGACIÓN DE LICENCIA","cantidad":"5"}
+,{"a_o":"2021","tipo_o_modalidad_de_licencia":"AMPLIACIÓN","cantidad":"6"}
+,{"a_o":"2021","tipo_o_modalidad_de_licencia":"DESISTIMIENTO","cantidad":"4"}
+,{"a_o":"2021","tipo_o_modalidad_de_licencia":"MODIFICACIÓN","cantidad":"2"}
+,{"a_o":"2021","tipo_o_modalidad_de_licencia":"SUBDIVISIÓN RURAL","cantidad":"4"}
+,{"a_o":"2021","tipo_o_modalidad_de_licencia":"APROBACIÓN PLANOS DE PROPIEDAD HORIZONTAL","cantidad":"8"}
+,{"a_o":"2021","tipo_o_modalidad_de_licencia":"RECONOCIMIENTO Y SUBDIVISIÓN URBANA","cantidad":"1"}
+,{"a_o":"2021","tipo_o_modalidad_de_licencia":"RECONOCIMIENTO Y APROBACIÓN PLANOS DE PROPIEDAD HORIZONTAL","cantidad":"2"}
+,{"a_o":"2021","tipo_o_modalidad_de_licencia":"SUBDIVISIÓN URBANA","cantidad":"2"}
+,{"a_o":"2021","tipo_o_modalidad_de_licencia":"REFORZAMIENTO ESTRUCTURAL","cantidad":"1"}
+,{"a_o":"2021","tipo_o_modalidad_de_licencia":"RECONOCIMIENTO","cantidad":"2"}
+,{"a_o":"2021","tipo_o_modalidad_de_licencia":"RECONOCIMIENTO Y OBRA NUEVA","cantidad":"1"}
+,{"a_o":"2022","tipo_o_modalidad_de_licencia":"OBRA NUEVA","cantidad":"34"}
+,{"a_o":"2022","tipo_o_modalidad_de_licencia":"OBRA NUEVA Y CERRAMIENTO","cantidad":"1"}
+,{"a_o":"2022","tipo_o_modalidad_de_licencia":"PRÓRROGA","cantidad":"9"}
+,{"a_o":"2022","tipo_o_modalidad_de_licencia":"MODIFICA LICENCIA PREVIA","cantidad":"4"}
+,{"a_o":"2022","tipo_o_modalidad_de_licencia":"NEGACIÓN DE LICENCIA","cantidad":"10"}
+,{"a_o":"2022","tipo_o_modalidad_de_licencia":"AMPLIACIÓN","cantidad":"2"}
+,{"a_o":"2022","tipo_o_modalidad_de_licencia":"DESISTIMIENTO","cantidad":"7"}
+,{"a_o":"2022","tipo_o_modalidad_de_licencia":"MODIFICACIÓN","cantidad":"2"}
+,{"a_o":"2022","tipo_o_modalidad_de_licencia":"SUBDIVISIÓN RURAL","cantidad":"5"}
+,{"a_o":"2022","tipo_o_modalidad_de_licencia":"APROBACIÓN PLANOS DE PROPIEDAD HORIZONTAL","cantidad":"10"}
+,{"a_o":"2022","tipo_o_modalidad_de_licencia":"RECONOCIMIENTO Y APROBACIÓN PLANOS DE PROPIEDAD HORIZONTAL","cantidad":"2"}
+,{"a_o":"2022","tipo_o_modalidad_de_licencia":"SUBDIVISIÓN URBANA","cantidad":"4"}
+,{"a_o":"2022","tipo_o_modalidad_de_licencia":"RECONOCIMIENTO Y OBRA NUEVA","cantidad":"1"}
+,{"a_o":"2022","tipo_o_modalidad_de_licencia":"RECONOCIMIENTO Y AMPLIACIÓN","cantidad":"2"}
+,{"a_o":"2022","tipo_o_modalidad_de_licencia":"REFORZAMIENTO ESTRUCTURAL","cantidad":"3"}
+,{"a_o":"2022","tipo_o_modalidad_de_licencia":"REFORZAMIENTO ESTRUCTURAL Y CERRAMIENTO","cantidad":"1"}
+,{"a_o":"2022","tipo_o_modalidad_de_licencia":"REFORZAMIENTO ESTRUCTURAL Y OBRA NUEVA","cantidad":"3"}
+,{"a_o":"2022","tipo_o_modalidad_de_licencia":"RELOTEO","cantidad":"1"}
+,{"a_o":"2022","tipo_o_modalidad_de_licencia":"MODIFICACIÓN Y ADECUACIÓN","cantidad":"1"}
+,{"a_o":"2022","tipo_o_modalidad_de_licencia":"MODIFICA LICENCIA PREVIA Y PRÓRROGA","cantidad":"1"}
+,{"a_o":"2022","tipo_o_modalidad_de_licencia":"CERRAMIENTO","cantidad":"1"}
+,{"a_o":"2022","tipo_o_modalidad_de_licencia":"DEMOLICIÓN Y OBRA NUEVA","cantidad":"1"}
+,{"a_o":"2023","tipo_o_modalidad_de_licencia":"OBRA NUEVA","cantidad":"19"}
+,{"a_o":"2023","tipo_o_modalidad_de_licencia":"PRÓRROGA","cantidad":"9"}
+,{"a_o":"2023","tipo_o_modalidad_de_licencia":"NEGACIÓN DE LICENCIA","cantidad":"1"}
+,{"a_o":"2023","tipo_o_modalidad_de_licencia":"AMPLIACIÓN","cantidad":"3"}
+,{"a_o":"2023","tipo_o_modalidad_de_licencia":"DESISTIMIENTO","cantidad":"2"}
+,{"a_o":"2023","tipo_o_modalidad_de_licencia":"MODIFICACIÓN","cantidad":"1"}
+,{"a_o":"2023","tipo_o_modalidad_de_licencia":"SUBDIVISIÓN RURAL","cantidad":"7"}
+,{"a_o":"2023","tipo_o_modalidad_de_licencia":"APROBACIÓN PLANOS DE PROPIEDAD HORIZONTAL","cantidad":"12"}
+,{"a_o":"2023","tipo_o_modalidad_de_licencia":"SUBDIVISIÓN RURAL, SUBDIVISIÓN URBANA Y URBANIZACIÓN MODALIDAD DESARROLLO","cantidad":"1"}
+,{"a_o":"2023","tipo_o_modalidad_de_licencia":"REFORZAMIENTO ESTRUCTURAL","cantidad":"2"}
+,{"a_o":"2023","tipo_o_modalidad_de_licencia":"RELOTEO","cantidad":"2"}
+,{"a_o":"2023","tipo_o_modalidad_de_licencia":"MODIFICA LICENCIA PREVIA","cantidad":"2"}
+,{"a_o":"2023","tipo_o_modalidad_de_licencia":"MODIFICACIÓN Y ADECUACIÓN","cantidad":"1"}
+,{"a_o":"2023","tipo_o_modalidad_de_licencia":"RECONOCIMIENTO, AMPLIACIÓN Y APROBACIÓN PLANOS PROPIEDAD HORIZONTAL","cantidad":"1"}
+,{"a_o":"2023","tipo_o_modalidad_de_licencia":"REVOCATORIA","cantidad":"1"}
+,{"a_o":"2023","tipo_o_modalidad_de_licencia":"RECONOCIMIENTO","cantidad":"1"}
+,{"a_o":"2023","tipo_o_modalidad_de_licencia":"ADECUCACIÓN Y APROBACIÓN PLANOS DE PROPIEDAD HORIZONTAL","cantidad":"1"}
+,{"a_o":"2023","tipo_o_modalidad_de_licencia":"RECONOCIMIENTO Y APROBACIÓN PLANOS DE PROPIEDAD HORIZONTAL","cantidad":"1"}
+,{"a_o":"2023","tipo_o_modalidad_de_licencia":"REVALIDACIÓN","cantidad":"1"}
+,{"a_o":"2023","tipo_o_modalidad_de_licencia":"SUBDIVISIÓN URBANA Y APROBACIÓN PLANOS DE PROPIEDAD HORIZONTAL","cantidad":"1"}
+,{"a_o":"2023","tipo_o_modalidad_de_licencia":"RECONOCIMIENTO Y SUBDIVISIÓN RURAL","cantidad":"1"}
+,{"a_o":"2023","tipo_o_modalidad_de_licencia":"RECONOCIMIENTO Y RELOTEO","cantidad":"1"}]

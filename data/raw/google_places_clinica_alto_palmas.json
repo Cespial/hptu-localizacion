@@ -1,0 +1,1216 @@
+{
+   "html_attributions" : [],
+   "next_page_token" : "ATCDNfV0qdhWyJLDKHBLuDgccEj3hq4xTNEqJc7hshxWH7UdS75XLs1e8jmEwOsKdI5simC8_OHsu3vUJC4aE7akxKMx7vKe9h877l9isiWUYPlsKrpaK9_VvIKG-p6KSHkrMixoCxtE0aV4epWRGHuVKQCYpfRchLcMRhV96SEvTiNGhGz0RoNWrLPBkDoftc8diHfbZJ_lua9G_sJeoPSxeaAfVXOgypojF-PJUXC2iwQTaDtq_-8C0AvESE1QuESqtJ_eiLC0qDtkx-x7im9GvhwO1kjxYH9FujjHLcLaCCWhOZbOWunrtPcSrC7M7tjs9NdLp7SrQOR-LD8w3ZJIeChUrgO7i6oxh9jitp3esu0jJ9aVa9dIJHRJ4oFPpdWeUR1kfZV2uTmwbmchjk0Bqn2bgC9B0k8JP5PITjQWAleunH4kn64Ixntfrz0KY0CXvsQh7vAn_yq1AUhCLFbnML3TiqMxc72XlrGQR6c4uxXGijkm--zMdyVMEaQi46Z34k1g_T7HcSNDG434yrj-5kbAGApDa7QFRqy1GHmuV94KimeJUl2Ngt9SvwYf5v9mViOa9kw4FWIRIowZ3kgTjhS205K1nh_zR3qThmLHo3IgrxIvXXvg3a8GDI66G6MnzOyTertd8QkfOoosM7FN89olozYkhG-X2CVKeaemc-3w4bzzCNhTkQa_B4NkwZ4f3MA6h3g2FfcD5VUFnl4DHy5V1fJRwq4Ej3oaunCntd-6FbW9vqUY0-J2sBY5V3_26XtkxeRQP9X7nQFXHRhLhYBYKwtUxcVYnzpPoZWPw_z7vpuIyQM0caWU4irN1tj1P7iA40dowmNG",
+   "results" : 
+   [
+      {
+         "business_status" : "OPERATIONAL",
+         "formatted_address" : "Calle 32F #76-110 laureles Nogal, Laureles Nogal, Medellín, Belén, Medellín, Antioquia, Colombia",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 6.238504,
+               "lng" : -75.597582
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 6.239782380291503,
+                  "lng" : -75.5963161697085
+               },
+               "southwest" : 
+               {
+                  "lat" : 6.237084419708498,
+                  "lng" : -75.59901413029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/hospital-71.png",
+         "icon_background_color" : "#F88181",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/hospital-H_pinlet",
+         "name" : "Clinica De Especialistas Los Alamos",
+         "opening_hours" : 
+         {
+            "open_now" : true
+         },
+         "photos" : 
+         [
+            {
+               "height" : 4618,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/104403633460329320939\"\u003eJuan David Rivera Correa\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATCDNfVXl9uebCv07RrSzaHfmUwQwxCl6SSxzmdJPUHPMgvSEEaNcVvV2qGqX82ejgRpAXQ9-dNbmah8-rshsAKUtHMk_nJylhXoQx0Q4G6IBYZi-xp5rMPZuhgzp5ul5nlUV4RLq348bjlQRaRiqQNuJzlZzA-jghlf4rWG-3x_vVZePGsfjlEsyboUQLlVe3-HTwHKqa6zqXv4Po-btsz9IEEP9TA1fWQpmNqGo1yxJJzVOfrWdAV8bNTvxsP3JpyvDgQkFId8WbsYN4QTx1SHPyTmAEAyYza3vq-CD_G-BgV8cKLyntN-8GlyKQsQGfoY1UuQfZMa6GvBIKo9I7FZ8G2RsphZSrrQML8H0ssI0o69TkzEFgCp4HLQnXeBwjFUfcEQcXwk63IWDzvI6o99ymJ_mJL5fOnvMGCGTjRsQ9M_Mw",
+               "width" : 3464
+            }
+         ],
+         "place_id" : "ChIJce8I_ZcpRI4RLjw_wY6vROM",
+         "plus_code" : 
+         {
+            "compound_code" : "6CQ2+CX Medellin, Antioquia, Colombia",
+            "global_code" : "67R66CQ2+CX"
+         },
+         "rating" : 4.2,
+         "reference" : "ChIJce8I_ZcpRI4RLjw_wY6vROM",
+         "types" : 
+         [
+            "establishment",
+            "health",
+            "hospital",
+            "point_of_interest"
+         ],
+         "user_ratings_total" : 40
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "formatted_address" : "Dg. 75B #2A-80/140, Medellín, Belén, Medellín, Antioquia, Colombia",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 6.2139976,
+               "lng" : -75.59466739999999
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 6.215394880291502,
+                  "lng" : -75.5936991197085
+               },
+               "southwest" : 
+               {
+                  "lat" : 6.212696919708497,
+                  "lng" : -75.59639708029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/hospital-71.png",
+         "icon_background_color" : "#F88181",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/hospital-H_pinlet",
+         "name" : "Clinica Las Americas",
+         "opening_hours" : 
+         {
+            "open_now" : true
+         },
+         "photos" : 
+         [
+            {
+               "height" : 576,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/118289675696826594539\"\u003eClínica Las Américas Auna\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATCDNfVefy3_Rf7sXBTzOMQITx69ykRsiKELNVxWbvtPo9UUaV7-zBiApC220K0PoFzFGUihHCBer-6S6jIzVR_W22O1wpz2bwH82MGxcjIO9vOdNp9AvAmoMs6ZnJwvDyw6GPLmf0sxptMhIez_C2a_pK0lKqQuSLVYp6WPHUu9GTf3KiQ5Kbdyt9vnHpUrtTT3fdgbpJpsMN_FDtkdkU_j_Kb0bQ-yuzgAlcsmyTZESzmoxX2jZ7HND5Uz3e7aI0RC5A0EIHdwSzNQT5QEhxvnOxWhaSE4WKCsupEPRjAvN2D1Cw",
+               "width" : 1280
+            }
+         ],
+         "place_id" : "ChIJNRigOdwpRI4RXK_pHr4aWoM",
+         "plus_code" : 
+         {
+            "compound_code" : "6C74+H4 Medellin, Antioquia, Colombia",
+            "global_code" : "67R66C74+H4"
+         },
+         "rating" : 3.7,
+         "reference" : "ChIJNRigOdwpRI4RXK_pHr4aWoM",
+         "types" : 
+         [
+            "establishment",
+            "health",
+            "hospital",
+            "point_of_interest"
+         ],
+         "user_ratings_total" : 757
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "formatted_address" : "Cra. 48 #32 - 102, La Candelaria, Medellín, La Candelaria, Medellín, Antioquia, Colombia",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 6.234418799999999,
+               "lng" : -75.5729796
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 6.235927630291503,
+                  "lng" : -75.57159991970849
+               },
+               "southwest" : 
+               {
+                  "lat" : 6.233229669708498,
+                  "lng" : -75.5742978802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/hospital-71.png",
+         "icon_background_color" : "#F88181",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/hospital-H_pinlet",
+         "name" : "Hospital General de Medellín",
+         "opening_hours" : 
+         {
+            "open_now" : false
+         },
+         "photos" : 
+         [
+            {
+               "height" : 2250,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/109607268125956765503\"\u003eDaniel Marin\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATCDNfUFnEfdYgqPR8o1f7cTeFgtPJ3hkYzElhc-oMWXASW8XtwrqiCnM13Bj8Sv5uiObYxEiq3K7s_e36zj7LNeEeN6X8c_CRbAj5Qmw3jxu0x8LPU3dD6uVObRqSWkX_dk8aYD7plcU7enG0zY6Z3IxiHSJ0qFIqGrgvx7USIWDcFexIfhQ1eYRkhc3SC0bXmudP2ngh-JuGjCIhTuLazR-DeXs7sBOG007BMYacPvLLuBqnCJLUFpoa0YchAwp5J3UsdoMSKUH57W7iE8A0zma5Ava32fsLw9ztcB4t_PKjXVpVGKVfa_DsHzB_7RKP-Dl6QCcVDSPC7265JIhdS3w-KYBXaXD7denQNaHOLiuWvbkik6df2L0kOwa8wy9a5lJQEsfsrK-rgjlK2OCtUzQe6bLS4ifvJqeeCMud9tderjcw",
+               "width" : 4000
+            }
+         ],
+         "place_id" : "ChIJ87lBu0woRI4REqQ7g3iuKHE",
+         "plus_code" : 
+         {
+            "compound_code" : "6CMG+QR Medellin, Antioquia, Colombia",
+            "global_code" : "67R66CMG+QR"
+         },
+         "rating" : 3.7,
+         "reference" : "ChIJ87lBu0woRI4REqQ7g3iuKHE",
+         "types" : 
+         [
+            "establishment",
+            "health",
+            "hospital",
+            "point_of_interest"
+         ],
+         "user_ratings_total" : 428
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "formatted_address" : "Cra. 65B #30-95, Medellín, Belén, Medellín, Antioquia, Colombia",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 6.232832999999999,
+               "lng" : -75.58434249999999
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 6.234124280291502,
+                  "lng" : -75.58279346970848
+               },
+               "southwest" : 
+               {
+                  "lat" : 6.231426319708498,
+                  "lng" : -75.5854914302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/hospital-71.png",
+         "icon_background_color" : "#F88181",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/hospital-H_pinlet",
+         "name" : "Clínica Medellín Sede Occidente",
+         "opening_hours" : 
+         {
+            "open_now" : true
+         },
+         "photos" : 
+         [
+            {
+               "height" : 1678,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/114705587829270191413\"\u003eClínica Medellín S.A.S.\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATCDNfV1X--aJolyzZa41qYxvmLH6r-YfkAHQkQvXTE7kxMt_oVQLLPPn3hy75Olm52YIjGnpkDLB_9xz3ITFQCzqWd0nTNMTrCzrfvi1KkN5zGwF855YplSD8eKBU-9nvkv2aHCcif9ZYZh7LLHZeI4lBZtRREw3H3xmJoJZbTp6Q7qJ-Pl48hwHHH9WI57XJEwrrY7jDb1bxCYVVh9KyByvzcwM0tRX-yGWD_ULch3KN13EBEpPwkmW-OerJW8wRE-kPmlu8MLc3gBqituzModmnRncdoEGKXtgJeu_kxcbq-OuA",
+               "width" : 2500
+            }
+         ],
+         "place_id" : "ChIJxRGRyfkoRI4R83kMgfpiA-Q",
+         "plus_code" : 
+         {
+            "compound_code" : "6CM8+47 Medellin, Antioquia, Colombia",
+            "global_code" : "67R66CM8+47"
+         },
+         "rating" : 3.2,
+         "reference" : "ChIJxRGRyfkoRI4R83kMgfpiA-Q",
+         "types" : 
+         [
+            "establishment",
+            "health",
+            "hospital",
+            "point_of_interest"
+         ],
+         "user_ratings_total" : 452
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "formatted_address" : "Cl. 49 #35 – 61, Caicedo, Medellín, Buenos Aires, Medellín, Antioquia, Colombia",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 6.2428338,
+               "lng" : -75.5573485
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 6.244272630291502,
+                  "lng" : -75.5558185197085
+               },
+               "southwest" : 
+               {
+                  "lat" : 6.241574669708498,
+                  "lng" : -75.5585164802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/hospital-71.png",
+         "icon_background_color" : "#F88181",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/hospital-H_pinlet",
+         "name" : "Sacred Heart Clinic",
+         "opening_hours" : 
+         {
+            "open_now" : true
+         },
+         "photos" : 
+         [
+            {
+               "height" : 2736,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/114906774917824905478\"\u003eNueva Clínica Sagrado Corazón\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATCDNfVVXtus_hr2W1A8AX1uUWLdILztfMb5eTksqGIEIrVZ6lt8em0vBGi1DBmh93fE_osrUt4ii6YCcQomP1sNATp4uYjwCJbRehEe3Mp39WhZGKIzKl1xX6yD_32-NeiSmnpnr3fnAqvn9mirMKiWKk12hjj8cQfKd2Klpm4zFnkEC1-Hj0fVSonnIXYKT1zcgu1Ko1htijrW2_NQPAEj7lFD4DCGDvih5YoA3Jac5ZXrEeyxbSodsDkBqs9nQ0cpP882QVla9-flB6xwcCJfNSKD88f98G7Y3QFn7Rk3b-_5Ug",
+               "width" : 3648
+            }
+         ],
+         "place_id" : "ChIJs87A_FsoRI4RNqdTenpS6XI",
+         "plus_code" : 
+         {
+            "compound_code" : "6CVV+43 Medellin, Antioquia, Colombia",
+            "global_code" : "67R66CVV+43"
+         },
+         "rating" : 3.6,
+         "reference" : "ChIJs87A_FsoRI4RNqdTenpS6XI",
+         "types" : 
+         [
+            "establishment",
+            "health",
+            "hospital",
+            "point_of_interest"
+         ],
+         "user_ratings_total" : 685
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "formatted_address" : "Calle 64. 51D – 38 Bloque 8: Sótano, Cl. 64 #51d-154, La Candelaria, Medellín, La Candelaria, Medellín, Antioquia, Colombia",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 6.262662,
+               "lng" : -75.5656043
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 6.264014930291502,
+                  "lng" : -75.5642813197085
+               },
+               "southwest" : 
+               {
+                  "lat" : 6.261316969708497,
+                  "lng" : -75.56697928029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/hospital-71.png",
+         "icon_background_color" : "#F88181",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/hospital-H_pinlet",
+         "name" : "San Vicente Fundación",
+         "opening_hours" : 
+         {
+            "open_now" : true
+         },
+         "photos" : 
+         [
+            {
+               "height" : 1365,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/108324749087713014818\"\u003eSan Vicente Fundación\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATCDNfVW_WFtgfPnq-ElMZI8sjKj0ZL3Oo4pIgXTBDjZTly4h6ZXAIA8wxSR2NuGQkRMlh39aOBhNENwa6NYdl77JVDm76UP5tVVpIrHpOsUK_ReoIK-lQx6CON0V4XMv6RNrRLRiCLkhWQTpEwXBgbVh2yIgrulZWq39FcXgvytvU4kowjk3JWJExLOI8-w-Ec65qhwecvuDkltQzOvsRqgusnmHxduWUkmzOkCwFQGR9o-m7MMbPXf3J4ZdoVSDjgYGqiC-bZLbJkFMUbuJ-jHgCXPl9PfzWEsu_Z4ElXSvRih0A",
+               "width" : 2048
+            }
+         ],
+         "place_id" : "ChIJDa4FLeQoRI4Rr_C3Hmsu5Eo",
+         "plus_code" : 
+         {
+            "compound_code" : "7C7M+3Q Medellin, Antioquia, Colombia",
+            "global_code" : "67R67C7M+3Q"
+         },
+         "rating" : 3.9,
+         "reference" : "ChIJDa4FLeQoRI4Rr_C3Hmsu5Eo",
+         "types" : 
+         [
+            "doctor",
+            "establishment",
+            "health",
+            "hospital",
+            "point_of_interest"
+         ],
+         "user_ratings_total" : 459
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "formatted_address" : "Cl. 69, Aranjuez, Medellín, Aranjuez, Medellín, Antioquia, Colombia",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 6.2668027,
+               "lng" : -75.56570429999999
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 6.268077530291502,
+                  "lng" : -75.56436916970848
+               },
+               "southwest" : 
+               {
+                  "lat" : 6.265379569708498,
+                  "lng" : -75.56706713029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/hospital-71.png",
+         "icon_background_color" : "#F88181",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/hospital-H_pinlet",
+         "name" : "clinica leon xiii",
+         "opening_hours" : 
+         {
+            "open_now" : true
+         },
+         "photos" : 
+         [
+            {
+               "height" : 2289,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/102874291171099465784\"\u003eIPS Universitaria sede Clínica León XIII\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATCDNfUlBzZf2rrn6oL6xwZ9Y9swi988VDHTZ5-l4N4HmKUoIK3zJo8NUb3mjNm9zl_NJ9dyqtnUZqRegbS2nyBp40Skj7pW7bI5ZSC8B5OX-atTBrhjwUnKsc6Q3Ehg1Ntqr4YAv73CpqenmFUmAwI_7D8DXy0ovPtqp77qoU94XmD0beJ7KgumgKzfYrs3v04P70V-z_lVLx8_hAm7jdTkIYrMJHmd3mqk2BzXo87sdAvMBQfhuCxUYWcMkSXEaQ0Zd3Hz3WP0K5YTkx6x8GLOPsuqqB6dkK_jCMoW8wh7Aoz2Bw",
+               "width" : 3000
+            }
+         ],
+         "place_id" : "ChIJGwdKMiApRI4RSa48KFVXjH4",
+         "plus_code" : 
+         {
+            "compound_code" : "7C8M+PP Medellin, Antioquia, Colombia",
+            "global_code" : "67R67C8M+PP"
+         },
+         "rating" : 3.5,
+         "reference" : "ChIJGwdKMiApRI4RSa48KFVXjH4",
+         "types" : 
+         [
+            "establishment",
+            "health",
+            "hospital",
+            "point_of_interest"
+         ],
+         "user_ratings_total" : 148
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "formatted_address" : "Cl. 2 Sur #46-55, El Poblado, Medellín, El Poblado, Medellín, Antioquia, Colombia",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 6.203149,
+               "lng" : -75.5760331
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 6.204516930291502,
+                  "lng" : -75.5746581197085
+               },
+               "southwest" : 
+               {
+                  "lat" : 6.201818969708498,
+                  "lng" : -75.57735608029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/hospital-71.png",
+         "icon_background_color" : "#F88181",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/hospital-H_pinlet",
+         "name" : "Clinica Las Vegas",
+         "opening_hours" : 
+         {
+            "open_now" : true
+         },
+         "photos" : 
+         [
+            {
+               "height" : 3024,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/110336499920189608190\"\u003eJuan Jaramillo\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATCDNfWWTlZAcgDOvjHYZDFPse9IvLkmyO_IaIpFeinJ1R5hOUayM-gcldqba5ngw5v1yhKC6fyEqhI4fTR5BqZc-uM-IGyTFl3AcG4jz6ospSISm4mWisKyV8cWVFH9OSGM_C6KbJo1dJ12WbrfxfXMJVilLVctCKf5aFSRJ8Qsmva0FkhLg2Fg9Y_S8nR5Pj2kbzQo1fmnBLPCrS5xxkic8ZDbZnixuBxfWkpkUZ49Q4Zoln1wKGsq1693uKXGpaBcxVDm5Rju8PTkYUuL86wSxBGDfoZH9FI95HKPMyJKJhCT-AorUuZ22-LLsmZJbuQtHpEXv7IutjqboV3roj23nLdRg10sHLLSJfKTep0QHW_OZbrtb8AZ7roA8gfuQilHfIVP2QS1E0wQ7krEcgnnacwjWB2jIwSwTOz307aQNE4j0A",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJd-xYTTSDRo4RZYa_8NI7PLM",
+         "plus_code" : 
+         {
+            "compound_code" : "6C3F+7H Medellin, Antioquia, Colombia",
+            "global_code" : "67R66C3F+7H"
+         },
+         "rating" : 3,
+         "reference" : "ChIJd-xYTTSDRo4RZYa_8NI7PLM",
+         "types" : 
+         [
+            "establishment",
+            "health",
+            "hospital",
+            "point_of_interest"
+         ],
+         "user_ratings_total" : 821
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "formatted_address" : "Cl. 28 #77-124, Medellín, Belén, Medellín, Antioquia, Colombia",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 6.2291498,
+               "lng" : -75.59827439999999
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 6.230416180291503,
+                  "lng" : -75.59691966970848
+               },
+               "southwest" : 
+               {
+                  "lat" : 6.227718219708498,
+                  "lng" : -75.59961763029149
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/hospital-71.png",
+         "icon_background_color" : "#F88181",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/hospital-H_pinlet",
+         "name" : "Metrosalud - Unidad Hospitalaria Belén",
+         "opening_hours" : 
+         {
+            "open_now" : true
+         },
+         "photos" : 
+         [
+            {
+               "height" : 488,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/116638537201697739237\"\u003eHernán Arcila\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATCDNfUBlpDYI0Wn-tGd1wtHwciEobWLiOfA9C6W-cDoM3n9k6IDpeRpsPIjFuK4xvX8YBg_p5NVeRE8SFji45AgZ_BH0S7ylxzfdiqvzpODeHH8GxfHMXs36s6g_3vGfWn2p_RpnWF7pTCzXTUDzo_cRNUZ9GuwLz0zr_FBcvfmEfJihU9nH2g_3UimmDf0vrUPCzd3jw0BQoq1cC70d5d9UCUNDCVziyNp87GmOnYULNDpuJS-GmMzbK66YCh5WRpytC3BH5hneSyoerdt8tiHfhaCjCiR7ovbYpMEa2Oqi7Ptrnw-OtDulnBxNd68cvLGhXuGWi4L2RQF9sFOBQrB9wX0QSnn7rWSU67yAKtF2AgNBhT_pYBX7ZFh0Al-qhKviGwqK3S5dZQx8JLenCZQ7j_edxIC3Z9OoeXH6__vXfmYIk02",
+               "width" : 650
+            }
+         ],
+         "place_id" : "ChIJx_80SZUpRI4RoAQ7y_RGKEw",
+         "plus_code" : 
+         {
+            "compound_code" : "6CH2+MM Medellin, Antioquia, Colombia",
+            "global_code" : "67R66CH2+MM"
+         },
+         "rating" : 2.7,
+         "reference" : "ChIJx_80SZUpRI4RoAQ7y_RGKEw",
+         "types" : 
+         [
+            "establishment",
+            "health",
+            "hospital",
+            "point_of_interest"
+         ],
+         "user_ratings_total" : 209
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "formatted_address" : "Cl. 7 #39-290, El Poblado, Medellín, El Poblado, Medellín, Antioquia, Colombia",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 6.206814,
+               "lng" : -75.5712422
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 6.207965730291503,
+                  "lng" : -75.5699594197085
+               },
+               "southwest" : 
+               {
+                  "lat" : 6.205267769708498,
+                  "lng" : -75.57265738029152
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "icon_background_color" : "#7B9EB0",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+         "name" : "Clinic Medellin - El Poblado",
+         "opening_hours" : 
+         {
+            "open_now" : true
+         },
+         "photos" : 
+         [
+            {
+               "height" : 2500,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/116549767405637452739\"\u003eClínica Medellín Sede El Poblado\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATCDNfVaQog_pcq5g79B6EdiU4jubrBWntdp6hxNkrFpVGw9R7rHJHEkuLr2BsaoZzIra26NRl1fIt-qiM5c6b4naL3tj5huBGMz-w3ICH2qqVVKqprcBLVtodalv4xiWPY-PGDRwm1aB_spFmqn83nchyuhJEDa85ZLn5b0TWnOlcxHLenvCwI7uMThSgjYk4KabBLzTfdCx6IDc7ndgHHYlb0xyebCIB-_8CQnPkkM1mE7gN9ycgTKqI-rdm9ZwBZp37CH7RQhTmhNGY8nCmaS7iPAR71tJ3JW9lD7pqj-D9RpmQ",
+               "width" : 2000
+            }
+         ],
+         "place_id" : "ChIJeY_gyIGCRo4Rk9juuGDYiTA",
+         "plus_code" : 
+         {
+            "compound_code" : "6C4H+PG Medellin, Antioquia, Colombia",
+            "global_code" : "67R66C4H+PG"
+         },
+         "rating" : 3.8,
+         "reference" : "ChIJeY_gyIGCRo4Rk9juuGDYiTA",
+         "types" : 
+         [
+            "establishment",
+            "health",
+            "hospital",
+            "point_of_interest"
+         ],
+         "user_ratings_total" : 344
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "formatted_address" : "Dg. 31 #36A Sur-80, La Sebastiana, Envigado, Antioquia, Colombia",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 6.1667786,
+               "lng" : -75.5799134
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 6.168161080291502,
+                  "lng" : -75.57882546970849
+               },
+               "southwest" : 
+               {
+                  "lat" : 6.165463119708497,
+                  "lng" : -75.5815234302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/hospital-71.png",
+         "icon_background_color" : "#F88181",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/hospital-H_pinlet",
+         "name" : "Hospital Manuel Uribe Ángel",
+         "opening_hours" : 
+         {
+            "open_now" : true
+         },
+         "photos" : 
+         [
+            {
+               "height" : 1300,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/106124122205628487704\"\u003eE.S.E. Hospital Manuel Uribe Ángel - Sede Principal\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATCDNfXgE8r1gtMLMUB04SCHMuRf2fufcKqC1m_3IQqj1cZBJEAnMn9WVLr0YSkPWeKPvVjcapFWZg8UgOZpLBg-bsnXaoH_oWQ-6k8lPupGHhJqnWIHU-GBPlHQo8gwq6CIYCaYKpmXcZ4jHnf4gj6e8qbPODhp1pg1DFLyvCF8nVYxLUR4fzoAMW6bv30igCu_JuSTb-RFrsj_5LVLHzmsSFBXR1EB9es7ecLdTY6wyHAdEd2OeqonKaDWBhpzNDMRx5bNlGnQWwMVtGevQIW_v9XNXykrUjuBO9-xDNLKQmC7YQ",
+               "width" : 3417
+            }
+         ],
+         "place_id" : "ChIJq8ddp1SCRo4RGkzs_JTFcU0",
+         "plus_code" : 
+         {
+            "compound_code" : "5C8C+P2 Envigado, Antioquia, Colombia",
+            "global_code" : "67R65C8C+P2"
+         },
+         "rating" : 3.2,
+         "reference" : "ChIJq8ddp1SCRo4RGkzs_JTFcU0",
+         "types" : 
+         [
+            "establishment",
+            "health",
+            "hospital",
+            "point_of_interest"
+         ],
+         "user_ratings_total" : 495
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "formatted_address" : "Cra 48A #10 sur 9, El Poblado, Medellín, El Poblado, Medellín, Antioquia, Colombia",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 6.1969257,
+               "lng" : -75.5791438
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 6.198261480291502,
+                  "lng" : -75.57776111970848
+               },
+               "southwest" : 
+               {
+                  "lat" : 6.195563519708498,
+                  "lng" : -75.5804590802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/hospital-71.png",
+         "icon_background_color" : "#F88181",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/hospital-H_pinlet",
+         "name" : "Ophthalmological Clinic Specialties",
+         "opening_hours" : 
+         {
+            "open_now" : true
+         },
+         "photos" : 
+         [
+            {
+               "height" : 3200,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/100372020869879036397\"\u003ePaula Paredes\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATCDNfWQ2zrle2VVDo-thFmYZ6PCV8DqTrgW18oV60foNKhyZIELxYcFknnzQlc6fRZb_lF5E4MU2bZLacPYwNrVF0Z_6TLEX9It4BepfBN8VmHm8Oe2zJD2diOVgLi0sbHFXSN1mbplG5iCfAhus9omeul33Y7fyoajSTp8DQbaLB69RljBNFeYQgJwO6Pt_6hGBezhFkhWivYaOLIo1r1Z0xp_CF3wkik8oWFawo55n1FzoLXqazZsJnEY7s6WJrtd-_2TryBhJrSlNGIthfsgdS26HZh1CD1bjCCnVR4_VlDOWmydGuq5VPLE4pxySY428b-v0zdaxWcKAISy7ON1P4HNStPv0o8GJK_-2fCm2h_IT-c37yXu2X-EYufIcrWBF92BPuZPCgJcZ4D7VJp-sOMjDF-BFWtH_1PrJzywCOalw8Z-DgzoT62qje-l0A",
+               "width" : 4800
+            }
+         ],
+         "place_id" : "ChIJudZLrF2CRo4Rp3co1s9ezQ4",
+         "plus_code" : 
+         {
+            "compound_code" : "5CWC+Q8 Medellin, Antioquia, Colombia",
+            "global_code" : "67R65CWC+Q8"
+         },
+         "rating" : 3.7,
+         "reference" : "ChIJudZLrF2CRo4Rp3co1s9ezQ4",
+         "types" : 
+         [
+            "establishment",
+            "health",
+            "hospital",
+            "point_of_interest"
+         ],
+         "user_ratings_total" : 365
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "formatted_address" : "Barrio Robledo - Colombia - Suramérica, CL 78B #69 - 240, Cordoba, Medellín, Robledo, Medellín, Antioquia, Colombia",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 6.276844199999999,
+               "lng" : -75.57970399999999
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 6.278408130291502,
+                  "lng" : -75.57863111970849
+               },
+               "southwest" : 
+               {
+                  "lat" : 6.275710169708498,
+                  "lng" : -75.58132908029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/hospital-71.png",
+         "icon_background_color" : "#F88181",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/hospital-H_pinlet",
+         "name" : "Hospital Pablo Tobón Uribe",
+         "opening_hours" : 
+         {
+            "open_now" : true
+         },
+         "photos" : 
+         [
+            {
+               "height" : 3000,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/106893630939532134477\"\u003eO Lucia ZA\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATCDNfUiCwxkMtbILKhnDNQp1OGMK9NaOKA6l20pxgTIoDUqmxW6ezR565vDXzKaJDk7PSKi7ks6wuHssavLxgUWWkTZ1sTwIr9E_dEG_V5eEdakusdn41n3j-N7evdlPPdW9BJ45TU19spAX-yM1uNzmD9IW4KaCGSbV2MFyERgbwxj9Bm5m5ndNjS5rgtpq0cjKsb9mDgkf9Xqv58xrVKx0wzIcysrwCWiwEzbQQUVmivB2H4y_v4q-D-uPFNr6lJfFCWZMSMn71AuGe91f9rxjVpjtlQN8vDeRyUdN0rLujbmNcxsQvtgiasnDc8Q6jWNSoGgye11EOYabhV2GauKeikFNjgRx8t4vceXdtJIk_ZAhX3-IBmrde3aE5K5FYXbq3hBvH1h-KY40FUVkIWOSv1s6TO_u6-FS4234tTR0yH0rQ",
+               "width" : 4000
+            }
+         ],
+         "place_id" : "ChIJhYLWICQpRI4R-kVDWQats1U",
+         "plus_code" : 
+         {
+            "compound_code" : "7CGC+P4 Medellin, Antioquia, Colombia",
+            "global_code" : "67R67CGC+P4"
+         },
+         "rating" : 4.4,
+         "reference" : "ChIJhYLWICQpRI4R-kVDWQats1U",
+         "types" : 
+         [
+            "doctor",
+            "establishment",
+            "health",
+            "hospital",
+            "point_of_interest"
+         ],
+         "user_ratings_total" : 770
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "formatted_address" : "Cra. 48 #37-24, La Candelaria, Medellín, La Candelaria, Medellín, Antioquia, Colombia",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 6.2380892,
+               "lng" : -75.57144599999999
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 6.239465680291502,
+                  "lng" : -75.57015996970848
+               },
+               "southwest" : 
+               {
+                  "lat" : 6.236767719708498,
+                  "lng" : -75.57285793029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "icon_background_color" : "#7B9EB0",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+         "name" : "Sede ambulatoria E.S.E Hospital La María",
+         "opening_hours" : 
+         {
+            "open_now" : false
+         },
+         "photos" : 
+         [
+            {
+               "height" : 317,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/108836670949107904076\"\u003eProgramas especiales E.S.E Hospital La María\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATCDNfX1pZwMX9m86wwY4DTdzct57kLlTdak6gWc6tJ-OQkdHCwarRDg7onEJZyRxsjFOMMIgHyrZgPohkRZzyeXonpbfx43f1lr0cr06UPFc__IVKjS1WCnXBeVWk86Vk-wBbA-on2iK2IDdY4ichx95Xu65GakOcnFbxokjD0D4KWTFO13r582S3OKzRwIJ46hjzhChnZDycWog0PkkoSOraXHIDvxv_9SHwM8oawYAELAfvIF1E9l-gHiP4KEwSlk5IAomaISI649XIk8F4D1xktWPjNV3SLdasr5LhVpCEElvGadF7qFUisSTfA9G7jCUD-5bsLEoe0r5HgEYzkio9ZZ8Vq2sHaS0grKS75QtxX1j0PEZYK2zF-2P9dQ2OeKRAZhYd7x0J-dbV8Er5d53ZH3sF17okR35bxVJw9-d1Nj3Q",
+               "width" : 400
+            }
+         ],
+         "place_id" : "ChIJbXJKGlIpRI4RhTP0x8l_m7E",
+         "plus_code" : 
+         {
+            "compound_code" : "6CQH+6C Medellin, Antioquia, Colombia",
+            "global_code" : "67R66CQH+6C"
+         },
+         "rating" : 2.9,
+         "reference" : "ChIJbXJKGlIpRI4RhTP0x8l_m7E",
+         "types" : 
+         [
+            "establishment",
+            "health",
+            "point_of_interest"
+         ],
+         "user_ratings_total" : 31
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "formatted_address" : "Cl. 92ee #67-61, Castilla, Medellín, Castilla, Medellín, Antioquia, Colombia",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 6.286544999999999,
+               "lng" : -75.574229
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 6.287958630291502,
+                  "lng" : -75.57265551970849
+               },
+               "southwest" : 
+               {
+                  "lat" : 6.285260669708498,
+                  "lng" : -75.57535348029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/hospital-71.png",
+         "icon_background_color" : "#F88181",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/hospital-H_pinlet",
+         "name" : "Hospital La María E.S.E.",
+         "opening_hours" : 
+         {
+            "open_now" : true
+         },
+         "photos" : 
+         [
+            {
+               "height" : 2448,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/118362683037581608593\"\u003eSantiago Chaverra Vélez\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATCDNfVA1romSWblmMxyeq4rhWXf0-FKdiRlufyfbwwzdaoZfqZjk6pCjpJ99N-UlBAPWOn0NnQVRApikf1_24oh5IhFl8F05vfh8zh9TP_PzANdcc6RnKnlD_db9O_RVIOH7evjvJ6CN7Coo1_kTL1-vgoV7M1O0JERrEbj_vizo3jEm3blUH6UNnvCZyyu1AxlXMkF1-9oicX7fSY4IsQFqIejhUEVFxF0lhxqMAP6W7nqj7v5lBTjd_fHbCZHWUQfBsud43s6j2BQ0h7qKDO5pjcOYvjshddFDTwEaECV8dI41qD9U17ZntjTip7gjgC2Srbd2PmfpRfYODQfkAM58B_P-ctg-Z_k1DHaJymJZpTw0kQ9TRKOeHJ4309rT7DRiFT5Ct0HVPSE2GRVPG9cdw7bfdG7BmviQ5Jc7HvcKOcddKU",
+               "width" : 3264
+            }
+         ],
+         "place_id" : "ChIJ648edyopRI4RwCvqGw1r59M",
+         "plus_code" : 
+         {
+            "compound_code" : "7CPG+J8 Medellin, Antioquia, Colombia",
+            "global_code" : "67R67CPG+J8"
+         },
+         "rating" : 2.8,
+         "reference" : "ChIJ648edyopRI4RwCvqGw1r59M",
+         "types" : 
+         [
+            "establishment",
+            "health",
+            "hospital",
+            "point_of_interest"
+         ],
+         "user_ratings_total" : 416
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "formatted_address" : "Calle 58 N° 50C-2, Cl. 59, La Candelaria, Medellín, La Candelaria, Medellín, Antioquia, Colombia",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 6.2572633,
+               "lng" : -75.5655235
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 6.258843530291502,
+                  "lng" : -75.56411871970849
+               },
+               "southwest" : 
+               {
+                  "lat" : 6.256145569708497,
+                  "lng" : -75.5668166802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/hospital-71.png",
+         "icon_background_color" : "#F88181",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/hospital-H_pinlet",
+         "name" : "Clínica CES",
+         "opening_hours" : 
+         {
+            "open_now" : true
+         },
+         "photos" : 
+         [
+            {
+               "height" : 943,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/102051145359523632361\"\u003eClínica CES\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATCDNfXZJxv2tQt0X6sAExwcT0vSb5PgNRh1C9OGhtCaN3yWp3GT3tgakZWXDFoLncnPkr8RRtRTB2VyH97CrtqQQctgw0aJTiD93Xy1X9R11DGCqlkFe5dF6obj-10lz6KfH9lUPfdJD81cs8BkRyi3TJdXHtLwdnOOg5-VICKrQNZCwgicat5lNnGAkvE0IaumAJSNzvYFHrXmwMSQovR7IaE-RUVNGN_EgSMbBFVqnKvPyZB5hWoI9OJEquzgQYQmLubDpX8MurR3kAnZlLx2cfiAOV4RQU-12fW-Vwnbfvyfww",
+               "width" : 1415
+            }
+         ],
+         "place_id" : "ChIJM9tzIPsoRI4RIL_MJK5ecM8",
+         "plus_code" : 
+         {
+            "compound_code" : "7C4M+WQ Medellin, Antioquia, Colombia",
+            "global_code" : "67R67C4M+WQ"
+         },
+         "rating" : 3.5,
+         "reference" : "ChIJM9tzIPsoRI4RIL_MJK5ecM8",
+         "types" : 
+         [
+            "establishment",
+            "health",
+            "hospital",
+            "point_of_interest"
+         ],
+         "user_ratings_total" : 495
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "formatted_address" : "Av. 33 #74e-156, Laureles - Estadio, Medellín, Laureles, Medellín, Antioquia, Colombia",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 6.2391573,
+               "lng" : -75.5948219
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 6.240475630291503,
+                  "lng" : -75.59351286970849
+               },
+               "southwest" : 
+               {
+                  "lat" : 6.237777669708498,
+                  "lng" : -75.5962108302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/hospital-71.png",
+         "icon_background_color" : "#F88181",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/hospital-H_pinlet",
+         "name" : "Instituto Colombiano del Dolor",
+         "opening_hours" : 
+         {
+            "open_now" : true
+         },
+         "photos" : 
+         [
+            {
+               "height" : 1836,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/113053836140529086465\"\u003eInstituto Colombiano del Dolor\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATCDNfWzoATk8kJ-f7oEFsARaYPUvrSAEonkWvjNVVMdpUwfFydlDqgsMIFigH1FxA3AQNH1bNKlxECvVDXXtYnq9UWzbBQiXeCi_rRauA6cjpUo9ILDDGtg05OF5XfklzcEkM23coqEEQbtIO3aFn-fGRSSungkC33veSAhPDp3ubXccLG8RFqMJASQUFl2L85XKVjvTCSbKncHqbYnNuiS4X8rqkFdQBEGyjmGCBEbvti_qlMx1cns8RVQ30ymRroJj5V8dzXNOYXD8vImlkBN6u7sjucCxs59f6sXA-aFKZX7rA",
+               "width" : 3264
+            }
+         ],
+         "place_id" : "ChIJrfWW-JcpRI4RkZICRQKzBfs",
+         "plus_code" : 
+         {
+            "compound_code" : "6CQ4+M3 Medellin, Antioquia, Colombia",
+            "global_code" : "67R66CQ4+M3"
+         },
+         "rating" : 2.7,
+         "reference" : "ChIJrfWW-JcpRI4RkZICRQKzBfs",
+         "types" : 
+         [
+            "establishment",
+            "health",
+            "hospital",
+            "point_of_interest"
+         ],
+         "user_ratings_total" : 663
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "formatted_address" : "Km 16, Av. Las Palmas, Vda. El Penasco, Envigado, Antioquia, Colombia",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 6.1550537,
+               "lng" : -75.5374456
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 6.156357680291502,
+                  "lng" : -75.5361471197085
+               },
+               "southwest" : 
+               {
+                  "lat" : 6.153659719708497,
+                  "lng" : -75.53884508029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/hospital-71.png",
+         "icon_background_color" : "#F88181",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/hospital-H_pinlet",
+         "name" : "UBA Las Palmas - Hospital Manuel Uribe Angel",
+         "opening_hours" : 
+         {
+            "open_now" : false
+         },
+         "place_id" : "ChIJe97Cuh-DRo4R3Ug0hmoYMns",
+         "plus_code" : 
+         {
+            "compound_code" : "5F47+22 Envigado, Antioquia, Colombia",
+            "global_code" : "67R65F47+22"
+         },
+         "rating" : 5,
+         "reference" : "ChIJe97Cuh-DRo4R3Ug0hmoYMns",
+         "types" : 
+         [
+            "establishment",
+            "health",
+            "hospital",
+            "point_of_interest"
+         ],
+         "user_ratings_total" : 1
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "formatted_address" : "Cra. 51D #69-23, Aranjuez, Medellín, Aranjuez, Medellín, Antioquia, Colombia",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 6.266721299999999,
+               "lng" : -75.5652915
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 6.268046880291503,
+                  "lng" : -75.56380126970851
+               },
+               "southwest" : 
+               {
+                  "lat" : 6.265348919708498,
+                  "lng" : -75.56649923029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/hospital-71.png",
+         "icon_background_color" : "#F88181",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/hospital-H_pinlet",
+         "name" : "Hospital Alma Máter de Antioquia (Bloque 3)",
+         "opening_hours" : 
+         {
+            "open_now" : true
+         },
+         "photos" : 
+         [
+            {
+               "height" : 1080,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/117908849617508940552\"\u003eEduardo Cardenas\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATCDNfUbQ9D2GUSY7fEe56o_8xxC25FQy5MBLpIt-LQi-DIz59131qFbAB6vUbYpEYeRYJwuyDqni1bek5LzrMssy3v7Pk0uLaaWS-QiR43tOtIA8RxLkHD5GGlrLU64QLvsmqsZc0hfEptJdJpYsVQqhAS52i8QJhzH8FCJBOHdi6hOrx9K_edCc8yc7n33A1QvCHPjrfaPl26kZOm_KsGLFFXvGNgTQtlOka5Ye40MLWQlOr1-NdebJSrYgty-ko_xHO-vQXREwx-Jij-byv6lvu6ZksM3MHYuQRFyQxZEt6fm2WX9P1y525uMwTKnZ1ovFx4PjbhMf1nNjqqfmtlcBTNmzILupz9KNxg_YT6s-8mcDFpCeak1HXyjdFqc0QQHRVOiPOcyBT7_6Rsswb2OitKR9bZB8OwttOGhouq14Sk3_Q",
+               "width" : 1920
+            }
+         ],
+         "place_id" : "ChIJ76pFGAopRI4Rm-l14nIwnIU",
+         "plus_code" : 
+         {
+            "compound_code" : "7C8M+MV Medellin, Antioquia, Colombia",
+            "global_code" : "67R67C8M+MV"
+         },
+         "rating" : 3.4,
+         "reference" : "ChIJ76pFGAopRI4Rm-l14nIwnIU",
+         "types" : 
+         [
+            "establishment",
+            "health",
+            "hospital",
+            "point_of_interest"
+         ],
+         "user_ratings_total" : 26
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "formatted_address" : "Cra. 65 #4220, Laureles - Estadio, Medellín, Laureles, Medellín, Antioquia, Colombia",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 6.2458087,
+               "lng" : -75.58370289999999
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 6.247135780291503,
+                  "lng" : -75.58241721970849
+               },
+               "southwest" : 
+               {
+                  "lat" : 6.244437819708498,
+                  "lng" : -75.5851151802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "icon_background_color" : "#7B9EB0",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+         "name" : "CLINICA TRAUMACENTRO S.A.S",
+         "opening_hours" : 
+         {
+            "open_now" : true
+         },
+         "photos" : 
+         [
+            {
+               "height" : 3264,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/114395621888079174495\"\u003eVictor Sojo\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATCDNfUk0AExPsCLFQ6zvActEyrd0Lt_Lry9ofnB7jbXvs7y069f_ClEOE2f8XdmhxoFlTm2XuW6D6T_WYoCj7yAZAQ5r8s5ivb2RprpkbNFjGBp9qVxd69SncXTeF1XRmqmAZQUD3KTcnSdzZpSt80wVCT3r6p7Nve1RgjX1dJ2VDdMe4Q4kadLK0SJG1nqFaXi0eWrNykppFMqCflvHHHunyMMDpxhEMs4fNbtElFdv9fJy0SCzNG8s1uXjEdOJklDfQyKDkNEUCDrNBylO5zhBctTHOuleCJmLAhfPvWVIIyCjQ-DJ6LCvu_6wcIkHOcSUl3bO6spzhWiYdZGSBT391skvEAP-tWMSFVpxmxv7UXv79Q2lHT2OF_Q55CgLPOCoa0IbAdQmnQZscw936vYPq6PsLSyOxfmK_gKRA5MEHvSshZa",
+               "width" : 2448
+            }
+         ],
+         "place_id" : "ChIJa70C-qgpRI4RdQao153qK3I",
+         "plus_code" : 
+         {
+            "compound_code" : "6CW8+8G Medellin, Antioquia, Colombia",
+            "global_code" : "67R66CW8+8G"
+         },
+         "rating" : 2.1,
+         "reference" : "ChIJa70C-qgpRI4RdQao153qK3I",
+         "types" : 
+         [
+            "establishment",
+            "health",
+            "point_of_interest"
+         ],
+         "user_ratings_total" : 181
+      }
+   ],
+   "status" : "OK"
+}

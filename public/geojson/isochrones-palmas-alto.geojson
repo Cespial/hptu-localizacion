@@ -1,14 +1,17 @@
 {
-  "type": "FeatureCollection",
   "features": [
     {
-      "type": "Feature",
       "properties": {
+        "fill-opacity": 0.33,
+        "fillColor": "#bf4040",
+        "opacity": 0.33,
+        "fill": "#bf4040",
+        "fillOpacity": 0.33,
+        "color": "#bf4040",
+        "contour": 30,
+        "metric": "time",
         "minutes": 30,
-        "candidate": "palmas-alto",
-        "label": "30 minutos en vehiculo",
-        "color": "#0d9488",
-        "opacity": 0.1
+        "zone": "palmas-alto"
       },
       "geometry": {
         "coordinates": [
@@ -1040,16 +1043,21 @@
           ]
         ],
         "type": "Polygon"
-      }
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
       "properties": {
+        "fill-opacity": 0.33,
+        "fillColor": "#bfaa40",
+        "opacity": 0.33,
+        "fill": "#bfaa40",
+        "fillOpacity": 0.33,
+        "color": "#bfaa40",
+        "contour": 20,
+        "metric": "time",
         "minutes": 20,
-        "candidate": "palmas-alto",
-        "label": "20 minutos en vehiculo",
-        "color": "#0d9488",
-        "opacity": 0.2
+        "zone": "palmas-alto"
       },
       "geometry": {
         "coordinates": [
@@ -1501,16 +1509,21 @@
           ]
         ],
         "type": "Polygon"
-      }
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
       "properties": {
+        "fill-opacity": 0.33,
+        "fillColor": "#6abf40",
+        "opacity": 0.33,
+        "fill": "#6abf40",
+        "fillOpacity": 0.33,
+        "color": "#6abf40",
+        "contour": 10,
+        "metric": "time",
         "minutes": 10,
-        "candidate": "palmas-alto",
-        "label": "10 minutos en vehiculo",
-        "color": "#0d9488",
-        "opacity": 0.35
+        "zone": "palmas-alto"
       },
       "geometry": {
         "coordinates": [
@@ -1734,7 +1747,9 @@
           ]
         ],
         "type": "Polygon"
-      }
+      },
+      "type": "Feature"
     }
-  ]
+  ],
+  "type": "FeatureCollection"
 }

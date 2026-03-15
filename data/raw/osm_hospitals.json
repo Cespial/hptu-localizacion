@@ -1,0 +1,3774 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.10 2d4cfc48",
+  "osm3s": {
+    "timestamp_osm_base": "2026-02-27T14:51:53Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+
+{
+  "type": "node",
+  "id": 565665697,
+  "lat": 6.2488833,
+  "lon": -75.5645579,
+  "tags": {
+    "amenity": "hospital",
+    "building": "hospital",
+    "name": "SOMA",
+    "phone": "+57 4 576 84 00"
+  }
+},
+{
+  "type": "node",
+  "id": 1190191270,
+  "lat": 6.1948324,
+  "lon": -75.5781105,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Unidad Renal"
+  }
+},
+{
+  "type": "node",
+  "id": 1193707988,
+  "lat": 6.1620713,
+  "lon": -75.5987776,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Clínica de la Policía"
+  }
+},
+{
+  "type": "node",
+  "id": 1237519699,
+  "lat": 6.1668147,
+  "lon": -75.5800586,
+  "tags": {
+    "addr:street": "Diagonal 31",
+    "amenity": "hospital",
+    "emergency": "yes",
+    "healthcare": "hospital",
+    "name": "Hospital Manuel Uribe Angel"
+  }
+},
+{
+  "type": "node",
+  "id": 1561077835,
+  "lat": 6.2615485,
+  "lon": -75.5611069,
+  "tags": {
+    "amenity": "hospital"
+  }
+},
+{
+  "type": "node",
+  "id": 2154586208,
+  "lat": 6.2600790,
+  "lon": -75.5616270,
+  "tags": {
+    "addr:city": "Medellín",
+    "addr:country": "CO",
+    "addr:housenumber": "63-59",
+    "addr:province": "Colombia",
+    "addr:state": "ANT",
+    "addr:street": "Carrera 50",
+    "amenity": "clinic",
+    "name": "Serad"
+  }
+},
+{
+  "type": "node",
+  "id": 2379649633,
+  "lat": 6.2331177,
+  "lon": -75.5559039,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Centro de Salud Loreto"
+  }
+},
+{
+  "type": "node",
+  "id": 2807739300,
+  "lat": 6.2436264,
+  "lon": -75.5929633,
+  "tags": {
+    "addr:street": "Circular 3",
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Saludcoop Laureles"
+  }
+},
+{
+  "type": "node",
+  "id": 2972395707,
+  "lat": 6.2434231,
+  "lon": -75.5404091,
+  "tags": {
+    "amenity": "clinic",
+    "building": "yes",
+    "healthcare": "clinic",
+    "name": "Centro de Salud - Pinares de Oriente"
+  }
+},
+{
+  "type": "node",
+  "id": 3448766640,
+  "lat": 6.1686318,
+  "lon": -75.5818312,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Clínica Santa Gertrudis"
+  }
+},
+{
+  "type": "node",
+  "id": 4081890013,
+  "lat": 6.2749027,
+  "lon": -75.5875358,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Universidad Pascual Bravo"
+  }
+},
+{
+  "type": "node",
+  "id": 4152321789,
+  "lat": 6.2611556,
+  "lon": -75.5653804,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "IPS Universitaria - Sede Prado"
+  }
+},
+{
+  "type": "node",
+  "id": 4231972194,
+  "lat": 6.2379305,
+  "lon": -75.5606633,
+  "tags": {
+    "addr:housenumber": "40_135",
+    "addr:street": "36A",
+    "amenity": "clinic",
+    "email": "rodrigomontoya08@hotmail.com",
+    "healthcare": "clinic",
+    "name": "Centro de Salud El Salvador"
+  }
+},
+{
+  "type": "node",
+  "id": 4315816192,
+  "lat": 6.2594164,
+  "lon": -75.5619578,
+  "tags": {
+    "addr:street": "Carrera 50;Palacé",
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "hermanitas hospitalarias del sagrado corazón"
+  }
+},
+{
+  "type": "node",
+  "id": 4327588183,
+  "lat": 6.2395446,
+  "lon": -75.5274183,
+  "tags": {
+    "addr:city": "Comuna 8",
+    "amenity": "hospital",
+    "description": "Es un centro de atención para jóvenes y adultos con problemas de drogadición, ludopatía y alcoholismo.",
+    "name": "Fundación Hogar Claret",
+    "operator": "Claretianos"
+  }
+},
+{
+  "type": "node",
+  "id": 4538750489,
+  "lat": 6.2577427,
+  "lon": -75.5637284,
+  "tags": {
+    "amenity": "clinic",
+    "name": "Remy ips Medellín"
+  }
+},
+{
+  "type": "node",
+  "id": 4588195492,
+  "lat": 6.2296276,
+  "lon": -75.5913111,
+  "tags": {
+    "amenity": "clinic",
+    "name": "Coomeva EPS",
+    "name:es": "Coomeva EPS"
+  }
+},
+{
+  "type": "node",
+  "id": 4595518903,
+  "lat": 6.2456545,
+  "lon": -75.5645554,
+  "tags": {
+    "addr:street": "Calle 48",
+    "amenity": "hospital",
+    "name": "IPS Comfama SURA",
+    "website": "https://www.comfama.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 4602932697,
+  "lat": 6.2184873,
+  "lon": -75.5763702,
+  "tags": {
+    "amenity": "clinic"
+  }
+},
+{
+  "type": "node",
+  "id": 4698260089,
+  "lat": 6.2381215,
+  "lon": -75.6007042,
+  "tags": {
+    "addr:housenumber": "32EE 72",
+    "addr:street": "Carrera 80 A",
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "OFEX"
+  }
+},
+{
+  "type": "node",
+  "id": 4757205411,
+  "lat": 6.1712810,
+  "lon": -75.6132420,
+  "tags": {
+    "amenity": "hospital",
+    "fixme": "Name? Duplicate? There's already a hospital feature just to the north (way 377765537)",
+    "name": "HOSPITAL"
+  }
+},
+{
+  "type": "node",
+  "id": 4950119029,
+  "lat": 6.2406067,
+  "lon": -75.5877770,
+  "tags": {
+    "amenity": "clinic",
+    "name": "Clínica Laser De Piel",
+    "name:es": "Clínica Laser De Piel"
+  }
+},
+{
+  "type": "node",
+  "id": 5340880325,
+  "lat": 6.1703040,
+  "lon": -75.6107830,
+  "tags": {
+    "amenity": "clinic",
+    "name": "Salud total"
+  }
+},
+{
+  "type": "node",
+  "id": 5426975195,
+  "lat": 6.2668654,
+  "lon": -75.5423047,
+  "tags": {
+    "addr:city": "Comuna 3 - Manrique",
+    "addr:housenumber": "28A-26",
+    "addr:street": "Calle 71B",
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Drogueria Dallas"
+  }
+},
+{
+  "type": "node",
+  "id": 5481761419,
+  "lat": 6.2388820,
+  "lon": -75.5937655,
+  "tags": {
+    "addr:street": "Calle 33",
+    "amenity": "clinic",
+    "name": "Suxi Medical",
+    "source": "Kaart Ground Survey 2018"
+  }
+},
+{
+  "type": "node",
+  "id": 5489903988,
+  "lat": 6.2391753,
+  "lon": -75.5862165,
+  "tags": {
+    "addr:street": "Calle 33",
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Lineas Hospitalarias",
+    "source": "Kaart Ground Survey 2018"
+  }
+},
+{
+  "type": "node",
+  "id": 5494779522,
+  "lat": 6.2391321,
+  "lon": -75.5946754,
+  "tags": {
+    "addr:street": "Calle 33 A",
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Incodol"
+  }
+},
+{
+  "type": "node",
+  "id": 5494780321,
+  "lat": 6.2595678,
+  "lon": -75.5991632,
+  "tags": {
+    "addr:housenumber": "48A-16",
+    "addr:street": "Carrera 81 A",
+    "amenity": "clinic",
+    "name:en": "Dr Luz Naranjo"
+  }
+},
+{
+  "type": "node",
+  "id": 5532355994,
+  "lat": 6.2097609,
+  "lon": -75.5731943,
+  "tags": {
+    "addr:street": "Calle 8",
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "healthcare:speciality": "oncology",
+    "name": "Clínica de Oncología Astorga",
+    "opening_hours": "Mo-Fr 07:00-20:00"
+  }
+},
+{
+  "type": "node",
+  "id": 5545722855,
+  "lat": 6.2666715,
+  "lon": -75.5447521,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "centro de salud raizal"
+  }
+},
+{
+  "type": "node",
+  "id": 7195315958,
+  "lat": 6.2521768,
+  "lon": -75.5982253,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Salud en casa EPS Sura",
+    "operator": "Sura",
+    "operator:type": "private"
+  }
+},
+{
+  "type": "node",
+  "id": 7337809235,
+  "lat": 6.2641273,
+  "lon": -75.5971144,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "SURA Comfama"
+  }
+},
+{
+  "type": "node",
+  "id": 7351140381,
+  "lat": 6.2682175,
+  "lon": -75.5685643,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "IPS Universitaria"
+  }
+},
+{
+  "type": "node",
+  "id": 7351231363,
+  "lat": 6.2300922,
+  "lon": -75.5684574,
+  "tags": {
+    "addr:city": "Medellín",
+    "addr:housenumber": "Carrera 43",
+    "addr:street": "Calle 30-28",
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "healthcare:speciality": "ophthalmology",
+    "name": "Salud Visual San Diego",
+    "opening_hours": "Mo-Fr 07:00-20:00, Sa 07:00-13:00"
+  }
+},
+{
+  "type": "node",
+  "id": 7412089897,
+  "lat": 6.2507081,
+  "lon": -75.5501440,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Centro de salud Enciso"
+  }
+},
+{
+  "type": "node",
+  "id": 7808521292,
+  "lat": 6.2651087,
+  "lon": -75.5642409,
+  "tags": {
+    "addr:city": "Medellín",
+    "addr:street": "Calle 67A#51B 44",
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Centro Médico San Camilo",
+    "phone": "+57 3018226"
+  }
+},
+{
+  "type": "node",
+  "id": 7808521294,
+  "lat": 6.2665540,
+  "lon": -75.5639100,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "IPS universitaria Leon XIII"
+  }
+},
+{
+  "type": "node",
+  "id": 7855091947,
+  "lat": 6.2102283,
+  "lon": -75.5763173,
+  "tags": {
+    "amenity": "hospital",
+    "building": "hospital",
+    "name": "Centro de Fracturas Cefra S.a.",
+    "phone": "+57 4 2665582"
+  }
+},
+{
+  "type": "node",
+  "id": 7855091949,
+  "lat": 6.2505888,
+  "lon": -75.5500230,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Metrosalud Enciso",
+    "phone": "+57 4 2842434",
+    "phone1": "+57 4 2842554"
+  }
+},
+{
+  "type": "node",
+  "id": 7855091954,
+  "lat": 6.2375294,
+  "lon": -75.5413127,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Centro de Salud Villatina",
+    "phone": "+57 4 2691461;+57 4 2272674"
+  }
+},
+{
+  "type": "node",
+  "id": 7855091955,
+  "lat": 6.2616180,
+  "lon": -75.5616611,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Torre Medica de Prado",
+    "phone": "+57 4 2118484"
+  }
+},
+{
+  "type": "node",
+  "id": 7855091956,
+  "lat": 6.2694623,
+  "lon": -75.5588883,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Fracturas y Rayos X de Antioquia",
+    "phone": "+57 4 2306844;+57 4 2304586;+57 4 8618232"
+  }
+},
+{
+  "type": "node",
+  "id": 7855091957,
+  "lat": 6.2609231,
+  "lon": -75.5615089,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Hospital Infantil Clinica Noel",
+    "phone": "+57 4 2636046;+57 4 8636046"
+  }
+},
+{
+  "type": "node",
+  "id": 7855091960,
+  "lat": 6.2747449,
+  "lon": -75.5662117,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Centro de Salud Moravia",
+    "phone": "+57 4 2126612",
+    "phone1": "+57 4 2630080"
+  }
+},
+{
+  "type": "node",
+  "id": 7855091961,
+  "lat": 6.2486808,
+  "lon": -75.5652647,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "CENTRO POLICLÍNICO S.A.",
+    "phone": "+57 4 2515867;+57 4 2515861"
+  }
+},
+{
+  "type": "node",
+  "id": 7855091962,
+  "lat": 6.2577220,
+  "lon": -75.5648280,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Centro Medico y Odont. Oralser",
+    "phone": "+57 4 2845138"
+  }
+},
+{
+  "type": "node",
+  "id": 8599006342,
+  "lat": 6.2556262,
+  "lon": -75.5642377,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "healthcare:speciality": "general;dentist;family_medicine",
+    "name": "UAB Villanueva",
+    "opening_hours": "Mo-Fr 06:10-19:14; Sa 07:00-13:31",
+    "operator": "IPS Virrey Solís",
+    "operator:type": "private",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 8836120221,
+  "lat": 6.2705286,
+  "lon": -75.5765702,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "healthcare:speciality": "general;dentist;orthodontics;vaccination",
+    "name": "UAB Florida",
+    "opening_hours": "Mo-Fr 06:10-19:20",
+    "operator": "IPS Virrey Solís",
+    "operator:type": "private"
+  }
+},
+{
+  "type": "node",
+  "id": 9104462621,
+  "lat": 6.2586175,
+  "lon": -75.5859105,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "operator": "Nueva EPS"
+  }
+},
+{
+  "type": "node",
+  "id": 9106677129,
+  "lat": 6.2397510,
+  "lon": -75.5799335,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "operator": "Clinica Vida"
+  }
+},
+{
+  "type": "node",
+  "id": 9106677132,
+  "lat": 6.2382898,
+  "lon": -75.5968081,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Salud Integral el Nogal"
+  }
+},
+{
+  "type": "node",
+  "id": 9106677141,
+  "lat": 6.2389021,
+  "lon": -75.5931744,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Grupo Coomeva"
+  }
+},
+{
+  "type": "node",
+  "id": 9108805999,
+  "lat": 6.2535060,
+  "lon": -75.5836973,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Coopsana Sura"
+  }
+},
+{
+  "type": "node",
+  "id": 9120288020,
+  "lat": 6.2559753,
+  "lon": -75.5895490,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Metrosalud Estadio"
+  }
+},
+{
+  "type": "node",
+  "id": 9131147058,
+  "lat": 6.2509058,
+  "lon": -75.6027051,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Savia Salud"
+  }
+},
+{
+  "type": "node",
+  "id": 9146859976,
+  "lat": 6.2517335,
+  "lon": -75.6066415,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "IPS Prosalco San Juan"
+  }
+},
+{
+  "type": "node",
+  "id": 9163802075,
+  "lat": 6.2513760,
+  "lon": -75.6066919,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "EPS Sura San Juan"
+  }
+},
+{
+  "type": "node",
+  "id": 9211386974,
+  "lat": 6.2634902,
+  "lon": -75.5867116,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Punt Fin EPS Seguridad Industrial"
+  }
+},
+{
+  "type": "node",
+  "id": 9225456014,
+  "lat": 6.2383710,
+  "lon": -75.6061860,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Drogeria Santa  Gema"
+  }
+},
+{
+  "type": "node",
+  "id": 9359329304,
+  "lat": 6.1577475,
+  "lon": -75.6145459,
+  "tags": {
+    "amenity": "clinic",
+    "name": "Centro Especializado Sabana"
+  }
+},
+{
+  "type": "node",
+  "id": 9583400017,
+  "lat": 6.2505903,
+  "lon": -75.5991446,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "Salud Total EPS",
+    "survey:date": "2022-03-16",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 9752901442,
+  "lat": 6.2556022,
+  "lon": -75.5565512,
+  "tags": {
+    "amenity": "hospital",
+    "emergency": "yes",
+    "name": "Clínica El Rosario"
+  }
+},
+{
+  "type": "node",
+  "id": 9904785317,
+  "lat": 6.2449911,
+  "lon": -75.5611568,
+  "tags": {
+    "addr:street": "Carrera 40",
+    "amenity": "clinic",
+    "name": "Tranvia Plaza"
+  }
+},
+{
+  "type": "node",
+  "id": 11261337154,
+  "lat": 6.2041283,
+  "lon": -75.5769617,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "healthcare:speciality": "dental_oral_maxillo_facial_surgery",
+    "name": "Clínica Odontológica Oral Láser",
+    "website": "https://oralaser.com.co/"
+  }
+},
+{
+  "type": "node",
+  "id": 11270285734,
+  "lat": 6.2068143,
+  "lon": -75.5709410,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "CediMed"
+  }
+},
+{
+  "type": "node",
+  "id": 11270285735,
+  "lat": 6.2233270,
+  "lon": -75.5749033,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "healthcare:speciality": "ophthalmology",
+    "name": "Clínica Clofán",
+    "website": "https://www.clofan.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 11270285740,
+  "lat": 6.2064259,
+  "lon": -75.5701608,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "healthcare:speciality": "plastic_surgery",
+    "name": "IQ InterQuirófanos"
+  }
+},
+{
+  "type": "node",
+  "id": 12389361456,
+  "lat": 6.1529237,
+  "lon": -75.5377568,
+  "tags": {
+    "addr:city": "Envigado",
+    "addr:housenumber": "Via Las Palmas",
+    "addr:street": "Km 15+990 Mall Le Mont Comercio, Consultorio 0335",
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "healthcare:speciality": "medicina_estética;botox;tricologia;radiesse;tensamax",
+    "name": "Dra Diamond - Medicina Estética y Tricologia",
+    "opening_hours": "Mo-Sa 08:00-17:00",
+    "website": "https://www.instagram.com/dra_diamond"
+  }
+},
+{
+  "type": "node",
+  "id": 12875618478,
+  "lat": 6.2379517,
+  "lon": -75.5714719,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "E.S.E Hospital La María"
+  }
+},
+{
+  "type": "node",
+  "id": 13097392510,
+  "lat": 6.2060078,
+  "lon": -75.5600676,
+  "tags": {
+    "addr:city": "Medellín",
+    "addr:housenumber": "7A-300",
+    "addr:street": "Carrera 30",
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "healthcare:speciality": "ophthalmology",
+    "name": "Clínica Oftalmológica de Medellín",
+    "short_name": "COM",
+    "website": "https://clinicaoftalmologicamedellin.com"
+  }
+},
+{
+  "type": "node",
+  "id": 13112454895,
+  "lat": 6.2448489,
+  "lon": -75.5940696,
+  "tags": {
+    "amenity": "clinic",
+    "check_date": "2025-09-01",
+    "healthcare": "clinic",
+    "name": "Neurovida"
+  }
+},
+{
+  "type": "node",
+  "id": 13118665151,
+  "lat": 6.2390913,
+  "lon": -75.5877455,
+  "tags": {
+    "amenity": "clinic",
+    "check_date": "2025-09-03",
+    "healthcare": "clinic",
+    "healthcare:speciality": "ophthalmology",
+    "name": "Óptica Visión Integrados"
+  }
+},
+{
+  "type": "way",
+  "id": 32774024,
+  "center": {
+    "lat": 6.2622682,
+    "lon": -75.5644730
+  },
+  "nodes": [
+    369119497,
+    369119496,
+    369119505,
+    369119493,
+    369119497
+  ],
+  "tags": {
+    "amenity": "hospital",
+    "name": "Pabellón de Salud Mental"
+  }
+},
+{
+  "type": "way",
+  "id": 32774053,
+  "center": {
+    "lat": 6.2638860,
+    "lon": -75.5655879
+  },
+  "nodes": [
+    369120126,
+    369120119,
+    369120120,
+    369120121,
+    369120122,
+    9738686020,
+    9738686021,
+    9738685992,
+    9738686019,
+    9738686018,
+    369120123,
+    369120124,
+    369120125,
+    369120126
+  ],
+  "tags": {
+    "amenity": "clinic",
+    "building": "yes",
+    "emergency": "yes",
+    "healthcare": "hospital",
+    "healthcare:speciality": "clinic",
+    "name": "Policlínica"
+  }
+},
+{
+  "type": "way",
+  "id": 109200128,
+  "center": {
+    "lat": 6.2559621,
+    "lon": -75.5634572
+  },
+  "nodes": [
+    1250746216,
+    1250746190,
+    5867364785,
+    5867361384,
+    5867364786,
+    1250746243,
+    1250746180,
+    1250746231,
+    1250746216
+  ],
+  "tags": {
+    "amenity": "hospital",
+    "building": "yes",
+    "name": "Clínica Victoriana"
+  }
+},
+{
+  "type": "way",
+  "id": 120374270,
+  "center": {
+    "lat": 6.2417488,
+    "lon": -75.5537389
+  },
+  "nodes": [
+    1349846415,
+    1349846414,
+    1349846406,
+    1349846413,
+    1349846415
+  ],
+  "tags": {
+    "addr:city": "Comuna 9 - Buenos Aires",
+    "amenity": "hospital",
+    "building": "hospital",
+    "building:flats": "8",
+    "building:levels": "8",
+    "healthcare": "hospital",
+    "name": "Unidad Hospitalaria de Buenos Aires",
+    "operator": "Metrosalud"
+  }
+},
+{
+  "type": "way",
+  "id": 122726424,
+  "center": {
+    "lat": 6.2683059,
+    "lon": -75.5583297
+  },
+  "nodes": [
+    1370561720,
+    1370561731,
+    1370561729,
+    1370561726,
+    11141667014,
+    1370561727,
+    1370561728,
+    1370561730,
+    1370561725,
+    1370561724,
+    1370561713,
+    1371904410,
+    1370561712,
+    1371904401,
+    1370561717,
+    1370561720
+  ],
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Hospital Concejo de Medellín",
+    "phone": "+57 4 2637000 - 2635424"
+  }
+},
+{
+  "type": "way",
+  "id": 123992407,
+  "center": {
+    "lat": 6.2427225,
+    "lon": -75.5572768
+  },
+  "nodes": [
+    1381252399,
+    1381252394,
+    1381252389,
+    1381252385,
+    1381252373,
+    1381252365,
+    1381252396,
+    7396233369,
+    1381252399
+  ],
+  "tags": {
+    "addr:city": "Comuna 9 - Buenos Aires",
+    "addr:street": "Calle 49",
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "healthcare:speciality": "intensive;general;emergency;maternity;internal;paediatrics;surgery;radiology",
+    "name": "Clínica El Sagrado Corazón"
+  }
+},
+{
+  "type": "way",
+  "id": 151943833,
+  "center": {
+    "lat": 6.2460175,
+    "lon": -75.6197524
+  },
+  "nodes": [
+    1647837937,
+    1647837932,
+    1647837930,
+    1647837933,
+    1647837937
+  ],
+  "tags": {
+    "amenity": "hospital",
+    "building": "yes",
+    "name": "Centro de Salud Villa Laura",
+    "operator": "Metro Salud"
+  }
+},
+{
+  "type": "way",
+  "id": 179221628,
+  "center": {
+    "lat": 6.2773157,
+    "lon": -75.5797119
+  },
+  "nodes": [
+    1895713899,
+    7783590196,
+    7783590195,
+    1895713900,
+    1895713895,
+    7783590194,
+    7783590188,
+    7783590189,
+    7783590187,
+    7783590193,
+    1895713893,
+    6810439476,
+    1895713898,
+    6228575332,
+    6228575329,
+    1895713899
+  ],
+  "tags": {
+    "addr:city": "Medellin",
+    "addr:housenumber": "69-240",
+    "addr:street": "Calle 78B",
+    "amenity": "hospital",
+    "description": "El Hospital Pablo Tobón Uribe es una institución hospitalaria de carácter privado, de origen testamentario, sin ánimo de lucro. Se encuentra ubicado en el barrio Córdoba, en la comuna Robledo de la Ciudad de Medellín, Colombia. Es una de las instituciones",
+    "emergency": "yes",
+    "healthcare": "hospital",
+    "name": "Hospital Pablo Tobón Uribe",
+    "operator": "Hospital Pablo Tobón Uribe",
+    "operator:type": "private",
+    "website": "www.hptu.org.co"
+  }
+},
+{
+  "type": "way",
+  "id": 220964665,
+  "center": {
+    "lat": 6.2289005,
+    "lon": -75.5692414
+  },
+  "nodes": [
+    2300293089,
+    2300293095,
+    5337626639,
+    2300293111,
+    2300293080,
+    5337626640,
+    2300293093,
+    2300293071,
+    2300293105,
+    2300293073,
+    2300293085,
+    2300293076,
+    2300293064,
+    2300293069,
+    2300293089
+  ],
+  "tags": {
+    "addr:city": "Medellín",
+    "addr:housenumber": "Carrera 43",
+    "addr:street": "Calle 29-25",
+    "air_conditioning": "no",
+    "amenity": "clinic",
+    "emergency": "no",
+    "healthcare": "clinic",
+    "healthcare:speciality": "ophthalmology",
+    "name": "Clínica de Oftalmología Sandiego",
+    "opening_hours": "Mo-Fr 07:00-18:00, Sa 07:00-14:00"
+  }
+},
+{
+  "type": "way",
+  "id": 236153791,
+  "center": {
+    "lat": 6.2224098,
+    "lon": -75.5748752
+  },
+  "nodes": [
+    2442167843,
+    9758160452,
+    2442167844,
+    9758160444,
+    5482976574,
+    9758160446,
+    2442167846,
+    2442167843
+  ],
+  "tags": {
+    "addr:housenumber": "44-25",
+    "addr:street": "Carrera 48",
+    "amenity": "hospital",
+    "building": "hospital",
+    "emergency": "yes",
+    "healthcare": "hospital",
+    "healthcare:speciality": "maternity",
+    "name": "Clínica del Prado - Sede Ciudad del Río",
+    "source": "Kaart Ground Survey 2018"
+  }
+},
+{
+  "type": "way",
+  "id": 271284725,
+  "center": {
+    "lat": 6.2793880,
+    "lon": -75.5846937
+  },
+  "nodes": [
+    2762414047,
+    7604912058,
+    7604912059,
+    5181839896,
+    5181839895,
+    5181839894,
+    5181839893,
+    5181839892,
+    2762414039,
+    5181839876,
+    5181839877,
+    5181839878,
+    2762414034,
+    5181839879,
+    5181839880,
+    4386637212,
+    2762414037,
+    5181839883,
+    4666311826,
+    5181839882,
+    9750208342,
+    4666311827,
+    7604912060,
+    7604912056,
+    7604912057,
+    6805304862,
+    2762414047
+  ],
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Clínica Cardio Vid"
+  }
+},
+{
+  "type": "way",
+  "id": 273610634,
+  "center": {
+    "lat": 6.2232213,
+    "lon": -75.5748487
+  },
+  "nodes": [
+    9758160453,
+    9758160431,
+    2784439630,
+    2784439634,
+    9758160454,
+    9758160453
+  ],
+  "tags": {
+    "amenity": "clinic",
+    "building": "yes",
+    "emergency": "no",
+    "healthcare": "clinic",
+    "name": "Torre Médica Ciudad del Rio",
+    "phone": "+57 4 5897843"
+  }
+},
+{
+  "type": "way",
+  "id": 274845654,
+  "center": {
+    "lat": 6.2769431,
+    "lon": -75.5823273
+  },
+  "nodes": [
+    2795142832,
+    2795142828,
+    2795142827,
+    2795142825,
+    2795142822,
+    2795142821,
+    2795142829,
+    2795142834,
+    2795142837,
+    5181839891,
+    5181839890,
+    9747622652,
+    5181839889,
+    5181839888,
+    5181839887,
+    2795142836,
+    9747622661,
+    2795142832
+  ],
+  "tags": {
+    "amenity": "hospital",
+    "emergency": "yes",
+    "healthcare": "hospital",
+    "name": "Hospital Universitario Pontificia Bolivariana"
+  }
+},
+{
+  "type": "way",
+  "id": 294740282,
+  "center": {
+    "lat": 6.1785787,
+    "lon": -75.5834448
+  },
+  "nodes": [
+    2983572538,
+    2983572540,
+    2983572539,
+    2983572537,
+    2983572538
+  ],
+  "tags": {
+    "amenity": "hospital",
+    "emergency": "yes",
+    "healthcare": "hospital",
+    "name": "Clínica las Americas del Sur",
+    "website": "https://clinicalasamericas.lasamericas.com.co/Sedes/Sede-Sur"
+  }
+},
+{
+  "type": "way",
+  "id": 314642349,
+  "center": {
+    "lat": 6.1879749,
+    "lon": -75.5784994
+  },
+  "nodes": [
+    3206869986,
+    3206869987,
+    3206869988,
+    3206869989,
+    3206869990,
+    3206869991,
+    3206869992,
+    3206869986
+  ],
+  "tags": {
+    "addr:city": "Medellin",
+    "addr:housenumber": "44-6",
+    "addr:postcode": "050022",
+    "addr:street": "Calle 17 Sur",
+    "amenity": "hospital",
+    "ele": "1548",
+    "emergency": "no",
+    "name": "Clínica del Campestre",
+    "phone": "+57 (4) 444-2006",
+    "website": "https://www.clinicadelcampestre.com/",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 343221170,
+  "center": {
+    "lat": 6.2628257,
+    "lon": -75.5652106
+  },
+  "nodes": [
+    369117974,
+    369118045,
+    369123735,
+    369118666,
+    3501008946,
+    7786904017,
+    3501008947,
+    3501008948,
+    9396900226,
+    7786904015,
+    9738685960,
+    3501008949,
+    9387331641,
+    369117973,
+    369117974
+  ],
+  "tags": {
+    "alt_name": "Hospital San Vicente Fundacion",
+    "amenity": "hospital",
+    "emergency": "yes",
+    "healthcare": "hospital",
+    "name": "Hospital Universitario San Vicente Paul"
+  }
+},
+{
+  "type": "way",
+  "id": 344812014,
+  "center": {
+    "lat": 6.2423025,
+    "lon": -75.6186297
+  },
+  "nodes": [
+    3515414043,
+    3515414044,
+    3515414045,
+    3515414046,
+    3515414043
+  ],
+  "tags": {
+    "addr:city": "Medellin",
+    "addr:housenumber": "34AA-01",
+    "addr:street": "Carrera 93",
+    "amenity": "hospital",
+    "name": "Carisma Centro de Rehabilitación"
+  }
+},
+{
+  "type": "way",
+  "id": 349899327,
+  "center": {
+    "lat": 6.1895845,
+    "lon": -75.5952423
+  },
+  "nodes": [
+    3556855494,
+    3556855495,
+    3556855496,
+    3556855497,
+    3556855494
+  ],
+  "tags": {
+    "amenity": "hospital",
+    "name": "Cemev IPS Itagüí"
+  }
+},
+{
+  "type": "way",
+  "id": 355199716,
+  "center": {
+    "lat": 6.2628455,
+    "lon": -75.6042611
+  },
+  "nodes": [
+    3608091609,
+    3608091608,
+    3608091606,
+    3608091607,
+    3608091609
+  ],
+  "tags": {
+    "amenity": "hospital",
+    "building": "yes",
+    "healthcare": "hospital",
+    "name": "Centro de Salud Santa Rosa de Lima",
+    "operator": "Metro Salud"
+  }
+},
+{
+  "type": "way",
+  "id": 377766324,
+  "center": {
+    "lat": 6.1697834,
+    "lon": -75.6127429
+  },
+  "nodes": [
+    3811577543,
+    5509803431,
+    5529668417,
+    5529668418,
+    5529668420,
+    5529668419,
+    5529668528,
+    5529668525,
+    5529668523,
+    5529668522,
+    5529668521,
+    5529668524,
+    5529668527,
+    5529668526,
+    5509803430,
+    5529668531,
+    5529668530,
+    5529668529,
+    3811577543
+  ],
+  "tags": {
+    "addr:street": "Carrera 49",
+    "amenity": "clinic",
+    "building": "yes",
+    "name": "Clínica Antioquia",
+    "opening_hours": "24/7",
+    "source": "Kaart Ground Survey 2018"
+  }
+},
+{
+  "type": "way",
+  "id": 407180366,
+  "center": {
+    "lat": 6.2332848,
+    "lon": -75.6047745
+  },
+  "nodes": [
+    3811562853,
+    12632094518,
+    7336960574,
+    4092155939,
+    4092155931,
+    4092155930,
+    4092155932,
+    3811562852,
+    3811562853
+  ],
+  "tags": {
+    "amenity": "clinic",
+    "building": "yes",
+    "healthcare": "clinic",
+    "name": "Dinámica IPS"
+  }
+},
+{
+  "type": "way",
+  "id": 434580936,
+  "center": {
+    "lat": 6.2532509,
+    "lon": -75.5740963
+  },
+  "nodes": [
+    4326027769,
+    4326027750,
+    4326027698,
+    4326027697,
+    4326027691,
+    4326027682,
+    4326027686,
+    4326027637,
+    4326027680,
+    4326027676,
+    4326027722,
+    4326027726,
+    4326027727,
+    4326027770,
+    4326027757,
+    4326027785,
+    4326027769
+  ],
+  "tags": {
+    "addr:city": "Medellin",
+    "addr:street": "Carrera 56 C",
+    "amenity": "clinic",
+    "building": "yes",
+    "building:levels": "2",
+    "height": "4.8",
+    "name": "Fundación Medico Preventiva"
+  }
+},
+{
+  "type": "way",
+  "id": 434580992,
+  "center": {
+    "lat": 6.2533453,
+    "lon": -75.5742451
+  },
+  "nodes": [
+    4326027770,
+    4326027727,
+    4326027726,
+    4326027745,
+    4326027744,
+    4326027779,
+    4326027770
+  ],
+  "tags": {
+    "amenity": "clinic",
+    "building": "yes",
+    "building:levels": "1"
+  }
+},
+{
+  "type": "way",
+  "id": 435205181,
+  "center": {
+    "lat": 6.1938575,
+    "lon": -75.5575023
+  },
+  "nodes": [
+    4331429826,
+    4331429828,
+    4331429829,
+    4331429830,
+    8831344943,
+    8831344940,
+    8831344942,
+    8831344941,
+    4331429831,
+    8831344938,
+    8831344939,
+    4331429832,
+    4331429833,
+    4331429834,
+    4331429835,
+    4331429836,
+    4331429837,
+    4331429838,
+    4331429826
+  ],
+  "tags": {
+    "addr:city": "Medellín",
+    "addr:housenumber": "2 Sur - 85",
+    "addr:postcode": "050022",
+    "addr:street": "Carrera 20",
+    "amenity": "hospital",
+    "emergency": "yes",
+    "name": "Clínica El Rosario",
+    "phone": "+57 4 326 91 00",
+    "website": "https://www.clinicaelrosario.com/"
+  }
+},
+{
+  "type": "way",
+  "id": 437428683,
+  "center": {
+    "lat": 6.2630107,
+    "lon": -75.5930623
+  },
+  "nodes": [
+    4352431332,
+    4352431330,
+    4352431327,
+    4352431325,
+    4352431323,
+    4352431321,
+    4352431322,
+    4352431324,
+    4352431326,
+    4352431328,
+    4352431331,
+    4352431333,
+    4352431335,
+    4352431337,
+    4352431339,
+    4352431341,
+    4352431343,
+    4352431344,
+    4352431342,
+    4352431340,
+    4352431338,
+    4352431336,
+    4352431334,
+    4352431332
+  ],
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Hospital del Ejercito Nacional Cuarta Brigada"
+  }
+},
+{
+  "type": "way",
+  "id": 441794789,
+  "center": {
+    "lat": 6.2759926,
+    "lon": -75.5881332
+  },
+  "nodes": [
+    2750469759,
+    2757540981,
+    2757540971,
+    2757540973,
+    2750469759
+  ],
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Centro de Salud de Robledo"
+  }
+},
+{
+  "type": "way",
+  "id": 453806993,
+  "center": {
+    "lat": 6.2404441,
+    "lon": -75.5916060
+  },
+  "nodes": [
+    4504926332,
+    4504926323,
+    4504926321,
+    4504926305,
+    4504926319,
+    4504926332
+  ],
+  "tags": {
+    "addr:city": "Medellín",
+    "addr:housenumber": "Transversal 39A",
+    "addr:street": "Circular 70A-72",
+    "amenity": "clinic",
+    "building": "yes",
+    "healthcare": "clinic",
+    "healthcare:speciality": "general",
+    "name": "Centro Clinico Hospitalario SALUTEM"
+  }
+},
+{
+  "type": "way",
+  "id": 542648397,
+  "center": {
+    "lat": 6.2487699,
+    "lon": -75.5606986
+  },
+  "nodes": [
+    5246187400,
+    5246187399,
+    5246187398,
+    5246187397,
+    5246187396,
+    5246187395,
+    5246187394,
+    5246187393,
+    5246187400
+  ],
+  "tags": {
+    "amenity": "clinic",
+    "name": "Clínica Diagnóstica Especializada Congregación Mariana"
+  }
+},
+{
+  "type": "way",
+  "id": 542648400,
+  "center": {
+    "lat": 6.2522961,
+    "lon": -75.5625835
+  },
+  "nodes": [
+    5246187822,
+    5246187821,
+    5246187420,
+    5246187419,
+    9650492156,
+    5246187822
+  ],
+  "tags": {
+    "addr:city": "Medellín",
+    "addr:country": "CO",
+    "addr:housenumber": "45-121",
+    "addr:state": "ANT",
+    "addr:street": "Calle 56",
+    "amenity": "clinic",
+    "name": "Centro de Fracturas La Orienta"
+  }
+},
+{
+  "type": "way",
+  "id": 543112930,
+  "center": {
+    "lat": 6.2699394,
+    "lon": -75.5367617
+  },
+  "nodes": [
+    5250445653,
+    7357020466,
+    5250445654,
+    5243751778,
+    5250445655,
+    12650799542,
+    10023259881,
+    10023259882,
+    10023259883,
+    10023259884,
+    10023259885,
+    10023259880,
+    5250445656,
+    10023259886,
+    5250445653
+  ],
+  "tags": {
+    "addr:city": "Comuna 3 - Manrique",
+    "addr:housenumber": "75c-06",
+    "addr:street": "Carrera 25",
+    "amenity": "hospital",
+    "emergency": "no",
+    "healthcare": "hospital",
+    "healthcare:speciality": "general",
+    "name": "Metrosalud La Cruz",
+    "operator": "Metrosalud"
+  }
+},
+{
+  "type": "way",
+  "id": 570311101,
+  "center": {
+    "lat": 6.2152258,
+    "lon": -75.5714952
+  },
+  "nodes": [
+    5483002826,
+    5483002825,
+    5483002824,
+    5483002823,
+    5483002822,
+    5483002821,
+    5483002220,
+    5483002219,
+    5483002218,
+    5483002217,
+    5483002216,
+    5483002826
+  ],
+  "tags": {
+    "addr:street": "Carrera 43B",
+    "amenity": "hospital",
+    "building": "hospital",
+    "name": "Santa Ana Hospital Infantil",
+    "source": "Kaart Ground Survey 2018"
+  }
+},
+{
+  "type": "way",
+  "id": 572096397,
+  "center": {
+    "lat": 6.1908238,
+    "lon": -75.5777406
+  },
+  "nodes": [
+    5496804936,
+    5496804933,
+    7291424468,
+    5496804935,
+    5496804936
+  ],
+  "tags": {
+    "addr:street": "Calle 16 Sur",
+    "amenity": "clinic",
+    "building": "yes",
+    "healthcare": "clinic",
+    "name": "Clinica Sanitas",
+    "source": "Kaart Ground Survey 2018"
+  }
+},
+{
+  "type": "way",
+  "id": 573377183,
+  "center": {
+    "lat": 6.2280627,
+    "lon": -75.5770215
+  },
+  "nodes": [
+    5507109077,
+    5507109074,
+    5507109075,
+    5507109076,
+    5507109077
+  ],
+  "tags": {
+    "addr:street": "Carrera 52",
+    "amenity": "clinic",
+    "building": "yes",
+    "healthcare": "clinic",
+    "name": "Centro Logístico Humanitario Cruz Roja Colombiana",
+    "source": "Kaart Ground Survey 2018"
+  }
+},
+{
+  "type": "way",
+  "id": 588401275,
+  "center": {
+    "lat": 6.2287433,
+    "lon": -75.5740970
+  },
+  "nodes": [
+    5619777319,
+    5619777923,
+    5619777320,
+    5619777921,
+    5619777922,
+    5619777319
+  ],
+  "tags": {
+    "amenity": "hospital",
+    "description": "Clinica SURA industriales",
+    "healthcare": "hospital",
+    "healthcare:speciality": "general;dentistry;orthopaedics",
+    "name": "Salud SURA",
+    "operator": "Sura"
+  }
+},
+{
+  "type": "way",
+  "id": 588402164,
+  "center": {
+    "lat": 6.2271919,
+    "lon": -75.5744281
+  },
+  "nodes": [
+    5619784290,
+    5619784291,
+    5619784292,
+    5619784293,
+    5619784290
+  ],
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "healthcare:speciality": "general",
+    "name": "Savia salud EPS"
+  }
+},
+{
+  "type": "way",
+  "id": 620214382,
+  "center": {
+    "lat": 6.2500281,
+    "lon": -75.5913828
+  },
+  "nodes": [
+    5860034132,
+    5860034133,
+    5860034134,
+    5860034135,
+    5860034132
+  ],
+  "tags": {
+    "addr:city": "Comuna 11 - Laureles-Estadio",
+    "addr:housenumber": "CRA 72",
+    "addr:street": "Calle 44-57",
+    "amenity": "clinic",
+    "building": "yes",
+    "emergency": "no",
+    "healthcare": "clinic",
+    "healthcare:speciality": "ophthalmology",
+    "name": "Florida Nueva"
+  }
+},
+{
+  "type": "way",
+  "id": 682788559,
+  "center": {
+    "lat": 6.2668359,
+    "lon": -75.5654957
+  },
+  "nodes": [
+    6394920462,
+    6394920461,
+    6394920460,
+    6394920459,
+    7808521295,
+    6394920458,
+    6394920457,
+    6394920456,
+    6394920455,
+    6394920454,
+    6394920453,
+    6394920452,
+    6394920451,
+    6394920462
+  ],
+  "tags": {
+    "amenity": "hospital",
+    "building": "yes",
+    "healthcare": "hospital",
+    "name": "Urgencias Leon XIII"
+  }
+},
+{
+  "type": "way",
+  "id": 784629859,
+  "center": {
+    "lat": 6.2116754,
+    "lon": -75.5598500
+  },
+  "nodes": [
+    7330180747,
+    7330180748,
+    7330180749,
+    7330180750,
+    7330180751,
+    7330180752,
+    7330180747
+  ],
+  "tags": {
+    "amenity": "clinic",
+    "building": "yes",
+    "healthcare": "clinic",
+    "healthcare:speciality": "dental_oral_maxillo_facial_surgery",
+    "name": "Balance"
+  }
+},
+{
+  "type": "way",
+  "id": 784631519,
+  "center": {
+    "lat": 6.1824018,
+    "lon": -75.5646136
+  },
+  "nodes": [
+    7330191790,
+    7330191791,
+    7330191792,
+    7330191793,
+    7330191790
+  ],
+  "tags": {
+    "amenity": "clinic",
+    "building": "yes",
+    "healthcare": "clinic",
+    "healthcare:speciality": "plastic_surgery",
+    "name": "Clínica Bioforma",
+    "website": "https://www.bioforma.com.co/"
+  }
+},
+{
+  "type": "way",
+  "id": 784638254,
+  "center": {
+    "lat": 6.2420170,
+    "lon": -75.5556743
+  },
+  "nodes": [
+    7330243889,
+    7330243890,
+    7330243891,
+    7330243892,
+    7330243889
+  ],
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "healthcare:speciality": "general;dentistry;ophthalmology;physiatry;maternity",
+    "name": "Centro medico Buenos Aires",
+    "operator": "Particular",
+    "operator:type": "private"
+  }
+},
+{
+  "type": "way",
+  "id": 784971695,
+  "center": {
+    "lat": 6.2247513,
+    "lon": -75.5989123
+  },
+  "nodes": [
+    7333787712,
+    7333787713,
+    12805310796,
+    12805310787,
+    7333787714,
+    7333787715,
+    7333787718,
+    12805310801,
+    12805310804,
+    7333787727,
+    12805310802,
+    7333787732,
+    7333787733,
+    7333787734,
+    7333787735,
+    7333787736,
+    7333787737,
+    7333787738,
+    7333787739,
+    7333787740,
+    12805310789,
+    12805310790,
+    12805310791,
+    12805310788,
+    12805310792,
+    7333787712
+  ],
+  "tags": {
+    "addr:city": "Medellín",
+    "addr:housenumber": "19-38",
+    "addr:street": "Carrera 80",
+    "amenity": "clinic",
+    "building": "clinic",
+    "healthcare": "clinic"
+  }
+},
+{
+  "type": "way",
+  "id": 784976271,
+  "center": {
+    "lat": 6.2291366,
+    "lon": -75.5983056
+  },
+  "nodes": [
+    7333828050,
+    7333828051,
+    7333828052,
+    7333828053,
+    7333828054,
+    7333828055,
+    7333828056,
+    7333828057,
+    7333828058,
+    7333828059,
+    7333828060,
+    7333828061,
+    7333828062,
+    7333828063,
+    7333828064,
+    7333828065,
+    7333828050
+  ],
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Metrosalud- Unidad Hospitalaria"
+  }
+},
+{
+  "type": "way",
+  "id": 784976272,
+  "center": {
+    "lat": 6.2293909,
+    "lon": -75.5979057
+  },
+  "nodes": [
+    7333828066,
+    7333828067,
+    7333828068,
+    7333828069,
+    7333828070,
+    7333828071,
+    7333828072,
+    7333828073,
+    7333828074,
+    7333828075,
+    7333828076,
+    7333828077,
+    7333828078,
+    7333828079,
+    7333828080,
+    7333828081,
+    7333828082,
+    7333828083,
+    7333828066
+  ],
+  "tags": {
+    "addr:city": "Medellín",
+    "addr:housenumber": "77-124",
+    "addr:street": "Calle 28",
+    "amenity": "hospital",
+    "amenity_1": "pharmacy",
+    "emergency": "yes",
+    "healthcare": "hospital",
+    "name": "Metrosalud- Unidad Hospitalaria",
+    "operator": "Metrosalud"
+  }
+},
+{
+  "type": "way",
+  "id": 784981127,
+  "center": {
+    "lat": 6.2584063,
+    "lon": -75.5929938
+  },
+  "nodes": [
+    7333884641,
+    7333884642,
+    7333884643,
+    7333884644,
+    7333884641
+  ],
+  "tags": {
+    "amenity": "clinic",
+    "building": "yes",
+    "healthcare": "clinic",
+    "name": "Coopsana IPS -Sede Estadio"
+  }
+},
+{
+  "type": "way",
+  "id": 785092507,
+  "center": {
+    "lat": 6.2530114,
+    "lon": -75.5910744
+  },
+  "nodes": [
+    7335029565,
+    7335029566,
+    7335029567,
+    7335029568,
+    7335029565
+  ],
+  "tags": {
+    "addr:city": "Medellín",
+    "addr:street": "Calle 47 # 72-80",
+    "amenity": "clinic",
+    "healthcare": "alternative",
+    "name": "Centro Médico Narabema"
+  }
+},
+{
+  "type": "way",
+  "id": 785092508,
+  "center": {
+    "lat": 6.2508197,
+    "lon": -75.5911899
+  },
+  "nodes": [
+    7335029569,
+    7335029570,
+    7335029571,
+    7335029572,
+    7335029573,
+    7335029569
+  ],
+  "tags": {
+    "addr:housenumber": "Carrera 72",
+    "addr:street": "Calle 44-57",
+    "amenity": "clinic",
+    "building": "yes",
+    "healthcare": "clinic",
+    "healthcare:speciality": "ophthalmology",
+    "name": "Visión Total",
+    "opening_hours": "Mo-Fr 07:00-18:00",
+    "operator": "IPS"
+  }
+},
+{
+  "type": "way",
+  "id": 785092509,
+  "center": {
+    "lat": 6.2506291,
+    "lon": -75.5882102
+  },
+  "nodes": [
+    7335029574,
+    7335029575,
+    7335029576,
+    7335029577,
+    7335029574
+  ],
+  "tags": {
+    "addr:city": "Comuna 11 - Laureles-Estadio",
+    "addr:street": "Bulevar Libertadores de Ámerica # 44B-22",
+    "amenity": "clinic",
+    "check_date": "2025-08-31",
+    "healthcare": "clinic",
+    "healthcare:speciality": "general",
+    "name": "Coosalud EPS",
+    "operator": "Coosalud",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 785092510,
+  "center": {
+    "lat": 6.2530300,
+    "lon": -75.5887611
+  },
+  "nodes": [
+    7335029578,
+    7335029579,
+    7335029580,
+    7335029581,
+    7335029578
+  ],
+  "tags": {
+    "addr:city": "Comuna 11 - Laureles-Estadio",
+    "addr:housenumber": "Calle 47D",
+    "addr:street": "Carrera 70-95",
+    "amenity": "clinic",
+    "building": "yes",
+    "healthcare": "clinic",
+    "name": "CafeSalud",
+    "operator": "EPS"
+  }
+},
+{
+  "type": "way",
+  "id": 785117927,
+  "center": {
+    "lat": 6.2107605,
+    "lon": -75.5729357
+  },
+  "nodes": [
+    7335292683,
+    7335292684,
+    7335293085,
+    7335293086,
+    7335292683
+  ],
+  "tags": {
+    "addr:city": "Medellín",
+    "addr:housenumber": "Calle 9",
+    "addr:street": "Carrera 43C-70",
+    "amenity": "clinic",
+    "building": "yes",
+    "healthcare": "clinic",
+    "healthcare:speciality": "surgery",
+    "name": "Sofina Clinic",
+    "opening_hours": "Mo-Fr 08:00-18:00"
+  }
+},
+{
+  "type": "way",
+  "id": 785117928,
+  "center": {
+    "lat": 6.2063525,
+    "lon": -75.5700468
+  },
+  "nodes": [
+    11270285736,
+    11270285737,
+    11270285738,
+    7335293088,
+    7335293089,
+    7335293090,
+    7335293091,
+    7335293092,
+    11270285739,
+    11270285736
+  ],
+  "tags": {
+    "addr:city": "Medellín",
+    "addr:housenumber": "Calle 7",
+    "addr:street": "Carrera 39-107",
+    "amenity": "clinic",
+    "building": "yes",
+    "healthcare": "clinic",
+    "healthcare:speciality": "gynaecology;radiology;psychiatry;general",
+    "name": "Edifico Medical",
+    "opening_hours": "Mo-Sa 08:00-18:00"
+  }
+},
+{
+  "type": "way",
+  "id": 785117929,
+  "center": {
+    "lat": 6.2061937,
+    "lon": -75.5705209
+  },
+  "nodes": [
+    7335293093,
+    7335293094,
+    7335293095,
+    7335293096,
+    7335293100,
+    7335293101,
+    7335293102,
+    7335293103,
+    7335293093
+  ],
+  "tags": {
+    "addr:city": "Medellín",
+    "addr:housenumber": "Calle 7",
+    "addr:street": "Carrera 39-107",
+    "amenity": "clinic",
+    "building": "yes",
+    "healthcare": "clinic",
+    "healthcare:speciality": "surgery;gynaecology;dentistry",
+    "name": "INTERMEDICA Centro de Especialistas",
+    "opening_hours": "Mo-Sa 06:00-20:00"
+  }
+},
+{
+  "type": "way",
+  "id": 785117930,
+  "center": {
+    "lat": 6.2068064,
+    "lon": -75.5710207
+  },
+  "nodes": [
+    9789323455,
+    9789323454,
+    7335293108,
+    7335293107,
+    7335293106,
+    9789323439,
+    9789323438,
+    7335293105,
+    7335293104,
+    9789323461,
+    9789323462,
+    8862702648,
+    8862702649,
+    9789323455
+  ],
+  "tags": {
+    "addr:city": "Medellín",
+    "addr:housenumber": "Carrera 43A",
+    "addr:street": "Calle 7-50",
+    "amenity": "clinic",
+    "building": "yes",
+    "emergency": "yes",
+    "healthcare": "clinic",
+    "healthcare:speciality": "general;surgery",
+    "name": "Consultorios Clínica Medellín Torre Fundadores"
+  }
+},
+{
+  "type": "way",
+  "id": 785117931,
+  "center": {
+    "lat": 6.2065684,
+    "lon": -75.5710734
+  },
+  "nodes": [
+    7335293107,
+    7335293112,
+    9789323464,
+    9789323463,
+    7335293113,
+    9789323447,
+    7335293114,
+    8862702650,
+    7335293108,
+    7335293107
+  ],
+  "tags": {
+    "addr:city": "Medellín",
+    "addr:housenumber": "Calle 7",
+    "addr:street": "Carrera 39-197",
+    "amenity": "clinic",
+    "building": "yes",
+    "healthcare": "clinic",
+    "healthcare:speciality": "surgery",
+    "name": "INTERMEDICA Centro de Especialistas",
+    "website": "torreintermedica.com.co"
+  }
+},
+{
+  "type": "way",
+  "id": 785117932,
+  "center": {
+    "lat": 6.2064966,
+    "lon": -75.5731474
+  },
+  "nodes": [
+    7335293116,
+    7335293117,
+    7335293118,
+    7335293119,
+    7335293116
+  ],
+  "tags": {
+    "addr:city": "Medellín",
+    "addr:housenumber": "Carrera 43C",
+    "addr:street": "Calle 5-33",
+    "amenity": "clinic",
+    "building": "yes",
+    "healthcare": "clinic",
+    "name": "Laboratorio Clínico Hematológico",
+    "opening_hours": "Mo-Fr 06:15-18:30"
+  }
+},
+{
+  "type": "way",
+  "id": 785117933,
+  "center": {
+    "lat": 6.2088393,
+    "lon": -75.5747818
+  },
+  "nodes": [
+    7335293120,
+    7335293121,
+    7335293122,
+    7335293123,
+    7335293120
+  ],
+  "tags": {
+    "addr:city": "Medellín",
+    "addr:housenumber": "Carrera 45",
+    "addr:street": "Calle 6-95",
+    "amenity": "clinic",
+    "building": "yes",
+    "healthcare": "clinic",
+    "healthcare:speciality": "dialysis",
+    "name": "Umma Especialistas",
+    "opening_hours": "Mo-Fr 07:45-18:00"
+  }
+},
+{
+  "type": "way",
+  "id": 785128778,
+  "center": {
+    "lat": 6.2139529,
+    "lon": -75.5957590
+  },
+  "nodes": [
+    7335371686,
+    7335371687,
+    7335371688,
+    7335371689,
+    7335371686
+  ],
+  "tags": {
+    "addr:city": "Medellín",
+    "addr:housenumber": "Diagonal 75B",
+    "addr:street": "Avenida 80",
+    "amenity": "clinic",
+    "building": "yes",
+    "healthcare": "clinic",
+    "healthcare:speciality": "oncology;general;surgery;paediatrics;dermatology;cardiology",
+    "name": "Torre Médica Las Américas",
+    "website": "https://torremedica.lasamericas.com.co/"
+  }
+},
+{
+  "type": "way",
+  "id": 785147487,
+  "center": {
+    "lat": 6.2430592,
+    "lon": -75.5942378
+  },
+  "nodes": [
+    7335539976,
+    7335539977,
+    7335539978,
+    7335539979,
+    7335539976
+  ],
+  "tags": {
+    "addr:city": "Medellín",
+    "addr:housenumber": "Transversal 39",
+    "addr:street": "Circular 73",
+    "amenity": "clinic",
+    "building": "yes",
+    "healthcare": "clinic",
+    "healthcare:speciality": "cardiology",
+    "name": "Instituto del Corazón",
+    "opening_hours": "Mo-Fr 06:00-19:00"
+  }
+},
+{
+  "type": "way",
+  "id": 785147488,
+  "center": {
+    "lat": 6.2441490,
+    "lon": -75.5947379
+  },
+  "nodes": [
+    7335539980,
+    7335539981,
+    7335539982,
+    7335539983,
+    7335539980
+  ],
+  "tags": {
+    "addr:city": "Medellín",
+    "addr:housenumber": "Circular 73B",
+    "addr:street": "#39-84",
+    "amenity": "clinic",
+    "building": "yes",
+    "healthcare": "clinic",
+    "healthcare:speciality": "dentistry",
+    "name": "Dentix",
+    "opening_hours": "Mo-Fr 07:00-20:00; Sa 08:00-18:00"
+  }
+},
+{
+  "type": "way",
+  "id": 785147492,
+  "center": {
+    "lat": 6.2397694,
+    "lon": -75.5953721
+  },
+  "nodes": [
+    7335558296,
+    7335558297,
+    7335558298,
+    7335558299,
+    7335558296
+  ],
+  "tags": {
+    "addr:city": "Medellín",
+    "addr:housenumber": "Transversal 35",
+    "addr:street": "Circular 72-15",
+    "amenity": "clinic",
+    "building": "yes",
+    "healthcare": "clinic",
+    "name": "Clínica del Amor",
+    "website": "https://www.clinicadelamor.com"
+  }
+},
+{
+  "type": "way",
+  "id": 785147493,
+  "center": {
+    "lat": 6.2394461,
+    "lon": -75.5957334
+  },
+  "nodes": [
+    7335558300,
+    7335558301,
+    7335558302,
+    7335558303,
+    7335558300
+  ],
+  "tags": {
+    "addr:housenumber": "Calle 33A",
+    "addr:street": "#71A-127",
+    "amenity": "clinic",
+    "building": "yes",
+    "healthcare": "clinic",
+    "name": "Centro Médico Canes"
+  }
+},
+{
+  "type": "way",
+  "id": 785147494,
+  "center": {
+    "lat": 6.2392913,
+    "lon": -75.5939302
+  },
+  "nodes": [
+    7335558304,
+    7335558305,
+    7335558306,
+    7335558307,
+    7335558304
+  ],
+  "tags": {
+    "addr:city": "Medellín",
+    "addr:housenumber": "Avenida 33",
+    "addr:street": "#74E-56",
+    "amenity": "clinic",
+    "building": "yes",
+    "healthcare": "clinic",
+    "healthcare:speciality": "dentistry",
+    "name": "Omnisalud"
+  }
+},
+{
+  "type": "way",
+  "id": 785147497,
+  "center": {
+    "lat": 6.2393587,
+    "lon": -75.5916424
+  },
+  "nodes": [
+    7335558316,
+    7335558317,
+    7335558318,
+    7335558319,
+    7335558316
+  ],
+  "tags": {
+    "addr:city": "Medellín",
+    "addr:housenumber": "Avenidad 33",
+    "addr:street": "#74B-130",
+    "amenity": "clinic",
+    "building": "yes",
+    "healthcare": "clinic",
+    "healthcare:speciality": "general",
+    "name": "Central Medical Group S.A.S"
+  }
+},
+{
+  "type": "way",
+  "id": 785147498,
+  "center": {
+    "lat": 6.2405961,
+    "lon": -75.5921590
+  },
+  "nodes": [
+    7335558320,
+    7335558321,
+    7335558322,
+    7335558323,
+    7335558320
+  ],
+  "tags": {
+    "addr:city": "Medellín",
+    "addr:housenumber": "Circular 71",
+    "addr:street": "Transversal 39-33",
+    "amenity": "clinic",
+    "building": "yes",
+    "healthcare": "clinic",
+    "healthcare:speciality": "dermatology",
+    "name": "CliniQ Dermoestetica & Laser"
+  }
+},
+{
+  "type": "way",
+  "id": 785147500,
+  "center": {
+    "lat": 6.2436236,
+    "lon": -75.5931860
+  },
+  "nodes": [
+    7335558330,
+    7335558331,
+    7335558334,
+    7335558332,
+    7335558333,
+    7335558330
+  ],
+  "tags": {
+    "addr:city": "Medellín",
+    "addr:housenumber": "Circular 3",
+    "addr:street": "Transversal 74-52",
+    "amenity": "clinic",
+    "building": "yes",
+    "healthcare": "clinic",
+    "healthcare:speciality": "general",
+    "name": "IPS Confamilliar Laureles"
+  }
+},
+{
+  "type": "way",
+  "id": 785161711,
+  "center": {
+    "lat": 6.2322185,
+    "lon": -75.5973221
+  },
+  "nodes": [
+    7335682440,
+    7335682441,
+    7335682442,
+    7335682443,
+    7335682444,
+    7335682445,
+    7335682446,
+    7335682440
+  ],
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Laboratorio Clinico Belen"
+  }
+},
+{
+  "type": "way",
+  "id": 785173405,
+  "center": {
+    "lat": 6.2385301,
+    "lon": -75.5977664
+  },
+  "nodes": [
+    7335797140,
+    7335797141,
+    7335797142,
+    7335797143,
+    7335797140
+  ],
+  "tags": {
+    "amenity": "clinic",
+    "building": "yes",
+    "healthcare": "clinic",
+    "name": "Los Alamos Clinica de Especialistas"
+  }
+},
+{
+  "type": "way",
+  "id": 785173889,
+  "center": {
+    "lat": 6.2378936,
+    "lon": -75.5985088
+  },
+  "nodes": [
+    7335775579,
+    7335775580,
+    7335775581,
+    7335775582,
+    7335775583,
+    7335775584,
+    7335775579
+  ],
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "SALUD VITAL Y RIESGOS PROFESIONALES IPS SAS"
+  }
+},
+{
+  "type": "way",
+  "id": 785455194,
+  "center": {
+    "lat": 6.2781024,
+    "lon": -75.5816581
+  },
+  "nodes": [
+    7341476662,
+    7341476663,
+    7341476664,
+    7341476665,
+    7341476666,
+    7341476667,
+    7341476662
+  ],
+  "tags": {
+    "addr:housenumber": "# 36",
+    "addr:street": "Calle 78B",
+    "amenity": "clinic",
+    "healthcare": "rehabilitation",
+    "name": "Hogar de paso Dos. Centro de Rehabilitación para Jóvenes"
+  }
+},
+{
+  "type": "way",
+  "id": 786072858,
+  "center": {
+    "lat": 6.2433743,
+    "lon": -75.5987381
+  },
+  "nodes": [
+    7348674049,
+    7348674050,
+    7348674051,
+    7348674052,
+    7348674053,
+    7348674054,
+    7348674055,
+    7348674056,
+    7348674057,
+    7348674058,
+    7348674059,
+    7348674061,
+    7348674049
+  ],
+  "tags": {
+    "amenity": "clinic",
+    "building": "yes",
+    "healthcare": "clinic",
+    "name": "Quirófanos y especialistas"
+  }
+},
+{
+  "type": "way",
+  "id": 786247889,
+  "center": {
+    "lat": 6.2301685,
+    "lon": -75.5685214
+  },
+  "nodes": [
+    7351231359,
+    7351231360,
+    7351231361,
+    7351231362,
+    7351231359
+  ],
+  "tags": {
+    "addr:city": "Medellín",
+    "addr:housenumber": "Carrera 43",
+    "addr:street": "Calle 30-28",
+    "amenity": "clinic",
+    "building": "yes",
+    "healthcare": "clinic",
+    "name": "EPS Sura San Diego",
+    "opening_hours": "Mo-Fr 06:00-20:00, Sa 06:00-14:00",
+    "operator": "EPS Sura"
+  }
+},
+{
+  "type": "way",
+  "id": 787001074,
+  "center": {
+    "lat": 6.2391620,
+    "lon": -75.5994075
+  },
+  "nodes": [
+    7357426451,
+    7357426452,
+    7357426453,
+    7357426454,
+    7357426455,
+    7357426456,
+    7357426457,
+    7357426458,
+    7357426451
+  ],
+  "tags": {
+    "amenity": "clinic",
+    "building": "yes",
+    "healthcare": "clinic",
+    "name": "Spazio"
+  }
+},
+{
+  "type": "way",
+  "id": 787001395,
+  "center": {
+    "lat": 6.2391130,
+    "lon": -75.5988046
+  },
+  "nodes": [
+    7357411844,
+    7357411845,
+    7357411846,
+    7357411847,
+    7357411848,
+    7357411849,
+    7357411850,
+    7357411851,
+    7357411844
+  ],
+  "tags": {
+    "amenity": "clinic",
+    "building": "yes",
+    "healthcare": "clinic",
+    "name": "Clínica oftalmologica nueva vision"
+  }
+},
+{
+  "type": "way",
+  "id": 787961634,
+  "center": {
+    "lat": 6.2532464,
+    "lon": -75.5922161
+  },
+  "nodes": [
+    7366858990,
+    7366858991,
+    7366858992,
+    7366858993,
+    7366858990
+  ],
+  "tags": {
+    "amenity": "clinic",
+    "building": "yes",
+    "healthcare": "clinic",
+    "name": "Adala"
+  }
+},
+{
+  "type": "way",
+  "id": 787961635,
+  "center": {
+    "lat": 6.2513625,
+    "lon": -75.5963555
+  },
+  "nodes": [
+    7366858994,
+    7366858995,
+    7366858996,
+    7366858997,
+    7366858994
+  ],
+  "tags": {
+    "amenity": "clinic",
+    "building": "yes",
+    "healthcare": "clinic",
+    "name": "Centro de salud más cerca"
+  }
+},
+{
+  "type": "way",
+  "id": 788071556,
+  "center": {
+    "lat": 6.2458002,
+    "lon": -75.5980680
+  },
+  "nodes": [
+    7367803613,
+    7367803614,
+    7367803615,
+    7367803616,
+    7367803613
+  ],
+  "tags": {
+    "amenity": "clinic",
+    "building": "yes",
+    "healthcare": "clinic",
+    "name": "Estímulos IPS"
+  }
+},
+{
+  "type": "way",
+  "id": 788073656,
+  "center": {
+    "lat": 6.2792644,
+    "lon": -75.6019926
+  },
+  "nodes": [
+    7367802349,
+    8920719377,
+    8920719376,
+    8920719375,
+    8920719374,
+    7367802350,
+    7367802351,
+    7367802352,
+    7367802349
+  ],
+  "tags": {
+    "amenity": "hospital",
+    "building": "hospital",
+    "name": "Hospital Universitario de San Vicente Fundación"
+  }
+},
+{
+  "type": "way",
+  "id": 788327227,
+  "center": {
+    "lat": 6.2803303,
+    "lon": -75.5857385
+  },
+  "nodes": [
+    7370502226,
+    7370502227,
+    7370502228,
+    7370502229,
+    7370502226
+  ],
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "IPS Integrados"
+  }
+},
+{
+  "type": "way",
+  "id": 793890500,
+  "center": {
+    "lat": 6.2132546,
+    "lon": -75.5672303
+  },
+  "nodes": [
+    7426150033,
+    11261337164,
+    7426150034,
+    7426150035,
+    7426150036,
+    7426150040,
+    7426150033
+  ],
+  "tags": {
+    "amenity": "clinic",
+    "building": "yes",
+    "healthcare": "clinic",
+    "healthcare:speciality": "fertility",
+    "name": "inSer",
+    "website": "https://www.inser.com.co/en/"
+  }
+},
+{
+  "type": "way",
+  "id": 801457122,
+  "center": {
+    "lat": 6.2587064,
+    "lon": -75.5912915
+  },
+  "nodes": [
+    7495870731,
+    7495870745,
+    7495870729,
+    7495870728,
+    7367893492,
+    7495870731
+  ],
+  "tags": {
+    "amenity": "clinic",
+    "building": "yes",
+    "healthcare": "clinic",
+    "name": "Centro de Ortopedia y Traumatologia",
+    "short_name": "COE"
+  }
+},
+{
+  "type": "way",
+  "id": 812501828,
+  "center": {
+    "lat": 6.2140356,
+    "lon": -75.5949308
+  },
+  "nodes": [
+    7588927131,
+    7588927141,
+    7588927140,
+    7588927139,
+    7588927138,
+    7335371704,
+    7588927137,
+    7194386802,
+    7335371687,
+    7335371686,
+    7335371689,
+    7335371688,
+    7588927133,
+    7595238942,
+    7595238941,
+    7595238939,
+    7739026600,
+    7739026599,
+    7739026598,
+    7739026597,
+    7595238940,
+    7595238938,
+    7595238937,
+    7595238931,
+    7595238933,
+    7595238932,
+    7335371699,
+    7335371700,
+    7577601701,
+    7577601700,
+    7577601699,
+    7588927132,
+    7588927131
+  ],
+  "tags": {
+    "addr:city": "Medellín",
+    "addr:housenumber": "Diagonal 75B",
+    "addr:street": "Calle 2A-80/140",
+    "amenity": "clinic",
+    "emergency": "yes",
+    "healthcare": "clinic",
+    "healthcare:speciality": "general;surgery;cardiology;oncology;dermatology",
+    "name": "Clínica Las Américas Promotora",
+    "opening_hours": "24/7",
+    "website": "lasamericas.com.co"
+  }
+},
+{
+  "type": "way",
+  "id": 814491794,
+  "center": {
+    "lat": 6.2326354,
+    "lon": -75.5844290
+  },
+  "nodes": [
+    4192057489,
+    7608159811,
+    7608159812,
+    7608159813,
+    7608159809,
+    7229895909,
+    7229895926,
+    7229895918,
+    7229895925,
+    7229895913,
+    7229895924,
+    7229895917,
+    7229895923,
+    7229895912,
+    7229895922,
+    7229895916,
+    7229895921,
+    7229895914,
+    7229895920,
+    7229895915,
+    7229895919,
+    7229895908,
+    7229895907,
+    4192057489
+  ],
+  "tags": {
+    "addr:housenumber": "30-95",
+    "addr:street": "Carrera 65B",
+    "amenity": "clinic",
+    "emergency": "yes",
+    "healthcare": "clinic",
+    "name": "Clínica de Medellín - Sede Occidente",
+    "phone": "+57 4 4446152",
+    "website": "https://www.clinicamedellin.com/sedes/"
+  }
+},
+{
+  "type": "way",
+  "id": 834197665,
+  "center": {
+    "lat": 6.2513184,
+    "lon": -75.5639630
+  },
+  "nodes": [
+    7787149467,
+    370051455,
+    7787149466,
+    7787149465,
+    7787149464,
+    7787149463,
+    7787149467
+  ],
+  "tags": {
+    "amenity": "hospital",
+    "building": "yes",
+    "healthcare": "hospital",
+    "name": "Clínica Medellín"
+  }
+},
+{
+  "type": "way",
+  "id": 854090374,
+  "center": {
+    "lat": 6.2033285,
+    "lon": -75.5764497
+  },
+  "nodes": [
+    7965297811,
+    4827515466,
+    4827515467,
+    9755782615,
+    9755782616,
+    7965297814,
+    9755818217,
+    7965297815,
+    8817260388,
+    7965297816,
+    8817260387,
+    7965297811
+  ],
+  "tags": {
+    "amenity": "hospital",
+    "emergency": "yes",
+    "healthcare": "hospital",
+    "name": "Clínica Las Vegas"
+  }
+},
+{
+  "type": "way",
+  "id": 859059771,
+  "center": {
+    "lat": 6.2471793,
+    "lon": -75.6027490
+  },
+  "nodes": [
+    8007834140,
+    8007834141,
+    8007834142,
+    8007834143,
+    8007834144,
+    8007834145,
+    8007834140
+  ],
+  "tags": {
+    "amenity": "clinic",
+    "building": "yes",
+    "healthcare": "clinic",
+    "name": "Cruz Blanca EPS"
+  }
+},
+{
+  "type": "way",
+  "id": 947160026,
+  "center": {
+    "lat": 6.2768309,
+    "lon": -75.5823405
+  },
+  "nodes": [
+    9747622693,
+    8767485341,
+    8767485342,
+    8767485343,
+    9747622689,
+    8767454002,
+    9747622692,
+    8767485339,
+    8767485337,
+    8767454001,
+    9747622693
+  ],
+  "tags": {
+    "amenity": "clinic",
+    "building": "yes",
+    "healthcare": "clinic",
+    "name": "Clínica Universitaria Bolivariana"
+  }
+},
+{
+  "type": "way",
+  "id": 957422254,
+  "center": {
+    "lat": 6.2342892,
+    "lon": -75.5726499
+  },
+  "nodes": [
+    8859185267,
+    8859185259,
+    8859185258,
+    8859185265,
+    8859185264,
+    324485560,
+    9747678264,
+    8859185263,
+    8859185262,
+    9747678263,
+    8859185261,
+    8897734434,
+    8897734433,
+    8897734432,
+    8897734431,
+    8897734430,
+    9747678265,
+    8897734429,
+    8897734428,
+    8897734427,
+    8897734426,
+    8859185267
+  ],
+  "tags": {
+    "amenity": "hospital",
+    "emergency": "yes",
+    "healthcare": "hospital",
+    "name": "Hospital General de Medellin"
+  }
+},
+{
+  "type": "way",
+  "id": 1060899840,
+  "center": {
+    "lat": 6.2769702,
+    "lon": -75.5825056
+  },
+  "nodes": [
+    8767454001,
+    8767485338,
+    8767454007,
+    9747622693,
+    8767454001
+  ],
+  "tags": {
+    "amenity": "clinic",
+    "building": "yes",
+    "healthcare": "clinic",
+    "name": "Clínica Universitaria Bolivariana"
+  }
+},
+{
+  "type": "way",
+  "id": 1074636167,
+  "center": {
+    "lat": 6.1751200,
+    "lon": -75.6071820
+  },
+  "nodes": [
+    9856688142,
+    9856688143,
+    9856688144,
+    9856688145,
+    9856688146,
+    9856688142
+  ],
+  "tags": {
+    "addr:city": "Itagui",
+    "addr:street": "Calle 55A",
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "healthcare:speciality": "general",
+    "name": "CIS Comfama Itagüí",
+    "operator": "Comfama",
+    "operator:type": "private"
+  }
+},
+{
+  "type": "way",
+  "id": 1090438782,
+  "center": {
+    "lat": 6.2574710,
+    "lon": -75.5654887
+  },
+  "nodes": [
+    5478765677,
+    9987889986,
+    9987889985,
+    5478765681,
+    1561076749,
+    5478765680,
+    5478765679,
+    9987889987,
+    9987889988,
+    9987889989,
+    9987889990,
+    5478765678,
+    5478765677
+  ],
+  "tags": {
+    "amenity": "hospital",
+    "emergency": "yes",
+    "healthcare": "hospital",
+    "name": "Clínica CES",
+    "source": "Kaart Ground Survey 2018"
+  }
+},
+{
+  "type": "way",
+  "id": 1090462518,
+  "center": {
+    "lat": 6.2525186,
+    "lon": -75.5634342
+  },
+  "nodes": [
+    9988095481,
+    3217709524,
+    9988095480,
+    9988095479,
+    9988095478,
+    9988095477,
+    9988095476,
+    9988095475,
+    9988095474,
+    9988095481
+  ],
+  "tags": {
+    "addr:city": "Medellín",
+    "addr:housenumber": "46-36",
+    "addr:street": "Calle 55",
+    "amenity": "hospital",
+    "building": "yes",
+    "name": "Instituto Neurológico de Colombia",
+    "operator": "INDEC",
+    "website": "https://institutoneurologico.org/",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 1090889646,
+  "center": {
+    "lat": 6.2447110,
+    "lon": -75.5698963
+  },
+  "nodes": [
+    9991874315,
+    9991874314,
+    9991874313,
+    9991874312,
+    9991874311,
+    9991874310,
+    9991874309,
+    4757205406,
+    9991874308,
+    9991874307,
+    9991874306,
+    9991874305,
+    9991874304,
+    9991874315
+  ],
+  "tags": {
+    "amenity": "hospital",
+    "building": "yes",
+    "name": "Metrosalud Guayaquil"
+  }
+},
+{
+  "type": "way",
+  "id": 1090891446,
+  "center": {
+    "lat": 6.2519650,
+    "lon": -75.5965748
+  },
+  "nodes": [
+    9991879653,
+    9198285938,
+    9991879652,
+    9991879651,
+    9991879650,
+    9991879653
+  ],
+  "tags": {
+    "amenity": "hospital",
+    "building": "yes",
+    "healthcare": "hospital",
+    "name": "Salud Total"
+  }
+},
+{
+  "type": "way",
+  "id": 1090892488,
+  "center": {
+    "lat": 6.2145165,
+    "lon": -75.5710986
+  },
+  "nodes": [
+    9991907750,
+    9991907749,
+    9991907748,
+    9991907747,
+    9991907746,
+    9991907745,
+    9991907744,
+    9991907743,
+    9991907742,
+    9991907741,
+    9991907740,
+    9991907739,
+    7855091946,
+    9991907738,
+    9991907737,
+    9991907750
+  ],
+  "tags": {
+    "amenity": "hospital",
+    "building": "yes",
+    "name": "Metrosalud El Poblado",
+    "phone": "+57 4 2662875",
+    "phone1": "+57 4 2661941"
+  }
+},
+{
+  "type": "way",
+  "id": 1090915006,
+  "center": {
+    "lat": 6.1949964,
+    "lon": -75.5775524
+  },
+  "nodes": [
+    6425980707,
+    6425980704,
+    6425980705,
+    1190191313,
+    9992125237,
+    6425980706,
+    6425980707
+  ],
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Quirustetic"
+  }
+},
+{
+  "type": "way",
+  "id": 1094706074,
+  "center": {
+    "lat": 6.2618375,
+    "lon": -75.5531984
+  },
+  "nodes": [
+    7331808442,
+    7331808441,
+    10026369258,
+    10026369257,
+    10026369256,
+    10026369255,
+    7855091963,
+    10026369254,
+    10026369253,
+    7331808425,
+    7331808442
+  ],
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Unidad Hospitalaria Manrique",
+    "phone": "+57 4 2115353",
+    "phone1": "+57 4 2118262"
+  }
+},
+{
+  "type": "way",
+  "id": 1094708709,
+  "center": {
+    "lat": 6.2406541,
+    "lon": -75.5828836
+  },
+  "nodes": [
+    10026416526,
+    1889318355,
+    10026416525,
+    10026416524,
+    10026416523,
+    8754773755,
+    8754773744,
+    8754773745,
+    8754773746,
+    8754773747,
+    8754773748,
+    10026416526
+  ],
+  "tags": {
+    "amenity": "hospital",
+    "emergency": "yes",
+    "healthcare": "hospital",
+    "name": "Clínica Conquistadores"
+  }
+},
+{
+  "type": "way",
+  "id": 1098678272,
+  "center": {
+    "lat": 6.2518420,
+    "lon": -75.5438044
+  },
+  "nodes": [
+    10059666570,
+    10059666571,
+    10059666572,
+    10059666573,
+    10059666570
+  ],
+  "tags": {
+    "addr:street": "Calle 58 # 72",
+    "amenity": "clinic",
+    "building": "yes",
+    "healthcare": "clinic",
+    "name": "Centro de salud Llanaditas",
+    "operator": "Metro Salud",
+    "operator:type": "public"
+  }
+},
+{
+  "type": "way",
+  "id": 1098681758,
+  "center": {
+    "lat": 6.1846853,
+    "lon": -75.5980968
+  },
+  "nodes": [
+    10059728058,
+    10059728059,
+    10059728060,
+    5529636953,
+    10059728061,
+    10059728062,
+    10059728063,
+    10059728064,
+    10059728065,
+    10059728066,
+    10059728067,
+    10059728058
+  ],
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Hospital del sur"
+  }
+},
+{
+  "type": "way",
+  "id": 1215450039,
+  "center": {
+    "lat": 6.1969495,
+    "lon": -75.5788154
+  },
+  "nodes": [
+    11261337140,
+    11261337141,
+    11261337142,
+    11261337143,
+    11261337144,
+    11261337145,
+    11261337140
+  ],
+  "tags": {
+    "amenity": "clinic",
+    "building": "yes",
+    "healthcare": "clinic",
+    "healthcare:speciality": "plastic_surgery",
+    "name": "NOVA Cirugía Plástica",
+    "website": "https://novacirugiaplastica.com/"
+  }
+},
+{
+  "type": "way",
+  "id": 1215450040,
+  "center": {
+    "lat": 6.2040587,
+    "lon": -75.5767341
+  },
+  "nodes": [
+    11261337148,
+    11261337149,
+    11261337152,
+    11261337153,
+    11261337150,
+    11261337151,
+    11261337148
+  ],
+  "tags": {
+    "amenity": "clinic",
+    "building": "yes",
+    "healthcare": "clinic",
+    "layer": "-1",
+    "name": "Torre Médica Salud Vegas"
+  }
+},
+{
+  "type": "way",
+  "id": 1215450041,
+  "center": {
+    "lat": 6.2093904,
+    "lon": -75.5751485
+  },
+  "nodes": [
+    11261337155,
+    11261337156,
+    11261337157,
+    11261337158,
+    11261337155
+  ],
+  "tags": {
+    "amenity": "clinic",
+    "building": "yes",
+    "healthcare": "clinic",
+    "healthcare:speciality": "dermatology",
+    "name": "Clínica Aurora",
+    "website": "https://clinicaaurora.com.co/"
+  }
+},
+{
+  "type": "way",
+  "id": 1215450042,
+  "center": {
+    "lat": 6.2090890,
+    "lon": -75.5750718
+  },
+  "nodes": [
+    11261337159,
+    11261337160,
+    11261337161,
+    11261337162,
+    11261337159
+  ],
+  "tags": {
+    "amenity": "clinic",
+    "building": "yes",
+    "healthcare": "clinic",
+    "healthcare:speciality": "dermatology",
+    "name": "Clínica Aurora Sede 2",
+    "website": "https://clinicaaurora.com.co/"
+  }
+},
+{
+  "type": "way",
+  "id": 1215450043,
+  "center": {
+    "lat": 6.2403671,
+    "lon": -75.5795074
+  },
+  "nodes": [
+    11261337167,
+    11261337168,
+    11261337169,
+    11261337170,
+    11261337167
+  ],
+  "tags": {
+    "amenity": "clinic",
+    "building": "yes",
+    "healthcare": "clinic",
+    "healthcare:speciality": "otolaryngology",
+    "name": "Clínica Orlant",
+    "website": "https://clinicaorlant.com/"
+  }
+},
+{
+  "type": "way",
+  "id": 1215450044,
+  "center": {
+    "lat": 6.2507770,
+    "lon": -75.5594637
+  },
+  "nodes": [
+    11261337171,
+    11261337172,
+    11261337173,
+    11261337174,
+    11261337171
+  ],
+  "tags": {
+    "amenity": "clinic",
+    "building": "yes",
+    "healthcare": "clinic",
+    "healthcare:speciality": "dental_oral_maxillo_facial_surgery",
+    "name": "Clínica Odontológica PROMTA",
+    "website": "https://promta.com.co/"
+  }
+},
+{
+  "type": "way",
+  "id": 1383093477,
+  "center": {
+    "lat": 6.2246781,
+    "lon": -75.5989388
+  },
+  "nodes": [
+    12805277591,
+    12805310718,
+    12805277592,
+    12805277593,
+    12805277594,
+    12805277595,
+    12805277596,
+    12805277597,
+    12805277598,
+    12805277591
+  ],
+  "tags": {
+    "addr:city": "Medellín",
+    "addr:full": "Carrera 80 # 18A -140 Belén - Medellín, Colombia",
+    "addr:postcode": "19-38",
+    "addr:street": "Carrera 80",
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "landuse": "hospital",
+    "layer": "1",
+    "name": "Clínica Vida -  Sede La 80",
+    "opening_hours": "24/7",
+    "operator": "Clínica Vida",
+    "operator:type": "private"
+  }
+},
+{
+  "type": "way",
+  "id": 1478609945,
+  "center": {
+    "lat": 6.2434131,
+    "lon": -75.5403850
+  },
+  "nodes": [
+    13564556437,
+    13564556438,
+    13564556439,
+    13564556440,
+    13564556441,
+    13564556442,
+    13564556443,
+    13564556444,
+    13564556445,
+    13564556446,
+    13564556447,
+    13564556448,
+    13564556449,
+    13564556450,
+    13564556451,
+    13564556452,
+    13564556437
+  ],
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "operator": "Ministerio de Salud y Protección Social",
+    "operator:short": "MinSalud",
+    "operator:type": "government",
+    "operator:wikidata": "Q6867116"
+  }
+}
+
+  ]
+}

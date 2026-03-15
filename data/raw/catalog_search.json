@@ -1,0 +1,1772 @@
+{
+  "results" :
+    [
+      {
+        "resource" :
+          {
+            "name" : "Prestadores de Salud Departamento de Antioquia",
+            "id" : "b4dp-ximh",
+            "resource_name" : null,
+            "parent_fxf" : [],
+            "description" : "Registro de Prestadores de servicios de salud habilitados en el Departamento de Antioquia",
+            "attribution" : "Gobernación de Antioquia",
+            "attribution_link" : "http://www.antioquia.gov.co",
+            "contact_email" : null,
+            "type" : "dataset",
+            "updatedAt" : "2025-12-19T23:20:47.000Z",
+            "createdAt" : "2016-07-14T02:58:46.000Z",
+            "metadata_updated_at" : "2025-12-19T23:20:47.000Z",
+            "data_updated_at" : "2025-03-19T21:38:32.000Z",
+            "page_views" :
+              {
+                "page_views_last_week" : 145,
+                "page_views_last_month" : 465,
+                "page_views_total" : 20294,
+                "page_views_last_week_log" : 7.189824558880018,
+                "page_views_last_month_log" : 8.86418614465428,
+                "page_views_total_log" : 14.308836719585056
+              },
+            "columns_name" :
+              [
+                "gerente",
+                "clase prestador",
+                "codigo habilitacion",
+                "nit",
+                "direccion",
+                "telefono",
+                "fax",
+                "email",
+                "número sede",
+                "nombre sede",
+                "barrio",
+                "codigo centro poblado",
+                "tipo zona",
+                "nivel",
+                "municipio",
+                "clase persona",
+                "caracter",
+                "horario sabado",
+                "departamento",
+                "horario viernes",
+                "horario lunes",
+                "horario martes",
+                "horario domingo",
+                "horario jueves",
+                "codigo clase prestador",
+                "fecha apertura",
+                "digito verificacion nit",
+                "horario miercoles",
+                "nombre prestador",
+                "codigo naturaleza juridica",
+                "nombre naturaleza juridica",
+                "nombre centro poblado",
+                "ese"
+              ],
+            "columns_field_name" :
+              [
+                "gerente",
+                "claseprestador",
+                "codigohabilitacion",
+                "nit",
+                "direccion",
+                "telefono",
+                "fax",
+                "email",
+                "numero_sede",
+                "nombre_sede",
+                "barrio",
+                "codigo_centro_poblado",
+                "tipo_zona",
+                "nivel",
+                "municipio",
+                "clasepersona",
+                "caracter",
+                "horario_sabado",
+                "departamento",
+                "horario_viernes",
+                "horario_lunes",
+                "horario_martes",
+                "horario_domingo",
+                "horario_jueves",
+                "codigo_clase_prestador",
+                "fecha_apertura",
+                "digito_verificacion_nit",
+                "horario_miercoles",
+                "nombreprestador",
+                "codigo_naturaleza_juridica",
+                "privadapublica",
+                "nombre_centro_poblado",
+                "ese"
+              ],
+            "columns_datatype" :
+              [
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text"
+              ],
+            "columns_description" :
+              [
+                "Nombre del gerente de la sede, cuando aplique",
+                "Identifica si el prestador es una institución o un profesional independiente",
+                "",
+                "Número de Identificación Tributaria de la persona natural o jurídica.",
+                "",
+                "",
+                "",
+                "",
+                "Un mismo prestador de servicio de salud puede tener varias sedes. Este campo identifica el número de la sede del prestador",
+                "Nombre de la sede del prestador de servicios de salud",
+                "",
+                "",
+                "",
+                "",
+                "Nombre del municipio",
+                "",
+                "",
+                "",
+                "Nombre con el que se identifica cada una de las treinta y dos (32) divisiones geopolíticas del territorio colombiano.\nPara este conjunto de datos el departamento es siempre Antioquia.",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "permite validar el número de Identificación Tributaria, que asigna la Dirección de Impuestos y Aduanas Nacionales por una sola vez cuando el interesado se inscribe en el Registro Único Tributario (mecanismo único para identificar, ubicar y clasificar a los sujetos de obligaciones administradas y controladas por la DIAN). ",
+                "",
+                "Nombre o razón social de la persona o entidad prstadora de servicios de salud",
+                "",
+                "",
+                "",
+                "Identifica si el prstador es o no una Empresa Social del Estado"
+              ],
+            "columns_format" :
+              [
+                {},
+                { "displayStyle" : "plain", "align" : "left" },
+                { "displayStyle" : "plain", "rdf" : "", "align" : "right" },
+                { "displayStyle" : "plain", "align" : "right" },
+                {},
+                {
+                  "precisionStyle" : "standard",
+                  "noCommas" : "false",
+                  "align" : "right"
+                },
+                { "align" : "left" },
+                {},
+                { "displayStyle" : "plain", "align" : "left" },
+                {},
+                {},
+                {},
+                {},
+                {},
+                { "displayStyle" : "plain", "align" : "left" },
+                { "displayStyle" : "plain", "align" : "left" },
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                { "displayStyle" : "plain", "align" : "left" },
+                {},
+                { "displayStyle" : "plain", "align" : "left" },
+                {},
+                { "displayStyle" : "plain", "align" : "left" },
+                {},
+                { "displayStyle" : "plain", "align" : "left" }
+              ],
+            "download_count" : 6756,
+            "provenance" : "official",
+            "lens_view_type" : "tabular",
+            "lens_display_type" : "table",
+            "locked" : false,
+            "blob_mime_type" : null,
+            "hide_from_data_json" : false,
+            "publication_date" : "2018-09-21T16:47:02.000Z"
+          },
+        "classification" :
+          {
+            "categories" : [],
+            "tags" : [],
+            "domain_category" : "Salud y Protección Social",
+            "domain_tags" : [ "ips", "antioquia", "salud" ],
+            "domain_metadata" :
+              [
+                { "key" : "Información-de-Datos_Idioma", "value" : "Español" },
+                {
+                  "key" : "Información-de-Datos_Cobertura-Geográfica",
+                  "value" : "Departamental"
+                },
+                {
+                  "key" : "Información-de-Datos_Frecuencia-de-Actualización",
+                  "value" : "Anual"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Sector",
+                  "value" : "No Aplica"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Área-o-dependencia",
+                  "value" : "Gobernación de Antioquia"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Nombre-de-la-Entidad",
+                  "value" : "Gobernación de Antioquia"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Orden",
+                  "value" : "Territorial"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Municipio",
+                  "value" : "Medellín"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Departamento",
+                  "value" : "Antioquia"
+                }
+              ]
+          },
+        "metadata" :
+          {
+            "domain" : "www.datos.gov.co",
+            "license" : "Creative Commons Attribution | Share Alike 4.0 International"
+          },
+        "permalink" : "https://www.datos.gov.co/d/b4dp-ximh",
+        "link" : "https://www.datos.gov.co/Salud-y-Protección-Social/Prestadores-de-Salud-Departamento-de-Antioquia/b4dp-ximh",
+        "owner" :
+          {
+            "id" : "2kjs-c5u5",
+            "user_type" : "interactive",
+            "display_name" : "Gobernación de Antioquia"
+          },
+        "creator" :
+          {
+            "id" : "2kjs-c5u5",
+            "user_type" : "interactive",
+            "display_name" : "Gobernación de Antioquia"
+          }
+      },
+      {
+        "resource" :
+          {
+            "name" : "Directorio E.S.E. Hospitales de Antioquia con coordenadas",
+            "id" : "pi36-fdpk",
+            "resource_name" : null,
+            "parent_fxf" : [],
+            "description" : "Contiene datos de las Empresas Sociales del Estado -E.S.E. - Hospitales del departamento de Antioquia, con sus coordenadas para localización geográfica",
+            "attribution" : "Gobernación de Antioquia",
+            "attribution_link" : "http://www.antioquia.gov.co",
+            "contact_email" : null,
+            "type" : "dataset",
+            "updatedAt" : "2025-12-19T23:25:26.000Z",
+            "createdAt" : "2016-10-07T17:45:01.000Z",
+            "metadata_updated_at" : "2025-12-19T23:25:26.000Z",
+            "data_updated_at" : "2022-12-19T21:56:52.000Z",
+            "page_views" :
+              {
+                "page_views_last_week" : 173,
+                "page_views_last_month" : 689,
+                "page_views_total" : 58441,
+                "page_views_last_week_log" : 7.442943495848729,
+                "page_views_last_month_log" : 9.430452551665532,
+                "page_views_total_log" : 15.834717930392937
+              },
+            "columns_name" :
+              [
+                "Nombre Región",
+                "Código Región",
+                "Nombre Municipio",
+                "Código Habilitación Prestador Salud",
+                "Dirección Correo Electrónico",
+                "Nombre Sede",
+                "Dirección",
+                "Número NIT",
+                "Código Municipio",
+                "Número Teléfono",
+                "Punto (state)",
+                "Punto (address)",
+                "Punto",
+                "Punto (zip)",
+                "Razón Social Organización",
+                "Punto (city)"
+              ],
+            "columns_field_name" :
+              [
+                "nombre_regi_n",
+                "c_digo_regi_n",
+                "nombre_municipio",
+                "c_digo_habilitaci_n_prestador_salud",
+                "direcci_n_correo_electr_nico",
+                "nombre_sede",
+                "direcci_n",
+                "n_mero_nit",
+                "c_digo_municipio",
+                "n_mero_tel_fono",
+                "punto_state",
+                "punto_address",
+                "punto",
+                "punto_zip",
+                "raz_n_social_organizaci_n",
+                "punto_city"
+              ],
+            "columns_datatype" :
+              [
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Number",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Point",
+                "Text",
+                "Text",
+                "Text"
+              ],
+            "columns_description" :
+              [
+                "Nombre de la sub región (las subregiones son subdivisiones territoriales que conforman el departamento de Antioquia)",
+                "Identificador de la sub región (las subregiones son subdivisiones territoriales que conforman el departamento de Antioquia)",
+                "Nombre con el que se identifica a cada uno de los municipios que hacen parte o están dentro de la jurisdicción territorial de un departamento colombiano",
+                "Nemotécnico que permite identificar a la Entidad Departamental de práctica profesional que cuenta con la infraestructura física para poder prestar servicios de salud",
+                "Dirección de correo electrónico para contactar al hospital",
+                "Nombre de la Sede del Hospital",
+                "Dirección del domicilio del hospital",
+                "Número de Identificacio´n tributaria de la E.S.E. sin el dígito de verificación",
+                "Código alfanumérico de cinco (5) posiciones con el que se identifica a cada uno de los municipios que hacen parte o están dentro de la jurisdicción territorial de un departamento colombiano",
+                "Número telefónico del hospital",
+                "",
+                "",
+                "Coordenadas de latitud y longitud que permiten ubicar al hospital en el mapa",
+                "",
+                "Razón social de la E.S.E. Hospital",
+                ""
+              ],
+            "columns_format" :
+              [
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {}
+              ],
+            "download_count" : 6221,
+            "provenance" : "official",
+            "lens_view_type" : "tabular",
+            "lens_display_type" : "table",
+            "locked" : false,
+            "blob_mime_type" : null,
+            "hide_from_data_json" : false,
+            "publication_date" : "2022-12-19T19:40:29.000Z"
+          },
+        "classification" :
+          {
+            "categories" : [],
+            "tags" : [],
+            "domain_category" : "Salud y Protección Social",
+            "domain_tags" : [ "hospital", "antioquia", "ese" ],
+            "domain_metadata" :
+              [
+                { "key" : "Información-de-Datos_Idioma", "value" : "Español" },
+                {
+                  "key" : "Información-de-Datos_Cobertura-Geográfica",
+                  "value" : "Departamental"
+                },
+                {
+                  "key" : "Información-de-Datos_Frecuencia-de-Actualización",
+                  "value" : "Trienio"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Sector",
+                  "value" : "No Aplica"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Área-o-dependencia",
+                  "value" : "Secretaría de Salud de Antioquia"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Nombre-de-la-Entidad",
+                  "value" : "Gobernación de Antioquia"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Orden",
+                  "value" : "Territorial"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Municipio",
+                  "value" : "Medellín"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Departamento",
+                  "value" : "Antioquia"
+                }
+              ]
+          },
+        "metadata" :
+          {
+            "domain" : "www.datos.gov.co",
+            "license" : "Creative Commons Attribution | Share Alike 4.0 International"
+          },
+        "permalink" : "https://www.datos.gov.co/d/pi36-fdpk",
+        "link" : "https://www.datos.gov.co/Salud-y-Protección-Social/Directorio-E-S-E-Hospitales-de-Antioquia-con-coord/pi36-fdpk",
+        "owner" :
+          {
+            "id" : "2kjs-c5u5",
+            "user_type" : "interactive",
+            "display_name" : "Gobernación de Antioquia"
+          },
+        "creator" :
+          {
+            "id" : "2kjs-c5u5",
+            "user_type" : "interactive",
+            "display_name" : "Gobernación de Antioquia"
+          }
+      },
+      {
+        "resource" :
+          {
+            "name" : "Prestadores de Salud Departamento de Antioquia - SEGOVIA ANTIOQUIA",
+            "id" : "kf4f-3bh9",
+            "resource_name" : null,
+            "parent_fxf" : [ "b4dp-ximh" ],
+            "description" : "Registro de Prestadores de servicios de salud habilitados en el Departamento de Antioquia",
+            "attribution" : "Gobernación de Antioquia",
+            "attribution_link" : "http://www.antioquia.gov.co",
+            "contact_email" : null,
+            "type" : "filter",
+            "updatedAt" : "2025-12-19T23:14:28.000Z",
+            "createdAt" : "2023-10-26T19:34:28.000Z",
+            "metadata_updated_at" : "2025-12-19T23:14:28.000Z",
+            "data_updated_at" : "2025-03-19T21:38:32.000Z",
+            "page_views" :
+              {
+                "page_views_last_week" : 9,
+                "page_views_last_month" : 49,
+                "page_views_total" : 1145,
+                "page_views_last_week_log" : 3.3219280948873626,
+                "page_views_last_month_log" : 5.643856189774724,
+                "page_views_total_log" : 10.162391328756906
+              },
+            "columns_name" :
+              [
+                "fecha apertura",
+                "horario domingo",
+                "nombre centro poblado",
+                "codigo centro poblado",
+                "municipio",
+                "tipo zona",
+                "codigo clase prestador",
+                "caracter",
+                "fax",
+                "ese",
+                "barrio",
+                "nombre naturaleza juridica",
+                "departamento",
+                "horario sabado",
+                "digito verificacion nit",
+                "horario lunes",
+                "horario viernes",
+                "horario martes",
+                "horario miercoles",
+                "codigo habilitacion",
+                "nombre prestador",
+                "clase prestador",
+                "direccion",
+                "clase persona",
+                "email",
+                "número sede",
+                "nombre sede",
+                "codigo naturaleza juridica",
+                "horario jueves",
+                "nit",
+                "nivel",
+                "gerente",
+                "telefono"
+              ],
+            "columns_field_name" :
+              [
+                "fecha_apertura",
+                "horario_domingo",
+                "nombre_centro_poblado",
+                "codigo_centro_poblado",
+                "municipio",
+                "tipo_zona",
+                "codigo_clase_prestador",
+                "caracter",
+                "fax",
+                "ese",
+                "barrio",
+                "privadapublica",
+                "departamento",
+                "horario_sabado",
+                "digito_verificacion_nit",
+                "horario_lunes",
+                "horario_viernes",
+                "horario_martes",
+                "horario_miercoles",
+                "codigohabilitacion",
+                "nombreprestador",
+                "claseprestador",
+                "direccion",
+                "clasepersona",
+                "email",
+                "numero_sede",
+                "nombre_sede",
+                "codigo_naturaleza_juridica",
+                "horario_jueves",
+                "nit",
+                "nivel",
+                "gerente",
+                "telefono"
+              ],
+            "columns_datatype" :
+              [
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text"
+              ],
+            "columns_description" :
+              [
+                "",
+                "",
+                "",
+                "",
+                "Nombre del municipio",
+                "",
+                "",
+                "",
+                "",
+                "Identifica si el prstador es o no una Empresa Social del Estado",
+                "",
+                "",
+                "Nombre con el que se identifica cada una de las treinta y dos (32) divisiones geopolíticas del territorio colombiano.\nPara este conjunto de datos el departamento es siempre Antioquia.",
+                "",
+                "permite validar el número de Identificación Tributaria, que asigna la Dirección de Impuestos y Aduanas Nacionales por una sola vez cuando el interesado se inscribe en el Registro Único Tributario (mecanismo único para identificar, ubicar y clasificar a los sujetos de obligaciones administradas y controladas por la DIAN). ",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "Nombre o razón social de la persona o entidad prstadora de servicios de salud",
+                "Identifica si el prestador es una institución o un profesional independiente",
+                "",
+                "",
+                "",
+                "Un mismo prestador de servicio de salud puede tener varias sedes. Este campo identifica el número de la sede del prestador",
+                "Nombre de la sede del prestador de servicios de salud",
+                "",
+                "",
+                "Número de Identificación Tributaria de la persona natural o jurídica.",
+                "",
+                "Nombre del gerente de la sede, cuando aplique",
+                ""
+              ],
+            "columns_format" :
+              [
+                {},
+                {},
+                {},
+                {},
+                { "displayStyle" : "plain", "align" : "left" },
+                {},
+                {},
+                {},
+                { "align" : "left" },
+                { "displayStyle" : "plain", "align" : "left" },
+                {},
+                { "displayStyle" : "plain", "align" : "left" },
+                {},
+                {},
+                { "displayStyle" : "plain", "align" : "left" },
+                {},
+                {},
+                {},
+                {},
+                { "displayStyle" : "plain", "rdf" : "", "align" : "right" },
+                { "displayStyle" : "plain", "align" : "left" },
+                { "displayStyle" : "plain", "align" : "left" },
+                {},
+                { "displayStyle" : "plain", "align" : "left" },
+                {},
+                { "displayStyle" : "plain", "align" : "left" },
+                {},
+                {},
+                {},
+                { "displayStyle" : "plain", "align" : "right" },
+                {},
+                {},
+                {
+                  "precisionStyle" : "standard",
+                  "noCommas" : "false",
+                  "align" : "right"
+                }
+              ],
+            "download_count" : 163,
+            "provenance" : "official",
+            "lens_view_type" : "tabular",
+            "lens_display_type" : "table",
+            "locked" : false,
+            "blob_mime_type" : null,
+            "hide_from_data_json" : false,
+            "publication_date" : "2023-10-26T20:30:11.000Z"
+          },
+        "classification" :
+          {
+            "categories" : [],
+            "tags" : [],
+            "domain_category" : "Salud y Protección Social",
+            "domain_tags" : [ "ips", "antioquia", "salud" ],
+            "domain_metadata" :
+              [
+                { "key" : "Información-de-Datos_Idioma", "value" : "Español" },
+                {
+                  "key" : "Información-de-Datos_Cobertura-Geográfica",
+                  "value" : "Departamental"
+                },
+                {
+                  "key" : "Información-de-Datos_Frecuencia-de-Actualización",
+                  "value" : "Anual"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Sector",
+                  "value" : "No Aplica"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Área-o-dependencia",
+                  "value" : "Gobernación de Antioquia"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Nombre-de-la-Entidad",
+                  "value" : "Gobernación de Antioquia"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Orden",
+                  "value" : "Territorial"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Municipio",
+                  "value" : "Medellín"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Departamento",
+                  "value" : "Antioquia"
+                }
+              ]
+          },
+        "metadata" :
+          {
+            "domain" : "www.datos.gov.co",
+            "license" : "Creative Commons Attribution | Share Alike 4.0 International"
+          },
+        "permalink" : "https://www.datos.gov.co/d/kf4f-3bh9",
+        "link" : "https://www.datos.gov.co/Salud-y-Protección-Social/Prestadores-de-Salud-Departamento-de-Antioquia-SEG/kf4f-3bh9",
+        "owner" :
+          {
+            "id" : "7msk-2atw",
+            "user_type" : "interactive",
+            "display_name" : "ESE Hospital San Juan de Dios - Segovia"
+          },
+        "creator" :
+          {
+            "id" : "7msk-2atw",
+            "user_type" : "interactive",
+            "display_name" : "ESE Hospital San Juan de Dios - Segovia"
+          }
+      },
+      {
+        "resource" :
+          {
+            "name" : "Prestadores de Salud Departamento de Antioquia - Zaragoza",
+            "id" : "fx7z-38ux",
+            "resource_name" : null,
+            "parent_fxf" : [ "b4dp-ximh" ],
+            "description" : "Registro de Prestadores de servicios de salud habilitados en el Departamento de Antioquia",
+            "attribution" : "Gobernación de Antioquia",
+            "attribution_link" : "http://www.antioquia.gov.co",
+            "contact_email" : null,
+            "type" : "filter",
+            "updatedAt" : "2025-12-19T22:57:13.000Z",
+            "createdAt" : "2023-11-05T23:26:22.000Z",
+            "metadata_updated_at" : "2025-12-19T22:57:13.000Z",
+            "data_updated_at" : "2025-03-19T21:38:32.000Z",
+            "page_views" :
+              {
+                "page_views_last_week" : 30,
+                "page_views_last_month" : 61,
+                "page_views_total" : 528,
+                "page_views_last_week_log" : 4.954196310386876,
+                "page_views_last_month_log" : 5.954196310386876,
+                "page_views_total_log" : 9.047123912114026
+              },
+            "columns_name" :
+              [
+                "tipo zona",
+                "codigo centro poblado",
+                "horario martes",
+                "horario jueves",
+                "clase persona",
+                "número sede",
+                "fax",
+                "codigo habilitacion",
+                "horario viernes",
+                "fecha apertura",
+                "nombre sede",
+                "email",
+                "direccion",
+                "nit",
+                "nombre prestador",
+                "nombre centro poblado",
+                "barrio",
+                "departamento",
+                "horario sabado",
+                "digito verificacion nit",
+                "horario domingo",
+                "codigo naturaleza juridica",
+                "codigo clase prestador",
+                "gerente",
+                "nombre naturaleza juridica",
+                "municipio",
+                "ese",
+                "clase prestador",
+                "telefono",
+                "nivel",
+                "caracter",
+                "horario lunes",
+                "horario miercoles"
+              ],
+            "columns_field_name" :
+              [
+                "tipo_zona",
+                "codigo_centro_poblado",
+                "horario_martes",
+                "horario_jueves",
+                "clasepersona",
+                "numero_sede",
+                "fax",
+                "codigohabilitacion",
+                "horario_viernes",
+                "fecha_apertura",
+                "nombre_sede",
+                "email",
+                "direccion",
+                "nit",
+                "nombreprestador",
+                "nombre_centro_poblado",
+                "barrio",
+                "departamento",
+                "horario_sabado",
+                "digito_verificacion_nit",
+                "horario_domingo",
+                "codigo_naturaleza_juridica",
+                "codigo_clase_prestador",
+                "gerente",
+                "privadapublica",
+                "municipio",
+                "ese",
+                "claseprestador",
+                "telefono",
+                "nivel",
+                "caracter",
+                "horario_lunes",
+                "horario_miercoles"
+              ],
+            "columns_datatype" :
+              [
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text"
+              ],
+            "columns_description" :
+              [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "Un mismo prestador de servicio de salud puede tener varias sedes. Este campo identifica el número de la sede del prestador",
+                "",
+                "",
+                "",
+                "",
+                "Nombre de la sede del prestador de servicios de salud",
+                "",
+                "",
+                "Número de Identificación Tributaria de la persona natural o jurídica.",
+                "Nombre o razón social de la persona o entidad prstadora de servicios de salud",
+                "",
+                "",
+                "Nombre con el que se identifica cada una de las treinta y dos (32) divisiones geopolíticas del territorio colombiano.\nPara este conjunto de datos el departamento es siempre Antioquia.",
+                "",
+                "permite validar el número de Identificación Tributaria, que asigna la Dirección de Impuestos y Aduanas Nacionales por una sola vez cuando el interesado se inscribe en el Registro Único Tributario (mecanismo único para identificar, ubicar y clasificar a los sujetos de obligaciones administradas y controladas por la DIAN). ",
+                "",
+                "",
+                "",
+                "Nombre del gerente de la sede, cuando aplique",
+                "",
+                "Nombre del municipio",
+                "Identifica si el prstador es o no una Empresa Social del Estado",
+                "Identifica si el prestador es una institución o un profesional independiente",
+                "",
+                "",
+                "",
+                "",
+                ""
+              ],
+            "columns_format" :
+              [
+                {},
+                {},
+                {},
+                {},
+                { "displayStyle" : "plain", "align" : "left" },
+                { "displayStyle" : "plain", "align" : "left" },
+                { "align" : "left" },
+                { "displayStyle" : "plain", "rdf" : "", "align" : "right" },
+                {},
+                {},
+                {},
+                {},
+                {},
+                { "displayStyle" : "plain", "align" : "right" },
+                { "displayStyle" : "plain", "align" : "left" },
+                {},
+                {},
+                {},
+                {},
+                { "displayStyle" : "plain", "align" : "left" },
+                {},
+                {},
+                {},
+                {},
+                { "displayStyle" : "plain", "align" : "left" },
+                { "displayStyle" : "plain", "align" : "left" },
+                { "displayStyle" : "plain", "align" : "left" },
+                { "displayStyle" : "plain", "align" : "left" },
+                {
+                  "precisionStyle" : "standard",
+                  "noCommas" : "false",
+                  "align" : "right"
+                },
+                {},
+                {},
+                {},
+                {}
+              ],
+            "download_count" : 45,
+            "provenance" : "official",
+            "lens_view_type" : "tabular",
+            "lens_display_type" : "table",
+            "locked" : false,
+            "blob_mime_type" : null,
+            "hide_from_data_json" : false,
+            "publication_date" : "2023-11-05T23:26:41.000Z"
+          },
+        "classification" :
+          {
+            "categories" : [],
+            "tags" : [],
+            "domain_category" : "Salud y Protección Social",
+            "domain_tags" : [ "salud", "antioquia", "ips" ],
+            "domain_metadata" :
+              [
+                { "key" : "Información-de-Datos_Idioma", "value" : "Español" },
+                {
+                  "key" : "Información-de-Datos_Cobertura-Geográfica",
+                  "value" : "Departamental"
+                },
+                {
+                  "key" : "Información-de-Datos_Frecuencia-de-Actualización",
+                  "value" : "Anual"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Sector",
+                  "value" : "No Aplica"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Área-o-dependencia",
+                  "value" : "Gobernación de Antioquia"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Nombre-de-la-Entidad",
+                  "value" : "Gobernación de Antioquia"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Orden",
+                  "value" : "Territorial"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Municipio",
+                  "value" : "Medellín"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Departamento",
+                  "value" : "Antioquia"
+                }
+              ]
+          },
+        "metadata" :
+          {
+            "domain" : "www.datos.gov.co",
+            "license" : "Creative Commons Attribution | Share Alike 4.0 International"
+          },
+        "permalink" : "https://www.datos.gov.co/d/fx7z-38ux",
+        "link" : "https://www.datos.gov.co/Salud-y-Protección-Social/Prestadores-de-Salud-Departamento-de-Antioquia-Zar/fx7z-38ux",
+        "owner" :
+          {
+            "id" : "qrgk-dscj",
+            "user_type" : "interactive",
+            "display_name" : "Alcaldía Municipal de Zaragoza Antioquia"
+          },
+        "creator" :
+          {
+            "id" : "qrgk-dscj",
+            "user_type" : "interactive",
+            "display_name" : "Alcaldía Municipal de Zaragoza Antioquia"
+          }
+      },
+      {
+        "resource" :
+          {
+            "name" : "Prestadores de Salud Departamento de Antioquia - CAÑASGORDAS",
+            "id" : "du7p-hbma",
+            "resource_name" : null,
+            "parent_fxf" : [ "b4dp-ximh" ],
+            "description" : "Registro de Prestadores de servicios de salud habilitados en el Departamento de Antioquia",
+            "attribution" : "Gobernación de Antioquia",
+            "attribution_link" : "http://www.antioquia.gov.co",
+            "contact_email" : null,
+            "type" : "filter",
+            "updatedAt" : "2025-12-19T23:17:10.000Z",
+            "createdAt" : "2023-11-01T16:23:36.000Z",
+            "metadata_updated_at" : "2025-12-19T23:17:10.000Z",
+            "data_updated_at" : "2025-03-19T21:38:32.000Z",
+            "page_views" :
+              {
+                "page_views_last_week" : 9,
+                "page_views_last_month" : 29,
+                "page_views_total" : 294,
+                "page_views_last_week_log" : 3.3219280948873626,
+                "page_views_last_month_log" : 4.906890595608519,
+                "page_views_total_log" : 8.204571144249204
+              },
+            "columns_name" :
+              [
+                "clase prestador",
+                "horario martes",
+                "codigo naturaleza juridica",
+                "horario sabado",
+                "caracter",
+                "horario lunes",
+                "horario miercoles",
+                "telefono",
+                "ese",
+                "barrio",
+                "codigo centro poblado",
+                "codigo clase prestador",
+                "gerente",
+                "nombre naturaleza juridica",
+                "clase persona",
+                "fecha apertura",
+                "nombre sede",
+                "nit",
+                "nombre prestador",
+                "email",
+                "digito verificacion nit",
+                "nivel",
+                "número sede",
+                "horario viernes",
+                "direccion",
+                "departamento",
+                "municipio",
+                "tipo zona",
+                "nombre centro poblado",
+                "horario domingo",
+                "horario jueves",
+                "codigo habilitacion",
+                "fax"
+              ],
+            "columns_field_name" :
+              [
+                "claseprestador",
+                "horario_martes",
+                "codigo_naturaleza_juridica",
+                "horario_sabado",
+                "caracter",
+                "horario_lunes",
+                "horario_miercoles",
+                "telefono",
+                "ese",
+                "barrio",
+                "codigo_centro_poblado",
+                "codigo_clase_prestador",
+                "gerente",
+                "privadapublica",
+                "clasepersona",
+                "fecha_apertura",
+                "nombre_sede",
+                "nit",
+                "nombreprestador",
+                "email",
+                "digito_verificacion_nit",
+                "nivel",
+                "numero_sede",
+                "horario_viernes",
+                "direccion",
+                "departamento",
+                "municipio",
+                "tipo_zona",
+                "nombre_centro_poblado",
+                "horario_domingo",
+                "horario_jueves",
+                "codigohabilitacion",
+                "fax"
+              ],
+            "columns_datatype" :
+              [
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text"
+              ],
+            "columns_description" :
+              [
+                "Identifica si el prestador es una institución o un profesional independiente",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "Identifica si el prstador es o no una Empresa Social del Estado",
+                "",
+                "",
+                "",
+                "Nombre del gerente de la sede, cuando aplique",
+                "",
+                "",
+                "",
+                "Nombre de la sede del prestador de servicios de salud",
+                "Número de Identificación Tributaria de la persona natural o jurídica.",
+                "Nombre o razón social de la persona o entidad prstadora de servicios de salud",
+                "",
+                "permite validar el número de Identificación Tributaria, que asigna la Dirección de Impuestos y Aduanas Nacionales por una sola vez cuando el interesado se inscribe en el Registro Único Tributario (mecanismo único para identificar, ubicar y clasificar a los sujetos de obligaciones administradas y controladas por la DIAN). ",
+                "",
+                "Un mismo prestador de servicio de salud puede tener varias sedes. Este campo identifica el número de la sede del prestador",
+                "",
+                "",
+                "Nombre con el que se identifica cada una de las treinta y dos (32) divisiones geopolíticas del territorio colombiano.\nPara este conjunto de datos el departamento es siempre Antioquia.",
+                "Nombre del municipio",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+              ],
+            "columns_format" :
+              [
+                { "displayStyle" : "plain", "align" : "left" },
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {
+                  "precisionStyle" : "standard",
+                  "noCommas" : "false",
+                  "align" : "right"
+                },
+                { "displayStyle" : "plain", "align" : "left" },
+                {},
+                {},
+                {},
+                {},
+                { "displayStyle" : "plain", "align" : "left" },
+                { "displayStyle" : "plain", "align" : "left" },
+                {},
+                {},
+                { "displayStyle" : "plain", "align" : "right" },
+                { "displayStyle" : "plain", "align" : "left" },
+                {},
+                { "displayStyle" : "plain", "align" : "left" },
+                {},
+                { "displayStyle" : "plain", "align" : "left" },
+                {},
+                {},
+                {},
+                { "displayStyle" : "plain", "align" : "left" },
+                {},
+                {},
+                {},
+                {},
+                { "displayStyle" : "plain", "rdf" : "", "align" : "right" },
+                { "align" : "left" }
+              ],
+            "download_count" : 46,
+            "provenance" : "official",
+            "lens_view_type" : "tabular",
+            "lens_display_type" : "table",
+            "locked" : false,
+            "blob_mime_type" : null,
+            "hide_from_data_json" : false,
+            "publication_date" : "2023-11-01T16:24:04.000Z"
+          },
+        "classification" :
+          {
+            "categories" : [],
+            "tags" : [],
+            "domain_category" : "Salud y Protección Social",
+            "domain_tags" : [ "ips", "salud", "antioquia" ],
+            "domain_metadata" :
+              [
+                { "key" : "Información-de-Datos_Idioma", "value" : "Español" },
+                {
+                  "key" : "Información-de-Datos_Cobertura-Geográfica",
+                  "value" : "Departamental"
+                },
+                {
+                  "key" : "Información-de-Datos_Frecuencia-de-Actualización",
+                  "value" : "Anual"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Sector",
+                  "value" : "No Aplica"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Área-o-dependencia",
+                  "value" : "Gobernación de Antioquia"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Nombre-de-la-Entidad",
+                  "value" : "Gobernación de Antioquia"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Orden",
+                  "value" : "Territorial"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Municipio",
+                  "value" : "Medellín"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Departamento",
+                  "value" : "Antioquia"
+                }
+              ]
+          },
+        "metadata" :
+          {
+            "domain" : "www.datos.gov.co",
+            "license" : "Creative Commons Attribution | Share Alike 4.0 International"
+          },
+        "permalink" : "https://www.datos.gov.co/d/du7p-hbma",
+        "link" : "https://www.datos.gov.co/Salud-y-Protección-Social/Prestadores-de-Salud-Departamento-de-Antioquia-CAÑ/du7p-hbma",
+        "owner" :
+          {
+            "id" : "3885-5xez",
+            "user_type" : "interactive",
+            "display_name" : "Alcaldía Municipal de Cañasgordas"
+          },
+        "creator" :
+          {
+            "id" : "3885-5xez",
+            "user_type" : "interactive",
+            "display_name" : "Alcaldía Municipal de Cañasgordas"
+          }
+      },
+      {
+        "resource" :
+          {
+            "name" : "Prestadores de Salud Departamento de Antioquia - CARACOLÍ",
+            "id" : "ied5-64t8",
+            "resource_name" : null,
+            "parent_fxf" : [ "b4dp-ximh" ],
+            "description" : "Registro de Prestadores de servicios de salud habilitados en el Departamento de Antioquia",
+            "attribution" : "Gobernación de Antioquia",
+            "attribution_link" : "http://www.antioquia.gov.co",
+            "contact_email" : null,
+            "type" : "filter",
+            "updatedAt" : "2025-12-19T23:19:53.000Z",
+            "createdAt" : "2023-10-28T16:02:29.000Z",
+            "metadata_updated_at" : "2025-12-19T23:19:53.000Z",
+            "data_updated_at" : "2025-03-19T21:38:32.000Z",
+            "page_views" :
+              {
+                "page_views_last_week" : 3,
+                "page_views_last_month" : 16,
+                "page_views_total" : 203,
+                "page_views_last_week_log" : 2.0,
+                "page_views_last_month_log" : 4.08746284125034,
+                "page_views_total_log" : 7.672425341971495
+              },
+            "columns_name" :
+              [
+                "direccion",
+                "codigo clase prestador",
+                "horario domingo",
+                "nombre centro poblado",
+                "clase persona",
+                "número sede",
+                "telefono",
+                "email",
+                "municipio",
+                "nombre naturaleza juridica",
+                "codigo habilitacion",
+                "horario martes",
+                "digito verificacion nit",
+                "clase prestador",
+                "caracter",
+                "gerente",
+                "horario jueves",
+                "horario lunes",
+                "fax",
+                "horario viernes",
+                "nit",
+                "tipo zona",
+                "horario miercoles",
+                "horario sabado",
+                "nombre prestador",
+                "departamento",
+                "codigo naturaleza juridica",
+                "fecha apertura",
+                "nombre sede",
+                "nivel",
+                "barrio",
+                "codigo centro poblado",
+                "ese"
+              ],
+            "columns_field_name" :
+              [
+                "direccion",
+                "codigo_clase_prestador",
+                "horario_domingo",
+                "nombre_centro_poblado",
+                "clasepersona",
+                "numero_sede",
+                "telefono",
+                "email",
+                "municipio",
+                "privadapublica",
+                "codigohabilitacion",
+                "horario_martes",
+                "digito_verificacion_nit",
+                "claseprestador",
+                "caracter",
+                "gerente",
+                "horario_jueves",
+                "horario_lunes",
+                "fax",
+                "horario_viernes",
+                "nit",
+                "tipo_zona",
+                "horario_miercoles",
+                "horario_sabado",
+                "nombreprestador",
+                "departamento",
+                "codigo_naturaleza_juridica",
+                "fecha_apertura",
+                "nombre_sede",
+                "nivel",
+                "barrio",
+                "codigo_centro_poblado",
+                "ese"
+              ],
+            "columns_datatype" :
+              [
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text"
+              ],
+            "columns_description" :
+              [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "Un mismo prestador de servicio de salud puede tener varias sedes. Este campo identifica el número de la sede del prestador",
+                "",
+                "",
+                "Nombre del municipio",
+                "",
+                "",
+                "",
+                "permite validar el número de Identificación Tributaria, que asigna la Dirección de Impuestos y Aduanas Nacionales por una sola vez cuando el interesado se inscribe en el Registro Único Tributario (mecanismo único para identificar, ubicar y clasificar a los sujetos de obligaciones administradas y controladas por la DIAN). ",
+                "Identifica si el prestador es una institución o un profesional independiente",
+                "",
+                "Nombre del gerente de la sede, cuando aplique",
+                "",
+                "",
+                "",
+                "",
+                "Número de Identificación Tributaria de la persona natural o jurídica.",
+                "",
+                "",
+                "",
+                "Nombre o razón social de la persona o entidad prstadora de servicios de salud",
+                "Nombre con el que se identifica cada una de las treinta y dos (32) divisiones geopolíticas del territorio colombiano.\nPara este conjunto de datos el departamento es siempre Antioquia.",
+                "",
+                "",
+                "Nombre de la sede del prestador de servicios de salud",
+                "",
+                "",
+                "",
+                "Identifica si el prstador es o no una Empresa Social del Estado"
+              ],
+            "columns_format" :
+              [
+                {},
+                {},
+                {},
+                {},
+                { "displayStyle" : "plain", "align" : "left" },
+                { "displayStyle" : "plain", "align" : "left" },
+                {
+                  "precisionStyle" : "standard",
+                  "noCommas" : "false",
+                  "align" : "right"
+                },
+                {},
+                { "displayStyle" : "plain", "align" : "left" },
+                { "displayStyle" : "plain", "align" : "left" },
+                { "displayStyle" : "plain", "rdf" : "", "align" : "right" },
+                {},
+                { "displayStyle" : "plain", "align" : "left" },
+                { "displayStyle" : "plain", "align" : "left" },
+                {},
+                {},
+                {},
+                {},
+                { "align" : "left" },
+                {},
+                { "displayStyle" : "plain", "align" : "right" },
+                {},
+                {},
+                {},
+                { "displayStyle" : "plain", "align" : "left" },
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                { "displayStyle" : "plain", "align" : "left" }
+              ],
+            "download_count" : 29,
+            "provenance" : "official",
+            "lens_view_type" : "tabular",
+            "lens_display_type" : "table",
+            "locked" : false,
+            "blob_mime_type" : null,
+            "hide_from_data_json" : false,
+            "publication_date" : "2024-12-15T19:25:02.000Z"
+          },
+        "classification" :
+          {
+            "categories" : [],
+            "tags" : [],
+            "domain_category" : "Salud y Protección Social",
+            "domain_tags" : [ "salud", "ips", "antioquia" ],
+            "domain_metadata" :
+              [
+                { "key" : "Información-de-Datos_Idioma", "value" : "Español" },
+                {
+                  "key" : "Información-de-Datos_Cobertura-Geográfica",
+                  "value" : "Departamental"
+                },
+                {
+                  "key" : "Información-de-Datos_Frecuencia-de-Actualización",
+                  "value" : "Anual"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Sector",
+                  "value" : "No Aplica"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Área-o-dependencia",
+                  "value" : "Gobernación de Antioquia"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Nombre-de-la-Entidad",
+                  "value" : "Gobernación de Antioquia"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Orden",
+                  "value" : "Territorial"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Municipio",
+                  "value" : "Medellín"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Departamento",
+                  "value" : "Antioquia"
+                }
+              ]
+          },
+        "metadata" :
+          {
+            "domain" : "www.datos.gov.co",
+            "license" : "Creative Commons Attribution | Share Alike 4.0 International"
+          },
+        "permalink" : "https://www.datos.gov.co/d/ied5-64t8",
+        "link" : "https://www.datos.gov.co/Salud-y-Protección-Social/Prestadores-de-Salud-Departamento-de-Antioquia-CAR/ied5-64t8",
+        "owner" :
+          {
+            "id" : "kubz-nmc2",
+            "user_type" : "interactive",
+            "display_name" : "ALCALDIA CARACOLI"
+          },
+        "creator" :
+          {
+            "id" : "kubz-nmc2",
+            "user_type" : "interactive",
+            "display_name" : "ALCALDIA CARACOLI"
+          }
+      },
+      {
+        "resource" :
+          {
+            "name" : "personal",
+            "id" : "cjzu-nvce",
+            "resource_name" : null,
+            "parent_fxf" : [ "pi36-fdpk" ],
+            "description" : "Contiene datos de las Empresas Sociales del Estado -E.S.E. - Hospitales del departamento de Antioquia, con sus coordenadas para localización geográfica",
+            "attribution" : "Gobernación de Antioquia",
+            "attribution_link" : "http://www.antioquia.gov.co",
+            "contact_email" : null,
+            "type" : "filter",
+            "updatedAt" : "2025-12-19T23:26:01.000Z",
+            "createdAt" : "2017-09-21T21:19:08.000Z",
+            "metadata_updated_at" : "2025-12-19T23:26:01.000Z",
+            "data_updated_at" : "2022-12-19T21:56:52.000Z",
+            "page_views" :
+              {
+                "page_views_last_week" : 35,
+                "page_views_last_month" : 139,
+                "page_views_total" : 2156,
+                "page_views_last_week_log" : 5.169925001442312,
+                "page_views_last_month_log" : 7.129283016944966,
+                "page_views_total_log" : 11.074810461160453
+              },
+            "columns_name" :
+              [
+                "Código Región",
+                "Dirección",
+                "Número Teléfono",
+                "Razón Social Organización",
+                "Código Municipio",
+                "Código Habilitación Prestador Salud",
+                "Número NIT",
+                "Dirección Correo Electrónico",
+                "Nombre Municipio",
+                "Nombre Región",
+                "Punto"
+              ],
+            "columns_field_name" :
+              [
+                "c_digo_regi_n",
+                "direcci_n",
+                "n_mero_tel_fono",
+                "raz_n_social_organizaci_n",
+                "c_digo_municipio",
+                "c_digo_habilitaci_n_prestador_salud",
+                "n_mero_nit",
+                "direcci_n_correo_electr_nico",
+                "nombre_municipio",
+                "nombre_regi_n",
+                "punto"
+              ],
+            "columns_datatype" :
+              [
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Number",
+                "Text",
+                "Text",
+                "Text",
+                "Point"
+              ],
+            "columns_description" :
+              [
+                "Identificador de la sub región (las subregiones son subdivisiones territoriales que conforman el departamento de Antioquia)",
+                "Dirección del domicilio del hospital",
+                "Número telefónico del hospital",
+                "Razón social de la E.S.E. Hospital",
+                "Código alfanumérico de cinco (5) posiciones con el que se identifica a cada uno de los municipios que hacen parte o están dentro de la jurisdicción territorial de un departamento colombiano",
+                "Nemotécnico que permite identificar a la Entidad Departamental de práctica profesional que cuenta con la infraestructura física para poder prestar servicios de salud",
+                "Número de Identificacio´n tributaria de la E.S.E. sin el dígito de verificación",
+                "Dirección de correo electrónico para contactar al hospital",
+                "Nombre con el que se identifica a cada uno de los municipios que hacen parte o están dentro de la jurisdicción territorial de un departamento colombiano",
+                "Nombre de la sub región (las subregiones son subdivisiones territoriales que conforman el departamento de Antioquia)",
+                "Coordenadas de latitud y longitud que permiten ubicar al hospital en el mapa"
+              ],
+            "columns_format" : [ {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {} ],
+            "download_count" : 235,
+            "provenance" : "community",
+            "lens_view_type" : "tabular",
+            "lens_display_type" : "table",
+            "locked" : false,
+            "blob_mime_type" : null,
+            "hide_from_data_json" : false,
+            "publication_date" : "2017-09-21T21:19:08.000Z"
+          },
+        "classification" :
+          {
+            "categories" : [],
+            "tags" : [],
+            "domain_category" : "Salud y Protección Social",
+            "domain_tags" :
+              [
+                "salud",
+                "social",
+                "empresa",
+                "hospital",
+                "directorio",
+                "coordenadas",
+                "localizacion",
+                "departamento",
+                "ese",
+                "antioquia",
+                "estado"
+              ],
+            "domain_metadata" :
+              [
+                { "key" : "Información-de-Datos_Idioma", "value" : "Español" },
+                {
+                  "key" : "Información-de-Datos_Cobertura-Geográfica",
+                  "value" : "Departamental"
+                },
+                {
+                  "key" : "Información-de-Datos_Frecuencia-de-Actualización",
+                  "value" : "Anual"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Sector",
+                  "value" : "No Aplica"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Área-o-dependencia",
+                  "value" : "Secretaría de Salud de Antioquia"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Nombre-de-la-Entidad",
+                  "value" : "Gobernación de Antioquia"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Orden",
+                  "value" : "Territorial"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Municipio",
+                  "value" : "Medellín"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Departamento",
+                  "value" : "Antioquia"
+                }
+              ]
+          },
+        "metadata" :
+          {
+            "domain" : "www.datos.gov.co",
+            "license" : "Creative Commons Attribution | Share Alike 4.0 International"
+          },
+        "permalink" : "https://www.datos.gov.co/d/cjzu-nvce",
+        "link" : "https://www.datos.gov.co/Salud-y-Protección-Social/personal/cjzu-nvce",
+        "owner" :
+          {
+            "id" : "5x9n-nksf",
+            "user_type" : "interactive",
+            "display_name" : "Dleonja"
+          },
+        "creator" :
+          {
+            "id" : "5x9n-nksf",
+            "user_type" : "interactive",
+            "display_name" : "Dleonja"
+          }
+      }
+    ],
+  "resultSetSize" : 7,
+  "timings" : { "serviceMillis" : 22, "searchMillis" : [ 7, 7 ] },
+  "warnings" : []
+}

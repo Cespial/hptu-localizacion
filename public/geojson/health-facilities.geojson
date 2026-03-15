@@ -1,0 +1,787 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "E.S.E. HOSPITAL MANUEL URIBE ANGEL",
+        "municipality": "ENVIGADO",
+        "complexity": "Alta complejidad",
+        "beds": 0,
+        "nature": "Pública",
+        "primary": true,
+        "address": "DG 31 # 36 A SUR - 80",
+        "neighborhood": "Sin Dato",
+        "inCorridor": false,
+        "nearestZone": "zona_C_envigado_norte",
+        "nearestZoneKm": 1.9
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.580128,
+          6.166892
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "ESE HOSPITAL SAN RAFAEL-ITAGUI",
+        "municipality": "ITAGUI",
+        "complexity": "Mediana complejidad",
+        "beds": 0,
+        "nature": "Pública",
+        "primary": false,
+        "address": "KR 51A # 45-51",
+        "neighborhood": "Sin Dato",
+        "inCorridor": false,
+        "nearestZone": "zona_B_el_tesoro",
+        "nearestZoneKm": 9.249
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.574179,
+          6.28661
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Aurora Centro Especializado en Cáncer de Piel SAS",
+        "municipality": "MEDELLÍN",
+        "complexity": "Alta complejidad",
+        "beds": 0,
+        "nature": "Privada",
+        "primary": false,
+        "address": "KA 46 # 7-12",
+        "neighborhood": "Patio Bonito",
+        "inCorridor": false,
+        "nearestZone": "zona_D_sabaneta",
+        "nearestZoneKm": 0.842
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.6145459,
+          6.1577475
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "CENTRO DE ORTOPEDIA EL POBLADO S.A.S.",
+        "municipality": "MEDELLÍN",
+        "complexity": "Alta complejidad",
+        "beds": 0,
+        "nature": "Privada",
+        "primary": false,
+        "address": "CARRERA 41 N° 9-05",
+        "neighborhood": "Sin Dato",
+        "inCorridor": false,
+        "nearestZone": "zona_B_el_tesoro",
+        "nearestZoneKm": 7.015
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.5912915,
+          6.2587064
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "CENTRO DE ORTOPEDIA Y TRAUMATOLOGIA EL ESTADIO S.A",
+        "municipality": "MEDELLÍN",
+        "complexity": "Alta complejidad",
+        "beds": 0,
+        "nature": "Privada",
+        "primary": false,
+        "address": "CARRERA 74 N° 48B - 77",
+        "neighborhood": "Sin Dato",
+        "inCorridor": false,
+        "nearestZone": "zona_B_el_tesoro",
+        "nearestZoneKm": 7.015
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.5912915,
+          6.2587064
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "CLINICA CARDIO VID",
+        "municipality": "MEDELLÍN",
+        "complexity": "Alta complejidad",
+        "beds": 272,
+        "nature": "Privada",
+        "primary": false,
+        "address": "CALLE 78B N° 75-21",
+        "neighborhood": "Sin Dato",
+        "inCorridor": false,
+        "nearestZone": "zona_B_el_tesoro",
+        "nearestZoneKm": 8.782
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.5846937,
+          6.279388
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "CLINICA CEP -CLÍNICA ESPECIALISTAS DEL POBLADO-CIRUPLAN SAS",
+        "municipality": "MEDELLÍN",
+        "complexity": "Alta complejidad",
+        "beds": 0,
+        "nature": "Privada",
+        "primary": false,
+        "address": "KR 46 # 7 - 9",
+        "neighborhood": "PATIO BONITO",
+        "inCorridor": false,
+        "nearestZone": "zona_B_el_tesoro",
+        "nearestZoneKm": 5.764
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.5977664,
+          6.2385301
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "CLINICA COLSANITAS S A",
+        "municipality": "MEDELLÍN",
+        "complexity": "Mediana complejidad",
+        "beds": 0,
+        "nature": "Privada",
+        "primary": false,
+        "address": "CL 16 SUR # 44-08",
+        "neighborhood": "SANTA MARIA DE LOS ANGELES",
+        "inCorridor": false,
+        "nearestZone": "zona_C_envigado_norte",
+        "nearestZoneKm": 2.254
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.5777406,
+          6.1908238
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "CLINICA DEL CAMPESTRE S A",
+        "municipality": "MEDELLÍN",
+        "complexity": "Alta complejidad",
+        "beds": 0,
+        "nature": "Privada",
+        "primary": false,
+        "address": "CL 17 SUR # 44 06",
+        "neighborhood": "POBLADO",
+        "inCorridor": false,
+        "nearestZone": "zona_C_envigado_norte",
+        "nearestZoneKm": 2.076
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.5784994,
+          6.1879749
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "CLINICA DEL PRADO S.A.S",
+        "municipality": "MEDELLÍN",
+        "complexity": "Alta complejidad",
+        "beds": 304,
+        "nature": "Privada",
+        "primary": false,
+        "address": "CL 19 A # 44-25",
+        "neighborhood": "Poblado",
+        "inCorridor": false,
+        "nearestZone": "zona_C_envigado_norte",
+        "nearestZoneKm": 2.254
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.5777406,
+          6.1908238
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "CLINICA MEDELLIN S.A.S.",
+        "municipality": "MEDELLÍN",
+        "complexity": "Alta complejidad",
+        "beds": 624,
+        "nature": "Privada",
+        "primary": true,
+        "address": "CL 53 # 46 - 38",
+        "neighborhood": "Sin Dato",
+        "inCorridor": false,
+        "nearestZone": "zona_C_envigado_norte",
+        "nearestZoneKm": 2.254
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.5777406,
+          6.1908238
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "CLINIQ DERMOESTETICA Y LASER S.A",
+        "municipality": "MEDELLÍN",
+        "complexity": "Alta complejidad",
+        "beds": 0,
+        "nature": "Privada",
+        "primary": false,
+        "address": "CIRCULAR 71 # 39 - 33",
+        "neighborhood": "LAURELES",
+        "inCorridor": false,
+        "nearestZone": "zona_B_el_tesoro",
+        "nearestZoneKm": 5.47
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.592159,
+          6.2405961
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "CLÍNICA LÁSER DE OJOS S.A.S",
+        "municipality": "MEDELLÍN",
+        "complexity": "Alta complejidad",
+        "beds": 0,
+        "nature": "Privada",
+        "primary": false,
+        "address": "CRA 43 C # 5- 87",
+        "neighborhood": "Sin Dato",
+        "inCorridor": false,
+        "nearestZone": "zona_B_el_tesoro",
+        "nearestZoneKm": 2.098
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.5769617,
+          6.2041283
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Centro de Neurología S.A.S",
+        "municipality": "MEDELLÍN",
+        "complexity": "Mediana complejidad (internación)",
+        "beds": 16,
+        "nature": "Privada",
+        "primary": false,
+        "address": "Carrera 48B N° 16 Sur 22",
+        "neighborhood": "La Aguacatala",
+        "inCorridor": false,
+        "nearestZone": "zona_B_el_tesoro",
+        "nearestZoneKm": 4.923
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.5652647,
+          6.2486808
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Corporación Hospital Infantil Concejo de Medellín",
+        "municipality": "MEDELLÍN",
+        "complexity": "Mediana complejidad",
+        "beds": 102,
+        "nature": "Privada",
+        "primary": false,
+        "address": "CL 72A # 48A-20",
+        "neighborhood": "CAMPO VALDES",
+        "inCorridor": false,
+        "nearestZone": "zona_B_el_tesoro",
+        "nearestZoneKm": 6.23
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.5615089,
+          6.2609231
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "EMPRESA SOCIAL DEL ESTADO METROSALUD",
+        "municipality": "MEDELLÍN",
+        "complexity": "Mediana complejidad",
+        "beds": 17550,
+        "nature": "Pública",
+        "primary": false,
+        "address": "KR 50 # 44 - 27 ED SACATIN COLON",
+        "neighborhood": "COLON",
+        "inCorridor": false,
+        "nearestZone": "zona_B_el_tesoro",
+        "nearestZoneKm": 4.591
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.56986,
+          6.244572
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "ESE HOSPITAL CARISMA",
+        "municipality": "MEDELLÍN",
+        "complexity": "Mediana complejidad",
+        "beds": 192,
+        "nature": "Pública",
+        "primary": false,
+        "address": "KR 93 # 34AA-01",
+        "neighborhood": "Sin Dato",
+        "inCorridor": false,
+        "nearestZone": "zona_B_el_tesoro",
+        "nearestZoneKm": 7.859
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.618542,
+          6.242055
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "ESE HOSPITAL LA MARIA",
+        "municipality": "MEDELLÍN",
+        "complexity": "Alta complejidad",
+        "beds": 424,
+        "nature": "Pública",
+        "primary": false,
+        "address": "CL 92EE # 67-61",
+        "neighborhood": "Sin Dato",
+        "inCorridor": false,
+        "nearestZone": "zona_B_el_tesoro",
+        "nearestZoneKm": 9.249
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.574179,
+          6.28661
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "FUNDACION HOSPITAL INFANTIL SANTA ANA",
+        "municipality": "MEDELLÍN",
+        "complexity": "Mediana complejidad",
+        "beds": 23,
+        "nature": "Privada",
+        "primary": false,
+        "address": "CL 14 # 43 B - 146",
+        "neighborhood": "POBLADO",
+        "inCorridor": false,
+        "nearestZone": "zona_B_el_tesoro",
+        "nearestZoneKm": 6.23
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.5615089,
+          6.2609231
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "FUNDACION HOSPITALARIA SAN VICENTE DE PAUL",
+        "municipality": "MEDELLÍN",
+        "complexity": "Alta complejidad",
+        "beds": 527,
+        "nature": "Privada",
+        "primary": true,
+        "address": "CALLE 64 CON CARRERA 51 D",
+        "neighborhood": "Sin Dato",
+        "inCorridor": false,
+        "nearestZone": "zona_D_sabaneta",
+        "nearestZoneKm": 7.377
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.634566,
+          6.08673
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "FUNDACION INSTITUTO NEUROLOGICO DE COLOMBIA",
+        "municipality": "MEDELLÍN",
+        "complexity": "Alta complejidad",
+        "beds": 53,
+        "nature": "Privada",
+        "primary": false,
+        "address": "CALLE 55 N° 46-36",
+        "neighborhood": "Sin Dato",
+        "inCorridor": false,
+        "nearestZone": "zona_B_el_tesoro",
+        "nearestZoneKm": 5.318
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.5634342,
+          6.2525186
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "FUNDACION INTEGRAL DE SALUD - FUNSALUD",
+        "municipality": "MEDELLÍN",
+        "complexity": "Alta complejidad",
+        "beds": 0,
+        "nature": "Privada",
+        "primary": false,
+        "address": "CL 35 # 46 - 60 EDFICIO ALIANZA Y SALUD",
+        "neighborhood": "CANDELARIA",
+        "inCorridor": false,
+        "nearestZone": "zona_B_el_tesoro",
+        "nearestZoneKm": 5.666
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.5968081,
+          6.2382898
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "HERMANAS HOSPITALARIAS DEL SAGRADO CORAZÓN DE JESÚS",
+        "municipality": "MEDELLÍN",
+        "complexity": "Mediana complejidad",
+        "beds": 66,
+        "nature": "Privada",
+        "primary": false,
+        "address": "CARRERA 50 N° 62-63",
+        "neighborhood": "Sin Dato",
+        "inCorridor": false,
+        "nearestZone": "zona_B_el_tesoro",
+        "nearestZoneKm": 6.067
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.5619578,
+          6.2594164
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "HOSPITAL GENERAL DE MEDELLIN LUZ CASTRO DE GUTIERREZ, EMPRESA SOCIAL DEL ESTADO",
+        "municipality": "MEDELLÍN",
+        "complexity": "Alta complejidad",
+        "beds": 384,
+        "nature": "Pública",
+        "primary": true,
+        "address": "CARRERA 48 N° 32-102",
+        "neighborhood": "Sin Dato",
+        "inCorridor": false,
+        "nearestZone": "zona_B_el_tesoro",
+        "nearestZoneKm": 3.695
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.572848,
+          6.23477
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "HOSPITAL PABLO TOBON URIBE",
+        "municipality": "MEDELLÍN",
+        "complexity": "Alta complejidad",
+        "beds": 1094,
+        "nature": "Privada",
+        "primary": true,
+        "address": "CALLE 78B N° 69-240",
+        "neighborhood": "Sin Dato",
+        "inCorridor": false,
+        "nearestZone": "zona_C_envigado_norte",
+        "nearestZoneKm": 1.9
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.580128,
+          6.166892
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "INTEGRADOS IPS LTDA.",
+        "municipality": "MEDELLÍN",
+        "complexity": "Alta complejidad",
+        "beds": 0,
+        "nature": "Privada",
+        "primary": false,
+        "address": "CL78 # 79 A-03",
+        "neighborhood": "ROBLEDO",
+        "inCorridor": false,
+        "nearestZone": "zona_B_el_tesoro",
+        "nearestZoneKm": 8.92
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.5857385,
+          6.2803303
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "INVERSIONES EN SALUD VEGAS S.A.S",
+        "municipality": "MEDELLÍN",
+        "complexity": "Alta complejidad",
+        "beds": 0,
+        "nature": "Privada",
+        "primary": false,
+        "address": "CL. 2 SUR 46 116 PISO 12 CONSULTORIO 1209 piso 11",
+        "neighborhood": "Poblado",
+        "inCorridor": false,
+        "nearestZone": "zona_B_el_tesoro",
+        "nearestZoneKm": 2.074
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.5767341,
+          6.2040587
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "LOS ALAMOS CLINICA DE ESPECIALISTAS S.A.S",
+        "municipality": "MEDELLÍN",
+        "complexity": "Alta complejidad",
+        "beds": 0,
+        "nature": "Privada",
+        "primary": false,
+        "address": "CL 32F # 76-110",
+        "neighborhood": "LAURELES EL NOGAL",
+        "inCorridor": false,
+        "nearestZone": "zona_B_el_tesoro",
+        "nearestZoneKm": 5.764
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.5977664,
+          6.2385301
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "PREVENTIVA SALUD SAS",
+        "municipality": "MEDELLÍN",
+        "complexity": "Mediana complejidad (internación)",
+        "beds": 2,
+        "nature": "Privada",
+        "primary": false,
+        "address": "Calle 45E # 73 - 34",
+        "neighborhood": "Florida Nueva",
+        "inCorridor": false,
+        "nearestZone": "zona_B_el_tesoro",
+        "nearestZoneKm": 6.742
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.5965748,
+          6.251965
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "QUIRUSTETIC S.A.S",
+        "municipality": "MEDELLÍN",
+        "complexity": "Alta complejidad",
+        "beds": 0,
+        "nature": "Privada",
+        "primary": false,
+        "address": "CL 11 A SUR # 44-23",
+        "neighborhood": "POBLADO",
+        "inCorridor": false,
+        "nearestZone": "zona_B_el_tesoro",
+        "nearestZoneKm": 2.431
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.5775524,
+          6.1949964
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "REMY IPS S.A.S",
+        "municipality": "MEDELLÍN",
+        "complexity": "Mediana complejidad",
+        "beds": 20,
+        "nature": "Privada",
+        "primary": false,
+        "address": "KR 50 A # 59-56",
+        "neighborhood": "PRADO CENTRO",
+        "inCorridor": false,
+        "nearestZone": "zona_B_el_tesoro",
+        "nearestZoneKm": 5.899
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.5637284,
+          6.2577427
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "UNIVERSIDAD PONTIFICIA BOLIVARIANA",
+        "municipality": "MEDELLÍN",
+        "complexity": "Alta complejidad",
+        "beds": 1060,
+        "nature": "Privada",
+        "primary": false,
+        "address": "KR 73 # C2 - 46",
+        "neighborhood": "LAURELES",
+        "inCorridor": false,
+        "nearestZone": "zona_B_el_tesoro",
+        "nearestZoneKm": 8.44
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.5823273,
+          6.2769431
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "VISION TOTAL S.A.S",
+        "municipality": "MEDELLÍN",
+        "complexity": "Alta complejidad",
+        "beds": 0,
+        "nature": "Privada",
+        "primary": false,
+        "address": "calle 57N° 46 -43",
+        "neighborhood": "CENTRO",
+        "inCorridor": false,
+        "nearestZone": "zona_B_el_tesoro",
+        "nearestZoneKm": 6.742
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.5965748,
+          6.251965
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "VISIÓN INTEGRADOS S.A.S",
+        "municipality": "MEDELLÍN",
+        "complexity": "Alta complejidad",
+        "beds": 0,
+        "nature": "Privada",
+        "primary": false,
+        "address": "CALLE 33 No 66 B 23",
+        "neighborhood": "LAURELES",
+        "inCorridor": false,
+        "nearestZone": "zona_B_el_tesoro",
+        "nearestZoneKm": 5.018
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.5877455,
+          6.2390913
+        ]
+      }
+    }
+  ]
+}

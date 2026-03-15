@@ -1,0 +1,1233 @@
+{
+  "results" :
+    [
+      {
+        "resource" :
+          {
+            "name" : "NUMERO DE EMPLEADOS POR CADA EMPRESA REGISTRADA",
+            "id" : "we9a-3bys",
+            "resource_name" : null,
+            "parent_fxf" : [],
+            "description" : "NUMERO DE EMPLEADOS POR EMPRESA REGISTRADA",
+            "attribution" : "Cámara  de Comercio del Oriente Antioqueño",
+            "attribution_link" : "https://ccoa.org.co",
+            "contact_email" : null,
+            "type" : "dataset",
+            "updatedAt" : "2025-12-19T22:41:08.000Z",
+            "createdAt" : "2023-07-05T01:02:34.000Z",
+            "metadata_updated_at" : "2025-12-19T22:41:08.000Z",
+            "data_updated_at" : "2023-07-05T01:16:32.000Z",
+            "page_views" :
+              {
+                "page_views_last_week" : 41,
+                "page_views_last_month" : 381,
+                "page_views_total" : 9382,
+                "page_views_last_week_log" : 5.392317422778761,
+                "page_views_last_month_log" : 8.57742882803575,
+                "page_views_total_log" : 13.195833549955587
+              },
+            "columns_name" :
+              [
+                "ULT-ANO_REN",
+                "Estado",
+                "matricula",
+                "numid",
+                "razonsocial",
+                "nit",
+                "Personal_ocupado",
+                "FEC-MATRICULA"
+              ],
+            "columns_field_name" :
+              [
+                "periodo",
+                "estado",
+                "matricula",
+                "numid",
+                "razonsocial",
+                "nit",
+                "personal_ocupado",
+                "fecha_matricula"
+              ],
+            "columns_datatype" :
+              [
+                "Number",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Number",
+                "Number"
+              ],
+            "columns_description" :
+              [
+                "ULT-ANO_REN",
+                "EST-MATRICULA",
+                "MATRICULA",
+                "IDENTIFICACION",
+                "RAZON SOCIAL",
+                "NIT",
+                "PERSONAL",
+                "FEC-MATRICULA"
+              ],
+            "columns_format" :
+              [
+                { "decimalSeparator" : ".", "groupSeparator" : "," },
+                {},
+                { "decimalSeparator" : ".", "groupSeparator" : "," },
+                {},
+                {},
+                {},
+                { "decimalSeparator" : ".", "groupSeparator" : "," },
+                { "decimalSeparator" : ".", "groupSeparator" : "," }
+              ],
+            "download_count" : 13892,
+            "provenance" : "official",
+            "lens_view_type" : "tabular",
+            "lens_display_type" : "table",
+            "locked" : false,
+            "blob_mime_type" : null,
+            "hide_from_data_json" : false,
+            "publication_date" : "2023-07-05T01:16:44.000Z"
+          },
+        "classification" :
+          {
+            "categories" : [],
+            "tags" : [],
+            "domain_category" : "Ordenamiento Territorial",
+            "domain_tags" : [ "estadisticas" ],
+            "domain_metadata" :
+              [
+                { "key" : "Información-de-Datos_Idioma", "value" : "Español" },
+                {
+                  "key" : "Información-de-Datos_Cobertura-Geográfica",
+                  "value" : "Municipal"
+                },
+                {
+                  "key" : "Información-de-Datos_Frecuencia-de-Actualización",
+                  "value" : "Anual"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Sector",
+                  "value" : "Estadísticas"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Área-o-dependencia",
+                  "value" : "Registros"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Nombre-de-la-Entidad",
+                  "value" : "Cámara de Comercio del Oriente Antioqueño"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Orden",
+                  "value" : "Territorial"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Municipio",
+                  "value" : "Rionegro"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Departamento",
+                  "value" : "Antioquia"
+                }
+              ]
+          },
+        "metadata" :
+          {
+            "domain" : "www.datos.gov.co",
+            "license" : "Creative Commons Attribution 4.0 International"
+          },
+        "permalink" : "https://www.datos.gov.co/d/we9a-3bys",
+        "link" : "https://www.datos.gov.co/Ordenamiento-Territorial/NUMERO-DE-EMPLEADOS-POR-CADA-EMPRESA-REGISTRADA/we9a-3bys",
+        "owner" :
+          {
+            "id" : "wt37-ipiu",
+            "user_type" : "interactive",
+            "display_name" : "Cámara de Comercio del Oriente Antioqueño"
+          },
+        "creator" :
+          {
+            "id" : "wt37-ipiu",
+            "user_type" : "interactive",
+            "display_name" : "Cámara de Comercio del Oriente Antioqueño"
+          }
+      },
+      {
+        "resource" :
+          {
+            "name" : "Mapa de Barrios de Barranquilla Según el POT",
+            "id" : "p57x-7s28",
+            "resource_name" : null,
+            "parent_fxf" : [ "qui6-qeux" ],
+            "description" : "Ubicación de Barrios del Distrito de Barranquilla Según el Plan de Ordenamiento Territorial",
+            "attribution" : "Alcaldia Distrital de Barranquilla",
+            "attribution_link" : "https://www.datos.gov.co/d/qui6-qeux",
+            "contact_email" : null,
+            "type" : "map",
+            "updatedAt" : "2025-12-19T23:10:27.000Z",
+            "createdAt" : "2021-12-30T21:47:21.000Z",
+            "metadata_updated_at" : "2025-12-19T23:10:27.000Z",
+            "data_updated_at" : "2021-12-30T21:37:23.000Z",
+            "page_views" :
+              {
+                "page_views_last_week" : 1118,
+                "page_views_last_month" : 5942,
+                "page_views_total" : 126784,
+                "page_views_last_week_log" : 10.127994320976393,
+                "page_views_last_month_log" : 12.536975665610642,
+                "page_views_total_log" : 16.95202454400161
+              },
+            "columns_name" : [],
+            "columns_field_name" : [],
+            "columns_datatype" : [],
+            "columns_description" : [],
+            "columns_format" : [],
+            "download_count" : 2,
+            "provenance" : "official",
+            "lens_view_type" : "tabular",
+            "lens_display_type" : "visualization_canvas_map",
+            "locked" : false,
+            "blob_mime_type" : null,
+            "hide_from_data_json" : false,
+            "publication_date" : "2021-12-30T21:54:25.000Z"
+          },
+        "classification" :
+          {
+            "categories" : [],
+            "tags" : [],
+            "domain_category" : "Vivienda, Ciudad y Territorio",
+            "domain_tags" : [],
+            "domain_metadata" :
+              [
+                { "key" : "Información-de-Datos_Idioma", "value" : "Español" },
+                {
+                  "key" : "Información-de-Datos_Cobertura-Geográfica",
+                  "value" : "Municipal"
+                },
+                {
+                  "key" : "Información-de-Datos_Frecuencia-de-Actualización",
+                  "value" : "No aplica"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Sector",
+                  "value" : "Vivienda, Ciudad y Territorio"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Área-o-dependencia",
+                  "value" : "Secretaría Distrital de Planeación"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Nombre-de-la-Entidad",
+                  "value" : "Alcaldía Distrital de Barranquilla, Distrito Especial, Industrial y Portuario"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Orden",
+                  "value" : "Territorial"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Municipio",
+                  "value" : "Barranquilla"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Departamento",
+                  "value" : "Atlántico"
+                }
+              ]
+          },
+        "metadata" :
+          {
+            "domain" : "www.datos.gov.co",
+            "license" : "Creative Commons Attribution | Share Alike 4.0 International"
+          },
+        "permalink" : "https://www.datos.gov.co/d/p57x-7s28",
+        "link" : "https://www.datos.gov.co/Vivienda-Ciudad-y-Territorio/Mapa-de-Barrios-de-Barranquilla-Según-el-POT/p57x-7s28",
+        "owner" :
+          {
+            "id" : "6ar2-ee2d",
+            "user_type" : "interactive",
+            "display_name" : "AlcaldiaBarranquilla"
+          },
+        "creator" :
+          {
+            "id" : "6ar2-ee2d",
+            "user_type" : "interactive",
+            "display_name" : "AlcaldiaBarranquilla"
+          }
+      },
+      {
+        "resource" :
+          {
+            "name" : "POT - Uso de Suelo Urbano del Municipio de Sogamoso",
+            "id" : "f8j7-ruge",
+            "resource_name" : null,
+            "parent_fxf" : [],
+            "description" : "Plan de Ordenamiento Territorial de Uso del Suelo Urbano",
+            "attribution" : "Municipio de Sogamoso Boyacá",
+            "attribution_link" : "https://www.datos.gov.co/d/f8j7-ruge",
+            "contact_email" : null,
+            "type" : "dataset",
+            "updatedAt" : "2025-12-19T23:25:17.000Z",
+            "createdAt" : "2021-11-11T22:15:06.000Z",
+            "metadata_updated_at" : "2025-12-19T23:25:17.000Z",
+            "data_updated_at" : "2025-12-03T14:14:32.000Z",
+            "page_views" :
+              {
+                "page_views_last_week" : 58,
+                "page_views_last_month" : 215,
+                "page_views_total" : 4494,
+                "page_views_last_week_log" : 5.882643049361842,
+                "page_views_last_month_log" : 7.754887502163469,
+                "page_views_total_log" : 12.134105400401811
+              },
+            "columns_name" :
+              [ "TIPO DE USO", "GRUPO USO", "SECTOR", "ID", "PERMISOS" ],
+            "columns_field_name" :
+              [ "tipo_de_uso", "grupo_uso", "sector", "id", "permisos" ],
+            "columns_datatype" : [ "Text", "Text", "Text", "Number", "Text" ],
+            "columns_description" :
+              [
+                "TIPO DE USO",
+                "GRUPO USO",
+                "SECTOR",
+                "ID De identificación",
+                "PERMISOS"
+              ],
+            "columns_format" : [ {}, {}, {}, {}, {} ],
+            "download_count" : 161,
+            "provenance" : "official",
+            "lens_view_type" : "tabular",
+            "lens_display_type" : "table",
+            "locked" : false,
+            "blob_mime_type" : null,
+            "hide_from_data_json" : false,
+            "publication_date" : "2021-11-16T20:55:28.000Z"
+          },
+        "classification" :
+          {
+            "categories" : [],
+            "tags" : [],
+            "domain_category" : "Ordenamiento Territorial",
+            "domain_tags" : [ "plan", "ordenamiento territorial", "pot" ],
+            "domain_metadata" :
+              [
+                { "key" : "Información-de-Datos_Idioma", "value" : "Español" },
+                {
+                  "key" : "Información-de-Datos_Cobertura-Geográfica",
+                  "value" : "Municipal"
+                },
+                {
+                  "key" : "Información-de-Datos_Frecuencia-de-Actualización",
+                  "value" : "Anual"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Sector",
+                  "value" : "Planeación"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Área-o-dependencia",
+                  "value" : "Oficina Asesora de Planeación"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Nombre-de-la-Entidad",
+                  "value" : "Alcaldía De Sogamoso, Boyacá"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Orden",
+                  "value" : "Territorial"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Municipio",
+                  "value" : "Sogamoso"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_DIVIPOLA-Municipio",
+                  "value" : "15759"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Departamento",
+                  "value" : "Boyacá"
+                }
+              ]
+          },
+        "metadata" :
+          {
+            "domain" : "www.datos.gov.co",
+            "license" : "Creative Commons Attribution | Share Alike 4.0 International"
+          },
+        "permalink" : "https://www.datos.gov.co/d/f8j7-ruge",
+        "link" : "https://www.datos.gov.co/Ordenamiento-Territorial/POT-Uso-de-Suelo-Urbano-del-Municipio-de-Sogamoso/f8j7-ruge",
+        "owner" :
+          {
+            "id" : "barc-qt9s",
+            "user_type" : "interactive",
+            "display_name" : "Soporte Sistemas"
+          },
+        "creator" :
+          {
+            "id" : "barc-qt9s",
+            "user_type" : "interactive",
+            "display_name" : "Soporte Sistemas"
+          }
+      },
+      {
+        "resource" :
+          {
+            "name" : "Barrios por comunas en la ciudad de Pereira",
+            "id" : "ebsr-7cb7",
+            "resource_name" : null,
+            "parent_fxf" : [],
+            "description" : "Barrios que se encuentran el las diferentes comunas de la ciudad de Pereira.",
+            "attribution" : "Secretaria de Planeación",
+            "attribution_link" : "https://www.datos.gov.co/d/ebsr-7cb7",
+            "contact_email" : null,
+            "type" : "dataset",
+            "updatedAt" : "2025-12-19T23:25:26.000Z",
+            "createdAt" : "2019-02-15T01:08:45.000Z",
+            "metadata_updated_at" : "2025-12-19T23:25:26.000Z",
+            "data_updated_at" : "2025-10-04T12:04:22.000Z",
+            "page_views" :
+              {
+                "page_views_last_week" : 808,
+                "page_views_last_month" : 3345,
+                "page_views_total" : 265852,
+                "page_views_last_week_log" : 9.659995892429977,
+                "page_views_last_month_log" : 11.708221730038353,
+                "page_views_total_log" : 18.02026922094296
+              },
+            "columns_name" :
+              [
+                "CODIGO DE LA COMUNA",
+                "NOMBRE POPULAR",
+                "DEPARTAMENTO",
+                "COMUNA",
+                "CODIGO DEL BARRIO",
+                "NOMBRE",
+                "CIUDAD"
+              ],
+            "columns_field_name" :
+              [
+                "codigo_de_la_comuna",
+                "nombre_popular",
+                "departamento",
+                "comuna",
+                "codigo_del_barrio",
+                "nombre",
+                "ciudad"
+              ],
+            "columns_datatype" :
+              [ "Number", "Text", "Text", "Text", "Number", "Text", "Text" ],
+            "columns_description" :
+              [
+                "Codigo correspondiente de la comuna",
+                "nombre popular del barrio",
+                "Nombre del departamento",
+                "Nombre la comuna",
+                "Codigo correspondiente del barrio",
+                "Nombre del barrio",
+                "Nombre de la ciudad"
+              ],
+            "columns_format" : [ {}, {}, {}, {}, {}, {}, {} ],
+            "download_count" : 2900,
+            "provenance" : "official",
+            "lens_view_type" : "tabular",
+            "lens_display_type" : "table",
+            "locked" : false,
+            "blob_mime_type" : null,
+            "hide_from_data_json" : false,
+            "publication_date" : "2025-10-04T12:04:34.000Z"
+          },
+        "classification" :
+          {
+            "categories" : [],
+            "tags" : [],
+            "domain_category" : "Ordenamiento Territorial",
+            "domain_tags" : [],
+            "domain_metadata" :
+              [
+                { "key" : "Información-de-Datos_Idioma", "value" : "Español" },
+                {
+                  "key" : "Información-de-Datos_Cobertura-Geográfica",
+                  "value" : "Municipal"
+                },
+                {
+                  "key" : "Información-de-Datos_Frecuencia-de-Actualización",
+                  "value" : "Anual"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Sector",
+                  "value" : "Planeación"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Área-o-dependencia",
+                  "value" : "Subsecretaria de Ordenamiento territorial y Desarrollo"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Nombre-de-la-Entidad",
+                  "value" : "Alcaldía De Pereira, Risaralda"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Orden",
+                  "value" : "Territorial"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Municipio",
+                  "value" : "Pereira"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_DIVIPOLA-Municipio",
+                  "value" : "66001"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Departamento",
+                  "value" : "Risaralda"
+                }
+              ]
+          },
+        "metadata" :
+          {
+            "domain" : "www.datos.gov.co",
+            "license" : "Creative Commons Attribution 4.0 International"
+          },
+        "permalink" : "https://www.datos.gov.co/d/ebsr-7cb7",
+        "link" : "https://www.datos.gov.co/Ordenamiento-Territorial/Barrios-por-comunas-en-la-ciudad-de-Pereira/ebsr-7cb7",
+        "owner" :
+          {
+            "id" : "cuzw-tdd8",
+            "user_type" : "interactive",
+            "display_name" : "Alcaldia de Pereira Secretaria TIC"
+          },
+        "creator" :
+          {
+            "id" : "cuzw-tdd8",
+            "user_type" : "interactive",
+            "display_name" : "Alcaldia de Pereira Secretaria TIC"
+          }
+      },
+      {
+        "resource" :
+          {
+            "name" : "División Político Administrativa Barrios Bello Antioquia",
+            "id" : "pnhh-ccwd",
+            "resource_name" : null,
+            "parent_fxf" : [],
+            "description" : "Corresponde al límite de los barrios del Municipio de Bello con geometría tipo polígono, del Plan de Ordenamiento Territorial - POT vigente, según Acuerdo 033 de 2009.",
+            "attribution" : "Alcaldía Municipal de Bello",
+            "attribution_link" : null,
+            "contact_email" : null,
+            "type" : "dataset",
+            "updatedAt" : "2025-12-19T22:41:46.000Z",
+            "createdAt" : "2023-07-17T17:14:11.000Z",
+            "metadata_updated_at" : "2025-12-19T22:41:46.000Z",
+            "data_updated_at" : "2023-07-17T17:34:55.000Z",
+            "page_views" :
+              {
+                "page_views_last_week" : 173,
+                "page_views_last_month" : 756,
+                "page_views_total" : 12567,
+                "page_views_last_week_log" : 7.442943495848729,
+                "page_views_last_month_log" : 9.56414948998573,
+                "page_views_total_log" : 13.617467465294197
+              },
+            "columns_name" :
+              [ "the_geom", "Nombre", "Shape_Leng", "Shape_Area" ],
+            "columns_field_name" :
+              [ "the_geom", "nombre", "shape_leng", "shape_area" ],
+            "columns_datatype" : [
+                                   "MultiPolygon",
+                                   "Text",
+                                   "Number",
+                                   "Number"
+                                 ],
+            "columns_description" : [ "", "", "", "" ],
+            "columns_format" : [ {}, {}, {}, {} ],
+            "download_count" : 433,
+            "provenance" : "official",
+            "lens_view_type" : "tabular",
+            "lens_display_type" : "table",
+            "locked" : false,
+            "blob_mime_type" : null,
+            "hide_from_data_json" : false,
+            "publication_date" : "2023-07-17T17:35:00.000Z"
+          },
+        "classification" :
+          {
+            "categories" : [],
+            "tags" : [],
+            "domain_category" : "Ordenamiento Territorial",
+            "domain_tags" : [ "perímetro urbano", "planeación", "barrios" ],
+            "domain_metadata" :
+              [
+                { "key" : "Información-de-Datos_Idioma", "value" : "Español" },
+                {
+                  "key" : "Información-de-Datos_Cobertura-Geográfica",
+                  "value" : "Municipal"
+                },
+                {
+                  "key" : "Información-de-Datos_Frecuencia-de-Actualización",
+                  "value" : "Más de tres años"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Sector",
+                  "value" : "Planeación"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Área-o-dependencia",
+                  "value" : "Secretaría de Planeación"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Nombre-de-la-Entidad",
+                  "value" : "Alcaldía de Bello"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Orden",
+                  "value" : "Territorial"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Municipio",
+                  "value" : "Bello"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Departamento",
+                  "value" : "Antioquia"
+                }
+              ]
+          },
+        "metadata" :
+          {
+            "domain" : "www.datos.gov.co",
+            "license" : "Creative Commons Attribution | NoDerivatives 4.0 International License"
+          },
+        "permalink" : "https://www.datos.gov.co/d/pnhh-ccwd",
+        "link" : "https://www.datos.gov.co/Ordenamiento-Territorial/División-Político-Administrativa-Barrios-Bello-Ant/pnhh-ccwd",
+        "owner" :
+          {
+            "id" : "mgqk-mtr6",
+            "user_type" : "interactive",
+            "display_name" : "Sol Jaramillo"
+          },
+        "creator" :
+          {
+            "id" : "mgqk-mtr6",
+            "user_type" : "interactive",
+            "display_name" : "Sol Jaramillo"
+          }
+      },
+      {
+        "resource" :
+          {
+            "name" : "POT- Decreto 555 de 2021 Bogotá D.C.",
+            "id" : "pdyd-de6w",
+            "resource_name" : null,
+            "parent_fxf" : [],
+            "description" : "Compendio de información geográfica asociada al Decreto 555 del 21 de diciembre del 2021 ”Por el cual se adopta la revisión general del Plan de Ordenamiento Territorial de Bogotá D.C.” que contempla los componentes del Modelo de Ordenamiento Territorial como los son Las Estructuras Territoriales (Ecológica Principal, Integradora de Patrimonios, Funcional y del Cuidado, Socio económica, creativa y de Innovación), La Clasificación del Suelo, La Estrategia Normativa, entre otros aspectos. Plan de Ordenamiento Territorial, Modelo de Ordenamiento Territorial, Bogotá Distrito Capital, Clasificación del Suelo, Estructura Ecológica Principal, Estructura Integradora de Patrimonios, Estructura Funcional y del Cuidado, Estructura Socioeconómica, creativa y de Innovación, Normatividad.",
+            "attribution" : null,
+            "attribution_link" : null,
+            "contact_email" : "mailto:aramirez@sdp.gov.co",
+            "type" : "federated_href",
+            "updatedAt" : "2025-11-05T19:11:52.000Z",
+            "createdAt" : "2025-04-24T19:06:00.000Z",
+            "metadata_updated_at" : "2025-11-05T19:11:52.000Z",
+            "data_updated_at" : "2025-04-24T19:06:00.000Z",
+            "page_views" :
+              {
+                "page_views_last_week" : 92,
+                "page_views_last_month" : 608,
+                "page_views_total" : 1986,
+                "page_views_last_week_log" : 6.539158811108032,
+                "page_views_last_month_log" : 9.250298417906333,
+                "page_views_total_log" : 10.956376157249672
+              },
+            "columns_name" : [],
+            "columns_field_name" : [],
+            "columns_datatype" : [],
+            "columns_description" : [],
+            "columns_format" : [],
+            "download_count" : 0,
+            "provenance" : "official",
+            "lens_view_type" : "href",
+            "lens_display_type" : "federated",
+            "locked" : false,
+            "blob_mime_type" : null,
+            "hide_from_data_json" : false,
+            "publication_date" : "2025-04-24T19:06:00.000Z"
+          },
+        "classification" :
+          {
+            "categories" : [],
+            "tags" : [],
+            "domain_tags" :
+              [
+                "bogotá distrito capital",
+                "normatividad",
+                "modelo de ordenamiento territorial",
+                "estructura socioeconómica",
+                "estructura integradora de patrimonios",
+                "estructura funcional y del cuidado",
+                "estructura ecológica principal",
+                "creativa y de innovación",
+                "plan de ordenamiento territorial",
+                "clasificación del suelo"
+              ],
+            "domain_metadata" :
+              [
+                {
+                  "key" : "Common-Core_Contact-Email",
+                  "value" : "mailto:aramirez@sdp.gov.co"
+                },
+                {
+                  "key" : "Common-Core_Last-Update",
+                  "value" : "2025-11-04T22:01:16.521212"
+                },
+                {
+                  "key" : "Common-Core_License",
+                  "value" : "https://creativecommons.org/licenses/by/4.0/"
+                },
+                {
+                  "key" : "Common-Core_Public-Access-Level",
+                  "value" : "public"
+                },
+                {
+                  "key" : "Common-Core_Unique-Identifier",
+                  "value" : "0b3c6208-34b6-4b5a-8e0f-f697e32ae2a4"
+                },
+                {
+                  "key" : "Common-Core_Publisher",
+                  "value" : "Secretaría Distrital de Planeación"
+                },
+                {
+                  "key" : "Common-Core_Homepage",
+                  "value" : "https://datosabiertos.bogota.gov.co/dataset/pot-decreto-555-de-2021-bogota-d-c"
+                },
+                {
+                  "key" : "Common-Core_Contact-Name",
+                  "value" : "Angel Ramirez"
+                }
+              ]
+          },
+        "metadata" :
+          {
+            "domain" : "www.datos.gov.co",
+            "additional_access_points" :
+              [
+                {
+                  "urls" :
+                    {
+                      "GDB" : "https://datosabiertos.bogota.gov.co/dataset/0b3c6208-34b6-4b5a-8e0f-f697e32ae2a4/resource/73b45805-74d2-4db3-8596-421dd9bf9a55/download/pot_decreto_555_2021_bogota_d_c.gdb.zip"
+                    },
+                  "description" : "Descarga de información",
+                  "title" : "File Geodatabase (GDB)"
+                }
+              ],
+            "access_points" :
+              {
+                "GDB" : "https://datosabiertos.bogota.gov.co/dataset/0b3c6208-34b6-4b5a-8e0f-f697e32ae2a4/resource/73b45805-74d2-4db3-8596-421dd9bf9a55/download/pot_decreto_555_2021_bogota_d_c.gdb.zip"
+              }
+          },
+        "permalink" : "https://www.datos.gov.co/d/pdyd-de6w",
+        "link" : "https://www.datos.gov.co/dataset/POT-Decreto-555-de-2021-Bogotá-D-C-/pdyd-de6w",
+        "owner" :
+          {
+            "id" : "r4qn-dwdd",
+            "user_type" : "interactive",
+            "display_name" : "Ministerio de Tecnologías de la Información y las Comunicaciones - Datos Abiertos"
+          },
+        "creator" :
+          {
+            "id" : "r4qn-dwdd",
+            "user_type" : "interactive",
+            "display_name" : "Ministerio de Tecnologías de la Información y las Comunicaciones - Datos Abiertos"
+          }
+      },
+      {
+        "resource" :
+          {
+            "name" : "POT - Uso del Suelo Rural del Municipio de Sogamoso",
+            "id" : "jhra-s2wa",
+            "resource_name" : null,
+            "parent_fxf" : [],
+            "description" : "Plan d Ordenamiento Territorial de Uso del Suelo Rural",
+            "attribution" : "Municipio de Sogamoso Boyacá",
+            "attribution_link" : "https://www.datos.gov.co/d/jhra-s2wa",
+            "contact_email" : null,
+            "type" : "dataset",
+            "updatedAt" : "2025-12-19T22:46:02.000Z",
+            "createdAt" : "2021-11-05T21:10:38.000Z",
+            "metadata_updated_at" : "2025-12-19T22:46:02.000Z",
+            "data_updated_at" : "2025-12-03T14:41:01.000Z",
+            "page_views" :
+              {
+                "page_views_last_week" : 12,
+                "page_views_last_month" : 181,
+                "page_views_total" : 2824,
+                "page_views_last_week_log" : 3.700439718141092,
+                "page_views_last_month_log" : 7.507794640198696,
+                "page_views_total_log" : 11.464035152189913
+              },
+            "columns_name" :
+              [
+                "NOMBRE",
+                "SUELO",
+                "CLASE",
+                "CATEGORÍA-USO",
+                "AREA (Ha)",
+                "UsoSRural",
+                "ID"
+              ],
+            "columns_field_name" :
+              [
+                "nombre",
+                "suelo",
+                "clase",
+                "categor_a_uso",
+                "area_ha",
+                "usosrural",
+                "id"
+              ],
+            "columns_datatype" :
+              [ "Text", "Text", "Text", "Text", "Number", "Text", "Number" ],
+            "columns_description" :
+              [
+                "NOMBRE",
+                "SUELO",
+                "CLASE",
+                "CATEGORÍA-USO",
+                "AREA (Ha)",
+                "UsoSRural",
+                "ID de identificación"
+              ],
+            "columns_format" : [ {}, {}, {}, {}, {}, {}, {} ],
+            "download_count" : 151,
+            "provenance" : "official",
+            "lens_view_type" : "tabular",
+            "lens_display_type" : "table",
+            "locked" : false,
+            "blob_mime_type" : null,
+            "hide_from_data_json" : false,
+            "publication_date" : "2021-11-05T21:16:55.000Z"
+          },
+        "classification" :
+          {
+            "categories" : [],
+            "tags" : [],
+            "domain_category" : "Ordenamiento Territorial",
+            "domain_tags" : [ "pot", "rural", "ordenamiento territorial" ],
+            "domain_metadata" :
+              [
+                { "key" : "Información-de-Datos_Idioma", "value" : "Español" },
+                {
+                  "key" : "Información-de-Datos_Cobertura-Geográfica",
+                  "value" : "Municipal"
+                },
+                {
+                  "key" : "Información-de-Datos_Frecuencia-de-Actualización",
+                  "value" : "Anual"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Sector",
+                  "value" : "Planeación"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Área-o-dependencia",
+                  "value" : "Oficina Asesora de Planeación"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Nombre-de-la-Entidad",
+                  "value" : "Alcaldía De Sogamoso, Boyacá"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Orden",
+                  "value" : "Territorial"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Municipio",
+                  "value" : "Sogamoso"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_DIVIPOLA-Municipio",
+                  "value" : "15759"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Departamento",
+                  "value" : "Boyacá"
+                }
+              ]
+          },
+        "metadata" :
+          { "domain" : "www.datos.gov.co", "license" : "Public Domain" },
+        "permalink" : "https://www.datos.gov.co/d/jhra-s2wa",
+        "link" : "https://www.datos.gov.co/Ordenamiento-Territorial/POT-Uso-del-Suelo-Rural-del-Municipio-de-Sogamoso/jhra-s2wa",
+        "owner" :
+          {
+            "id" : "barc-qt9s",
+            "user_type" : "interactive",
+            "display_name" : "Soporte Sistemas"
+          },
+        "creator" :
+          {
+            "id" : "barc-qt9s",
+            "user_type" : "interactive",
+            "display_name" : "Soporte Sistemas"
+          }
+      },
+      {
+        "resource" :
+          {
+            "name" : "Nacidos Hospital San Juan de Dios Rionegro",
+            "id" : "h79z-43da",
+            "resource_name" : null,
+            "parent_fxf" : [],
+            "description" : "Nacidos Vivos Hospital San Juan de Dios Rionegro Año 2020",
+            "attribution" : "Hospital San Juan de Dios Rionegro",
+            "attribution_link" : "https://www.datos.gov.co/d/h79z-43da",
+            "contact_email" : null,
+            "type" : "dataset",
+            "updatedAt" : "2025-12-19T22:58:52.000Z",
+            "createdAt" : "2021-01-29T21:15:32.000Z",
+            "metadata_updated_at" : "2025-12-19T22:58:52.000Z",
+            "data_updated_at" : "2021-02-02T21:09:47.000Z",
+            "page_views" :
+              {
+                "page_views_last_week" : 11,
+                "page_views_last_month" : 72,
+                "page_views_total" : 3416,
+                "page_views_last_week_log" : 3.5849625007211565,
+                "page_views_last_month_log" : 6.189824558880018,
+                "page_views_total_log" : 11.738514532429267
+              },
+            "columns_name" :
+              [
+                "DEPARTAMENTO",
+                "AREA NACIMIENTO",
+                "NÚMERO CONSULTAS PRENATALES",
+                "MUNICIPIO",
+                "TIPO PARTO",
+                "MULTIPLICIDAD EMBARAZO",
+                "EDAD MADRE",
+                "TIEMPO DE GESTACIÓN",
+                "SEXO",
+                "TALLA (Centímetros)",
+                "PESO (Gramos)",
+                "EDAD PADRE",
+                "FECHA NACIMIENTO"
+              ],
+            "columns_field_name" :
+              [
+                "departamento",
+                "area_nacimiento",
+                "n_mero_consultas_prenatales",
+                "municipio",
+                "tipo_parto",
+                "multiplicidad_embarazo",
+                "edad_madre",
+                "tiempo_de_gestaci_n",
+                "sexo",
+                "talla_cent_metros",
+                "peso_gramos",
+                "edad_padre",
+                "fecha_nacimiento"
+              ],
+            "columns_datatype" :
+              [
+                "Text",
+                "Text",
+                "Number",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Number",
+                "Text",
+                "Number",
+                "Number",
+                "Text",
+                "Text"
+              ],
+            "columns_description" :
+              [ "", "", "", "", "", "", "", "", "", "", "", "", "" ],
+            "columns_format" :
+              [ {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {} ],
+            "download_count" : 248,
+            "provenance" : "official",
+            "lens_view_type" : "tabular",
+            "lens_display_type" : "table",
+            "locked" : false,
+            "blob_mime_type" : null,
+            "hide_from_data_json" : false,
+            "publication_date" : "2021-02-02T21:09:47.000Z"
+          },
+        "classification" :
+          {
+            "categories" : [],
+            "tags" : [],
+            "domain_category" : "Salud y Protección Social",
+            "domain_tags" : [],
+            "domain_metadata" :
+              [
+                { "key" : "Información-de-Datos_Idioma", "value" : "Español" },
+                {
+                  "key" : "Información-de-Datos_Cobertura-Geográfica",
+                  "value" : "Municipal"
+                },
+                {
+                  "key" : "Información-de-Datos_Frecuencia-de-Actualización",
+                  "value" : "Anual"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Sector",
+                  "value" : "Salud y Protección Social"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Área-o-dependencia",
+                  "value" : "Estadística"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Nombre-de-la-Entidad",
+                  "value" : "Hospital Regional San Juan de Dios, Rionegro"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Orden",
+                  "value" : "Territorial"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Municipio",
+                  "value" : "Rionegro"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Departamento",
+                  "value" : "Antioquia"
+                }
+              ]
+          },
+        "metadata" : { "domain" : "www.datos.gov.co" },
+        "permalink" : "https://www.datos.gov.co/d/h79z-43da",
+        "link" : "https://www.datos.gov.co/Salud-y-Protección-Social/Nacidos-Hospital-San-Juan-de-Dios-Rionegro/h79z-43da",
+        "owner" :
+          {
+            "id" : "4sim-brha",
+            "user_type" : "interactive",
+            "display_name" : "eserionegro"
+          },
+        "creator" :
+          {
+            "id" : "4sim-brha",
+            "user_type" : "interactive",
+            "display_name" : "eserionegro"
+          }
+      },
+      {
+        "resource" :
+          {
+            "name" : "Veredas Del Municipio de Chía",
+            "id" : "7utp-mdup",
+            "resource_name" : null,
+            "parent_fxf" : [ "fw8q-ut2e" ],
+            "description" : "Datos georreferenciados sobre las veredas del Municipio de Chía.",
+            "attribution" : "Alcaldía Municipal de Chía",
+            "attribution_link" : "https://chia-cundinamarca.gov.co/web/",
+            "contact_email" : null,
+            "type" : "map",
+            "updatedAt" : "2025-12-19T23:29:55.000Z",
+            "createdAt" : "2017-08-17T20:02:30.000Z",
+            "metadata_updated_at" : "2025-12-19T23:29:55.000Z",
+            "data_updated_at" : "2017-08-17T20:02:34.000Z",
+            "page_views" :
+              {
+                "page_views_last_week" : 42,
+                "page_views_last_month" : 257,
+                "page_views_total" : 19845,
+                "page_views_last_week_log" : 5.426264754702098,
+                "page_views_last_month_log" : 8.011227255423254,
+                "page_views_total_log" : 14.276560638218413
+              },
+            "columns_name" : [],
+            "columns_field_name" : [],
+            "columns_datatype" : [],
+            "columns_description" : [],
+            "columns_format" : [],
+            "download_count" : 260,
+            "provenance" : "official",
+            "lens_view_type" : "tabular",
+            "lens_display_type" : "visualization_canvas_map",
+            "locked" : false,
+            "blob_mime_type" : null,
+            "hide_from_data_json" : false,
+            "publication_date" : "2025-12-15T13:08:26.000Z"
+          },
+        "classification" :
+          {
+            "categories" : [],
+            "tags" : [],
+            "domain_category" : "Ordenamiento Territorial",
+            "domain_tags" : [ "chía", "veredas" ],
+            "domain_metadata" :
+              [
+                { "key" : "Información-de-Datos_Idioma", "value" : "Español" },
+                {
+                  "key" : "Información-de-Datos_Cobertura-Geográfica",
+                  "value" : "Municipal"
+                },
+                {
+                  "key" : "Información-de-Datos_Frecuencia-de-Actualización",
+                  "value" : "Anual"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Sector",
+                  "value" : "No Aplica"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Área-o-dependencia",
+                  "value" : "Dirección de Ordenamiento Territorial"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Nombre-de-la-Entidad",
+                  "value" : "Alcaldía De Chía, Cundinamarca"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Orden",
+                  "value" : "Territorial"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Municipio",
+                  "value" : "Chía"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_DIVIPOLA-Municipio",
+                  "value" : "25175"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Departamento",
+                  "value" : "Cundinamarca"
+                }
+              ]
+          },
+        "metadata" :
+          {
+            "domain" : "www.datos.gov.co",
+            "license" : "Creative Commons Attribution | Share Alike 4.0 International"
+          },
+        "permalink" : "https://www.datos.gov.co/d/7utp-mdup",
+        "link" : "https://www.datos.gov.co/Ordenamiento-Territorial/Veredas-Del-Municipio-de-Chía/7utp-mdup",
+        "owner" :
+          {
+            "id" : "pjz2-mur9",
+            "user_type" : "interactive",
+            "display_name" : "Alcaldia Municipal de Chía"
+          },
+        "creator" :
+          {
+            "id" : "pjz2-mur9",
+            "user_type" : "interactive",
+            "display_name" : "Alcaldia Municipal de Chía"
+          }
+      },
+      {
+        "resource" :
+          {
+            "name" : "Barrios de Barranquilla según POT",
+            "id" : "qui6-qeux",
+            "resource_name" : null,
+            "parent_fxf" : [],
+            "description" : "Ubicación de Barrios del Distrito de Barranquilla Según el Plan de Ordenamiento Territorial",
+            "attribution" : "Alcaldia Distrital de Barranquilla",
+            "attribution_link" : "https://www.datos.gov.co/d/qui6-qeux",
+            "contact_email" : null,
+            "type" : "dataset",
+            "updatedAt" : "2025-12-19T23:14:35.000Z",
+            "createdAt" : "2021-12-30T21:34:05.000Z",
+            "metadata_updated_at" : "2025-12-19T23:14:35.000Z",
+            "data_updated_at" : "2021-12-30T21:37:23.000Z",
+            "page_views" :
+              {
+                "page_views_last_week" : 84,
+                "page_views_last_month" : 553,
+                "page_views_total" : 13081,
+                "page_views_last_week_log" : 6.409390936137703,
+                "page_views_last_month_log" : 9.113742166049189,
+                "page_views_total_log" : 13.67529549909406
+              },
+            "columns_name" :
+              [ "the_geom", "PIEZA_URBA", "NOMBRE", "LOCALIDAD", "Id" ],
+            "columns_field_name" :
+              [ "the_geom", "pieza_urba", "nombre", "localidad", "id" ],
+            "columns_datatype" :
+              [ "MultiPolygon", "Text", "Text", "Text", "Number" ],
+            "columns_description" : [ "", "", "", "", "" ],
+            "columns_format" : [ {}, {}, {}, {}, {} ],
+            "download_count" : 1860,
+            "provenance" : "official",
+            "lens_view_type" : "tabular",
+            "lens_display_type" : "table",
+            "locked" : false,
+            "blob_mime_type" : null,
+            "hide_from_data_json" : false,
+            "publication_date" : "2021-12-30T21:37:29.000Z"
+          },
+        "classification" :
+          {
+            "categories" : [],
+            "tags" : [],
+            "domain_category" : "Vivienda, Ciudad y Territorio",
+            "domain_tags" : [ "pot", "barrios", "barranquilla" ],
+            "domain_metadata" :
+              [
+                { "key" : "Información-de-Datos_Idioma", "value" : "Español" },
+                {
+                  "key" : "Información-de-Datos_Cobertura-Geográfica",
+                  "value" : "Municipal"
+                },
+                {
+                  "key" : "Información-de-Datos_Frecuencia-de-Actualización",
+                  "value" : "No aplica"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Sector",
+                  "value" : "Vivienda, Ciudad y Territorio"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Área-o-dependencia",
+                  "value" : "Secretaría Distrital de Planeación"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Nombre-de-la-Entidad",
+                  "value" : "Alcaldía Distrital de Barranquilla, Distrito Especial, Industrial y Portuario"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Orden",
+                  "value" : "Territorial"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Municipio",
+                  "value" : "Barranquilla"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Departamento",
+                  "value" : "Atlántico"
+                }
+              ]
+          },
+        "metadata" :
+          {
+            "domain" : "www.datos.gov.co",
+            "license" : "Creative Commons Attribution | Share Alike 4.0 International"
+          },
+        "permalink" : "https://www.datos.gov.co/d/qui6-qeux",
+        "link" : "https://www.datos.gov.co/Vivienda-Ciudad-y-Territorio/Barrios-de-Barranquilla-según-POT/qui6-qeux",
+        "owner" :
+          {
+            "id" : "6ar2-ee2d",
+            "user_type" : "interactive",
+            "display_name" : "AlcaldiaBarranquilla"
+          },
+        "creator" :
+          {
+            "id" : "6ar2-ee2d",
+            "user_type" : "interactive",
+            "display_name" : "AlcaldiaBarranquilla"
+          }
+      }
+    ],
+  "resultSetSize" : 1071,
+  "timings" : { "serviceMillis" : 24, "searchMillis" : [ 2, 8 ] },
+  "warnings" : []
+}

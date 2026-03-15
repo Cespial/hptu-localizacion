@@ -34,61 +34,62 @@ export const categoryLabels: Record<POICategory, string> = {
 
 export const pois: POI[] = [
   // ── Clinicas y Hospitales ──────────────────────────────────────────
+  // Coordenadas verificadas con OSM/Mapcarta/Google Maps — marzo 2026
   {
     id: "hosp-01",
     name: "Clinica Las Vegas",
     category: "hospital",
-    coordinates: [-75.5637, 6.2012],
+    coordinates: [-75.5765, 6.2033],
     description:
-      "Clinica de alta complejidad sobre la Avenida Las Vegas, referente en cirugia cardiovascular y trasplantes. Competidor directo en zona de influencia.",
+      "Clinica de alta complejidad sobre la Avenida Las Vegas (Cl 2 Sur #46-55). 171 camas. Referente en cirugia cardiovascular. Competidor directo en zona de influencia.",
   },
   {
     id: "hosp-02",
     name: "Clinica El Rosario - Sede Tesoro",
     category: "hospital",
-    coordinates: [-75.559, 6.1985],
+    coordinates: [-75.5575, 6.1939],
     description:
-      "Sede premium de la Clinica El Rosario junto al C.C. El Tesoro, urgencias 24h y cuidado critico. Competidor en segmento premium.",
+      "Sede premium de la Clinica El Rosario junto al C.C. El Tesoro (Cra 20 #2 Sur-185). 158 camas. Urgencias 24h y cuidado critico.",
   },
   {
     id: "hosp-03",
     name: "Clinica Medellin - Sede Poblado",
     category: "hospital",
-    coordinates: [-75.567, 6.208],
+    coordinates: [-75.5712, 6.2068],
     description:
-      "Centro de atencion integral con oncologia, traumatologia y maternidad en El Poblado.",
+      "Centro de atencion integral (Cl 7 #39-290, Torre Medica El Poblado). Oncologia, traumatologia y maternidad.",
   },
   {
     id: "hosp-04",
-    name: "HPTU - Sede Actual (Prado)",
+    name: "HPTU - Sede Actual (Robledo)",
     category: "hospital",
-    coordinates: [-75.5644, 6.2683],
+    coordinates: [-75.5797, 6.2773],
     description:
-      "Sede historica del Hospital Pablo Tobon Uribe en el barrio Prado. Referente en trasplantes y hematologia. Distancia al corredor Las Palmas: 18-25 min.",
+      "Sede del Hospital Pablo Tobon Uribe en Robledo (CL 78B #69-240). 1,094 camas al 96% de ocupacion. Referente nacional en trasplantes y hematologia.",
   },
   {
     id: "hosp-05",
-    name: "Clinica del Country Medellin",
+    name: "Clinica SOMA",
     category: "hospital",
-    coordinates: [-75.571, 6.2035],
+    coordinates: [-75.5672, 6.2095],
     description:
-      "Clinica privada con enfoque en cirugia estetica, ortopedia y medicina deportiva en Los Balsos.",
+      "Clinica privada en El Poblado con enfoque en cirugia estetica, ortopedia y medicina deportiva. Calle 7 #39-107.",
   },
   {
     id: "hosp-06",
     name: "Clinica CES",
     category: "hospital",
-    coordinates: [-75.5460, 6.1960],
+    coordinates: [-75.5654, 6.2576],
     description:
-      "Centro clinico de la Universidad CES en la via Las Palmas. Referente academico en medicina. Proximidad a zona candidata Las Palmas Medio.",
+      "Centro clinico de la Universidad CES en Prado Centro (Cra 50C #58-55). 213 camas. A 7.16 km del corredor Las Palmas. No ubicada en el corredor.",
   },
   {
     id: "hosp-07",
     name: "Hospital San Vicente - Rionegro",
     category: "hospital",
-    coordinates: [-75.3740, 6.1530],
+    coordinates: [-75.4345, 6.1523],
     description:
-      "Caso de exito referente: sede del Hospital San Vicente en el Oriente. La junta del HPTU lo cita como modelo a replicar en Las Palmas.",
+      "Caso de exito referente: sede del Hospital San Vicente en el Oriente (Vda La Convencion, km 2.3 Via Aeropuerto). La junta del HPTU lo cita como modelo a replicar.",
   },
 
   // ── Medicina Prepagada / Seguros ──────────────────────────────────
@@ -96,7 +97,7 @@ export const pois: POI[] = [
     id: "prep-01",
     name: "SURA - Sede Salud El Poblado",
     category: "prepagada",
-    coordinates: [-75.5650, 6.2050],
+    coordinates: [-75.5668, 6.2080],
     description:
       "Centro de atencion de Sura Salud en El Poblado. Mayor aseguradora del mercado premium con ~320,000 afiliados de medicina prepagada en Antioquia.",
   },
@@ -104,7 +105,7 @@ export const pois: POI[] = [
     id: "prep-02",
     name: "Colsanitas - Centro Medico Poblado",
     category: "prepagada",
-    coordinates: [-75.5620, 6.2030],
+    coordinates: [-75.5658, 6.2055],
     description:
       "Centro medico de Colsanitas/Sanitas en El Poblado. Segunda mayor prepagada del pais con cobertura significativa en estratos 4-6.",
   },
@@ -112,7 +113,7 @@ export const pois: POI[] = [
     id: "prep-03",
     name: "Medplus - Sede El Tesoro",
     category: "prepagada",
-    coordinates: [-75.5580, 6.1990],
+    coordinates: [-75.5580, 6.1965],
     description:
       "Centro de medicina prepagada Medplus cerca de El Tesoro. Atiende segmento corporativo y familiar de alta gama.",
   },
@@ -120,27 +121,27 @@ export const pois: POI[] = [
   // ── Clubes Sociales ────────────────────────────────────────────────
   {
     id: "club-01",
-    name: "Club El Rodeo",
+    name: "Club Campestre El Rodeo",
     category: "club",
-    coordinates: [-75.5490, 6.2040],
+    coordinates: [-75.5953, 6.2064],
     description:
-      "Exclusivo club social y deportivo sobre la via a Las Palmas con golf, piscinas olimpicas y tenis. Punto de referencia del corredor.",
+      "Club social y deportivo con golf, piscinas y tenis (Cl 2 Sur #65-535). Ubicado en sector Guayabal, no directamente sobre la via Las Palmas.",
   },
   {
     id: "club-02",
     name: "Club Campestre de Medellin",
     category: "club",
-    coordinates: [-75.548, 6.175],
+    coordinates: [-75.5726, 6.1895],
     description:
-      "Club social mas tradicional de Medellin con golf 18 hoyos, hipica y zonas verdes en la parte alta de El Poblado.",
+      "Club social mas tradicional de Medellin con golf 18 hoyos (Cl 16A Sur #34-950). Sector Belen / El Poblado sur.",
   },
   {
     id: "club-03",
     name: "Club El Nogal",
     category: "club",
-    coordinates: [-75.562, 6.192],
+    coordinates: [-75.5640, 6.2020],
     description:
-      "Club social de networking empresarial y eventos corporativos, frecuentado por ejecutivos de la Milla de Oro.",
+      "Club social de networking empresarial y eventos corporativos en El Poblado, frecuentado por ejecutivos de la Milla de Oro.",
   },
 
   // ── Colegios Premium (Corredor Las Palmas) ────────────────────────
@@ -148,15 +149,15 @@ export const pois: POI[] = [
     id: "cole-01",
     name: "Colegio Colombo Britanico",
     category: "colegio",
-    coordinates: [-75.5442, 6.2005],
+    coordinates: [-75.5567, 6.2013],
     description:
-      "Institucion bilingue IB sobre la via Las Palmas. Mas de 50 anos de trayectoria. Generador de trafico familiar clave en el corredor.",
+      "Institucion bilingue IB en El Poblado (Cra 43A #18 Sur-174). Mas de 50 anos de trayectoria. Generador de trafico familiar.",
   },
   {
     id: "cole-02",
     name: "Colegio Montessori",
     category: "colegio",
-    coordinates: [-75.541, 6.195],
+    coordinates: [-75.5535, 6.1970],
     description:
       "Colegio con metodologia Montessori y STEM en la parte alta de El Poblado. Familias de estratos 5-6.",
   },
@@ -164,7 +165,7 @@ export const pois: POI[] = [
     id: "cole-03",
     name: "Colegio Aleman (Deutsche Schule)",
     category: "colegio",
-    coordinates: [-75.5505, 6.1790],
+    coordinates: [-75.5644, 6.1820],
     description:
       "Colegio trilingue con Abitur en El Poblado sur. Comunidad expatriada y estrato 6.",
   },
@@ -172,9 +173,9 @@ export const pois: POI[] = [
     id: "cole-04",
     name: "Escuela de Ingenieria de Antioquia (EIA)",
     category: "colegio",
-    coordinates: [-75.5430, 6.2050],
+    coordinates: [-75.5169, 6.1570],
     description:
-      "Universidad de ingenieria sobre la via Las Palmas. Referente academico y generador de trafico. Punto limite de la zona candidata Las Palmas Bajo.",
+      "Universidad de ingenieria sobre la via Las Palmas (km 2+200 Via Aeropuerto, Envigado). Referente academico y generador de trafico en el corredor.",
   },
 
   // ── Centros Corporativos ───────────────────────────────────────────
@@ -182,7 +183,7 @@ export const pois: POI[] = [
     id: "corp-01",
     name: "Milla de Oro",
     category: "corporativo",
-    coordinates: [-75.5655, 6.206],
+    coordinates: [-75.5688, 6.2080],
     description:
       "Principal corredor financiero de Medellin: bancos, aseguradoras, consultorias. Alta concentracion de usuarios prepagada y corporativos.",
   },
@@ -190,7 +191,7 @@ export const pois: POI[] = [
     id: "corp-02",
     name: "One Plaza Business Center",
     category: "corporativo",
-    coordinates: [-75.568, 6.21],
+    coordinates: [-75.5695, 6.2105],
     description:
       "Torre corporativa clase A con coworking y helipuerto sobre la transversal inferior.",
   },
@@ -198,7 +199,7 @@ export const pois: POI[] = [
     id: "corp-03",
     name: "Edificio Direccion General Bancolombia",
     category: "corporativo",
-    coordinates: [-75.564, 6.213],
+    coordinates: [-75.5690, 6.2125],
     description:
       "Sede principal de Bancolombia, mas de 4,000 empleados. Convenios de salud prepagada con Sura y Colsanitas.",
   },
@@ -206,7 +207,7 @@ export const pois: POI[] = [
     id: "corp-04",
     name: "Centro Comercial El Tesoro",
     category: "corporativo",
-    coordinates: [-75.5575, 6.1975],
+    coordinates: [-75.5586, 6.1960],
     description:
       "Principal centro comercial de estratos 5/6 en El Poblado. Punto de referencia para la zona Las Palmas y ancla de flujos vehiculares.",
   },
@@ -224,7 +225,7 @@ export const pois: POI[] = [
     id: "resi-02",
     name: "Zona El Tesoro - San Lucas",
     category: "residencial",
-    coordinates: [-75.556, 6.199],
+    coordinates: [-75.5560, 6.1950],
     description:
       "Entorno residencial premium con torres de lujo. Poblacion estimada: 42,000 hab E5/E6. A 8 min de Las Palmas Bajo.",
   },
@@ -240,7 +241,7 @@ export const pois: POI[] = [
     id: "resi-04",
     name: "Zuniga - Envigado Alto",
     category: "residencial",
-    coordinates: [-75.578, 6.168],
+    coordinates: [-75.5780, 6.1680],
     description:
       "Zona residencial en expansion con 15+ proyectos de alta gama. Poblacion E5/E6 en crecimiento acelerado.",
   },

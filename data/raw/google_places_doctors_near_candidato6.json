@@ -1,0 +1,1146 @@
+{
+   "html_attributions" : [],
+   "next_page_token" : "ATCDNfUAMb0J_HBwBgjXbMTz_ArsGegChNe0Pw-WyF6uf4VuHmSZcRe9XcyeGflEz7yXJK--fnJ5kZGtowSXz_C_MTJCTJmZmWB92MWYDTJHdyAuxmvGBjkjWL-wVxXqRkfu4KM-Dy_G4L77VmtjF8E781J8PlSX3F1eXO7ZxquOHN9RJHIyvwUa3sQxQJipyp6e4gSxmWnXkIaL7jBGoqVBEOM4mTIoCeKG6uKMl6na9T4rSrlbVzVRv4EWKXssg4dx1emeR9-beQIcrW9QsrNYcDOQel5P1JIV_T0AZz-8XfrB7Iv_d32MO0tfkyUozgFgrG-uorSMzqA4--dn8vwYwKsDyLQwymY-ZP7i3VbPsQbN9SHtTvi-dq5n0Iqob9wOAX3aKZeXK0WQ98f9OC8tYyn-A3eYy9_hBTywiul7Y9LNBRSFTI2uA7w",
+   "results" : 
+   [
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 6.2463767,
+               "lng" : -75.5646718
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 6.247706180291503,
+                  "lng" : -75.56329026970849
+               },
+               "southwest" : 
+               {
+                  "lat" : 6.245008219708498,
+                  "lng" : -75.56598823029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "icon_background_color" : "#7B9EB0",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+         "international_phone_number" : "+57 604 2161144",
+         "name" : "Servicios Médicos San Ignacio S.A.S",
+         "opening_hours" : 
+         {
+            "open_now" : false
+         },
+         "photos" : 
+         [
+            {
+               "height" : 1280,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/103202720501337236085\"\u003eServicios Médicos San Ignacio S.A.S\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATCDNfUF171OF1mKFPUvj9yEk-71STnEwt7-VlOIIX9W41hh6RNbCtJ94JGCwjTihoVj2jxk6NPR9aKiGGO37p3jS9_3a2Od6NFDOGiJLDLVd9EpWv69RW3qZ9Fl1KXLFxdMTCJ9IA7Lk0niau6vgcveIbisusHYxFA2ECc9bN1lC77CYoKBrJd9rwjc7MalIgaftmZat-9aX2oZVVeGY88WpfqPXIaaGcjLwtmtYHV3ywtVF6lF558NSeGl-sactHnXHCQsnMU-z77JxvYXOlWzLFAgap9Jq87mJH4Nr_9k79eEIJCmwgSc6mb8hGADnZj0UjPQcmRwaZY",
+               "width" : 1920
+            }
+         ],
+         "place_id" : "ChIJb7JtpVcoRI4RPcC7ZuP8ewo",
+         "plus_code" : 
+         {
+            "compound_code" : "6CWP+H4 Medellin, Antioquia, Colombia",
+            "global_code" : "67R66CWP+H4"
+         },
+         "rating" : 3.3,
+         "reference" : "ChIJb7JtpVcoRI4RPcC7ZuP8ewo",
+         "scope" : "GOOGLE",
+         "types" : 
+         [
+            "hospital",
+            "doctor",
+            "health",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 384,
+         "vicinity" : "Carrera 44 #48 - 51"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 6.206563899999999,
+               "lng" : -75.5708772
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 6.207893130291501,
+                  "lng" : -75.56952406970849
+               },
+               "southwest" : 
+               {
+                  "lat" : 6.205195169708498,
+                  "lng" : -75.5722220302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "icon_background_color" : "#7B9EB0",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+         "name" : "Dr. Luis David Garcia",
+         "place_id" : "ChIJ6x4gzoGCRo4RMnwIJKX9cC0",
+         "plus_code" : 
+         {
+            "compound_code" : "6C4H+JJ Medellin, Antioquia, Colombia",
+            "global_code" : "67R66C4H+JJ"
+         },
+         "rating" : 3.8,
+         "reference" : "ChIJ6x4gzoGCRo4RMnwIJKX9cC0",
+         "scope" : "GOOGLE",
+         "types" : 
+         [
+            "doctor",
+            "health",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 8,
+         "vicinity" : "Calle 7 #39-197"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 6.2214991,
+               "lng" : -75.5697443
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 6.222841780291502,
+                  "lng" : -75.56826636970848
+               },
+               "southwest" : 
+               {
+                  "lat" : 6.220143819708498,
+                  "lng" : -75.5709643302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "icon_background_color" : "#7B9EB0",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+         "international_phone_number" : "+57 43128514",
+         "name" : "Camara de Mediación & Counseling",
+         "place_id" : "ChIJ85MewTMoRI4RCMNnpcMdLCU",
+         "plus_code" : 
+         {
+            "compound_code" : "6CCJ+H4 Medellin, Antioquia, Colombia",
+            "global_code" : "67R66CCJ+H4"
+         },
+         "reference" : "ChIJ85MewTMoRI4RCMNnpcMdLCU",
+         "scope" : "GOOGLE",
+         "types" : 
+         [
+            "doctor",
+            "health",
+            "point_of_interest",
+            "establishment"
+         ],
+         "vicinity" : "Avenida El Poblado #19-17"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 6.2214991,
+               "lng" : -75.5697443
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 6.222841780291502,
+                  "lng" : -75.56826636970848
+               },
+               "southwest" : 
+               {
+                  "lat" : 6.220143819708498,
+                  "lng" : -75.5709643302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "icon_background_color" : "#7B9EB0",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+         "name" : "CMC Psicoterapeutas Resolución de Conflictos",
+         "place_id" : "ChIJE_pIwTMoRI4RSMS4mJVFhbc",
+         "plus_code" : 
+         {
+            "compound_code" : "6CCJ+H4 Medellin, Antioquia, Colombia",
+            "global_code" : "67R66CCJ+H4"
+         },
+         "reference" : "ChIJE_pIwTMoRI4RSMS4mJVFhbc",
+         "scope" : "GOOGLE",
+         "types" : 
+         [
+            "doctor",
+            "health",
+            "point_of_interest",
+            "establishment"
+         ],
+         "vicinity" : "Avenida El Poblado #19-17"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 6.211714,
+               "lng" : -75.5760543
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 6.213054430291502,
+                  "lng" : -75.57460966970849
+               },
+               "southwest" : 
+               {
+                  "lat" : 6.210356469708497,
+                  "lng" : -75.5773076302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "icon_background_color" : "#7B9EB0",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+         "international_phone_number" : "+57 44440539",
+         "name" : "Cirujana Plástica Estética y Reconstructiva",
+         "place_id" : "ChIJ1wffkNQpRI4RQCuM1OpW2VA",
+         "plus_code" : 
+         {
+            "compound_code" : "6C6F+MH Medellin, Antioquia, Colombia",
+            "global_code" : "67R66C6F+MH"
+         },
+         "rating" : 5,
+         "reference" : "ChIJ1wffkNQpRI4RQCuM1OpW2VA",
+         "scope" : "GOOGLE",
+         "types" : 
+         [
+            "doctor",
+            "health",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 1,
+         "vicinity" : "Carrera 46 #Carrera 46 No. 7-227"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 6.1962572,
+               "lng" : -75.5602758
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 6.197546080291501,
+                  "lng" : -75.55877461970849
+               },
+               "southwest" : 
+               {
+                  "lat" : 6.194848119708497,
+                  "lng" : -75.56147258029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "icon_background_color" : "#7B9EB0",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+         "international_phone_number" : "+57 313 6842397",
+         "name" : "Dr Felipe Martinez Restrepo - Cirujano Plástico",
+         "opening_hours" : 
+         {
+            "open_now" : false
+         },
+         "photos" : 
+         [
+            {
+               "height" : 2400,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/103833425917635990262\"\u003eDr Felipe Martinez Restrepo - Cirujano Plástico\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATCDNfUoZKFjyBlCBbtOmcFwfllbxxdGQXyS-mPIdqBy9BBYyMuzQ6Y-SxjGdjSHHrHAblQtzXAP0Jp_a4xr-2MatYJ7C58marZhqR27o91oSok-qQE5OI4ELs0cg_XqlvN0nKQXeC19LafTGkxPxGFsjOAm08Ct1SVT5rO3IGgzdA0ANykWVv9rRznztfJzsET6RYdz8mfoXaUn_GEjBns1eoiPuZ-i2C3h9WmIa-MFct9wTRDcY_WHuOOwPb29g3rRT3N8g1X6GUoEDnRdRgBsE6qo3Aik1JBUADHGeKM3rQ8GpSGjNm_gSoqKPrwvaz7UXSKGvfifmTQ",
+               "width" : 3792
+            }
+         ],
+         "place_id" : "ChIJ4UiNyIGCRo4RzZEmmR7JDt8",
+         "plus_code" : 
+         {
+            "compound_code" : "5CWQ+GV Medellin, Antioquia, Colombia",
+            "global_code" : "67R65CWQ+GV"
+         },
+         "rating" : 4.7,
+         "reference" : "ChIJ4UiNyIGCRo4RzZEmmR7JDt8",
+         "scope" : "GOOGLE",
+         "types" : 
+         [
+            "doctor",
+            "health",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 47,
+         "vicinity" : "Centro comercial el Tesoro Torre Medica el Tesoro, etapa 1, consultorio 2034"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 6.2129593,
+               "lng" : -75.5591244
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 6.214282080291502,
+                  "lng" : -75.5578406197085
+               },
+               "southwest" : 
+               {
+                  "lat" : 6.211584119708498,
+                  "lng" : -75.56053858029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "icon_background_color" : "#7B9EB0",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+         "international_phone_number" : "+57 319 5449966",
+         "name" : "Zahia beauty center",
+         "opening_hours" : 
+         {
+            "open_now" : false
+         },
+         "photos" : 
+         [
+            {
+               "height" : 5610,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/102727619766961874111\"\u003ebyDraLinaCardona\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATCDNfWXlTO6lu4nfRfcSu_ntux_X5uAzhymz_yZzkl9ywGSPCiP0Q8h-fA_llQNsnPDKrJJANChLh6GgQUAxU0LB7HemMbWd3IWcUt8_3XvEhK71uFhV-kcSp0yTOmTMArVvgXINK40G-JsW1fYH5rI-1pCh7eM2C3ATJr_yHbm04zGIx1Y60kkK8hXSeY_5inpI7Sj0nk1EJAmtSfU6wPx4XLah-Y0vrqDlpBO_nTHzDaRsd1evwfxIBPXuSBG4peE4zfdqPxhrtQo6vEvS3_SkdNl-rTCgQeNbgKatEE7u13NueHJssjGx1i-UpVvY20j0JDykFV7DcU",
+               "width" : 3740
+            }
+         ],
+         "place_id" : "ChIJvVCeTJuCRo4RrYVMIT3Zy0s",
+         "plus_code" : 
+         {
+            "compound_code" : "6C7R+59 Medellin, Antioquia, Colombia",
+            "global_code" : "67R66C7R+59"
+         },
+         "rating" : 4.5,
+         "reference" : "ChIJvVCeTJuCRo4RrYVMIT3Zy0s",
+         "scope" : "GOOGLE",
+         "types" : 
+         [
+            "doctor",
+            "health",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 109,
+         "vicinity" : "Carrera 30 #10c-228"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 6.2199776,
+               "lng" : -75.5668649
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 6.221341680291502,
+                  "lng" : -75.56548241970849
+               },
+               "southwest" : 
+               {
+                  "lat" : 6.218643719708497,
+                  "lng" : -75.56818038029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "icon_background_color" : "#7B9EB0",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+         "international_phone_number" : "+57 5806444",
+         "name" : "SPA HEALTH AND BEAUTY",
+         "opening_hours" : 
+         {
+            "open_now" : false
+         },
+         "place_id" : "ChIJp1JyoDEoRI4RpBRjkKj0ywQ",
+         "plus_code" : 
+         {
+            "compound_code" : "6C9M+X7 Medellin, Antioquia, Colombia",
+            "global_code" : "67R66C9M+X7"
+         },
+         "rating" : 4,
+         "reference" : "ChIJp1JyoDEoRI4RpBRjkKj0ywQ",
+         "scope" : "GOOGLE",
+         "types" : 
+         [
+            "doctor",
+            "health",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 1,
+         "vicinity" : ""
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 6.2252763,
+               "lng" : -75.56569739999999
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 6.226571830291502,
+                  "lng" : -75.5645592697085
+               },
+               "southwest" : 
+               {
+                  "lat" : 6.223873869708497,
+                  "lng" : -75.5672572302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/hospital-71.png",
+         "icon_background_color" : "#F88181",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/hospital-H_pinlet",
+         "international_phone_number" : "+57 604 6041445",
+         "name" : "Bluecare",
+         "opening_hours" : 
+         {
+            "open_now" : false
+         },
+         "photos" : 
+         [
+            {
+               "height" : 1920,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/108194873866001183278\"\u003eYeison Paternina Osorio\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATCDNfXz9I5GcKTJJqxx68XFaNf6ipceLgaQXQhEyaU22nDGyAsNd3HwDZSbJ0kjhMUVZ6KElTn321vuUyPO4UOwWuE40fnXaJsl-dlG4Bc3UWWovNvbGw3lmpLHwaxLo8YATe59xTbSEyv6zp75mZ7tvvBxQJnuCbIAtH8WtoRxXHtBIh59R5yNg6Sk2Wi5kqey3P3OFm9uTSXJHPf77TtE9362pZKbqtF4zWzO5rwj6i492IdD9tOznnNptFxcmdOuWyLf-YM-pDa9yz7pymNalrXYz87h64w0OEY9lBnG4H3js6jGwTjov95JIEnlhIugWaBCGnb1s8QAep-sHVKZnJ-h-xP_55YzPlOQjuUNSXqmXYMJfkqjVZr_6eEQjZwSTS-D6lr-tTbUMtGSeLfthouFnTHCp8oJJPWRtiAjwfheugiw45Ui7h7VylZHTo1kff3C4Ekjo4EW-VjV4Kziy-LxEPBQ6eANgrwiCoSxLGLaM_HFkU0EvWgA_dIIIXI_smbVyvsTyifqJcuvF6M4QK_oeAf7Z3FyL5CKdvrTlW8kV465EIFtwMTpBY8ZuelMjHXkT-PFeMmDoK687Gi7GPH9YLTmbZRWz6-wJs-wz81H6ag-ZdJ2Q3kzbHd2arAgA2A9mg",
+               "width" : 1080
+            }
+         ],
+         "place_id" : "ChIJYXTIzzMoRI4RB460NdHjG4E",
+         "plus_code" : 
+         {
+            "compound_code" : "6CGM+4P Medellin, Antioquia, Colombia",
+            "global_code" : "67R66CGM+4P"
+         },
+         "rating" : 3.7,
+         "reference" : "ChIJYXTIzzMoRI4RB460NdHjG4E",
+         "scope" : "GOOGLE",
+         "types" : 
+         [
+            "hospital",
+            "doctor",
+            "health",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 42,
+         "vicinity" : "050016 Calle 26 # 38-26"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 6.2212507,
+               "lng" : -75.56808339999999
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 6.222411630291502,
+                  "lng" : -75.56697081970849
+               },
+               "southwest" : 
+               {
+                  "lat" : 6.219713669708498,
+                  "lng" : -75.56966878029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "icon_background_color" : "#7B9EB0",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+         "international_phone_number" : "+57 604 6040007",
+         "name" : "SICOR",
+         "opening_hours" : 
+         {
+            "open_now" : false
+         },
+         "photos" : 
+         [
+            {
+               "height" : 567,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/112118039602765585591\"\u003eCarlos Gómez\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATCDNfVDqncmiS-h2Jcl4_sMtkS6gwrMpvGbbZU3MefVBrzXpAjLDuWQVROfHcBG-hExMzagrYE6bjIUNEQHfFahIOoEdfBeK5w6kWQFtG9j8DDma8pGd2Ev7-OqrC4EKhKHHcV5ttVmrNuhMu0c0gp4hmXwIA4xwyOX-Pbxs1tLHG2_7mMFwDDg3QHljrwXW90521y1OpfK14VqlQT8OjGGduxxIH84w-fYmPMiArRKdR7OR-Ebl80MCGj3kDve77WdENKItBmAZUNlfiKm1iOze97x9-D_MuhyJs66uEamoLjZEXp3--T0uJW030DKCJhXW5uqQGvzVyk2B-Py6t_G-qSs6eiwAr_SwyVdJNYd58sC9F_g8j2z2zASgp90T-uAHxuSeOxWPO-bl6h2yTAXAcZ7BaI6UvrgaD8Q2upovT-o3lGucChWpthOl7yAHBLjprcRatnb-9jo2bdpBc20jhtxfJgGgqkxcCHNhh86nWIjDEwfCtvhAP7JcptwWyCdWVYSGnOXskP26EzQTv7stuSjVWMFHUtXn-FpKbNN1rxPDKcZiQ8vlvQtryI3hltQ_bamOAjC2HHFUPc4h9Xj2KS7vML0LkT5vlZY0wuzKSNLZi8-E11nnjujSw4vzYo5xndi0Bgz139JehH3vyBdY4unLho",
+               "width" : 750
+            }
+         ],
+         "place_id" : "ChIJCWeJ2DMoRI4RM28EKxdzoS0",
+         "plus_code" : 
+         {
+            "compound_code" : "6CCJ+GQ Medellin, Antioquia, Colombia",
+            "global_code" : "67R66CCJ+GQ"
+         },
+         "rating" : 4.5,
+         "reference" : "ChIJCWeJ2DMoRI4RM28EKxdzoS0",
+         "scope" : "GOOGLE",
+         "types" : 
+         [
+            "hospital",
+            "doctor",
+            "health",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 56,
+         "vicinity" : "Calle 19 #42 - 40"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 6.219884799999999,
+               "lng" : -75.56909589999999
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 6.221264230291501,
+                  "lng" : -75.56790526970849
+               },
+               "southwest" : 
+               {
+                  "lat" : 6.218566269708497,
+                  "lng" : -75.5706032302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "icon_background_color" : "#7B9EB0",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+         "international_phone_number" : "+57 315 6066396",
+         "name" : "Cirucrédito - Financiación Cirugía Plástica",
+         "opening_hours" : 
+         {
+            "open_now" : false
+         },
+         "place_id" : "ChIJo5JVO9UpRI4Re3XptsVcPvk",
+         "plus_code" : 
+         {
+            "compound_code" : "6C9J+X9 Medellin, Antioquia, Colombia",
+            "global_code" : "67R66C9J+X9"
+         },
+         "rating" : 4.9,
+         "reference" : "ChIJo5JVO9UpRI4Re3XptsVcPvk",
+         "scope" : "GOOGLE",
+         "types" : 
+         [
+            "doctor",
+            "health",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 333,
+         "vicinity" : "Carrera 43A #17-106"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 6.219884799999999,
+               "lng" : -75.56909589999999
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 6.221264230291501,
+                  "lng" : -75.56790526970849
+               },
+               "southwest" : 
+               {
+                  "lat" : 6.218566269708497,
+                  "lng" : -75.5706032302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "icon_background_color" : "#7B9EB0",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+         "international_phone_number" : "+57 317 6681310",
+         "name" : "Tecmedical",
+         "place_id" : "ChIJEzgCMzIoRI4RIeiN1yEc9S8",
+         "plus_code" : 
+         {
+            "compound_code" : "6C9J+X9 Medellin, Antioquia, Colombia",
+            "global_code" : "67R66C9J+X9"
+         },
+         "rating" : 4.5,
+         "reference" : "ChIJEzgCMzIoRI4RIeiN1yEc9S8",
+         "scope" : "GOOGLE",
+         "types" : 
+         [
+            "doctor",
+            "health",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 13,
+         "vicinity" : "Edif Latitude 606, Avenida El Poblado #17-106"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 6.2078072,
+               "lng" : -75.5660424
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 6.208939480291502,
+                  "lng" : -75.5645729197085
+               },
+               "southwest" : 
+               {
+                  "lat" : 6.206241519708497,
+                  "lng" : -75.5672708802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "icon_background_color" : "#7B9EB0",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+         "name" : "Saine Vital",
+         "place_id" : "ChIJFS1hzikoRI4ROhZ1eWiUNE4",
+         "plus_code" : 
+         {
+            "compound_code" : "6C5M+4H Medellin, Antioquia, Colombia",
+            "global_code" : "67R66C5M+4H"
+         },
+         "reference" : "ChIJFS1hzikoRI4ROhZ1eWiUNE4",
+         "scope" : "GOOGLE",
+         "types" : 
+         [
+            "doctor",
+            "health",
+            "point_of_interest",
+            "establishment"
+         ],
+         "vicinity" : "Carrera 35 #8A-31"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 6.211047499999999,
+               "lng" : -75.57003809999999
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 6.212380980291502,
+                  "lng" : -75.56876906970848
+               },
+               "southwest" : 
+               {
+                  "lat" : 6.209683019708497,
+                  "lng" : -75.5714670302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "icon_background_color" : "#7B9EB0",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+         "international_phone_number" : "+57 314 4502747",
+         "name" : "Podiatry Center Dr Scholls",
+         "opening_hours" : 
+         {
+            "open_now" : false
+         },
+         "photos" : 
+         [
+            {
+               "height" : 467,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/105475612077207783314\"\u003eDr. Scholl&#39;s Medellín | Centro de Podología | Uñas encarnadas | Hongos en las uñas\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATCDNfV1Bywwjmo238ffQstHGYNBpp7wChOruFqgo7YoQbjYUSQMz_2M2MZPBUFeKsDzEGF3JlefXmZ2wrq5NYhXmeokD3u5ZQDUyCT7khhYzp4IEbd2zpOyoMCSn9_4dBosWmSPrC9wreNYqNp9hedAofjut7Fi5dS3F92sjOC776nDd8audZt9tzieEUrBKyjuQLmhO0EL9LjUsBXVk9jHiS1DOwqx22liVRKd3a7tG27Tk7Idf0TXHw0eMhCaUDOnnGeBRR5bd6KMChPv4LYxRCb1FI2dWox-syoh3OzouXdfiMAPSgogWBOoixnzAPiIweLpvSKT39k",
+               "width" : 829
+            }
+         ],
+         "place_id" : "ChIJu_rrWCooRI4RhEbymmqCsfo",
+         "plus_code" : 
+         {
+            "compound_code" : "6C6H+CX Medellin, Antioquia, Colombia",
+            "global_code" : "67R66C6H+CX"
+         },
+         "rating" : 4.5,
+         "reference" : "ChIJu_rrWCooRI4RhEbymmqCsfo",
+         "scope" : "GOOGLE",
+         "types" : 
+         [
+            "doctor",
+            "health",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 359,
+         "vicinity" : "Carrera 43A#10-44, Avenida El Poblado"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 6.2290211,
+               "lng" : -75.5690621
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 6.230337380291502,
+                  "lng" : -75.5675635197085
+               },
+               "southwest" : 
+               {
+                  "lat" : 6.227639419708497,
+                  "lng" : -75.57026148029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/civic_building-71.png",
+         "icon_background_color" : "#7B9EB0",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/civic-bldg_pinlet",
+         "international_phone_number" : "+57 1 800 0413646",
+         "name" : "neuromedica s.a.s",
+         "opening_hours" : 
+         {
+            "open_now" : false
+         },
+         "photos" : 
+         [
+            {
+               "height" : 4032,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/110693068979396459687\"\u003eJuliana Lara\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATCDNfXIPPAlDSI-X2Vd1Lntq3gsdm7JzTG-t8zSq9nDczVLbXS_dX9iaDl3X0ZUW6WvL1ZdAmZvDjqDpoYDvWEIdo86ksQG9ZMXQo4tIhd89rJvAfSNbD7DTEevlFen2BzXm2tP0Zl-PEYsUXBlAeDnpLNoetsG1ZuJvg_t30zYH39_zBi2F108kJKAkaJ-tb2EOYg4B14KwPgC9gH4F3lCty_1LnHDxHUNIVtwnEFkVZNpgNEkB-vR-fgiJzgxw_nBYT06JaY7RCav2vgfN3N7ofa1KnLpcAhh2GQDBBOvM-7rHMPoq922Dkw6-8L83Rrq2OCxC1xKYlRnEapq6Dq1_1JOVXHqaWD16DSB54kwAebU1wkZ1IXftbJ_JxvJgrXsQOFPf0iDyOHhQaq0NBZeuQ70TbrNTFLGeYH8892q4n5ODk9l71Ta-wPc3meHiGpHdnsC_1zZdk43Pegr11LNDK01tXn6SXdb9k1ghh23zBfj__yXUfnQ_GBAqaa9HT0AaOYpYqZyc6qSxDZx2T2LRZoa5rDRsRXhowvZwaWFl49B9yCUjpyUMl09gp2KjFp8WpvFm1fTbTqAjgTvUnUh6ng0bm3ygaeKLufpEpNGgyNI5QOq0FjywTI9Ki0jVyBwKJoPxI_-",
+               "width" : 3024
+            }
+         ],
+         "place_id" : "ChIJu2xIGUooRI4RzxuqKID3WCo",
+         "plus_code" : 
+         {
+            "compound_code" : "6CHJ+J9 Medellin, Antioquia, Colombia",
+            "global_code" : "67R66CHJ+J9"
+         },
+         "rating" : 2.3,
+         "reference" : "ChIJu2xIGUooRI4RzxuqKID3WCo",
+         "scope" : "GOOGLE",
+         "types" : 
+         [
+            "doctor",
+            "health",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 170,
+         "vicinity" : "Clínica de Oftalmología, Carrera 43 #29-35 Piso 4"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 6.2068778,
+               "lng" : -75.57034279999999
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 6.208117580291502,
+                  "lng" : -75.5689641197085
+               },
+               "southwest" : 
+               {
+                  "lat" : 6.205419619708497,
+                  "lng" : -75.5716620802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "icon_background_color" : "#7B9EB0",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+         "international_phone_number" : "+57 604 3222813",
+         "name" : "Neuro Clinica IPS",
+         "opening_hours" : 
+         {
+            "open_now" : false
+         },
+         "photos" : 
+         [
+            {
+               "height" : 1600,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/117884870997555532104\"\u003eRed Textil\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATCDNfXerbhfh5AxNW0u2GBTI1ZPXVrDzvrIEEbN08kgwuASN4jr4u1JFmaO1xxaxB9fTQsJjK75TlrkZmOL0HnmSdcUR0ZNpvHezjcKBY1yp5SqnXgcNytq3Ym7xX75Qoa9kBZGBfHhqYJBtyuRzhuH0XnKm03WOW9FSWw923NrCQGmAckT8g82q9a8alRsEnsU8n14NWh4k3zWy3EMJof0L7qxgbkphd3QsZZb0WOa1BC4P16FI6fH8eU90RifWHrT_jI27AtagE-YAtRl1seFDjetC9rKxuwtgoSJa6uADPYuVkIomjW9Hu1QZ-opG3TS2a1Zj92EMonFwaijoDalw0wU_ICnJLQDbAKfvNBSqxImYeegkhyHNp6d_bbG1pR4gJzKRPJcmuq_YRziU5m7IBLQGR2znGe6IUAgQ9uOQHkQUcrvUKdMXsOonxN_ERVVPtfo4Bc871ijzDNrU5UKUyuUuiYXzZV9OFWCv8YxHqC4GhpO1jTIe5-QID2BVqub30FDhv7O7-fMf7RJCU7lXPb5Cnand67xyyMa03-ysKm0A5xfuwN3nuw_09Ga5rHYC39YmEDogoRXPzq9-4AkDwMHrasBnvrksIP3PzmRaXkPu5MFVB1mw209QxUndqGxp87TZQ",
+               "width" : 720
+            }
+         ],
+         "place_id" : "ChIJ86Rx5IGCRo4RdXjhhKXWMog",
+         "plus_code" : 
+         {
+            "compound_code" : "6C4H+QV Medellin, Antioquia, Colombia",
+            "global_code" : "67R66C4H+QV"
+         },
+         "rating" : 4.2,
+         "reference" : "ChIJ86Rx5IGCRo4RdXjhhKXWMog",
+         "scope" : "GOOGLE",
+         "types" : 
+         [
+            "doctor",
+            "health",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 97,
+         "vicinity" : "Calle 7 #39-107"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 6.206414499999999,
+               "lng" : -75.5701651
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 6.207892430291501,
+                  "lng" : -75.56885121970849
+               },
+               "southwest" : 
+               {
+                  "lat" : 6.205194469708498,
+                  "lng" : -75.57154918029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/hospital-71.png",
+         "icon_background_color" : "#F88181",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/hospital-H_pinlet",
+         "international_phone_number" : "+57 43260202",
+         "name" : "Intergastro S.A. Colonoscopia y Endoscopia",
+         "opening_hours" : 
+         {
+            "open_now" : false
+         },
+         "photos" : 
+         [
+            {
+               "height" : 809,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/102408180963703275751\"\u003eIntergastro S.A. Colonoscopia y Endoscopia\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATCDNfVBLuCKdPHK7YGYtHVB53KwFkHZOWfm6FI1NKms_MmhcLaxBR_ZOnGCoR1rtBVcIncF27lB2PuYPp1aq4ypHub5ISyatYQd3JvWFJ02MaH-ieO_IikqGGhdKHx3eGO0g_NjzUoKzuIEM4NIFcy7gkb7frEkSrfL7mL3Ybd_e-2DuTNUfW1nXlX6kcnR8a_vp0l7xmUOnICZLvebEedB7qJiYLm5RD8fsjoG1PMRBOIl94AK6-fOJsf_7IWR8P_BwiXw_RPYtgj1r52T8F4aKrlKDoZnpuYrRvOagyoZpdvi23DiYVytauYComYbqVYWX6UjLsIFsho",
+               "width" : 1440
+            }
+         ],
+         "place_id" : "ChIJn9G5UvgoRI4Rq6BtW_jB9_0",
+         "plus_code" : 
+         {
+            "compound_code" : "6C4H+HW Medellin, Antioquia, Colombia",
+            "global_code" : "67R66C4H+HW"
+         },
+         "rating" : 2.7,
+         "reference" : "ChIJn9G5UvgoRI4Rq6BtW_jB9_0",
+         "scope" : "GOOGLE",
+         "types" : 
+         [
+            "hospital",
+            "doctor",
+            "health",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 188,
+         "vicinity" : "Torre Médical, Calle 7 #39-107 Piso 5"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 6.2107863,
+               "lng" : -75.5728063
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 6.212070130291501,
+                  "lng" : -75.57148281970849
+               },
+               "southwest" : 
+               {
+                  "lat" : 6.209372169708496,
+                  "lng" : -75.5741807802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "icon_background_color" : "#7B9EB0",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+         "international_phone_number" : "+57 43208230",
+         "name" : "Sofina Clinic",
+         "opening_hours" : 
+         {
+            "open_now" : false
+         },
+         "photos" : 
+         [
+            {
+               "height" : 3000,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/113964238039868812200\"\u003eJohn Mario Gomez\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATCDNfWX9LhqtX_CJx19t1YoAYz_qY8ujOinfnwrnDXI2SQAnqyHA3oQcqdyF3_zjzBK4gy3g0Sj4jHRR-gGBoAOQ59MLKFSWkScVyHrUtHao2D_HOTvU1G8Ala1usdnwOeUdzkatwdiQz6rcrKHNEEVH2tillOdiVFt9qlgwF-XfoJ0lwSFZh797v6yqkw_hLms4Vdz5kv8i8Uz5URkUiTAuKIwlZWcvJLodT41_jxIFB1-6Mk9wkVwhn7ygb64bxaoOwnaWaGmvUQEYoWoUub1cKomgaMjcq7jW5SyvDZhvoEhhImIwQW6keAL_RcBaSz9soujzsVl5T4TEanTeLW5ih0o_uHQ09OHNStC183BZj5VHLtcd5yySwX6dOkGXai5Rl8gddMW5TsSrY5ZQvLPIP6hV4C5jCJ5GzgY8YebH0h3o3EVKKLSJ6SdPKhS4A38nGoJEgqeaGiE1bPTptFEa1DZfcya37I_d6g_1UYz9QJm8RBxWI0aS-CG_66s53zfeET6FqlAswvMqmqOEZ-w5DD8CB1JBpglPFwTuy-j09yt785PGUGi8vJs5dRO4j66HSbgpIm5007LUrryzR0O153wLlGlNZGa4pHHwBJJJsD4VFVXEeOTlObe2xOSOnHSYn5OtzZT",
+               "width" : 4000
+            }
+         ],
+         "place_id" : "ChIJVXAVkikoRI4R5pBRBGYuX4o",
+         "plus_code" : 
+         {
+            "compound_code" : "6C6G+8V Medellin, Antioquia, Colombia",
+            "global_code" : "67R66C6G+8V"
+         },
+         "rating" : 2.6,
+         "reference" : "ChIJVXAVkikoRI4R5pBRBGYuX4o",
+         "scope" : "GOOGLE",
+         "types" : 
+         [
+            "beauty_salon",
+            "doctor",
+            "health",
+            "spa",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 28,
+         "vicinity" : "Calle 9 #43c -70"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 6.206494800000001,
+               "lng" : -75.57052779999999
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 6.207889830291503,
+                  "lng" : -75.56919136970849
+               },
+               "southwest" : 
+               {
+                  "lat" : 6.205191869708498,
+                  "lng" : -75.5718893302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "icon_background_color" : "#7B9EB0",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+         "international_phone_number" : "+57 604 3493080",
+         "name" : "Oral Center Poblado",
+         "opening_hours" : 
+         {
+            "open_now" : false
+         },
+         "photos" : 
+         [
+            {
+               "height" : 1920,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/103775957779103131441\"\u003eEsteban Santillan\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATCDNfXRLSA3DJEyXr_5N2EZmD-ixuGKzBa-6TjhTCyjofh0Bs98F8mELd51q4WqmbofXto77J-xc3-mQzJD_5JspMfiGHe2du5o3iY01BkNdMUTxKNC-fBrG_OIDGOIAnaIdx2FH1a9pSz0jHT6ylma1ix-8XQfEOEaEaz9bPYFNgd8Uad_yNFevNzxyKuAPvSdEz6OHBGb0oD2xPk0_X56R5u-gTJwb1FMc0qaVLp7i-lrQJC9--LiidB1nhf37-uZ14rvDKhPFBWBPB472IMU38TfEhs1hf44hEGI7rrFIobI3a2uGb96cCa8Zdq4Ipmk3jK2F1SIz79GVYaLKcIpsoB5dLFtYbQGqvjTFyKfbNV7OoHZQFTh86TZAyWLyfPvUfjyw0UnKuHIJ0g17G499r1iFOvuxQu4lRuNXLQhN_ThZdkfNkCRL0caCBgIbW0ZgSBjVPq_u-GCeztsSCY_qnrHzrdcWh7QWZnn9A-QrLJy8mx_FYrYs3oPpkqfVHRzvi8tgpPM_43mvLcX8AFlrnMWWFX9ao5IUj2sPY1E4IL3hqGHnxHIorIqsnX15cnvdn2q2KyieZE-iqlhHq89M5PuYGzXWj0FsEegsIie3vkPMDH6rS6wIyJFftsfGxIYHPvueA",
+               "width" : 1080
+            }
+         ],
+         "place_id" : "ChIJX2o-xYGCRo4Rn6L7wacsRJo",
+         "plus_code" : 
+         {
+            "compound_code" : "6C4H+HQ Medellin, Antioquia, Colombia",
+            "global_code" : "67R66C4H+HQ"
+         },
+         "rating" : 4.4,
+         "reference" : "ChIJX2o-xYGCRo4Rn6L7wacsRJo",
+         "scope" : "GOOGLE",
+         "types" : 
+         [
+            "dentist",
+            "doctor",
+            "health",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 82,
+         "vicinity" : "Calle 7 # 39- 197, Torre Intermédica Local 1219"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 6.2068514,
+               "lng" : -75.5708511
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 6.208039980291501,
+                  "lng" : -75.56946836970849
+               },
+               "southwest" : 
+               {
+                  "lat" : 6.205342019708497,
+                  "lng" : -75.57216633029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "icon_background_color" : "#7B9EB0",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+         "international_phone_number" : "+57 316 8745925",
+         "name" : "Balon Gastrico - Grupo de Obesidad Clinica Medellin Colombia",
+         "opening_hours" : 
+         {
+            "open_now" : false
+         },
+         "photos" : 
+         [
+            {
+               "height" : 1000,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/105489032200455671115\"\u003eBalon Gastrico - Grupo de Obesidad Clinica Medellin Colombia\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATCDNfVOUpclz4pHvo4dWZU4nkCHNKe0gZwU_Fz6lkgnKjTJfcWq0TZnJjjDetsIGAbXSBTcwpzS7f4nExhOymYArNmNkkRwNBSTBPdFM4gCc0Ocbi4RkavczsOnXAgQgaWvqiGkqVXMEcUPsLc8LmhX4nuLTIW06NtoO5_y_p0JJkNlssAEVcBz1OaEYCM7O1sT4B0KajhGToPnDbHvNPRYfmz_twcjdIGDMSRgVpNcVuTe_V09mWs5r7ViJg87vYU_wb5r1Y63JeZbhh-Of1s322_fWqjQxPKasXu4nUH9MesJKTnMJlBjuiSnbMLgqa1PjZkOoS3Po8c",
+               "width" : 1000
+            }
+         ],
+         "place_id" : "ChIJo7Hbz4GCRo4R2EslrClXtMU",
+         "plus_code" : 
+         {
+            "compound_code" : "6C4H+PM Medellin, Antioquia, Colombia",
+            "global_code" : "67R66C4H+PM"
+         },
+         "rating" : 4.7,
+         "reference" : "ChIJo7Hbz4GCRo4R2EslrClXtMU",
+         "scope" : "GOOGLE",
+         "types" : 
+         [
+            "doctor",
+            "health",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 12,
+         "vicinity" : "Clínica Medellín sede, Calle 7 # 39-290 Consultorio 1107"
+      }
+   ],
+   "status" : "OK"
+}

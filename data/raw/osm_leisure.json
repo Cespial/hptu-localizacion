@@ -1,0 +1,1368 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.10 2d4cfc48",
+  "osm3s": {
+    "timestamp_osm_base": "2026-02-27T14:52:52Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+
+{
+  "type": "node",
+  "id": 1468401006,
+  "lat": 6.1767793,
+  "lon": -75.6134293,
+  "tags": {
+    "leisure": "sports_centre",
+    "name": "Placa deportiva Sector Miranda",
+    "sport": "soccer"
+  }
+},
+{
+  "type": "node",
+  "id": 1468581919,
+  "lat": 6.1772091,
+  "lon": -75.6152802,
+  "tags": {
+    "leisure": "sports_centre",
+    "name": "cancha deportiva Loma de los Zuleta"
+  }
+},
+{
+  "type": "node",
+  "id": 1660039081,
+  "lat": 6.1827951,
+  "lon": -75.5861191,
+  "tags": {
+    "leisure": "sports_centre",
+    "name": "El templo del Fútbol",
+    "sport": "soccer"
+  }
+},
+{
+  "type": "node",
+  "id": 1660039082,
+  "lat": 6.1816538,
+  "lon": -75.5870525,
+  "tags": {
+    "leisure": "sports_centre",
+    "name": "Señor Gol",
+    "sport": "soccer"
+  }
+},
+{
+  "type": "node",
+  "id": 1672213666,
+  "lat": 6.1777766,
+  "lon": -75.5843161,
+  "tags": {
+    "leisure": "sports_centre",
+    "sport": "gymnastics"
+  }
+},
+{
+  "type": "node",
+  "id": 1685211018,
+  "lat": 6.1646840,
+  "lon": -75.5983704,
+  "tags": {
+    "leisure": "sports_centre",
+    "name": "Envigol",
+    "sport": "soccer"
+  }
+},
+{
+  "type": "node",
+  "id": 2418112366,
+  "lat": 6.2522871,
+  "lon": -75.5742161,
+  "tags": {
+    "leisure": "sports_centre",
+    "name": "Canchas Sintéticas",
+    "sport": "soccer"
+  }
+},
+{
+  "type": "node",
+  "id": 3110420831,
+  "lat": 6.1824765,
+  "lon": -75.5856724,
+  "tags": {
+    "addr:city": "Envigado",
+    "addr:housenumber": "45-75",
+    "addr:street": "Calle 25 B Sur",
+    "leisure": "sports_centre",
+    "name": "Greenfit Sports Las Vegas",
+    "phone": "+57 4 3329331",
+    "website": "http://www.greenfit.co/"
+  }
+},
+{
+  "type": "node",
+  "id": 3110428784,
+  "lat": 6.1823831,
+  "lon": -75.5855974,
+  "tags": {
+    "leisure": "sports_centre",
+    "name": "Curves",
+    "website": "http://www.curves.la/"
+  }
+},
+{
+  "type": "node",
+  "id": 3110437189,
+  "lat": 6.1785624,
+  "lon": -75.5842522,
+  "tags": {
+    "addr:city": "Envigado",
+    "addr:housenumber": "27A Sur - 81",
+    "addr:street": "Carrera 43A",
+    "leisure": "sports_centre",
+    "name": "Greenfit Envigado",
+    "website": "http://www.greenfit.co/"
+  }
+},
+{
+  "type": "node",
+  "id": 3652345591,
+  "lat": 6.2571655,
+  "lon": -75.6165958,
+  "tags": {
+    "leisure": "sports_centre",
+    "name": "Gimnasio",
+    "sport": "gymnastics"
+  }
+},
+{
+  "type": "node",
+  "id": 4034609840,
+  "lat": 6.2510003,
+  "lon": -75.6042020,
+  "tags": {
+    "leisure": "sports_centre",
+    "name": "Gimnasio Bodytech"
+  }
+},
+{
+  "type": "node",
+  "id": 7253901455,
+  "lat": 6.1555838,
+  "lon": -75.6119972,
+  "tags": {
+    "addr:city": "Sabaneta",
+    "addr:street": "Calle 62 Sur",
+    "building": "public",
+    "leisure": "sports_centre",
+    "name": "J.A.C Restrepo Naranjo",
+    "opening_hours": "Mo-Sa 07:00-21:45; Su-PH 07:00-17:00",
+    "sport": "soccer;multi"
+  }
+},
+{
+  "type": "node",
+  "id": 9104455213,
+  "lat": 6.2543858,
+  "lon": -75.5888965,
+  "tags": {
+    "leisure": "sports_centre",
+    "name": "Coliseo Balonmano"
+  }
+},
+{
+  "type": "node",
+  "id": 11939825470,
+  "lat": 6.2563630,
+  "lon": -75.5428814,
+  "tags": {
+    "leisure": "sports_centre",
+    "name": "Cancha N2 institucion Joaquín vallejo Arbeláez",
+    "opening_hours": "Mo-Fr 06:16-17:45"
+  }
+},
+{
+  "type": "node",
+  "id": 11939840569,
+  "lat": 6.2561345,
+  "lon": -75.5430094,
+  "tags": {
+    "leisure": "sports_centre",
+    "name": "Cancha de la institución educativa Joaquín vallejo Arbeláez",
+    "opening_hours": "Mo-Fr 06:15-17:45"
+  }
+},
+{
+  "type": "node",
+  "id": 12063883869,
+  "lat": 6.2559206,
+  "lon": -75.5435662,
+  "tags": {
+    "leisure": "sports_centre",
+    "name": "Cancha iejva"
+  }
+},
+{
+  "type": "node",
+  "id": 12063888969,
+  "lat": 6.2561046,
+  "lon": -75.5427957,
+  "tags": {
+    "leisure": "sports_centre",
+    "name": "Cancha de fútbol"
+  }
+},
+{
+  "type": "node",
+  "id": 12083998569,
+  "lat": 6.2568132,
+  "lon": -75.5387288,
+  "tags": {
+    "leisure": "sports_centre",
+    "name": "Cancha de Golondrinas"
+  }
+},
+{
+  "type": "node",
+  "id": 12098818001,
+  "lat": 6.2562397,
+  "lon": -75.5429966,
+  "tags": {
+    "leisure": "sports_centre",
+    "name": "Cancha dela Joaquín Vallejo arbelaez"
+  }
+},
+{
+  "type": "node",
+  "id": 13189193401,
+  "lat": 6.2564253,
+  "lon": -75.5428730,
+  "tags": {
+    "leisure": "sports_centre",
+    "name": "Cancha"
+  }
+},
+{
+  "type": "way",
+  "id": 28770006,
+  "center": {
+    "lat": 6.2597639,
+    "lon": -75.6060370
+  },
+  "nodes": [
+    316315591,
+    2642556630,
+    316315592,
+    316315594,
+    316315595,
+    316315596,
+    316315591
+  ],
+  "tags": {
+    "building": "yes",
+    "leisure": "sports_centre",
+    "name": "Piscina Los Alcázares",
+    "sport": "swimming"
+  }
+},
+{
+  "type": "way",
+  "id": 30257865,
+  "center": {
+    "lat": 6.2475837,
+    "lon": -75.6075037
+  },
+  "nodes": [
+    333415702,
+    333415703,
+    333415704,
+    3811562861,
+    3811562860,
+    333415706,
+    333415708,
+    333415709,
+    3811562862,
+    333415718,
+    3811562865,
+    333415721,
+    333415722,
+    3603700605,
+    3811562872,
+    333415723,
+    333415725,
+    333415729,
+    333415731,
+    11486980190,
+    333415733,
+    333415734,
+    1647866364,
+    3811569341,
+    333415737,
+    333415739,
+    333415742,
+    333415743,
+    333415750,
+    333415702
+  ],
+  "tags": {
+    "leisure": "sports_centre",
+    "name": "Complejo Deportivo San Cristobal"
+  }
+},
+{
+  "type": "way",
+  "id": 47332276,
+  "center": {
+    "lat": 6.2386259,
+    "lon": -75.5521647
+  },
+  "nodes": [
+    602812219,
+    602812223,
+    602812217,
+    602812221,
+    602812219
+  ],
+  "tags": {
+    "leisure": "sports_centre",
+    "name": "Coliseo de la Univerisdad Cooperativa de Colombia",
+    "sport": "Baloncesto"
+  }
+},
+{
+  "type": "way",
+  "id": 98161710,
+  "center": {
+    "lat": 6.1880344,
+    "lon": -75.5722192
+  },
+  "nodes": [
+    1135747137,
+    1135747148,
+    1135747135,
+    3733151345,
+    1135747155,
+    3733151315,
+    3733151233,
+    1135747133,
+    1135747151,
+    3733149370,
+    3733151286,
+    1135747139,
+    1135747138,
+    4963251964,
+    4963251963,
+    1135747158,
+    3733152051,
+    3733152059,
+    3733152052,
+    3733152053,
+    3733152055,
+    3733152060,
+    3733152074,
+    1135747156,
+    3733152067,
+    3733152015,
+    3733151985,
+    1135747134,
+    3733151946,
+    3733151930,
+    1135747153,
+    1135747127,
+    1135747150,
+    1135747137
+  ],
+  "tags": {
+    "access": "private",
+    "leisure": "golf_course",
+    "name": "Club Campestre"
+  }
+},
+{
+  "type": "way",
+  "id": 113819324,
+  "center": {
+    "lat": 6.2505291,
+    "lon": -75.6137392
+  },
+  "nodes": [
+    1290375907,
+    1290375897,
+    5321211962,
+    5321211961,
+    1290375905,
+    1290375903,
+    1290375907
+  ],
+  "tags": {
+    "building": "yes",
+    "leisure": "sports_centre",
+    "name": "Polideportivo"
+  }
+},
+{
+  "type": "way",
+  "id": 124953085,
+  "center": {
+    "lat": 6.2576007,
+    "lon": -75.6113463
+  },
+  "nodes": [
+    1389062438,
+    1389062437,
+    1389062422,
+    1389062431,
+    1389062438
+  ],
+  "tags": {
+    "building": "yes",
+    "leisure": "sports_centre",
+    "name": "Coliseo",
+    "sport": "multi"
+  }
+},
+{
+  "type": "way",
+  "id": 129724124,
+  "center": {
+    "lat": 6.1698089,
+    "lon": -75.6050338
+  },
+  "nodes": [
+    1430585919,
+    1430585917,
+    1430585916,
+    1430585918,
+    1430585919
+  ],
+  "tags": {
+    "leisure": "sports_centre",
+    "name": "Polideportivo Itagüí",
+    "sport": "multi"
+  }
+},
+{
+  "type": "way",
+  "id": 130439684,
+  "center": {
+    "lat": 6.2342173,
+    "lon": -75.5420637
+  },
+  "nodes": [
+    1436665700,
+    1436665718,
+    1436665702,
+    1436665683,
+    1436665700
+  ],
+  "tags": {
+    "building": "yes",
+    "leisure": "sports_centre",
+    "name": "Alejandro Echavarria",
+    "sport": "multi"
+  }
+},
+{
+  "type": "way",
+  "id": 151946379,
+  "center": {
+    "lat": 6.2342641,
+    "lon": -75.5885994
+  },
+  "nodes": [
+    1647866262,
+    1647866263,
+    9413735739,
+    1647866145,
+    1647866144,
+    2672266132,
+    2391096076,
+    1647866262
+  ],
+  "tags": {
+    "leisure": "sports_centre",
+    "name": "Unidad Deportiva Belén",
+    "official_name": "Unidad Deportiva Andrés Escobar Belen",
+    "source": "Julian Vlez",
+    "sport": "multi"
+  }
+},
+{
+  "type": "way",
+  "id": 151946382,
+  "center": {
+    "lat": 6.2427763,
+    "lon": -75.6069007
+  },
+  "nodes": [
+    1647866318,
+    1647866314,
+    1647866323,
+    1647866329,
+    1647866318
+  ],
+  "tags": {
+    "building": "yes",
+    "leisure": "sports_centre"
+  }
+},
+{
+  "type": "way",
+  "id": 169018851,
+  "center": {
+    "lat": 6.2559290,
+    "lon": -75.6132311
+  },
+  "nodes": [
+    1801938880,
+    1801938878,
+    1801938877,
+    1801938879,
+    1801938880
+  ],
+  "tags": {
+    "leisure": "sports_centre",
+    "name": "INDER San Javier"
+  }
+},
+{
+  "type": "way",
+  "id": 208273709,
+  "center": {
+    "lat": 6.1701971,
+    "lon": -75.5860620
+  },
+  "nodes": [
+    2185862179,
+    2185862180,
+    2185862181,
+    2185862178,
+    2185862179
+  ],
+  "tags": {
+    "addr:city": "Envigado",
+    "addr:housenumber": "36 sur 37",
+    "addr:street": "Carrera 41",
+    "building": "school",
+    "leisure": "sports_centre",
+    "name": "Anyus Dojo",
+    "source": "AnyusDojo.com"
+  }
+},
+{
+  "type": "way",
+  "id": 218898995,
+  "center": {
+    "lat": 6.2563664,
+    "lon": -75.5879955
+  },
+  "nodes": [
+    4309438326,
+    4309438323,
+    2281039483,
+    2281039479,
+    4309438339,
+    4309438338,
+    4309438326
+  ],
+  "tags": {
+    "building": "public",
+    "leisure": "sports_centre",
+    "name": "Coliseo cubierto Iván de Bedout",
+    "sport": "multi"
+  }
+},
+{
+  "type": "way",
+  "id": 218898997,
+  "center": {
+    "lat": 6.2552245,
+    "lon": -75.5886178
+  },
+  "nodes": [
+    2281039474,
+    4309438320,
+    4309438346,
+    4309438321,
+    4309438319,
+    4309438325,
+    2281039473,
+    2281039474
+  ],
+  "tags": {
+    "building": "public",
+    "leisure": "sports_centre",
+    "name": "Coliseo de Voleibol y Artes Marciales Mixtas",
+    "sport": "volleyball"
+  }
+},
+{
+  "type": "way",
+  "id": 230626221,
+  "center": {
+    "lat": 6.2694661,
+    "lon": -75.5681916
+  },
+  "nodes": [
+    2391112725,
+    12064465725,
+    12064465722,
+    2391112723,
+    6397285984,
+    12064465717,
+    2391112726,
+    12064465723,
+    12064465724,
+    2391112729,
+    6397285980,
+    6397285983,
+    2391112725
+  ],
+  "tags": {
+    "building": "sports_centre",
+    "designation": "Coliseo Nuevo Universida de Antioquia",
+    "leisure": "sports_centre",
+    "name": "Bloque 27 - Coliseo Universitario",
+    "source": "https://portal.udea.edu.co/wps/portal/udea/web/inicio/institucional/campus/nuestros-campus-medellin/ciudad-universitaria",
+    "sport": "soccer;basketball;volleyball;handball"
+  }
+},
+{
+  "type": "way",
+  "id": 233421249,
+  "center": {
+    "lat": 6.2567885,
+    "lon": -75.5817802
+  },
+  "nodes": [
+    2418127152,
+    9763531272,
+    2418127156,
+    2418127154,
+    2418127141,
+    2418127152
+  ],
+  "tags": {
+    "building": "yes",
+    "leisure": "sports_centre",
+    "name": "Autogol",
+    "sport": "soccer"
+  }
+},
+{
+  "type": "way",
+  "id": 294739237,
+  "center": {
+    "lat": 6.2063471,
+    "lon": -75.5953157
+  },
+  "nodes": [
+    344926190,
+    344926189,
+    3735830355,
+    3735830352,
+    3735830348,
+    3735830347,
+    3735830345,
+    2983557629,
+    2983561260,
+    2983561261,
+    2983557632,
+    10691985365,
+    3732153420,
+    3732153443,
+    2983558033,
+    2983558034,
+    3731456046,
+    4895999307,
+    2983558037,
+    4896000934,
+    4896000935,
+    4896000936,
+    4896000966,
+    4896000937,
+    2983558038,
+    2983558039,
+    2983558040,
+    3731456371,
+    2983558046,
+    3731456443,
+    2983558047,
+    3731456626,
+    3731456670,
+    3731456679,
+    3731456681,
+    3731456684,
+    2983558052,
+    3731456664,
+    2983558049,
+    3731456663,
+    2983558051,
+    8988338861,
+    2983558054,
+    8988338859,
+    3731456677,
+    2983558053,
+    8988338872,
+    2983558048,
+    8988338855,
+    8988338856,
+    2983558045,
+    8988338857,
+    2983558044,
+    3687875534,
+    10293485113,
+    8988338858,
+    3687875532,
+    344926190
+  ],
+  "tags": {
+    "access": "private",
+    "leisure": "golf_course",
+    "name": "Club Campestre El Rodeo",
+    "opening_hours": "Mo-Su,PH 08:00-20:00"
+  }
+},
+{
+  "type": "way",
+  "id": 314773482,
+  "center": {
+    "lat": 6.2418196,
+    "lon": -75.5904755
+  },
+  "nodes": [
+    3208224646,
+    3367074523,
+    3367074520,
+    3367074521,
+    3367074522,
+    3208224647,
+    3208224648,
+    3208224649,
+    3208224650,
+    3208224651,
+    3208224646
+  ],
+  "tags": {
+    "building": "university",
+    "building:levels": "1",
+    "leisure": "sports_centre",
+    "name": "Polideportivo de la UPB",
+    "sport": "multi"
+  }
+},
+{
+  "type": "way",
+  "id": 320914821,
+  "center": {
+    "lat": 6.1989328,
+    "lon": -75.5780602
+  },
+  "nodes": [
+    3276207962,
+    3276207963,
+    3276207964,
+    3276207965,
+    3276207966,
+    3276207962
+  ],
+  "tags": {
+    "building": "yes",
+    "is_in": "Universidad EAFIT",
+    "layer": "1",
+    "leisure": "sports_centre",
+    "name": "Gimnasio VIVO"
+  }
+},
+{
+  "type": "way",
+  "id": 329794535,
+  "center": {
+    "lat": 6.2348692,
+    "lon": -75.5947181
+  },
+  "nodes": [
+    3367407825,
+    3367407830,
+    3367407826,
+    3361872031,
+    7203258325,
+    3367407827,
+    3367407825
+  ],
+  "tags": {
+    "addr:city": "Medellin",
+    "addr:housenumber": "32 -125",
+    "addr:postcode": "050030",
+    "addr:street": "Diagonal 74B",
+    "leisure": "sports_centre",
+    "name": "Altitud",
+    "sport": "climbing"
+  }
+},
+{
+  "type": "way",
+  "id": 355199713,
+  "center": {
+    "lat": 6.2600300,
+    "lon": -75.6053250
+  },
+  "nodes": [
+    3608089244,
+    3608089247,
+    3608089243,
+    3608089241,
+    3608089244
+  ],
+  "tags": {
+    "leisure": "sports_centre",
+    "name": "Cancha los Alcazares",
+    "sport": "multi"
+  }
+},
+{
+  "type": "way",
+  "id": 364181004,
+  "center": {
+    "lat": 6.2651295,
+    "lon": -75.5768678
+  },
+  "nodes": [
+    3682409993,
+    3682409994,
+    3682409995,
+    3682409996,
+    3682409997,
+    3682409998,
+    3682409999,
+    3682410000,
+    10697594687,
+    3682410001,
+    3682409993
+  ],
+  "tags": {
+    "leisure": "sports_centre",
+    "name": "Polideportivo",
+    "sport": "multi"
+  }
+},
+{
+  "type": "way",
+  "id": 367155706,
+  "center": {
+    "lat": 6.2306815,
+    "lon": -75.6103121
+  },
+  "nodes": [
+    3711072776,
+    3711072777,
+    3711072778,
+    3711072779,
+    12588078730,
+    3711072780,
+    12586863921,
+    12586863920,
+    12588120130,
+    3711072781,
+    3711072776
+  ],
+  "tags": {
+    "building": "stadium",
+    "leisure": "sports_centre",
+    "name": "Bloque 1 - Coliseo",
+    "nohousenumber": "yes",
+    "sport": "basketball;soccer"
+  }
+},
+{
+  "type": "way",
+  "id": 380591402,
+  "center": {
+    "lat": 6.2635625,
+    "lon": -75.6074766
+  },
+  "nodes": [
+    3839102907,
+    3839102903,
+    3839102904,
+    3839102911,
+    3839102907
+  ],
+  "tags": {
+    "leisure": "sports_centre",
+    "name": "Cancha del Metropolitano",
+    "sport": "multi"
+  }
+},
+{
+  "type": "way",
+  "id": 380638955,
+  "center": {
+    "lat": 6.2592376,
+    "lon": -75.6085840
+  },
+  "nodes": [
+    3839635898,
+    3839635930,
+    3839635929,
+    3839635921,
+    3839635902,
+    3839635900,
+    3839635895,
+    3839635886,
+    3839635883,
+    3839635893,
+    3839635896,
+    3839635898
+  ],
+  "tags": {
+    "leisure": "sports_centre",
+    "name": "Polideportivo la Campiña",
+    "sport": "multi"
+  }
+},
+{
+  "type": "way",
+  "id": 431712542,
+  "center": {
+    "lat": 6.2560802,
+    "lon": -75.5887046
+  },
+  "nodes": [
+    4309438334,
+    4309438335,
+    4309438336,
+    4309438337,
+    4309438334
+  ],
+  "tags": {
+    "addr:city": "Medellín",
+    "building": "yes",
+    "leisure": "sports_centre",
+    "name": "Coliseo de Gimnasia Jorge Hugo Giraldo",
+    "sport": "gymnastics"
+  }
+},
+{
+  "type": "way",
+  "id": 440087513,
+  "center": {
+    "lat": 6.2680085,
+    "lon": -75.5545972
+  },
+  "nodes": [
+    4377922559,
+    4377922554,
+    11916340340,
+    11916340356,
+    4377922553,
+    11916340409,
+    11916340406,
+    4377922558,
+    4377922559
+  ],
+  "tags": {
+    "building": "yes",
+    "leisure": "sports_centre",
+    "name": "Coliseo del Inder"
+  }
+},
+{
+  "type": "way",
+  "id": 440090330,
+  "center": {
+    "lat": 6.2769804,
+    "lon": -75.5485350
+  },
+  "nodes": [
+    4377944611,
+    4377944608,
+    4377944609,
+    4377944617,
+    4377944613,
+    4377944611
+  ],
+  "tags": {
+    "description": "Polideportivo I.E. Gabriel Restrepo Moreno",
+    "leisure": "sports_centre"
+  }
+},
+{
+  "type": "way",
+  "id": 458587749,
+  "center": {
+    "lat": 6.2358072,
+    "lon": -75.5260940
+  },
+  "nodes": [
+    4545706674,
+    4545706673,
+    4545706672,
+    4545706671,
+    4545706674
+  ],
+  "tags": {
+    "leisure": "sports_centre",
+    "name": "Cancha cubierta"
+  }
+},
+{
+  "type": "way",
+  "id": 483955862,
+  "center": {
+    "lat": 6.2800116,
+    "lon": -75.5814168
+  },
+  "nodes": [
+    4767088921,
+    4767088922,
+    4767088923,
+    4767088924,
+    4767088921
+  ],
+  "tags": {
+    "leisure": "sports_centre",
+    "sport": "swimming"
+  }
+},
+{
+  "type": "way",
+  "id": 520043347,
+  "center": {
+    "lat": 6.2148342,
+    "lon": -75.5931085
+  },
+  "nodes": [
+    5069582072,
+    5069582071,
+    5069582070,
+    5069582069,
+    5069582068,
+    5069582067,
+    5069582066,
+    5069582065,
+    5069582072
+  ],
+  "tags": {
+    "building": "yes",
+    "leisure": "sports_centre"
+  }
+},
+{
+  "type": "way",
+  "id": 548270122,
+  "center": {
+    "lat": 6.2429090,
+    "lon": -75.5950687
+  },
+  "nodes": [
+    5296790191,
+    5296790192,
+    5296790193,
+    5296797350,
+    5296790191
+  ],
+  "tags": {
+    "addr:city": "Medellín",
+    "addr:housenumber": "38-82",
+    "addr:street": "Circular 73 A",
+    "building": "yes",
+    "building:levels": "2",
+    "leisure": "sports_centre",
+    "name": "El Muro Escalada Deportiva",
+    "opening_hours": "Mo-Th 14:00-22:00, Fr 14:00-20:00, Sa 14:00-18:00",
+    "phone": "+57 4 411 1028",
+    "sport": "climbing",
+    "website": "https://www.elmuroed.com/"
+  }
+},
+{
+  "type": "way",
+  "id": 552180236,
+  "center": {
+    "lat": 6.2452263,
+    "lon": -75.5500105
+  },
+  "nodes": [
+    5331608467,
+    5331608442,
+    5331608468,
+    5331608469,
+    5331608470,
+    5331608467
+  ],
+  "tags": {
+    "building": "yes",
+    "leisure": "sports_centre",
+    "name": "Polideportivo"
+  }
+},
+{
+  "type": "way",
+  "id": 573380099,
+  "center": {
+    "lat": 6.2054170,
+    "lon": -75.5779364
+  },
+  "nodes": [
+    5507130114,
+    5507130115,
+    5507130116,
+    5507130117,
+    5507130114
+  ],
+  "tags": {
+    "leisure": "sports_centre"
+  }
+},
+{
+  "type": "way",
+  "id": 573380107,
+  "center": {
+    "lat": 6.2062539,
+    "lon": -75.5773833
+  },
+  "nodes": [
+    5507130138,
+    5507130139,
+    5507130140,
+    5507130141,
+    5507130138
+  ],
+  "tags": {
+    "leisure": "sports_centre"
+  }
+},
+{
+  "type": "way",
+  "id": 678218627,
+  "center": {
+    "lat": 6.1562829,
+    "lon": -75.6050896
+  },
+  "nodes": [
+    6350255285,
+    6350255286,
+    6350255287,
+    6548784835,
+    6350255288,
+    6350255285
+  ],
+  "tags": {
+    "addr:city": "Sabaneta Antioquia",
+    "addr:street": "Calle 56 Sur",
+    "leisure": "sports_centre",
+    "name": "Centro Ambiental, Cultural y Deportivo Maria Auxiliadora"
+  }
+},
+{
+  "type": "way",
+  "id": 752880239,
+  "center": {
+    "lat": 6.2118043,
+    "lon": -75.5706574
+  },
+  "nodes": [
+    7034925214,
+    7034925213,
+    7034925212,
+    7034925211,
+    7034925214
+  ],
+  "tags": {
+    "building": "yes",
+    "leisure": "sports_centre",
+    "name": "Estación de Policia el Poblado"
+  }
+},
+{
+  "type": "way",
+  "id": 777348909,
+  "center": {
+    "lat": 6.1506234,
+    "lon": -75.6133559
+  },
+  "nodes": [
+    7253692073,
+    7253692074,
+    7253692075,
+    7253692076,
+    7253692077,
+    7253692073
+  ],
+  "tags": {
+    "leisure": "sports_centre"
+  }
+},
+{
+  "type": "way",
+  "id": 866023043,
+  "center": {
+    "lat": 6.2547403,
+    "lon": -75.5924291
+  },
+  "nodes": [
+    8071985752,
+    5188682912,
+    3508608848,
+    5188682914,
+    1843024619,
+    7029680565,
+    8071985752
+  ],
+  "tags": {
+    "addr:housenumber": "75-106",
+    "addr:street": "Calle 47D",
+    "leisure": "sports_centre",
+    "name": "Patinodromo Guillermo León Botero",
+    "sport": "skating;roller_skating;roller_hockey"
+  }
+},
+{
+  "type": "way",
+  "id": 962492143,
+  "center": {
+    "lat": 6.1714279,
+    "lon": -75.5912166
+  },
+  "nodes": [
+    8903286903,
+    8903286904,
+    8903286905,
+    8903286906,
+    8903286907,
+    7942446975,
+    8903286903
+  ],
+  "tags": {
+    "leisure": "sports_centre"
+  }
+},
+{
+  "type": "way",
+  "id": 1237564323,
+  "center": {
+    "lat": 6.2617702,
+    "lon": -75.5543380
+  },
+  "nodes": [
+    11494775285,
+    11494775284,
+    11494775283,
+    11494775282,
+    11494775281,
+    11494775280,
+    11494775279,
+    11494775278,
+    11494775277,
+    11494775276,
+    11494775275,
+    11494775274,
+    11494775273,
+    11494775272,
+    11494775271,
+    11494775270,
+    11494775269,
+    11494775068,
+    11494775067,
+    11494775066,
+    11494775065,
+    11494775285
+  ],
+  "tags": {
+    "leisure": "sports_centre",
+    "name": "Unidad Deportiva La López"
+  }
+},
+{
+  "type": "way",
+  "id": 1303675572,
+  "center": {
+    "lat": 6.2720978,
+    "lon": -75.5863229
+  },
+  "nodes": [
+    3914294850,
+    3306728717,
+    12073321813,
+    12073321816,
+    12073321815,
+    12073321814,
+    12073321817,
+    12073321818,
+    7880238072,
+    7880238073,
+    12073321819,
+    3914294851,
+    3914294850
+  ],
+  "tags": {
+    "alt_name": "Coliseo Ciudadela Robledo",
+    "building": "university",
+    "building:levels": "3",
+    "leisure": "sports_centre",
+    "name": "Bloque 48 - Coliseo José Luis Betancur Chaverra",
+    "nohousenumber": "yes",
+    "sport": "basketball;handball;soccer;volleyball",
+    "website": "https://www.udea.edu.co/wps/portal/udea/web/inicio/patrimonio/lugar-para-memoria/coliseo-jose-luis-betancur-chaverra"
+  }
+},
+{
+  "type": "way",
+  "id": 1359466885,
+  "center": {
+    "lat": 6.2299938,
+    "lon": -75.6131345
+  },
+  "nodes": [
+    3711072731,
+    3711072734,
+    12698951638,
+    12698951639,
+    3711072736,
+    12698951629,
+    12698951627,
+    12572749338,
+    3711072737,
+    12572749336,
+    3711072732,
+    3711072731
+  ],
+  "tags": {
+    "leisure": "sports_centre",
+    "name": "Bloque 21 - Canchas"
+  }
+},
+{
+  "type": "way",
+  "id": 1366077482,
+  "center": {
+    "lat": 6.2668094,
+    "lon": -75.5253757
+  },
+  "nodes": [
+    12650778446,
+    12650778447,
+    12650778448,
+    12650778449,
+    12650778450,
+    12650778451,
+    12650778452,
+    12650778453,
+    12650778454,
+    12650778455,
+    12650778456,
+    12650778457,
+    12650778446
+  ],
+  "tags": {
+    "building": "hut",
+    "leisure": "sports_centre",
+    "name": "Aventura Manrique",
+    "opening_hours": "24/7",
+    "operator": "Yeso®",
+    "operator:type": "private",
+    "sport": "climbing;escalar;montañismo;barranquismo;rapel;arbustismo"
+  }
+}
+
+  ]
+}

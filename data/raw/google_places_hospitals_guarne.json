@@ -1,0 +1,397 @@
+{
+   "html_attributions" : [],
+   "results" : 
+   [
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 6.2812366,
+               "lng" : -75.4454643
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 6.282638130291502,
+                  "lng" : -75.44392011970851
+               },
+               "southwest" : 
+               {
+                  "lat" : 6.279940169708498,
+                  "lng" : -75.44661808029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/hospital-71.png",
+         "icon_background_color" : "#F88181",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/hospital-H_pinlet",
+         "international_phone_number" : "+57 604 4408701",
+         "name" : "Hospital La Candelaria Guarne",
+         "opening_hours" : 
+         {
+            "open_now" : false
+         },
+         "photos" : 
+         [
+            {
+               "height" : 2322,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/110990890588059047519\"\u003eHernando P\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATCDNfVEF0mMCkf6TWMeV9QQH5z406sFTFXky5rw6iRozJsgGo7aRW-F1HWlNzRKaFpBqQhiwiKUusr-lkNEJ7X4ZaEIeHbFMaUrMLiL9wnLhIbavg2J-_NVnwPFwT_HCLqGH5FwE9ObTWeTU5jJUiWwpLyuAF0BiH40gcxT4wIUE-4IvXkxeQmas9rKFSfADp_AlCcfRYLr7QvXuFKSrAPcWj0-5NwjIg_BUF-isuby10iUwkYe5JZDChgNGsTnHgi3YAMv7DE3oYdctS1Keqza9CF8IfDfzFQuN5BiEOvQSHBaIOvXIbDGtCB7-GycZ1vySp_BbCI10BPEYC4Zy5zDKK2z7UTRhnYOOsy3zkJdfBTQCzb27ye5tInqRxek-YUKX90aCGRDkyKHU_O-3O5x71vDTv3zavSxWZ5OuHzzGpDZGosuEhXHwhwB6olIiBmzbHkskzbVYaUUnd3OqeuhfkPL2cxpI6TX2Hd72WPUMftzjbLG1UpwVXg4EEWdYJR2t3m6HTHhbHvu9eDVhOo7HY-NkKtk9iV89N7yOIL0UXg1n6iIGl0OhwVHl3uH_h_RWKbvxlPsOg6UnyavTkkDyYj0nHY45P5QhOeRtmUl2BLSw5Atv54vtxMZ8VgdkDH_phUNgw",
+               "width" : 4128
+            }
+         ],
+         "place_id" : "ChIJ8eoesqgmRI4RHh_L-3iLVbg",
+         "plus_code" : 
+         {
+            "compound_code" : "7HJ3+FR Guarne, Antioquia, Colombia",
+            "global_code" : "67R67HJ3+FR"
+         },
+         "rating" : 2.9,
+         "reference" : "ChIJ8eoesqgmRI4RHh_L-3iLVbg",
+         "scope" : "GOOGLE",
+         "types" : 
+         [
+            "hospital",
+            "health",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 44,
+         "vicinity" : "Carrera 52 #52-188"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 6.280272,
+               "lng" : -75.442886
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 6.281634830291503,
+                  "lng" : -75.44139341970849
+               },
+               "southwest" : 
+               {
+                  "lat" : 6.278936869708498,
+                  "lng" : -75.4440913802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/hospital-71.png",
+         "icon_background_color" : "#F88181",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/hospital-H_pinlet",
+         "name" : "Eps Coomeva Los Guareños",
+         "place_id" : "ChIJ62N32a4mRI4RTFE4O7l_Jik",
+         "plus_code" : 
+         {
+            "compound_code" : "7HJ4+4R Guarne, Antioquia, Colombia",
+            "global_code" : "67R67HJ4+4R"
+         },
+         "rating" : 5,
+         "reference" : "ChIJ62N32a4mRI4RTFE4O7l_Jik",
+         "scope" : "GOOGLE",
+         "types" : 
+         [
+            "hospital",
+            "health",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 1,
+         "vicinity" : "Calle 51 #5020"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 6.281495,
+               "lng" : -75.44342569999999
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 6.282869280291503,
+                  "lng" : -75.4420336197085
+               },
+               "southwest" : 
+               {
+                  "lat" : 6.280171319708498,
+                  "lng" : -75.4447315802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/hospital-71.png",
+         "icon_background_color" : "#F88181",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/hospital-H_pinlet",
+         "international_phone_number" : "+57 320 6798453",
+         "name" : "Centro Médico Santa Ana",
+         "opening_hours" : 
+         {
+            "open_now" : false
+         },
+         "photos" : 
+         [
+            {
+               "height" : 282,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/106490342683830451871\"\u003eCENTRO MEDICO SANTA ANA\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATCDNfVrcgoT8kZIv-ZLlFLmy7wtluPD_h3XM_XW0StlVN9AfMamd_HumV5cMuNDTBPdl4WFffT9VKyMYkK8fBxOmzVFySGwQxqRrh069JSIT71Ujs_CNOveTXo6igq6m4799GhKQ-IL1znz3LGChGUIHBN5-djmIjx0zYbKRFXjQrAhw8rWYoFNQAk8EgTnPUrwoHZCrHmheQA4DRPkDFu7bqm_nMnfM69R5YuWQN_TxFhB7QYNBfKX61YuBdj3RUD2AD8yis7RZ-8hREpN8D6p1EEKO5_J8WzcHdt5B6UYgwxw6z1-g4AR1SdDMbikMJSrvx1aVw76",
+               "width" : 635
+            }
+         ],
+         "place_id" : "ChIJq6qq6q4mRI4RZRVLZ4ExqPw",
+         "plus_code" : 
+         {
+            "compound_code" : "7HJ4+HJ Guarne, Antioquia, Colombia",
+            "global_code" : "67R67HJ4+HJ"
+         },
+         "rating" : 3.6,
+         "reference" : "ChIJq6qq6q4mRI4RZRVLZ4ExqPw",
+         "scope" : "GOOGLE",
+         "types" : 
+         [
+            "hospital",
+            "health",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 5,
+         "vicinity" : "Carrera 50 ### 52 51, local 102"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 6.281267199999999,
+               "lng" : -75.4454107
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 6.282564580291504,
+                  "lng" : -75.44403701970849
+               },
+               "southwest" : 
+               {
+                  "lat" : 6.279866619708499,
+                  "lng" : -75.44673498029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/hospital-71.png",
+         "icon_background_color" : "#F88181",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/hospital-H_pinlet",
+         "name" : "Guarne",
+         "place_id" : "ChIJBR2ubgAnRI4Ra-eZJn4kAO4",
+         "plus_code" : 
+         {
+            "compound_code" : "7HJ3+GR Guarne, Antioquia, Colombia",
+            "global_code" : "67R67HJ3+GR"
+         },
+         "reference" : "ChIJBR2ubgAnRI4Ra-eZJn4kAO4",
+         "scope" : "GOOGLE",
+         "types" : 
+         [
+            "hospital",
+            "health",
+            "point_of_interest",
+            "establishment"
+         ],
+         "vicinity" : "Hospital la candelaria"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 6.3036851,
+               "lng" : -75.45279979999999
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 6.305027680291501,
+                  "lng" : -75.45147391970849
+               },
+               "southwest" : 
+               {
+                  "lat" : 6.302329719708497,
+                  "lng" : -75.4541718802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "icon_background_color" : "#7B9EB0",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+         "name" : "Hogar del Taita ( Ayahuasca - Yagé )",
+         "opening_hours" : 
+         {
+            "open_now" : true
+         },
+         "photos" : 
+         [
+            {
+               "height" : 720,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/115000297305716506940\"\u003eMagalia Muñoz\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATCDNfUBT7rD62tAdQjVeni_QG8LaHFnK4Fzg3RGAvuZbc1DgzC3SdQM1Mims0T-WwPDmXWAdK0b8qIJewO9aLHzIk_yxSNU5vg0ruhBNS2sz_-4v6kuK_dOUKXcn_6RuRr9XSJ8hJEEzGRzyyePbRP1FYYPHOvYZCupu0M57-6vmxu7yKK4tWuPBXjEQPbMrQw7jKY9wlRjZhpkYPXpbWbrmP2EFuQ_a39VE9u0QJJGV0CUwpzPJkZgdDAlIrWsIL7ZjDfQV9oI1n17_Q02uakQRDOx8zLXhYq6RIuNAhNirigYXF7_e4Tdr5Q09PjVPqr3FUQhcLbo865u2WACXywXcVwWgZ-UMRXziQjx5PEslw-kMXkV3_puX460NP6fk3gS7DR6D87pXyoJ7xSO0Sjv8x8R6hoqyw7KowwMVoRvW1G7aP4Nw446aGpRnIB4OrIBD0MBo3fNz7B-xu6sp1tgatvz1W2qNomEONQ4A3He4p4r17WCbPjWqs7vDjKbGAmbUXim7o1D0MNARkosbJycKwCRpezVLOAqR4vfUqbF_1lzV688vCrvNtnOQj4Xgob38sRyQotp3VX5aHw-aNd3iWYZlht_FZKaf6JxppMJRrTZv6_18sGbQYFYomf801EmCrARBg",
+               "width" : 1280
+            }
+         ],
+         "place_id" : "ChIJu9wJodElRI4RBXXgmvsqLCo",
+         "plus_code" : 
+         {
+            "compound_code" : "8G3W+FV Guarne, Antioquia, Colombia",
+            "global_code" : "67R68G3W+FV"
+         },
+         "rating" : 5,
+         "reference" : "ChIJu9wJodElRI4RBXXgmvsqLCo",
+         "scope" : "GOOGLE",
+         "types" : 
+         [
+            "hospital",
+            "health",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 60,
+         "vicinity" : "Vereda El Molino"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 6.243407599999999,
+               "lng" : -75.39425969999999
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 6.244712980291502,
+                  "lng" : -75.3928257197085
+               },
+               "southwest" : 
+               {
+                  "lat" : 6.242015019708498,
+                  "lng" : -75.39552368029152
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/hospital-71.png",
+         "icon_background_color" : "#F88181",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/hospital-H_pinlet",
+         "international_phone_number" : "+57 44070492",
+         "name" : "Fundación Hermanos de los desvalidos",
+         "opening_hours" : 
+         {
+            "open_now" : false
+         },
+         "place_id" : "ChIJqztYlEshRI4RMmWbg84zgJY",
+         "plus_code" : 
+         {
+            "compound_code" : "6JV4+97 Guarne, Antioquia, Colombia",
+            "global_code" : "67R66JV4+97"
+         },
+         "reference" : "ChIJqztYlEshRI4RMmWbg84zgJY",
+         "scope" : "GOOGLE",
+         "types" : 
+         [
+            "hospital",
+            "health",
+            "point_of_interest",
+            "establishment"
+         ],
+         "vicinity" : "Guarne"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 6.2504524,
+               "lng" : -75.50093529999999
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 6.251811880291503,
+                  "lng" : -75.4995915197085
+               },
+               "southwest" : 
+               {
+                  "lat" : 6.249113919708499,
+                  "lng" : -75.50228948029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/hospital-71.png",
+         "icon_background_color" : "#F88181",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/hospital-H_pinlet",
+         "international_phone_number" : "+57 301 9547909",
+         "name" : "Centro Veterinario Los Lirios",
+         "opening_hours" : 
+         {
+            "open_now" : false
+         },
+         "photos" : 
+         [
+            {
+               "height" : 1080,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/109202056225407346342\"\u003eNathaly Sarmiento Saavedra\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATCDNfUeUkaLfkjEJw00TxwgTRTNqfOSArWeLvcQiFonrfIiXXPSZzhcs4V4nkx3wWzUx7lwRLo8HuIl-bnkOacnPWMd2SfgkJhAVccbdnsziITL9LU-EPBHFQ28TIlub7ZJo6vcLjPPuFAVJkVuS_nK7E2ldSRB_9PXCfPgx6s5kY_ZxSqCrcJKFZ3cqvcIGLvWbjxCWOa2qubQOPDgQzPQhgtX0iPuiRIJtXW5GJvAb_ESbasf33-sWiBvMFxZx6Q05zdRFSX3ipR2o7oWcRpTi_PYnDMUj4WiQkh-6rUtug24y-I_8ClQArZpL5gEYA4blI50Ejdsy1fbn3efnffb1s5OVCZzdLlRJsC4hgS1JoVvk-Ztf4pL-zu2KSs8KJvkp6eHa36rP8Q62ctDxS4cLrqgfPzuO5j49BQj0a4VQ8FWKQ9Hgs5vYeT6aRM4lOfbi9Hgp6BICkaXk2xd21P7hcZow5vW2IZBAL8kELJ_EpZGPHINSDNReC6ByHDd2vpdN_nlpvIIlynPbVToC-Goh-s4XxwcSSpIksNSTdJ6yRIg2z1JGR2aTDdP0e40SURlIrM6_BY1tTeCTzB0T0SL8Qf9XyvyLPi7umIgMYz0dgiTZOgNIqA5NvrvYHIiO8Ht6N-4Rd6B-mvAflivjr5t0q_biD0",
+               "width" : 1080
+            }
+         ],
+         "place_id" : "ChIJacruCAAnRI4RjV9CZnJvd3o",
+         "plus_code" : 
+         {
+            "compound_code" : "7F2X+5J Medellin, Antioquia, Colombia",
+            "global_code" : "67R67F2X+5J"
+         },
+         "rating" : 5,
+         "reference" : "ChIJacruCAAnRI4RjV9CZnJvd3o",
+         "scope" : "GOOGLE",
+         "types" : 
+         [
+            "hospital",
+            "health",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 18,
+         "vicinity" : "Vía de Servicio 40 Este"
+      }
+   ],
+   "status" : "OK"
+}

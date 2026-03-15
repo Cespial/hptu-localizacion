@@ -1,0 +1,157 @@
+[{"peaje":"PONEDERA","cnt":"120"}
+,{"peaje":"MEDIACANOA","cnt":"1027"}
+,{"peaje":"EL EBANAL","cnt":"1254"}
+,{"peaje":"IRACÁ","cnt":"1118"}
+,{"peaje":"PAVAS","cnt":"1540"}
+,{"peaje":"OIBA","cnt":"452"}
+,{"peaje":"LEBRIJA","cnt":"310"}
+,{"peaje":"PALMITAS","cnt":"356"}
+,{"peaje":"CURITÍ","cnt":"368"}
+,{"peaje":"LA PINTADA","cnt":"1235"}
+,{"peaje":"CENCAR","cnt":"1137"}
+,{"peaje":"ARROYO DE PIEDRA","cnt":"330"}
+,{"peaje":"LA GÓMEZ","cnt":"736"}
+,{"peaje":"TRAPICHE","cnt":"575"}
+,{"peaje":"FRAGUA","cnt":"115"}
+,{"peaje":"EL PLACER","cnt":"914"}
+,{"peaje":"RIO SOGAMOSO","cnt":"680"}
+,{"peaje":"LA LIZAMA","cnt":"952"}
+,{"peaje":"GALAPA","cnt":"1336"}
+,{"peaje":"RIO SECO","cnt":"61"}
+,{"peaje":"EL PICACHO","cnt":"929"}
+,{"peaje":"MANGUITOS","cnt":"1220"}
+,{"peaje":"GAMARRA","cnt":"182"}
+,{"peaje":"PUENTE QUETAME","cnt":"208"}
+,{"peaje":"EL DIFÍCIL","cnt":"1350"}
+,{"peaje":"LAS FLORES","cnt":"1110"}
+,{"peaje":"PTO TRIUNFO","cnt":"460"}
+,{"peaje":"CAIMANERA","cnt":"1611"}
+,{"peaje":"FUSCA","cnt":"1219"}
+,{"peaje":"CASABLANCA","cnt":"368"}
+,{"peaje":"LOS CAUCHOS","cnt":"1269"}
+,{"peaje":"SAN ONOFRE","cnt":"897"}
+,{"peaje":"CISNEROS","cnt":"1158"}
+,{"peaje":"AGUAS NEGRAS","cnt":"705"}
+,{"peaje":"EL CARMEN","cnt":"1277"}
+,{"peaje":"COROZAL","cnt":"1075"}
+,{"peaje":"MACHETÁ","cnt":"1315"}
+,{"peaje":"TARAPACÁ II","cnt":"1075"}
+,{"peaje":"RINCÓN HONDO","cnt":"209"}
+,{"peaje":"GUAICO","cnt":"1077"}
+,{"peaje":"VALENCIA","cnt":"1176"}
+,{"peaje":"PASO LA TORRE","cnt":"996"}
+,{"peaje":"SABANAGRANDE","cnt":"1386"}
+,{"peaje":"VEGACHÍ","cnt":"35"}
+,{"peaje":"SAN JUAN","cnt":"338"}
+,{"peaje":"BOQUERÓN I","cnt":"1739"}
+,{"peaje":"CALAMAR","cnt":"998"}
+,{"peaje":"SAN CARLOS","cnt":"581"}
+,{"peaje":"CHAPARRAL","cnt":"1372"}
+,{"peaje":"SAN CRISTOBAL","cnt":"360"}
+,{"peaje":"EL KORÁN","cnt":"1047"}
+,{"peaje":"PURGATORIO","cnt":"1854"}
+,{"peaje":"EL PATÁ","cnt":"1242"}
+,{"peaje":"SANTÁGUEDA","cnt":"1076"}
+,{"peaje":"SAN DIEGO","cnt":"237"}
+,{"peaje":"GAMBOTE","cnt":"1254"}
+,{"peaje":"ESTAMBUL","cnt":"1204"}
+,{"peaje":"ROZO","cnt":"1131"}
+,{"peaje":"ALBARRACÍN","cnt":"1413"}
+,{"peaje":"VERACRUZ","cnt":"1106"}
+,{"peaje":"PAPIROS","cnt":"1313"}
+,{"peaje":"PUERTO BERRÍO","cnt":"1260"}
+,{"peaje":"JUAN MINA","cnt":"560"}
+,{"peaje":"RÍO BOGOTÁ","cnt":"1491"}
+,{"peaje":"SABOYÁ","cnt":"430"}
+,{"peaje":"ETD 10+850","cnt":"145"}
+,{"peaje":"CERRITO","cnt":"1026"}
+,{"peaje":"CANO","cnt":"34"}
+,{"peaje":"MUTATÁ","cnt":"243"}
+,{"peaje":"SUPIA","cnt":"1184"}
+,{"peaje":"LA APARTADA","cnt":"896"}
+,{"peaje":"TURBACO","cnt":"1076"}
+,{"peaje":"CASETABLA","cnt":"862"}
+,{"peaje":"ALTAMIRA","cnt":"1225"}
+,{"peaje":"CABILDO","cnt":"575"}
+,{"peaje":"CAIQUERO","cnt":"1297"}
+,{"peaje":"MARAHUACO","cnt":"1191"}
+,{"peaje":"FUEMIA","cnt":"175"}
+,{"peaje":"PIPIRAL","cnt":"1418"}
+,{"peaje":"CAMBAO","cnt":"715"}
+,{"peaje":"NEIVA","cnt":"1469"}
+,{"peaje":"LA CABAÑA","cnt":"1373"}
+,{"peaje":"ACAPULCO","cnt":"1038"}
+,{"peaje":"CIRCASIA","cnt":"1154"}
+,{"peaje":"PARAGUACHÓN","cnt":"1661"}
+,{"peaje":"LAS PALMAS","cnt":"1528"}
+,{"peaje":"GUALANDAY","cnt":"1364"}
+,{"peaje":"MATA DE CAÑA","cnt":"1043"}
+,{"peaje":"LOS CUROS","cnt":"368"}
+,{"peaje":"NEGUANJE","cnt":"1286"}
+,{"peaje":"RIO GRANDE","cnt":"1372"}
+,{"peaje":"ABURRÁ","cnt":"596"}
+,{"peaje":"PUERTO COLOMBIA","cnt":"1216"}
+,{"peaje":"ANDES","cnt":"1336"}
+,{"peaje":"CHICORAL","cnt":"1518"}
+,{"peaje":"LOS ACACIOS","cnt":"1193"}
+,{"peaje":"CHUSACA","cnt":"1172"}
+,{"peaje":"RÍONEGRO","cnt":"309"}
+,{"peaje":"DAZA","cnt":"135"}
+,{"peaje":"CERRITOS II","cnt":"745"}
+,{"peaje":"LA LOMA","cnt":"1412"}
+,{"peaje":"NARANJAL","cnt":"1666"}
+,{"peaje":"CORZO","cnt":"1491"}
+,{"peaje":"CIAT","cnt":"1236"}
+,{"peaje":"ALVARADO","cnt":"1087"}
+,{"peaje":"IRRA","cnt":"905"}
+,{"peaje":"ARMERO","cnt":"530"}
+,{"peaje":"CIRILO","cnt":"1126"}
+,{"peaje":"PUENTE AMARILLO","cnt":"1106"}
+,{"peaje":"COCORA","cnt":"326"}
+,{"peaje":"LA PARADA","cnt":"716"}
+,{"peaje":"FLANDES","cnt":"1295"}
+,{"peaje":"SAN LUIS DE GACENO","cnt":"333"}
+,{"peaje":"GALAPA 02","cnt":"617"}
+,{"peaje":"LOS PATIOS","cnt":"1570"}
+,{"peaje":"UNISABANA","cnt":"488"}
+,{"peaje":"YUCAO","cnt":"863"}
+,{"peaje":"VILLA RICA","cnt":"1252"}
+,{"peaje":"PASACABALLOS","cnt":"1161"}
+,{"peaje":"OCOA","cnt":"1221"}
+,{"peaje":"ZARAGOZA","cnt":"288"}
+,{"peaje":"EL ESCOBAL","cnt":"633"}
+,{"peaje":"PANDEQUESO","cnt":"555"}
+,{"peaje":"MORRISON","cnt":"738"}
+,{"peaje":"GUATAQUÍ","cnt":"638"}
+,{"peaje":"ALTO PINO","cnt":"1258"}
+,{"peaje":"SAN PEDRO","cnt":"1203"}
+,{"peaje":"TARAPACÁ I","cnt":"1074"}
+,{"peaje":"BRISAS","cnt":"574"}
+,{"peaje":"TUNIA","cnt":"629"}
+,{"peaje":"TUCURINCA","cnt":"1419"}
+,{"peaje":"EL ROBLE","cnt":"1567"}
+,{"peaje":"ANCÓN SUR","cnt":"176"}
+,{"peaje":"SOPÓ","cnt":"859"}
+,{"peaje":"EL COPEY","cnt":"1410"}
+,{"peaje":"LOBOGUERRERO","cnt":"930"}
+,{"peaje":"ZAMBITO","cnt":"705"}
+,{"peaje":"SAN BERNARDO","cnt":"1521"}
+,{"peaje":"COCORNÁ","cnt":"653"}
+,{"peaje":"BAYUNCA","cnt":"1303"}
+,{"peaje":"CEDROS","cnt":"1324"}
+,{"peaje":"LA LIBERTAD","cnt":"1115"}
+,{"peaje":"LOS GARZONES 1","cnt":"813"}
+,{"peaje":"BOQUERÓN II","cnt":"1671"}
+,{"peaje":"PAMPLONITA","cnt":"396"}
+,{"peaje":"GUARNE","cnt":"1261"}
+,{"peaje":"AMAGÁ","cnt":"1441"}
+,{"peaje":"LOS GARZONES 2","cnt":"1055"}
+,{"peaje":"PLATANAL","cnt":"333"}
+,{"peaje":"PUENTE PLATO","cnt":"1351"}
+,{"peaje":"CHINAUTA","cnt":"1277"}
+,{"peaje":"PRIMAVERA","cnt":"1123"}
+,{"peaje":"LA ESPERANZA","cnt":"1077"}
+,{"peaje":"HONDA","cnt":"1091"}
+,{"peaje":"PAILITAS","cnt":"946"}
+,{"peaje":"SIBERIA","cnt":"1867"}
+,{"peaje":"TUTA","cnt":"1911"}]

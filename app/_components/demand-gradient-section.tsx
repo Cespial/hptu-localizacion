@@ -135,14 +135,18 @@ export function DemandGradientSection() {
           <div className="flex items-start gap-3">
             <TrendingDown className="h-6 w-6 text-teal-600 shrink-0 mt-0.5" />
             <div>
-              <h4 className="font-serif text-lg font-bold text-teal-800">Hallazgo: Altos del Poblado es la Zona Optima</h4>
+              <h4 className="font-serif text-lg font-bold text-teal-800">Hallazgo: Altos del Poblado (Zona Colegiatura) es la Zona Optima</h4>
               <p className="text-sm text-teal-700 mt-1">
-                El barrio <strong>Altos del Poblado (cod 1408)</strong> obtiene el maximo score de viabilidad POT (9/9)
+                El barrio <strong>Altos del Poblado (cod 1408, ~1,700 msnm)</strong> obtiene el maximo score de viabilidad POT (9/9)
                 con <strong>CL_D=2.38</strong> (maxima concentracion dotacional) y <strong>68,020 m2 de suelo potencial</strong>.
                 El Catastro registra <strong>1,867 predios E5/E6</strong> con avaluo promedio de <strong>$245M COP</strong>.
-                La Mapbox Matrix API confirma <strong>23.8 min a HPTU</strong> y <strong>10.5 min a Cl. Las Vegas</strong>.
-                MEData registra <strong>40.9 km/h promedio</strong> en Av. Las Palmas (64,285 observaciones, 2017-2020).
-                Cada punto adicional subiendo por Las Palmas incrementa el tiempo de viaje en ~6 min y reduce los predios E5/E6 accesibles.
+                Mapbox Directions API (driving-traffic) confirma <strong>15.4 min desde Milla de Oro</strong> y{" "}
+                <strong>23.8 min a HPTU Prado</strong>. El corredor tiene <strong>cero camas de alta complejidad</strong> —
+                la Cl. mas cercana con internacion es <strong>Cl. Rosario Tesoro (158 camas, 0.93 km)</strong>, sin trasplantes
+                ni oncologia avanzada. Cada punto adicional subiendo incrementa el tiempo de viaje en ~6 min y reduce los predios E5/E6 accesibles.
+              </p>
+              <p className="text-xs text-teal-600 mt-2 italic">
+                Fuentes: Catastro (bp59-rj8r), POT (3ciz-tpgr), REPS (s2ru-bqt6), Mapbox Directions API, Google Geocoding API
               </p>
             </div>
           </div>

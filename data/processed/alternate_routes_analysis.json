@@ -1,0 +1,359 @@
+{
+  "metadata": {
+    "destino": "Las Palmas Bajo (6.1950, -75.5490)",
+    "fuentes": [
+      "Mapbox Directions API (driving-traffic)",
+      "Google Routes API (TRAFFIC_AWARE)"
+    ],
+    "fecha": "2026-03-04",
+    "nota": "Duraciones en segundos, distancias en metros. Mapbox provee alternativas con congestion/speed. Google provee staticDuration (sin trafico) y duration (con trafico)."
+  },
+  "rutas_por_origen": {
+    "milla_de_oro": {
+      "coordenadas": "6.2080, -75.5690",
+      "mapbox": {
+        "ruta_principal": {
+          "distancia_m": 5288,
+          "duracion_s": 1155,
+          "duracion_tipica_s": 1086,
+          "velocidad_promedio_kmh": 16.5,
+          "congestion_predominante": "low/unknown",
+          "descripcion": "Calle 5 Sur, Transversal Superior, Carrera 17"
+        },
+        "alternativa_1": {
+          "distancia_m": 5102,
+          "duracion_s": 1178,
+          "duracion_tipica_s": 1084,
+          "velocidad_promedio_kmh": 15.6,
+          "congestion_predominante": "low/unknown",
+          "descripcion": "Calle 5 Sur, Transversal Superior, Calle 4"
+        }
+      },
+      "google": {
+        "ruta_principal": {
+          "distancia_m": 5067,
+          "duracion_s": 922,
+          "duracion_estatica_s": 926,
+          "velocidad_promedio_kmh": 19.8,
+          "descripcion": "Cra. 17"
+        },
+        "alternativa_1": {
+          "distancia_m": 5299,
+          "duracion_s": 985,
+          "duracion_estatica_s": 967,
+          "velocidad_promedio_kmh": 19.4,
+          "descripcion": "Cl. 5 Sur y Cra. 17"
+        },
+        "alternativa_2": {
+          "distancia_m": 5163,
+          "duracion_s": 999,
+          "duracion_estatica_s": 997,
+          "velocidad_promedio_kmh": 18.6,
+          "descripcion": "Cra. 29"
+        }
+      },
+      "mejor_tiempo_s": 922,
+      "mejor_fuente": "Google",
+      "mejor_ruta": "Cra. 17"
+    },
+    "el_poblado_parque": {
+      "coordenadas": "6.2100, -75.5700",
+      "mapbox": {
+        "ruta_principal": {
+          "distancia_m": 5359,
+          "duracion_s": 1163,
+          "duracion_tipica_s": 1150,
+          "velocidad_promedio_kmh": 16.6,
+          "congestion_predominante": "low/unknown",
+          "descripcion": "Calle 10, Carrera 17"
+        },
+        "alternativa_1": {
+          "distancia_m": 5586,
+          "duracion_s": 1261,
+          "duracion_tipica_s": 1190,
+          "velocidad_promedio_kmh": 15.9,
+          "congestion_predominante": "low/moderate",
+          "descripcion": "Carrera 43A, Calle 5 Sur"
+        }
+      },
+      "google": {
+        "ruta_principal": {
+          "distancia_m": 5435,
+          "duracion_s": 1063,
+          "duracion_estatica_s": 1074,
+          "velocidad_promedio_kmh": 18.4,
+          "descripcion": "Cra. 29"
+        },
+        "alternativa_1": {
+          "distancia_m": 5470,
+          "duracion_s": 1140,
+          "duracion_estatica_s": 1072,
+          "velocidad_promedio_kmh": 17.3,
+          "descripcion": "Cl. 5 Sur"
+        },
+        "alternativa_2": {
+          "distancia_m": 5998,
+          "duracion_s": 1170,
+          "duracion_estatica_s": 1128,
+          "velocidad_promedio_kmh": 18.5,
+          "descripcion": "Cl. 1/Cl. 1 Sur"
+        }
+      },
+      "mejor_tiempo_s": 1063,
+      "mejor_fuente": "Google",
+      "mejor_ruta": "Cra. 29"
+    },
+    "envigado_centro": {
+      "coordenadas": "6.1700, -75.5800",
+      "mapbox": {
+        "ruta_principal": {
+          "distancia_m": 7388,
+          "duracion_s": 1608,
+          "duracion_tipica_s": 1397,
+          "velocidad_promedio_kmh": 16.5,
+          "congestion_predominante": "low/moderate",
+          "descripcion": "Transversal Superior, Carrera 17"
+        },
+        "alternativa_1": {
+          "distancia_m": 7905,
+          "duracion_s": 1817,
+          "duracion_tipica_s": 1497,
+          "velocidad_promedio_kmh": 15.7,
+          "congestion_predominante": "moderate",
+          "descripcion": "Carrera 43A, Calle 5 Sur"
+        }
+      },
+      "google": {
+        "ruta_principal": {
+          "distancia_m": 7593,
+          "duracion_s": 1489,
+          "duracion_estatica_s": 1216,
+          "velocidad_promedio_kmh": 18.4,
+          "descripcion": "Tv. Superior"
+        },
+        "alternativa_1": {
+          "distancia_m": 8212,
+          "duracion_s": 1850,
+          "duracion_estatica_s": 1350,
+          "velocidad_promedio_kmh": 16.0,
+          "descripcion": "Cra. 25/Tv. Superior"
+        },
+        "alternativa_2": {
+          "distancia_m": 7548,
+          "duracion_s": 1859,
+          "duracion_estatica_s": 1313,
+          "velocidad_promedio_kmh": 14.6,
+          "descripcion": "Cra. 43a/Av. El Poblado"
+        }
+      },
+      "mejor_tiempo_s": 1489,
+      "mejor_fuente": "Google",
+      "mejor_ruta": "Tv. Superior"
+    },
+    "itagui_centro": {
+      "coordenadas": "6.1650, -75.6100",
+      "mapbox": {
+        "ruta_principal": {
+          "distancia_m": 10982,
+          "duracion_s": 2002,
+          "duracion_tipica_s": 1848,
+          "velocidad_promedio_kmh": 19.7,
+          "congestion_predominante": "moderate/low",
+          "descripcion": "Avenida Las Vegas, Calle 5 Sur"
+        },
+        "alternativa_1": {
+          "distancia_m": 11333,
+          "duracion_s": 2253,
+          "duracion_tipica_s": 2047,
+          "velocidad_promedio_kmh": 18.1,
+          "congestion_predominante": "moderate/heavy",
+          "descripcion": "Carrera 43A, Calle 5 Sur"
+        }
+      },
+      "google": {
+        "ruta_principal": {
+          "distancia_m": 11209,
+          "duracion_s": 2240,
+          "duracion_estatica_s": 1435,
+          "velocidad_promedio_kmh": 18.0,
+          "descripcion": "Av. Regional"
+        },
+        "alternativa_1": {
+          "distancia_m": 10946,
+          "duracion_s": 2429,
+          "duracion_estatica_s": 1856,
+          "velocidad_promedio_kmh": 16.2,
+          "descripcion": "Cra. 48/Av. Las Vegas"
+        },
+        "alternativa_2": {
+          "distancia_m": 13279,
+          "duracion_s": 2724,
+          "duracion_estatica_s": 1747,
+          "velocidad_promedio_kmh": 17.5,
+          "descripcion": "Av. Regional y Cra. 48/Av. Las Vegas"
+        }
+      },
+      "mejor_tiempo_s": 2002,
+      "mejor_fuente": "Mapbox",
+      "mejor_ruta": "Avenida Las Vegas, Calle 5 Sur"
+    },
+    "laureles": {
+      "coordenadas": "6.2450, -75.5900",
+      "mapbox": {
+        "ruta_principal": {
+          "distancia_m": 11634,
+          "duracion_s": 1938,
+          "duracion_tipica_s": 1718,
+          "velocidad_promedio_kmh": 21.6,
+          "congestion_predominante": "moderate/low",
+          "descripcion": "Ruta 25, Calle 5 Sur"
+        },
+        "alternativa_1": {
+          "distancia_m": 10746,
+          "duracion_s": 2041,
+          "duracion_tipica_s": 1832,
+          "velocidad_promedio_kmh": 19.0,
+          "congestion_predominante": "moderate/low",
+          "descripcion": "Ruta 25, Calle 10"
+        }
+      },
+      "google": {
+        "ruta_principal": {
+          "distancia_m": 11495,
+          "duracion_s": 2066,
+          "duracion_estatica_s": 1548,
+          "velocidad_promedio_kmh": 20.0,
+          "descripcion": "Auto. S"
+        },
+        "alternativa_1": {
+          "distancia_m": 12940,
+          "duracion_s": 2231,
+          "duracion_estatica_s": 1597,
+          "velocidad_promedio_kmh": 20.9,
+          "descripcion": "Auto. S y Cl 12 Sur"
+        },
+        "alternativa_2": {
+          "distancia_m": 11975,
+          "duracion_s": 2522,
+          "duracion_estatica_s": 1815,
+          "velocidad_promedio_kmh": 17.1,
+          "descripcion": "Av. Las Palmas"
+        }
+      },
+      "mejor_tiempo_s": 1938,
+      "mejor_fuente": "Mapbox",
+      "mejor_ruta": "Ruta 25, Calle 5 Sur"
+    },
+    "san_diego_centro": {
+      "coordenadas": "6.2470, -75.5640",
+      "mapbox": {
+        "ruta_principal": {
+          "distancia_m": 11221,
+          "duracion_s": 2179,
+          "duracion_tipica_s": 1959,
+          "velocidad_promedio_kmh": 18.5,
+          "congestion_predominante": "moderate",
+          "descripcion": "Avenida de Las Palmas, Transversal Inferior"
+        },
+        "alternativa_1": {
+          "distancia_m": 10838,
+          "duracion_s": 2195,
+          "duracion_tipica_s": 1974,
+          "velocidad_promedio_kmh": 17.8,
+          "congestion_predominante": "moderate",
+          "descripcion": "Avenida de Las Palmas, Calle 5 Sur"
+        }
+      },
+      "google": {
+        "ruta_principal": {
+          "distancia_m": 10201,
+          "duracion_s": 2286,
+          "duracion_estatica_s": 1688,
+          "velocidad_promedio_kmh": 16.1,
+          "descripcion": "Av. Las Palmas"
+        },
+        "alternativa_1": {
+          "distancia_m": 11944,
+          "duracion_s": 2386,
+          "duracion_estatica_s": 1736,
+          "velocidad_promedio_kmh": 18.0,
+          "descripcion": "Auto. S"
+        },
+        "alternativa_2": {
+          "distancia_m": 13389,
+          "duracion_s": 2603,
+          "duracion_estatica_s": 1786,
+          "velocidad_promedio_kmh": 18.5,
+          "descripcion": "Cra. 46 y Auto. S"
+        }
+      },
+      "mejor_tiempo_s": 2179,
+      "mejor_fuente": "Mapbox",
+      "mejor_ruta": "Avenida de Las Palmas, Transversal Inferior"
+    }
+  },
+  "resumen_accesibilidad": {
+    "origen_mas_rapido": {
+      "nombre": "Milla De Oro",
+      "tiempo_s": 922,
+      "tiempo_min": 15.4
+    },
+    "origen_mas_lento": {
+      "nombre": "San Diego Centro",
+      "tiempo_s": 2179,
+      "tiempo_min": 36.3
+    },
+    "promedio_general_min": 26.6,
+    "ranking_por_tiempo": [
+      {
+        "origen": "Milla De Oro",
+        "mejor_tiempo_s": 922,
+        "mejor_tiempo_min": 15.4
+      },
+      {
+        "origen": "El Poblado Parque",
+        "mejor_tiempo_s": 1063,
+        "mejor_tiempo_min": 17.7
+      },
+      {
+        "origen": "Envigado Centro",
+        "mejor_tiempo_s": 1489,
+        "mejor_tiempo_min": 24.8
+      },
+      {
+        "origen": "Laureles",
+        "mejor_tiempo_s": 1938,
+        "mejor_tiempo_min": 32.3
+      },
+      {
+        "origen": "Itagui Centro",
+        "mejor_tiempo_s": 2002,
+        "mejor_tiempo_min": 33.4
+      },
+      {
+        "origen": "San Diego Centro",
+        "mejor_tiempo_s": 2179,
+        "mejor_tiempo_min": 36.3
+      }
+    ]
+  },
+  "analisis_rutas_alternativas": {
+    "observaciones": [
+      "Milla de Oro es el origen mas rapido (15.4 min), logico por proximidad directa al corredor Las Palmas",
+      "El Poblado Parque tiene acceso similar (~17.7 min) con multiples alternativas via Cra. 29 o Cl. 5 Sur",
+      "Envigado Centro muestra congestion significativa en hora punta (Google: 1489s con trafico vs 1216s sin trafico = +22% delay)",
+      "Itagui Centro es el segundo mas lento (~33.4 min) con alto impacto de trafico (Google: 2240s vs 1435s estatico = +56% delay)",
+      "Laureles cruza todo el valle (~32.3 min); ruta optima via Autopista Sur o Ruta 25, no directamente por Las Palmas",
+      "San Diego / Centro es el origen mas lento (~36.3 min) a pesar de estar en el corredor Las Palmas; la congestion en Av. Las Palmas es severa",
+      "La Transversal Superior aparece como ruta clave para Envigado, evitando la congestion de Las Palmas inferior",
+      "Google consistentemente reporta tiempos mas altos que Mapbox para origenes lejanos, sugiriendo mejor modelado de congestion urbana"
+    ],
+    "corredores_clave_identificados": [
+      "Cra. 17 / Transversal Superior (ruta mas eficiente desde El Poblado)",
+      "Calle 5 Sur (corredor alternativo paralelo a Las Palmas)",
+      "Autopista Sur (acceso principal desde el sur del valle)",
+      "Ruta 25 / Tunel de Oriente approach (desde occidente del valle)",
+      "Av. Las Palmas directa (congestionada pero necesaria desde centro/norte)"
+    ]
+  }
+}

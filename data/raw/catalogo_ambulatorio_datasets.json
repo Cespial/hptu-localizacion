@@ -1,0 +1,1633 @@
+{
+  "results" :
+    [
+      {
+        "resource" :
+          {
+            "name" : "Servicios habilitados de los prestadores de servicios de salud de la red pública - DEPARTAMENTO DE BOYACÁ",
+            "id" : "p9n2-9qsb",
+            "resource_name" : null,
+            "parent_fxf" : [],
+            "description" : "Contiene la información de los servicios de salud habilitados ante el REPS - Registro Especial de Prestadores de Servicios de Salud. de las Instituciones Prestadoras de Servicios de Salud de la red pública del Departamento de Boyacá, actualizado a septiembre de 2022.",
+            "attribution" : "GOBERNACIÓN DE BOYACÁ",
+            "attribution_link" : "https://prestadores.minsalud.gov.co/habilitacion/",
+            "contact_email" : null,
+            "type" : "dataset",
+            "updatedAt" : "2025-12-19T22:46:02.000Z",
+            "createdAt" : "2017-03-08T16:17:28.000Z",
+            "metadata_updated_at" : "2025-12-19T22:46:02.000Z",
+            "data_updated_at" : "2023-06-28T20:28:27.000Z",
+            "page_views" :
+              {
+                "page_views_last_week" : 34,
+                "page_views_last_month" : 409,
+                "page_views_total" : 13521,
+                "page_views_last_week_log" : 5.129283016944966,
+                "page_views_last_month_log" : 8.679480099505447,
+                "page_views_total_log" : 13.723020931812032
+              },
+            "columns_name" :
+              [
+                "DOMICILIARIO",
+                "FECHA_APERTURA",
+                "AMBULATORIO",
+                "GRSE_NOMBRE",
+                "UNIDAD MOVIL",
+                "COMPLEJIDAD MEDIA",
+                "MUNICIPIO",
+                "OTRAS_EXTRAMURAL",
+                "GRSE_CODIGO",
+                "INSTITUCION REMISORA",
+                "SEDE",
+                "SERVICIO",
+                "COMPLEJIDADES",
+                "CODIGO HABILITACION",
+                "HOSPITALARIO",
+                "COMPLEJIDAD ALTA",
+                "COMPLEJIDAD BAJA",
+                "NUMERO_DISTINTIVO",
+                "CENTRO REFERENCIA",
+                "CODIGO SERVICIO",
+                "NOMBRE SEDE PRESTADOR"
+              ],
+            "columns_field_name" :
+              [
+                "domiciliario",
+                "fecha_apertura",
+                "ambulatorio",
+                "grse_nombre",
+                "unidad_movil",
+                "complejidad_media",
+                "municipio",
+                "otras_extramural",
+                "grse_codigo",
+                "institucion_remisora",
+                "num_sede",
+                "servicio",
+                "complejidades",
+                "codigo_habilitacion",
+                "hospitalario",
+                "complejidad_alta",
+                "complejidad_baja",
+                "numero_distintivo",
+                "centro_referencia",
+                "codigo_servicio",
+                "nombre_sede_prestador"
+              ],
+            "columns_datatype" :
+              [
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Number",
+                "Text",
+                "Number",
+                "Text",
+                "Text",
+                "Number",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Number",
+                "Text"
+              ],
+            "columns_description" :
+              [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+              ],
+            "columns_format" :
+              [
+                {},
+                { "view" : "date_dmy", "align" : "right" },
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {
+                  "precisionStyle" : "standard",
+                  "noCommas" : "false",
+                  "align" : "right"
+                },
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {}
+              ],
+            "download_count" : 678,
+            "provenance" : "official",
+            "lens_view_type" : "tabular",
+            "lens_display_type" : "table",
+            "locked" : false,
+            "blob_mime_type" : null,
+            "hide_from_data_json" : false,
+            "publication_date" : "2023-06-28T20:28:39.000Z"
+          },
+        "classification" :
+          {
+            "categories" : [],
+            "tags" : [],
+            "domain_category" : "Salud y Protección Social",
+            "domain_tags" :
+              [ "servicios", "salud", "prestadores de servicios de salud" ],
+            "domain_metadata" :
+              [
+                { "key" : "Información-de-Datos_Idioma", "value" : "Español" },
+                {
+                  "key" : "Información-de-Datos_Cobertura-Geográfica",
+                  "value" : "Departamental"
+                },
+                {
+                  "key" : "Información-de-Datos_Frecuencia-de-Actualización",
+                  "value" : "Anual"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Sector",
+                  "value" : "Salud y Protección Social"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Área-o-dependencia",
+                  "value" : "SECRETARIA DE SALUD DE BOYACÁ"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Nombre-de-la-Entidad",
+                  "value" : "Gobernación de Boyacá"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Orden",
+                  "value" : "Territorial"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Municipio",
+                  "value" : "Tunja"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Departamento",
+                  "value" : "Boyacá"
+                }
+              ]
+          },
+        "metadata" :
+          {
+            "domain" : "www.datos.gov.co",
+            "license" : "Creative Commons Attribution | Share Alike 4.0 International"
+          },
+        "permalink" : "https://www.datos.gov.co/d/p9n2-9qsb",
+        "link" : "https://www.datos.gov.co/Salud-y-Protección-Social/Servicios-habilitados-de-los-prestadores-de-servic/p9n2-9qsb",
+        "owner" :
+          {
+            "id" : "3kz6-8wcp",
+            "user_type" : "interactive",
+            "display_name" : "Gobernación de Boyacá"
+          },
+        "creator" :
+          {
+            "id" : "3kz6-8wcp",
+            "user_type" : "interactive",
+            "display_name" : "Gobernación de Boyacá"
+          }
+      },
+      {
+        "resource" :
+          {
+            "name" : "MORBILIDAD EN INCAPACIDADES MÉDICAS",
+            "id" : "n7k8-72d2",
+            "resource_name" : null,
+            "parent_fxf" : [],
+            "description" : "Datos agrupados por Diagnóstico (CIE10) y clasificados por genero, sobre las incapacidades médicas generadas a todos los pacientes atendidos en la institución en sus servicios ambulatorios, urgencias, cirugía y hospitalización.",
+            "attribution" : "Software Histosoft",
+            "attribution_link" : "https://www.datos.gov.co/d/n7k8-72d2",
+            "contact_email" : null,
+            "type" : "dataset",
+            "updatedAt" : "2025-12-19T23:26:39.000Z",
+            "createdAt" : "2019-09-05T13:12:15.000Z",
+            "metadata_updated_at" : "2025-12-19T23:26:39.000Z",
+            "data_updated_at" : "2025-09-08T16:04:41.000Z",
+            "page_views" :
+              {
+                "page_views_last_week" : 33,
+                "page_views_last_month" : 274,
+                "page_views_total" : 3609,
+                "page_views_last_week_log" : 5.08746284125034,
+                "page_views_last_month_log" : 8.103287808412023,
+                "page_views_total_log" : 11.817783121774534
+              },
+            "columns_name" :
+              [
+                "PERIODO DE CONSULTA",
+                "PROMEDIO DIAS POR INCAPACIDAD",
+                "NÚMERO DE INCAPACIDADES",
+                "DIAS TOTALES INCAPACIDAD",
+                "DESCRIPCION DIAGNOSTICO",
+                "GENERO",
+                "CIE10"
+              ],
+            "columns_field_name" :
+              [
+                "periodo_de_consulta",
+                "promedio_dias_por_incapacidad",
+                "n_mero_de_incapacidades",
+                "dias_totales_incapacidad",
+                "descripcion_diagnostico",
+                "genero",
+                "cie10"
+              ],
+            "columns_datatype" :
+              [ "Text", "Number", "Number", "Number", "Text", "Text", "Text" ],
+            "columns_description" :
+              [
+                "Período de generación de datos",
+                "Promedio de días por incapacidad generados por el diagnóstico",
+                "Número de incapacidades generadas por el diagnóstico",
+                "Días totales de incapacidad generados por el diagnóstico",
+                "Descripción CIE10 del diagnóstico",
+                "Genero del paciente",
+                "Código CIE10 del diagnóstico"
+              ],
+            "columns_format" : [ {}, {}, {}, {}, {}, {}, {} ],
+            "download_count" : 991,
+            "provenance" : "official",
+            "lens_view_type" : "tabular",
+            "lens_display_type" : "table",
+            "locked" : false,
+            "blob_mime_type" : null,
+            "hide_from_data_json" : false,
+            "publication_date" : "2019-09-05T13:24:23.000Z"
+          },
+        "classification" :
+          {
+            "categories" : [],
+            "tags" : [],
+            "domain_category" : "Salud y Protección Social",
+            "domain_tags" : [ "ausentismo laboral", "incapacidad médica" ],
+            "domain_metadata" :
+              [
+                { "key" : "Información-de-Datos_Idioma", "value" : "Español" },
+                {
+                  "key" : "Información-de-Datos_Cobertura-Geográfica",
+                  "value" : "Departamental"
+                },
+                {
+                  "key" : "Información-de-Datos_Frecuencia-de-Actualización",
+                  "value" : "Semestral"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Sector",
+                  "value" : "Salud y Protección Social"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Área-o-dependencia",
+                  "value" : "Consulta externa, Urgencias, Cirugía, Hospitalización"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Nombre-de-la-Entidad",
+                  "value" : "Hospital Regional Manuela Beltrán III Nivel, Socorro, Santander"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Orden",
+                  "value" : "Territorial"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Municipio",
+                  "value" : "Socorro"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Departamento",
+                  "value" : "Santander"
+                }
+              ]
+          },
+        "metadata" :
+          {
+            "domain" : "www.datos.gov.co",
+            "license" : "Creative Commons 1.0 Universal (Public Domain Dedication)"
+          },
+        "permalink" : "https://www.datos.gov.co/d/n7k8-72d2",
+        "link" : "https://www.datos.gov.co/Salud-y-Protección-Social/MORBILIDAD-EN-INCAPACIDADES-MÉDICAS/n7k8-72d2",
+        "owner" :
+          {
+            "id" : "fe5c-69tq",
+            "user_type" : "interactive",
+            "display_name" : "ESE_HRMB"
+          },
+        "creator" :
+          {
+            "id" : "fe5c-69tq",
+            "user_type" : "interactive",
+            "display_name" : "ESE_HRMB"
+          }
+      },
+      {
+        "resource" :
+          {
+            "name" : "Servicios de las ESE en el Departamento del Atlántico.",
+            "id" : "7zh4-qvvv",
+            "resource_name" : null,
+            "parent_fxf" : [],
+            "description" : "Se relacionan todos los servicios que prestan cada una de las Empresas Sociales del Estado que existen en el departamento del Atlántico, por cada una de sus sedes y a que grupo pertenecen.",
+            "attribution" : "Secretaria De Salud",
+            "attribution_link" : "https://www.datos.gov.co/d/7zh4-qvvv",
+            "contact_email" : null,
+            "type" : "dataset",
+            "updatedAt" : "2025-12-19T23:14:36.000Z",
+            "createdAt" : "2020-10-30T02:19:40.000Z",
+            "metadata_updated_at" : "2025-12-19T23:14:36.000Z",
+            "data_updated_at" : "2024-11-08T20:06:52.000Z",
+            "page_views" :
+              {
+                "page_views_last_week" : 23,
+                "page_views_last_month" : 111,
+                "page_views_total" : 4256,
+                "page_views_last_week_log" : 4.584962500721157,
+                "page_views_last_month_log" : 6.807354922057604,
+                "page_views_total_log" : 12.055621374781708
+              },
+            "columns_name" :
+              [
+                "NOMBRE",
+                "EXTRAMURAL",
+                "MUNICIPIO",
+                "AMBULATORIO",
+                "NIVEL",
+                "HOSPITALARIO",
+                "COD_HABILITACION",
+                "SERVICIO",
+                "No_SEDE",
+                "NOMBRE_SEDE",
+                "GRUPO",
+                "DOMICILIARIO",
+                "UNIDAD MOVIL"
+              ],
+            "columns_field_name" :
+              [
+                "nombre",
+                "extramural",
+                "municipio",
+                "ambulatorio",
+                "nivel",
+                "hospitalario",
+                "cod_habilitacion",
+                "servicio",
+                "no_sede",
+                "nombre_sede",
+                "grupo",
+                "domiciliario",
+                "unidad_movil"
+              ],
+            "columns_datatype" :
+              [
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Number",
+                "Text",
+                "Number",
+                "Text",
+                "Number",
+                "Text",
+                "Text",
+                "Text",
+                "Text"
+              ],
+            "columns_description" :
+              [ "", "", "", "", "", "", "", "", "", "", "", "", "" ],
+            "columns_format" :
+              [ {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {} ],
+            "download_count" : 283,
+            "provenance" : "official",
+            "lens_view_type" : "tabular",
+            "lens_display_type" : "table",
+            "locked" : false,
+            "blob_mime_type" : null,
+            "hide_from_data_json" : false,
+            "publication_date" : "2024-11-08T20:06:58.000Z"
+          },
+        "classification" :
+          {
+            "categories" : [],
+            "tags" : [],
+            "domain_category" : "Salud y Protección Social",
+            "domain_tags" :
+              [
+                "gobernación del atlantico",
+                "gobernación del atlántico",
+                "atlántico",
+                "gobernacion del atlantico",
+                "atlantico",
+                "hospitales",
+                "salud publica",
+                "salud pública",
+                "eses",
+                "salud",
+                "hospital"
+              ],
+            "domain_metadata" :
+              [
+                { "key" : "Información-de-Datos_Idioma", "value" : "Español" },
+                {
+                  "key" : "Información-de-Datos_Cobertura-Geográfica",
+                  "value" : "Departamental"
+                },
+                {
+                  "key" : "Información-de-Datos_Frecuencia-de-Actualización",
+                  "value" : "Anual"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Sector",
+                  "value" : "No Aplica"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Área-o-dependencia",
+                  "value" : "Secretaria De Salud"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Nombre-de-la-Entidad",
+                  "value" : "Gobernación del Atlántico"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Orden",
+                  "value" : "Territorial"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Municipio",
+                  "value" : "Barranquilla"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Departamento",
+                  "value" : "Atlántico"
+                }
+              ]
+          },
+        "metadata" :
+          {
+            "domain" : "www.datos.gov.co",
+            "license" : "Creative Commons Attribution | Share Alike 4.0 International"
+          },
+        "permalink" : "https://www.datos.gov.co/d/7zh4-qvvv",
+        "link" : "https://www.datos.gov.co/Salud-y-Protección-Social/Servicios-de-las-ESE-en-el-Departamento-del-Atlánt/7zh4-qvvv",
+        "owner" :
+          {
+            "id" : "6q9z-wjn6",
+            "user_type" : "interactive",
+            "display_name" : "Gobernación del Atlántico"
+          },
+        "creator" :
+          {
+            "id" : "6q9z-wjn6",
+            "user_type" : "interactive",
+            "display_name" : "Gobernación del Atlántico"
+          }
+      },
+      {
+        "resource" :
+          {
+            "name" : "PRIMERAS CAUSAS DE MORBILIDAD",
+            "id" : "26um-zdwn",
+            "resource_name" : null,
+            "parent_fxf" : [],
+            "description" : "INCLUYE PRIMERAS CAUSAS DE MORBILIDAD   POR CONSULTA POR URGENCIAS DE COLOMBIANOS,PRIMERAS CAUSAS  DE MORBILIDAD DE ATENCIÓN EN URGENCIAS,CAUSAS DE MORBILIDAD  POR URGENCIAS DE CIUDADANOS  VENEZOLANOS,PRIMERAS CAUSAS  DE MORBILIDAD DE ATENCIÓN EN HOSPITALIZACIÓN,PRIMERAS CAUSA DE MORBILIDAD POR CONSULTA EXTERNA  POR CICLO DE VIDA PRIMERA INFANCIA,PRIMERAS CAUSAS DE MORBILIDAD POR CONSULTA EXTERNA  POR CICLO DE VIDA INFANCIA,PRIMERAS CAUSAS DE MORBILIDAD POR CONSULTA EXTERNA  POR CICLO DE VIDA ADOLESCENCIA,PRIMERAS CAUSAS DE MORBILIDAD POR CONSULTA EXTERNA  POR CICLO DE VIDA JUVENTUD,PRIMERAS CAUSAS DE MORBILIDAD POR CONSULTA EXTERNA  POR CICLO DE VIDA ADULTEZ,PRIMERAS CAUSAS DE MORBILIDAD  CONSULTA EXTERNA  POR CICLO DE VIDA  VEJEZ",
+            "attribution" : "ESE ISABU",
+            "attribution_link" : "https://www.datos.gov.co/d/26um-zdwn",
+            "contact_email" : null,
+            "type" : "dataset",
+            "updatedAt" : "2025-12-22T13:05:50.000Z",
+            "createdAt" : "2020-05-29T21:05:19.000Z",
+            "metadata_updated_at" : "2025-12-22T13:05:49.000Z",
+            "data_updated_at" : "2025-12-22T13:05:50.000Z",
+            "page_views" :
+              {
+                "page_views_last_week" : 90,
+                "page_views_last_month" : 505,
+                "page_views_total" : 12983,
+                "page_views_last_week_log" : 6.507794640198696,
+                "page_views_last_month_log" : 8.98299357469431,
+                "page_views_total_log" : 13.664447284547972
+              },
+            "columns_name" :
+              [
+                "CODIGO DIAGNOSTICO",
+                "TIPO",
+                "DESCRIPCION",
+                "TOTAL",
+                "AÑO",
+                "MES",
+                "TRIMESTRE"
+              ],
+            "columns_field_name" :
+              [
+                "codigo_diagnostico",
+                "tipo",
+                "descripcion",
+                "total",
+                "a_o",
+                "mes",
+                "trimestre"
+              ],
+            "columns_datatype" :
+              [ "Text", "Text", "Text", "Number", "Number", "Text", "Text" ],
+            "columns_description" :
+              [
+                "nforma clasificación de códigos internacionales de enfermedades",
+                "Informa el tipo de PRIMERA CAUSAS DE MORBILIDAD POR CONSULTA en URGENCIAS ",
+                "Informa el nombre de clasificación de códigos internacionales de enfermedades",
+                "Informa las primeras causas de morbilidad de diagnóstico de CIE-10, con mayor número de consultas",
+                "Informa el año de Reporte",
+                "Identifica el mes de reporte",
+                "Informa el Trimestre de presentación del Reporte"
+              ],
+            "columns_format" : [ {}, {}, {}, {}, {}, {}, {} ],
+            "download_count" : 866,
+            "provenance" : "official",
+            "lens_view_type" : "tabular",
+            "lens_display_type" : "table",
+            "locked" : false,
+            "blob_mime_type" : null,
+            "hide_from_data_json" : false,
+            "publication_date" : "2020-05-29T21:12:41.000Z"
+          },
+        "classification" :
+          {
+            "categories" : [],
+            "tags" : [],
+            "domain_category" : "Salud y Protección Social",
+            "domain_tags" : [ "causas", "morbilidad" ],
+            "domain_metadata" :
+              [
+                { "key" : "Información-de-Datos_Idioma", "value" : "Español" },
+                {
+                  "key" : "Información-de-Datos_Cobertura-Geográfica",
+                  "value" : "Nacional"
+                },
+                {
+                  "key" : "Información-de-Datos_Frecuencia-de-Actualización",
+                  "value" : "Mensual"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Sector",
+                  "value" : "Salud y Protección Social"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Área-o-dependencia",
+                  "value" : "Planeación"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Nombre-de-la-Entidad",
+                  "value" : "E.S.E. Instituto De Salud De Bucaramanga, Santander"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Orden",
+                  "value" : "Territorial"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Municipio",
+                  "value" : "Bucaramanga"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_DIVIPOLA-Municipio",
+                  "value" : "68001"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Departamento",
+                  "value" : "Santander"
+                }
+              ]
+          },
+        "metadata" :
+          {
+            "domain" : "www.datos.gov.co",
+            "license" : "Creative Commons Attribution | NoDerivatives 4.0 International License"
+          },
+        "permalink" : "https://www.datos.gov.co/d/26um-zdwn",
+        "link" : "https://www.datos.gov.co/Salud-y-Protección-Social/PRIMERAS-CAUSAS-DE-MORBILIDAD/26um-zdwn",
+        "owner" :
+          {
+            "id" : "ruwv-gshb",
+            "user_type" : "interactive",
+            "display_name" : "ISABU"
+          },
+        "creator" :
+          {
+            "id" : "ruwv-gshb",
+            "user_type" : "interactive",
+            "display_name" : "ISABU"
+          }
+      },
+      {
+        "resource" :
+          {
+            "name" : "Morbilidad General",
+            "id" : "gbte-byrg",
+            "resource_name" : null,
+            "parent_fxf" : [],
+            "description" : "Registro de diagnósticos de pacientes atendidos en las Instituciones prestadoras de servicio de salud de la Empresa Social del Estado Pasto Salud E.S.E",
+            "attribution" : "Empresa Social del Estado Pasto Salud E.S.E",
+            "attribution_link" : "https://app.powerbi.com/view?r=eyJrIjoiZGJiYzg1NTQtMzAwOS00NThlLTkxOGQtNDMyNzU1MmY1YjA0IiwidCI6IjdjZDkxNDY3LWNlYjMtNDk4OC04YzMzLTczZWYwMGY0M2M1NSJ9",
+            "contact_email" : null,
+            "type" : "dataset",
+            "updatedAt" : "2025-12-19T23:26:35.000Z",
+            "createdAt" : "2020-05-17T16:59:48.000Z",
+            "metadata_updated_at" : "2025-12-19T23:26:35.000Z",
+            "data_updated_at" : "2022-12-28T19:24:36.000Z",
+            "page_views" :
+              {
+                "page_views_last_week" : 13,
+                "page_views_last_month" : 114,
+                "page_views_total" : 2278,
+                "page_views_last_week_log" : 3.8073549220576037,
+                "page_views_last_month_log" : 6.845490050944376,
+                "page_views_total_log" : 11.154185209265298
+              },
+            "columns_name" :
+              [
+                "IPS",
+                "Fecha_Cons",
+                "Sexo",
+                "Edad",
+                "Cod_Consulta",
+                "Descrip",
+                "Codigo_Dxppal",
+                "NomConsulta"
+              ],
+            "columns_field_name" :
+              [
+                "ips",
+                "fecha_cons",
+                "sexo",
+                "edad",
+                "cod_consulta",
+                "descrip",
+                "codigo_dxppal",
+                "nomconsulta"
+              ],
+            "columns_datatype" :
+              [
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text"
+              ],
+            "columns_description" :
+              [
+                "Prestadora de Servicios de Salud",
+                "Fecha de la consulta del paciente",
+                "Genero del paciente",
+                "Edad del paciente",
+                "Codigo cups de la consulta",
+                "Nombre del diagnostico principal",
+                "Diagnóstico ppal del paciente",
+                "Nombre de la consulta"
+              ],
+            "columns_format" : [ {}, {}, {}, {}, {}, {}, {}, {} ],
+            "download_count" : 649,
+            "provenance" : "official",
+            "lens_view_type" : "tabular",
+            "lens_display_type" : "table",
+            "locked" : false,
+            "blob_mime_type" : null,
+            "hide_from_data_json" : false,
+            "publication_date" : "2020-05-17T21:24:48.000Z"
+          },
+        "classification" :
+          {
+            "categories" : [],
+            "tags" : [],
+            "domain_category" : "Salud y Protección Social",
+            "domain_tags" :
+              [
+                "morbilidad",
+                "morbilidad consulta externa",
+                "diagnosticos",
+                "morbilidad general"
+              ],
+            "domain_metadata" :
+              [
+                { "key" : "Información-de-Datos_Idioma", "value" : "Español" },
+                {
+                  "key" : "Información-de-Datos_Cobertura-Geográfica",
+                  "value" : "Municipal"
+                },
+                {
+                  "key" : "Información-de-Datos_Frecuencia-de-Actualización",
+                  "value" : "Trimestral"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Sector",
+                  "value" : "Salud y Protección Social"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Área-o-dependencia",
+                  "value" : "Oficina Asesora de Comunicaciones y Sistemas"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Nombre-de-la-Entidad",
+                  "value" : "Empresa Social del Estado Pasto Salud"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Orden",
+                  "value" : "Territorial"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Municipio",
+                  "value" : "Pasto"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Departamento",
+                  "value" : "Nariño"
+                }
+              ]
+          },
+        "metadata" : { "domain" : "www.datos.gov.co" },
+        "permalink" : "https://www.datos.gov.co/d/gbte-byrg",
+        "link" : "https://www.datos.gov.co/Salud-y-Protección-Social/Morbilidad-General/gbte-byrg",
+        "owner" :
+          {
+            "id" : "cwiw-gjhu",
+            "user_type" : "interactive",
+            "display_name" : "webmaster_pastosalud"
+          },
+        "creator" :
+          {
+            "id" : "cwiw-gjhu",
+            "user_type" : "interactive",
+            "display_name" : "webmaster_pastosalud"
+          }
+      },
+      {
+        "resource" :
+          {
+            "name" : "Consultas de Medicina General",
+            "id" : "74jv-kksc",
+            "resource_name" : null,
+            "parent_fxf" : [],
+            "description" : "Consultas de Primera vez y de Control de Medicina General realizadas a los usuarios en las diferentes IPS de la Empresa Social del Estado Pasto Salud.",
+            "attribution" : "Empresa Social del Estado Pasto Salud E.S.E",
+            "attribution_link" : "https://www.datos.gov.co/d/74jv-kksc",
+            "contact_email" : null,
+            "type" : "dataset",
+            "updatedAt" : "2025-12-19T23:30:17.000Z",
+            "createdAt" : "2020-05-14T21:32:30.000Z",
+            "metadata_updated_at" : "2025-12-19T23:30:17.000Z",
+            "data_updated_at" : "2022-12-28T18:27:43.000Z",
+            "page_views" :
+              {
+                "page_views_last_week" : 36,
+                "page_views_last_month" : 212,
+                "page_views_total" : 3228,
+                "page_views_last_week_log" : 5.20945336562895,
+                "page_views_last_month_log" : 7.734709620225839,
+                "page_views_total_log" : 11.65687172561398
+              },
+            "columns_name" :
+              [
+                "Cups",
+                "Fecha_Factura",
+                "Nom_Procedimiento",
+                "IPS",
+                "Regimen",
+                "Cantidad",
+                "Nom_Categoria"
+              ],
+            "columns_field_name" :
+              [
+                "cups",
+                "fecha_factura",
+                "nom_procedimiento",
+                "ips",
+                "regimen",
+                "cantidad",
+                "nom_categoria"
+              ],
+            "columns_datatype" :
+              [
+                "Text",
+                "Calendar date",
+                "Text",
+                "Text",
+                "Text",
+                "Number",
+                "Text"
+              ],
+            "columns_description" :
+              [
+                "Codigo Cups",
+                "fecha de la consulta",
+                "Nombre de la actividad realizada",
+                "Institución prestadora de servicios",
+                "Afiliación del usuario",
+                "Cantidad de consultas",
+                "Nombre de la consulta"
+              ],
+            "columns_format" :
+              [
+                {
+                  "precisionStyle" : "standard",
+                  "percentScale" : "1",
+                  "noCommas" : "true",
+                  "align" : "left"
+                },
+                {},
+                {},
+                {},
+                {},
+                {},
+                {}
+              ],
+            "download_count" : 754,
+            "provenance" : "official",
+            "lens_view_type" : "tabular",
+            "lens_display_type" : "table",
+            "locked" : false,
+            "blob_mime_type" : null,
+            "hide_from_data_json" : false,
+            "publication_date" : "2022-12-28T18:05:34.000Z"
+          },
+        "classification" :
+          {
+            "categories" : [],
+            "tags" : [],
+            "domain_category" : "Salud y Protección Social",
+            "domain_tags" :
+              [
+                "consultas externas",
+                "consultas de medicina general",
+                "consultas de control",
+                "consultas de primera vez",
+                "medicina general"
+              ],
+            "domain_metadata" :
+              [
+                { "key" : "Información-de-Datos_Idioma", "value" : "Español" },
+                {
+                  "key" : "Información-de-Datos_Cobertura-Geográfica",
+                  "value" : "Municipal"
+                },
+                {
+                  "key" : "Información-de-Datos_Frecuencia-de-Actualización",
+                  "value" : "Trimestral"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Sector",
+                  "value" : "Salud y Protección Social"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Área-o-dependencia",
+                  "value" : "Oficina Asesora de Comunicaciones y Sistemas"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Nombre-de-la-Entidad",
+                  "value" : "Empresa Social del Estado Pasto Salud"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Orden",
+                  "value" : "Territorial"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Municipio",
+                  "value" : "Pasto"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Departamento",
+                  "value" : "Nariño"
+                }
+              ]
+          },
+        "metadata" : { "domain" : "www.datos.gov.co" },
+        "permalink" : "https://www.datos.gov.co/d/74jv-kksc",
+        "link" : "https://www.datos.gov.co/Salud-y-Protección-Social/Consultas-de-Medicina-General/74jv-kksc",
+        "owner" :
+          {
+            "id" : "cwiw-gjhu",
+            "user_type" : "interactive",
+            "display_name" : "webmaster_pastosalud"
+          },
+        "creator" :
+          {
+            "id" : "cwiw-gjhu",
+            "user_type" : "interactive",
+            "display_name" : "webmaster_pastosalud"
+          }
+      },
+      {
+        "resource" :
+          {
+            "name" : "88. Análisis de Registros Individuales de prestación de Servicios de Salud-RIPS en Bucaramanga - Consulta Externa",
+            "id" : "wemx-qaei",
+            "resource_name" : null,
+            "parent_fxf" : [],
+            "description" : "Caracterización de los servicios de salud de consulta externa según los Registros Individuales de Prestación de Servicios de Salud -Rips- según diagnosticos, curso de vida, área. enero 2023",
+            "attribution" : "Secretaria de Salud y medio ambiente",
+            "attribution_link" : "https://observatorio.bucaramanga.gov.co/index.php/informacion-publica/",
+            "contact_email" : null,
+            "type" : "dataset",
+            "updatedAt" : "2025-12-19T23:20:18.000Z",
+            "createdAt" : "2022-03-24T15:59:18.000Z",
+            "metadata_updated_at" : "2025-12-19T23:20:18.000Z",
+            "data_updated_at" : "2025-03-19T05:07:14.000Z",
+            "page_views" :
+              {
+                "page_views_last_week" : 58,
+                "page_views_last_month" : 212,
+                "page_views_total" : 2598,
+                "page_views_last_week_log" : 5.882643049361842,
+                "page_views_last_month_log" : 7.734709620225839,
+                "page_views_total_log" : 11.343740918472202
+              },
+            "columns_name" :
+              [
+                "Finalidad_de_consulta",
+                "BARRIO",
+                "dia",
+                "Codigo_dx_relacionado_1",
+                "Codigo_dx_relacionado_2",
+                "Diagnostico_relacionado_2",
+                "mes",
+                "Diagnostico_relacionado_1",
+                "Diagnostico_relacionado_3",
+                "Fecha_atencion",
+                "Nombre_ips",
+                "Causa_externa",
+                "Finalidad_consulta",
+                "Codigo_dx_relacionado_3",
+                "Curso de vida",
+                "regimen",
+                "Tipo_documento",
+                "Edad",
+                "ano",
+                "Tipo_diagnostico",
+                "ciudad",
+                "Codigo_prestador",
+                "Tipo_dx_ppal",
+                "sexo",
+                "COMUNA",
+                "Codigo_consulta",
+                "Descripcion_causa_externa",
+                "Grupo etario",
+                "Codigo_ppal_ingreso",
+                "ORDEN",
+                "Diagnostico_principal"
+              ],
+            "columns_field_name" :
+              [
+                "finalidad_de_consulta",
+                "barrio",
+                "dia",
+                "codigo_dx_relacionado_1",
+                "codigo_dx_relacionado_2",
+                "diagnostico_relacionado_2",
+                "mes",
+                "diagnostico_relacionado_1",
+                "diagnostico_relacionado_3",
+                "fecha_atencion",
+                "nombre_ips",
+                "causa_externa",
+                "finalidad_consulta",
+                "codigo_dx_relacionado_3",
+                "curso_de_vida",
+                "regimen",
+                "tipo_documento",
+                "edad",
+                "ano",
+                "tipo_diagnostico",
+                "ciudad",
+                "codigo_prestador",
+                "tipo_dx_ppal",
+                "sexo",
+                "comuna",
+                "codigo_consulta",
+                "descripcion_causa_externa",
+                "grupo_etario",
+                "codigo_ppal_ingreso",
+                "orden",
+                "diagnostico_principal"
+              ],
+            "columns_datatype" :
+              [
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text"
+              ],
+            "columns_description" :
+              [
+                "Objetivo con el cual se realiza la consulta. 01 = Atención del parto (puerperio), , 02 = Atención del recién nacido, , 03 = Atención en planificación familiar, , 04 = Detección de alteraciones de crecimiento y desarrollo del menor de diez años, , 05 = Detección de alteración del desarrollo joven, , 06 = Detección de alteraciones del embarazo, , 07 = Detección de alteraciones del adulto, , 08 = Detección de alteraciones de agudeza visual, , 09 = Detección de enfermedad profesional, , 10 = No aplica",
+                "Barrio de residencia del usuario",
+                "Dia en el cual se prestó el servicio en salud.",
+                "Código del diagnóstico confirmado ó presuntivo, según la Clasificación Internacional de Enfermedades vigente",
+                "Código del diagnóstico confirmado ó presuntivo, según la Clasificación Internacional de Enfermedades vigente",
+                "Descripción del diagnóstico confirmado ó presuntivo, consultado en la Clasificación Internacional de Enfermedades vigente",
+                "Mes en el cual se prestó el servicio en salud.",
+                "Descripción del diagnóstico confirmado ó presuntivo, consultado en la Clasificación Internacional de Enfermedades vigente",
+                "Descripción del diagnóstico confirmado ó presuntivo, consultado en la Clasificación Internacional de Enfermedades vigente",
+                "Fecha en la cual se prestó el servicio en salud.",
+                "Nombre de la IPS o prestador de servicios de salud",
+                "Código del Identificador de la causa externa que origina el servicio de salud",
+                "Código del Objetivo con el cual se realiza la consulta. ",
+                "Código del diagnóstico confirmado ó presuntivo, según la Clasificación Internacional de Enfermedades vigente",
+                "Es la clasificación de la edad del usuario en función de su rango etario según el ministerio de salud y protección social: NO REPORTA, Primera infancia, Infancia, Adolescencia, Jóvenes, Adultez, Persona Mayor",
+                "Régimen de salud al cual está afiliado el usuario",
+                "Tipo de documento de identificación del usuario. CC = Cédula ciudadanía, , CE = Cédula de extranjería, , PA = Pasaporte, , RC = Registro civil, , TI = Tarjeta de identidad, , AS = Adulto sin identificación, , MS = Menor sin identificación, , NU = Número único de identificación",
+                "Edad en años del usuario",
+                "Año en el cual se prestó el servicio en salud.",
+                "Identificador para determinar si el diagnóstico es confirmado ó presuntivo, consultado en la Clasificación Internacional de Enfermedades vigente",
+                "ciudad",
+                "Código asignado en el SGSSS a los prestadores de servicios de salud que se hayan registrado en el “Registro Especial de Prestadores de Servicios de Salud”",
+                "Código del Identificador para determinar si el diagnóstico es confirmado ó presuntivo, según la Clasificación Internacional de Enfermedades vigente",
+                "Sexo asignado al nacer del usuario",
+                "Comuna de residencia del usuario",
+                "Código de la consulta definido en el Sistema, según los codificadores vigentes.",
+                "Identificador de la causa externa que origina el servicio de salud. 01 = Accidente de trabajo, , 02 = Accidente de tránsito, , 03 = Accidente rábico, , 04 = Accidente ofídico, , 05 = Otro tipo de accidente, , 06 = Evento catastrófico, , 07 = Lesión por agresión, , 08 = Lesión auto infligida, , 09 = Sospecha de maltrato físico, , 10 = Sospecha de abuso sexual, , 11 = Sospecha de violencia sexual, , 12 = Sospecha de maltrato emocional, , 13 = Enfermedad general, , 14 = Enfermedad profesional, , 15 = Otra",
+                "Clasificación por rangos de la edad del usuario",
+                "Código del diagnóstico confirmado ó presuntivo, según la Clasificación Internacional de Enfermedades vigente",
+                "Consecutivo auto numérico",
+                "Descripción del diagnóstico confirmado ó presuntivo, consultado en la Clasificación Internacional de Enfermedades vigente"
+              ],
+            "columns_format" :
+              [
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {}
+              ],
+            "download_count" : 501,
+            "provenance" : "official",
+            "lens_view_type" : "tabular",
+            "lens_display_type" : "table",
+            "locked" : false,
+            "blob_mime_type" : null,
+            "hide_from_data_json" : false,
+            "publication_date" : "2023-05-11T17:12:05.000Z"
+          },
+        "classification" :
+          {
+            "categories" : [],
+            "tags" : [],
+            "domain_category" : "Salud y Protección Social",
+            "domain_tags" :
+              [
+                "grupo etario",
+                "registros individuales de prestación de servicios de salud",
+                "consulta externa",
+                "curso de vida",
+                "area",
+                "rips",
+                "alcaldia de bucaramanga"
+              ],
+            "domain_metadata" :
+              [
+                { "key" : "Información-de-Datos_Idioma", "value" : "Español" },
+                {
+                  "key" : "Información-de-Datos_Cobertura-Geográfica",
+                  "value" : "Municipal"
+                },
+                {
+                  "key" : "Información-de-Datos_Frecuencia-de-Actualización",
+                  "value" : "Mensual"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Sector",
+                  "value" : "No Aplica"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Área-o-dependencia",
+                  "value" : "Secretaria de Salud y medio ambiente"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Nombre-de-la-Entidad",
+                  "value" : "Alcaldía de Bucaramanga"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Orden",
+                  "value" : "Territorial"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Municipio",
+                  "value" : "Bucaramanga"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Departamento",
+                  "value" : "Santander"
+                }
+              ]
+          },
+        "metadata" :
+          {
+            "domain" : "www.datos.gov.co",
+            "license" : "Creative Commons Attribution | Share Alike 4.0 International"
+          },
+        "permalink" : "https://www.datos.gov.co/d/wemx-qaei",
+        "link" : "https://www.datos.gov.co/Salud-y-Protección-Social/88-Análisis-de-Registros-Individuales-de-prestació/wemx-qaei",
+        "owner" :
+          {
+            "id" : "8id2-t5aq",
+            "user_type" : "interactive",
+            "display_name" : "AlcaldiaBGA"
+          },
+        "creator" :
+          {
+            "id" : "8id2-t5aq",
+            "user_type" : "interactive",
+            "display_name" : "AlcaldiaBGA"
+          }
+      },
+      {
+        "resource" :
+          {
+            "name" : "VISTA PRIMERAS CAUSAS DE MORBILIDAD ENERO 2021",
+            "id" : "exu4-xky9",
+            "resource_name" : null,
+            "parent_fxf" : [ "26um-zdwn" ],
+            "description" : "INCLUYE PRIMERAS CAUSAS DE MORBILIDAD   POR CONSULTA POR URGENCIAS DE COLOMBIANOS,PRIMERAS CAUSAS  DE MORBILIDAD DE ATENCIÓN EN URGENCIAS,CAUSAS DE MORBILIDAD  POR URGENCIAS DE CIUDADANOS  VENEZOLANOS,PRIMERAS CAUSAS  DE MORBILIDAD DE ATENCIÓN EN HOSPITALIZACIÓN,PRIMERAS CAUSA DE MORBILIDAD POR CONSULTA EXTERNA  POR CICLO DE VIDA PRIMERA INFANCIA,PRIMERAS CAUSAS DE MORBILIDAD POR CONSULTA EXTERNA  POR CICLO DE VIDA INFANCIA,PRIMERAS CAUSAS DE MORBILIDAD POR CONSULTA EXTERNA  POR CICLO DE VIDA ADOLESCENCIA,PRIMERAS CAUSAS DE MORBILIDAD POR CONSULTA EXTERNA  POR CICLO DE VIDA JUVENTUD,PRIMERAS CAUSAS DE MORBILIDAD POR CONSULTA EXTERNA  POR CICLO DE VIDA ADULTEZ,PRIMERAS CAUSAS DE MORBILIDAD  CONSULTA EXTERNA  POR CICLO DE VIDA  VEJEZ",
+            "attribution" : "ESE ISABU",
+            "attribution_link" : "https://www.datos.gov.co/d/26um-zdwn",
+            "contact_email" : null,
+            "type" : "filter",
+            "updatedAt" : "2025-12-22T13:05:50.000Z",
+            "createdAt" : "2021-03-09T20:55:50.000Z",
+            "metadata_updated_at" : "2025-12-19T22:53:46.000Z",
+            "data_updated_at" : "2025-12-22T13:05:50.000Z",
+            "page_views" :
+              {
+                "page_views_last_week" : 14,
+                "page_views_last_month" : 49,
+                "page_views_total" : 5331,
+                "page_views_last_week_log" : 3.9068905956085187,
+                "page_views_last_month_log" : 5.643856189774724,
+                "page_views_total_log" : 12.380461065088975
+              },
+            "columns_name" :
+              [
+                "AÑO",
+                "CODIGO DIAGNOSTICO",
+                "DESCRIPCION",
+                "MES",
+                "TOTAL",
+                "TRIMESTRE",
+                "TIPO"
+              ],
+            "columns_field_name" :
+              [
+                "a_o",
+                "codigo_diagnostico",
+                "descripcion",
+                "mes",
+                "total",
+                "trimestre",
+                "tipo"
+              ],
+            "columns_datatype" :
+              [ "Number", "Text", "Text", "Text", "Number", "Text", "Text" ],
+            "columns_description" :
+              [
+                "Informa el año de Reporte",
+                "nforma clasificación de códigos internacionales de enfermedades",
+                "Informa el nombre de clasificación de códigos internacionales de enfermedades",
+                "Identifica el mes de reporte",
+                "Informa las primeras causas de morbilidad de diagnóstico de CIE-10, con mayor número de consultas",
+                "Informa el Trimestre de presentación del Reporte",
+                "Informa el tipo de PRIMERA CAUSAS DE MORBILIDAD POR CONSULTA en URGENCIAS "
+              ],
+            "columns_format" : [ {}, {}, {}, {}, {}, {}, {} ],
+            "download_count" : 268,
+            "provenance" : "official",
+            "lens_view_type" : "tabular",
+            "lens_display_type" : "table",
+            "locked" : false,
+            "blob_mime_type" : null,
+            "hide_from_data_json" : false,
+            "publication_date" : "2021-03-09T20:56:44.000Z"
+          },
+        "classification" :
+          {
+            "categories" : [],
+            "tags" : [],
+            "domain_category" : "Salud y Protección Social",
+            "domain_tags" : [ "morbilidad", "causas" ],
+            "domain_metadata" :
+              [
+                { "key" : "Información-de-Datos_Idioma", "value" : "Español" },
+                {
+                  "key" : "Información-de-Datos_Cobertura-Geográfica",
+                  "value" : "Nacional"
+                },
+                {
+                  "key" : "Información-de-Datos_Frecuencia-de-Actualización",
+                  "value" : "Mensual"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Sector",
+                  "value" : "Salud y Protección Social"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Área-o-dependencia",
+                  "value" : "Planeación"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Nombre-de-la-Entidad",
+                  "value" : "Empresa Social del Estado Instituto de Salud de Bucaramanga - ISABU"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Orden",
+                  "value" : "Territorial"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Municipio",
+                  "value" : "Bucaramanga"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Departamento",
+                  "value" : "Santander"
+                }
+              ]
+          },
+        "metadata" :
+          {
+            "domain" : "www.datos.gov.co",
+            "license" : "Creative Commons Attribution | NoDerivatives 4.0 International License"
+          },
+        "permalink" : "https://www.datos.gov.co/d/exu4-xky9",
+        "link" : "https://www.datos.gov.co/Salud-y-Protección-Social/VISTA-PRIMERAS-CAUSAS-DE-MORBILIDAD-ENERO-2021/exu4-xky9",
+        "owner" :
+          {
+            "id" : "ruwv-gshb",
+            "user_type" : "interactive",
+            "display_name" : "ISABU"
+          },
+        "creator" :
+          {
+            "id" : "ruwv-gshb",
+            "user_type" : "interactive",
+            "display_name" : "ISABU"
+          }
+      },
+      {
+        "resource" :
+          {
+            "name" : "Datos_Básicos_Exámen_de_Mama",
+            "id" : "5b9u-pzx5",
+            "resource_name" : null,
+            "parent_fxf" : [],
+            "description" : "Datos básicos resultado de los exámenes de mama realizado a mujeres en el servicio de consulta externa ambulatoria.",
+            "attribution" : "Servicio consulta externa, Software Histosoft",
+            "attribution_link" : "https://www.datos.gov.co/d/5b9u-pzx5",
+            "contact_email" : null,
+            "type" : "dataset",
+            "updatedAt" : "2025-12-19T23:14:20.000Z",
+            "createdAt" : "2019-09-05T12:39:11.000Z",
+            "metadata_updated_at" : "2025-12-19T23:14:20.000Z",
+            "data_updated_at" : "2025-09-09T16:17:55.000Z",
+            "page_views" :
+              {
+                "page_views_last_week" : 7,
+                "page_views_last_month" : 32,
+                "page_views_total" : 1438,
+                "page_views_last_week_log" : 3.0,
+                "page_views_last_month_log" : 5.044394119358453,
+                "page_views_total_log" : 10.490850876740298
+              },
+            "columns_name" :
+              [
+                "HIJOS",
+                "PERIODO CONSULTA",
+                "MASA EN SENO IZQUIERDO",
+                "ANTECEDENTES CA MAMA EN MADRE",
+                "REALIZA AUTOEXÁMEN REGULARMENTE",
+                "LACTANCIA HIJOS",
+                "EDAD",
+                "MASA EN SENO DERECHO"
+              ],
+            "columns_field_name" :
+              [
+                "hijos",
+                "periodo_consulta",
+                "masa_en_seno_izquierdo",
+                "antecedentes_ca_mama_en_madre",
+                "realiza_autoex_men",
+                "lactancia_hijos",
+                "edad",
+                "masa_en_seno_derecho"
+              ],
+            "columns_datatype" :
+              [
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Number",
+                "Text"
+              ],
+            "columns_description" :
+              [
+                "Número de hijos de la paciente",
+                "Período de generación de los datos",
+                "Presencia de masa en seno izquierdo",
+                "Antecedentes de Cáncer de mama en la madre de la paciente.",
+                "La paciente se realiza el autoexámen de seno con regularidad",
+                "Suministro lactancia materna a sus hijos",
+                "Edad en años de la paciente",
+                "Presencia de masa en seno derecho"
+              ],
+            "columns_format" : [ {}, {}, {}, {}, {}, {}, {}, {} ],
+            "download_count" : 381,
+            "provenance" : "official",
+            "lens_view_type" : "tabular",
+            "lens_display_type" : "table",
+            "locked" : false,
+            "blob_mime_type" : null,
+            "hide_from_data_json" : false,
+            "publication_date" : "2019-09-05T12:57:39.000Z"
+          },
+        "classification" :
+          {
+            "categories" : [],
+            "tags" : [],
+            "domain_category" : "Salud y Protección Social",
+            "domain_tags" : [ "exámen mama", "ca de mama" ],
+            "domain_metadata" :
+              [
+                { "key" : "Información-de-Datos_Idioma", "value" : "Español" },
+                {
+                  "key" : "Información-de-Datos_Cobertura-Geográfica",
+                  "value" : "Departamental"
+                },
+                {
+                  "key" : "Información-de-Datos_Frecuencia-de-Actualización",
+                  "value" : "Semestral"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Sector",
+                  "value" : "Salud y Protección Social"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Área-o-dependencia",
+                  "value" : "Consulta Externa"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Nombre-de-la-Entidad",
+                  "value" : "Hospital Regional Manuela Beltrán III Nivel, Socorro, Santander"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Orden",
+                  "value" : "Territorial"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Municipio",
+                  "value" : "Socorro"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Departamento",
+                  "value" : "Santander"
+                }
+              ]
+          },
+        "metadata" :
+          {
+            "domain" : "www.datos.gov.co",
+            "license" : "Creative Commons 1.0 Universal (Public Domain Dedication)"
+          },
+        "permalink" : "https://www.datos.gov.co/d/5b9u-pzx5",
+        "link" : "https://www.datos.gov.co/Salud-y-Protección-Social/Datos_Básicos_Exámen_de_Mama/5b9u-pzx5",
+        "owner" :
+          {
+            "id" : "fe5c-69tq",
+            "user_type" : "interactive",
+            "display_name" : "ESE_HRMB"
+          },
+        "creator" :
+          {
+            "id" : "fe5c-69tq",
+            "user_type" : "interactive",
+            "display_name" : "ESE_HRMB"
+          }
+      },
+      {
+        "resource" :
+          {
+            "name" : "PRIMERAS CAUSAS  DE MORBILIDAED DE ATENCION EN URGENCIAS FEBRERO",
+            "id" : "86jd-jcn8",
+            "resource_name" : null,
+            "parent_fxf" : [ "26um-zdwn" ],
+            "description" : "INCLUYE PRIMERAS CAUSAS DE MORBILIDAD   POR CONSULTA POR URGENCIAS DE COLOMBIANOS,PRIMERAS CAUSAS  DE MORBILIDAD DE ATENCIÓN EN URGENCIAS,CAUSAS DE MORBILIDAD  POR URGENCIAS DE CIUDADANOS  VENEZOLANOS,PRIMERAS CAUSAS  DE MORBILIDAD DE ATENCIÓN EN HOSPITALIZACIÓN,PRIMERAS CAUSA DE MORBILIDAD POR CONSULTA EXTERNA  POR CICLO DE VIDA PRIMERA INFANCIA,PRIMERAS CAUSAS DE MORBILIDAD POR CONSULTA EXTERNA  POR CICLO DE VIDA INFANCIA,PRIMERAS CAUSAS DE MORBILIDAD POR CONSULTA EXTERNA  POR CICLO DE VIDA ADOLESCENCIA,PRIMERAS CAUSAS DE MORBILIDAD POR CONSULTA EXTERNA  POR CICLO DE VIDA JUVENTUD,PRIMERAS CAUSAS DE MORBILIDAD POR CONSULTA EXTERNA  POR CICLO DE VIDA ADULTEZ,PRIMERAS CAUSAS DE MORBILIDAD  CONSULTA EXTERNA  POR CICLO DE VIDA  VEJEZ",
+            "attribution" : "ESE ISABU",
+            "attribution_link" : "https://www.datos.gov.co/d/26um-zdwn",
+            "contact_email" : null,
+            "type" : "filter",
+            "updatedAt" : "2025-12-22T13:05:50.000Z",
+            "createdAt" : "2020-06-30T23:26:51.000Z",
+            "metadata_updated_at" : "2025-12-19T23:21:18.000Z",
+            "data_updated_at" : "2025-12-22T13:05:50.000Z",
+            "page_views" :
+              {
+                "page_views_last_week" : 22,
+                "page_views_last_month" : 149,
+                "page_views_total" : 4928,
+                "page_views_last_week_log" : 4.523561956057013,
+                "page_views_last_month_log" : 7.22881869049588,
+                "page_views_total_log" : 12.26707926567123
+              },
+            "columns_name" :
+              [
+                "DESCRIPCION",
+                "MES",
+                "TRIMESTRE",
+                "TIPO",
+                "CODIGO DIAGNOSTICO",
+                "AÑO",
+                "TOTAL"
+              ],
+            "columns_field_name" :
+              [
+                "descripcion",
+                "mes",
+                "trimestre",
+                "tipo",
+                "codigo_diagnostico",
+                "a_o",
+                "total"
+              ],
+            "columns_datatype" :
+              [ "Text", "Text", "Text", "Text", "Text", "Number", "Number" ],
+            "columns_description" :
+              [
+                "Informa el nombre de clasificación de códigos internacionales de enfermedades",
+                "Identifica el mes de reporte",
+                "Informa el Trimestre de presentación del Reporte",
+                "Informa el tipo de PRIMERA CAUSAS DE MORBILIDAD POR CONSULTA en URGENCIAS ",
+                "nforma clasificación de códigos internacionales de enfermedades",
+                "Informa el año de Reporte",
+                "Informa las primeras causas de morbilidad de diagnóstico de CIE-10, con mayor número de consultas"
+              ],
+            "columns_format" : [ {}, {}, {}, {}, {}, {}, {} ],
+            "download_count" : 171,
+            "provenance" : "official",
+            "lens_view_type" : "tabular",
+            "lens_display_type" : "table",
+            "locked" : false,
+            "blob_mime_type" : null,
+            "hide_from_data_json" : false,
+            "publication_date" : "2020-06-30T23:27:26.000Z"
+          },
+        "classification" :
+          {
+            "categories" : [],
+            "tags" : [],
+            "domain_category" : "Salud y Protección Social",
+            "domain_tags" : [ "causas", "morbilidad" ],
+            "domain_metadata" :
+              [
+                { "key" : "Información-de-Datos_Idioma", "value" : "Español" },
+                {
+                  "key" : "Información-de-Datos_Cobertura-Geográfica",
+                  "value" : "Nacional"
+                },
+                {
+                  "key" : "Información-de-Datos_Frecuencia-de-Actualización",
+                  "value" : "No aplica"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Sector",
+                  "value" : "Salud y Protección Social"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Área-o-dependencia",
+                  "value" : "Planeación"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Nombre-de-la-Entidad",
+                  "value" : "Empresa Social del Estado Instituto de Salud de Bucaramanga - ISABU"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Orden",
+                  "value" : "Territorial"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Municipio",
+                  "value" : "Bucaramanga"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Departamento",
+                  "value" : "Santander"
+                }
+              ]
+          },
+        "metadata" :
+          {
+            "domain" : "www.datos.gov.co",
+            "license" : "Creative Commons Attribution | NoDerivatives 4.0 International License"
+          },
+        "permalink" : "https://www.datos.gov.co/d/86jd-jcn8",
+        "link" : "https://www.datos.gov.co/Salud-y-Protección-Social/PRIMERAS-CAUSAS-DE-MORBILIDAED-DE-ATENCION-EN-URGE/86jd-jcn8",
+        "owner" :
+          {
+            "id" : "ruwv-gshb",
+            "user_type" : "interactive",
+            "display_name" : "ISABU"
+          },
+        "creator" :
+          {
+            "id" : "ruwv-gshb",
+            "user_type" : "interactive",
+            "display_name" : "ISABU"
+          }
+      }
+    ],
+  "resultSetSize" : 135,
+  "timings" : { "serviceMillis" : 24, "searchMillis" : [ 2, 9 ] },
+  "warnings" : []
+}

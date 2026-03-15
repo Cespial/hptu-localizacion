@@ -1,0 +1,68 @@
+{
+   "html_attributions" : [],
+   "results" : 
+   [
+      {
+         "business_status" : "OPERATIONAL",
+         "formatted_address" : "Cra. 48 #56-59, Rionegro, Antioquia, Colombia",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 6.1584271,
+               "lng" : -75.3709739
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 6.159779530291503,
+                  "lng" : -75.36958031970849
+               },
+               "southwest" : 
+               {
+                  "lat" : 6.157081569708498,
+                  "lng" : -75.3722782802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/hospital-71.png",
+         "icon_background_color" : "#F88181",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/hospital-H_pinlet",
+         "name" : "Hospital San Juan de Dios de Rionegro",
+         "opening_hours" : 
+         {
+            "open_now" : true
+         },
+         "photos" : 
+         [
+            {
+               "height" : 675,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/101209915648341311110\"\u003eJuan David Ramirez Alzate\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATCDNfVR57Z5TeWvwnDDWh6RJlTtWI9X0z1dkwKPSMEZ6YWZirD4YtE2uT0GYtVta_DoP4aZlz5kH9aJDXBN_3xrJvCZAOcJNFSOdo_PHJXXkjHL8CfEmxwZveFmsrnwe7mbRXz-gP7vQochb6U1Ut0c_qJtp0YN__aH6qvULNKgBPt-eScfIyR75uVgOvERUJwS8LOY_DVLEaoA2JAEKL3iH82PCHkmLpTRvDgm20R34Ug0Jo8j6WbGUJyY0I9U57OsxeYK6Y1jG4a5w_ap7-wLmgFkVqQdpjXUMBS02Vo_xJX2g9rXgweVQGbovrOZDH3QmHM83sQ5IQrC0Buwnea57zkoO1aubeompCs21yqhfSw1O26CWNkBuXcEZBxknf0mopaP5__cpSbBJCT2cjtQ0mMAD251IZaXWV6kU8pMsWc",
+               "width" : 1200
+            }
+         ],
+         "place_id" : "ChIJ-TO06gmfRo4RWjXCWE0FcL4",
+         "plus_code" : 
+         {
+            "compound_code" : "5J5H+9J Rionegro, Antioquia, Colombia",
+            "global_code" : "67R65J5H+9J"
+         },
+         "rating" : 2.4,
+         "reference" : "ChIJ-TO06gmfRo4RWjXCWE0FcL4",
+         "types" : 
+         [
+            "establishment",
+            "health",
+            "hospital",
+            "point_of_interest"
+         ],
+         "user_ratings_total" : 216
+      }
+   ],
+   "status" : "OK"
+}

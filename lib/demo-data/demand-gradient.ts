@@ -39,7 +39,7 @@ export const demandGradient: GradientPoint[] = [
   },
   {
     id: "altos-del-poblado",
-    label: "Altos del Poblado / Indiana",
+    label: "Altos del Poblado / Colegiatura",
     elevation: "~1,720 msnm",
     barrioRef: "Barrio Altos del Poblado (cod 1408)",
     prediosE56: 1867, // 365 E5 + 1502 E6
@@ -50,7 +50,7 @@ export const demandGradient: GradientPoint[] = [
     corridorSpeed: "Av. Las Palmas: 40.9 km/h avg, 37.4 km/h PM (MEData 64,285 obs.)",
     mapboxDriveToHPTU: "23.8 min (Mapbox Matrix API)",
     mapboxDriveToLasVegas: "10.5 min (Mapbox Matrix API)",
-    competitorCount: "Media: CES, Rosario Tesoro en radio 3 km (REPS)",
+    competitorCount: "Media: Cl. Rosario Tesoro (158 camas, 0.93 km), Cl. Las Vegas (171 camas, 3.12 km). Clinica CES NO esta en corredor (7.16 km, Prado Centro). (REPS + Google Geocoding)",
     demandScore: 93,
     accessScore: 92,
     dataSource: "Catastro bp59-rj8r, POT 3ciz-tpgr, Mapbox Matrix API, REPS b4dp-ximh",
@@ -86,7 +86,7 @@ export const demandGradient: GradientPoint[] = [
     corridorSpeed: "Av. Las Palmas: velocidad cae a ~38 km/h en este tramo PM",
     mapboxDriveToHPTU: "31.8 min (Mapbox Matrix API)",
     mapboxDriveToLasVegas: "20.4 min (Mapbox Matrix API)",
-    competitorCount: "Baja: Clinica CES en radio 2 km (REPS)",
+    competitorCount: "Baja: Cl. Rosario Tesoro (158 camas, 0.93 km) unica con internacion en corredor (REPS)",
     demandScore: 76,
     accessScore: 72,
     dataSource: "Catastro bp59-rj8r, POT 3ciz-tpgr, Mapbox Matrix API",
@@ -274,12 +274,32 @@ export const healthNodes: HealthNode[] = [
   {
     name: "Clinica CES",
     type: "Alta complejidad - Privada",
-    beds: 213, // Real REPS
+    beds: 213, // Real REPS (Capacidad s2ru-bqt6): 170 Adultos + 21 Intermedio + 22 Intensivo
     occupancy: "82%",
-    municipality: "Medellin (Las Palmas)",
+    municipality: "Medellin (La Candelaria / Prado Centro)",
     repsSource: "REPS b4dp-ximh, Capacidad s2ru-bqt6",
-    coordinates: "6.196, -75.546",
-    gap: "213 camas. Unica clinica de alta complejidad sobre corredor Las Palmas. Referente academico CES.",
+    coordinates: "6.2573, -75.5655 (Google Geocoding: CL 58 #50C-2, La Candelaria)",
+    gap: "213 camas. NO esta sobre el corredor Las Palmas (7.16 km). Ubicada en Prado Centro, sobre la Oriental.",
+  },
+  {
+    name: "Clinica del Rosario sede Tesoro",
+    type: "Mediana-Alta complejidad - Privada",
+    beds: 158, // Real REPS (s2ru-bqt6): Ped=24, Ad=69, IntNeo=3, IntPed=4, IntAd=25, ICUNeo=6, ICUPed=6, ICUAd=14, etc.
+    occupancy: "85%",
+    municipality: "Medellin (El Poblado)",
+    repsSource: "REPS b4dp-ximh, Capacidad s2ru-bqt6, Google Geocoding",
+    coordinates: "6.1939, -75.5574 (Google Geocoding: Cra. 20 #2 sur-185, El Poblado)",
+    gap: "158 camas. Unica clinica con internacion directa sobre el corredor Las Palmas (0.93 km del centroide). Sin alta complejidad tipo HPTU.",
+  },
+  {
+    name: "Clinica Las Vegas",
+    type: "Mediana-Alta complejidad - Privada",
+    beds: 171, // Real REPS: Adultos=147, Intermedia=6, Intensiva=18
+    occupancy: "80%",
+    municipality: "Medellin (El Poblado)",
+    repsSource: "REPS b4dp-ximh, Capacidad s2ru-bqt6, Google Geocoding",
+    coordinates: "6.2031, -75.5760 (Google Geocoding: Cl. 2 Sur #46-55, El Poblado)",
+    gap: "171 camas. A 3.12 km del centroide del corredor. Sin trasplantes ni oncologia avanzada.",
   },
   {
     name: "ESE Hospital Manuel Uribe Angel",

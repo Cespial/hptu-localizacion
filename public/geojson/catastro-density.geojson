@@ -1,0 +1,533 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Alejandria",
+        "predios_total": 8728,
+        "predios_e0": 6590,
+        "predios_e4": 4,
+        "predios_e5": 187,
+        "predios_e6": 1747,
+        "predios_e5e6": 1934,
+        "pct_e5e6": 22,
+        "avg_avaluo_m": 165,
+        "on_corridor": true,
+        "bubble_size": 30,
+        "color_intensity": 22
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.562,
+          6.209
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Altos Del Poblado",
+        "predios_total": 6062,
+        "predios_e0": 4191,
+        "predios_e4": 0,
+        "predios_e5": 365,
+        "predios_e6": 1502,
+        "predios_e5e6": 1867,
+        "pct_e5e6": 31,
+        "avg_avaluo_m": 245,
+        "on_corridor": true,
+        "bubble_size": 30,
+        "color_intensity": 31
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.549,
+          6.206
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Astorga",
+        "predios_total": 2248,
+        "predios_e0": 1605,
+        "predios_e4": 109,
+        "predios_e5": 110,
+        "predios_e6": 422,
+        "predios_e5e6": 532,
+        "pct_e5e6": 24,
+        "avg_avaluo_m": 260,
+        "on_corridor": true,
+        "bubble_size": 27.678150227209912,
+        "color_intensity": 24
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.56,
+          6.202
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Barrio Colombia",
+        "predios_total": 753,
+        "predios_e0": 729,
+        "predios_e4": 0,
+        "predios_e5": 0,
+        "predios_e6": 1,
+        "predios_e5e6": 1,
+        "pct_e5e6": 0,
+        "avg_avaluo_m": 1568,
+        "on_corridor": false,
+        "bubble_size": 4,
+        "color_intensity": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.57,
+          6.215
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Castropol",
+        "predios_total": 14303,
+        "predios_e0": 9701,
+        "predios_e4": 0,
+        "predios_e5": 1121,
+        "predios_e6": 3481,
+        "predios_e5e6": 4602,
+        "pct_e5e6": 32,
+        "avg_avaluo_m": 144,
+        "on_corridor": true,
+        "bubble_size": 30,
+        "color_intensity": 32
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.567,
+          6.203
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "El Castillo",
+        "predios_total": 3374,
+        "predios_e0": 2427,
+        "predios_e4": 0,
+        "predios_e5": 0,
+        "predios_e6": 947,
+        "predios_e5e6": 947,
+        "pct_e5e6": 28,
+        "avg_avaluo_m": 316,
+        "on_corridor": false,
+        "bubble_size": 30,
+        "color_intensity": 28
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.561,
+          6.2
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "El Diamante No.2",
+        "predios_total": 10048,
+        "predios_e0": 6653,
+        "predios_e4": 3,
+        "predios_e5": 76,
+        "predios_e6": 3313,
+        "predios_e5e6": 3389,
+        "pct_e5e6": 34,
+        "avg_avaluo_m": 164,
+        "on_corridor": true,
+        "bubble_size": 30,
+        "color_intensity": 34
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.562,
+          6.198
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "El Poblado",
+        "predios_total": 2175,
+        "predios_e0": 1880,
+        "predios_e4": 163,
+        "predios_e5": 114,
+        "predios_e6": 5,
+        "predios_e5e6": 119,
+        "pct_e5e6": 5,
+        "avg_avaluo_m": 379,
+        "on_corridor": true,
+        "bubble_size": 13.090454537562856,
+        "color_intensity": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.57,
+          6.21
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "El Tesoro",
+        "predios_total": 13786,
+        "predios_e0": 9516,
+        "predios_e4": 52,
+        "predios_e5": 595,
+        "predios_e6": 3515,
+        "predios_e5e6": 4110,
+        "pct_e5e6": 30,
+        "avg_avaluo_m": 204,
+        "on_corridor": true,
+        "bubble_size": 30,
+        "color_intensity": 30
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.5575,
+          6.196
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "La Aguacatala",
+        "predios_total": 6630,
+        "predios_e0": 5061,
+        "predios_e4": 0,
+        "predios_e5": 76,
+        "predios_e6": 1493,
+        "predios_e5e6": 1569,
+        "pct_e5e6": 24,
+        "avg_avaluo_m": 247,
+        "on_corridor": true,
+        "bubble_size": 30,
+        "color_intensity": 24
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.57,
+          6.206
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "La Florida",
+        "predios_total": 15570,
+        "predios_e0": 11594,
+        "predios_e4": 4,
+        "predios_e5": 454,
+        "predios_e6": 3463,
+        "predios_e5e6": 3917,
+        "pct_e5e6": 25,
+        "avg_avaluo_m": 174,
+        "on_corridor": true,
+        "bubble_size": 30,
+        "color_intensity": 25
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.564,
+          6.192
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Lalinde",
+        "predios_total": 4652,
+        "predios_e0": 3242,
+        "predios_e4": 0,
+        "predios_e5": 209,
+        "predios_e6": 1201,
+        "predios_e5e6": 1410,
+        "pct_e5e6": 30,
+        "avg_avaluo_m": 159,
+        "on_corridor": true,
+        "bubble_size": 30,
+        "color_intensity": 30
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.566,
+          6.201
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Las Lomas No.1",
+        "predios_total": 6083,
+        "predios_e0": 4289,
+        "predios_e4": 1,
+        "predios_e5": 313,
+        "predios_e6": 1480,
+        "predios_e5e6": 1793,
+        "pct_e5e6": 29,
+        "avg_avaluo_m": 181,
+        "on_corridor": true,
+        "bubble_size": 30,
+        "color_intensity": 29
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.545,
+          6.199
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Las Lomas No.2",
+        "predios_total": 3624,
+        "predios_e0": 2504,
+        "predios_e4": 0,
+        "predios_e5": 43,
+        "predios_e6": 1077,
+        "predios_e5e6": 1120,
+        "pct_e5e6": 31,
+        "avg_avaluo_m": 204,
+        "on_corridor": true,
+        "bubble_size": 30,
+        "color_intensity": 31
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.54,
+          6.196
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Los Balsos No.1",
+        "predios_total": 13484,
+        "predios_e0": 9299,
+        "predios_e4": 2,
+        "predios_e5": 604,
+        "predios_e6": 3520,
+        "predios_e5e6": 4124,
+        "pct_e5e6": 31,
+        "avg_avaluo_m": 225,
+        "on_corridor": true,
+        "bubble_size": 30,
+        "color_intensity": 31
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.558,
+          6.197
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Los Balsos No.2",
+        "predios_total": 9789,
+        "predios_e0": 7072,
+        "predios_e4": 0,
+        "predios_e5": 444,
+        "predios_e6": 2273,
+        "predios_e5e6": 2717,
+        "pct_e5e6": 28,
+        "avg_avaluo_m": 252,
+        "on_corridor": true,
+        "bubble_size": 30,
+        "color_intensity": 28
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.553,
+          6.195
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Los Naranjos",
+        "predios_total": 9289,
+        "predios_e0": 6721,
+        "predios_e4": 21,
+        "predios_e5": 335,
+        "predios_e6": 1920,
+        "predios_e5e6": 2255,
+        "pct_e5e6": 24,
+        "avg_avaluo_m": 260,
+        "on_corridor": false,
+        "bubble_size": 30,
+        "color_intensity": 24
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.568,
+          6.199
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Manila",
+        "predios_total": 2141,
+        "predios_e0": 1519,
+        "predios_e4": 509,
+        "predios_e5": 102,
+        "predios_e6": 0,
+        "predios_e5e6": 102,
+        "pct_e5e6": 5,
+        "avg_avaluo_m": 246,
+        "on_corridor": true,
+        "bubble_size": 12.119405926034492,
+        "color_intensity": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.568,
+          6.207
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Patio Bonito",
+        "predios_total": 10316,
+        "predios_e0": 7684,
+        "predios_e4": 0,
+        "predios_e5": 670,
+        "predios_e6": 1961,
+        "predios_e5e6": 2631,
+        "pct_e5e6": 26,
+        "avg_avaluo_m": 174,
+        "on_corridor": true,
+        "bubble_size": 30,
+        "color_intensity": 26
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.565,
+          6.195
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "San Lucas",
+        "predios_total": 8557,
+        "predios_e0": 5562,
+        "predios_e4": 141,
+        "predios_e5": 637,
+        "predios_e6": 2146,
+        "predios_e5e6": 2783,
+        "pct_e5e6": 33,
+        "avg_avaluo_m": 235,
+        "on_corridor": false,
+        "bubble_size": 30,
+        "color_intensity": 33
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.556,
+          6.198
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Santa Maria De Los Angeles",
+        "predios_total": 11334,
+        "predios_e0": 7693,
+        "predios_e4": 0,
+        "predios_e5": 755,
+        "predios_e6": 2886,
+        "predios_e5e6": 3641,
+        "pct_e5e6": 32,
+        "avg_avaluo_m": 156,
+        "on_corridor": true,
+        "bubble_size": 30,
+        "color_intensity": 32
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.559,
+          6.205
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Villa Carlota",
+        "predios_total": 11597,
+        "predios_e0": 9077,
+        "predios_e4": 368,
+        "predios_e5": 2090,
+        "predios_e6": 62,
+        "predios_e5e6": 2152,
+        "pct_e5e6": 19,
+        "avg_avaluo_m": 239,
+        "on_corridor": false,
+        "bubble_size": 30,
+        "color_intensity": 19
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.57,
+          6.213
+        ]
+      }
+    }
+  ]
+}

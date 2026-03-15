@@ -92,9 +92,10 @@ export function HeroSection() {
             transition={{ delay: 0.5 }}
             className="mt-4 max-w-2xl text-base text-white/70 sm:text-lg"
           >
-            Estudio de localizacion con 2.6M+ registros de fuentes primarias:
-            Catastro Municipal, DANE CNPV 2018, REPS MinSalud, MEData Aforos,
-            POT Bateria de Indicadores, Mapbox APIs y OpenStreetMap.
+            Estudio de localizacion con 3.8M+ registros de 15 fuentes primarias:
+            Catastro Municipal (bp59-rj8r), DANE CNPV 2018 (evm3-92yw), REPS MinSalud (b4dp-ximh, s2ru-bqt6),
+            MEData Aforos (b9s9-jw7c, 7t5n-3b3w), POT Indicadores (3ciz-tpgr), Mapbox Directions API,
+            Google Routes API y OpenStreetMap.
           </motion.p>
 
           {/* CTAs */}

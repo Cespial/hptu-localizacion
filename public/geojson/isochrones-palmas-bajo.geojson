@@ -1,14 +1,17 @@
 {
-  "type": "FeatureCollection",
   "features": [
     {
-      "type": "Feature",
       "properties": {
+        "fill-opacity": 0.33,
+        "fillColor": "#bf4040",
+        "opacity": 0.33,
+        "fill": "#bf4040",
+        "fillOpacity": 0.33,
+        "color": "#bf4040",
+        "contour": 30,
+        "metric": "time",
         "minutes": 30,
-        "candidate": "palmas-bajo",
-        "label": "30 minutos en vehiculo",
-        "color": "#0d9488",
-        "opacity": 0.1
+        "zone": "palmas-bajo"
       },
       "geometry": {
         "coordinates": [
@@ -1303,7 +1306,7 @@
             ],
             [
               -75.542663,
-              6.219838
+              6.219837
             ],
             [
               -75.546559,
@@ -1694,12 +1697,12 @@
               6.229578
             ],
             [
-              -75.520305,
-              6.232195
+              -75.520301,
+              6.232199
             ],
             [
               -75.5225,
-              6.234118
+              6.234126
             ],
             [
               -75.5245,
@@ -1872,16 +1875,21 @@
           ]
         ],
         "type": "Polygon"
-      }
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
       "properties": {
+        "fill-opacity": 0.33,
+        "fillColor": "#bfaa40",
+        "opacity": 0.33,
+        "fill": "#bfaa40",
+        "fillOpacity": 0.33,
+        "color": "#bfaa40",
+        "contour": 20,
+        "metric": "time",
         "minutes": 20,
-        "candidate": "palmas-bajo",
-        "label": "20 minutos en vehiculo",
-        "color": "#0d9488",
-        "opacity": 0.2
+        "zone": "palmas-bajo"
       },
       "geometry": {
         "coordinates": [
@@ -2571,12 +2579,12 @@
               6.206079
             ],
             [
-              -75.538749,
-              6.206249
+              -75.53875,
+              6.20625
             ],
             [
-              -75.538749,
-              6.209751
+              -75.53875,
+              6.20975
             ],
             [
               -75.540629,
@@ -2587,8 +2595,8 @@
               6.217707
             ],
             [
-              -75.542591,
-              6.217909
+              -75.542592,
+              6.217908
             ],
             [
               -75.542774,
@@ -2757,16 +2765,21 @@
           ]
         ],
         "type": "Polygon"
-      }
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
       "properties": {
+        "fill-opacity": 0.33,
+        "fillColor": "#6abf40",
+        "opacity": 0.33,
+        "fill": "#6abf40",
+        "fillOpacity": 0.33,
+        "color": "#6abf40",
+        "contour": 10,
+        "metric": "time",
         "minutes": 10,
-        "candidate": "palmas-bajo",
-        "label": "10 minutos en vehiculo",
-        "color": "#0d9488",
-        "opacity": 0.35
+        "zone": "palmas-bajo"
       },
       "geometry": {
         "coordinates": [
@@ -3044,40 +3057,40 @@
               6.204
             ],
             [
-              -75.541064,
-              6.204564
+              -75.541065,
+              6.204565
             ],
             [
               -75.540696,
               6.206196
             ],
             [
-              -75.539162,
-              6.206662
+              -75.539164,
+              6.206664
             ],
             [
-              -75.538831,
+              -75.538832,
               6.208
             ],
             [
-              -75.539162,
-              6.209338
+              -75.539164,
+              6.209336
             ],
             [
-              -75.540866,
+              -75.540865,
               6.21
             ],
             [
-              -75.541047,
+              -75.541049,
               6.216
             ],
             [
-              -75.543367,
-              6.219133
+              -75.54337,
+              6.21913
             ],
             [
-              -75.547041,
-              6.219459
+              -75.547042,
+              6.219458
             ],
             [
               -75.5485,
@@ -3182,7 +3195,9 @@
           ]
         ],
         "type": "Polygon"
-      }
+      },
+      "type": "Feature"
     }
-  ]
+  ],
+  "type": "FeatureCollection"
 }

@@ -1,14 +1,17 @@
 {
-  "type": "FeatureCollection",
   "features": [
     {
-      "type": "Feature",
       "properties": {
+        "fill-opacity": 0.33,
+        "fillColor": "#bf4040",
+        "opacity": 0.33,
+        "fill": "#bf4040",
+        "fillOpacity": 0.33,
+        "color": "#bf4040",
+        "contour": 30,
+        "metric": "time",
         "minutes": 30,
-        "candidate": "palmas-medio",
-        "label": "30 minutos en vehiculo",
-        "color": "#0d9488",
-        "opacity": 0.1
+        "zone": "palmas-medio"
       },
       "geometry": {
         "coordinates": [
@@ -890,8 +893,8 @@
               6.204197
             ],
             [
-              -75.540067,
-              6.206067
+              -75.540068,
+              6.206068
             ],
             [
               -75.53821,
@@ -906,8 +909,8 @@
               6.21
             ],
             [
-              -75.540234,
-              6.217766
+              -75.540235,
+              6.217765
             ],
             [
               -75.542074,
@@ -1312,16 +1315,21 @@
           ]
         ],
         "type": "Polygon"
-      }
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
       "properties": {
+        "fill-opacity": 0.33,
+        "fillColor": "#bfaa40",
+        "opacity": 0.33,
+        "fill": "#bfaa40",
+        "fillOpacity": 0.33,
+        "color": "#bfaa40",
+        "contour": 20,
+        "metric": "time",
         "minutes": 20,
-        "candidate": "palmas-medio",
-        "label": "20 minutos en vehiculo",
-        "color": "#0d9488",
-        "opacity": 0.2
+        "zone": "palmas-medio"
       },
       "geometry": {
         "coordinates": [
@@ -1679,40 +1687,40 @@
               6.204389
             ],
             [
-              -75.540136,
-              6.206136
+              -75.540137,
+              6.206137
             ],
             [
-              -75.53844,
-              6.20644
+              -75.538441,
+              6.206441
             ],
             [
               -75.53822,
               6.208
             ],
             [
-              -75.53844,
-              6.20956
+              -75.538441,
+              6.209559
             ],
             [
               -75.540221,
               6.21
             ],
             [
-              -75.540567,
-              6.217433
+              -75.540568,
+              6.217432
             ],
             [
               -75.542166,
               6.217834
             ],
             [
-              -75.542489,
-              6.219511
+              -75.54249,
+              6.21951
             ],
             [
-              -75.546236,
-              6.219764
+              -75.546237,
+              6.219763
             ],
             [
               -75.548,
@@ -1857,16 +1865,21 @@
           ]
         ],
         "type": "Polygon"
-      }
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
       "properties": {
+        "fill-opacity": 0.33,
+        "fillColor": "#6abf40",
+        "opacity": 0.33,
+        "fill": "#6abf40",
+        "fillOpacity": 0.33,
+        "color": "#6abf40",
+        "contour": 10,
+        "metric": "time",
         "minutes": 10,
-        "candidate": "palmas-medio",
-        "label": "10 minutos en vehiculo",
-        "color": "#0d9488",
-        "opacity": 0.35
+        "zone": "palmas-medio"
       },
       "geometry": {
         "coordinates": [
@@ -1976,8 +1989,8 @@
               6.2
             ],
             [
-              -75.543121,
-              6.206879
+              -75.542893,
+              6.206
             ],
             [
               -75.546,
@@ -1986,7 +1999,9 @@
           ]
         ],
         "type": "Polygon"
-      }
+      },
+      "type": "Feature"
     }
-  ]
+  ],
+  "type": "FeatureCollection"
 }

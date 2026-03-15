@@ -1,0 +1,1205 @@
+{
+   "html_attributions" : [],
+   "next_page_token" : "ATCDNfVT6ge7rTesFKGqLHeisc1gfXBJhHNO_MxHVFmPjrsXfpnscnENi-QgakGZ0uHoDe1Itcp2jlWHYtu17on-GnW5-6n5pSjuXDiRw1wTlqqwdN-ADbs0t_1tlhzUtiNHgOZNotMoodkhgxYQ6aLTe19NYXao0d1gtUKpYDDcU00MCxVFPr5xNfW5reKTzXhmK1cIQ6I8Z0Qldf8q2vrll9RuF0GD7ruYOCgHv7cYoSfVYcwtN_Mw4GA3dWuB3163oCkl-eX2eYwhgA-WL5J10M7I8IX4fOoFt56E7Ll8dzCjiDdS9DJZYaX-7Hj60Pr5hfm9zSHZx2FYRe65TCvd1uc1PuPvi_qf6596v-r1XqxlFPWvLXgx8gdnl5D1GIGhr5Z_QudbEwK2v1LpSv-jrVC_Ab0kBJlIOHTB4zwG9Cg4HNfz6PG1kDJg2g",
+   "results" : 
+   [
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 6.193950699999999,
+               "lng" : -75.5574488
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 6.195392880291502,
+                  "lng" : -75.5558976197085
+               },
+               "southwest" : 
+               {
+                  "lat" : 6.192694919708497,
+                  "lng" : -75.55859558029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "icon_background_color" : "#7B9EB0",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+         "international_phone_number" : "+57 604 4440795",
+         "name" : "Clínica El Rosario",
+         "photos" : 
+         [
+            {
+               "height" : 318,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/112465811226920722260\"\u003eLabmédico - Laboratorio Clínico - Laboratorio Médico de Referencia\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATCDNfVq6gZYc8LokPJe7pcRyd9f_OllSYm-lO3r3eTNnwGVv-UUA3U17elP101KMUeymB1swRdOfiGHglMNM5L_VlsXB2_eKJRU-r2UDvNyxgaxwfrk0TQeyuZG9lFDzQ8M3f07Wod2VorDLIlBDHVsbf44J8pOvqDgbb1yUjqWxvHc_rA6OuDBZHLPnGTNnSQIEpWJAC9CKPun5wZSjyj1alubf9GCGfRfIzhQfQNLCM384Krc4zB48eCH9LHkGPvKyduo5SDZgeYp0kDJPP_gghvGD6A6RZL0y3hOSQXufhkAP0pziKd7ZSeLbGhWN3hFchmwXjvc",
+               "width" : 786
+            }
+         ],
+         "place_id" : "ChIJPebK1vMoRI4R-mn4AoDQ4PM",
+         "plus_code" : 
+         {
+            "compound_code" : "5CVV+H2 Medellin, Antioquia, Colombia",
+            "global_code" : "67R65CVV+H2"
+         },
+         "rating" : 3.7,
+         "reference" : "ChIJPebK1vMoRI4R-mn4AoDQ4PM",
+         "scope" : "GOOGLE",
+         "types" : 
+         [
+            "hospital",
+            "point_of_interest",
+            "health",
+            "establishment"
+         ],
+         "user_ratings_total" : 36,
+         "vicinity" : "Carrera 20 #2 Sur 185"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 6.248909599999999,
+               "lng" : -75.5644822
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 6.250250930291504,
+                  "lng" : -75.5631436697085
+               },
+               "southwest" : 
+               {
+                  "lat" : 6.247552969708499,
+                  "lng" : -75.56584163029152
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/hospital-71.png",
+         "icon_background_color" : "#F88181",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/hospital-H_pinlet",
+         "name" : "Soma Clinic",
+         "opening_hours" : 
+         {
+            "open_now" : true
+         },
+         "photos" : 
+         [
+            {
+               "height" : 3096,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/110541435164841187777\"\u003eWilliam Garces Sierra\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATCDNfUzWBj3qyXnerTFWzKSr7e-u8Jin8EePLYt3T97CIGfjqN11fl6Q4e572C6PUEwkWaPtcJz29Uzfh7lvbauRwxSP96VL3eb-bsb-w-u7mrFGPPFwYM6Pg3N3mzBcJHlYxZvpF8nHmvt3csVMLIfXaPT0bey6B_eKXrmQmg6-T-FO6PACBuMxrvYXMPjWq09paBdJKYuxwENJG5Pa2eqhqFm841eOcjZrDwzwczqjo-vqOaPZkRyQ6WyxtL-39ynvIrpDgeC__fVvNbp9aQQNBySu-g_qrR3d5t88CREC0ek7vnAibQQm9OmVEXq6s9_jJlEL4oDbGC8pY1bLaiAXIkP6hi4h55YFlISii_2N9pmwYWW7MJ_ed-RdLDxC1F_qt6E5TeKkEBQZ51a552aNWqolz1iSyBMWtR0evA_4i_Sv94K-vgbS-hDIVGQl0tI-Xdh259irxvhm5AVHYUMx2PNdKsLzdyUdrYOgoxwDJScjFx_HMd7CTbdE1RluO3yzzQX-rydJi3waisj32STuC0o6SYSuc_BxyLNlVYVvKhotUOYCM91jDBH_8Fp9qHrtxuQCO1vEEMzNv6WQWNm8jFrDDvDda6NC4oZRbaoAVSMzMqRT4zsXFGf4byZ9aPfqPa0_ZxH",
+               "width" : 4128
+            }
+         ],
+         "place_id" : "ChIJEeAtcfgoRI4Rf9D--xJ9ARc",
+         "plus_code" : 
+         {
+            "compound_code" : "6CXP+H6 Medellin, Antioquia, Colombia",
+            "global_code" : "67R66CXP+H6"
+         },
+         "price_level" : 2,
+         "rating" : 3,
+         "reference" : "ChIJEeAtcfgoRI4Rf9D--xJ9ARc",
+         "scope" : "GOOGLE",
+         "types" : 
+         [
+            "hospital",
+            "point_of_interest",
+            "health",
+            "establishment"
+         ],
+         "user_ratings_total" : 619,
+         "vicinity" : "Calle 51 #45-93"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 6.2463767,
+               "lng" : -75.5646718
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 6.247706180291503,
+                  "lng" : -75.56329026970849
+               },
+               "southwest" : 
+               {
+                  "lat" : 6.245008219708498,
+                  "lng" : -75.56598823029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "icon_background_color" : "#7B9EB0",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+         "international_phone_number" : "+57 604 2161144",
+         "name" : "Servicios Médicos San Ignacio S.A.S",
+         "opening_hours" : 
+         {
+            "open_now" : false
+         },
+         "photos" : 
+         [
+            {
+               "height" : 1280,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/103202720501337236085\"\u003eServicios Médicos San Ignacio S.A.S\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATCDNfX4NU--5-gDG_FvJEyif0-dWOKnx5_-FlrwUdWnLG06zjtF_r6XCa1egqL2HVA5zNpTBWC2NeQpID8vLlR4pk6oyJklgviSWdVDyIGRovl7VemkMmO31Fu9ezdflDNGgM-yYBI7TE3mYyGYUnwokKWgvOlLZS4joqHAiEsvkGtT6w7C-_FmlcHtPBfuhLOm2OddoveWbQNW7TBU56Z9o_doZtr6Ea2AkuZ-yvFBQvF_BuZQTTWMDGZdTUHXRDppwdJWsyXlB3v0sI24Q71L1Ec2gxtuhacJifzK2eM4ekkmPSfZsX5LkPlNa8AFfQE-3qsK34Edg0w",
+               "width" : 1920
+            }
+         ],
+         "place_id" : "ChIJb7JtpVcoRI4RPcC7ZuP8ewo",
+         "plus_code" : 
+         {
+            "compound_code" : "6CWP+H4 Medellin, Antioquia, Colombia",
+            "global_code" : "67R66CWP+H4"
+         },
+         "rating" : 3.3,
+         "reference" : "ChIJb7JtpVcoRI4RPcC7ZuP8ewo",
+         "scope" : "GOOGLE",
+         "types" : 
+         [
+            "doctor",
+            "hospital",
+            "point_of_interest",
+            "health",
+            "establishment"
+         ],
+         "user_ratings_total" : 384,
+         "vicinity" : "Carrera 44 #48 - 51"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 6.200199099999999,
+               "lng" : -75.57511079999999
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 6.201427130291501,
+                  "lng" : -75.57382341970849
+               },
+               "southwest" : 
+               {
+                  "lat" : 6.198729169708497,
+                  "lng" : -75.5765213802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/hospital-71.png",
+         "icon_background_color" : "#F88181",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/hospital-H_pinlet",
+         "international_phone_number" : "+57 315 6561214",
+         "name" : "Spa Médica - Dr. Juan Mario Escobar",
+         "opening_hours" : 
+         {
+            "open_now" : false
+         },
+         "photos" : 
+         [
+            {
+               "height" : 458,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/113398189396729711174\"\u003eSpa Médica - Dr. Juan Mario Escobar\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATCDNfXLDPCUoqKE_NttuumTf7hX8SfqAvDSrwN4PIXvZPBDTVrPUa8l-rY0Dx3Cmp4sOBN3HWhWe8IfJKXW_NsuX07_hug6mwlRIIoXRJKOP3mFWdy-WGIKAUq-jJ1ti49mQShif9rGSv6kCsNPtgDMewre8WZuXlaoORQANlybwffQF6fxZW9zeWO3TD1Ax2SpCCTraW7fTcnpHkbRlQgUAgi8r1v094kAVqP2NyZxpw8e6tO_q18EFJgMJ171eKuReDbotQb3u4DQq8EtM7WnDWbkXBnrlGsJbpRElc5ZhZVkTn0hnYpyapnOygmehspmeV0W9p07lAg",
+               "width" : 640
+            }
+         ],
+         "place_id" : "ChIJjZeyUWeCRo4Rvf5LHlKbk3Y",
+         "plus_code" : 
+         {
+            "compound_code" : "6C2F+3X Medellin, Antioquia, Colombia",
+            "global_code" : "67R66C2F+3X"
+         },
+         "rating" : 5,
+         "reference" : "ChIJjZeyUWeCRo4Rvf5LHlKbk3Y",
+         "scope" : "GOOGLE",
+         "types" : 
+         [
+            "hospital",
+            "point_of_interest",
+            "health",
+            "establishment"
+         ],
+         "user_ratings_total" : 82,
+         "vicinity" : "Calle 6 Sur #43a-200"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 6.2252763,
+               "lng" : -75.56569739999999
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 6.226571830291502,
+                  "lng" : -75.5645592697085
+               },
+               "southwest" : 
+               {
+                  "lat" : 6.223873869708497,
+                  "lng" : -75.5672572302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/hospital-71.png",
+         "icon_background_color" : "#F88181",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/hospital-H_pinlet",
+         "international_phone_number" : "+57 604 6041445",
+         "name" : "Bluecare",
+         "opening_hours" : 
+         {
+            "open_now" : false
+         },
+         "photos" : 
+         [
+            {
+               "height" : 1920,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/108194873866001183278\"\u003eYeison Paternina Osorio\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATCDNfW5ietja9m41GYXLamJNkLYftXv7ruoRCZsmBDxvIvOgjI5aZkHPwWO3GeWmtjXtweHO3NbuU_7CvvpbvuGShvBZ5A41GsDE7Pv8gMJ80LrPcNzAT6njakZMo8nH5D-LZa_o3lLuRC9wSZx66Ooyo0oAwGMC-g4qpb88nAKblBy0tw9AnRJoAFMhNcu23BoLKX3Lu5kaAZQmItQJMSOKlllXs5aNsO5bf8yUEp-HO3mhCH8GabS21sWrelKEhWJUfkZxXowMyGX25lvFprHvClUXsS9a1GqBGFWojI0eokzkO9jkFsikt8Z7Qp4PiPvQZn7aqlP6xPD9MWR1bhmmgz8d_NHX89FrV-Ef7ARpY_2FBy2swjTopYYJ26ajOgbyxxt-20hqwTmunSjxN0sCFbazekN4P4nltyHaZuXAFGWu2yRK0un4GwFuYLPvIy7Ig3vOgXwMDzctugkrx1uTXdNIUqynhWJZI74lTD_wMV5N7WRkofGO7kdyudnxf8nAvkYIE7ij6vLRzjWGV1A01Be5H9gJfsZJJ7RpHWM1ptGD3JWRsGQA_CCfDvgnJ2B-040Wl1lYbmW1qyV8pwrA0Q7Ybf3U0yuf3IR5rkjbHhx7hJTO54ZYPddgl66t_UFKavXYg",
+               "width" : 1080
+            }
+         ],
+         "place_id" : "ChIJYXTIzzMoRI4RB460NdHjG4E",
+         "plus_code" : 
+         {
+            "compound_code" : "6CGM+4P Medellin, Antioquia, Colombia",
+            "global_code" : "67R66CGM+4P"
+         },
+         "rating" : 3.7,
+         "reference" : "ChIJYXTIzzMoRI4RB460NdHjG4E",
+         "scope" : "GOOGLE",
+         "types" : 
+         [
+            "doctor",
+            "hospital",
+            "point_of_interest",
+            "health",
+            "establishment"
+         ],
+         "user_ratings_total" : 42,
+         "vicinity" : "050016 Calle 26 # 38-26"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 6.2212507,
+               "lng" : -75.56808339999999
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 6.222411630291502,
+                  "lng" : -75.56697081970849
+               },
+               "southwest" : 
+               {
+                  "lat" : 6.219713669708498,
+                  "lng" : -75.56966878029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "icon_background_color" : "#7B9EB0",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+         "international_phone_number" : "+57 604 6040007",
+         "name" : "SICOR",
+         "opening_hours" : 
+         {
+            "open_now" : false
+         },
+         "photos" : 
+         [
+            {
+               "height" : 567,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/112118039602765585591\"\u003eCarlos Gómez\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATCDNfWH78N4w02xl1gC57J1ck4I3Qha38IHw2ibk2W7iVuMp1Wcr08az1sjfOYveSKjaQolWHZBBfeC_E07MXmcucSfKj7pqLBD_K1gUw0CIMJWf1KQY6GQQTcVQZMaJKzsf-9owbDHn8W5sFCLV3Ux9r9iMGZaToFbJX4ij8Fp0hUcGMd9ZXYKBCNwgD5iN0zxwaQSees8yGwH903zGYpFcME3HVn1C-Dg75qEQyyRgRoPSMUt0OP8nj2DTEg2KUbFmog0m4XGBifkX_fx0qpz_Z70gi9KY3pa3fFXV889WEz246HevgKP_rdZOlOPf_jeXUYLEZmTHJndJpNNw4sdLsouOzKDNV1uzfv6e-BII6ursf16FHE7uq8iFA8Bl00HCYUxFMxckxrW5_BNQg0PeYWD3GgDlZ_asAMlFr4RLg96CLAYXc-2PErudv7lWvxqpbdjIjrRIydNM1WJX69LduYD-y14W4I1WRBgVaMBwwsk_auuV_M99dQOYPgPJiXrsncK2DZRzv510pbKP1WRLeH3u8WfXipMfhMuOPBdiYnApHEqFA5ezC9vLjDNvc4Ic5cIFELpwM1YulIY_Yh4abu-qGWslcKy9uoakPYN3_7YtgKbGmDVhjefUAHE4wx8yO70_o6uGFVSKucWIXs1Bwau1Zs",
+               "width" : 750
+            }
+         ],
+         "place_id" : "ChIJCWeJ2DMoRI4RM28EKxdzoS0",
+         "plus_code" : 
+         {
+            "compound_code" : "6CCJ+GQ Medellin, Antioquia, Colombia",
+            "global_code" : "67R66CCJ+GQ"
+         },
+         "rating" : 4.5,
+         "reference" : "ChIJCWeJ2DMoRI4RM28EKxdzoS0",
+         "scope" : "GOOGLE",
+         "types" : 
+         [
+            "doctor",
+            "hospital",
+            "point_of_interest",
+            "health",
+            "establishment"
+         ],
+         "user_ratings_total" : 56,
+         "vicinity" : "Calle 19 #42 - 40"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 6.2188837,
+               "lng" : -75.5694458
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 6.220314480291502,
+                  "lng" : -75.56801451970848
+               },
+               "southwest" : 
+               {
+                  "lat" : 6.217616519708497,
+                  "lng" : -75.5707124802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/hospital-71.png",
+         "icon_background_color" : "#F88181",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/hospital-H_pinlet",
+         "international_phone_number" : "+57 44157700",
+         "name" : "Coomeva Av El Poblado",
+         "opening_hours" : 
+         {
+            "open_now" : false
+         },
+         "place_id" : "ChIJ8X_cPTIoRI4RQOpgzme3KbE",
+         "plus_code" : 
+         {
+            "compound_code" : "6C9J+H6 Medellin, Antioquia, Colombia",
+            "global_code" : "67R66C9J+H6"
+         },
+         "rating" : 2.8,
+         "reference" : "ChIJ8X_cPTIoRI4RQOpgzme3KbE",
+         "scope" : "GOOGLE",
+         "types" : 
+         [
+            "hospital",
+            "point_of_interest",
+            "health",
+            "establishment"
+         ],
+         "user_ratings_total" : 14,
+         "vicinity" : "Avenida El Poblado"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 6.217238900000001,
+               "lng" : -75.57079659999999
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 6.218571080291503,
+                  "lng" : -75.56940291970848
+               },
+               "southwest" : 
+               {
+                  "lat" : 6.215873119708498,
+                  "lng" : -75.5721008802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/hospital-71.png",
+         "icon_background_color" : "#F88181",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/hospital-H_pinlet",
+         "international_phone_number" : "+57 320 6970959",
+         "name" : "Laboratorio Abdominal",
+         "place_id" : "ChIJKV2thS0oRI4RI1mQEh4-zvg",
+         "plus_code" : 
+         {
+            "compound_code" : "6C8H+VM Medellin, Antioquia, Colombia",
+            "global_code" : "67R66C8H+VM"
+         },
+         "reference" : "ChIJKV2thS0oRI4RI1mQEh4-zvg",
+         "scope" : "GOOGLE",
+         "types" : 
+         [
+            "hospital",
+            "point_of_interest",
+            "health",
+            "establishment"
+         ],
+         "vicinity" : "Carrera 43B #1641"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 6.2152664,
+               "lng" : -75.5706277
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 6.216631830291503,
+                  "lng" : -75.56943126970849
+               },
+               "southwest" : 
+               {
+                  "lat" : 6.213933869708498,
+                  "lng" : -75.57212923029149
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/hospital-71.png",
+         "icon_background_color" : "#F88181",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/hospital-H_pinlet",
+         "international_phone_number" : "+57 601 7464646",
+         "name" : "Medical and Dental Center Colmédica El Poblado",
+         "opening_hours" : 
+         {
+            "open_now" : false
+         },
+         "photos" : 
+         [
+            {
+               "height" : 2992,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/117550895121567109930\"\u003eColmédica Medellin El Poblado - Centro Médico y Odontológico\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATCDNfU1t8IgRVScf1fS9D6QbAPMUH_BlPq_hvnQa1tf3u0OCKJ1AqtPjGEzyZ0MCvEGrRBH-ZLRMSng4Dv183UQSnbZWMZcRwRT0VI4wwsnESABOGmlV639DCsDj7VhtZj1KPq6_wTCaOiDIzhcON1zTC_tRY8ri45hm6LN3FnfhevzfgLjgrOnPVBdkVNzqeDGLG5johUYc8ShFVDi1XvDb8twFqYzbwKYNjDWtHzzs2aFoiexEN4Fz_lb7peDXcmoboUk467Bzj5IdvqFpuHx_ZjpozLWnb2QaWqsnAJRFwspQugNQkyBmS16uagVFNlgN9MZEYOjVzc",
+               "width" : 3992
+            }
+         ],
+         "place_id" : "ChIJ4ZOcyi0oRI4R_24O2ipNpBs",
+         "plus_code" : 
+         {
+            "compound_code" : "6C8H+4P Medellin, Antioquia, Colombia",
+            "global_code" : "67R66C8H+4P"
+         },
+         "rating" : 3.6,
+         "reference" : "ChIJ4ZOcyi0oRI4R_24O2ipNpBs",
+         "scope" : "GOOGLE",
+         "types" : 
+         [
+            "hospital",
+            "point_of_interest",
+            "health",
+            "establishment"
+         ],
+         "user_ratings_total" : 36,
+         "vicinity" : "Carrera 43B #14 - 44"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 6.2147792,
+               "lng" : -75.57101539999999
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 6.216133030291502,
+                  "lng" : -75.56966711970848
+               },
+               "southwest" : 
+               {
+                  "lat" : 6.213435069708497,
+                  "lng" : -75.57236508029149
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/hospital-71.png",
+         "icon_background_color" : "#F88181",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/hospital-H_pinlet",
+         "international_phone_number" : "+57 45117505",
+         "name" : "Metrosalud",
+         "opening_hours" : 
+         {
+            "open_now" : false
+         },
+         "photos" : 
+         [
+            {
+               "height" : 1570,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/117308817101184872369\"\u003eJorge Ivan Ochoa Siegert\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATCDNfVCnk1TtTkifxDqW283roW_ogGR9j-00ETBQdxNKnXvjszF0fD4ctB9SVj9FvSM4_hsf3QLIqEXlIUQT8-hkZyxpGnQWBQ_eRlebR4f-xN0k0EWD58hao2HG2hI_rAgFuHOkoCAAcblNLK5SP-yKzrVRACD3e2dxGQ80gFd_akclyENmbuSiMvxZ5zQIonHe1upKkZ8EX_BubXN6NAZyE5WIvnTsGmoTq2STHGTSF-lrCgaxeySU8M1G81AfWU1QV54gQiqS0-K5Q5T7R0YwQz-JjXTeI7Selwx6KtfF8_ekxS1pZnQsd1_NaqTqvdZlG1QXIMTfUuDoJBARIlCA8ktF0-AY6R72haSEfa-Vp8tTan0EW8fIzsyfjt3UaKV1vF_F0poleUqA_wQAyhSf2_zkW-_-_voWTS1lDLDe1qlocGIiLUC9JHkaGcsW1QHB6KGFT6DP5FuNcKZtL7Tx0fYtKSQMysDtDd3YIzVVmjg18tEdZsTkO-sRhGAL3XpbJObuxbuRb5MIKzs-zAO_dvw_mreMY0ygwL2zQ0-vMLAsmpj1J09rP_T_LgiN0DsR1Zkm6Acl8g9rCYTx1rfir_KDcCJjWQ4UnY9EO0rFlimqd8F_T-0Cec3zCY2q-OdQwfMyPDI",
+               "width" : 2338
+            }
+         ],
+         "place_id" : "ChIJsx19ViwoRI4R_B79kh-6MBo",
+         "plus_code" : 
+         {
+            "compound_code" : "6C7H+WH Medellin, Antioquia, Colombia",
+            "global_code" : "67R66C7H+WH"
+         },
+         "rating" : 3,
+         "reference" : "ChIJsx19ViwoRI4R_B79kh-6MBo",
+         "scope" : "GOOGLE",
+         "types" : 
+         [
+            "hospital",
+            "point_of_interest",
+            "health",
+            "establishment"
+         ],
+         "user_ratings_total" : 33,
+         "vicinity" : "Calle 14 #43b-9"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 6.208686399999999,
+               "lng" : -75.5700939
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 6.210048530291502,
+                  "lng" : -75.56878176970849
+               },
+               "southwest" : 
+               {
+                  "lat" : 6.207350569708497,
+                  "lng" : -75.5714797302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/hospital-71.png",
+         "icon_background_color" : "#F88181",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/hospital-H_pinlet",
+         "name" : "Evi",
+         "place_id" : "ChIJvexnQSooRI4RSiBtPpzwZJ8",
+         "plus_code" : 
+         {
+            "compound_code" : "6C5H+FX Medellin, Antioquia, Colombia",
+            "global_code" : "67R66C5H+FX"
+         },
+         "rating" : 5,
+         "reference" : "ChIJvexnQSooRI4RSiBtPpzwZJ8",
+         "scope" : "GOOGLE",
+         "types" : 
+         [
+            "hospital",
+            "point_of_interest",
+            "health",
+            "establishment"
+         ],
+         "user_ratings_total" : 1,
+         "vicinity" : "Carrera 42 #816"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 6.206414499999999,
+               "lng" : -75.5701651
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 6.207892430291501,
+                  "lng" : -75.56885121970849
+               },
+               "southwest" : 
+               {
+                  "lat" : 6.205194469708498,
+                  "lng" : -75.57154918029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/hospital-71.png",
+         "icon_background_color" : "#F88181",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/hospital-H_pinlet",
+         "international_phone_number" : "+57 43260202",
+         "name" : "Intergastro S.A. Colonoscopia y Endoscopia",
+         "opening_hours" : 
+         {
+            "open_now" : false
+         },
+         "photos" : 
+         [
+            {
+               "height" : 809,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/102408180963703275751\"\u003eIntergastro S.A. Colonoscopia y Endoscopia\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATCDNfUy9mHotn44NMEIesE5nrOHIpUvxXhjRmrY6PxsgfkM1mBeFT8IIsuXK2d7a0XobEY1RsTph3jA-tIWWanVjheBFhzSa3Qk7W4WqUhctxkx6WdTcWn1AG4zPdhYHkI2HCiqR0Fdx0-oYgEQZwYn1GZKl51BKgd46zC3m9gQgxsWAxFs-rg20WAvJd2YuiUkkwB5AO35Hl0cFS4b4esQ3h9pjestz86i3SSRn3-dIlVmFU9d73bGrRcWpG8-bkJqAKJzS0ivlhNZEMPBmlzfIcnu3D-00Xo2vL1CMMOtZRJ6yrVijmk1G98JMNEoY-RDagrE6d4ZZQE",
+               "width" : 1440
+            }
+         ],
+         "place_id" : "ChIJn9G5UvgoRI4Rq6BtW_jB9_0",
+         "plus_code" : 
+         {
+            "compound_code" : "6C4H+HW Medellin, Antioquia, Colombia",
+            "global_code" : "67R66C4H+HW"
+         },
+         "rating" : 2.7,
+         "reference" : "ChIJn9G5UvgoRI4Rq6BtW_jB9_0",
+         "scope" : "GOOGLE",
+         "types" : 
+         [
+            "hospital",
+            "doctor",
+            "point_of_interest",
+            "health",
+            "establishment"
+         ],
+         "user_ratings_total" : 188,
+         "vicinity" : "Torre Médical, Calle 7 #39-107 Piso 5"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 6.2063567,
+               "lng" : -75.570441
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 6.207826980291502,
+                  "lng" : -75.56912501970849
+               },
+               "southwest" : 
+               {
+                  "lat" : 6.205129019708497,
+                  "lng" : -75.5718229802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/hospital-71.png",
+         "icon_background_color" : "#F88181",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/hospital-H_pinlet",
+         "international_phone_number" : "+57 42683375",
+         "name" : "Art Dental Studio - Dra. Fanny Garcia Restrepo",
+         "place_id" : "ChIJQXI224GCRo4Rf0hvS9RV6vs",
+         "plus_code" : 
+         {
+            "compound_code" : "6C4H+GR Medellin, Antioquia, Colombia",
+            "global_code" : "67R66C4H+GR"
+         },
+         "reference" : "ChIJQXI224GCRo4Rf0hvS9RV6vs",
+         "scope" : "GOOGLE",
+         "types" : 
+         [
+            "hospital",
+            "point_of_interest",
+            "health",
+            "establishment"
+         ],
+         "vicinity" : "Calle 7 #215"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 6.206814,
+               "lng" : -75.5712422
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 6.207965730291503,
+                  "lng" : -75.56995941970851
+               },
+               "southwest" : 
+               {
+                  "lat" : 6.205267769708499,
+                  "lng" : -75.57265738029152
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "icon_background_color" : "#7B9EB0",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+         "international_phone_number" : "+57 604 3112800",
+         "name" : "Clinic Medellin - El Poblado",
+         "opening_hours" : 
+         {
+            "open_now" : true
+         },
+         "photos" : 
+         [
+            {
+               "height" : 2500,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/116549767405637452739\"\u003eClínica Medellín Sede El Poblado\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATCDNfXgp7FfvaqNFUeHA48RRUfzdwBCoWNe0V0iziUZ8JvcJ5qXlV66DO_PVJOC-QLkVWfynwI6QTbnomYVfroW8kCetVwMfNAM_2uC_y3DIe-6cK-MQ4aOM0IIEJvGDbj-0ilsyUKgxt-VDYS-9ZqMCB5FYnL_HhdKaqbamP8U1foj14WZDMX_705sVMqHhf6o_OgQS2szdV3E8dZ1nYjWJIvvWPPDwbtqystifN59iaIBOLrI7QP7KsZ3If6h2Umu_VEDGx-KSdDvr9ER1_FUmjzEehTqBAHPZmVxYo9Nu-f3WelmYdrQFYSfYmgKHt4m6EJw7oJVKmk",
+               "width" : 2000
+            }
+         ],
+         "place_id" : "ChIJeY_gyIGCRo4Rk9juuGDYiTA",
+         "plus_code" : 
+         {
+            "compound_code" : "6C4H+PG Medellin, Antioquia, Colombia",
+            "global_code" : "67R66C4H+PG"
+         },
+         "rating" : 3.8,
+         "reference" : "ChIJeY_gyIGCRo4Rk9juuGDYiTA",
+         "scope" : "GOOGLE",
+         "types" : 
+         [
+            "hospital",
+            "point_of_interest",
+            "health",
+            "establishment"
+         ],
+         "user_ratings_total" : 344,
+         "vicinity" : "Calle 7 #39-290"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 6.2096738,
+               "lng" : -75.57324419999999
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 6.211104780291502,
+                  "lng" : -75.57186061970849
+               },
+               "southwest" : 
+               {
+                  "lat" : 6.208406819708498,
+                  "lng" : -75.57455858029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/hospital-71.png",
+         "icon_background_color" : "#F88181",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/hospital-H_pinlet",
+         "international_phone_number" : "+57 45200140",
+         "name" : "ASTORGA ONCOLOGY CLINIC",
+         "opening_hours" : 
+         {
+            "open_now" : false
+         },
+         "photos" : 
+         [
+            {
+               "height" : 4004,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/106371748456130403447\"\u003eCLÍNICA DE ONCOLOGÍA ASTORGA\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATCDNfWEgOjkZ41nBOoDNu2x7A6auirN666OGRIr49z_oSslMXoh00huHk3pXqnsmL6y1WHhxfrC2hnny20ckz3EreUUVtQCDMuRSSrY88r9_4W01nuCuAadwwTzpXMCDNPRjgfTZjjWnWE7Oj0sF5LFvvKIXSzXAAeZz8Uk4ar6PlWJkhWd4slfX1dirZBVLXji3gMeVb1W7RndsgwqlyZo7W7qeXnnyGa1NU5nCWZc4UhT96B7Nb0cgUcX6Y2VzOk3usHDzBOhTEmAWmYVJuTrRRflzWqHxwVWagzllWpTfnpc-mGnBftkxymvUUogVeDW8vyka89V_V8",
+               "width" : 6000
+            }
+         ],
+         "place_id" : "ChIJ-zKy2CooRI4RcjUaYrIY83g",
+         "plus_code" : 
+         {
+            "compound_code" : "6C5G+VP Medellin, Antioquia, Colombia",
+            "global_code" : "67R66C5G+VP"
+         },
+         "rating" : 4,
+         "reference" : "ChIJ-zKy2CooRI4RcjUaYrIY83g",
+         "scope" : "GOOGLE",
+         "types" : 
+         [
+            "doctor",
+            "hospital",
+            "point_of_interest",
+            "health",
+            "establishment"
+         ],
+         "user_ratings_total" : 64,
+         "vicinity" : "Calle 8 #43C - 101"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 6.1975755,
+               "lng" : -75.55741279999999
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 6.198909680291503,
+                  "lng" : -75.5560140197085
+               },
+               "southwest" : 
+               {
+                  "lat" : 6.196211719708498,
+                  "lng" : -75.55871198029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/hospital-71.png",
+         "icon_background_color" : "#F88181",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/hospital-H_pinlet",
+         "international_phone_number" : "+57 304 5800322",
+         "name" : "Cf Medicina",
+         "opening_hours" : 
+         {
+            "open_now" : false
+         },
+         "photos" : 
+         [
+            {
+               "height" : 2252,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/106311767780428488922\"\u003eCf Medicina\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATCDNfVCMo8Wycl0hWHsC-NDHcXU8m5bfcHod06RV_UT9cPuwxWpb2rnZeU5t6SbwVr6HLIji5hwhr3T21eyu_Y9WiK15HTdko2q43RYvX28CizicATfxyihwhjlaxHtjNlaSTpsoyvEp4F7SaCvvJjdI4rV316nzKVIgTQI6uYYxSsjYVmvybwUSMB_FRaZpu1bY4XPAgPUQuuMFP8U65o-u-T18CHxZZHiHWekBL_OmDvgSPQUhIhA_PuY9EC_Rz0myUtOdsFZdiSF_NE2X-El02KSiyGtg1HWZHv4W9xz0fYjXnDMaq4Wl2YbdvvhSgIeu8uWbq7GJFs",
+               "width" : 4000
+            }
+         ],
+         "place_id" : "ChIJ7XPpZZqCRo4RksDu3DxhGZ8",
+         "plus_code" : 
+         {
+            "compound_code" : "5CXV+22 Medellin, Antioquia, Colombia",
+            "global_code" : "67R65CXV+22"
+         },
+         "rating" : 4.9,
+         "reference" : "ChIJ7XPpZZqCRo4RksDu3DxhGZ8",
+         "scope" : "GOOGLE",
+         "types" : 
+         [
+            "hospital",
+            "point_of_interest",
+            "health",
+            "establishment"
+         ],
+         "user_ratings_total" : 117,
+         "vicinity" : "Parque empresarial, Carrera 25a #1 - 31 Local 1112"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 6.222439199999998,
+               "lng" : -75.574856
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 6.223699180291502,
+                  "lng" : -75.57340491970848
+               },
+               "southwest" : 
+               {
+                  "lat" : 6.221001219708497,
+                  "lng" : -75.5761028802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/hospital-71.png",
+         "icon_background_color" : "#F88181",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/hospital-H_pinlet",
+         "international_phone_number" : "+57 604 5765700",
+         "name" : "Prado Clinic",
+         "opening_hours" : 
+         {
+            "open_now" : true
+         },
+         "photos" : 
+         [
+            {
+               "height" : 1200,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/101912090843810509981\"\u003eClínica del Prado S.A.S\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATCDNfXlU26TTg_MymP61Xb6rjjN1jSuwgaIgJl1NOYqKQHEUSf88I-Vv6v_kErSuhsC_4fINIwyIDJk4E3glRlSRI1laIT8dP1-O_BgpnHAL3jhQQUTi21imWc5BGDJxaOja_nLWo7d-qn_fweH26pJGzqIsvYL4LUWveWdb5ItpbsR5llZchOuKot0D5hIfTp_m-TM2Wb_WzZnKkqMDjDCi0GWMhDwEXHa04fO-cZYyafVe2NOJ7qIuYYKNqibhac5FehvDtVVxKnLeew3TxMx61gWHqX8rhbwD61O--dO5JtMBSKaYX50T1NPHCTddzPhYAfEB-5D0uy3Kp4_Ox2Kdvhwt4AJ7darvUzUrMEAR7BBP6inpfNn94V1BXojs9_GMKIVh5d37bbObUi4INedd7idr7kY6UF9kUOlS0lQAj3aawBVigRindQsUzmnpLMdoZ7sHrQ5sty96CW5xZREZjeQB2nrotSeO1Tcm7WzHTOiVq-7vQtxLLMQ2X2nJWsGzuCNBVQrxJzR3YqKLksMG8kok-VKerECl_JUfz8QqYIDdAjk1Zf6qarq2AAB2SYdr4qXRGzi9zIfigGpZWV7SMUta2JyGC-mobapZPqebi1asSF_bJ-AM3qskwWCPFRZ73jbQq0R26R6a5N_oS6cr2LzZVI",
+               "width" : 874
+            }
+         ],
+         "place_id" : "ChIJIbswVsspRI4RDLTtD03wesM",
+         "plus_code" : 
+         {
+            "compound_code" : "6CCG+X3 Medellin, Antioquia, Colombia",
+            "global_code" : "67R66CCG+X3"
+         },
+         "rating" : 2.9,
+         "reference" : "ChIJIbswVsspRI4RDLTtD03wesM",
+         "scope" : "GOOGLE",
+         "types" : 
+         [
+            "doctor",
+            "hospital",
+            "point_of_interest",
+            "health",
+            "establishment"
+         ],
+         "user_ratings_total" : 714,
+         "vicinity" : "Calle 19a #4425"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 6.2225968,
+               "lng" : -75.5748596
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 6.224312230291502,
+                  "lng" : -75.5734728697085
+               },
+               "southwest" : 
+               {
+                  "lat" : 6.221614269708498,
+                  "lng" : -75.57617083029152
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/hospital-71.png",
+         "icon_background_color" : "#F88181",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/hospital-H_pinlet",
+         "international_phone_number" : "+57 310 2576598",
+         "name" : "Torre Médica Salud y Servicios",
+         "opening_hours" : 
+         {
+            "open_now" : false
+         },
+         "photos" : 
+         [
+            {
+               "height" : 4032,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/105808382616178854868\"\u003eLuciano bartellone fernandez\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATCDNfXBmX3ektI239HSD8HGsaJink15RQ1WE6XjBjNfrPK2lXSllmLdsJlntl6se8_DTJuOnw2x5vXYOOex1jjezxfVQhIugbIC_WmVbQCjqkGE-9QJQt6-bW8or-OJI-ikVFBjjZUfBrHq_rmYEB0o0BohNI3Q2-qxx1Fm6oz4e7lXi34K9xD932CzHjYchr_7eiLzoPspedHNkRELnaIjiD3DzXlIYLegjOr_IP3IzSbVdmIVNFzXmMEa3U2CbywxlkDZ38SBn4OAA9x7MlQ3b3yuYBIk3TXctgTcIkkWM46GniXBr1IP0BGl5Hnv1blFDZAclY5rVzfXpk6hKxjgsRGPh9R7qcW7l9QwUSnYTE3LOaDzJqEzBZyANHbEqj75B9B-GDZtly_BWS79Oxyc2gCQ3VybLfIPhYlqq-vA0c-WlzqIi_aBo9-APkGRf9GpMeczut7saVorp0IYU4aHnRFP4JQEWu1yqPe6AVCd31nlgrNJkYkM3TZE63TXL9-7VKFUv4sD2oCYzE21Vpy_6U9emOLw5n6mSbr-vLjuX98PaS5aWposIm3qC1mQAzcIvodAJpREtqgyp8nzidt9ttaaEam1MOXYQcKwOAZog2ZO3AX2lPxRMGOzz83SDsQqnWy94jH8",
+               "width" : 3024
+            }
+         ],
+         "place_id" : "ChIJG-cvVsspRI4RnDw6l0wTYx8",
+         "plus_code" : 
+         {
+            "compound_code" : "6CFG+23 Medellin, Antioquia, Colombia",
+            "global_code" : "67R66CFG+23"
+         },
+         "rating" : 3.5,
+         "reference" : "ChIJG-cvVsspRI4RnDw6l0wTYx8",
+         "scope" : "GOOGLE",
+         "types" : 
+         [
+            "hospital",
+            "point_of_interest",
+            "health",
+            "establishment"
+         ],
+         "user_ratings_total" : 74,
+         "vicinity" : "Calle 19a #44-25"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 6.1974567,
+               "lng" : -75.558218
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 6.198900080291503,
+                  "lng" : -75.55677376970849
+               },
+               "southwest" : 
+               {
+                  "lat" : 6.196202119708499,
+                  "lng" : -75.55947173029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/hospital-71.png",
+         "icon_background_color" : "#F88181",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/hospital-H_pinlet",
+         "international_phone_number" : "+57 318 3282507",
+         "name" : "Cirugía Plástica Medellin /Colombia Plastic Esthetic International",
+         "opening_hours" : 
+         {
+            "open_now" : false
+         },
+         "photos" : 
+         [
+            {
+               "height" : 853,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/116327912962517465097\"\u003eCirugía Plástica Medellin /Colombia Plastic Esthetic International\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATCDNfUTzmbZSVwK7cNfwa1PtqjxYy9r2lDCsukHUG7AyMcAG49qfm-pJcP6SwLKNxxInU7jrqfb6_FzqZGymufnSvib74N4GZa9ySoBElA-JrQAK4_pTTiSoVldgEsY6WUdcAtUdfiJloOuSdqg9dWMLLbzwVBnyfgoR6jCKsSip3zQZ3t-8jLTGtBUTjq_vPPMK1-1WyC0zUj2pRbjN-fME-gCflp6SQve2kXAIb5p_z9UMQ9JWAVnaoZcq-gQOwDUeGJvNpDYZ6b1KVTCx28HsQSqbSH9eESnIXIAYJSoLFvvT5eppQ3HHHIxoFQ2MSIhjTu1pvXBnrU",
+               "width" : 1280
+            }
+         ],
+         "place_id" : "ChIJ7VhzGZqCRo4RkoIgLOEV4U8",
+         "plus_code" : 
+         {
+            "compound_code" : "5CWR+XP Medellin, Antioquia, Colombia",
+            "global_code" : "67R65CWR+XP"
+         },
+         "rating" : 4.9,
+         "reference" : "ChIJ7VhzGZqCRo4RkoIgLOEV4U8",
+         "scope" : "GOOGLE",
+         "types" : 
+         [
+            "hospital",
+            "point_of_interest",
+            "health",
+            "establishment"
+         ],
+         "user_ratings_total" : 529,
+         "vicinity" : "Edificio Platinum Superior Consultorio 1243, Carrera 25a #1A SUR-45"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 6.1971014,
+               "lng" : -75.56024649999999
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 6.198480080291501,
+                  "lng" : -75.5588991697085
+               },
+               "southwest" : 
+               {
+                  "lat" : 6.195782119708497,
+                  "lng" : -75.56159713029152
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/hospital-71.png",
+         "icon_background_color" : "#F88181",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/hospital-H_pinlet",
+         "international_phone_number" : "+57 604 3211010",
+         "name" : "Torre Medica El Tesoro",
+         "opening_hours" : 
+         {
+            "open_now" : true
+         },
+         "photos" : 
+         [
+            {
+               "height" : 3024,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/116744578275030379913\"\u003eBairon Calle Rivera\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATCDNfUUytV-vsQqJA8jbnVhKeuP72m9cleJJ1fQuivRJ0mWJcgaIoA9bVxXmiZQeHzTH22ZA92hyXucj72VhGl7ZxnV8G0VVa8rH3ef5mTEOPLR0aTTbb64oLcvOcgqfPK3AoWJWrfQe1C5X7nCxt97LW2gxTMf12heBGeobG21eyQA0cEPmtrsJYAFImH2EoVaUHcUH40y9Fl-s_8AkNWsQBDVMBt2pujA0JdJPxXbftwTYi_lu9yLn0NmTjgZWrib3p-kPNFqSz5Sut40WTzB9_ET-n2zTalOWlW97v6f6uDFvYm8lrgWPGjETJKNdZIGgTHImWnhqXEC4YcdkDTwm0iZOy1uw7rEIE68Ad_3Pr06yXM6Mz30EZo5USOlXn6nM-D_d5rL7iCNy_rrb5Zl9TyNUWaBIyG4LV1f95uhCu2rvQ2jUUFPSCq1j7-RseLSaww6i2uO7JCgmYr1gfYZp6-l4aL4pcAdbklJ5h2HFOIP-FXnhsMNnG0WWmycmigsLLy57Ui2WTg6yxoyX9Z4qlcM2vDnLh6c2v0pCEGha3DHYrLqQpIZFx2MprP8Yti7eTg5d4NhtO9Is9t_ECzFBBu8UOi-xW0qavZyARmmmIA4tI1CZOwwrQSChALZLQIbTwPq-g",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJc6UjYJqCRo4R40FEg-YTiNY",
+         "plus_code" : 
+         {
+            "compound_code" : "5CWQ+RW Medellin, Antioquia, Colombia",
+            "global_code" : "67R65CWQ+RW"
+         },
+         "rating" : 4.7,
+         "reference" : "ChIJc6UjYJqCRo4R40FEg-YTiNY",
+         "scope" : "GOOGLE",
+         "types" : 
+         [
+            "hospital",
+            "point_of_interest",
+            "health",
+            "establishment"
+         ],
+         "user_ratings_total" : 111,
+         "vicinity" : "Carrera 25a #1A Sur - 45"
+      }
+   ],
+   "status" : "OK"
+}

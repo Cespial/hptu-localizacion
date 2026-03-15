@@ -1,0 +1,452 @@
+{
+   "html_attributions" : [],
+   "results" : 
+   [
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 6.0305708,
+               "lng" : -75.43257199999999
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 6.031887880291503,
+                  "lng" : -75.43123311970849
+               },
+               "southwest" : 
+               {
+                  "lat" : 6.029189919708498,
+                  "lng" : -75.43393108029152
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/hospital-71.png",
+         "icon_background_color" : "#F88181",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/hospital-H_pinlet",
+         "international_phone_number" : "+57 4482444",
+         "name" : "Santa Maria IPS",
+         "opening_hours" : 
+         {
+            "open_now" : false
+         },
+         "place_id" : "ChIJR-0O5FKXRo4Rsu2WO07CIWs",
+         "plus_code" : 
+         {
+            "compound_code" : "2HJ8+6X La Ceja, Antioquia, Colombia",
+            "global_code" : "67R62HJ8+6X"
+         },
+         "rating" : 2.7,
+         "reference" : "ChIJR-0O5FKXRo4Rsu2WO07CIWs",
+         "scope" : "GOOGLE",
+         "types" : 
+         [
+            "hospital",
+            "point_of_interest",
+            "health",
+            "establishment"
+         ],
+         "user_ratings_total" : 3,
+         "vicinity" : "Calle 19 #21-48"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 6.0961609,
+               "lng" : -75.46972559999999
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 6.097503130291503,
+                  "lng" : -75.46839361970849
+               },
+               "southwest" : 
+               {
+                  "lat" : 6.094805169708498,
+                  "lng" : -75.4710915802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/hospital-71.png",
+         "icon_background_color" : "#F88181",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/hospital-H_pinlet",
+         "international_phone_number" : "+57 45420610",
+         "name" : "Fundacion Ipsi",
+         "place_id" : "ChIJs1D7VaObRo4RL0XkMn-v6MU",
+         "plus_code" : 
+         {
+            "compound_code" : "3GWJ+F4 Retiro, Antioquia, Colombia",
+            "global_code" : "67R63GWJ+F4"
+         },
+         "reference" : "ChIJs1D7VaObRo4RL0XkMn-v6MU",
+         "scope" : "GOOGLE",
+         "types" : 
+         [
+            "hospital",
+            "point_of_interest",
+            "health",
+            "establishment"
+         ],
+         "vicinity" : ""
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 6.0314415,
+               "lng" : -75.42705629999999
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 6.032863880291502,
+                  "lng" : -75.42571716970849
+               },
+               "southwest" : 
+               {
+                  "lat" : 6.030165919708497,
+                  "lng" : -75.42841513029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/hospital-71.png",
+         "icon_background_color" : "#F88181",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/hospital-H_pinlet",
+         "international_phone_number" : "+57 5535875",
+         "name" : "IPS LABORAMOS",
+         "opening_hours" : 
+         {
+            "open_now" : false
+         },
+         "place_id" : "ChIJm0KbF7mXRo4RGZuHaKvcPEU",
+         "plus_code" : 
+         {
+            "compound_code" : "2HJF+H5 La Ceja, Antioquia, Colombia",
+            "global_code" : "67R62HJF+H5"
+         },
+         "reference" : "ChIJm0KbF7mXRo4RGZuHaKvcPEU",
+         "scope" : "GOOGLE",
+         "types" : 
+         [
+            "hospital",
+            "point_of_interest",
+            "health",
+            "establishment"
+         ],
+         "vicinity" : "Calle 22 #15a 15"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 6.030179899999999,
+               "lng" : -75.4305686
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 6.031528880291502,
+                  "lng" : -75.42921961970849
+               },
+               "southwest" : 
+               {
+                  "lat" : 6.028830919708497,
+                  "lng" : -75.4319175802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/hospital-71.png",
+         "icon_background_color" : "#F88181",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/hospital-H_pinlet",
+         "international_phone_number" : "+57 312 2375408",
+         "name" : "Dra. Lina María Ortiz Espinal",
+         "photos" : 
+         [
+            {
+               "height" : 457,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/109305337982754551193\"\u003eDra. Lina María Ortiz Espinal\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATCDNfW5yrAkTD3_i1-6STxm0bOYKnk625cm32hzToMylSUdkK_HfCCJ3kJToUCc6t8Hl-V_i5mxk9FvXfhDdWyAvooLrOyXq_6XSMuK7pU7aQBnaM9heKQtMnuzLh2aYC2pRP-Xk63doheblBI5GKQc8jPtKgWeEvmKDDaNgzZHu53wbYLv6JiYi_o_EYIA5kd-9IWDdNCNqlQDoOFr7uNPgfG8x2VxGndLaCEZjpHH1Z9955TnD2BoyaIu_ksy5sSvqGWzDqD0w2gEkR5OG6HlMUmVq-BxEbA0YVv5D2DWSjEpLK99dDrEV7g0N-PVSzmT5AgSHuTlinY",
+               "width" : 403
+            }
+         ],
+         "place_id" : "ChIJLVIRQBKXRo4RBr506pbe918",
+         "plus_code" : 
+         {
+            "compound_code" : "2HJ9+3Q La Ceja, Antioquia, Colombia",
+            "global_code" : "67R62HJ9+3Q"
+         },
+         "reference" : "ChIJLVIRQBKXRo4RBr506pbe918",
+         "scope" : "GOOGLE",
+         "types" : 
+         [
+            "hospital",
+            "point_of_interest",
+            "health",
+            "establishment"
+         ],
+         "vicinity" : "Medellín, Cra. 19. 19 - 33, La Ceja"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 6.030179899999999,
+               "lng" : -75.4305686
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 6.031522480291502,
+                  "lng" : -75.4291993697085
+               },
+               "southwest" : 
+               {
+                  "lat" : 6.028824519708498,
+                  "lng" : -75.43189733029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/hospital-71.png",
+         "icon_background_color" : "#F88181",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/hospital-H_pinlet",
+         "international_phone_number" : "+57 305 3616287",
+         "name" : "Integra Experiencias",
+         "opening_hours" : 
+         {
+            "open_now" : false
+         },
+         "photos" : 
+         [
+            {
+               "height" : 2000,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/101500155150250706141\"\u003eIntegra Experiencias\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATCDNfWUQwo_t91wPF9ovvoygAI8QefrOx1TwqAlWwG_SHQIqskLMTauWLe2fKL6XaASfuSNJ_HUvbdpUoKys_Oo3BcfiiN8gY4VtnzIPfNcBq5opXspSM8hjplfrqLYZEgBhLZv6bWKMxrZHlNLeeK9FgZdrUnqiB-fXt5PkF4RVnXs1B8_tKogNyiNv6g4puUrxwWA5s9ABQPs6KqVFgKwC_N6F8pjIiS764TOlLrpZu0NTs7NQ8Pyhv9us__aqdsYqn-mv7_MHewQx0rhJAX_7187vRx4Znv_889X7vcBkshd2IMgjEix0zm2h5NoBrdbI_NoilJpNAg",
+               "width" : 2000
+            }
+         ],
+         "place_id" : "ChIJXyRY9K2XRo4RNlYM1o47kl8",
+         "plus_code" : 
+         {
+            "compound_code" : "2HJ9+3Q La Ceja, Antioquia, Colombia",
+            "global_code" : "67R62HJ9+3Q"
+         },
+         "rating" : 5,
+         "reference" : "ChIJXyRY9K2XRo4RNlYM1o47kl8",
+         "scope" : "GOOGLE",
+         "types" : 
+         [
+            "hospital",
+            "point_of_interest",
+            "health",
+            "establishment"
+         ],
+         "user_ratings_total" : 2,
+         "vicinity" : "Carrera 19 # 19 - 33 oficina 111"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 6.028238799999999,
+               "lng" : -75.4313547
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 6.029658680291501,
+                  "lng" : -75.42998386970849
+               },
+               "southwest" : 
+               {
+                  "lat" : 6.026960719708496,
+                  "lng" : -75.4326818302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/hospital-71.png",
+         "icon_background_color" : "#F88181",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/hospital-H_pinlet",
+         "international_phone_number" : "+57 45531444",
+         "name" : "State Social Enterprise Hospital of La Ceja",
+         "opening_hours" : 
+         {
+            "open_now" : true
+         },
+         "photos" : 
+         [
+            {
+               "height" : 570,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/105916086793877349792\"\u003eJarol Del Rio\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATCDNfUIjrTsxPtDQl05Sgwx4SCMnekY48Fu8jmpdWg1ZA4jeLsKye1e6ac6vtVJ8tXkdQ9HBDpeBGmSxVT37-tZgthJZUNvBXR4hF6IH8hzhLM7Zw1IBwj-a_8s3fg6Q9BjafXiCPcSkpTOUyEWr6ARQekWImmsLsvVO9WXe6TyvzWYFM50sOQ7PKDg-AUAU3vJmqLV9KNao0rpum0w1BztNXQV5Tim2S0qN9iiHJlQR1zRqM5QOFg28i02-RKDB34yzMe9Vew97Yt_aW6Lo3s4Bd9OiT_Ex7vTBu2nMLnJNKl7Mi_SamEbugFLV7NsN29mkLqPyyN1iu7-7ZwVcDUdxO-kOB92twg-nVfA9cBqAiriaJKH0G-HMEwZUsAE1EcE-ExXL2nBHB1kTrfz9B9mNtYuYu2tptmCYiGgQ_ep_vwIkPoLyMwKXqC7yyWqvGJZwSWqvbNV5cUGba7qSfr7cP3oD_dOUEjXkvO81tyNXhnWP8LrnUUm2Le_XfGLpXmHkxt2lIwssGE7_IOGBZXyacarnLJe4sjSWIW60Lb_JPIT-xvCJ2JhQ1LtDFqL1_qdOWSew_nwfx3DCpMVVMKB2hiFd6CmWQ0x5uuNvHKLwozRZXvEPKJ1ODHIyurC6L-9DRxNoJ_S",
+               "width" : 854
+            }
+         ],
+         "place_id" : "ChIJ5VCBgE2XRo4RiT46a2OiZRw",
+         "plus_code" : 
+         {
+            "compound_code" : "2HH9+7F La Ceja, Antioquia, Colombia",
+            "global_code" : "67R62HH9+7F"
+         },
+         "rating" : 3.1,
+         "reference" : "ChIJ5VCBgE2XRo4RiT46a2OiZRw",
+         "scope" : "GOOGLE",
+         "types" : 
+         [
+            "hospital",
+            "point_of_interest",
+            "health",
+            "establishment"
+         ],
+         "user_ratings_total" : 42,
+         "vicinity" : "Calle 17 #19 - 55"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 6.0350514,
+               "lng" : -75.3859748
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 6.036394380291504,
+                  "lng" : -75.38468581970849
+               },
+               "southwest" : 
+               {
+                  "lat" : 6.033696419708499,
+                  "lng" : -75.38738378029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/hospital-71.png",
+         "icon_background_color" : "#F88181",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/hospital-H_pinlet",
+         "name" : "Clinica Occidente",
+         "photos" : 
+         [
+            {
+               "height" : 3984,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/110582369354286193855\"\u003eLeonardo Cardona\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATCDNfUSb4Mq9Li_NGF4EUSqj7K0brUjYGZsREU-rPec3zowVmbDnsdexSM-5XzEltOwS58pbcBIHpEerHLgZJo4zM2MCg_bnOWY-_avX1N-7OI-pQiDi8p07Q55WpR4aYVwqWzKtoNj-CwIodmWAlvMIPflhzoXHw86URGwcT--OQs8YvJbedVjL43cceuaXmTwqFT7nBSZfMKECJEHetBaSnY-6_JCsKxVRKgpzWyDLiXZjdtbyzdUCffsNPaCysopjKaMETFhYLG3VXwJR8wxyqG8dqQtNyLCUoiCAgjv7prf_BNQBjOs5x0uajfURta6eQK9CPzomgbMA29apCQ321XYx1gTPvg7rdVSjZwWR666r2oHOiuIs_pAHSfCeiO68NhfBORtr9-eOtmD5B-Iy61r333zHAF2qZf7m2SviUsGXwi70XMWxv4X1iEKYdaaaGrsnmWss48eyj_OentSFSJmph0i-YbTiyh8K1sgudhc0P4U_OiAGpZSIxMpdXA8WJzjBU05ESnjitIUzWb2Z5dQhUc6vfyFOitEUsH6gzgrUq4e70bcdcuKIV9g3o7qrniDwA9W-YPFzaMB2ZsUvQ-KHdmLbZol-CnGm2D_tyGMsxTkDqQOotMb1mNQ8jKQeg5MSw",
+               "width" : 2988
+            }
+         ],
+         "place_id" : "ChIJ7wH4S4CXRo4RyF6-7zj8-6I",
+         "plus_code" : 
+         {
+            "compound_code" : "2JP7+2J La Ceja, Antioquia, Colombia",
+            "global_code" : "67R62JP7+2J"
+         },
+         "reference" : "ChIJ7wH4S4CXRo4RyF6-7zj8-6I",
+         "scope" : "GOOGLE",
+         "types" : 
+         [
+            "hospital",
+            "point_of_interest",
+            "health",
+            "establishment"
+         ],
+         "vicinity" : ""
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 6.120839999999999,
+               "lng" : -75.42595
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 6.122277630291502,
+                  "lng" : -75.4242963197085
+               },
+               "southwest" : 
+               {
+                  "lat" : 6.119579669708497,
+                  "lng" : -75.42699428029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/hospital-71.png",
+         "icon_background_color" : "#F88181",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/hospital-H_pinlet",
+         "international_phone_number" : "+506 2550 4591",
+         "name" : "Centro Diurno Llano Grande",
+         "opening_hours" : 
+         {
+            "open_now" : false
+         },
+         "photos" : 
+         [
+            {
+               "height" : 1080,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/108635921366261274166\"\u003eVeronica Hernandez\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATCDNfWW-QQCWMsF3Fp_Rlu5-k5OrN7bk3SXiSO_7Ohnv1KZ-0d6AS2tTntMTvEXJAYQI5CXEvgfWnvuJOzonDYodRbRocaJgW0kEdCPOGZwX_e2TPS8ozpH_jRDvMAM04eqKGLrIXUpY-weMjlA56DJERBfzrpdJ7PX2MkRfdykiy2exakVXEPks_H3id-UWKYU5CXbvX2WrUGGkkOrY2h-1SmL-zGOXNJNeUH_PaJuRpucfLEECWDRYdhsVk5UQ0MUkVKcElq67tbXm5bGmVE3g11Z_mUHPArSGB6-W3K0vLPT2XqJscs1O6V7IiudgF0i7hEmJrAkfaG2w-jBfV_moVSsVMqAu5aYnyczaISdi60W-cLrGd0RuBEwJi7hJhr65AuMoAMoLlnnFVx9oEcIA0ZpZKlWds-ReYzXRkDrUbEsJXhuH3WNl7Jpf0ttcFd9dlunc9G2CNcaQtAx-t7hXRWzzHt_e6XAXrocmlvx00HlAaGilhsS5-89Ej2ipAxFmf6KjsH1iuoclRf6YCJjnzHb-zifewnEGGpjQhU3pK2_Evk7xJm7wE2lAEo_RR5am4Tms02eDkEYTioM2yjFyYphJMQ2SyQ13pCHOjPCe5-WCtaNhLICjBZFoSL9_4mr",
+               "width" : 1920
+            }
+         ],
+         "place_id" : "ChIJqTn7QA-fRo4R1NTZTWBhNB8",
+         "plus_code" : 
+         {
+            "compound_code" : "4HCF+8J Rionegro, Antioquia, Colombia",
+            "global_code" : "67R64HCF+8J"
+         },
+         "reference" : "ChIJqTn7QA-fRo4R1NTZTWBhNB8",
+         "scope" : "GOOGLE",
+         "types" : 
+         [
+            "hospital",
+            "point_of_interest",
+            "health",
+            "establishment"
+         ],
+         "vicinity" : ""
+      }
+   ],
+   "status" : "OK"
+}

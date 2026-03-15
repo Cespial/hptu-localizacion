@@ -1,0 +1,63 @@
+{
+  "proyecciones_poblacion": [
+    {
+      "name": "MEN_ESTADISTICAS_EN_EDUCACION_EN_PREESCOLAR, BÁSICA Y MEDIA_POR_MUNICIPIO",
+      "id": "nudc-7mev",
+      "type": "dataset"
+    },
+    {
+      "name": "Cobertura de Afiliación al Sistema General de Seguridad Social en Salud - Departamento del Valle del Cauca",
+      "id": "23gb-dhmd",
+      "type": "dataset"
+    },
+    {
+      "name": "Proyecciones Población 2018-2023 - Municipio de Guarne",
+      "id": "kynu-zvgy",
+      "type": "dataset"
+    },
+    {
+      "name": "Proyección demográfica del Municipio de Sabaneta",
+      "id": "pfng-8k8d",
+      "type": "dataset"
+    },
+    {
+      "name": "PROYECCIÓN DE POBLACIÓN MUNICIPAL DE CHIQUINQUIRÁ 2018 A 2035 CNPV 2018 DANE",
+      "id": "stc8-i9y9",
+      "type": "dataset"
+    },
+    {
+      "name": "MEN_ESTADISTICAS_EN_EDUCACION_EN_PREESCOLAR, BÁSICA Y MEDIA_POR_DEPARTAMENTO",
+      "id": "ji8i-4anb",
+      "type": "dataset"
+    },
+    {
+      "name": "VISTA ESTADISTICAS EN EDUCACIÓN BASICA-PEREIRA",
+      "id": "gvna-2aij",
+      "type": "filter"
+    },
+    {
+      "name": "Resguardos Indígenas a Nivel Nacional 2020",
+      "id": "epzt-64uw",
+      "type": "dataset"
+    },
+    {
+      "name": "VISTA CHIQUINQUIRÁ",
+      "id": "juzf-q9v2",
+      "type": "filter"
+    },
+    {
+      "name": "MEN_ESTADISTICAS_EN_EDUCACION_EN_PREESCOLAR, BÁSICA Y MEDIA_POR_ETC",
+      "id": "sras-4t5p",
+      "type": "dataset"
+    }
+  ],
+  "estratificacion": [],
+  "zona_franca": [],
+  "trafico_aereo": [
+    {
+      "name": "Operaciones aéreas acumuladas en Colombia",
+      "id": "jh8x-n6h6",
+      "type": "dataset"
+    }
+  ]
+}

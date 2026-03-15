@@ -1,0 +1,207 @@
+[
+  {
+    "name": "Clinica Las Americas",
+    "formatted_address": "Dg. 75B #2A-80/140, Medellín, Belén, Medellín, Antioquia, Colombia",
+    "lat": 6.2139976,
+    "lng": -75.59466739999999,
+    "rating": 3.7,
+    "user_ratings_total": 757,
+    "types": [
+      "establishment",
+      "health",
+      "hospital",
+      "point_of_interest"
+    ],
+    "website": "http://clinicalasamericas.lasamericas.com.co/",
+    "formatted_phone_number": "3421010",
+    "source_file": "detail_las_americas.json"
+  },
+  {
+    "name": "Clínica Somer",
+    "formatted_address": "Cl. 38 #No. 54A-35, Rionegro, Antioquia, Colombia",
+    "lat": 6.1406917,
+    "lng": -75.37751639999999,
+    "rating": 3.7,
+    "user_ratings_total": 372,
+    "types": [
+      "establishment",
+      "health",
+      "hospital",
+      "point_of_interest"
+    ],
+    "website": "https://www.clinicasomer.com/",
+    "formatted_phone_number": "(604) 6052626",
+    "source_file": "detail_somer.json"
+  },
+  {
+    "name": "Ophthalmological Clinic Specialties",
+    "formatted_address": "Cra 48A #10 sur 9, El Poblado, Medellín, El Poblado, Medellín, Antioquia, Colombia",
+    "lat": 6.1969257,
+    "lng": -75.5791438,
+    "rating": 3.7,
+    "user_ratings_total": 365,
+    "types": [
+      "establishment",
+      "health",
+      "hospital",
+      "point_of_interest"
+    ],
+    "website": "http://www.ceomedellin.com/",
+    "formatted_phone_number": "312 3480969",
+    "source_file": "detail_oftalmologica_esp.json"
+  },
+  {
+    "name": "Las Américas Clínica Del Sur",
+    "formatted_address": "Tv 27A Sur #42 B 111, Zona 2, Envigado, Antioquia, Colombia",
+    "lat": 6.178727299999999,
+    "lng": -75.583732,
+    "rating": 3.3,
+    "user_ratings_total": 269,
+    "types": [
+      "establishment",
+      "health",
+      "hospital",
+      "point_of_interest"
+    ],
+    "website": "https://clinicalasamericas.lasamericas.com.co/Sedes/Sede-Sur",
+    "formatted_phone_number": "(604) 3421010",
+    "source_file": "detail_americas_sur.json"
+  },
+  {
+    "name": "Hospital San Juan de Dios de Rionegro",
+    "formatted_address": "Cra. 48 #56-59, Rionegro, Antioquia, Colombia",
+    "lat": 6.1584271,
+    "lng": -75.3709739,
+    "rating": 2.4,
+    "user_ratings_total": 216,
+    "types": [
+      "establishment",
+      "health",
+      "hospital",
+      "point_of_interest"
+    ],
+    "website": "http://www.eserionegro.gov.co/",
+    "formatted_phone_number": "45313700",
+    "source_file": "detail_san_juan_rionegro.json"
+  },
+  {
+    "name": "City Medica",
+    "formatted_address": "Cra 55A #35-227 local 123, Rionegro, Antioquia, Colombia",
+    "lat": 6.1402011,
+    "lng": -75.3787536,
+    "rating": 4.3,
+    "user_ratings_total": 114,
+    "types": [
+      "establishment",
+      "health",
+      "hospital",
+      "point_of_interest"
+    ],
+    "website": null,
+    "formatted_phone_number": null,
+    "source_file": "detail_city_medica.json"
+  },
+  {
+    "name": "Clínica del Campestre",
+    "formatted_address": "Cl. 17 Sur #44 06, El Poblado, Medellín, El Poblado, Medellín, Antioquia, Colombia",
+    "lat": 6.187839599999999,
+    "lng": -75.5785487,
+    "rating": 4.2,
+    "user_ratings_total": 100,
+    "types": [
+      "doctor",
+      "establishment",
+      "health",
+      "hospital",
+      "point_of_interest"
+    ],
+    "website": "http://www.clinicadelcampestre.com/",
+    "formatted_phone_number": "(604) 4442006",
+    "source_file": "detail_campestre.json"
+  },
+  {
+    "name": "Hospital La Candelaria Guarne",
+    "formatted_address": "Cra. 52 #52-188, Guarne, Antioquia, Colombia",
+    "lat": 6.2812366,
+    "lng": -75.4454643,
+    "rating": 2.9,
+    "user_ratings_total": 44,
+    "types": [
+      "establishment",
+      "health",
+      "hospital",
+      "point_of_interest"
+    ],
+    "website": "http://hospitalguarne.com/",
+    "formatted_phone_number": "(604) 4408701",
+    "source_file": "detail_guarne.json"
+  },
+  {
+    "name": "State Social Enterprise Hospital of La Ceja",
+    "formatted_address": "Cl. 17 #19 - 55, La Ceja, Antioquia, Colombia",
+    "lat": 6.0282388,
+    "lng": -75.4313547,
+    "rating": 3.1,
+    "user_ratings_total": 42,
+    "types": [
+      "establishment",
+      "health",
+      "hospital",
+      "point_of_interest"
+    ],
+    "website": "http://www.hospitallaceja.gov.co/",
+    "formatted_phone_number": "45531444",
+    "source_file": "detail_hospital_la_ceja.json"
+  },
+  {
+    "name": "Hospital San Juan De Dios",
+    "formatted_address": "Cl. 19 #2865, El Carmen de Viboral, Antioquia, Colombia",
+    "lat": 6.075207,
+    "lng": -75.33194979999999,
+    "rating": 3.1,
+    "user_ratings_total": 23,
+    "types": [
+      "establishment",
+      "health",
+      "hospital",
+      "point_of_interest"
+    ],
+    "website": "https://hospitalcarmenv.gov.co/site/",
+    "formatted_phone_number": "45434343",
+    "source_file": "detail_hospital_carmen.json"
+  },
+  {
+    "name": "OrienteSalud",
+    "formatted_address": "Urb. Altos del lago, Calle 63A # 47-25, Rionegro, Antioquia, Colombia",
+    "lat": 6.1615313,
+    "lng": -75.368595,
+    "rating": 2.4,
+    "user_ratings_total": 22,
+    "types": [
+      "establishment",
+      "health",
+      "hospital",
+      "point_of_interest"
+    ],
+    "website": "http://www.orientesalud.co/",
+    "formatted_phone_number": "(604) 5595615",
+    "source_file": "detail_orientesalud.json"
+  },
+  {
+    "name": "Clínica Clofán sede Oriente",
+    "formatted_address": "Centro Comercial Savanna Plaza, Cl. 42 #Local 128, Rionegro, Antioquia, Colombia",
+    "lat": 6.1464532,
+    "lng": -75.3796105,
+    "rating": 3.4,
+    "user_ratings_total": 16,
+    "types": [
+      "establishment",
+      "health",
+      "hospital",
+      "point_of_interest"
+    ],
+    "website": "http://www.clofan.com/",
+    "formatted_phone_number": "(604) 4440090",
+    "source_file": "detail_clofan_oriente.json"
+  }
+]

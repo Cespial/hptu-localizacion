@@ -1,0 +1,229 @@
+{
+   "html_attributions" : [],
+   "results" : 
+   [
+      {
+         "business_status" : "OPERATIONAL",
+         "formatted_address" : "Dg. 75B #2A-80/140, Medellín, Belén, Medellín, Antioquia, Colombia",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 6.2139976,
+               "lng" : -75.59466739999999
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 6.215394880291502,
+                  "lng" : -75.5936991197085
+               },
+               "southwest" : 
+               {
+                  "lat" : 6.212696919708497,
+                  "lng" : -75.59639708029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/hospital-71.png",
+         "icon_background_color" : "#F88181",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/hospital-H_pinlet",
+         "name" : "Clinica Las Americas",
+         "opening_hours" : 
+         {
+            "open_now" : true
+         },
+         "photos" : 
+         [
+            {
+               "height" : 576,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/118289675696826594539\"\u003eClínica Las Américas Auna\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATCDNfWf6wv5iyeLPCaMUbQyG2NdGWcDQpqnMwCBRtOLDdg8p8YuHjpzmgXTEVp3orCr-3dG2dG-atsT2bO0yimC-usOyMni811ZHQis4mh5ViAQ0Y3G9btauwiWnz05bpo-ihOZhTqNawoXzNa8atcR6Ne_pkiII-VxZRi8GmLgwolcymhmY2Ph34oHNZvIiBEZ3c4j9DTdJ2S-9JhVLF129pODqbBkg0FfhS7dFO962C7dOZs6p25q9VmLfwmJt5GrtdrUoxznd8Ydfn6piLigKeJhPXQpvkkQ0pVxp5U3rQsjSA",
+               "width" : 1280
+            }
+         ],
+         "place_id" : "ChIJNRigOdwpRI4RXK_pHr4aWoM",
+         "plus_code" : 
+         {
+            "compound_code" : "6C74+H4 Medellin, Antioquia, Colombia",
+            "global_code" : "67R66C74+H4"
+         },
+         "rating" : 3.7,
+         "reference" : "ChIJNRigOdwpRI4RXK_pHr4aWoM",
+         "types" : 
+         [
+            "establishment",
+            "health",
+            "hospital",
+            "point_of_interest"
+         ],
+         "user_ratings_total" : 757
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "formatted_address" : "Tv 27A Sur #42 B 111, Zona 2, Envigado, Antioquia, Colombia",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 6.178727299999999,
+               "lng" : -75.583732
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 6.180112080291503,
+                  "lng" : -75.58232431970849
+               },
+               "southwest" : 
+               {
+                  "lat" : 6.177414119708498,
+                  "lng" : -75.5850222802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/hospital-71.png",
+         "icon_background_color" : "#F88181",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/hospital-H_pinlet",
+         "name" : "Las Américas Clínica Del Sur",
+         "opening_hours" : 
+         {
+            "open_now" : true
+         },
+         "photos" : 
+         [
+            {
+               "height" : 853,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/105211101852285712995\"\u003eClínica Las Américas sede sur\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATCDNfVfkXteekAomVYyuj16jSSyJP0FP30y5c7DYeT3m9XfvobhH4wr83ND2fU1CYwz8R2t7zmPtldy6rthgmsqfg4HobyzFWmAarnAZ5Qq13A9vDgEmZeAzEpb9H31QAbk3ArQGj8qhDZEx352uQOYnPbG5Zxw2GemIjj4lgljQDWuiBDLmt6J2v-3OVCpC-42PB3UpyjPsd0s1jOw4rVEH7WlH02_q6MaGCDSM6SKRhXvqS8tKwm72P2jqwGPR01hx1fC2j_FyEb8iTDH52mPRSt8VF34oNbc0dqjco68XGsyHQ",
+               "width" : 1280
+            }
+         ],
+         "place_id" : "ChIJschv7VqCRo4RghG0DRvqQpY",
+         "plus_code" : 
+         {
+            "compound_code" : "5CH8+FG Envigado, Antioquia, Colombia",
+            "global_code" : "67R65CH8+FG"
+         },
+         "rating" : 3.3,
+         "reference" : "ChIJschv7VqCRo4RghG0DRvqQpY",
+         "types" : 
+         [
+            "establishment",
+            "health",
+            "hospital",
+            "point_of_interest"
+         ],
+         "user_ratings_total" : 269
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "formatted_address" : "Cra. 70 #1-141, Medellín, Belén, Medellín, Antioquia, Colombia",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 6.2115547,
+               "lng" : -75.59468559999999
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 6.212870780291502,
+                  "lng" : -75.59308321970849
+               },
+               "southwest" : 
+               {
+                  "lat" : 6.210172819708498,
+                  "lng" : -75.5957811802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/hospital-71.png",
+         "icon_background_color" : "#F88181",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/hospital-H_pinlet",
+         "name" : "Clinica Las Americas Centro Comercial Arkadia",
+         "photos" : 
+         [
+            {
+               "height" : 3120,
+               "html_attributions" : 
+               [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/117535436573644576097\"\u003eDiana María García Pava\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATCDNfVArzYzTOIKR-REiYb3VXfA5vEQ6JIUN38fm59CIJOAmH9YuUbOEZFaDbkzTvsBIwyd5UsG6ieLU5G7VQdMKU2oVGpu27ZoyWuDRQB6u12YV9bxBrAY_G_5ab8AIV1Mct2Uycame1J26w8_xVO0uUKBvafggKQrXbrp7EkQNApUcfiOQ62m4QqOjO7aMUBMeVvvFbqAIMErf_47coqZpFYG1yjN_OlBrlN7LeD9yhv-Ef0JpQosG7QTbGrsaYA6SbmK-E7qgz60a7jBUNmKTXKEuRLaTeVJZVIRHAiRvE9QSwGgJFcRtfrTjLF2x1I-SmhTzUxI2HmQnndvzEAiXlvLOlVPM1YoWuM8RhH6GNqDhi5FeQ8Jz1P2bU4KZcavIn_hr-QTdRN70Cmys1Zum2SCiuZcb3uTwenuq_Lvc43yKA",
+               "width" : 4160
+            }
+         ],
+         "place_id" : "ChIJ8136wX4pRI4RVYBX5Lxml9o",
+         "plus_code" : 
+         {
+            "compound_code" : "6C64+J4 Medellin, Antioquia, Colombia",
+            "global_code" : "67R66C64+J4"
+         },
+         "rating" : 2.9,
+         "reference" : "ChIJ8136wX4pRI4RVYBX5Lxml9o",
+         "types" : 
+         [
+            "establishment",
+            "health",
+            "hospital",
+            "point_of_interest"
+         ],
+         "user_ratings_total" : 33
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "formatted_address" : "Dg. 75B #2a120, Medellín, Belén, Medellín, Antioquia, Colombia",
+         "geometry" : 
+         {
+            "location" : 
+            {
+               "lat" : 6.2142196,
+               "lng" : -75.5946064
+            },
+            "viewport" : 
+            {
+               "northeast" : 
+               {
+                  "lat" : 6.215615330291501,
+                  "lng" : -75.5932424697085
+               },
+               "southwest" : 
+               {
+                  "lat" : 6.212917369708498,
+                  "lng" : -75.59594043029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "icon_background_color" : "#7B9EB0",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+         "name" : "Proveedores Clínica Las Américas Auna",
+         "place_id" : "ChIJ_XpPl9IpRI4RC7r7VIzUWtQ",
+         "plus_code" : 
+         {
+            "compound_code" : "6C74+M5 Medellin, Antioquia, Colombia",
+            "global_code" : "67R66C74+M5"
+         },
+         "rating" : 5,
+         "reference" : "ChIJ_XpPl9IpRI4RC7r7VIzUWtQ",
+         "types" : 
+         [
+            "establishment",
+            "point_of_interest"
+         ],
+         "user_ratings_total" : 2
+      }
+   ],
+   "status" : "OK"
+}

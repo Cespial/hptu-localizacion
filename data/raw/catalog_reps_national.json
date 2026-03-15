@@ -1,0 +1,1729 @@
+{
+  "results" :
+    [
+      {
+        "resource" :
+          {
+            "name" : "Relación de IPS públicas y privadas según el nivel de atención y capacidad instalada",
+            "id" : "s2ru-bqt6",
+            "resource_name" : null,
+            "parent_fxf" : [],
+            "description" : "Relación de IPS públicas y privadas según el nivel de atención y capacidad instalada\nFuente: Base de datos Registros Especial de Prestadores de Servicios de Salud - REPS\nDiligencia la Encuesta de Satisfacción:\nhttps://tramites.minsalud.gov.co/FormularioInscripcion/EncuestaSatisfaccion.aspx",
+            "attribution" : "MINISTERIO DE SALUD Y PROTECCIÓN SOCIAL",
+            "attribution_link" : "https://prestadores.minsalud.gov.co/habilitacion/",
+            "contact_email" : null,
+            "type" : "dataset",
+            "updatedAt" : "2025-12-19T22:42:04.000Z",
+            "createdAt" : "2017-06-16T21:57:13.000Z",
+            "metadata_updated_at" : "2025-12-19T22:42:04.000Z",
+            "data_updated_at" : "2022-11-21T22:37:08.000Z",
+            "page_views" :
+              {
+                "page_views_last_week" : 482,
+                "page_views_last_month" : 1974,
+                "page_views_total" : 169011,
+                "page_views_last_week_log" : 8.915879378835772,
+                "page_views_last_month_log" : 10.94763693795183,
+                "page_views_total_log" : 17.366766157192085
+              },
+            "columns_name" :
+              [
+                "Fecha Corte",
+                "Número sede",
+                "num nivel atencion",
+                "Código sede",
+                "nom sede IPS",
+                "nom descripcion capacidad ",
+                "Email",
+                "Gerente",
+                "Departamento",
+                "Municipio",
+                "Dirección",
+                "Código prestador",
+                "Fuente",
+                "Nombre prestador",
+                "Teléfono",
+                "naturaleza",
+                "nit IPS ",
+                "num digito_verificion",
+                "num cantidad capacidad instalada",
+                "nom grupo capacidad "
+              ],
+            "columns_field_name" :
+              [
+                "fecha_corte",
+                "n_mero_sede",
+                "num_nivel_atencion",
+                "c_digo_sede",
+                "nom_sede_ips",
+                "nom_descripcion_capacidad",
+                "email",
+                "gerente",
+                "departamento",
+                "municipio",
+                "direcci_n",
+                "c_digo_prestador",
+                "fuente",
+                "nombre_prestador",
+                "tel_fono",
+                "naturaleza",
+                "nit_ips",
+                "num_digito_verificion",
+                "num_cantidad_capacidad_instalada",
+                "nom_grupo_capacidad"
+              ],
+            "columns_datatype" :
+              [
+                "Text",
+                "Text",
+                "Text",
+                "Number",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Number",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Number",
+                "Text",
+                "Number",
+                "Text"
+              ],
+            "columns_description" :
+              [
+                "Fecha Corte",
+                "Número sede",
+                "",
+                "Código sede",
+                "",
+                "",
+                "Email",
+                "Gerente",
+                "Departamento",
+                "Municipio",
+                "Dirección",
+                "Código prestador",
+                "Fuente",
+                "Nombre prestador",
+                "Teléfono",
+                "",
+                "",
+                "",
+                "",
+                ""
+              ],
+            "columns_format" :
+              [
+                {},
+                {},
+                {},
+                { "noCommas" : "true" },
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                { "noCommas" : "true" },
+                {},
+                {},
+                {},
+                {},
+                {
+                  "precisionStyle" : "standard",
+                  "noCommas" : "false",
+                  "align" : "right"
+                },
+                {},
+                {},
+                {}
+              ],
+            "download_count" : 27610,
+            "provenance" : "official",
+            "lens_view_type" : "tabular",
+            "lens_display_type" : "table",
+            "locked" : false,
+            "blob_mime_type" : null,
+            "hide_from_data_json" : false,
+            "publication_date" : "2021-04-12T17:53:48.000Z"
+          },
+        "classification" :
+          {
+            "categories" : [],
+            "tags" : [],
+            "domain_category" : "Salud y Protección Social",
+            "domain_tags" : [ "minsalud", "nivel de atención", "ips" ],
+            "domain_metadata" :
+              [
+                { "key" : "Información-de-Datos_Idioma", "value" : "Español" },
+                {
+                  "key" : "Información-de-Datos_Cobertura-Geográfica",
+                  "value" : "Nacional"
+                },
+                {
+                  "key" : "Información-de-Datos_Frecuencia-de-Actualización",
+                  "value" : "Anual"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Sector",
+                  "value" : "Salud y Protección Social"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Área-o-dependencia",
+                  "value" : "Dirección de Prestación de Servicios y Atención Primaria"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Nombre-de-la-Entidad",
+                  "value" : "Ministerio de Salud y Protección Social"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Orden",
+                  "value" : "Nacional"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Municipio",
+                  "value" : "Bogotá D.C."
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Departamento",
+                  "value" : "Bogotá D.C."
+                }
+              ]
+          },
+        "metadata" :
+          {
+            "domain" : "www.datos.gov.co",
+            "license" : "Creative Commons Attribution | Share Alike 4.0 International"
+          },
+        "permalink" : "https://www.datos.gov.co/d/s2ru-bqt6",
+        "link" : "https://www.datos.gov.co/Salud-y-Protección-Social/Relación-de-IPS-públicas-y-privadas-según-el-nivel/s2ru-bqt6",
+        "owner" :
+          {
+            "id" : "e8g4-ac65",
+            "user_type" : "interactive",
+            "display_name" : "Minsalud"
+          },
+        "creator" :
+          {
+            "id" : "e8g4-ac65",
+            "user_type" : "interactive",
+            "display_name" : "Minsalud"
+          }
+      },
+      {
+        "resource" :
+          {
+            "name" : "Registro Especial de Prestadores y Sedes de Servicios de Salud",
+            "id" : "c36g-9fc2",
+            "resource_name" : null,
+            "parent_fxf" : [],
+            "description" : "Registro Especial de Prestadores  y Sedes de Servicios de Salud, por clase de prestador IPS-Instituciones Prestadoras de Servicios de Salud.\nDiligencia la Encuesta de Satisfacción:\nhttps://tramites.minsalud.gov.co/FormularioInscripcion/EncuestaSatisfaccion.aspx",
+            "attribution" : "MINISTERIO DE SALUD Y PROTECCIÓN SOCIAL",
+            "attribution_link" : "https://www.datos.gov.co/d/c36g-9fc2",
+            "contact_email" : null,
+            "type" : "dataset",
+            "updatedAt" : "2025-12-19T23:21:43.000Z",
+            "createdAt" : "2016-07-14T22:31:05.000Z",
+            "metadata_updated_at" : "2025-12-19T23:21:43.000Z",
+            "data_updated_at" : "2023-07-04T21:54:06.000Z",
+            "page_views" :
+              {
+                "page_views_last_week" : 622,
+                "page_views_last_month" : 3000,
+                "page_views_total" : 137754,
+                "page_views_last_week_log" : 9.283088353024002,
+                "page_views_last_month_log" : 11.551227603598289,
+                "page_views_total_log" : 17.071745158709046
+              },
+            "columns_name" :
+              [
+                "TipoIdentificacion",
+                "NaturalezaJuridica",
+                "FechaCorte",
+                "ESE",
+                "DepartamentoSedeDesc",
+                "ClasePrestadorDesc",
+                "NombreSede",
+                "DireccionSede",
+                "NumeroIdentificacion",
+                "DireccionPrestador",
+                "NombrePrestador",
+                "TelefonoPrestador",
+                "MunicipioPrestador",
+                "TelefonoSede",
+                "EmailPrestador",
+                "CodigoPrestador",
+                "CodigoHabilitacionSede",
+                "EmailSede",
+                "DepartamentoPrestadorDesc",
+                "MunicipioSedeDesc",
+                "MunicipioSede",
+                "MunicipioPrestadorDesc"
+              ],
+            "columns_field_name" :
+              [
+                "tipoid",
+                "naturalezajuridica",
+                "fecha_corte_reps",
+                "ese",
+                "departamentodededesc",
+                "claseprestador",
+                "nombresede",
+                "direcci_nsede",
+                "numeroidentificacion",
+                "direccionprestador",
+                "nombreprestador",
+                "telefonoprestador",
+                "municipio_prestador",
+                "t_lefonosede",
+                "email_prestador",
+                "codigoprestador",
+                "codigohabilitacionsede",
+                "email_sede",
+                "departamentoprestadordesc",
+                "municipiosededesc",
+                "municipiosede",
+                "municipioprestadordesc"
+              ],
+            "columns_datatype" :
+              [
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Number",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text"
+              ],
+            "columns_description" :
+              [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+              ],
+            "columns_format" :
+              [
+                {
+                  "precisionStyle" : "standard",
+                  "noCommas" : "false",
+                  "align" : "center"
+                },
+                {},
+                { "view" : "date_ymd" },
+                { "displayStyle" : "plain", "align" : "center" },
+                {},
+                {},
+                {},
+                {},
+                { "precisionStyle" : "standard", "noCommas" : "true" },
+                {},
+                {},
+                {
+                  "precisionStyle" : "standard",
+                  "rdf" : "http://xmlns.com/foaf/0.1/phone",
+                  "noCommas" : "true",
+                  "align" : "right"
+                },
+                {},
+                {},
+                {},
+                {
+                  "precisionStyle" : "standard",
+                  "noCommas" : "true",
+                  "align" : "center"
+                },
+                { "noCommas" : "true" },
+                {},
+                {},
+                {},
+                {},
+                {}
+              ],
+            "download_count" : 58099,
+            "provenance" : "official",
+            "lens_view_type" : "tabular",
+            "lens_display_type" : "table",
+            "locked" : false,
+            "blob_mime_type" : null,
+            "hide_from_data_json" : false,
+            "publication_date" : "2023-07-04T21:55:48.000Z"
+          },
+        "classification" :
+          {
+            "categories" : [],
+            "tags" : [],
+            "domain_category" : "Salud y Protección Social",
+            "domain_tags" :
+              [ "ministerio de salud y protección social", "reps" ],
+            "domain_metadata" :
+              [
+                { "key" : "Información-de-Datos_Idioma", "value" : "Español" },
+                {
+                  "key" : "Información-de-Datos_Cobertura-Geográfica",
+                  "value" : "Nacional"
+                },
+                {
+                  "key" : "Información-de-Datos_Frecuencia-de-Actualización",
+                  "value" : "Anual"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Sector",
+                  "value" : "Salud y Protección Social"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Área-o-dependencia",
+                  "value" : "Dirección de Prestación de Servicios y Atención Primaria"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Nombre-de-la-Entidad",
+                  "value" : "Ministerio de Salud y Protección Social"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Orden",
+                  "value" : "Nacional"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Municipio",
+                  "value" : "Bogotá D.C."
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Departamento",
+                  "value" : "Bogotá D.C."
+                }
+              ]
+          },
+        "metadata" :
+          {
+            "domain" : "www.datos.gov.co",
+            "license" : "Creative Commons Attribution | Share Alike 4.0 International"
+          },
+        "permalink" : "https://www.datos.gov.co/d/c36g-9fc2",
+        "link" : "https://www.datos.gov.co/Salud-y-Protección-Social/Registro-Especial-de-Prestadores-y-Sedes-de-Servic/c36g-9fc2",
+        "owner" :
+          {
+            "id" : "e8g4-ac65",
+            "user_type" : "interactive",
+            "display_name" : "Minsalud"
+          },
+        "creator" :
+          {
+            "id" : "e8g4-ac65",
+            "user_type" : "interactive",
+            "display_name" : "Minsalud"
+          }
+      },
+      {
+        "resource" :
+          {
+            "name" : "Listado de Instituciones de Salud",
+            "id" : "fgk8-hnys",
+            "resource_name" : null,
+            "parent_fxf" : [ "c36g-9fc2" ],
+            "description" : "Registro de Prestadores de Instituciones de Salud",
+            "attribution" : "MINISTERIO DE SALUD Y PROTECCIÓN SOCIAL",
+            "attribution_link" : "https://www.datos.gov.co/d/c36g-9fc2",
+            "contact_email" : null,
+            "type" : "filter",
+            "updatedAt" : "2025-12-19T23:29:56.000Z",
+            "createdAt" : "2017-06-11T14:15:30.000Z",
+            "metadata_updated_at" : "2025-12-19T23:29:56.000Z",
+            "data_updated_at" : "2023-07-04T21:54:06.000Z",
+            "page_views" :
+              {
+                "page_views_last_week" : 511,
+                "page_views_last_month" : 1920,
+                "page_views_total" : 102230,
+                "page_views_last_week_log" : 9.0,
+                "page_views_last_month_log" : 10.907641803665529,
+                "page_views_total_log" : 16.641473212441444
+              },
+            "columns_name" :
+              [
+                "NaturalezaJuridica",
+                "FechaCorte",
+                "CodigoPrestador",
+                "ClasePrestadorDesc",
+                "CodigoHabilitacionSede",
+                "ESE"
+              ],
+            "columns_field_name" :
+              [
+                "naturalezajuridica",
+                "fecha_corte_reps",
+                "codigoprestador",
+                "claseprestador",
+                "codigohabilitacionsede",
+                "ese"
+              ],
+            "columns_datatype" :
+              [ "Text", "Text", "Text", "Text", "Text", "Text" ],
+            "columns_description" : [ "", "", "", "", "", "" ],
+            "columns_format" :
+              [
+                {},
+                { "view" : "date_ymd" },
+                {
+                  "precisionStyle" : "standard",
+                  "noCommas" : "true",
+                  "align" : "center"
+                },
+                {},
+                { "noCommas" : "true" },
+                {}
+              ],
+            "download_count" : 6556,
+            "provenance" : "community",
+            "lens_view_type" : "tabular",
+            "lens_display_type" : "table",
+            "locked" : false,
+            "blob_mime_type" : null,
+            "hide_from_data_json" : false,
+            "publication_date" : "2017-09-05T20:58:32.000Z"
+          },
+        "classification" :
+          {
+            "categories" : [],
+            "tags" : [],
+            "domain_category" : "Salud y Protección Social",
+            "domain_tags" :
+              [ "reps", "ministerio de salud y protección social" ],
+            "domain_metadata" :
+              [
+                { "key" : "Información-de-Datos_Idioma", "value" : "Español" },
+                {
+                  "key" : "Información-de-Datos_Cobertura-Geográfica",
+                  "value" : "Nacional"
+                },
+                {
+                  "key" : "Información-de-Datos_Frecuencia-de-Actualización",
+                  "value" : "Anual"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Sector",
+                  "value" : "Salud y Protección Social"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Área-o-dependencia",
+                  "value" : "MINISTERIO DE SALUD Y PROTECCIÓN SOCIAL"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Nombre-de-la-Entidad",
+                  "value" : "Ministerio de Salud y Protección Social"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Orden",
+                  "value" : "Nacional"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Municipio",
+                  "value" : "Bogotá D.C."
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Departamento",
+                  "value" : "Bogotá D.C."
+                }
+              ]
+          },
+        "metadata" :
+          {
+            "domain" : "www.datos.gov.co",
+            "license" : "Creative Commons Attribution | Share Alike 4.0 International"
+          },
+        "permalink" : "https://www.datos.gov.co/d/fgk8-hnys",
+        "link" : "https://www.datos.gov.co/Salud-y-Protección-Social/Listado-de-Instituciones-de-Salud/fgk8-hnys",
+        "owner" :
+          {
+            "id" : "vq79-bx46",
+            "user_type" : "interactive",
+            "display_name" : "gcamargo"
+          },
+        "creator" :
+          {
+            "id" : "vq79-bx46",
+            "user_type" : "interactive",
+            "display_name" : "gcamargo"
+          }
+      },
+      {
+        "resource" :
+          {
+            "name" : "Red pública de Prestadores de Servicios de Salud - DEPARTAMENTO DE BOYACÁ",
+            "id" : "8byh-6agx",
+            "resource_name" : null,
+            "parent_fxf" : [],
+            "description" : "Contiene información básica de las Instituciones Prestadoras de Servicios de Salud de la red pública, que se encuentran habilitados ante el REPS - Registro Especial de Prestadores de Servicios de Salud, actualizado a noviembre de 2023",
+            "attribution" : "GOBERNACIÓN DE BOYACÁ",
+            "attribution_link" : "https://prestadores.minsalud.gov.co/habilitacion/",
+            "contact_email" : null,
+            "type" : "dataset",
+            "updatedAt" : "2025-12-19T23:30:25.000Z",
+            "createdAt" : "2017-03-08T13:50:20.000Z",
+            "metadata_updated_at" : "2025-12-19T23:30:25.000Z",
+            "data_updated_at" : "2023-11-15T19:35:20.000Z",
+            "page_views" :
+              {
+                "page_views_last_week" : 68,
+                "page_views_last_month" : 400,
+                "page_views_total" : 24647,
+                "page_views_last_week_log" : 6.10852445677817,
+                "page_views_last_month_log" : 8.647458426454921,
+                "page_views_total_log" : 14.589182967039353
+              },
+            "columns_name" :
+              [
+                "SEDE",
+                "BARRIO",
+                "HORARIO_VIERNES",
+                "CARACTER",
+                "NIVEL",
+                "CODIGO_PRESTADOR",
+                "HORARIO_SABADO",
+                "GERENTE",
+                "CODIGO HABILITACION",
+                "ZONA",
+                "MUNICIPIO",
+                "DV",
+                "NOMBRE DE SEDE",
+                "HORARIO_DOMINGO",
+                "ESE",
+                "SEDE_PRINCIPAL",
+                "HORARIO_LUNES",
+                "HORARIO_MARTES",
+                "HORARIO_MIERCOLES",
+                "NOMBRE PRESTADOR",
+                "FECHA_APERTURA",
+                "HORARIO_JUEVES",
+                "DIRECCION",
+                "TELEFONO",
+                "FAX",
+                "EMAIL",
+                "NIT"
+              ],
+            "columns_field_name" :
+              [
+                "codigo_municipio",
+                "barrio",
+                "horario_viernes",
+                "caracter",
+                "nivel",
+                "codigo_prestador",
+                "horario_sabado",
+                "gerente",
+                "codigo_habilitacion",
+                "zona",
+                "municipio",
+                "dv",
+                "nombre_de_sede",
+                "horario_domingo",
+                "ese",
+                "sede_principal",
+                "horario_lunes",
+                "horario_martes",
+                "horario_miercoles",
+                "razon_social",
+                "fecha_apertura",
+                "horario_jueves",
+                "direccion",
+                "telefono",
+                "fax",
+                "email",
+                "nit"
+              ],
+            "columns_datatype" :
+              [
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Number",
+                "Number",
+                "Text",
+                "Text",
+                "Number",
+                "Text",
+                "Text",
+                "Number",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text"
+              ],
+            "columns_description" :
+              [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+              ],
+            "columns_format" :
+              [
+                {},
+                {},
+                {},
+                {},
+                {},
+                {
+                  "precisionStyle" : "standard",
+                  "noCommas" : "true",
+                  "align" : "right"
+                },
+                {},
+                {},
+                {
+                  "precisionStyle" : "standard",
+                  "noCommas" : "true",
+                  "align" : "right"
+                },
+                {},
+                {},
+                {},
+                {},
+                {},
+                { "align" : "center" },
+                { "align" : "center" },
+                {},
+                {},
+                {},
+                { "displayStyle" : "plain", "align" : "left" },
+                { "view" : "date_ymd", "align" : "center" },
+                {},
+                {},
+                {},
+                {},
+                {},
+                {}
+              ],
+            "download_count" : 7378,
+            "provenance" : "official",
+            "lens_view_type" : "tabular",
+            "lens_display_type" : "table",
+            "locked" : false,
+            "blob_mime_type" : null,
+            "hide_from_data_json" : false,
+            "publication_date" : "2022-10-07T19:49:50.000Z"
+          },
+        "classification" :
+          {
+            "categories" : [],
+            "tags" : [],
+            "domain_category" : "Salud y Protección Social",
+            "domain_tags" : [ "red pública", "salud", "prestadores de salud" ],
+            "domain_metadata" :
+              [
+                { "key" : "Información-de-Datos_Idioma", "value" : "Español" },
+                {
+                  "key" : "Información-de-Datos_Cobertura-Geográfica",
+                  "value" : "Departamental"
+                },
+                {
+                  "key" : "Información-de-Datos_Frecuencia-de-Actualización",
+                  "value" : "Anual"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Sector",
+                  "value" : "Salud y Protección Social"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Área-o-dependencia",
+                  "value" : "SECRETARIA DE SALUD DE BOYACÁ"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Nombre-de-la-Entidad",
+                  "value" : "Gobernación de Boyacá"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Orden",
+                  "value" : "Territorial"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Municipio",
+                  "value" : "Tunja"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Departamento",
+                  "value" : "Boyacá"
+                }
+              ]
+          },
+        "metadata" :
+          {
+            "domain" : "www.datos.gov.co",
+            "license" : "Creative Commons Attribution | Share Alike 4.0 International"
+          },
+        "permalink" : "https://www.datos.gov.co/d/8byh-6agx",
+        "link" : "https://www.datos.gov.co/Salud-y-Protección-Social/Red-pública-de-Prestadores-de-Servicios-de-Salud-D/8byh-6agx",
+        "owner" :
+          {
+            "id" : "3kz6-8wcp",
+            "user_type" : "interactive",
+            "display_name" : "Gobernación de Boyacá"
+          },
+        "creator" :
+          {
+            "id" : "3kz6-8wcp",
+            "user_type" : "interactive",
+            "display_name" : "Gobernación de Boyacá"
+          }
+      },
+      {
+        "resource" :
+          {
+            "name" : "Servicios habilitados de los prestadores de servicios de salud de la red pública - DEPARTAMENTO DE BOYACÁ",
+            "id" : "p9n2-9qsb",
+            "resource_name" : null,
+            "parent_fxf" : [],
+            "description" : "Contiene la información de los servicios de salud habilitados ante el REPS - Registro Especial de Prestadores de Servicios de Salud. de las Instituciones Prestadoras de Servicios de Salud de la red pública del Departamento de Boyacá, actualizado a septiembre de 2022.",
+            "attribution" : "GOBERNACIÓN DE BOYACÁ",
+            "attribution_link" : "https://prestadores.minsalud.gov.co/habilitacion/",
+            "contact_email" : null,
+            "type" : "dataset",
+            "updatedAt" : "2025-12-19T22:46:02.000Z",
+            "createdAt" : "2017-03-08T16:17:28.000Z",
+            "metadata_updated_at" : "2025-12-19T22:46:02.000Z",
+            "data_updated_at" : "2023-06-28T20:28:27.000Z",
+            "page_views" :
+              {
+                "page_views_last_week" : 117,
+                "page_views_last_month" : 458,
+                "page_views_total" : 13349,
+                "page_views_last_week_log" : 6.882643049361842,
+                "page_views_last_month_log" : 8.842350343413809,
+                "page_views_total_log" : 13.704552121462278
+              },
+            "columns_name" :
+              [
+                "COMPLEJIDAD MEDIA",
+                "AMBULATORIO",
+                "FECHA_APERTURA",
+                "SERVICIO",
+                "COMPLEJIDAD BAJA",
+                "UNIDAD MOVIL",
+                "DOMICILIARIO",
+                "GRSE_NOMBRE",
+                "GRSE_CODIGO",
+                "MUNICIPIO",
+                "SEDE",
+                "COMPLEJIDADES",
+                "CENTRO REFERENCIA",
+                "HOSPITALARIO",
+                "CODIGO SERVICIO",
+                "COMPLEJIDAD ALTA",
+                "INSTITUCION REMISORA",
+                "NUMERO_DISTINTIVO",
+                "OTRAS_EXTRAMURAL",
+                "CODIGO HABILITACION",
+                "NOMBRE SEDE PRESTADOR"
+              ],
+            "columns_field_name" :
+              [
+                "complejidad_media",
+                "ambulatorio",
+                "fecha_apertura",
+                "servicio",
+                "complejidad_baja",
+                "unidad_movil",
+                "domiciliario",
+                "grse_nombre",
+                "grse_codigo",
+                "municipio",
+                "num_sede",
+                "complejidades",
+                "centro_referencia",
+                "hospitalario",
+                "codigo_servicio",
+                "complejidad_alta",
+                "institucion_remisora",
+                "numero_distintivo",
+                "otras_extramural",
+                "codigo_habilitacion",
+                "nombre_sede_prestador"
+              ],
+            "columns_datatype" :
+              [
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Number",
+                "Text",
+                "Number",
+                "Text",
+                "Text",
+                "Text",
+                "Number",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Number",
+                "Text"
+              ],
+            "columns_description" :
+              [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+              ],
+            "columns_format" :
+              [
+                {},
+                {},
+                { "view" : "date_dmy", "align" : "right" },
+                {},
+                {},
+                {},
+                {},
+                {},
+                {
+                  "precisionStyle" : "standard",
+                  "noCommas" : "false",
+                  "align" : "right"
+                },
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {}
+              ],
+            "download_count" : 674,
+            "provenance" : "official",
+            "lens_view_type" : "tabular",
+            "lens_display_type" : "table",
+            "locked" : false,
+            "blob_mime_type" : null,
+            "hide_from_data_json" : false,
+            "publication_date" : "2023-06-28T20:28:39.000Z"
+          },
+        "classification" :
+          {
+            "categories" : [],
+            "tags" : [],
+            "domain_category" : "Salud y Protección Social",
+            "domain_tags" :
+              [ "prestadores de servicios de salud", "salud", "servicios" ],
+            "domain_metadata" :
+              [
+                { "key" : "Información-de-Datos_Idioma", "value" : "Español" },
+                {
+                  "key" : "Información-de-Datos_Cobertura-Geográfica",
+                  "value" : "Departamental"
+                },
+                {
+                  "key" : "Información-de-Datos_Frecuencia-de-Actualización",
+                  "value" : "Anual"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Sector",
+                  "value" : "Salud y Protección Social"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Área-o-dependencia",
+                  "value" : "SECRETARIA DE SALUD DE BOYACÁ"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Nombre-de-la-Entidad",
+                  "value" : "Gobernación de Boyacá"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Orden",
+                  "value" : "Territorial"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Municipio",
+                  "value" : "Tunja"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Departamento",
+                  "value" : "Boyacá"
+                }
+              ]
+          },
+        "metadata" :
+          {
+            "domain" : "www.datos.gov.co",
+            "license" : "Creative Commons Attribution | Share Alike 4.0 International"
+          },
+        "permalink" : "https://www.datos.gov.co/d/p9n2-9qsb",
+        "link" : "https://www.datos.gov.co/Salud-y-Protección-Social/Servicios-habilitados-de-los-prestadores-de-servic/p9n2-9qsb",
+        "owner" :
+          {
+            "id" : "3kz6-8wcp",
+            "user_type" : "interactive",
+            "display_name" : "Gobernación de Boyacá"
+          },
+        "creator" :
+          {
+            "id" : "3kz6-8wcp",
+            "user_type" : "interactive",
+            "display_name" : "Gobernación de Boyacá"
+          }
+      },
+      {
+        "resource" :
+          {
+            "name" : "IPS - BOGOTA",
+            "id" : "7ykd-aww2",
+            "resource_name" : null,
+            "parent_fxf" : [ "c36g-9fc2" ],
+            "description" : "Registro de Prestadores de Instituciones de Salud",
+            "attribution" : "MINISTERIO DE SALUD Y PROTECCIÓN SOCIAL",
+            "attribution_link" : "https://www.datos.gov.co/d/c36g-9fc2",
+            "contact_email" : null,
+            "type" : "filter",
+            "updatedAt" : "2025-12-19T22:52:51.000Z",
+            "createdAt" : "2017-06-11T14:21:43.000Z",
+            "metadata_updated_at" : "2025-12-19T22:52:51.000Z",
+            "data_updated_at" : "2023-07-04T21:54:06.000Z",
+            "page_views" :
+              {
+                "page_views_last_week" : 48,
+                "page_views_last_month" : 185,
+                "page_views_total" : 29450,
+                "page_views_last_week_log" : 5.614709844115208,
+                "page_views_last_month_log" : 7.539158811108032,
+                "page_views_total_log" : 14.84602900072055
+              },
+            "columns_name" :
+              [
+                "CodigoPrestador",
+                "ESE",
+                "NaturalezaJuridica",
+                "CodigoHabilitacionSede",
+                "FechaCorte",
+                "ClasePrestadorDesc"
+              ],
+            "columns_field_name" :
+              [
+                "codigoprestador",
+                "ese",
+                "naturalezajuridica",
+                "codigohabilitacionsede",
+                "fecha_corte_reps",
+                "claseprestador"
+              ],
+            "columns_datatype" :
+              [ "Text", "Text", "Text", "Text", "Text", "Text" ],
+            "columns_description" : [ "", "", "", "", "", "" ],
+            "columns_format" :
+              [
+                {
+                  "precisionStyle" : "standard",
+                  "noCommas" : "true",
+                  "align" : "center"
+                },
+                {},
+                {},
+                { "noCommas" : "true" },
+                { "view" : "date_ymd" },
+                {}
+              ],
+            "download_count" : 2405,
+            "provenance" : "community",
+            "lens_view_type" : "tabular",
+            "lens_display_type" : "table",
+            "locked" : false,
+            "blob_mime_type" : null,
+            "hide_from_data_json" : false,
+            "publication_date" : "2017-09-05T20:58:32.000Z"
+          },
+        "classification" :
+          {
+            "categories" : [],
+            "tags" : [],
+            "domain_category" : "Salud y Protección Social",
+            "domain_tags" :
+              [ "ministerio de salud y protección social", "reps" ],
+            "domain_metadata" :
+              [
+                { "key" : "Información-de-Datos_Idioma", "value" : "Español" },
+                {
+                  "key" : "Información-de-Datos_Cobertura-Geográfica",
+                  "value" : "Nacional"
+                },
+                {
+                  "key" : "Información-de-Datos_Frecuencia-de-Actualización",
+                  "value" : "Anual"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Sector",
+                  "value" : "Salud y Protección Social"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Área-o-dependencia",
+                  "value" : "MINISTERIO DE SALUD Y PROTECCIÓN SOCIAL"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Nombre-de-la-Entidad",
+                  "value" : "Ministerio de Salud y Protección Social"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Orden",
+                  "value" : "Nacional"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Municipio",
+                  "value" : "Bogotá D.C."
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Departamento",
+                  "value" : "Bogotá D.C."
+                }
+              ]
+          },
+        "metadata" :
+          {
+            "domain" : "www.datos.gov.co",
+            "license" : "Creative Commons Attribution | Share Alike 4.0 International"
+          },
+        "permalink" : "https://www.datos.gov.co/d/7ykd-aww2",
+        "link" : "https://www.datos.gov.co/Salud-y-Protección-Social/IPS-BOGOTA/7ykd-aww2",
+        "owner" :
+          {
+            "id" : "vq79-bx46",
+            "user_type" : "interactive",
+            "display_name" : "gcamargo"
+          },
+        "creator" :
+          {
+            "id" : "vq79-bx46",
+            "user_type" : "interactive",
+            "display_name" : "gcamargo"
+          }
+      },
+      {
+        "resource" :
+          {
+            "name" : "LISTADO INSTITUCIONES DE SALUD EN MONTERIA",
+            "id" : "kdg8-28pw",
+            "resource_name" : null,
+            "parent_fxf" : [ "c36g-9fc2" ],
+            "description" : "Registro Especial de Prestadores de Servicios de Salud, por clase de prestador IPS-Instituciones Prestadoras de Servicios de Salud.",
+            "attribution" : "MINISTERIO DE SALUD Y PROTECCIÓN SOCIAL",
+            "attribution_link" : "https://www.datos.gov.co/d/c36g-9fc2",
+            "contact_email" : null,
+            "type" : "filter",
+            "updatedAt" : "2025-12-19T22:52:39.000Z",
+            "createdAt" : "2021-06-09T16:07:48.000Z",
+            "metadata_updated_at" : "2025-12-19T22:52:39.000Z",
+            "data_updated_at" : "2023-07-04T21:54:06.000Z",
+            "page_views" :
+              {
+                "page_views_last_week" : 112,
+                "page_views_last_month" : 527,
+                "page_views_total" : 11510,
+                "page_views_last_week_log" : 6.820178962415189,
+                "page_views_last_month_log" : 9.044394119358454,
+                "page_views_total_log" : 13.49072555032395
+              },
+            "columns_name" :
+              [
+                "FechaCorte",
+                "CodigoHabilitacionSede",
+                "NaturalezaJuridica",
+                "CodigoPrestador",
+                "ClasePrestadorDesc",
+                "ESE"
+              ],
+            "columns_field_name" :
+              [
+                "fecha_corte_reps",
+                "codigohabilitacionsede",
+                "naturalezajuridica",
+                "codigoprestador",
+                "claseprestador",
+                "ese"
+              ],
+            "columns_datatype" :
+              [ "Text", "Text", "Text", "Text", "Text", "Text" ],
+            "columns_description" : [ "", "", "", "", "", "" ],
+            "columns_format" :
+              [
+                { "view" : "date_ymd" },
+                { "noCommas" : "true" },
+                {},
+                {
+                  "precisionStyle" : "standard",
+                  "noCommas" : "true",
+                  "align" : "center"
+                },
+                {},
+                { "displayStyle" : "plain", "align" : "center" }
+              ],
+            "download_count" : 212,
+            "provenance" : "community",
+            "lens_view_type" : "tabular",
+            "lens_display_type" : "table",
+            "locked" : false,
+            "blob_mime_type" : null,
+            "hide_from_data_json" : false,
+            "publication_date" : "2021-06-09T16:08:05.000Z"
+          },
+        "classification" :
+          {
+            "categories" : [],
+            "tags" : [],
+            "domain_category" : "Salud y Protección Social",
+            "domain_tags" :
+              [ "reps", "ministerio de salud y protección social" ],
+            "domain_metadata" :
+              [
+                { "key" : "Información-de-Datos_Idioma", "value" : "Español" },
+                {
+                  "key" : "Información-de-Datos_Cobertura-Geográfica",
+                  "value" : "Nacional"
+                },
+                {
+                  "key" : "Información-de-Datos_Frecuencia-de-Actualización",
+                  "value" : "Anual"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Sector",
+                  "value" : "Salud y Protección Social"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Área-o-dependencia",
+                  "value" : "Dirección de Prestación de Servicios y Atención Primaria"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Nombre-de-la-Entidad",
+                  "value" : "Ministerio de Salud y Protección Social"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Orden",
+                  "value" : "Nacional"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Municipio",
+                  "value" : "Bogotá D.C."
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Departamento",
+                  "value" : "Bogotá D.C."
+                }
+              ]
+          },
+        "metadata" :
+          {
+            "domain" : "www.datos.gov.co",
+            "license" : "Creative Commons Attribution | Share Alike 4.0 International"
+          },
+        "permalink" : "https://www.datos.gov.co/d/kdg8-28pw",
+        "link" : "https://www.datos.gov.co/Salud-y-Protección-Social/LISTADO-INSTITUCIONES-DE-SALUD-EN-MONTERIA/kdg8-28pw",
+        "owner" :
+          {
+            "id" : "w8x5-w9vr",
+            "user_type" : "interactive",
+            "display_name" : "johana rodriguez"
+          },
+        "creator" :
+          {
+            "id" : "w8x5-w9vr",
+            "user_type" : "interactive",
+            "display_name" : "johana rodriguez"
+          }
+      },
+      {
+        "resource" :
+          {
+            "name" : "Instituciones de Salud - Cali",
+            "id" : "gpq4-d6j8",
+            "resource_name" : null,
+            "parent_fxf" : [ "c36g-9fc2" ],
+            "description" : "Registro de Prestadores de Instituciones de Salud",
+            "attribution" : "MINISTERIO DE SALUD Y PROTECCIÓN SOCIAL",
+            "attribution_link" : "https://www.datos.gov.co/d/c36g-9fc2",
+            "contact_email" : null,
+            "type" : "filter",
+            "updatedAt" : "2025-12-19T22:48:00.000Z",
+            "createdAt" : "2017-08-17T12:24:11.000Z",
+            "metadata_updated_at" : "2025-12-19T22:48:00.000Z",
+            "data_updated_at" : "2023-07-04T21:54:06.000Z",
+            "page_views" :
+              {
+                "page_views_last_week" : 69,
+                "page_views_last_month" : 243,
+                "page_views_total" : 9362,
+                "page_views_last_week_log" : 6.129283016944967,
+                "page_views_last_month_log" : 7.930737337562887,
+                "page_views_total_log" : 13.192755142640367
+              },
+            "columns_name" :
+              [
+                "FechaCorte",
+                "ClasePrestadorDesc",
+                "CodigoHabilitacionSede",
+                "CodigoPrestador",
+                "ESE",
+                "NaturalezaJuridica"
+              ],
+            "columns_field_name" :
+              [
+                "fecha_corte_reps",
+                "claseprestador",
+                "codigohabilitacionsede",
+                "codigoprestador",
+                "ese",
+                "naturalezajuridica"
+              ],
+            "columns_datatype" :
+              [ "Text", "Text", "Text", "Text", "Text", "Text" ],
+            "columns_description" : [ "", "", "", "", "", "" ],
+            "columns_format" :
+              [
+                { "view" : "date_ymd" },
+                {},
+                { "noCommas" : "true" },
+                {
+                  "precisionStyle" : "standard",
+                  "noCommas" : "true",
+                  "align" : "center"
+                },
+                {},
+                {}
+              ],
+            "download_count" : 1314,
+            "provenance" : "community",
+            "lens_view_type" : "tabular",
+            "lens_display_type" : "table",
+            "locked" : false,
+            "blob_mime_type" : null,
+            "hide_from_data_json" : false,
+            "publication_date" : "2017-09-05T20:58:32.000Z"
+          },
+        "classification" :
+          {
+            "categories" : [],
+            "tags" : [],
+            "domain_category" : "Salud y Protección Social",
+            "domain_tags" :
+              [ "reps", "ministerio de salud y protección social" ],
+            "domain_metadata" :
+              [
+                { "key" : "Información-de-Datos_Idioma", "value" : "Español" },
+                {
+                  "key" : "Información-de-Datos_Cobertura-Geográfica",
+                  "value" : "Nacional"
+                },
+                {
+                  "key" : "Información-de-Datos_Frecuencia-de-Actualización",
+                  "value" : "Anual"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Sector",
+                  "value" : "Salud y Protección Social"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Área-o-dependencia",
+                  "value" : "MINISTERIO DE SALUD Y PROTECCIÓN SOCIAL"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Nombre-de-la-Entidad",
+                  "value" : "Ministerio de Salud y Protección Social"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Orden",
+                  "value" : "Nacional"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Municipio",
+                  "value" : "Bogotá D.C."
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Departamento",
+                  "value" : "Bogotá D.C."
+                }
+              ]
+          },
+        "metadata" :
+          {
+            "domain" : "www.datos.gov.co",
+            "license" : "Creative Commons Attribution | Share Alike 4.0 International"
+          },
+        "permalink" : "https://www.datos.gov.co/d/gpq4-d6j8",
+        "link" : "https://www.datos.gov.co/Salud-y-Protección-Social/Instituciones-de-Salud-Cali/gpq4-d6j8",
+        "owner" :
+          {
+            "id" : "qxnv-m7wg",
+            "user_type" : "interactive",
+            "display_name" : "Innovasoft Colombia"
+          },
+        "creator" :
+          {
+            "id" : "qxnv-m7wg",
+            "user_type" : "interactive",
+            "display_name" : "Innovasoft Colombia"
+          }
+      },
+      {
+        "resource" :
+          {
+            "name" : "emssanar",
+            "id" : "c5pu-ugym",
+            "resource_name" : null,
+            "parent_fxf" : [ "c36g-9fc2" ],
+            "description" : "Registro Especial de Prestadores de Servicios de Salud, por clase de prestador IPS-Instituciones Prestadoras de Servicios de Salud.",
+            "attribution" : "MINISTERIO DE SALUD Y PROTECCIÓN SOCIAL",
+            "attribution_link" : "https://www.datos.gov.co/d/c36g-9fc2",
+            "contact_email" : null,
+            "type" : "filter",
+            "updatedAt" : "2025-12-19T23:25:43.000Z",
+            "createdAt" : "2020-03-13T14:16:06.000Z",
+            "metadata_updated_at" : "2025-12-19T23:25:43.000Z",
+            "data_updated_at" : "2023-07-04T21:54:06.000Z",
+            "page_views" :
+              {
+                "page_views_last_week" : 37,
+                "page_views_last_month" : 168,
+                "page_views_total" : 6486,
+                "page_views_last_week_log" : 5.247927513443585,
+                "page_views_last_month_log" : 7.400879436282184,
+                "page_views_total_log" : 12.663335723478355
+              },
+            "columns_name" :
+              [
+                "ClasePrestadorDesc",
+                "CodigoHabilitacionSede",
+                "ESE",
+                "FechaCorte",
+                "NaturalezaJuridica",
+                "CodigoPrestador"
+              ],
+            "columns_field_name" :
+              [
+                "claseprestador",
+                "codigohabilitacionsede",
+                "ese",
+                "fecha_corte_reps",
+                "naturalezajuridica",
+                "codigoprestador"
+              ],
+            "columns_datatype" :
+              [ "Text", "Text", "Text", "Text", "Text", "Text" ],
+            "columns_description" : [ "", "", "", "", "", "" ],
+            "columns_format" :
+              [
+                {},
+                { "noCommas" : "true" },
+                { "displayStyle" : "plain", "align" : "center" },
+                { "view" : "date_ymd" },
+                {},
+                {
+                  "precisionStyle" : "standard",
+                  "noCommas" : "true",
+                  "align" : "center"
+                }
+              ],
+            "download_count" : 311,
+            "provenance" : "community",
+            "lens_view_type" : "tabular",
+            "lens_display_type" : "table",
+            "locked" : false,
+            "blob_mime_type" : null,
+            "hide_from_data_json" : false,
+            "publication_date" : "2020-03-13T16:16:14.000Z"
+          },
+        "classification" :
+          {
+            "categories" : [],
+            "tags" : [],
+            "domain_category" : "Salud y Protección Social",
+            "domain_tags" :
+              [ "reps", "ministerio de salud y protección social" ],
+            "domain_metadata" :
+              [
+                { "key" : "Información-de-Datos_Idioma", "value" : "Español" },
+                {
+                  "key" : "Información-de-Datos_Cobertura-Geográfica",
+                  "value" : "Nacional"
+                },
+                {
+                  "key" : "Información-de-Datos_Frecuencia-de-Actualización",
+                  "value" : "Anual"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Sector",
+                  "value" : "Salud y Protección Social"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Área-o-dependencia",
+                  "value" : "MINISTERIO DE SALUD Y PROTECCIÓN SOCIAL"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Nombre-de-la-Entidad",
+                  "value" : "Ministerio de Salud y Protección Social"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Orden",
+                  "value" : "Nacional"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Municipio",
+                  "value" : "Bogotá D.C."
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Departamento",
+                  "value" : "Bogotá D.C."
+                }
+              ]
+          },
+        "metadata" :
+          {
+            "domain" : "www.datos.gov.co",
+            "license" : "Creative Commons Attribution | Share Alike 4.0 International"
+          },
+        "permalink" : "https://www.datos.gov.co/d/c5pu-ugym",
+        "link" : "https://www.datos.gov.co/Salud-y-Protección-Social/emssanar/c5pu-ugym",
+        "owner" :
+          {
+            "id" : "yadd-s75e",
+            "user_type" : "interactive",
+            "display_name" : "Juan Quesada"
+          },
+        "creator" :
+          {
+            "id" : "yadd-s75e",
+            "user_type" : "interactive",
+            "display_name" : "Juan Quesada"
+          }
+      },
+      {
+        "resource" :
+          {
+            "name" : "Vista Registro Especial de Prestadores de Servicios de Salud Pereira",
+            "id" : "29dg-ep5a",
+            "resource_name" : null,
+            "parent_fxf" : [ "c36g-9fc2" ],
+            "description" : "Registro Especial de Prestadores de Servicios de Salud, por clase de prestador IPS-Instituciones Prestadoras de Servicios de Salud.",
+            "attribution" : "MINISTERIO DE SALUD Y PROTECCIÓN SOCIAL",
+            "attribution_link" : "https://www.datos.gov.co/d/c36g-9fc2",
+            "contact_email" : null,
+            "type" : "filter",
+            "updatedAt" : "2025-12-19T23:06:55.000Z",
+            "createdAt" : "2020-06-04T20:19:47.000Z",
+            "metadata_updated_at" : "2025-12-19T23:06:55.000Z",
+            "data_updated_at" : "2023-07-04T21:54:06.000Z",
+            "page_views" :
+              {
+                "page_views_last_week" : 37,
+                "page_views_last_month" : 196,
+                "page_views_total" : 2675,
+                "page_views_last_week_log" : 5.247927513443585,
+                "page_views_last_month_log" : 7.622051819456376,
+                "page_views_total_log" : 11.38586240064146
+              },
+            "columns_name" :
+              [
+                "NaturalezaJuridica",
+                "CodigoHabilitacionSede",
+                "ClasePrestadorDesc",
+                "FechaCorte",
+                "ESE",
+                "CodigoPrestador"
+              ],
+            "columns_field_name" :
+              [
+                "naturalezajuridica",
+                "codigohabilitacionsede",
+                "claseprestador",
+                "fecha_corte_reps",
+                "ese",
+                "codigoprestador"
+              ],
+            "columns_datatype" :
+              [ "Text", "Text", "Text", "Text", "Text", "Text" ],
+            "columns_description" : [ "", "", "", "", "", "" ],
+            "columns_format" :
+              [
+                {},
+                { "noCommas" : "true" },
+                {},
+                { "view" : "date_ymd" },
+                { "displayStyle" : "plain", "align" : "center" },
+                {
+                  "precisionStyle" : "standard",
+                  "noCommas" : "true",
+                  "align" : "center"
+                }
+              ],
+            "download_count" : 260,
+            "provenance" : "official",
+            "lens_view_type" : "tabular",
+            "lens_display_type" : "table",
+            "locked" : false,
+            "blob_mime_type" : null,
+            "hide_from_data_json" : false,
+            "publication_date" : "2020-06-04T20:19:59.000Z"
+          },
+        "classification" :
+          {
+            "categories" : [],
+            "tags" : [],
+            "domain_category" : "Salud y Protección Social",
+            "domain_tags" :
+              [ "reps", "ministerio de salud y protección social" ],
+            "domain_metadata" :
+              [
+                { "key" : "Información-de-Datos_Idioma", "value" : "Español" },
+                {
+                  "key" : "Información-de-Datos_Cobertura-Geográfica",
+                  "value" : "Nacional"
+                },
+                {
+                  "key" : "Información-de-Datos_Frecuencia-de-Actualización",
+                  "value" : "Anual"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Sector",
+                  "value" : "Salud y Protección Social"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Área-o-dependencia",
+                  "value" : "MINISTERIO DE SALUD Y PROTECCIÓN SOCIAL"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Nombre-de-la-Entidad",
+                  "value" : "Ministerio de Salud y Protección Social"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Orden",
+                  "value" : "Nacional"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Municipio",
+                  "value" : "Bogotá D.C."
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Departamento",
+                  "value" : "Bogotá D.C."
+                }
+              ]
+          },
+        "metadata" :
+          {
+            "domain" : "www.datos.gov.co",
+            "license" : "Creative Commons Attribution | Share Alike 4.0 International"
+          },
+        "permalink" : "https://www.datos.gov.co/d/29dg-ep5a",
+        "link" : "https://www.datos.gov.co/Salud-y-Protección-Social/Vista-Registro-Especial-de-Prestadores-de-Servicio/29dg-ep5a",
+        "owner" :
+          {
+            "id" : "cuzw-tdd8",
+            "user_type" : "interactive",
+            "display_name" : "Alcaldia de Pereira Secretaria TIC"
+          },
+        "creator" :
+          {
+            "id" : "cuzw-tdd8",
+            "user_type" : "interactive",
+            "display_name" : "Alcaldia de Pereira Secretaria TIC"
+          }
+      }
+    ],
+  "resultSetSize" : 40,
+  "timings" : { "serviceMillis" : 26, "searchMillis" : [ 12, 6 ] },
+  "warnings" : []
+}

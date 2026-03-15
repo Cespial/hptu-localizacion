@@ -1,0 +1,190 @@
+{
+  "metadata": {
+    "description": "Comprehensive population and estratificacion data for El Poblado (Medellín), Envigado, Itagüí, Sabaneta",
+    "focus": "Estratos 4, 5, 6 (high socioeconomic strata)",
+    "sources": [
+      {
+        "name": "EPM Estratificación y Cobertura - Medellín Comunas",
+        "file": "estratificacion_cobertura.csv",
+        "periods": [
+          "2017-12-31",
+          "2018-12-31",
+          "2019-12-31"
+        ],
+        "url": "datos.gov.co (EPM dataset)",
+        "notes": "Suscriptores por estrato y comuna - Acueducto, Alcantarillado, Aseo"
+      },
+      {
+        "name": "Proyecciones de Población Medellín 2020 por Comunas",
+        "file": "proyecciones_poblacion_medellin_2020.csv",
+        "year": 2020,
+        "url": "datos.gov.co ID: vk9k-hfhi",
+        "notes": "Población por comunas y grupos de edad"
+      },
+      {
+        "name": "CNPV 2018 - Antioquia por edad y municipio",
+        "file": "cnpv_2018_medellin_envigado_itagui_sabaneta_por_edad.json",
+        "year": 2018,
+        "url": "datos.gov.co ID: evm3-92yw",
+        "notes": "Censo Nacional de Población y Vivienda 2018"
+      },
+      {
+        "name": "Información Predios Medellín por Estrato y Comuna",
+        "file": "informacion_predios.csv",
+        "notes": "1,041,413 predios con estrato, uso, barrio, comuna",
+        "url": "Catastro Medellín"
+      },
+      {
+        "name": "Medellín Estratos por Manzana (ArcGIS)",
+        "file": "medellin_estratos_456_por_manzana_arcgis.json",
+        "notes": "5,142 manzanas con estratos 4,5,6. Layer 7: estrato (non-dissolved)",
+        "url": "https://services.arcgis.com/b3fMqPOmotX6SV4k/arcgis/rest/services/all_medellin_WFL1/FeatureServer/7"
+      },
+      {
+        "name": "El Poblado Estrato por Manzana (ArcGIS)",
+        "file": "medellin_el_poblado_estrato_por_manzana.json",
+        "notes": "1,233 manzanas en El Poblado (comuna 14) con estrato",
+        "url": "https://services.arcgis.com/b3fMqPOmotX6SV4k/arcgis/rest/services/all_medellin_WFL1/FeatureServer/7"
+      },
+      {
+        "name": "Proyección Demográfica Sabaneta 2018-2023",
+        "file": "sabaneta_proyeccion_poblacion_2018_2023.json",
+        "url": "datos.gov.co ID: pfng-8k8d",
+        "notes": "Proyecciones población Sabaneta por año y grupo de edad"
+      }
+    ]
+  },
+  "el_poblado_medellin": {
+    "source": "EPM Estratificacion 2019 + Predios Catastro",
+    "population_2020": 134873,
+    "subscribers_by_estrato_2019": {
+      "E1": 8,
+      "E2": 398,
+      "E3": 411,
+      "E4": 1434,
+      "E5": 9309,
+      "E6": 36351
+    },
+    "predios_by_estrato": {
+      "E0_no_residencial": 124609,
+      "E1": 9,
+      "E2": 355,
+      "E3": 478,
+      "E4": 1377,
+      "E5": 9300,
+      "E6": 38415
+    },
+    "manzanas_by_estrato_arcgis": {
+      "E1": 5,
+      "E2": 72,
+      "E3": 126,
+      "E4": 129,
+      "E5": 214,
+      "E6": 687
+    },
+    "notes": "El Poblado = Medellín Comuna 14. Predominantemente estrato 5-6."
+  },
+  "census_2018": {
+    "medellin": {
+      "codigo_dane": "05001",
+      "poblacion_total": 2327880,
+      "cabecera_hombres": 1082791,
+      "cabecera_mujeres": 1225509,
+      "rural": 19580
+    },
+    "envigado": {
+      "codigo_dane": "05266",
+      "poblacion_total": 210705,
+      "cabecera_hombres": 93142,
+      "cabecera_mujeres": 109591,
+      "rural": 7972
+    },
+    "itagui": {
+      "codigo_dane": "05360",
+      "poblacion_total": 240828,
+      "cabecera_hombres": 112437,
+      "cabecera_mujeres": 124251,
+      "rural": 4140
+    },
+    "sabaneta": {
+      "codigo_dane": "05631",
+      "poblacion_total": 73838,
+      "cabecera_hombres": 32458,
+      "cabecera_mujeres": 37650,
+      "rural": 3730
+    }
+  },
+  "sabaneta_population_projections": {
+    "source": "datos.gov.co ID: pfng-8k8d",
+    "years": {
+      "2018": {
+        "total": 82375,
+        "hombres": 38305,
+        "mujeres": 44070
+      },
+      "2019": {
+        "total": 85484,
+        "hombres": 39775,
+        "mujeres": 45709
+      },
+      "2020": {
+        "total": 87981,
+        "hombres": 40948,
+        "mujeres": 47033
+      },
+      "2021": {
+        "total": 89364,
+        "hombres": 41600,
+        "mujeres": 47764
+      },
+      "2022": {
+        "total": 90743,
+        "hombres": 42244,
+        "mujeres": 48499
+      },
+      "2023": {
+        "total": 92159,
+        "hombres": 42904,
+        "mujeres": 49255
+      }
+    }
+  },
+  "medellin_predios_estratos_456_high_areas": {
+    "EL_POBLADO": {
+      "E4": 1377,
+      "E5": 9300,
+      "E6": 38415,
+      "total": 49092
+    },
+    "LAURELES": {
+      "E4": 13117,
+      "E5": 27172,
+      "E6": 1032,
+      "total": 41321
+    },
+    "BELEN": {
+      "E4": 21063,
+      "E5": 14760,
+      "E6": 117,
+      "total": 35940
+    },
+    "LA_AMERIA": {
+      "E4": 15288,
+      "E5": 9496,
+      "E6": 129,
+      "total": 24913
+    },
+    "LA_CANDELARIA": {
+      "E4": 16312,
+      "E5": 1897,
+      "E6": 3,
+      "total": 18212
+    },
+    "ROBLEDO": {
+      "E4": 7643,
+      "E5": 1877,
+      "E6": 0,
+      "total": 9520
+    }
+  }
+}

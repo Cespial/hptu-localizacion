@@ -1,0 +1,1917 @@
+{
+  "results" :
+    [
+      {
+        "resource" :
+          {
+            "name" : "Tráfico Peajes Invias",
+            "id" : "tcfu-jngt",
+            "resource_name" : "Trafico_peajes_invias",
+            "parent_fxf" : [],
+            "description" : "Tráfico de Vehículos a través de los peajes operados por Invias",
+            "attribution" : "Invias",
+            "attribution_link" : null,
+            "contact_email" : null,
+            "type" : "dataset",
+            "updatedAt" : "2025-12-19T20:21:29.000Z",
+            "createdAt" : "2025-01-08T17:12:34.000Z",
+            "metadata_updated_at" : "2025-12-19T20:21:29.000Z",
+            "data_updated_at" : "2025-12-19T20:21:08.000Z",
+            "page_views" :
+              {
+                "page_views_last_week" : 57,
+                "page_views_last_month" : 390,
+                "page_views_total" : 2659,
+                "page_views_last_week_log" : 5.857980995127572,
+                "page_views_last_month_log" : 8.611024797307353,
+                "page_views_total_log" : 11.377210530388552
+              },
+            "columns_name" :
+              [
+                "VEHÍCULOS IPREV IV",
+                "EXONERADOS INVIAS I",
+                "Total Evasores",
+                "EXONERADOS INVIAS VI",
+                "EVASORES UNIDAD IIEE",
+                "EVASORES UNIDAD IEA",
+                "EVASORES UNIDAD IVE",
+                "TRAFICO EFECTIVO IEE",
+                "EJES IPREV Ejes Adicionales",
+                "TOTAL EJES 2",
+                "EJES IPREV Ejes Grua",
+                "VEHÍCULOS IPREV VE",
+                "TRAFICO EFECTIVO II",
+                "EVASORES UNIDAD IIE",
+                "EXONERADOS INVIAS VII",
+                "EVASORES UNIDAD IIIP",
+                "VEHÍCULOS IPREV IE",
+                "EVASORES UNIDAD IV",
+                "TIQUETES PREPAGO IVE",
+                "EXONERADOS INVIAS IV",
+                "VEH RES 3694 DE 2007 IE",
+                "TIQUETES PREPAGO VI",
+                "TIQUETES PREPAGO II",
+                "TIQUETES PREPAGO IEA",
+                "TIQUETES PREPAGO IE",
+                "EXONERADOS INVIAS V",
+                "EXENTOS  -  LEY 787 2002 III",
+                "VEHÍCULOS IPREV III",
+                "TOTAL VEH IPREV",
+                "ER",
+                "Total Prepagos",
+                "TRAFICO EFECTIVO  IIIP",
+                "TRAFICO EFECTIVO  IEB",
+                "EVASORES UNIDAD VII",
+                "EJES EFECTIVO Ejes Remolque",
+                "VEHÍCULOS IPREV VB",
+                "TIQUETES PREPAGO III 2",
+                "TRAFICO EFECTIVO  IEB 2",
+                "EJES IPREV Ejes Remolque",
+                "EVASORES UNIDAD II",
+                "VEHÍCULOS IPREV IEQ",
+                "EJES EFECTIVO Ejes Grua",
+                "TRAFICO EFECTIVO  IEQ",
+                "VEHÍCULOS IPREV V",
+                "TRAFICO EFECTIVO IIIE",
+                "TRAFICO EFECTIVO  IIIG",
+                "VEHÍCULOS IPREV II",
+                "VEHÍCULOS IPREV IIIG",
+                "TRAFICO EFECTIVO  V E",
+                "Mes",
+                "TIQUETES PREPAGO IEB",
+                "Departamento",
+                "TOTAL EXONERADOS INVIAS",
+                "TRAFICO EFECTIVO IV",
+                "VEHÍCULOS IPREV IIE",
+                "EXENTOS EMERGENCIA VIAL TOTAL",
+                "TRAFICO EFECTIVO IE",
+                "EXONERADOS INVIAS IIIP",
+                "TIQUETES PREPAGO VB",
+                "Año",
+                "TIQUETES PREPAGO V",
+                "Código Estación",
+                "VEHÍCULOS IPREV IIIE",
+                "TRAFICO EFECTIVO I",
+                "TRAFICO EFECTIVO VI",
+                "TRAFICO EFECTIVO V (B)",
+                "TRAFICO EFECTIVO IIA",
+                "EXONERADOS INVIAS II",
+                "VEHÍCULOS IPREV VII",
+                "TRAFICO EFECTIVO IIE",
+                "TIQUETES PREPAGO IIIP",
+                "TRAFICO EFECTIVO V",
+                "TRAFICO EFECTIVO  V (B-A)",
+                "Tráfico Total",
+                "VEHÍCULOS IPREV IEB",
+                "VEHÍCULOS IPREV VI",
+                "TIQUETES PREPAGO IIEQ",
+                "EXENTOS  -  LEY 787 2002 V",
+                "EJES IPREV Ejes Cañeros",
+                "EVASORES UNIDAD IEQ",
+                "TOTAL EJES",
+                "VEH RES 3694 DE 2007 Total",
+                "TOTAL VEH (EFECTIVO+PREPAGOS+EVASION+REV+VEH RES3694)",
+                "TIQUETES PREPAGO III",
+                "EVASORES UNIDAD I",
+                "EVASORES UNIDAD IEB",
+                "EXENTOS RES0000015 (Koran)",
+                "EVASORES UNIDAD IIIG",
+                "EXENTOS  -  LEY 787 2002 I",
+                "EXENTOS  -  LEY 787 2002 IIIP",
+                "EXENTOS  -  LEY 787 2002 IIIG",
+                "EXENTOS  -  LEY 787 2002 VII",
+                "EXENTOS  -  LEY 787 2002 Total Exentos",
+                "TOTAL VEH (EFECTIVO+PREPAGOS+EVASION+REV+VEH RES 3694+EXENTOS)",
+                "EVASORES UNIDAD VE",
+                "TIQUETES PREPAGO IV",
+                "EJES EFECTIVO Ejes Cañeros",
+                "EJES EFECTIVO Ejes Adicionales",
+                "VEHÍCULOS IPREV IIIP",
+                "VEHÍCULOS IPREV IVE",
+                "EXONERADOS INVIAS III",
+                "EXENTOS EMERGENCIA VIAL CAT II",
+                "EXONERADOS INVIAS IIIG",
+                "EXENTOS EMERGENCIA VIAL CAT I",
+                "VEHÍCULOS IPREV IIEQ",
+                "VEHÍCULOS IPREV IEA",
+                "VEHÍCULOS IPREV I",
+                "TRAFICO EFECTIVO VII",
+                "TIQUETES PREPAGO IEQ",
+                "TRAFICO EFECTIVO III",
+                "TRAFICO EFECTIVO IIE REV",
+                "TRAFICO EFECTIVO IIEQ",
+                "TRAFICO EFECTIVO IIEE",
+                "TRAFICO EFECTIVO  IEA",
+                "Estación de Peaje",
+                "EVASORES UNIDAD VB",
+                "EXENTOS RES0000015 (Koran) 2",
+                "EG",
+                "EA",
+                "EXENTOS  -  LEY 787 2002 VI",
+                "EXENTOS  -  LEY 787 2002 VB",
+                "EXENTOS  -  LEY 787 2002 II",
+                "VEH RES 3694 DE 2007 IIE",
+                "EVASORES UNIDAD VI",
+                "EVASORES UNIDAD V",
+                "EVASORES UNIDAD IIIE",
+                "EVASORES UNIDAD III",
+                "EXENTOS  -  LEY 787 2002 IV",
+                "TIQUETES PREPAGO I",
+                "TRAFICO EFECTIVO  IVE",
+                "EVASORES UNIDAD IIEQ",
+                "EVASORES UNIDAD IE",
+                "TIQUETES PREPAGO VII",
+                "TIQUETES PREPAGO VE",
+                "TIQUETES PREPAGO IIE",
+                "TIQUETES PREPAGO IIEE",
+                "TIQUETES PREPAGO IIIG",
+                "TIQUETES PREPAGO IIIE",
+                "VEHÍCULOS IPREV IIEE"
+              ],
+            "columns_field_name" :
+              [
+                "vehiculos_iprev_iv",
+                "exonerados_invias_i",
+                "total_evasores",
+                "exonerados_invias_vi",
+                "evasores_unidad_iiee",
+                "evasores_unidad_iea",
+                "evasores_unidad_ive",
+                "trafico_efectivo_iee",
+                "ejes_iprev_ejes_adicionales",
+                "total_ejes_2",
+                "ejes_iprev_ejes_grua",
+                "vehiculos_iprev_ve",
+                "trafico_efectivo_ii",
+                "evasores_unidad_iie",
+                "exonerados_invias_vii",
+                "evasores_unidad_iiip",
+                "vehiculos_iprev_ie",
+                "evasores_unidad_iv",
+                "tiquetes_prepago_ive",
+                "exonerados_invias_iv",
+                "veh_res_3694_de_2007_ie",
+                "tiquetes_prepago_vi",
+                "tiquetes_prepago_ii",
+                "tiquetes_prepago_iea",
+                "tiquetes_prepago_ie",
+                "exonerados_invias_v",
+                "exentos_ley_787_2002_iii",
+                "vehiculos_iprev_iii",
+                "total_veh_iprev",
+                "er",
+                "total_prepagos",
+                "trafico_efectivo_iiip",
+                "trafico_efectivo_ieb",
+                "evasores_unidad_vii",
+                "ejes_efectivo_ejes_remolque",
+                "vehiculos_iprev_vb",
+                "tiquetes_prepago_iii_2",
+                "trafico_efectivo_ieb_2",
+                "ejes_iprev_ejes_remolque",
+                "evasores_unidad_ii",
+                "vehiculos_iprev_ieq",
+                "ejes_efectivo_ejes_grua",
+                "trafico_efectivo_ieq",
+                "vehiculos_iprev_v",
+                "trafico_efectivo_iiie",
+                "trafico_efectivo_iiig",
+                "vehiculos_iprev_ii",
+                "vehiculos_iprev_iiig",
+                "trafico_efectivo_v_e",
+                "mes",
+                "tiquetes_prepago_ieb",
+                "departamento",
+                "total_exonerados_invias",
+                "trafico_efectivo_iv",
+                "vehiculos_iprev_iie",
+                "exentos_emergencia_vial_total",
+                "trafico_efectivo_ie",
+                "exonerados_invias_iiip",
+                "tiquetes_prepago_vb",
+                "anio",
+                "tiquetes_prepago_v",
+                "codigo_estacion",
+                "vehiculos_iprev_iiie",
+                "trafico_efectivo_i",
+                "trafico_efectivo_vi",
+                "trafico_efectivo_v_b",
+                "trafico_efectivo_iia",
+                "exonerados_invias_ii",
+                "vehiculos_iprev_vii",
+                "trafico_efectivo_iie",
+                "tiquetes_prepago_iiip",
+                "trafico_efectivo_v",
+                "trafico_efectivo_v_b_a",
+                "trafico_total",
+                "vehiculos_iprev_ieb",
+                "vehiculos_iprev_vi",
+                "tiquetes_prepago_iieq",
+                "exentos_ley_787_2002_v",
+                "ejes_iprev_ejes_caneros",
+                "evasores_unidad_ieq",
+                "total_ejes",
+                "veh_res_3694_de_2007_total",
+                "total_veh_efectivo_prepagos",
+                "tiquetes_prepago_iii",
+                "evasores_unidad_i",
+                "evasores_unidad_ieb",
+                "exentos_res0000015_koran",
+                "evasores_unidad_iiig",
+                "exentos_ley_787_2002_i",
+                "exentos_ley_787_2002_iiip",
+                "exentos_ley_787_2002_iiig",
+                "exentos_ley_787_2002_vii",
+                "exentos_ley_787_2002_total",
+                "total_veh_efectivo_prepagos_1",
+                "evasores_unidad_ve",
+                "tiquetes_prepago_iv",
+                "ejes_efectivo_ejes_caneros",
+                "ejes_efectivo_ejes_adicionales",
+                "vehiculos_iprev_iiip",
+                "vehiculos_iprev_ive",
+                "exonerados_invias_iii",
+                "exentos_emergencia_vial_cat_1",
+                "exonerados_invias_iiig",
+                "exentos_emergencia_vial_cat",
+                "vehiculos_iprev_iieq",
+                "vehiculos_iprev_iea",
+                "vehiculos_iprev_i",
+                "trafico_efectivo_vii",
+                "tiquetes_prepago_ieq",
+                "trafico_efectivo_iii",
+                "trafico_efectivo_iie_rev",
+                "trafico_efectivo_iieq",
+                "trafico_efectivo_iiee",
+                "trafico_efectivo_iea",
+                "estacion_de_peaje",
+                "evasores_unidad_vb",
+                "exentos_res0000015_koran_1",
+                "eg",
+                "ea",
+                "exentos_ley_787_2002_vi",
+                "exentos_ley_787_2002_vb",
+                "exentos_ley_787_2002_ii",
+                "veh_res_3694_de_2007_iie",
+                "evasores_unidad_vi",
+                "evasores_unidad_v",
+                "evasores_unidad_iiie",
+                "evasores_unidad_iii",
+                "exentos_ley_787_2002_iv",
+                "tiquetes_prepago_i",
+                "trafico_efectivo_ive",
+                "evasores_unidad_iieq",
+                "evasores_unidad_ie",
+                "tiquetes_prepago_vii",
+                "tiquetes_prepago_ve",
+                "tiquetes_prepago_iie",
+                "tiquetes_prepago_iiee",
+                "tiquetes_prepago_iiig",
+                "tiquetes_prepago_iiie",
+                "vehiculos_iprev_iiee"
+              ],
+            "columns_datatype" :
+              [
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Number",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Number",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Number",
+                "Number",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Number",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Number",
+                "Text",
+                "Number",
+                "Number",
+                "Text",
+                "Text",
+                "Number",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Number",
+                "Text",
+                "Text",
+                "Number",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Number",
+                "Number",
+                "Text",
+                "Number",
+                "Text",
+                "Text",
+                "Number",
+                "Text",
+                "Number",
+                "Number",
+                "Number",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Number",
+                "Text",
+                "Number",
+                "Number",
+                "Number",
+                "Number",
+                "Number",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Number",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text"
+              ],
+            "columns_description" :
+              [
+                "VEHÍCULOS IPREV IV",
+                "EXONERADOS INVIAS I",
+                "Total Evasores",
+                "EXONERADOS INVIAS VI",
+                "EVASORES UNIDAD IIEE",
+                "EVASORES UNIDAD IEA",
+                "EVASORES UNIDAD IVE",
+                "TRAFICO EFECTIVO IEE",
+                "EJES IPREV Ejes Adicionales",
+                "TOTAL EJES 2",
+                "EJES IPREV Ejes Grua",
+                "VEHÍCULOS IPREV VE",
+                "TRAFICO EFECTIVO II",
+                "EVASORES UNIDAD IIE",
+                "EXONERADOS INVIAS VII",
+                "EVASORES UNIDAD IIIP",
+                "VEHÍCULOS IPREV IE",
+                "EVASORES UNIDAD IV",
+                "TIQUETES PREPAGO IVE",
+                "EXONERADOS INVIAS IV",
+                "VEH RES 3694 DE 2007 IE",
+                "TIQUETES PREPAGO VI",
+                "TIQUETES PREPAGO II",
+                "TIQUETES PREPAGO IEA",
+                "TIQUETES PREPAGO IE",
+                "EXONERADOS INVIAS V",
+                "EXENTOS  -  LEY 787 2002 III",
+                "VEHÍCULOS IPREV III",
+                "TOTAL VEH IPREV",
+                "ER",
+                "Total Prepagos",
+                "TRAFICO EFECTIVO  IIIP",
+                "TRAFICO EFECTIVO  IEB",
+                "EVASORES UNIDAD VII",
+                "EJES EFECTIVO Ejes Remolque",
+                "VEHÍCULOS IPREV VB",
+                "TIQUETES PREPAGO III 2",
+                "TRAFICO EFECTIVO  IEB 2",
+                "EJES IPREV Ejes Remolque",
+                "EVASORES UNIDAD II",
+                "VEHÍCULOS IPREV IEQ",
+                "EJES EFECTIVO Ejes Grua",
+                "TRAFICO EFECTIVO  IEQ",
+                "VEHÍCULOS IPREV V",
+                "TRAFICO EFECTIVO IIIE",
+                "TRAFICO EFECTIVO  IIIG",
+                "VEHÍCULOS IPREV II",
+                "VEHÍCULOS IPREV IIIG",
+                "TRAFICO EFECTIVO  V E",
+                "Mes",
+                "TIQUETES PREPAGO IEB",
+                "Departamento",
+                "TOTAL EXONERADOS INVIAS",
+                "TRAFICO EFECTIVO IV",
+                "VEHÍCULOS IPREV IIE",
+                "EXENTOS EMERGENCIA VIAL TOTAL",
+                "TRAFICO EFECTIVO IE",
+                "EXONERADOS INVIAS IIIP",
+                "TIQUETES PREPAGO VB",
+                "Año",
+                "TIQUETES PREPAGO V",
+                "Código Estación",
+                "VEHÍCULOS IPREV IIIE",
+                "TRAFICO EFECTIVO I",
+                "TRAFICO EFECTIVO VI",
+                "TRAFICO EFECTIVO V (B)",
+                "TRAFICO EFECTIVO IIA",
+                "EXONERADOS INVIAS II",
+                "VEHÍCULOS IPREV VII",
+                "TRAFICO EFECTIVO IIE",
+                "TIQUETES PREPAGO IIIP",
+                "TRAFICO EFECTIVO V",
+                "TRAFICO EFECTIVO  V (B-A)",
+                "Tráfico Total",
+                "VEHÍCULOS IPREV IEB",
+                "VEHÍCULOS IPREV VI",
+                "TIQUETES PREPAGO IIEQ",
+                "EXENTOS  -  LEY 787 2002 V",
+                "EJES IPREV Ejes Cañeros",
+                "EVASORES UNIDAD IEQ",
+                "TOTAL EJES",
+                "VEH RES 3694 DE 2007 Total",
+                "TOTAL VEH (EFECTIVO+PREPAGOS+EVASION+REV+VEH RES3694)",
+                "TIQUETES PREPAGO III",
+                "EVASORES UNIDAD I",
+                "EVASORES UNIDAD IEB",
+                "EXENTOS RES0000015 (Koran)",
+                "EVASORES UNIDAD IIIG",
+                "EXENTOS  -  LEY 787 2002 I",
+                "EXENTOS  -  LEY 787 2002 IIIP",
+                "EXENTOS  -  LEY 787 2002 IIIG",
+                "EXENTOS  -  LEY 787 2002 VII",
+                "EXENTOS  -  LEY 787 2002 Total Exentos",
+                "TOTAL VEH (EFECTIVO+PREPAGOS+EVASION+REV+VEH RES 3694+EXENTOS)",
+                "EVASORES UNIDAD VE",
+                "TIQUETES PREPAGO IV",
+                "EJES EFECTIVO Ejes Cañeros",
+                "EJES EFECTIVO Ejes Adicionales",
+                "VEHÍCULOS IPREV IIIP",
+                "VEHÍCULOS IPREV IVE",
+                "EXONERADOS INVIAS III",
+                "EXENTOS EMERGENCIA VIAL CAT II",
+                "EXONERADOS INVIAS IIIG",
+                "EXENTOS EMERGENCIA VIAL CAT I",
+                "VEHÍCULOS IPREV IIEQ",
+                "VEHÍCULOS IPREV IEA",
+                "VEHÍCULOS IPREV I",
+                "TRAFICO EFECTIVO VII",
+                "TIQUETES PREPAGO IEQ",
+                "TRAFICO EFECTIVO III",
+                "TRAFICO EFECTIVO IIE REV",
+                "TRAFICO EFECTIVO IIEQ",
+                "TRAFICO EFECTIVO IIEE",
+                "TRAFICO EFECTIVO  IEA",
+                "Estación de Peaje",
+                "EVASORES UNIDAD VB",
+                "EXENTOS RES0000015 (Koran) 2",
+                "EG",
+                "EA",
+                "EXENTOS  -  LEY 787 2002 VI",
+                "EXENTOS  -  LEY 787 2002 VB",
+                "EXENTOS  -  LEY 787 2002 II",
+                "VEH RES 3694 DE 2007 IIE",
+                "EVASORES UNIDAD VI",
+                "EVASORES UNIDAD V",
+                "EVASORES UNIDAD IIIE",
+                "EVASORES UNIDAD III",
+                "EXENTOS  -  LEY 787 2002 IV",
+                "TIQUETES PREPAGO I",
+                "TRAFICO EFECTIVO  IVE",
+                "EVASORES UNIDAD IIEQ",
+                "EVASORES UNIDAD IE",
+                "TIQUETES PREPAGO VII",
+                "TIQUETES PREPAGO VE",
+                "TIQUETES PREPAGO IIE",
+                "TIQUETES PREPAGO IIEE",
+                "TIQUETES PREPAGO IIIG",
+                "TIQUETES PREPAGO IIIE",
+                "VEHÍCULOS IPREV IIEE"
+              ],
+            "columns_format" :
+              [
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                { "decimalSeparator" : ".", "groupSeparator" : "," },
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                { "decimalSeparator" : ".", "groupSeparator" : "," },
+                {},
+                {},
+                {},
+                {},
+                {},
+                { "decimalSeparator" : ".", "groupSeparator" : "," },
+                {},
+                {},
+                {},
+                { "decimalSeparator" : ".", "groupSeparator" : "," },
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                { "decimalSeparator" : ".", "groupSeparator" : "," },
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                { "decimalSeparator" : ".", "groupSeparator" : "," },
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {}
+              ],
+            "download_count" : 494,
+            "provenance" : "official",
+            "lens_view_type" : "tabular",
+            "lens_display_type" : "table",
+            "locked" : false,
+            "blob_mime_type" : null,
+            "hide_from_data_json" : false,
+            "publication_date" : "2025-12-19T20:21:29.000Z"
+          },
+        "classification" :
+          {
+            "categories" : [],
+            "tags" : [],
+            "domain_category" : "Transporte",
+            "domain_tags" : [],
+            "domain_metadata" :
+              [
+                { "key" : "Información-de-Datos_Idioma", "value" : "Español" },
+                {
+                  "key" : "Información-de-Datos_Cobertura-Geográfica",
+                  "value" : "Nacional"
+                },
+                {
+                  "key" : "Información-de-Datos_Frecuencia-de-Actualización",
+                  "value" : "Anual"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Sector",
+                  "value" : "Transporte"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Área-o-dependencia",
+                  "value" : "Otic"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Nombre-de-la-Entidad",
+                  "value" : "Instituto Nacional De Vías - INVÍAS, Bogotá D.C."
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Orden",
+                  "value" : "Nacional"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Municipio",
+                  "value" : "Bogotá D.C."
+                },
+                {
+                  "key" : "Información-de-la-Entidad_DIVIPOLA-Municipio",
+                  "value" : "11001"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Departamento",
+                  "value" : "Bogotá D.C."
+                }
+              ]
+          },
+        "metadata" :
+          {
+            "domain" : "www.datos.gov.co",
+            "license" : "Creative Commons Attribution 4.0 International"
+          },
+        "permalink" : "https://www.datos.gov.co/d/tcfu-jngt",
+        "link" : "https://www.datos.gov.co/Transporte/Tráfico-Peajes-Invias/tcfu-jngt",
+        "owner" :
+          {
+            "id" : "ajp8-pk3v",
+            "user_type" : "interactive",
+            "display_name" : "Instituto Nacional de Vías - INVIAS"
+          },
+        "creator" :
+          {
+            "id" : "ajp8-pk3v",
+            "user_type" : "interactive",
+            "display_name" : "Instituto Nacional de Vías - INVIAS"
+          }
+      },
+      {
+        "resource" :
+          {
+            "name" : "Estado de la prestación del servicio de energía en Zonas No Interconectadas",
+            "id" : "3ebi-d83g",
+            "resource_name" : null,
+            "parent_fxf" : [],
+            "description" : "Indica el estado de la prestación del servicio de energía en ZNI, para las localidades que hoy cuentan con este sistema de seguimiento.",
+            "attribution" : "https://ipse.gov.co/",
+            "attribution_link" : "https://ipse.gov.co/",
+            "contact_email" : null,
+            "type" : "dataset",
+            "updatedAt" : "2026-03-13T14:42:17.000Z",
+            "createdAt" : "2020-05-21T16:54:45.000Z",
+            "metadata_updated_at" : "2026-03-13T14:42:15.000Z",
+            "data_updated_at" : "2026-03-13T14:42:17.000Z",
+            "page_views" :
+              {
+                "page_views_last_week" : 152,
+                "page_views_last_month" : 649,
+                "page_views_total" : 15498,
+                "page_views_last_week_log" : 7.257387842692652,
+                "page_views_last_month_log" : 9.344295907915818,
+                "page_views_total_log" : 13.919887514946936
+              },
+            "columns_name" :
+              [
+                "ID DEPATAMENTO",
+                "DEPARTAMENTO",
+                "ID LOCALIDAD",
+                "ENERGÍA ACTIVA",
+                "DÍA DE DEMANDA MÁXIMA",
+                "ENERGÍA REACTIVA",
+                "MUNICIPIO",
+                "ID MUNICIPIO",
+                "LOCALIDAD",
+                "FECHA DE DEMANDA MÁXIMA",
+                "PROMEDIO DIARIO EN HORAS",
+                "AÑO SERVICIO",
+                "MES SERVICIO",
+                "POTENCIA MÁXIMA"
+              ],
+            "columns_field_name" :
+              [
+                "id_dpto",
+                "dpto",
+                "id_localidad",
+                "energia_activa",
+                "dia_demanda_maxima",
+                "energia_reactiva",
+                "mpio",
+                "id_mpio",
+                "localidad",
+                "fecha_demanda_maxima",
+                "prom_diario_horas",
+                "anio",
+                "mes",
+                "potencia_maxima"
+              ],
+            "columns_datatype" :
+              [
+                "Text",
+                "Text",
+                "Text",
+                "Number",
+                "Text",
+                "Number",
+                "Text",
+                "Text",
+                "Text",
+                "Calendar date",
+                "Number",
+                "Text",
+                "Text",
+                "Number"
+              ],
+            "columns_description" :
+              [
+                "ID DEPATAMENTO",
+                "DEPARTAMENTO",
+                "ID LOCALIDAD",
+                "ENERGÍA ACTIVA",
+                "DÍA DE DEMANDA MÁXIMA",
+                "ENERGÍA REACTIVA",
+                "MUNICIPIO",
+                "ID MUNICIPIO",
+                "LOCALIDAD",
+                "FECHA DE DEMANDA MÁXIMA",
+                "PROMEDIO DIARIO EN HORAS",
+                "AÑO SERVICIO",
+                "MES SERVICIO",
+                "POTENCIA MÁXIMA"
+              ],
+            "columns_format" :
+              [ {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {} ],
+            "download_count" : 2207,
+            "provenance" : "official",
+            "lens_view_type" : "tabular",
+            "lens_display_type" : "table",
+            "locked" : false,
+            "blob_mime_type" : null,
+            "hide_from_data_json" : false,
+            "publication_date" : "2020-05-21T17:05:34.000Z"
+          },
+        "classification" :
+          {
+            "categories" : [],
+            "tags" : [],
+            "domain_category" : "Minas y Energía",
+            "domain_tags" :
+              [
+                "municipio",
+                "departamento",
+                "localidad",
+                "capacidad instalada",
+                "potencia maxima",
+                "demanda mensual",
+                "zni",
+                "energia",
+                "telemetria",
+                "ipse",
+                "energía",
+                "minas",
+                "fazni",
+                "localidades",
+                "demanda promedio"
+              ],
+            "domain_metadata" :
+              [
+                {
+                  "key" : "Información-de-Datos_Cobertura-Geográfica",
+                  "value" : "Nacional"
+                },
+                {
+                  "key" : "Información-de-Datos_Frecuencia-de-Actualización",
+                  "value" : "Trimestral"
+                },
+                {
+                  "key" : "Información-de-Datos_URL-Documentación",
+                  "value" : "https://ipse.gov.co/"
+                },
+                {
+                  "key" : "Información-de-Datos_Fecha-Emisión-(aaaa-mm-dd)",
+                  "value" : "2020-05-21"
+                },
+                { "key" : "Información-de-Datos_Idioma", "value" : "Español" },
+                {
+                  "key" : "Información-de-la-Entidad_Sector",
+                  "value" : "Minas y Energía"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Área-o-dependencia",
+                  "value" : "CENTRO NACIONAL DE MONITOREO - CNM"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Nombre-de-la-Entidad",
+                  "value" : "Instituto De Planificación Y Promoción De Soluciones Energéticas Para Las Zonas No Interconectadas - IPSE, Bogotá D.C."
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Orden",
+                  "value" : "Nacional"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Municipio",
+                  "value" : "Bogotá D.C."
+                },
+                {
+                  "key" : "Información-de-la-Entidad_DIVIPOLA-Municipio",
+                  "value" : "11001"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Departamento",
+                  "value" : "Bogotá D.C."
+                }
+              ]
+          },
+        "metadata" :
+          {
+            "domain" : "www.datos.gov.co",
+            "license" : "Creative Commons 1.0 Universal (Public Domain Dedication)"
+          },
+        "permalink" : "https://www.datos.gov.co/d/3ebi-d83g",
+        "link" : "https://www.datos.gov.co/Minas-y-Energía/Estado-de-la-prestación-del-servicio-de-energía-en/3ebi-d83g",
+        "owner" :
+          {
+            "id" : "swxb-zyht",
+            "user_type" : "interactive",
+            "display_name" : "CNM - IPSE"
+          },
+        "creator" :
+          {
+            "id" : "swxb-zyht",
+            "user_type" : "interactive",
+            "display_name" : "CNM - IPSE"
+          }
+      },
+      {
+        "resource" :
+          {
+            "name" : "Promedio de tráfico y conexiones en zonas digitales de Acacías",
+            "id" : "drfm-i22d",
+            "resource_name" : null,
+            "parent_fxf" : [],
+            "description" : "Información de conexiones y tráfico de las zonas digitales del Municipio de Acacías",
+            "attribution" : null,
+            "attribution_link" : "https://www.datos.gov.co/d/drfm-i22d",
+            "contact_email" : null,
+            "type" : "dataset",
+            "updatedAt" : "2025-12-19T23:19:46.000Z",
+            "createdAt" : "2020-11-04T21:17:55.000Z",
+            "metadata_updated_at" : "2025-12-19T23:19:46.000Z",
+            "data_updated_at" : "2025-05-21T04:15:40.000Z",
+            "page_views" :
+              {
+                "page_views_last_week" : 7,
+                "page_views_last_month" : 37,
+                "page_views_total" : 1270,
+                "page_views_last_week_log" : 3.0,
+                "page_views_last_month_log" : 5.247927513443585,
+                "page_views_total_log" : 10.311748315004959
+              },
+            "columns_name" :
+              [
+                "Nombre de la RED",
+                "Mes",
+                "Localización",
+                "Ubicación",
+                "N° de conexiones promedio en 24 horas",
+                "Consumo de ancho de banda promedio por día (GB)",
+                "Año"
+              ],
+            "columns_field_name" :
+              [
+                "ssid",
+                "mes",
+                "localizaci_n",
+                "ubicaci_n",
+                "n_de_conexiones_promedio",
+                "consumo_de_ancho_de_banda",
+                "a_o"
+              ],
+            "columns_datatype" :
+              [ "Text", "Text", "Text", "Text", "Number", "Number", "Text" ],
+            "columns_description" :
+              [
+                "Nombre visible de la red ",
+                "Mes específico de promedio de conexión",
+                "posicionamiento espacial definida de la zona wifi en un sistema de coordenadas",
+                "Lugar de ubicación de la zona wifi",
+                "Cantidad de dispositivos conectados a la red wifi en determinado tiempo ",
+                "Gigas de descarga por día",
+                "Año del promedio de conexión"
+              ],
+            "columns_format" : [ {}, {}, {}, {}, {}, {}, {} ],
+            "download_count" : 197,
+            "provenance" : "official",
+            "lens_view_type" : "tabular",
+            "lens_display_type" : "table",
+            "locked" : false,
+            "blob_mime_type" : null,
+            "hide_from_data_json" : false,
+            "publication_date" : "2021-02-08T20:15:51.000Z"
+          },
+        "classification" :
+          {
+            "categories" : [],
+            "tags" : [],
+            "domain_category" : "Ciencia, Tecnología e Innovación",
+            "domain_tags" : [],
+            "domain_metadata" :
+              [
+                { "key" : "Información-de-Datos_Idioma", "value" : "Español" },
+                {
+                  "key" : "Información-de-Datos_Cobertura-Geográfica",
+                  "value" : "Municipal"
+                },
+                {
+                  "key" : "Información-de-Datos_Frecuencia-de-Actualización",
+                  "value" : "Mensual"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Sector",
+                  "value" : "Ciencia y Tecnología e Innovación"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Área-o-dependencia",
+                  "value" : "OFICINA DE TECNOLOGIAS DE LA INFORMACIÓN Y LAS "
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Nombre-de-la-Entidad",
+                  "value" : "Alcaldía de Acacías"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Orden",
+                  "value" : "Territorial"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Municipio",
+                  "value" : "Acacías"
+                },
+                {
+                  "key" : "Información-de-la-Entidad_Departamento",
+                  "value" : "Meta"
+                }
+              ]
+          },
+        "metadata" : { "domain" : "www.datos.gov.co" },
+        "permalink" : "https://www.datos.gov.co/d/drfm-i22d",
+        "link" : "https://www.datos.gov.co/Ciencia-Tecnología-e-Innovación/Promedio-de-tráfico-y-conexiones-en-zonas-digitale/drfm-i22d",
+        "owner" :
+          {
+            "id" : "khfq-8zje",
+            "user_type" : "interactive",
+            "display_name" : "Alcaldia - Acacias"
+          },
+        "creator" :
+          {
+            "id" : "khfq-8zje",
+            "user_type" : "interactive",
+            "display_name" : "Alcaldia - Acacias"
+          }
+      },
+      {
+        "resource" :
+          {
+            "name" : "Tráfico diario de Internet",
+            "id" : "ybhr-5mfm",
+            "resource_name" : null,
+            "parent_fxf" : [],
+            "description" : "<p>Información de TRÁFICO DIARIO reportada por los Proveedores de Servicio de Internet, desde el 30 de marzo de 2020.<br />\nDe acuerdo con lo establecido en la <a href=\"https://www.crcom.gov.co/uploads/images/files/Circular_135_2021.pdf\">Circular 135 de 2021</a> expedida el 28 de septiembre de 2021, el tráfico diario de internet no será reportado nuevamente por los PRST.</p>",
+            "attribution" : null,
+            "attribution_link" : null,
+            "contact_email" : "mailto:atencioncliente@crcom.gov.co",
+            "type" : "federated_href",
+            "updatedAt" : "2025-10-14T19:26:28.000Z",
+            "createdAt" : "2025-07-21T20:38:08.000Z",
+            "metadata_updated_at" : "2025-10-14T19:26:28.000Z",
+            "data_updated_at" : "2025-07-21T20:38:08.000Z",
+            "page_views" :
+              {
+                "page_views_last_week" : 5,
+                "page_views_last_month" : 13,
+                "page_views_total" : 88,
+                "page_views_last_week_log" : 2.584962500721156,
+                "page_views_last_month_log" : 3.8073549220576037,
+                "page_views_total_log" : 6.475733430966398
+              },
+            "columns_name" : [],
+            "columns_field_name" : [],
+            "columns_datatype" : [],
+            "columns_description" : [],
+            "columns_format" : [],
+            "download_count" : 0,
+            "provenance" : "official",
+            "lens_view_type" : "href",
+            "lens_display_type" : "federated",
+            "locked" : false,
+            "blob_mime_type" : null,
+            "hide_from_data_json" : false,
+            "publication_date" : "2025-07-21T20:38:08.000Z"
+          },
+        "classification" :
+          {
+            "categories" : [],
+            "tags" : [],
+            "domain_tags" : [ "covid-19", "internet", "tráfico" ],
+            "domain_metadata" :
+              [
+                {
+                  "key" : "Common-Core_Contact-Email",
+                  "value" : "mailto:atencioncliente@crcom.gov.co"
+                },
+                { "key" : "Common-Core_Last-Update", "value" : "2021-10-07" },
+                {
+                  "key" : "Common-Core_Public-Access-Level",
+                  "value" : "public"
+                },
+                {
+                  "key" : "Common-Core_Unique-Identifier",
+                  "value" : "c9d5111e-d303-4d7e-8df1-a8f0766ba439"
+                },
+                {
+                  "key" : "Common-Core_Publisher",
+                  "value" : "Comisión de Regulación de Comunicaciones"
+                },
+                {
+                  "key" : "Common-Core_Homepage",
+                  "value" : "https://www.postdata.gov.co/dataset/tr%C3%A1fico-de-internet-covid-19/resource/c9d5111e-d303-4d7e-8df1-a8f0766ba439"
+                },
+                {
+                  "key" : "Common-Core_Theme",
+                  "value" : "Ciencia Tecnología e Innovación"
+                },
+                { "key" : "Common-Core_Issued", "value" : "2020-04-24" },
+                {
+                  "key" : "Common-Core_Contact-Name",
+                  "value" : "Comisión de Regulación de Comunicaciones"
+                }
+              ]
+          },
+        "metadata" :
+          {
+            "domain" : "www.datos.gov.co",
+            "additional_access_points" :
+              [
+                {
+                  "urls" :
+                    {
+                      "text/csv" : "https://www.postdata.gov.co/sites/default/files/datasets/data/Monitoreo%20de%20Tr%C3%A1fico%20de%20Internet%20-%20Trafico%20Diario_133.csv"
+                    },
+                  "description" : "<p>Información de TRÁFICO DIARIO reportada por los Proveedores de Servicio de Internet, desde el 30 de marzo de 2020.<br />\nDe acuerdo con lo establecido en la <a href=\"https://www.crcom.gov.co/uploads/images/files/Circular_135_2021.pdf\">Circular 135 de 2021</a> expedida el 28 de septiembre de 2021, el tráfico diario de internet no será reportado nuevamente por los PRST.</p>\n",
+                  "title" : "Tráfico diario de Internet"
+                }
+              ],
+            "access_points" :
+              {
+                "text/csv" : "https://www.postdata.gov.co/sites/default/files/datasets/data/Monitoreo%20de%20Tr%C3%A1fico%20de%20Internet%20-%20Trafico%20Diario_133.csv"
+              }
+          },
+        "permalink" : "https://www.datos.gov.co/d/ybhr-5mfm",
+        "link" : "https://www.datos.gov.co/dataset/Tráfico-diario-de-Internet/ybhr-5mfm",
+        "owner" :
+          {
+            "id" : "r4qn-dwdd",
+            "user_type" : "interactive",
+            "display_name" : "Ministerio de Tecnologías de la Información y las Comunicaciones - Datos Abiertos"
+          },
+        "creator" :
+          {
+            "id" : "r4qn-dwdd",
+            "user_type" : "interactive",
+            "display_name" : "Ministerio de Tecnologías de la Información y las Comunicaciones - Datos Abiertos"
+          }
+      },
+      {
+        "resource" :
+          {
+            "name" : "Precios y Energía de los contratos no realizados a través del SICEP con destino al mercado regulado",
+            "id" : "58zg-vr7a",
+            "resource_name" : null,
+            "parent_fxf" : [],
+            "description" : "Precio promedio ponderado diario y cantidad de energía de los contratos a plazo realizados fuera del Sistema Centralizado de Información de Convocatorias Públicas (SICEP) y con destino al mercado regulado. El precio promedio ponderado se pondera por las cantidades de energía despachadas de cada contrato.",
+            "attribution" : null,
+            "attribution_link" : null,
+            "contact_email" : "mailto:info@XM.com.co",
+            "type" : "federated_href",
+            "updatedAt" : "2026-03-11T19:12:15.000Z",
+            "createdAt" : "2024-08-22T19:01:51.000Z",
+            "metadata_updated_at" : "2026-03-11T19:12:15.000Z",
+            "data_updated_at" : "2024-08-22T19:01:51.000Z",
+            "page_views" :
+              {
+                "page_views_last_week" : 10,
+                "page_views_last_month" : 34,
+                "page_views_total" : 171,
+                "page_views_last_week_log" : 3.4594316186372978,
+                "page_views_last_month_log" : 5.129283016944966,
+                "page_views_total_log" : 7.426264754702098
+              },
+            "columns_name" : [],
+            "columns_field_name" : [],
+            "columns_datatype" : [],
+            "columns_description" : [],
+            "columns_format" : [],
+            "download_count" : 0,
+            "provenance" : "official",
+            "lens_view_type" : "href",
+            "lens_display_type" : "federated",
+            "locked" : false,
+            "blob_mime_type" : null,
+            "hide_from_data_json" : false,
+            "publication_date" : "2024-08-22T19:01:51.000Z"
+          },
+        "classification" :
+          {
+            "categories" : [],
+            "tags" : [],
+            "domain_tags" : [ "mercado regulado", "energía", "precios" ],
+            "domain_metadata" :
+              [
+                {
+                  "key" : "Common-Core_Contact-Email",
+                  "value" : "mailto:info@XM.com.co"
+                },
+                { "key" : "Common-Core_Last-Update", "value" : "2026-03-11" },
+                { "key" : "Common-Core_License", "value" : "" },
+                {
+                  "key" : "Common-Core_Public-Access-Level",
+                  "value" : "public"
+                },
+                {
+                  "key" : "Common-Core_Unique-Identifier",
+                  "value" : "https://www.simem.co/datadetail/52341bef-c3ca-412d-9de6-dd66c7c50131"
+                },
+                {
+                  "key" : "Common-Core_Publisher",
+                  "value" : "XM Compañía de Expertos en Mercados S.A. E.S.P."
+                },
+                {
+                  "key" : "Common-Core_Homepage",
+                  "value" : "https://www.simem.co/datadetail/52341bef-c3ca-412d-9de6-dd66c7c50131"
+                },
+                { "key" : "Common-Core_Theme", "value" : "Minas y Energía" },
+                {
+                  "key" : "Common-Core_Contact-Name",
+                  "value" : "Equipo SIMEM"
+                }
+              ]
+          },
+        "metadata" :
+          {
+            "domain" : "www.datos.gov.co",
+            "additional_access_points" :
+              [
+                {
+                  "urls" :
+                    {
+                      "text/html" : "https://www.simem.co/datadetail/52341bef-c3ca-412d-9de6-dd66c7c50131"
+                    },
+                  "title" : "Dataset"
+                }
+              ],
+            "access_points" :
+              {
+                "text/html" : "https://www.simem.co/datadetail/52341bef-c3ca-412d-9de6-dd66c7c50131"
+              }
+          },
+        "permalink" : "https://www.datos.gov.co/d/58zg-vr7a",
+        "link" : "https://www.datos.gov.co/dataset/Precios-y-Energía-de-los-contratos-no-realizados-a/58zg-vr7a",
+        "owner" :
+          {
+            "id" : "r4qn-dwdd",
+            "user_type" : "interactive",
+            "display_name" : "Ministerio de Tecnologías de la Información y las Comunicaciones - Datos Abiertos"
+          },
+        "creator" :
+          {
+            "id" : "r4qn-dwdd",
+            "user_type" : "interactive",
+            "display_name" : "Ministerio de Tecnologías de la Información y las Comunicaciones - Datos Abiertos"
+          }
+      },
+      {
+        "resource" :
+          {
+            "name" : "Relación índice platts US gulf coast residual fuel",
+            "id" : "vkwz-5cet",
+            "resource_name" : null,
+            "parent_fxf" : [],
+            "description" : "Relación entre el promedio aritmético en % del índice de precio de cierre diario del Platts US Gulf Coast Residual Fuel No. 6 1% Sulfur FO durante los últimos 30 días con datos disponibles, y el promedio aritmético del mismo índice correspondiente a diciembre de 2013.",
+            "attribution" : null,
+            "attribution_link" : null,
+            "contact_email" : "mailto:info@XM.com.co",
+            "type" : "federated_href",
+            "updatedAt" : "2026-03-11T19:12:35.000Z",
+            "createdAt" : "2025-09-19T19:06:59.000Z",
+            "metadata_updated_at" : "2026-03-11T19:12:35.000Z",
+            "data_updated_at" : "2025-09-19T19:06:59.000Z",
+            "page_views" :
+              {
+                "page_views_last_week" : 2,
+                "page_views_last_month" : 21,
+                "page_views_total" : 124,
+                "page_views_last_week_log" : 1.5849625007211563,
+                "page_views_last_month_log" : 4.459431618637297,
+                "page_views_total_log" : 6.965784284662088
+              },
+            "columns_name" : [],
+            "columns_field_name" : [],
+            "columns_datatype" : [],
+            "columns_description" : [],
+            "columns_format" : [],
+            "download_count" : 0,
+            "provenance" : "official",
+            "lens_view_type" : "href",
+            "lens_display_type" : "federated",
+            "locked" : false,
+            "blob_mime_type" : null,
+            "hide_from_data_json" : false,
+            "publication_date" : "2025-09-19T19:06:59.000Z"
+          },
+        "classification" :
+          {
+            "categories" : [],
+            "tags" : [],
+            "domain_tags" : [ "simem" ],
+            "domain_metadata" :
+              [
+                {
+                  "key" : "Common-Core_Contact-Email",
+                  "value" : "mailto:info@XM.com.co"
+                },
+                { "key" : "Common-Core_Last-Update", "value" : "2026-03-11" },
+                { "key" : "Common-Core_License", "value" : "" },
+                {
+                  "key" : "Common-Core_Public-Access-Level",
+                  "value" : "public"
+                },
+                {
+                  "key" : "Common-Core_Unique-Identifier",
+                  "value" : "https://www.simem.co/datadetail/96ddfe6e-e44e-4fba-bed9-3e84e9dedbd4"
+                },
+                {
+                  "key" : "Common-Core_Publisher",
+                  "value" : "XM Compañía de Expertos en Mercados S.A. E.S.P."
+                },
+                {
+                  "key" : "Common-Core_Homepage",
+                  "value" : "https://www.simem.co/datadetail/96ddfe6e-e44e-4fba-bed9-3e84e9dedbd4"
+                },
+                { "key" : "Common-Core_Theme", "value" : "Minas y Energía" },
+                {
+                  "key" : "Common-Core_Contact-Name",
+                  "value" : "Equipo SIMEM"
+                }
+              ]
+          },
+        "metadata" :
+          {
+            "domain" : "www.datos.gov.co",
+            "additional_access_points" :
+              [
+                {
+                  "urls" :
+                    {
+                      "text/html" : "https://www.simem.co/datadetail/96ddfe6e-e44e-4fba-bed9-3e84e9dedbd4"
+                    },
+                  "title" : "Dataset"
+                }
+              ],
+            "access_points" :
+              {
+                "text/html" : "https://www.simem.co/datadetail/96ddfe6e-e44e-4fba-bed9-3e84e9dedbd4"
+              }
+          },
+        "permalink" : "https://www.datos.gov.co/d/vkwz-5cet",
+        "link" : "https://www.datos.gov.co/dataset/Relación-índice-platts-US-gulf-coast-residual-fuel/vkwz-5cet",
+        "owner" :
+          {
+            "id" : "r4qn-dwdd",
+            "user_type" : "interactive",
+            "display_name" : "Ministerio de Tecnologías de la Información y las Comunicaciones - Datos Abiertos"
+          },
+        "creator" :
+          {
+            "id" : "r4qn-dwdd",
+            "user_type" : "interactive",
+            "display_name" : "Ministerio de Tecnologías de la Información y las Comunicaciones - Datos Abiertos"
+          }
+      },
+      {
+        "resource" :
+          {
+            "name" : "Costo Marginal Promedio del Redespacho del Informe Diario de Operación",
+            "id" : "fw4k-cbyv",
+            "resource_name" : null,
+            "parent_fxf" : [],
+            "description" : "Presenta la información del costo marginal promedio obtenido en el programa de generación del redespacho",
+            "attribution" : null,
+            "attribution_link" : null,
+            "contact_email" : "mailto:info@XM.com.co",
+            "type" : "federated_href",
+            "updatedAt" : "2026-03-11T19:12:20.000Z",
+            "createdAt" : "2024-08-22T19:01:10.000Z",
+            "metadata_updated_at" : "2026-03-11T19:12:20.000Z",
+            "data_updated_at" : "2024-08-22T19:01:10.000Z",
+            "page_views" :
+              {
+                "page_views_last_week" : 1,
+                "page_views_last_month" : 1,
+                "page_views_total" : 24,
+                "page_views_last_week_log" : 1.0,
+                "page_views_last_month_log" : 1.0,
+                "page_views_total_log" : 4.643856189774724
+              },
+            "columns_name" : [],
+            "columns_field_name" : [],
+            "columns_datatype" : [],
+            "columns_description" : [],
+            "columns_format" : [],
+            "download_count" : 0,
+            "provenance" : "official",
+            "lens_view_type" : "href",
+            "lens_display_type" : "federated",
+            "locked" : false,
+            "blob_mime_type" : null,
+            "hide_from_data_json" : false,
+            "publication_date" : "2024-08-22T19:01:10.000Z"
+          },
+        "classification" :
+          {
+            "categories" : [],
+            "tags" : [],
+            "domain_tags" : [ "costo marginal", "redespacho", "ido" ],
+            "domain_metadata" :
+              [
+                {
+                  "key" : "Common-Core_Contact-Email",
+                  "value" : "mailto:info@XM.com.co"
+                },
+                { "key" : "Common-Core_Last-Update", "value" : "2026-03-11" },
+                { "key" : "Common-Core_License", "value" : "" },
+                {
+                  "key" : "Common-Core_Public-Access-Level",
+                  "value" : "public"
+                },
+                {
+                  "key" : "Common-Core_Unique-Identifier",
+                  "value" : "https://www.simem.co/datadetail/f2ba181e-08b5-4ebe-abad-55dbb1b56215"
+                },
+                {
+                  "key" : "Common-Core_Publisher",
+                  "value" : "XM Compañía de Expertos en Mercados S.A. E.S.P."
+                },
+                {
+                  "key" : "Common-Core_Homepage",
+                  "value" : "https://www.simem.co/datadetail/f2ba181e-08b5-4ebe-abad-55dbb1b56215"
+                },
+                { "key" : "Common-Core_Theme", "value" : "Minas y Energía" },
+                {
+                  "key" : "Common-Core_Contact-Name",
+                  "value" : "Equipo SIMEM"
+                }
+              ]
+          },
+        "metadata" :
+          {
+            "domain" : "www.datos.gov.co",
+            "additional_access_points" :
+              [
+                {
+                  "urls" :
+                    {
+                      "text/html" : "https://www.simem.co/datadetail/f2ba181e-08b5-4ebe-abad-55dbb1b56215"
+                    },
+                  "title" : "Dataset"
+                }
+              ],
+            "access_points" :
+              {
+                "text/html" : "https://www.simem.co/datadetail/f2ba181e-08b5-4ebe-abad-55dbb1b56215"
+              }
+          },
+        "permalink" : "https://www.datos.gov.co/d/fw4k-cbyv",
+        "link" : "https://www.datos.gov.co/dataset/Costo-Marginal-Promedio-del-Redespacho-del-Informe/fw4k-cbyv",
+        "owner" :
+          {
+            "id" : "r4qn-dwdd",
+            "user_type" : "interactive",
+            "display_name" : "Ministerio de Tecnologías de la Información y las Comunicaciones - Datos Abiertos"
+          },
+        "creator" :
+          {
+            "id" : "r4qn-dwdd",
+            "user_type" : "interactive",
+            "display_name" : "Ministerio de Tecnologías de la Información y las Comunicaciones - Datos Abiertos"
+          }
+      },
+      {
+        "resource" :
+          {
+            "name" : "Costo unitario promedio diario de reconciliación positiva",
+            "id" : "64q2-6ryg",
+            "resource_name" : null,
+            "parent_fxf" : [],
+            "description" : "Costo unitario promedio diario correspondiente al mes liquidado por cada recurso de generación remunerada por reconciliación positiva, expresado en pesos colombianos por kilovatio hora (COP/kWh).",
+            "attribution" : null,
+            "attribution_link" : null,
+            "contact_email" : "mailto:info@XM.com.co",
+            "type" : "federated_href",
+            "updatedAt" : "2026-02-15T19:17:43.000Z",
+            "createdAt" : "2024-08-22T19:01:32.000Z",
+            "metadata_updated_at" : "2026-02-15T19:17:43.000Z",
+            "data_updated_at" : "2024-08-22T19:01:32.000Z",
+            "page_views" :
+              {
+                "page_views_last_week" : 7,
+                "page_views_last_month" : 7,
+                "page_views_total" : 12,
+                "page_views_last_week_log" : 3.0,
+                "page_views_last_month_log" : 3.0,
+                "page_views_total_log" : 3.700439718141092
+              },
+            "columns_name" : [],
+            "columns_field_name" : [],
+            "columns_datatype" : [],
+            "columns_description" : [],
+            "columns_format" : [],
+            "download_count" : 0,
+            "provenance" : "official",
+            "lens_view_type" : "href",
+            "lens_display_type" : "federated",
+            "locked" : false,
+            "blob_mime_type" : null,
+            "hide_from_data_json" : false,
+            "publication_date" : "2024-08-22T19:01:32.000Z"
+          },
+        "classification" :
+          {
+            "categories" : [],
+            "tags" : [],
+            "domain_tags" :
+              [
+                "recurso generación",
+                "precios",
+                "reconciliación",
+                "generador"
+              ],
+            "domain_metadata" :
+              [
+                {
+                  "key" : "Common-Core_Contact-Email",
+                  "value" : "mailto:info@XM.com.co"
+                },
+                { "key" : "Common-Core_Last-Update", "value" : "2026-02-15" },
+                { "key" : "Common-Core_License", "value" : "" },
+                {
+                  "key" : "Common-Core_Public-Access-Level",
+                  "value" : "public"
+                },
+                {
+                  "key" : "Common-Core_Unique-Identifier",
+                  "value" : "https://www.simem.co/datadetail/b15ed2b6-d1db-4a7b-9093-93797689344f"
+                },
+                {
+                  "key" : "Common-Core_Publisher",
+                  "value" : "XM Compañía de Expertos en Mercados S.A. E.S.P."
+                },
+                {
+                  "key" : "Common-Core_Homepage",
+                  "value" : "https://www.simem.co/datadetail/b15ed2b6-d1db-4a7b-9093-93797689344f"
+                },
+                { "key" : "Common-Core_Theme", "value" : "Minas y Energía" },
+                {
+                  "key" : "Common-Core_Contact-Name",
+                  "value" : "Equipo SIMEM"
+                }
+              ]
+          },
+        "metadata" :
+          {
+            "domain" : "www.datos.gov.co",
+            "additional_access_points" :
+              [
+                {
+                  "urls" :
+                    {
+                      "text/html" : "https://www.simem.co/datadetail/b15ed2b6-d1db-4a7b-9093-93797689344f"
+                    },
+                  "title" : "Dataset"
+                }
+              ],
+            "access_points" :
+              {
+                "text/html" : "https://www.simem.co/datadetail/b15ed2b6-d1db-4a7b-9093-93797689344f"
+              }
+          },
+        "permalink" : "https://www.datos.gov.co/d/64q2-6ryg",
+        "link" : "https://www.datos.gov.co/dataset/Costo-unitario-promedio-diario-de-reconciliación-p/64q2-6ryg",
+        "owner" :
+          {
+            "id" : "r4qn-dwdd",
+            "user_type" : "interactive",
+            "display_name" : "Ministerio de Tecnologías de la Información y las Comunicaciones - Datos Abiertos"
+          },
+        "creator" :
+          {
+            "id" : "r4qn-dwdd",
+            "user_type" : "interactive",
+            "display_name" : "Ministerio de Tecnologías de la Información y las Comunicaciones - Datos Abiertos"
+          }
+      },
+      {
+        "resource" :
+          {
+            "name" : "Precios y Energía de los contratos no realizados a través del SICEP que atienden el mercado de usuarios regulados",
+            "id" : "vcgb-dbh7",
+            "resource_name" : null,
+            "parent_fxf" : [],
+            "description" : "Precio promedio ponderado diario y cantidad de energía de los contratos a plazo realizados fuera del Sistema Centralizado de Información de Convocatorias Públicas (SICEP) y que atienden el mercado de usuarios regulados. El precio promedio ponderado se pondera por las cantidades de energía despachadas de cada contrato.",
+            "attribution" : null,
+            "attribution_link" : null,
+            "contact_email" : "mailto:info@XM.com.co",
+            "type" : "federated_href",
+            "updatedAt" : "2026-03-11T19:12:20.000Z",
+            "createdAt" : "2024-08-22T19:02:03.000Z",
+            "metadata_updated_at" : "2026-03-11T19:12:20.000Z",
+            "data_updated_at" : "2024-08-22T19:02:03.000Z",
+            "page_views" :
+              {
+                "page_views_last_week" : 4,
+                "page_views_last_month" : 4,
+                "page_views_total" : 19,
+                "page_views_last_week_log" : 2.321928094887362,
+                "page_views_last_month_log" : 2.321928094887362,
+                "page_views_total_log" : 4.321928094887363
+              },
+            "columns_name" : [],
+            "columns_field_name" : [],
+            "columns_datatype" : [],
+            "columns_description" : [],
+            "columns_format" : [],
+            "download_count" : 0,
+            "provenance" : "official",
+            "lens_view_type" : "href",
+            "lens_display_type" : "federated",
+            "locked" : false,
+            "blob_mime_type" : null,
+            "hide_from_data_json" : false,
+            "publication_date" : "2024-08-22T19:02:03.000Z"
+          },
+        "classification" :
+          {
+            "categories" : [],
+            "tags" : [],
+            "domain_tags" : [ "energía", "precios", "mercado regulado" ],
+            "domain_metadata" :
+              [
+                {
+                  "key" : "Common-Core_Contact-Email",
+                  "value" : "mailto:info@XM.com.co"
+                },
+                { "key" : "Common-Core_Last-Update", "value" : "2026-03-11" },
+                { "key" : "Common-Core_License", "value" : "" },
+                {
+                  "key" : "Common-Core_Public-Access-Level",
+                  "value" : "public"
+                },
+                {
+                  "key" : "Common-Core_Unique-Identifier",
+                  "value" : "https://www.simem.co/datadetail/1be05d09-4504-4bc9-9058-fbb08bf87cc4"
+                },
+                {
+                  "key" : "Common-Core_Publisher",
+                  "value" : "XM Compañía de Expertos en Mercados S.A. E.S.P."
+                },
+                {
+                  "key" : "Common-Core_Homepage",
+                  "value" : "https://www.simem.co/datadetail/1be05d09-4504-4bc9-9058-fbb08bf87cc4"
+                },
+                { "key" : "Common-Core_Theme", "value" : "Minas y Energía" },
+                {
+                  "key" : "Common-Core_Contact-Name",
+                  "value" : "Equipo SIMEM"
+                }
+              ]
+          },
+        "metadata" :
+          {
+            "domain" : "www.datos.gov.co",
+            "additional_access_points" :
+              [
+                {
+                  "urls" :
+                    {
+                      "text/html" : "https://www.simem.co/datadetail/1be05d09-4504-4bc9-9058-fbb08bf87cc4"
+                    },
+                  "title" : "Dataset"
+                }
+              ],
+            "access_points" :
+              {
+                "text/html" : "https://www.simem.co/datadetail/1be05d09-4504-4bc9-9058-fbb08bf87cc4"
+              }
+          },
+        "permalink" : "https://www.datos.gov.co/d/vcgb-dbh7",
+        "link" : "https://www.datos.gov.co/dataset/Precios-y-Energía-de-los-contratos-no-realizados-a/vcgb-dbh7",
+        "owner" :
+          {
+            "id" : "r4qn-dwdd",
+            "user_type" : "interactive",
+            "display_name" : "Ministerio de Tecnologías de la Información y las Comunicaciones - Datos Abiertos"
+          },
+        "creator" :
+          {
+            "id" : "r4qn-dwdd",
+            "user_type" : "interactive",
+            "display_name" : "Ministerio de Tecnologías de la Información y las Comunicaciones - Datos Abiertos"
+          }
+      },
+      {
+        "resource" :
+          {
+            "name" : "Precio Promedio Mensual Ofrecido a los Carriers Internacionales por los Proveedores de LDI",
+            "id" : "dd5r-bn5z",
+            "resource_name" : null,
+            "parent_fxf" : [],
+            "description" : "<p>Información del precio promedio mensual ofrecido a los carriers internacionales por el proveedor de larga distancia internacional para la terminación de tráfico entrante a redes fija y móviles en Colombia. Incluye información desde octubre de 2010 hasta junio de 2021.</p>",
+            "attribution" : null,
+            "attribution_link" : null,
+            "contact_email" : "mailto:atencioncliente@crcom.gov.co",
+            "type" : "federated_href",
+            "updatedAt" : "2025-10-14T19:26:27.000Z",
+            "createdAt" : "2025-07-21T20:38:11.000Z",
+            "metadata_updated_at" : "2025-10-14T19:26:27.000Z",
+            "data_updated_at" : "2025-07-21T20:38:11.000Z",
+            "page_views" :
+              {
+                "page_views_last_week" : 1,
+                "page_views_last_month" : 1,
+                "page_views_total" : 4,
+                "page_views_last_week_log" : 1.0,
+                "page_views_last_month_log" : 1.0,
+                "page_views_total_log" : 2.321928094887362
+              },
+            "columns_name" : [],
+            "columns_field_name" : [],
+            "columns_datatype" : [],
+            "columns_description" : [],
+            "columns_format" : [],
+            "download_count" : 0,
+            "provenance" : "official",
+            "lens_view_type" : "href",
+            "lens_display_type" : "federated",
+            "locked" : false,
+            "blob_mime_type" : null,
+            "hide_from_data_json" : false,
+            "publication_date" : "2025-07-21T20:38:11.000Z"
+          },
+        "classification" :
+          {
+            "categories" : [],
+            "tags" : [],
+            "domain_tags" :
+              [
+                "ldi",
+                "precio promedio mensual",
+                "proveedores",
+                "redes de acceso fijo"
+              ],
+            "domain_metadata" :
+              [
+                {
+                  "key" : "Common-Core_Contact-Email",
+                  "value" : "mailto:atencioncliente@crcom.gov.co"
+                },
+                { "key" : "Common-Core_Last-Update", "value" : "2021-07-23" },
+                {
+                  "key" : "Common-Core_Public-Access-Level",
+                  "value" : "public"
+                },
+                {
+                  "key" : "Common-Core_Unique-Identifier",
+                  "value" : "b5459c43-9dfe-4544-86e9-242f369ddf61"
+                },
+                {
+                  "key" : "Common-Core_Publisher",
+                  "value" : "Comisión de Regulación de Comunicaciones"
+                },
+                {
+                  "key" : "Common-Core_Homepage",
+                  "value" : "https://www.postdata.gov.co/dataset/cargos-de-acceso-por-larga-distancia-internacional/resource/b5459c43-9dfe-4544-86e9"
+                },
+                {
+                  "key" : "Common-Core_Theme",
+                  "value" : "Ciencia Tecnología e Innovación"
+                },
+                { "key" : "Common-Core_Issued", "value" : "2020-03-19" },
+                {
+                  "key" : "Common-Core_Contact-Name",
+                  "value" : "Comisión de Regulación de Comunicaciones"
+                }
+              ]
+          },
+        "metadata" :
+          {
+            "domain" : "www.datos.gov.co",
+            "additional_access_points" :
+              [
+                {
+                  "urls" :
+                    {
+                      "text/csv" : "https://www.postdata.gov.co/sites/default/files/datasets/data/PRECIO_CARRIERS_5.csv"
+                    },
+                  "description" : "<p>Información del precio promedio mensual ofrecido a los carriers internacionales por el proveedor de larga distancia internacional para la terminación de tráfico entrante a redes fija y móviles en Colombia. Incluye información desde octubre de 2010 hasta junio de 2021.</p>\n",
+                  "title" : "Precio Promedio Mensual Ofrecido a los Carriers Internacionales por los Proveedores de LDI"
+                }
+              ],
+            "access_points" :
+              {
+                "text/csv" : "https://www.postdata.gov.co/sites/default/files/datasets/data/PRECIO_CARRIERS_5.csv"
+              }
+          },
+        "permalink" : "https://www.datos.gov.co/d/dd5r-bn5z",
+        "link" : "https://www.datos.gov.co/dataset/Precio-Promedio-Mensual-Ofrecido-a-los-Carriers-In/dd5r-bn5z",
+        "owner" :
+          {
+            "id" : "r4qn-dwdd",
+            "user_type" : "interactive",
+            "display_name" : "Ministerio de Tecnologías de la Información y las Comunicaciones - Datos Abiertos"
+          },
+        "creator" :
+          {
+            "id" : "r4qn-dwdd",
+            "user_type" : "interactive",
+            "display_name" : "Ministerio de Tecnologías de la Información y las Comunicaciones - Datos Abiertos"
+          }
+      }
+    ],
+  "resultSetSize" : 10,
+  "timings" : { "serviceMillis" : 22, "searchMillis" : [ 2, 8 ] },
+  "warnings" : []
+}
