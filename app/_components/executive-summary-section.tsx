@@ -223,6 +223,23 @@ export function ExecutiveSummarySection() {
                   </>
                 ),
               },
+              {
+                text: (
+                  <>
+                    <strong>2da etapa Tunel de Oriente abre H2 2027</strong>{" "}
+                    &mdash; doble calzada reduce tiempos. Km 7 es nodo de
+                    entrada.
+                  </>
+                ),
+              },
+              {
+                text: (
+                  <>
+                    <strong>Aeropuerto JMC: 14.5M &rarr; 42.7M pasajeros</strong>{" "}
+                    (Master Plan 2055). A 20 min de Access Point.
+                  </>
+                ),
+              },
             ].map((item, i) => (
               <li key={i} className="flex items-start gap-3">
                 <Check className="h-4.5 w-4.5 text-teal-600 mt-0.5 shrink-0" />
@@ -343,6 +360,14 @@ export function ExecutiveSummarySection() {
               <>
                 Si HPTU no ocupa el nodo Las Palmas/Tunel,{" "}
                 <strong>otro operador lo hara</strong>
+              </>,
+              <>
+                <strong>Campestre ya abrio sede Rionegro</strong> (marzo 2026,
+                $30,000M COP, 250 pac/dia)
+              </>,
+              <>
+                <strong>HSVF Rionegro va hacia 500 camas</strong> &mdash;
+                dominara inpatient del Oriente
               </>,
             ].map((text, i) => (
               <li key={i} className="flex items-start gap-3">
@@ -633,6 +658,16 @@ export function ExecutiveSummarySection() {
                 step: "Negociacion con Acierto Inmobiliario",
                 detail:
                   "Condiciones comerciales, plazos de entrega, personalizacion de torres",
+              },
+              {
+                step: "Verificar ficha normativa POT del predio",
+                detail:
+                  "Confirmar uso dotacional salud en la ficha normativa especifica del lote",
+              },
+              {
+                step: "Modelar hub ambulatorio como diferenciador",
+                detail:
+                  "Modelo de hub ambulatorio (no hospital de camas) para diferenciarse de Somer/HSVF",
               },
             ].map((item, i) => (
               <li key={i} className="flex items-start gap-2.5">

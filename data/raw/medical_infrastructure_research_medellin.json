@@ -1,0 +1,520 @@
+{
+  "metadata": {
+    "research_date": "2026-03-15",
+    "purpose": "Medical infrastructure developments affecting HPTU hospital location study",
+    "status_legend": {
+      "CONFIRMED": "Verified through multiple credible sources with specific data",
+      "PARTIALLY_CONFIRMED": "Some details verified but key data points missing",
+      "RUMORED": "Mentioned in stakeholder discussions but no public source found",
+      "NOT_FOUND": "No credible public information found despite targeted searches"
+    }
+  },
+
+  "1_clinica_del_campestre": {
+    "status": "PARTIALLY_CONFIRMED",
+    "confidence": "medium",
+    "summary": "Clínica del Campestre is expanding via two major projects: Torre Médica Campestre (medical office tower) and Torre Oriental (clinical expansion at main campus). The specific '15-floor tower' referenced by stakeholders likely conflates these two projects.",
+
+    "main_campus": {
+      "name": "Clínica del Campestre",
+      "address": "Calle 17 Sur No. 44-06, Medellín, Antioquia",
+      "neighborhood": "El Poblado (sector Campestre / La Visitación)",
+      "founded": 2006,
+      "annual_patients": 150000,
+      "specialties": [
+        "Orthopedics (world-class recognition)",
+        "Dermatology",
+        "Physiatry",
+        "Infectious diseases",
+        "Pain intervention",
+        "Sports medicine",
+        "Internal medicine",
+        "Psychiatry"
+      ],
+      "accreditations": "40+ professional medical associations including American Academy of Orthopaedic Surgeons, Colombian societies for orthopedics, hand surgery, cardiology, psychiatry, dermatology, International Society of Dermatology"
+    },
+
+    "torre_oriental_expansion": {
+      "status": "CONFIRMED",
+      "name": "Torre Oriental",
+      "location": "Main campus, Calle 17 Sur 44-06, El Poblado",
+      "target_completion": "End of 2026",
+      "floors": "NOT FOUND - stakeholders mentioned 15 pisos but no public source confirms floor count",
+      "beds": "NOT FOUND",
+      "investment": "NOT FOUND",
+      "services_planned": "NOT FOUND - described as expanding care capacity",
+      "note": "Details are scarce in public sources. The institution has confirmed the project but has not released specifications publicly."
+    },
+
+    "torre_medica_campestre": {
+      "status": "CONFIRMED",
+      "name": "Torre Médica Campestre",
+      "type": "Medical office tower (real estate project)",
+      "location": "El Poblado, accessible via Av. El Poblado and Av. Las Vegas",
+      "consulting_rooms": 80,
+      "room_sizes_m2": "26 to 52 m² (consulting rooms), 305+ m² (large-format medical areas)",
+      "anchor_institution": "Clínica del Campestre",
+      "developer": "Alberto Álvarez (with Alianza Fiduciaria)",
+      "status_construction": "Construction started (as of research date)",
+      "price_from_COP": 679000000,
+      "price_note": "Starting price for 30 m² unit",
+      "website": "www.torremedicacampestre.com.co",
+      "contact": "info@torremedicacampestre.com.co"
+    },
+
+    "rionegro_expansion": {
+      "status": "CONFIRMED",
+      "name": "Clínica del Campestre Sede Rionegro",
+      "location": "Guayabito, Don Diego Llanogrande kilómetro 3, Rionegro, Antioquia",
+      "investment_COP": 30000000000,
+      "investment_breakdown": {
+        "infrastructure": 23000000000,
+        "equipment_biomedical": 6800000000
+      },
+      "daily_patient_capacity": 250,
+      "facilities": {
+        "surgical_suites": 2,
+        "priority_consultation_offices": 2,
+        "treatment_cubicles": 3,
+        "specialized_consultation_rooms": 8,
+        "minor_procedure_rooms": "Yes",
+        "laboratory": "Sample collection",
+        "pharmacy": "On-site"
+      },
+      "complexity_level": "Medium outpatient surgical",
+      "specialties": ["Orthopedics", "Dermatology", "Pain management", "Internal medicine", "Physiatry", "Psychiatry"],
+      "employment": {
+        "direct_jobs": 47,
+        "service_providers": 40,
+        "indirect": 13,
+        "total": 100
+      },
+      "opened": "March 2026 (coincides with 20th anniversary)",
+      "note": "Signals institutional expansion beyond Medellín toward Oriente Antioqueño — same catchment area as HPTU candidate site 6"
+    },
+
+    "competitive_implications": {
+      "for_hptu_study": [
+        "Campestre is aggressively expanding in both El Poblado (Torre Oriental, Torre Médica) and Oriente Antioqueño (Rionegro)",
+        "The Torre Oriental expansion targets end-2026, potentially adding significant capacity in El Poblado before HPTU could build",
+        "The Rionegro sede directly competes for Oriente Antioqueño patients — relevant to candidate site 6",
+        "Combined investment exceeds $30B COP in Rionegro alone, plus unknown Torre Oriental investment",
+        "Campestre's strength in orthopedics positions it as direct competitor if HPTU expands surgical services"
+      ]
+    }
+  },
+
+  "2_clinica_las_americas_auna_sur": {
+    "status": "CONFIRMED",
+    "confidence": "high",
+    "summary": "Fully operational high-complexity facility in Envigado since February 2022, with 168 beds and growing service portfolio.",
+
+    "facility_details": {
+      "name": "Clínica Las Américas Auna Sede Sur",
+      "address": "Transversal 27A Sur con Carrera 42 B111, Envigado, Antioquia",
+      "sector": "La Casona, Envigado",
+      "phone": "(604) 3227900",
+      "opening_date": "2022-02-14",
+      "construction_period": "3 years (delayed by pandemic)",
+      "complexity_level": "High complexity (authorized as of January 2024)"
+    },
+
+    "capacity": {
+      "total_beds": 168,
+      "icu_beds": 13,
+      "special_care_beds": 12,
+      "hospitalization_beds": 143,
+      "hospitalization_shared": 136,
+      "hospitalization_individual": 107,
+      "operating_rooms": 6,
+      "angiography_suite": 1,
+      "note": "Neuroendovascular interventionism capability"
+    },
+
+    "services": {
+      "specialties": ["Orthopedics", "Neurosurgery", "Gynecology", "Dermatology", "Cardiology", "Oncological surgery (added 2024)"],
+      "laboratory": "Laboratorio Médico Las Américas Auna — certified by College of American Pathologists (CAP)",
+      "emergency": "24 hours",
+      "patient_types": ["Complementary health plans", "Basic health plans", "Prepaid insurance", "Private patients", "International patients"]
+    },
+
+    "employment": {
+      "initial_phase": 450,
+      "projected_full_capacity": 600
+    },
+
+    "parent_organization": {
+      "name": "Auna (formerly Las Américas)",
+      "operations": "Medellín, Barranquilla + Latin America",
+      "total_employees": 6000
+    },
+
+    "competitive_implications": {
+      "for_hptu_study": [
+        "Already operational high-complexity facility serving south Valle de Aburrá",
+        "168 beds represent significant installed capacity in HPTU's potential catchment area",
+        "High-complexity authorization since Jan 2024 + oncological surgery = direct competition for complex cases",
+        "Located in Envigado — blocks southern expansion of El Poblado market for HPTU",
+        "CAP-certified lab positions it for medical tourism patients",
+        "Part of Auna network with Latin American scale — well-capitalized competitor"
+      ]
+    }
+  },
+
+  "3_clinica_alto_de_las_palmas": {
+    "status": "NOT_FOUND",
+    "confidence": "low",
+    "summary": "No credible public source confirms a planned clinic or hospital project at Alto de Las Palmas. The area has residential/commercial projects under construction with licensing controversies, but no dotacional/health use projects were identified.",
+
+    "search_findings": {
+      "construction_activity": "A large mixed-use project called 'Cuantum' (by Entremontañas and Umbral Propiedad Raíz) is being built at Alto de Las Palmas with licensing controversies — its license (issued July 2023) may not allow residential use being marketed. NOT a health facility.",
+      "pot_restrictions": "NOT FOUND — no specific information about POT dotacional health use zoning for Alto de Las Palmas / Santa Elena corregimiento was available in public search results.",
+      "health_facilities_nearby": "A 'Centro Médico KOA' appeared in searches but is located in Las Palmas de Gran Canaria (Spain), NOT Medellín.",
+      "parque_tecnologico_manantiales": "In 2010, the Ministry of Environment extracted a plot from the environmental reserve area to create 'Parque Tecnológico Manantiales' — this precedent of reserve extraction could be relevant for future health facility development."
+    },
+
+    "assessment": {
+      "feasibility_concerns": [
+        "Alto de Las Palmas is primarily in corregimiento Santa Elena with environmental reserve restrictions",
+        "No evidence of POT dotacional health use zoning in the corridor",
+        "Infrastructure access is limited to a single road (Las Palmas)",
+        "Any clinic project would likely face significant regulatory hurdles for land use change",
+        "The Cuantum licensing controversy shows the complexity of developing non-residential projects in this zone"
+      ],
+      "recommendation": "Flag as unconfirmed stakeholder rumor. Would require direct inquiry with Secretaría de Planeación de Envigado and Medellín regarding dotacional health use eligibility."
+    }
+  },
+
+  "4_torre_medica_oviedo": {
+    "status": "CONFIRMED",
+    "confidence": "high",
+    "summary": "Major new medical tower opened June 2025 inside Centro Comercial Oviedo, with $100B COP investment, 87 offices, and key anchor tenants. NOT an ophthalmology clinic — it is a full medical services tower.",
+
+    "facility_details": {
+      "name": "Torre Médica Oviedo",
+      "location": "Centro Comercial Oviedo, El Poblado, Medellín",
+      "address": "Carrera 43A # 6 Sur, El Poblado (CC Oviedo)",
+      "opening_date": "June 2025",
+      "development_period": "3+ years",
+      "architectural_firm": "Uno Punto Seis",
+      "developer": "Centro Comercial Oviedo"
+    },
+
+    "infrastructure": {
+      "investment_COP": 100000000000,
+      "built_area_m2": 12240,
+      "consulting_rooms": 87,
+      "commercial_spaces": 7,
+      "healthcare_professionals": 200,
+      "commercialization": "100% sold within one year"
+    },
+
+    "anchor_tenants": [
+      {
+        "name": "Diagnóstico Cedimed",
+        "type": "Diagnostic imaging"
+      },
+      {
+        "name": "Clínica CES",
+        "type": "University clinic, medium-high complexity"
+      },
+      {
+        "name": "Qlub Quirófanos",
+        "type": "Ambulatory surgery center",
+        "details": {
+          "operating_rooms": 6,
+          "surgery_types": "15+ types of medium-complexity ambulatory surgeries",
+          "specialties": ["Urology", "Orthopedics", "Gynecology", "Otolaryngology", "Hand surgery", "Head surgery", "Aesthetic surgery", "Functional surgery"],
+          "note": "Second location — first at Torre Médica El Tesoro (opened 2022, 4 operating rooms). Total: 10 ORs across 2 sites.",
+          "distinction": "Medellín recognized as world leader in ambulatory hysterectomy procedures"
+        }
+      }
+    ],
+
+    "design_philosophy": {
+      "concept": "Humanized medical experience — vegetation, elegant finishes, welcoming furniture",
+      "art_integration": "'Ritmos de vida' living art gallery, 22 works by 7 Colombian artists, curated by Cumare Consultores Culturales (Jimena Puyo)",
+      "urban_model": "Aligned with '15-minute city' concept"
+    },
+
+    "medical_tourism_angle": {
+      "projected_mall_traffic_increase": "20%",
+      "national_context": "Colombia received 22,000+ foreign medical tourists in 2024, +13% growth"
+    },
+
+    "competitive_implications": {
+      "for_hptu_study": [
+        "Torre Médica Oviedo adds 87 consulting rooms + 6 ambulatory ORs in the heart of El Poblado",
+        "$100B COP investment signals strong private capital flowing into El Poblado health infrastructure",
+        "Qlub Quirófanos' ambulatory surgery model represents the shift toward outpatient care — 10 ORs across 2 locations now",
+        "100% commercialization in <1 year demonstrates very strong demand for medical office space in El Poblado",
+        "CES + Cedimed presence brings university-hospital ecosystem directly into commercial setting",
+        "Medical tourism positioning creates a patient pipeline that could complement or compete with HPTU"
+      ]
+    }
+  },
+
+  "5_other_medical_developments": {
+    "torre_medica_comedal": {
+      "status": "CONFIRMED",
+      "name": "Torre Médica Comedal",
+      "location": "Ciudad del Río, Medellín",
+      "developer": "COMEDAL cooperative + CONINSA",
+      "announced": "March 2023",
+      "floors": 15,
+      "total_area_m2": 18000,
+      "consulting_rooms": 85,
+      "room_sizes_m2": "36-42",
+      "operating_rooms": 5,
+      "surgery_type": "Ambulatory",
+      "floor_breakdown": {
+        "S1_basement": "Diagnostic imaging (CT, MRI, X-ray, ultrasound, mammography) — 480 m²",
+        "floor_1": "8 commercial spaces (26.50-82.64 m²)",
+        "floors_2_to_6": "Parking (263 public + private per consulting room)",
+        "floor_7": "Surgical suite — 5 ambulatory ORs (860 m²)",
+        "floors_8_9": "Clinical services — 2 floors, 1,720 m² total, 4 clinical areas per floor",
+        "floors_10_14": "Medical consulting rooms"
+      },
+      "sales_status": "Over 65% sold",
+      "exclusive_to": "COMEDAL medical cooperative members",
+      "note": "Located in Ciudad del Río, not El Poblado — serves a different geographic segment but competes for the same specialist physicians"
+    },
+
+    "torres_medicas_el_tesoro": {
+      "status": "CONFIRMED",
+      "name": "Torres Médicas El Tesoro",
+      "location": "El Tesoro Parque Comercial, El Poblado, Medellín",
+      "consulting_rooms": 280,
+      "healthcare_professionals": 475,
+      "specialties": 121,
+      "ips_institutions": 38,
+      "services": "Diagnostic aids, consulting, ambulatory surgery (Qlub Quirófanos — 4 ORs)",
+      "note": "Already fully operational — represents the largest concentration of medical offices in El Poblado"
+    },
+
+    "metropolitan_salud": {
+      "status": "PARTIALLY_CONFIRMED",
+      "name": "Metropolitan Salud",
+      "location": "Sector San Diego, Avenida El Poblado, Medellín",
+      "developer": "Constructora Capital",
+      "type": "Medical tower with consulting rooms, IPS spaces, diagnostic aids, commercial, auditoriums",
+      "room_sizes_m2": "26.46 to 48.33",
+      "note": "Real estate project for medical offices on Av. El Poblado"
+    },
+
+    "hospital_san_vicente_fundacion": {
+      "status": "PARTIALLY_CONFIRMED",
+      "summary": "Centennial institution with verified renovation of Burns Unit, no major new tower construction found",
+      "burns_unit_renovation": {
+        "status": "CONFIRMED",
+        "previous_area_m2": 534,
+        "new_area_m2": 1439,
+        "expansion_factor": "Nearly tripled",
+        "features": "Integrated hospitalization, physical rehabilitation, procedure rooms, outpatient clinics, psychosocial support"
+      },
+      "rionegro_campus": "Hospital San Vicente Fundación Rionegro — operational, born from centennial Medellín institution",
+      "major_expansion_plans": "NOT FOUND in public sources for 2024-2025"
+    },
+
+    "ips_universitaria": {
+      "status": "NOT_FOUND",
+      "summary": "No specific expansion plans for IPS Universitaria / Clínica León XIII found in public sources for 2024-2025",
+      "current_locations": ["Sede Ambulatoria", "Clínica León XIII", "Sede Universitaria", "SIU"],
+      "note": "University of Antioquia institution — any expansion would likely be through UdeA governance"
+    },
+
+    "clinica_medellin_quironsalud": {
+      "status": "PARTIALLY_CONFIRMED",
+      "summary": "Spanish healthcare group QuirónSalud (German-owned Fresenius group) operates Clínica Medellín with two campuses",
+      "sedes": {
+        "poblado": "Active — high complexity services",
+        "occidente": "Carrera 65B No. 30-95 — has adjacent 6,300 m² lot for future expansion"
+      },
+      "expansion_potential": "6,300 m² adjacent lot at Sede Occidente — no confirmed construction timeline",
+      "previous_acquisitions": "Acquired Clínica Las Vegas and Clínica del Prado (~2019)",
+      "note": "QuirónSalud/Fresenius backing gives significant capital for future expansion"
+    },
+
+    "clinica_ces": {
+      "status": "PARTIALLY_CONFIRMED",
+      "summary": "University CES clinic — medium-high complexity, now anchored in Torre Médica Oviedo",
+      "main_campus": "Calle 20 Sur, El Poblado",
+      "new_presence": "Torre Médica Oviedo (anchor tenant since June 2025)",
+      "expansion_plans": "NOT FOUND — no specific 2024-2025 expansion announcements in public sources",
+      "type": "Non-profit, docencia-servicio model"
+    }
+  },
+
+  "6_medical_tourism_medellin": {
+    "status": "CONFIRMED",
+    "confidence": "high",
+    "summary": "Medellín is experiencing record medical tourism growth, with significant economic impact.",
+
+    "2024_statistics": {
+      "international_patients": 23323,
+      "daily_average": 64,
+      "note": "Highest since monitoring began in 2010",
+      "growth_compound_annual": "15% (since 2010)"
+    },
+
+    "economic_impact_2024": {
+      "medical_revenue_COP": 64463000000,
+      "medical_revenue_growth_yoy": "14%",
+      "hospitality_tourism_spend_COP": 45479000000,
+      "hospitality_growth_yoy": "55%",
+      "total_impact_COP": 109942000000,
+      "total_impact_note": "Over $100B COP"
+    },
+
+    "patient_origin_2024": {
+      "united_states": 3859,
+      "colombians_abroad": 2953,
+      "caribbean_nations": 2599,
+      "netherlands": 1226,
+      "panama": 755
+    },
+
+    "top_services_2024": {
+      "diagnostic_imaging": "32%",
+      "clinical_laboratory": "19%",
+      "plastic_surgery": "11%",
+      "ophthalmology": "9%",
+      "medical_consultation": "7%",
+      "others": ["Cardiology", "Gastroenterology", "Orthopedics"]
+    },
+
+    "national_projections": {
+      "by_2032": "2.8 million medical tourists annually",
+      "projected_revenue_USD": 6300000000,
+      "source": "MinCIT + ProColombia"
+    },
+
+    "coordinating_body": "Cluster Medellín Health City (Director: Mónica Sánchez)"
+  },
+
+  "7_global_trends": {
+    "shift_outpatient_ambulatory": {
+      "status": "CONFIRMED",
+      "global_asc_market_2024_USD_B": 99.6,
+      "projected_2034_USD_B": 155.43,
+      "cagr": "4.55%",
+      "outpatient_share_of_surgeries": "80%+",
+      "key_shifts": [
+        "Total joint replacements surging 53% at ASC operators",
+        "Orthopedic ASC volumes growing 23% year-over-year",
+        "High-acuity procedures (cardiology, spine, GI) migrating to outpatient",
+        "Lower-acuity (ophthalmology, dermatology, pain) migrating to office-based settings",
+        "67% of ASC facilities remain independent (consolidation opportunity)"
+      ],
+      "us_asc_market_2024_USD_B": 40,
+      "cms_projected_asc_payments_2025_USD_B": 7.4
+    },
+
+    "hospital_at_home": {
+      "status": "CONFIRMED",
+      "global_market_2023_USD_B": 390.24,
+      "growth_rate_annual": "7.96%",
+      "growth_horizon": "Through 2030",
+      "cost_savings_vs_traditional": "30%+",
+      "key_findings": [
+        "Programs reduce care costs by >30% vs traditional hospitalization",
+        "Post-COVID patients feel less comfortable in traditional hospital settings",
+        "Expands care to rural areas and mobility-limited patients",
+        "Mexico launched 'Salud Casa por Casa' program (Feb 2025) — 7B MXN budget, 13.6M elderly",
+        "Frees hospital beds for higher-acuity patients"
+      ],
+      "colombia_context": {
+        "framework": "Law 100 enabled systematic implementation of hospitalization at home",
+        "growth": "Most health service providers now have affiliated home care entities",
+        "industry_event": "ACISD Congress in Bogotá — 1,000+ attendees, 60 speakers, largest in Latin America"
+      }
+    },
+
+    "hub_and_spoke_model": {
+      "status": "CONFIRMED",
+      "definition": "Central hospital (Hub) offering high-complexity services as referral center, connected to multiple peripheral hospitals (Spokes) providing basic and specialized care",
+      "benefits": [
+        "Reduced wait times",
+        "Enhanced care quality",
+        "Improved access equity for vulnerable populations",
+        "Optimized resource utilization",
+        "Efficient materials management"
+      ],
+      "methodology_phases": [
+        "Analysis & Planning: demographic/epidemiological assessment",
+        "Conceptual Design: Hub and Spoke layout optimization",
+        "Project Development: detailed specs and construction",
+        "Implementation & Monitoring: training, integration, evaluation"
+      ],
+      "technology_enablers": ["BIM", "AI", "VR/AR", "Telemedicine"],
+      "colombia_adoption": {
+        "status": "CONFIRMED",
+        "context": "3 years of structural transformation from isolated hospitals to integrated ecosystem complexes",
+        "key_hubs": ["Bogotá", "Medellín", "Cali", "Barranquilla"],
+        "components": "High-complexity clinics + university research centers + recovery hotels + commercial + advanced labs",
+        "regulatory_advantage": "Zonas Francas Permanentes Especiales de Servicios de Salud — duty-free equipment import + tax incentives",
+        "cost_advantage": "JCI-accredited procedures at 40-60% lower cost than US",
+        "innovation": "Concierge Médico teams (bilingual), telemedicine post-op via IoT",
+        "colombia_ranking": "26 institutions in Latin American health ranking — 2nd most after Brazil"
+      }
+    },
+
+    "future_hospital_design": {
+      "status": "CONFIRMED",
+      "key_trends": [
+        "Hospitals of the future will be smaller, more technologically sophisticated, focused on acute/complex problems",
+        "Shift from hospital-centered model to distributed care model closer to people's daily lives",
+        "Modular design enabling rapid reconfiguration for different needs",
+        "Hybrid operating rooms with advanced diagnostic imaging integration",
+        "Flexible, adaptable spaces that can be reconfigured as medicine evolves",
+        "'15-minute city' alignment — essential health services within walking distance"
+      ]
+    }
+  },
+
+  "8_summary_competitive_landscape": {
+    "total_new_medical_offices_el_poblado": {
+      "torre_medica_oviedo": 87,
+      "torre_medica_campestre": 80,
+      "torres_medicas_el_tesoro_existing": 280,
+      "metropolitan_salud": "Unknown (project in development)",
+      "total_new_approximate": "167+ new consulting rooms being added",
+      "total_existing_el_tesoro": 280
+    },
+
+    "total_new_ambulatory_ORs_el_poblado": {
+      "qlub_oviedo": 6,
+      "qlub_el_tesoro": 4,
+      "total": 10,
+      "note": "Dedicated ambulatory surgery centers separate from hospital ORs"
+    },
+
+    "total_new_beds_south_valley": {
+      "las_americas_auna_sur": 168,
+      "note": "Only new inpatient beds identified in south Valle de Aburrá in recent years"
+    },
+
+    "investment_pipeline_COP": {
+      "torre_medica_oviedo": 100000000000,
+      "clinica_campestre_rionegro": 30000000000,
+      "torre_medica_comedal": "NOT DISCLOSED (18,000 m², 15 floors)",
+      "torre_medica_campestre": "NOT DISCLOSED (80 consulting rooms)",
+      "clinica_campestre_torre_oriental": "NOT DISCLOSED",
+      "total_confirmed_COP": 130000000000,
+      "total_confirmed_note": "At minimum $130B COP confirmed, likely $200B+ total including undisclosed projects"
+    },
+
+    "key_implications_for_hptu": [
+      "El Poblado is experiencing rapid medical infrastructure densification — 167+ new offices, 10 new ambulatory ORs",
+      "The shift to outpatient/ambulatory care is well underway in Medellín with dedicated ASC operators (Qlub Quirófanos)",
+      "Competitor expansion toward Oriente Antioqueño (Campestre Rionegro, San Vicente Rionegro) validates candidate site 6 market",
+      "Medical tourism is a confirmed growth driver ($100B+ COP in 2024) that could complement HPTU expansion",
+      "Hub-and-spoke model aligns with HPTU having a main campus + satellite/ambulatory nodes",
+      "Hospital-at-home programs are growing in Colombia under Law 100 — reduces future bed demand projections",
+      "High-complexity authorization of Auna Sur (2024) means another competitor can receive complex cases in south valley",
+      "Private capital is flowing heavily into medical real estate in El Poblado — 100% sell-out rates signal demand",
+      "No confirmed health facility project at Alto de Las Palmas — regulatory barriers are significant",
+      "Future hospital design trends favor smaller, more technology-intensive, modular facilities over large monolithic hospitals"
+    ]
+  }
+}

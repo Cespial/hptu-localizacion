@@ -1,0 +1,62 @@
+{
+  "source": "Web research March 2026",
+  "competitors": [
+    {
+      "name": "San Vicente Fundación Medellín",
+      "beds": 525, "icu_beds": 208, "employees": 2350,
+      "surgeries_year": 19000, "consultations_year": 120000,
+      "specialties": 70, "training_programs": 39,
+      "sources": ["sanvicentefundacion.com"]
+    },
+    {
+      "name": "San Vicente Fundación Rionegro",
+      "beds_current": 152, "beds_planned": 500, "area_m2": 100000,
+      "helipad": true, "airport_distance_km": 2.3,
+      "municipalities_covered": 23,
+      "sources": ["sanvicentefundacion.com"]
+    },
+    {
+      "name": "Clínica Somer",
+      "beds": 200, "icu_beds": 19,
+      "certifications": ["UFCA (única en Antioquia)"],
+      "radiotherapy": true, "heart_transplant": true,
+      "services_enabled": 129,
+      "sources": ["clinicasomer.com", "ACHC", "MiOriente"]
+    },
+    {
+      "name": "Las Américas AUNA (Main + Sur)",
+      "beds_main": 324, "beds_sur": 168, "ors_sur": 6,
+      "sur_opened": "2022-02-14",
+      "cap_certified": true,
+      "sources": ["Vivir en El Poblado", "BluRadio"]
+    },
+    {
+      "name": "Quirónsalud Colombia",
+      "hospitals": 6, "total_beds": 812, "total_ors": 53,
+      "recent_acquisitions": ["COA", "Clofan"],
+      "sources": ["quironsalud.com"]
+    },
+    {
+      "name": "Torre Médica Oviedo",
+      "opened": "2025-06", "investment_cop": 100000000000,
+      "consulting_rooms": 87, "ambulatory_ors": 6,
+      "professionals": 200,
+      "sources": ["Portafolio", "Valora Analitik", "Nación Paisa"]
+    },
+    {
+      "name": "Clínica del Campestre Rionegro",
+      "opened": "2026-03", "investment_cop": 30000000000,
+      "patients_day": 250, "ors": 2,
+      "sources": ["MiOriente", "Vivir en El Poblado"]
+    }
+  ],
+  "market_data": {
+    "prepagada_affiliates": 1400000,
+    "prepagada_growth_pct": 37,
+    "prepagada_revenue_cop_trillions": 7.2,
+    "medical_tourists_2024": 23323,
+    "medical_tourism_revenue_cop_billions": 100,
+    "ambulatory_surgeries_2024": 490944,
+    "global_ambulatory_pct": 80
+  }
+}

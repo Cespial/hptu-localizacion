@@ -1,0 +1,78 @@
+{
+  "source": "Web research March 2026",
+  "projects": [
+    {
+      "name": "Segunda Etapa Túnel de Oriente",
+      "investment_cop": 1800000000000,
+      "status": "under_construction",
+      "progress_pct": 19,
+      "completion": "H2 2027",
+      "description": "Doble calzada. Túnel Santa Elena 2 (8.2 km) excavado. Intercambio Vial Aeropuerto completado nov 2025.",
+      "sources": ["MiOriente", "Semana", "Cuatrecasas", "El Colombiano"]
+    },
+    {
+      "name": "Intercambio Vial Alto de Las Palmas",
+      "investment_cop": 18000000000,
+      "status": "planned",
+      "completion": "Q2 2026",
+      "sources": ["El Colombiano"]
+    },
+    {
+      "name": "Vía Aeropuerto-Belén (Sika)",
+      "investment_cop": 120000000000,
+      "status": "planned",
+      "completion": "Q2 2026",
+      "sources": ["El Colombiano", "Orientese"]
+    },
+    {
+      "name": "Vía Llanogrande-Canadá",
+      "investment_cop": 120000000000,
+      "status": "planned",
+      "completion": "2026+",
+      "sources": ["Orientese"]
+    },
+    {
+      "name": "Doble Calzada La Ceja-Rionegro",
+      "investment_cop": null,
+      "status": "under_construction",
+      "completion": "March 2026",
+      "sources": ["La Prensa Oriente"]
+    },
+    {
+      "name": "Aeropuerto JMC Master Plan 2055",
+      "investment_cop": 22000000000000,
+      "status": "plan_approved",
+      "completion": "2055",
+      "current_passengers": 14500000,
+      "target_passengers": 42700000,
+      "sources": ["Infobae", "Valora Analitik", "Aviación News"]
+    }
+  ],
+  "health_projects": [
+    {
+      "name": "Hospital San Juan de Dios Rionegro - Torre Médica",
+      "investment_cop": 120000000000,
+      "status": "studies",
+      "sources": ["MiOriente", "ConsultorSalud"]
+    },
+    {
+      "name": "Hospital Marinilla - Torre 7 pisos + Salud Mental",
+      "investment_cop": 15118000000,
+      "status": "funded",
+      "sources": ["La Prensa Oriente"]
+    },
+    {
+      "name": "X-Oriente Mega Centro Comercial (incluye servicios médicos)",
+      "investment_cop": 400000000000,
+      "status": "under_development",
+      "completion": "2027-2028",
+      "sources": ["InvestWE", "MiOriente", "El Colombiano"]
+    }
+  ],
+  "area_metropolitana": {
+    "consulta_popular": "2026-07-26",
+    "municipalities": 8,
+    "population": 700000,
+    "status": "scheduled"
+  }
+}
