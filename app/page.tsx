@@ -15,7 +15,9 @@ import { AmbulatoryServicesSection } from "./_components/ambulatory-services-sec
 import { Candidate6AnalysisSection } from "./_components/candidate6-analysis-section";
 import { StrategicProspectiveSection } from "./_components/strategic-prospective-section";
 import { CompetitiveLandscapeSection } from "./_components/competitive-landscape-section";
+import { OrienteRionegroGrowthSection } from "./_components/oriente-rionegro-growth-section";
 import { MCDAComparisonSection } from "./_components/mcda-comparison-section";
+import { SensitivityMCDASection } from "./_components/sensitivity-mcda-section";
 import { FinancialSection } from "./_components/financial-section";
 import { DensurbamSection } from "./_components/densurbam-section";
 import { DataSourcesSection } from "./_components/data-sources-section";
@@ -49,11 +51,14 @@ export default function Home() {
       <CompetitionExpandedSection />
       <AmbulatoryServicesSection />
       <Candidate6AnalysisSection />
+      {/* Oriente deep-dive: Rionegro growth + ambulatory demand + tunnel node */}
+      <OrienteRionegroGrowthSection />
       {/* Strategic intelligence */}
       <StrategicProspectiveSection />
       <CompetitiveLandscapeSection />
       {/* Synthesis */}
       <MCDAComparisonSection />
+      <SensitivityMCDASection />
       <FinancialSection />
       <DensurbamSection />
       <DataSourcesSection />

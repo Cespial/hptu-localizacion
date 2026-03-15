@@ -248,25 +248,39 @@ export const competitors: CompetitorProfile[] = [
     location: "El Poblado + Rionegro (nuevo)",
     complexity: "media-alta",
     recentMove:
-      "Sede Rionegro abierta marzo 2026 (250 pac/dia), Torre Oriental 2026",
-    investment: "COP $30,000M Rionegro + Torre Medica",
+      "Nueva torre de 15 pisos en Medellin (construccion). Sede Rionegro abierta marzo 2026 (250 pac/dia). Expansion agresiva ambulatorio premium.",
+    investment: "COP $30,000M Rionegro + Torre 15 pisos Medellin",
     threat: "alta",
     differentiator:
-      "Ambulatorio especializado, ortopedia, ya entro a Oriente",
+      "Ambulatorio especializado, ortopedia, ya entro a Oriente. Torre 15 pisos valida demanda premium corredor.",
   },
   {
     id: "torre-oviedo",
-    name: "Torre Medica Oviedo",
+    name: "Clinica Ojo Oviedo / Torre Medica Oviedo",
     beds: null,
     icuBeds: null,
     location: "El Poblado (CC Oviedo)",
     complexity: "media-alta",
     recentMove:
-      "Abrio junio 2025. Qlub Quirofanos (6 quirofanos ambulatorios), Cedimed, CES",
+      "Abrio junio 2025. Qlub Quirofanos (6 quirofanos ambulatorios), Cedimed, CES. Oftalmologia avanzada como ancla.",
     investment: "COP $100,000M",
     threat: "media",
     differentiator:
-      "87 consultorios, 200+ profesionales, cirugia ambulatoria",
+      "87 consultorios, 200+ profesionales, cirugia ambulatoria, oftalmologia subespecializada",
+  },
+  {
+    id: "proyecto-alto-palmas",
+    name: "Proyecto Clinica Alto de Las Palmas",
+    beds: null,
+    icuBeds: null,
+    location: "Alto de Las Palmas (por confirmar)",
+    complexity: "media",
+    recentMove:
+      "En evaluacion / rumores de desarrollo. Requiere visita de sitio y confirmacion de viabilidad POT.",
+    investment: "N/D (en estudios)",
+    threat: "media",
+    differentiator:
+      "Si se concreta, seria competencia directa en corredor Las Palmas. POT restrictivo en zona rural podria limitar alcance.",
   },
   {
     id: "ips-universitaria",
