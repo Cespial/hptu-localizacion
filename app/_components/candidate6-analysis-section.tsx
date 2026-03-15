@@ -354,6 +354,40 @@ export function Candidate6AnalysisSection() {
         </div>
       </motion.div>
 
+      {/* MCDA Score Summary */}
+      <motion.div
+        initial={{ opacity: 0, y: 20 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: true }}
+        className="rounded-xl border bg-card p-4 sm:p-6 mb-8"
+      >
+        <h3 className="text-sm font-bold mb-3">
+          Score MCDA: 81/100 (#2 de 6 zonas)
+        </h3>
+        <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
+          {[
+            { label: "Accesibilidad", score: 85, weight: "35%", color: "text-teal-600" },
+            { label: "Demanda", score: 91, weight: "30%", color: "text-blue-600" },
+            { label: "Competencia", score: 65, weight: "20%", color: "text-amber-600" },
+            { label: "Valor Inmob.", score: 75, weight: "15%", color: "text-purple-600" },
+          ].map((dim) => (
+            <div key={dim.label} className="rounded-lg border p-3 text-center">
+              <p className="text-[10px] text-muted-foreground uppercase tracking-wider font-medium">
+                {dim.label} ({dim.weight})
+              </p>
+              <p className={cn("text-2xl font-bold mt-1", dim.color)}>
+                {dim.score}
+              </p>
+            </div>
+          ))}
+        </div>
+        <p className="text-[10px] text-muted-foreground mt-3">
+          Score = (85 x 0.35) + (91 x 0.30) + (65 x 0.20) + (75 x 0.15) = 29.75 + 27.30 + 13.00 + 11.25 = <strong>81.30</strong>.
+          Supera a Las Palmas Medio (77), Envigado (74), Nuevo Poblado (67) y Las Palmas Alto (58).
+          Solo detras de Las Palmas Bajo (88) por mayor centralidad local en El Poblado.
+        </p>
+      </motion.div>
+
       {/* Insight box */}
       <motion.div
         initial={{ opacity: 0, y: 20 }}
@@ -365,22 +399,25 @@ export function Candidate6AnalysisSection() {
           <CheckCircle2 className="h-6 w-6 text-rose-600 shrink-0 mt-0.5" />
           <div>
             <h4 className="font-serif text-lg font-bold text-rose-800">
-              Posicion Dual: Sirve Valle de Aburra + Oriente Sur
+              Posicion Dual: Sirve Valle de Aburra + Oriente Sur (Score 81/100)
             </h4>
             <p className="text-sm text-rose-700 mt-1">
-              Esta ubicacion captura demanda que HPTU actual no puede atender
+              Con <strong>MCDA 81/100</strong>, Access Point se posiciona como
+              la #2 zona candidata. Captura demanda que HPTU actual no puede atender
               eficientemente: <strong>El Retiro</strong> (sin hospital, -17.8
               min vs HPTU), <strong>La Ceja</strong> (-17.8 min),{" "}
               <strong>Aeropuerto SKRG</strong> (-14.3 min para turismo medico).
-              Si bien la zona inmediata de El Poblado es competida (40+
-              facilities en 5 km), el valor estrategico radica en la{" "}
-              <strong>funcion puente</strong>. Astorga y Manila tienen solo{" "}
+              El factor que impide un score superior es la{" "}
+              <strong>competencia local densa</strong> (45 facilities en 5 km, score C=65).
+              Sin embargo, el valor estrategico radica en la{" "}
+              <strong>funcion puente</strong> y el nicho ambulatorio premium sin contestar.
+              Astorga y Manila tienen solo{" "}
               <strong>14% de densidad usada</strong> — desarrollo masivo en
               curso implica crecimiento sostenido de demanda futura.
             </p>
             <p className="text-xs text-rose-600 mt-2 italic">
               Fuentes: Mapbox Matrix API, Google Places API, Catastro (bp59-rj8r),
-              POT (3ciz-tpgr), REPS (b4dp-ximh)
+              POT (3ciz-tpgr), REPS (b4dp-ximh), OSM Overpass, ANI (8yi9-t44c)
             </p>
           </div>
         </div>

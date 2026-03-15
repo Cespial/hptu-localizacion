@@ -166,27 +166,78 @@ export const candidateZones: CandidateZone[] = [
     name: "Access Point",
     subtitle: "Km 7 Via Las Palmas — Retorno 5 (Acierto Inmobiliario)",
     coordinates: [-75.554932, 6.217662],
-    score: 0, // to be calculated after MCDA
+    // ---------------------------------------------------------------
+    // MCDA Score Calculation — Access Point (Candidato #6)
+    // Formula: Score = (A x 0.35) + (D x 0.30) + (C x 0.20) + (V x 0.15)
+    //
+    // A = Accesibilidad = 85
+    //   Justificacion: Mapbox Matrix 18.5 min a HPTU actual (2do mejor despues
+    //   de nuevo-poblado 19 min; pero con Directions API es ~15 min, el mejor).
+    //   Km 7 Via Las Palmas = acceso directo al Tunel de Oriente. Sin pico y placa.
+    //   Isocronas: 45 min cubre Guarne, El Retiro, Aeropuerto; 60 min cubre
+    //   Rionegro, Marinilla, La Ceja. 41.5 min al aeropuerto SKRG (Directions).
+    //   2da etapa Tunel (H2 2027) mejorara dramaticamente tiempos al Oriente.
+    //   Menor que palmas-bajo (92) porque esta mas lejos de Milla de Oro/centro
+    //   financiero de El Poblado. Mejor que nuevo-poblado (82) por acceso regional.
+    //
+    // D = Demanda = 91
+    //   Justificacion: Misma demanda local que palmas-bajo (comuna 14, ~135K hab,
+    //   38,415 predios E6). PLUS unico candidato que captura demanda dual:
+    //   460K+ hab Oriente Antioqueno (crecimiento 1.64%/anio), 14.5M pasajeros
+    //   aeropuerto (plan maestro 42.7M a 2055), 23,323 turistas medicos/anio,
+    //   Zona Franca 300 empresas/12,000 empleados, prepagada 1.4M afiliados (+37%).
+    //   Isocrona 60 min cubre tanto Valle de Aburra como Oriente = captacion maxima.
+    //   Similar a palmas-bajo (93) en local; superior en regional.
+    //
+    // C = Competencia = 65
+    //   Justificacion: 45 facilities OSM en 5 km, 18 hospitales/clinicas Google
+    //   Places. Bluecare a 1.46 km, Clinica El Rosario Tesoro a 2.65 km,
+    //   Torre Medica Oviedo (inaugurada jun 2025, 87 consultorios).
+    //   Competencia LOCAL densa — peor que palmas-bajo (78), mucho peor que
+    //   palmas-alto (90, cero competencia). PERO: cero hospitales en Km 7 de
+    //   Las Palmas (brecha en corredor). En Oriente solo Somer + HSVF de alta
+    //   complejidad, 10 categorias de servicio ambulatorio criticas/inexistentes.
+    //   Nicho ambulatorio premium + puente Oriente no tiene competidor.
+    //   Score penalizado por densidad local pero parcialmente compensado por
+    //   brecha en corredor. Mayor que nuevo-poblado (52, saturacion Autopista Sur).
+    //
+    // V = Valor Inmobiliario = 75
+    //   Justificacion: El Poblado = zona premium, avaluo promedio ~$200M COP.
+    //   POT San Lucas permite 19.1 pisos, solo 45.8% densidad usada.
+    //   Astorga 14.7% y Manila 14.2% = desarrollo masivo futuro = apreciacion.
+    //   Access Point ya construido (4 torres x 10 pisos, 1,085 parqueaderos) =
+    //   menor CAPEX vs greenfield. Licencias urbanisticas existentes en zona.
+    //   Menor que palmas-bajo (80) por costo de m2 ligeramente superior en
+    //   ubicacion especifica. Mayor que palmas-alto (62, POT restringido rural)
+    //   y nuevo-poblado (58, zona en transformacion sin POT confirmado).
+    //
+    // TOTAL: (85 x 0.35) + (91 x 0.30) + (65 x 0.20) + (75 x 0.15)
+    //      = 29.75 + 27.30 + 13.00 + 11.25
+    //      = 81.30 => 81
+    //
+    // RANKING: #2 de 6 (detras de Las Palmas Bajo = 88)
+    // ---------------------------------------------------------------
+    score: 81,
     scores: {
-      accesibilidad: 0,
-      demanda: 0,
-      competencia: 0,
-      valorInmobiliario: 0,
+      accesibilidad: 85,
+      demanda: 91,
+      competencia: 65,
+      valorInmobiliario: 75,
     },
     color: "#e11d48", // rose-600 to distinguish
     description:
-      "Access Point es un proyecto de Acierto Inmobiliario en el Km 7 de Via Las Palmas (Retorno 5). 4 torres de oficinas de 10 pisos, 1,085 parqueaderos (477 visitantes + 608 privados). A 20 minutos del Aeropuerto JMC por Tunel de Oriente, sin restriccion pico y placa. Posicion estrategica como nodo de transicion entre Valle de Aburra y Oriente Antioqueno.",
+      "Access Point es un proyecto de Acierto Inmobiliario en el Km 7 de Via Las Palmas (Retorno 5). 4 torres de oficinas de 10 pisos, 1,085 parqueaderos (477 visitantes + 608 privados). Mapbox Matrix: 18.5 min a HPTU actual, 41.5 min al Aeropuerto SKRG (Directions API), sin pico y placa. Posicion estrategica como nodo de transicion entre Valle de Aburra y Oriente Antioqueno. Demanda dual: 135K hab El Poblado E5/E6 + 460K hab Oriente. Competencia local densa (45 facilities en 5 km) pero nicho corredor ambulatorio premium no contestado. POT San Lucas 19.1 pisos, 45.8% densidad usada.",
     highlights: [
-      "Access Point: 4 torres x 10 pisos, 1,085 parqueaderos (477 visitantes + 608 privados)",
+      "MCDA Score: 81/100 (#2 de 6 zonas) — A:85 D:91 C:65 V:75",
+      "Mapbox Matrix: 18.5 min a HPTU actual (2do mejor), 41.5 min a Aeropuerto SKRG (Directions)",
       "Mapbox Matrix: 44.0 min a El Retiro (vs 61.8 HPTU actual = -17.8 min)",
-      "Mapbox Matrix: 51.3 min a Aeropuerto SKRG (vs 65.7 HPTU = -14.3 min)",
-      "Mapbox Matrix: 58.8 min a Rionegro (vs 57.1 HPTU = neutro)",
-      "20 min al Aeropuerto JMC por Tunel de Oriente, sin pico y placa",
-      "Nodo de transicion Valle de Aburra — Oriente Antioqueno",
+      "Demanda dual: 135K El Poblado E5/E6 + 460K Oriente + 14.5M pasajeros aeropuerto",
+      "Corredor sin competencia: 0 hospitales en Km 7 Las Palmas, 10 brechas ambulatorias Oriente",
+      "POT: San Lucas 19.1 pisos, Astorga 14.7% densidad usada — crecimiento futuro garantizado",
     ],
-    demandEstimate: 460000, // Oriente Antioqueño catchment
-    avgM2Price: 200000000, // Estimated El Poblado avg
-    driveTimeToHPTU: 15, // Close to HPTU current
+    demandEstimate: 460000, // Dual catchment: El Poblado 135K + Oriente 460K
+    avgM2Price: 200000000, // Catastro: avg avaluo El Poblado zone
+    driveTimeToHPTU: 18, // Mapbox Matrix: 18.5 min (Directions: ~15 min)
     potViability: "ALTA - San Lucas 19.1 pisos, Astorga 14.7% densidad usada, Manila 14.2%",
     dataSource: "Mapbox Matrix/Directions/Isochrone API, Google Places API, REPS (b4dp-ximh), OSM Overpass, Catastro (bp59-rj8r), POT (3ciz-tpgr), ANI Peajes (8yi9-t44c)",
   },

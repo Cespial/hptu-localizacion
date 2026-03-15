@@ -62,7 +62,10 @@ const barData = candidateZones.map((zone) => ({
 }));
 
 export function MCDAComparisonSection() {
-  const leader = candidateZones[0]; // palmas-bajo with score 88
+  // Sort by score descending to find leader and runner-up dynamically
+  const sorted = [...candidateZones].sort((a, b) => b.score - a.score);
+  const leader = sorted[0]; // palmas-bajo with score 88
+  const runnerUp = sorted[1]; // access-point with score 81
 
   return (
     <SectionWrapper id="comparativa-mcda">
@@ -71,7 +74,7 @@ export function MCDAComparisonSection() {
           Sintesis - Comparativa MCDA
         </Badge>
         <h2 className="font-serif text-3xl font-bold sm:text-4xl">
-          Scoring Multicriterio: 5 Zonas Candidatas
+          Scoring Multicriterio: 6 Zonas Candidatas
         </h2>
         <p className="mt-3 text-muted-foreground max-w-2xl mx-auto">
           Evaluacion comparativa usando Score = (A&times;0.35) + (D&times;0.30) +
@@ -112,8 +115,8 @@ export function MCDAComparisonSection() {
                   dataKey={zone.name}
                   stroke={zone.color}
                   fill={zone.color}
-                  fillOpacity={zone.id === "palmas-bajo" ? 0.25 : 0.05}
-                  strokeWidth={zone.id === "palmas-bajo" ? 2.5 : 1}
+                  fillOpacity={zone.id === "palmas-bajo" ? 0.25 : zone.id === "access-point" ? 0.15 : 0.05}
+                  strokeWidth={zone.id === "palmas-bajo" ? 2.5 : zone.id === "access-point" ? 2 : 1}
                 />
               ))}
               <Legend
@@ -269,8 +272,8 @@ export function MCDAComparisonSection() {
             </h4>
             <p className="text-sm text-teal-700 mt-1">
               La zona <strong>{leader.subtitle}</strong> lidera en el ranking MCDA con{" "}
-              <strong>{leader.score}/100</strong>, superando a {candidateZones[1].name} ({candidateZones[1].score}) por{" "}
-              <strong>{leader.score - candidateZones[1].score} puntos</strong>.
+              <strong>{leader.score}/100</strong>, superando a {runnerUp.name} ({runnerUp.score}) por{" "}
+              <strong>{leader.score - runnerUp.score} puntos</strong>.
               Destaca con <strong>Accesibilidad {leader.scores.accesibilidad}/100</strong> (Mapbox: {leader.driveTimeToHPTU} min a HPTU),{" "}
               <strong>Demanda {leader.scores.demanda}/100</strong> (38,415 predios E6 en comuna 14),
               y viabilidad POT de <strong>9/9</strong> (CL_D=2.38, 68,020 m2 de suelo potencial).

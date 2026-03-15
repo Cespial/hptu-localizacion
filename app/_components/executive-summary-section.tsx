@@ -454,54 +454,32 @@ export function ExecutiveSummarySection() {
                   </span>
                 </td>
                 <td className="py-3 px-3 text-center text-xs">
-                  {row.isAccessPoint ? (
-                    <span className="inline-flex items-center rounded-md bg-amber-50 border border-amber-200 px-2 py-0.5 text-[10px] font-semibold text-amber-700">
-                      En evaluacion
-                    </span>
-                  ) : (
-                    <span
-                      className={cn(
-                        "font-bold",
-                        row.score >= 80
-                          ? "text-teal-700"
-                          : row.score >= 70
-                          ? "text-blue-600"
-                          : row.score >= 60
-                          ? "text-amber-600"
-                          : "text-red-600"
-                      )}
-                    >
-                      {row.score}/100
-                    </span>
-                  )}
+                  <span
+                    className={cn(
+                      "font-bold",
+                      row.score >= 80
+                        ? "text-teal-700"
+                        : row.score >= 70
+                        ? "text-blue-600"
+                        : row.score >= 60
+                        ? "text-amber-600"
+                        : "text-red-600"
+                    )}
+                  >
+                    {row.score}/100
+                  </span>
                 </td>
                 <td className="py-3 px-3 text-center text-xs">
-                  {row.isAccessPoint ? (
-                    <span className="text-muted-foreground">&mdash;</span>
-                  ) : (
-                    `${row.accesibilidad}/100`
-                  )}
+                  {`${row.accesibilidad}/100`}
                 </td>
                 <td className="py-3 px-3 text-center text-xs">
-                  {row.isAccessPoint ? (
-                    <span className="text-muted-foreground">&mdash;</span>
-                  ) : (
-                    `${row.demanda}/100`
-                  )}
+                  {`${row.demanda}/100`}
                 </td>
                 <td className="py-3 px-3 text-center text-xs">
-                  {row.isAccessPoint ? (
-                    <span className="text-muted-foreground">&mdash;</span>
-                  ) : (
-                    `${row.competencia}/100`
-                  )}
+                  {`${row.competencia}/100`}
                 </td>
                 <td className="py-3 px-3 text-center text-xs">
-                  {row.isAccessPoint ? (
-                    <span className="text-muted-foreground">&mdash;</span>
-                  ) : (
-                    `${row.valorInmobiliario}/100`
-                  )}
+                  {`${row.valorInmobiliario}/100`}
                 </td>
                 <td className="py-3 px-3 text-center text-xs font-medium">
                   {row.orienteAccess}
@@ -534,11 +512,13 @@ export function ExecutiveSummarySection() {
 
         <div className="px-5 sm:px-7 py-3 bg-muted/20 border-t">
           <p className="text-[10px] text-muted-foreground leading-relaxed">
-            <strong>Nota:</strong> Access Point (Km 7 Via Las Palmas, Retorno 5) fue
-            incorporada despues de las primeras 5 zonas evaluadas. Los scores
-            MCDA formales estan en proceso de calculo. La recomendacion se basa
-            en ventajas cualitativas (nodo puente, POT, acceso Tunel de
-            Oriente) y tiempos de viaje verificados con Mapbox Matrix API.
+            <strong>Nota:</strong> Access Point (Km 7 Via Las Palmas, Retorno 5)
+            obtiene <strong>81/100</strong> en MCDA (#2 de 6 zonas). Scores
+            calculados con la misma metodologia que las 5 zonas iniciales:
+            Accesibilidad 85 (Mapbox Matrix 18.5 min a HPTU, acceso Tunel Oriente),
+            Demanda 91 (captacion dual El Poblado E5/E6 + 460K Oriente + aeropuerto),
+            Competencia 65 (45 facilities en 5 km, pero brecha corredor ambulatorio),
+            Valor Inmobiliario 75 (POT 19 pisos, 45.8% densidad, infraestructura existente).
           </p>
         </div>
       </motion.div>
