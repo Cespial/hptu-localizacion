@@ -213,7 +213,7 @@ export function OrienteFlowsSection() {
           <div className="flex items-center gap-2 mb-1">
             <Clock className="h-4 w-4 text-indigo-500" />
             <h3 className="text-sm font-bold">
-              Tiempos de Viaje: Candidato (Cra 22) vs HPTU Prado
+              Tiempos de Viaje: Access Point vs HPTU Prado
             </h3>
           </div>
           <p className="text-[10px] text-muted-foreground">
@@ -228,7 +228,7 @@ export function OrienteFlowsSection() {
                 Destino
               </th>
               <th className="text-center py-2.5 px-3 font-semibold text-xs uppercase tracking-wider">
-                Desde Cra 22 (min)
+                Desde Access Point (min)
               </th>
               <th className="text-center py-2.5 px-3 font-semibold text-xs uppercase tracking-wider">
                 Desde HPTU (min)
@@ -322,7 +322,7 @@ export function OrienteFlowsSection() {
         </table>
         <div className="px-4 sm:px-6 py-3 bg-muted/20 border-t">
           <p className="text-[10px] text-muted-foreground">
-            <strong>Lectura:</strong> El candidato (Cra 22) tiene ventaja
+            <strong>Lectura:</strong> Access Point tiene ventaja
             significativa hacia el corredor sur-oriente: El Retiro (-17.8 min),
             La Ceja (-17.8 min), Aeropuerto SKRG (-14.4 min). HPTU mantiene
             ventaja para Guarne (-15.9 min mejor desde Prado).

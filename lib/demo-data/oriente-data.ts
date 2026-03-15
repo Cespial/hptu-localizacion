@@ -381,7 +381,7 @@ export const medicalProjects: MedicalProject[] = [
   },
 ];
 
-// Building heights and POT density for barrios near Candidato 6 (El Poblado)
+// Building heights and POT density for barrios near Access Point (El Poblado)
 // Sources: Catastro Medellin (bp59-rj8r), POT Bateria Indicadores (3ciz-tpgr), OSM
 export const buildingHeights: BuildingHeightData[] = [
   {
@@ -451,12 +451,12 @@ export const orienteHealthSummary = {
   level3or4Count: 0,
 };
 
-// Travel time comparison: candidate site (Cra 22 El Poblado) vs HPTU actual (Robledo)
+// Travel time comparison: candidate site (Access Point, Km 7 Via Las Palmas) vs HPTU actual (Robledo)
 // Exact values from Mapbox Matrix API (durations in seconds / 60)
 // Matrix destination order:
 //   [0]=Source, [1]=Rionegro, [2]=Guarne, [3]=Marinilla, [4]=La Ceja,
 //   [5]=El Retiro, [6]=El Carmen, [7]=El Santuario, [8]=Aeropuerto SKRG,
-//   [9]=Portal Tunel, [10]=Cross-reference (HPTU or Candidato6)
+//   [9]=Portal Tunel, [10]=Cross-reference (HPTU or AccessPoint)
 export const travelTimeComparison = {
   destinations: [
     "Rionegro",

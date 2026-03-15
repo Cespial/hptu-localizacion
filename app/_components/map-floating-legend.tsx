@@ -151,7 +151,7 @@ export function MapFloatingLegend() {
             <div className="flex gap-2 items-center flex-wrap">
               <div className="flex items-center gap-1">
                 <div className="h-2 w-2 rounded-full shrink-0" style={{ backgroundColor: "#e11d48" }} />
-                <span className="text-[10px] text-muted-foreground">Cra 22</span>
+                <span className="text-[10px] text-muted-foreground">Access Point</span>
               </div>
               <div className="flex items-center gap-1">
                 <div className="h-2 w-2 rounded-full shrink-0" style={{ backgroundColor: "#dc2626" }} />
@@ -170,7 +170,7 @@ export function MapFloatingLegend() {
 
           {/* Oriente Isochrones */}
           <div className="space-y-1 pt-1.5 border-t">
-            <p className="text-[10px] font-semibold text-muted-foreground">Isocronas Cra 22</p>
+            <p className="text-[10px] font-semibold text-muted-foreground">Isocronas Access Point</p>
             <div className="flex gap-1.5 flex-wrap">
               {orienteIsochroneLegend.map(({ color, label }) => (
                 <div key={color} className="flex items-center gap-1">

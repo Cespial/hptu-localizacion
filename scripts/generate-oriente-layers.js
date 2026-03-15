@@ -7,8 +7,8 @@
  *
  * Outputs (in public/geojson/):
  *   1. oriente_health_facilities.geojson
- *   2. candidato6_isochrones.geojson
- *   3. candidato6_routes.geojson
+ *   2. access_point_isochrones.geojson
+ *   3. access_point_routes.geojson
  *   4. medical_projects.geojson
  *   5. oriente_municipalities.geojson
  */
@@ -107,10 +107,10 @@ function generateHealthFacilities() {
 }
 
 /* ─────────────────────────────────────────────────────── */
-/* 2. Candidato 6 Isochrones                               */
+/* 2. Access Point Isochrones                               */
 /* ─────────────────────────────────────────────────────── */
 function generateIsochrones() {
-  const raw = JSON.parse(fs.readFileSync(path.join(RAW, "isochrone_candidato6_driving.json"), "utf8"));
+  const raw = JSON.parse(fs.readFileSync(path.join(RAW, "isochrone_access_point_driving.json"), "utf8"));
 
   // The raw data already has contour properties — sort by contour descending so larger ones draw first
   const features = raw.features
@@ -126,20 +126,20 @@ function generateIsochrones() {
     .sort((a, b) => b.properties.contour - a.properties.contour);
 
   const geojson = { type: "FeatureCollection", features };
-  fs.writeFileSync(path.join(OUT, "candidato6_isochrones.geojson"), JSON.stringify(geojson));
-  console.log(`  candidato6_isochrones.geojson — ${features.length} contours`);
+  fs.writeFileSync(path.join(OUT, "access_point_isochrones.geojson"), JSON.stringify(geojson));
+  console.log(`  access_point_isochrones.geojson — ${features.length} contours`);
 }
 
 /* ─────────────────────────────────────────────────────── */
-/* 3. Candidato 6 Routes                                    */
+/* 3. Access Point Routes                                    */
 /* ─────────────────────────────────────────────────────── */
 function generateRoutes() {
   const routeFiles = [
-    { file: "route_candidato6_to_rionegro.json",    dest: "Rionegro",      color: "#e11d48" },
-    { file: "route_candidato6_to_aeropuerto.json",   dest: "Aeropuerto JMC", color: "#f97316" },
-    { file: "route_candidato6_to_laceja.json",       dest: "La Ceja",       color: "#8b5cf6" },
-    { file: "route_candidato6_to_marinilla.json",    dest: "Marinilla",     color: "#06b6d4" },
-    { file: "route_candidato6_to_guarne.json",       dest: "Guarne",        color: "#10b981" },
+    { file: "route_access_point_to_rionegro.json",    dest: "Rionegro",      color: "#e11d48" },
+    { file: "route_access_point_to_aeropuerto.json",   dest: "Aeropuerto JMC", color: "#f97316" },
+    { file: "route_access_point_to_laceja.json",       dest: "La Ceja",       color: "#8b5cf6" },
+    { file: "route_access_point_to_marinilla.json",    dest: "Marinilla",     color: "#06b6d4" },
+    { file: "route_access_point_to_guarne.json",       dest: "Guarne",        color: "#10b981" },
   ];
 
   const features = [];
@@ -164,15 +164,15 @@ function generateRoutes() {
         duration_min: durationMin,
         distance_km: parseFloat(distanceKm),
         color: r.color,
-        origin: "Cra 22 El Poblado",
+        origin: "Access Point (Km 7 Via Las Palmas)",
       },
       geometry: route.geometry,
     });
   }
 
   const geojson = { type: "FeatureCollection", features };
-  fs.writeFileSync(path.join(OUT, "candidato6_routes.geojson"), JSON.stringify(geojson));
-  console.log(`  candidato6_routes.geojson — ${features.length} routes`);
+  fs.writeFileSync(path.join(OUT, "access_point_routes.geojson"), JSON.stringify(geojson));
+  console.log(`  access_point_routes.geojson — ${features.length} routes`);
 }
 
 /* ─────────────────────────────────────────────────────── */
@@ -283,9 +283,9 @@ function generateMunicipalities() {
     { name: "Cocorná",         coordinates: [-75.1868, 6.0587], population: 15263,  ips_count: 5,   dept_code: "05197" },
   ];
 
-  // Read matrix data for travel times from candidato6
+  // Read matrix data for travel times from Access Point
   let matrixData = null;
-  const matrixPath = path.join(RAW, "mapbox_matrix_candidato6_oriente.json");
+  const matrixPath = path.join(RAW, "mapbox_matrix_access_point_oriente.json");
   if (fs.existsSync(matrixPath)) {
     matrixData = JSON.parse(fs.readFileSync(matrixPath, "utf8"));
   }
@@ -300,12 +300,12 @@ function generateMunicipalities() {
 
     // Attach travel time from matrix if available
     if (matrixData?.durations?.[0]) {
-      // Index 0 is the source (candidato6), destinations start at index 1
+      // Index 0 is the source (Access Point), destinations start at index 1
       // but we map by municipality name from the destination list
       const destNames = ["Rionegro", "Guarne", "Marinilla", "La Ceja", "El Retiro", "El Carmen", "Cocorná", "Aeropuerto", "San Vicente", "Medellín"];
       const dIdx = destNames.indexOf(m.name);
       if (dIdx >= 0 && matrixData.durations[0][dIdx + 1] != null) {
-        props.time_from_cra22_min = Math.round(matrixData.durations[0][dIdx + 1] / 60);
+        props.time_from_access_point_min = Math.round(matrixData.durations[0][dIdx + 1] / 60);
       }
     }
 

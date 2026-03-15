@@ -1,0 +1,403 @@
+{
+  "audit_metadata": {
+    "generated": "2026-03-15",
+    "subject": "Access Point (formerly Cra 22 - El Poblado)",
+    "candidate_id": "candidato6",
+    "data_sources": [
+      "mapbox_matrix_candidato6_oriente.json",
+      "mapbox_matrix_hptu_actual_oriente.json",
+      "isochrone_candidato6_driving.json",
+      "route_candidato6_to_rionegro.json",
+      "route_candidato6_to_aeropuerto.json",
+      "google_places_hospitals_near_candidato6.json",
+      "google_places_doctors_near_candidato6.json",
+      "capacidad_soporte_poblado_filtered.json",
+      "licencias_poblado_filtered.json",
+      "lotes_potenciales_poblado_filtered.json",
+      "trafico_ani_antioquia.json",
+      "osm_buildings_heights_poblado.json",
+      "osm_commercial_residential_poblado.json",
+      "osm_health_facilities_valle_aburra.json"
+    ]
+  },
+  "location": {
+    "name": "Access Point",
+    "former_name": "Cra 22 - El Poblado",
+    "developer": "Acierto Inmobiliario",
+    "description": "Commercial development with 4 office towers, 10 floors each",
+    "coordinates": {
+      "lat": 6.217662,
+      "lng": -75.554932
+    },
+    "mapbox_snap": {
+      "name": "Avenida de Las Palmas",
+      "snapped_coordinates": [-75.554725, 6.217789],
+      "snap_distance_m": 26.87
+    },
+    "km": 7,
+    "via": "Las Palmas",
+    "barrio": "Altos del Poblado / El Poblado",
+    "comuna": "14 - El Poblado",
+    "area_estrategica": "MED Borde Suroriental"
+  },
+  "travel_times": {
+    "source": "Mapbox Matrix API",
+    "note": "All times in minutes, distances in km. Comparison with HPTU Actual (Calle 58, downtown Medellin)",
+    "from_access_point": {
+      "to_rionegro": {
+        "matrix_minutes": 58.8,
+        "matrix_km": 38.8,
+        "route_minutes": 48.2,
+        "route_km": 30.9,
+        "route_via": "Conexion Vial Aburra - Oriente, 60AN03",
+        "route_tunnels": 2,
+        "note": "Matrix vs route discrepancy: matrix=58.8min, direct route=48.2min. Matrix includes traffic estimation."
+      },
+      "to_marinilla": {
+        "matrix_minutes": 55.6,
+        "matrix_km": 41.0
+      },
+      "to_la_ceja": {
+        "matrix_minutes": 68.4,
+        "matrix_km": 53.0
+      },
+      "to_carmen_de_viboral": {
+        "matrix_minutes": 66.2,
+        "matrix_km": 38.0
+      },
+      "to_caldas": {
+        "matrix_minutes": 44.0,
+        "matrix_km": 25.4
+      },
+      "to_sonson": {
+        "matrix_minutes": 81.3,
+        "matrix_km": 50.5
+      },
+      "to_aeropuerto_jmc": {
+        "matrix_minutes": 77.3,
+        "matrix_km": 63.1,
+        "route_minutes": 41.5,
+        "route_km": 27.5,
+        "route_via": "Conexion Vial Aburra - Oriente, 60AN03",
+        "route_tunnels": 2,
+        "note": "Large discrepancy: matrix=77.3min vs route=41.5min. Matrix destination coordinates differ from direct route endpoint."
+      },
+      "to_guarne": {
+        "matrix_minutes": 51.3,
+        "matrix_km": 35.3
+      },
+      "to_envigado": {
+        "matrix_minutes": 68.3,
+        "matrix_km": 44.6
+      },
+      "to_hptu_actual": {
+        "matrix_minutes": 18.5,
+        "matrix_km": 8.8
+      }
+    },
+    "from_hptu_actual": {
+      "to_rionegro": { "matrix_minutes": 57.1, "matrix_km": 48.1 },
+      "to_marinilla": { "matrix_minutes": 39.7, "matrix_km": 31.0 },
+      "to_la_ceja": { "matrix_minutes": 58.8, "matrix_km": 49.2 },
+      "to_carmen_de_viboral": { "matrix_minutes": 84.0, "matrix_km": 44.7 },
+      "to_caldas": { "matrix_minutes": 61.8, "matrix_km": 32.1 },
+      "to_sonson": { "matrix_minutes": 78.2, "matrix_km": 59.3 },
+      "to_aeropuerto_jmc": { "matrix_minutes": 67.6, "matrix_km": 59.3 },
+      "to_guarne": { "matrix_minutes": 65.7, "matrix_km": 50.7 },
+      "to_envigado": { "matrix_minutes": 50.2, "matrix_km": 33.9 },
+      "to_access_point": { "matrix_minutes": 17.8, "matrix_km": 6.7 }
+    },
+    "comparison_ap_vs_hptu": {
+      "rionegro": { "ap_min": 58.8, "hptu_min": 57.1, "diff_min": 1.7, "ap_advantage": false },
+      "marinilla": { "ap_min": 55.6, "hptu_min": 39.7, "diff_min": 15.8, "ap_advantage": false },
+      "la_ceja": { "ap_min": 68.4, "hptu_min": 58.8, "diff_min": 9.7, "ap_advantage": false },
+      "carmen_de_viboral": { "ap_min": 66.2, "hptu_min": 84.0, "diff_min": -17.8, "ap_advantage": true },
+      "caldas": { "ap_min": 44.0, "hptu_min": 61.8, "diff_min": -17.8, "ap_advantage": true },
+      "sonson": { "ap_min": 81.3, "hptu_min": 78.2, "diff_min": 3.1, "ap_advantage": false },
+      "aeropuerto_jmc": { "ap_min": 77.3, "hptu_min": 67.6, "diff_min": 9.7, "ap_advantage": false },
+      "guarne": { "ap_min": 51.3, "hptu_min": 65.7, "diff_min": -14.3, "ap_advantage": true },
+      "envigado": { "ap_min": 68.3, "hptu_min": 50.2, "diff_min": 18.1, "ap_advantage": false },
+      "summary": "Access Point is faster to Caldas (-17.8min), Carmen de Viboral (-17.8min), and Guarne (-14.3min). HPTU Actual is faster to Envigado (-18.1min), Marinilla (-15.8min), La Ceja (-9.7min), and Aeropuerto JMC (-9.7min). To Rionegro they are nearly equal (+1.7min)."
+    }
+  },
+  "isochrone_coverage": {
+    "source": "Mapbox Isochrone API (driving profile)",
+    "contours_minutes": [15, 30, 45, 60],
+    "15min": {
+      "approximate_reach": "Central El Poblado, parts of Envigado norte, Av Las Palmas corridor up to km ~12",
+      "bounding_box_lat": [6.150, 6.247],
+      "bounding_box_lng": [-75.587, -75.507],
+      "key_areas": ["El Poblado centro", "Av Las Palmas km 0-12", "Parte norte de Envigado", "Via a Las Palmas"]
+    },
+    "30min": {
+      "approximate_reach": "All of El Poblado, Envigado, most of southern Medellin, Guarne approaches, parts of Oriente corridor",
+      "bounding_box_lat": [6.100, 6.340],
+      "bounding_box_lng": [-75.640, -75.427],
+      "key_areas": ["El Poblado completo", "Envigado", "Sabaneta parcial", "Guarne acceso", "Oriente inicio"]
+    },
+    "45min": {
+      "approximate_reach": "Greater Medellin metro, Rionegro approaches, La Ceja approaches, Caldas, Sabaneta",
+      "bounding_box_lat": [6.050, 6.390],
+      "bounding_box_lng": [-75.700, -75.335],
+      "key_areas": ["Area Metropolitana completa", "Rionegro parcial", "La Ceja acceso", "Caldas", "Sabaneta", "Itagui"]
+    },
+    "60min": {
+      "approximate_reach": "Full Oriente antioqueno, Rionegro, Marinilla, La Ceja, Carmen de Viboral, Guatape approaches, Copacabana, Bello",
+      "bounding_box_lat": [5.994, 6.449],
+      "bounding_box_lng": [-75.734, -75.264],
+      "key_areas": ["Rionegro completo", "Marinilla", "La Ceja", "Carmen de Viboral", "Copacabana", "Bello", "Girardota", "Barbosa parcial"]
+    }
+  },
+  "competitors_5km": {
+    "source": "Google Places API + OSM Overpass API",
+    "hospitals_google_places": [
+      { "name": "Bluecare", "distance_km": 1.46, "rating": 3.7, "type": "doctor/hospital", "vicinity": "Calle 26 # 38-26" },
+      { "name": "SICOR", "distance_km": 1.51, "rating": 4.5, "type": "doctor/hospital", "vicinity": "Calle 19 #42-40" },
+      { "name": "Coomeva Av El Poblado", "distance_km": 1.61, "rating": 2.8, "type": "hospital", "vicinity": "Avenida El Poblado" },
+      { "name": "Laboratorio Abdominal", "distance_km": 1.75, "rating": null, "type": "hospital", "vicinity": "Carrera 43B #1641" },
+      { "name": "Medical and Dental Center Colmedica El Poblado", "distance_km": 1.76, "rating": 3.6, "type": "hospital", "vicinity": "Carrera 43B #14-44" },
+      { "name": "Metrosalud", "distance_km": 1.81, "rating": 3.0, "type": "hospital", "vicinity": "Calle 14 #43b-9" },
+      { "name": "Evi", "distance_km": 1.95, "rating": 5.0, "type": "hospital", "vicinity": "Carrera 42 #816" },
+      { "name": "Intergastro S.A.", "distance_km": 2.10, "rating": 2.7, "type": "hospital/doctor", "vicinity": "Calle 7 #39-107 Piso 5" },
+      { "name": "Clinic Medellin - El Poblado", "distance_km": 2.17, "rating": 3.8, "type": "hospital", "vicinity": "Calle 7 #39-290" },
+      { "name": "ASTORGA ONCOLOGY CLINIC", "distance_km": 2.21, "rating": 4.0, "type": "doctor/hospital", "vicinity": "Calle 8 #43C-101" },
+      { "name": "Cf Medicina", "distance_km": 2.25, "rating": 4.9, "type": "hospital", "vicinity": "Carrera 25a #1-31 Local 1112" },
+      { "name": "Prado Clinic", "distance_km": 2.27, "rating": 2.9, "type": "doctor/hospital", "vicinity": "Calle 19a #4425" },
+      { "name": "Torre Medica Salud y Servicios", "distance_km": 2.27, "rating": 3.5, "type": "hospital", "vicinity": "Calle 19a #44-25" },
+      { "name": "Torre Medica El Tesoro", "distance_km": 2.36, "rating": 4.7, "type": "hospital", "vicinity": "Carrera 25a #1A Sur-45" },
+      { "name": "Clinica El Rosario", "distance_km": 2.65, "rating": 3.7, "type": "hospital", "vicinity": "Carrera 20 #2 Sur 185" },
+      { "name": "Spa Medica - Dr. Juan Mario Escobar", "distance_km": 2.96, "rating": 5.0, "type": "hospital", "vicinity": "Calle 6 Sur #43a-200" },
+      { "name": "Servicios Medicos San Ignacio S.A.S", "distance_km": 3.37, "rating": 3.3, "type": "doctor/hospital", "vicinity": "Carrera 44 #48-51" },
+      { "name": "Soma Clinic", "distance_km": 3.63, "rating": 3.0, "type": "hospital", "vicinity": "Calle 51 #45-93" }
+    ],
+    "doctors_google_places": [
+      { "name": "Zahia beauty center", "distance_km": 0.70, "rating": 4.5 },
+      { "name": "SPA HEALTH AND BEAUTY", "distance_km": 1.34, "rating": 4.0 },
+      { "name": "Cirucrédito - Financiacion Cirugia Plastica", "distance_km": 1.59, "rating": 4.9 },
+      { "name": "Tecmedical", "distance_km": 1.59, "rating": 4.5 },
+      { "name": "Saine Vital", "distance_km": 1.65, "rating": null },
+      { "name": "Podiatry Center Dr Scholls", "distance_km": 1.82, "rating": 4.5 },
+      { "name": "neuromedica s.a.s", "distance_km": 2.01, "rating": 2.3 },
+      { "name": "Neuro Clinica IPS", "distance_km": 2.08, "rating": 4.2 },
+      { "name": "Sofina Clinic", "distance_km": 2.12, "rating": 2.6 },
+      { "name": "Oral Center Poblado", "distance_km": 2.12, "rating": 4.4 },
+      { "name": "Balon Gastrico - Grupo de Obesidad Clinica Medellin", "distance_km": 2.13, "rating": 4.7 },
+      { "name": "Dr. Luis David Garcia", "distance_km": 2.15, "rating": 3.8 },
+      { "name": "Cirujana Plastica Estetica y Reconstructiva", "distance_km": 2.43, "rating": 5.0 },
+      { "name": "Dr Felipe Martinez Restrepo - Cirujano Plastico", "distance_km": 2.45, "rating": 4.7 }
+    ],
+    "osm_health_facilities_within_5km": {
+      "total": 45,
+      "hospitals": 8,
+      "clinics": 30,
+      "doctors": 7,
+      "closest": [
+        { "name": "Clinica Oftalmologica de Medellin", "distance_km": 1.41, "type": "clinic" },
+        { "name": "Centro de Salud Loreto", "distance_km": 1.72, "type": "clinic" },
+        { "name": "Salud Visual San Diego", "distance_km": 2.04, "type": "clinic" },
+        { "name": "IQ InterQuirofanos", "distance_km": 2.10, "type": "clinic" },
+        { "name": "CediMed", "distance_km": 2.14, "type": "clinic" },
+        { "name": "Clinica de Oncologia Astorga", "distance_km": 2.20, "type": "clinic" },
+        { "name": "Clinica Clofan", "distance_km": 2.30, "type": "clinic" },
+        { "name": "Centro de Fracturas Cefra S.A.", "distance_km": 2.50, "type": "hospital" },
+        { "name": "E.S.E Hospital La Maria", "distance_km": 2.90, "type": "hospital" }
+      ]
+    },
+    "competitive_summary": "Nearest hospital-grade facility is Bluecare at 1.46km. Major hospital cluster around Calle 7 (Clinic Medellin, Intergastro, Astorga Oncology) at ~2.1-2.2km. Torre Medica El Tesoro at 2.36km is the most relevant competitor for premium health services. No hospital currently exists at Km 7 of Las Palmas, creating a gap in the corridor."
+  },
+  "pot_data": {
+    "source": "capacidad_soporte_poblado_filtered.json + lotes_potenciales_poblado_filtered.json",
+    "barrio_altos_del_poblado": {
+      "cod_barrio": "1408",
+      "cod_comuna": "14",
+      "area_estrategica": "MED Borde Suroriental",
+      "zona": "Z5",
+      "densidad_norma_basica": {
+        "valor_viv_ha": 51.8,
+        "year": 2012,
+        "trend": "Decreasing from 51.8 (2012) to ~50.3 (2014)"
+      },
+      "densidad_norma_adicional": {
+        "note": "Data available for Barrio Colombia (70 viv/ha) but specific Altos del Poblado additional density requires further search"
+      },
+      "lotes_potenciales": {
+        "potencial": "NO",
+        "note": "Lots in Altos del Poblado classified as NOT potential for development in 2012 data, with R_Calif=Bajo-Bajo, 0 pisos, and area lots 0-120m2"
+      },
+      "land_use_classification": "CN5 / D (Consolidacion Nivel 5 / Dotacional)",
+      "tratamiento_urbanistico": "CN5 (Consolidacion Nivel 5)"
+    },
+    "barrio_colombia_reference": {
+      "cod_barrio": "1401",
+      "densidad_norma_basica": {
+        "valor_viv_ha": 330,
+        "years": "2012-2021 (stable at 330, briefly 322.8 in 2016)"
+      },
+      "densidad_norma_adicional": {
+        "valor_viv_ha": 70,
+        "years": "2012-2021 (stable at 70, briefly 68.5 in 2016-2017)"
+      }
+    },
+    "licencias_nearby_barrios": {
+      "san_lucas": {
+        "sample_licenses": [
+          {
+            "radicado": "4608-2012",
+            "tipo": "Otorgadas",
+            "objeto": "Urbanizacion; Aprobacion de planos",
+            "uso": "RESIDENCIAL-COMERCIAL",
+            "clase_vivienda": "MULTIFAMILIAR",
+            "area_m2": "2,504.99"
+          }
+        ],
+        "note": "Multiple residential (multifamiliar) permits found in San Lucas"
+      },
+      "astorga": {
+        "licenses_found": true,
+        "note": "Building permits found for Astorga barrio"
+      },
+      "altos_del_poblado": {
+        "licenses_found": true,
+        "note": "At least 4 building permits found referencing Altos del Poblado"
+      }
+    },
+    "max_floors_observed": "Data shows Altos del Poblado lots with N_Pisos=0 (vacant), while the nearby areas have buildings up to 12 floors per OSM data",
+    "note": "Access Point itself (4 towers, 10 floors) is a commercial development - POT data does not specifically reference its parcel. Via Las Palmas km 7 is at the transition between urban El Poblado and the periurban Borde Suroriental zone."
+  },
+  "traffic": {
+    "source": "trafico_ani_antioquia.json (Peaje Las Palmas, ANI data)",
+    "peaje_id": 40,
+    "peaje_name": "LAS PALMAS",
+    "data_period": "2014-01 to 2025-06",
+    "total_records": 1528,
+    "category_I_passenger_vehicles": {
+      "2014": {
+        "total_annual": 2381561,
+        "avg_tpd": 6525,
+        "tariff_cop": 7000
+      },
+      "2025": {
+        "total_6_months": 2024602,
+        "avg_tpd": 11248,
+        "tariff_cop": 12900,
+        "note": "Only Jan-Jun 2025 data available"
+      },
+      "growth": {
+        "tpd_2014": 6525,
+        "tpd_2025": 11248,
+        "percent_growth": 72.4,
+        "cagr_percent": 5.1,
+        "note": "Compound annual growth rate ~5.1% over 11 years for Cat I (passenger vehicles)"
+      }
+    },
+    "monthly_samples": {
+      "jan_2014": { "cat_I": 188635, "cat_II": 14096, "cat_III": 8182, "cat_IV": 5037, "cat_V": 605 },
+      "jan_2025": { "cat_I": 335453 },
+      "mar_2025": { "cat_I": 371027, "note": "Peak month in 2025 data" }
+    },
+    "km7_specific_data": "NOT AVAILABLE - Toll data is aggregate for the entire Las Palmas corridor. No speed or congestion data specific to Km 7 segment found in raw data.",
+    "implications": "High and growing traffic volume (~11,000+ TPD passenger vehicles in 2025) indicates strong corridor demand. Hospital at Km 7 would intercept significant daily traffic flow."
+  },
+  "buildings_nearby": {
+    "source": "osm_buildings_heights_poblado.json",
+    "osm_buildings_with_levels": 40,
+    "avg_levels": 5.4,
+    "max_levels": 12,
+    "min_levels": 1,
+    "buildings_10_plus_floors": 5,
+    "tallest_named_buildings": [
+      { "name": "Hotel Morgana el poblado Suites", "floors": 12 },
+      { "name": "Edificio Monteleone", "floors": 11 },
+      { "name": "Latitude", "floors": 10 },
+      { "name": "Edificio San Pietro", "floors": 10 },
+      { "name": "LQ Hotel La Quinta", "floors": 9 },
+      { "name": "Edificio C13", "floors": 9 },
+      { "name": "C34", "floors": 9 }
+    ],
+    "commercial_buildings_osm": [
+      "PRISMA (commercial)",
+      "Pinar del Rio Mall (retail, 2 floors)",
+      "Bancasa (commercial, 2 floors)",
+      "Edificio C13 (commercial, 9 floors)"
+    ],
+    "note": "OSM data for El Poblado is incomplete - only 40 buildings have height/levels tags. Actual building stock is much larger. Access Point's 4 towers x 10 floors are consistent with the tallest buildings in the OSM dataset."
+  },
+  "routes_detail": {
+    "to_rionegro": {
+      "duration_min": 48.2,
+      "distance_km": 30.9,
+      "via": "Conexion Vial Aburra - Oriente, 60AN03",
+      "tunnels": 2,
+      "weight": 2996
+    },
+    "to_aeropuerto_jmc": {
+      "duration_min": 41.5,
+      "distance_km": 27.5,
+      "via": "Conexion Vial Aburra - Oriente, 60AN03",
+      "tunnels": 2,
+      "weight": 2654
+    },
+    "between_ap_and_hptu": {
+      "ap_to_hptu_min": 18.5,
+      "hptu_to_ap_min": 17.8,
+      "distance_km": 8.8
+    }
+  },
+  "data_quality": {
+    "verified": [
+      "Access Point snaps to 'Avenida de Las Palmas' in Mapbox with 26.87m snap distance - coordinates confirmed",
+      "Travel time Access Point to HPTU Actual: 18.5 min (8.8 km) - bidirectional consistency confirmed (17.8 min return)",
+      "Route to Rionegro via Conexion Vial Aburra-Oriente: 48.2 min, 30.9 km with 2 tunnels",
+      "Route to Aeropuerto JMC: 41.5 min, 27.5 km via same corridor",
+      "Las Palmas toll data spans 2014-2025 with consistent monthly granularity",
+      "Cat I (passenger) TPD grew from ~6,525 (2014) to ~11,248 (2025) = 72.4% growth",
+      "Google Places found 20 hospitals and 20 doctors within search radius",
+      "Nearest hospital-grade facility (Bluecare) at 1.46 km from Access Point",
+      "OSM confirms 45 health facilities (hospitals/clinics/doctors) within 5km",
+      "Isochrone data available for 15/30/45/60 minute contours",
+      "POT data confirms Altos del Poblado (Cod_Barrio 1408) in Comuna 14, Zone Z5, AIE MED Borde Suroriental",
+      "Building permits exist for San Lucas, Altos del Poblado, and Astorga barrios"
+    ],
+    "inconsistencies": [
+      "Matrix travel time to Rionegro (58.8 min) vs direct route (48.2 min) - 10.6 min discrepancy likely due to matrix using different routing profile or traffic model",
+      "Matrix travel time to Aeropuerto JMC (77.3 min) vs direct route (41.5 min) - 35.8 min discrepancy. Matrix destination coordinates (-75.264, 6.139) appear to be a point beyond the airport, explaining the difference. CRITICAL: The matrix endpoint may not be the airport terminal.",
+      "Lotes potenciales data shows Altos del Poblado parcels as 'NOT potential' with 0 floors and Bajo-Bajo classification - this seems inconsistent with the actual development (Access Point is a major commercial complex). Data may be outdated or refer to specific small parcels, not the overall zone.",
+      "OSM building heights data is sparse (only 40 buildings with levels tags in all El Poblado) - not representative of actual building stock"
+    ],
+    "pending_verification": [
+      "Exact POT zoning and uso del suelo for the Access Point parcel (specific CBML code unknown)",
+      "Whether Access Point's 10-floor towers comply with the local building height limits for Altos del Poblado",
+      "Current availability of office space in Access Point towers for hospital conversion",
+      "Structural capacity of existing towers for hospital/medical use (load, floor-to-ceiling height, HVAC)",
+      "Seismic classification and risk assessment for the specific lot",
+      "Actual travel times during peak hours (AM 7-9, PM 5-7) - Mapbox data may not reflect Las Palmas congestion",
+      "Whether the Peaje Las Palmas is before or after Km 7 (affects how toll data represents traffic at Access Point)",
+      "Exact property boundaries and cadastral information for the Access Point lot",
+      "Environmental permits and restrictions for Via Las Palmas corridor"
+    ],
+    "missing": [
+      "No speed/congestion data for Km 7 specifically - only aggregate toll data for the whole corridor",
+      "No real estate pricing data for Access Point office spaces",
+      "No population density data within 15-minute isochrone",
+      "No ambulance response time data for the location",
+      "No public transport accessibility data (Metro, bus routes to Km 7)",
+      "No noise level or air quality data for the Las Palmas corridor",
+      "No historical accident/emergency data for the Via Las Palmas segment",
+      "No specific census data for the immediate catchment area",
+      "No competitor capacity data (bed counts, specialties) for nearby hospitals",
+      "No data on planned infrastructure projects that could affect access (tunnel expansions, new roads)"
+    ],
+    "recommendations": [
+      "PRIORITY: Obtain the specific POT ficha normativa for the Access Point parcel to confirm allowed uses (salud/dotacional)",
+      "PRIORITY: Validate the Aeropuerto JMC matrix destination - the current matrix endpoint may be incorrect, artificially inflating the travel time to 77.3 min when the direct route shows 41.5 min",
+      "Conduct peak-hour travel time study using real GPS traces or Mapbox Traffic Profile API",
+      "Obtain catastral data from IGAC/Medellin for the specific lot (area, avaluo, current use classification)",
+      "Survey Access Point building specifications (ceiling height, floor plate area, elevator capacity, parking ratio)",
+      "Request Secretaria de Salud de Medellin data on hospital bed demand in El Poblado",
+      "Analyze competitor bed counts and occupancy rates for clinics within 3km radius",
+      "Verify if the Peaje Las Palmas toll booth is located before or after Km 7 for accurate traffic volume attribution",
+      "Obtain DANE census data for the 15-minute isochrone catchment area to estimate serviceable population",
+      "Check with Acierto Inmobiliario on office vacancy rates and potential for use-change permits"
+    ]
+  }
+}

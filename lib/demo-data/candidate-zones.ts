@@ -25,7 +25,7 @@ export const candidateZones: CandidateZone[] = [
     id: "palmas-bajo",
     name: "Las Palmas Bajo",
     subtitle: "Zona Colegiatura (~1,700 msnm) — Barrios Altos del Poblado / El Tesoro",
-    coordinates: [-75.5465, 6.2080],
+    coordinates: [-75.5460, 6.2094],
     score: 88,
     scores: {
       accesibilidad: 92,
@@ -53,7 +53,7 @@ export const candidateZones: CandidateZone[] = [
     id: "palmas-medio",
     name: "Las Palmas Medio",
     subtitle: "Los Balsos - Las Lomas (Zona de Transicion)",
-    coordinates: [-75.5380, 6.1980],
+    coordinates: [-75.5469, 6.1960],
     score: 77,
     scores: {
       accesibilidad: 72,
@@ -81,7 +81,7 @@ export const candidateZones: CandidateZone[] = [
     id: "palmas-alto",
     name: "Las Palmas Alto",
     subtitle: "Alto de Las Palmas - Santa Elena (Corregimiento)",
-    coordinates: [-75.5260, 6.1920],
+    coordinates: [-75.5458, 6.1701],
     score: 58,
     scores: {
       accesibilidad: 42,
@@ -162,9 +162,9 @@ export const candidateZones: CandidateZone[] = [
     dataSource: "DANE CNPV 2018 (evm3-92yw), REPS (b4dp-ximh), ESE coords (pi36-fdpk), MEData Velocidades, Mapbox Matrix API",
   },
   {
-    id: "cra22-poblado",
-    name: "Cra 22 — El Poblado",
-    subtitle: "Nodo Estratégico Sur-Oriente (Carrera 22, El Poblado)",
+    id: "access-point",
+    name: "Access Point",
+    subtitle: "Km 7 Via Las Palmas — Retorno 5 (Acierto Inmobiliario)",
     coordinates: [-75.554932, 6.217662],
     score: 0, // to be calculated after MCDA
     scores: {
@@ -175,14 +175,14 @@ export const candidateZones: CandidateZone[] = [
     },
     color: "#e11d48", // rose-600 to distinguish
     description:
-      "Ubicacion propuesta en Carrera 22, El Poblado. Analisis Mapbox Matrix arroja tiempos competitivos al Oriente Antioqueno: 44.0 min a El Retiro (-17.8 min vs HPTU actual), 66.2 min a La Ceja (-17.8 min), 51.3 min al Aeropuerto SKRG (-14.3 min). En radio 5 km hay 40+ facilities (Google Places). Zona de alta densificacion con POT que permite hasta 19 pisos en San Lucas. Posicion estrategica como puente entre Valle de Aburra y Oriente Antioqueno sur.",
+      "Access Point es un proyecto de Acierto Inmobiliario en el Km 7 de Via Las Palmas (Retorno 5). 4 torres de oficinas de 10 pisos, 1,085 parqueaderos (477 visitantes + 608 privados). A 20 minutos del Aeropuerto JMC por Tunel de Oriente, sin restriccion pico y placa. Posicion estrategica como nodo de transicion entre Valle de Aburra y Oriente Antioqueno.",
     highlights: [
+      "Access Point: 4 torres x 10 pisos, 1,085 parqueaderos (477 visitantes + 608 privados)",
       "Mapbox Matrix: 44.0 min a El Retiro (vs 61.8 HPTU actual = -17.8 min)",
       "Mapbox Matrix: 51.3 min a Aeropuerto SKRG (vs 65.7 HPTU = -14.3 min)",
       "Mapbox Matrix: 58.8 min a Rionegro (vs 57.1 HPTU = neutro)",
-      "Google Places: 40+ facilities en 5 km — zona competida pero estrategica",
-      "POT San Lucas: 19.1 pisos permitidos, 45.8% densidad usada — potencial alto",
-      "Catastro: Avg pisos 6.1, 7,775 edificios en 3 km (OSM)",
+      "20 min al Aeropuerto JMC por Tunel de Oriente, sin pico y placa",
+      "Nodo de transicion Valle de Aburra — Oriente Antioqueno",
     ],
     demandEstimate: 460000, // Oriente Antioqueño catchment
     avgM2Price: 200000000, // Estimated El Poblado avg

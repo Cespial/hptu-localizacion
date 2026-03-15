@@ -1,5 +1,6 @@
 import dynamic from "next/dynamic";
 import { HeroSection } from "./_components/hero-section";
+import { ExecutiveSummarySection } from "./_components/executive-summary-section";
 import { MethodologySection } from "./_components/methodology-section";
 import { FormulaSection } from "./_components/formula-section";
 import { DemandGradientSection } from "./_components/demand-gradient-section";
@@ -31,6 +32,7 @@ export default function Home() {
   return (
     <main className="min-h-screen">
       <HeroSection />
+      <ExecutiveSummarySection />
       <MethodologySection />
       <FormulaSection />
       <MapSection />

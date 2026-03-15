@@ -27,7 +27,7 @@ const formatNumber = (n: number) =>
 // Build travel time bar chart data
 const travelData = travelTimeComparison.destinations.map((dest, i) => ({
   destination: dest,
-  candidato6: travelTimeComparison.fromCandidate[i],
+  accessPoint: travelTimeComparison.fromCandidate[i],
   hptuActual: travelTimeComparison.fromHPTU[i],
   diff: +(
     travelTimeComparison.fromCandidate[i] - travelTimeComparison.fromHPTU[i]
@@ -50,17 +50,17 @@ const potentialLabel: Record<string, string> = {
 
 export function Candidate6AnalysisSection() {
   return (
-    <SectionWrapper id="candidato-cra22">
+    <SectionWrapper id="candidato-access-point">
       <div className="text-center mb-8 lg:mb-10">
         <Badge variant="outline" className="mb-4">
           Zona Candidata #6 — Analisis Integral
         </Badge>
         <h2 className="font-serif text-3xl font-bold sm:text-4xl">
-          Cra 22, El Poblado: Nodo Puente al Oriente
+          Access Point, Km 7 Via Las Palmas: Nodo Puente al Oriente
         </h2>
         <p className="mt-3 text-muted-foreground max-w-2xl mx-auto">
-          Analisis para ubicacion 6.217662, -75.554932 usando Mapbox Matrix API,
-          REPS, Catastro Medellin, POT Bateria de Indicadores y Google Places.
+          Analisis para Access Point (Retorno 5, Acierto Inmobiliario) en Km 7 de Via Las Palmas
+          usando Mapbox Matrix API, REPS, Catastro Medellin, POT Bateria de Indicadores y Google Places.
         </p>
       </div>
 
@@ -74,14 +74,14 @@ export function Candidate6AnalysisSection() {
         <div className="flex items-center justify-center gap-2 mb-2">
           <MapPin className="h-5 w-5 text-rose-600" />
           <span className="text-sm font-bold text-rose-600">
-            Candidato #6
+            Access Point
           </span>
         </div>
         <p className="font-mono text-lg font-bold">
           6.217662&deg;N, -75.554932&deg;W
         </p>
         <p className="text-xs text-muted-foreground mt-1">
-          Carrera 22, El Poblado — Zona estrategica entre Valle de Aburra y Oriente Antioqueno sur
+          Km 7 Via Las Palmas, Retorno 5 (Acierto Inmobiliario) — Nodo de transicion Valle de Aburra y Oriente Antioqueno
         </p>
       </motion.div>
 
@@ -188,7 +188,7 @@ export function Candidate6AnalysisSection() {
         <div className="flex items-center gap-2 mb-1">
           <Clock className="h-4 w-4 text-rose-500" />
           <h3 className="text-sm font-bold">
-            Tiempos de Viaje: Candidato #6 vs HPTU Actual
+            Tiempos de Viaje: Access Point vs HPTU Actual
           </h3>
         </div>
         <p className="text-[10px] text-muted-foreground mb-4">
@@ -221,18 +221,18 @@ export function Candidate6AnalysisSection() {
               contentStyle={{ fontSize: "11px" }}
               formatter={(value, name) => {
                 const label =
-                  name === "candidato6" ? "Candidato #6" : "HPTU Actual";
+                  name === "accessPoint" ? "Access Point" : "HPTU Actual";
                 return [`${value} min`, label];
               }}
             />
             <Legend
               wrapperStyle={{ fontSize: "10px", paddingTop: "8px" }}
               formatter={(value) =>
-                value === "candidato6" ? "Candidato #6 (Cra 22)" : "HPTU Actual (Robledo)"
+                value === "accessPoint" ? "Access Point (Km 7 Las Palmas)" : "HPTU Actual (Robledo)"
               }
             />
             <Bar
-              dataKey="candidato6"
+              dataKey="accessPoint"
               fill="#0d9488"
               radius={[0, 4, 4, 0]}
               barSize={12}
@@ -247,8 +247,8 @@ export function Candidate6AnalysisSection() {
         </ResponsiveContainer>
         <div className="flex items-center justify-center gap-4 mt-2 text-[10px] text-muted-foreground">
           <span className="flex items-center gap-1">
-            <span className="h-2.5 w-2.5 rounded-sm bg-teal-500" /> Candidato
-            #6 gana
+            <span className="h-2.5 w-2.5 rounded-sm bg-teal-500" /> Access
+            Point gana
           </span>
           <span>
             El Retiro (-17.8 min), La Ceja (-17.8 min), Aeropuerto SKRG (-14.3

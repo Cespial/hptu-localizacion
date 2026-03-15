@@ -54,8 +54,8 @@ export function MapSection() {
     { id: "isochrones", label: "Isocronas", icon: Circle, color: "#f59e0b", enabled: false, group: "analysis" },
     // Oriente Antioqueno
     { id: "orienteHealth", label: "Salud Oriente (OSM)", icon: Hospital, color: "#dc2626", enabled: false, group: "oriente" },
-    { id: "candidato6Iso", label: "Isocronas Cra 22", icon: Globe, color: "#0d9488", enabled: false, group: "oriente" },
-    { id: "candidato6Routes", label: "Rutas Oriente", icon: Compass, color: "#e11d48", enabled: false, group: "oriente" },
+    { id: "accessPointIso", label: "Isocronas Access Point", icon: Globe, color: "#0d9488", enabled: false, group: "oriente" },
+    { id: "accessPointRoutes", label: "Rutas Oriente", icon: Compass, color: "#e11d48", enabled: false, group: "oriente" },
     { id: "medicalProjects", label: "Proyectos Salud", icon: Landmark, color: "#f97316", enabled: false, group: "oriente" },
     { id: "orienteMunicipios", label: "Municipios Oriente", icon: Users, color: "#3b82f6", enabled: false, group: "oriente" },
   ]);
@@ -564,24 +564,24 @@ export function MapSection() {
     } catch (e) { console.warn("Failed to load oriente health facilities:", e); }
   }, []);
 
-  /* ── Load Candidato 6 Isochrones ── */
+  /* ── Load Access Point Isochrones ── */
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  const ensureCandidato6IsoLayers = useCallback(async (map: any) => {
-    if (loadedSourcesRef.current.has("candidato6Iso")) return;
-    loadedSourcesRef.current.add("candidato6Iso");
+  const ensureAccessPointIsoLayers = useCallback(async (map: any) => {
+    if (loadedSourcesRef.current.has("accessPointIso")) return;
+    loadedSourcesRef.current.add("accessPointIso");
 
     try {
-      const res = await fetch("/geojson/candidato6_isochrones.geojson");
+      const res = await fetch("/geojson/access_point_isochrones.geojson");
       if (!res.ok) return;
       const data = await res.json();
 
-      if (!map.getSource("candidato6-iso-src")) {
-        map.addSource("candidato6-iso-src", { type: "geojson", data });
+      if (!map.getSource("access-point-iso-src")) {
+        map.addSource("access-point-iso-src", { type: "geojson", data });
 
         map.addLayer({
-          id: "candidato6-isochrones-fill",
+          id: "access-point-isochrones-fill",
           type: "fill",
-          source: "candidato6-iso-src",
+          source: "access-point-iso-src",
           paint: {
             "fill-color": [
               "match", ["get", "contour"],
@@ -603,9 +603,9 @@ export function MapSection() {
         });
 
         map.addLayer({
-          id: "candidato6-isochrones-line",
+          id: "access-point-isochrones-line",
           type: "line",
-          source: "candidato6-iso-src",
+          source: "access-point-iso-src",
           paint: {
             "line-color": "#0d9488",
             "line-width": 1,
@@ -616,9 +616,9 @@ export function MapSection() {
 
         // Contour labels
         map.addLayer({
-          id: "candidato6-isochrones-label",
+          id: "access-point-isochrones-label",
           type: "symbol",
-          source: "candidato6-iso-src",
+          source: "access-point-iso-src",
           layout: {
             "symbol-placement": "line",
             "text-field": ["concat", ["to-string", ["get", "contour"]], " min"],
@@ -633,27 +633,27 @@ export function MapSection() {
           },
         });
       }
-    } catch (e) { console.warn("Failed to load candidato6 isochrones:", e); }
+    } catch (e) { console.warn("Failed to load access point isochrones:", e); }
   }, []);
 
-  /* ── Load Candidato 6 Routes ── */
+  /* ── Load Access Point Routes ── */
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  const ensureCandidato6RouteLayers = useCallback(async (map: any) => {
-    if (loadedSourcesRef.current.has("candidato6Routes")) return;
-    loadedSourcesRef.current.add("candidato6Routes");
+  const ensureAccessPointRouteLayers = useCallback(async (map: any) => {
+    if (loadedSourcesRef.current.has("accessPointRoutes")) return;
+    loadedSourcesRef.current.add("accessPointRoutes");
 
     try {
-      const res = await fetch("/geojson/candidato6_routes.geojson");
+      const res = await fetch("/geojson/access_point_routes.geojson");
       if (!res.ok) return;
       const data = await res.json();
 
-      if (!map.getSource("candidato6-routes-src")) {
-        map.addSource("candidato6-routes-src", { type: "geojson", data });
+      if (!map.getSource("access-point-routes-src")) {
+        map.addSource("access-point-routes-src", { type: "geojson", data });
 
         map.addLayer({
-          id: "candidato6-routes-casing",
+          id: "access-point-routes-casing",
           type: "line",
-          source: "candidato6-routes-src",
+          source: "access-point-routes-src",
           paint: {
             "line-color": ["get", "color"],
             "line-width": 8,
@@ -664,9 +664,9 @@ export function MapSection() {
         });
 
         map.addLayer({
-          id: "candidato6-routes-line",
+          id: "access-point-routes-line",
           type: "line",
-          source: "candidato6-routes-src",
+          source: "access-point-routes-src",
           paint: {
             "line-color": ["get", "color"],
             "line-width": 3,
@@ -677,9 +677,9 @@ export function MapSection() {
         });
 
         map.addLayer({
-          id: "candidato6-routes-arrows",
+          id: "access-point-routes-arrows",
           type: "symbol",
-          source: "candidato6-routes-src",
+          source: "access-point-routes-src",
           layout: {
             "symbol-placement": "line",
             "symbol-spacing": 100,
@@ -695,9 +695,9 @@ export function MapSection() {
         });
 
         map.addLayer({
-          id: "candidato6-routes-label",
+          id: "access-point-routes-label",
           type: "symbol",
-          source: "candidato6-routes-src",
+          source: "access-point-routes-src",
           layout: {
             "symbol-placement": "line-center",
             "text-field": ["concat", ["get", "destination"], " · ", ["to-string", ["get", "duration_min"]], " min"],
@@ -713,10 +713,10 @@ export function MapSection() {
           },
         });
 
-        map.on("mouseenter", "candidato6-routes-line", () => { map.getCanvas().style.cursor = "pointer"; });
-        map.on("mouseleave", "candidato6-routes-line", () => { map.getCanvas().style.cursor = ""; });
+        map.on("mouseenter", "access-point-routes-line", () => { map.getCanvas().style.cursor = "pointer"; });
+        map.on("mouseleave", "access-point-routes-line", () => { map.getCanvas().style.cursor = ""; });
       }
-    } catch (e) { console.warn("Failed to load candidato6 routes:", e); }
+    } catch (e) { console.warn("Failed to load access point routes:", e); }
   }, []);
 
   /* ── Load Medical Projects ── */
@@ -1216,16 +1216,16 @@ export function MapSection() {
               .addTo(map);
           });
 
-          // Candidato6 routes popup
+          // Access Point routes popup
           // eslint-disable-next-line @typescript-eslint/no-explicit-any
-          map.on("mousemove", "candidato6-routes-line", (e: any) => {
+          map.on("mousemove", "access-point-routes-line", (e: any) => {
             if (!e.features?.length) return;
             const p = e.features[0].properties!;
             popup
               .setLngLat(e.lngLat as { lng: number; lat: number })
               .setHTML(
                 `<div>
-                  <p style="font-weight:700;margin:0;font-size:12px;">Cra 22 → ${p.destination}</p>
+                  <p style="font-weight:700;margin:0;font-size:12px;">Access Point → ${p.destination}</p>
                   <p style="font-size:11px;color:#666;margin:2px 0;">
                     <span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:${p.color};margin-right:4px;"></span>
                     ${p.duration_min} min · ${p.distance_km} km
@@ -1234,7 +1234,7 @@ export function MapSection() {
               )
               .addTo(map);
           });
-          map.on("mouseleave", "candidato6-routes-line", () => popup.remove());
+          map.on("mouseleave", "access-point-routes-line", () => popup.remove());
 
           // Medical projects popup
           // eslint-disable-next-line @typescript-eslint/no-explicit-any
@@ -1272,7 +1272,7 @@ export function MapSection() {
                   <div style="font-size:11px;color:#666;margin:3px 0;">
                     <div>Poblacion: <strong>${Number(p.population).toLocaleString()} hab</strong></div>
                     <div>IPS registradas: <strong>${p.ips_count}</strong></div>
-                    ${p.time_from_cra22_min ? `<div>Tiempo desde Cra 22: <strong>${p.time_from_cra22_min} min</strong></div>` : ""}
+                    ${p.time_from_access_point_min ? `<div>Tiempo desde Access Point: <strong>${p.time_from_access_point_min} min</strong></div>` : ""}
                   </div>
                 </div>`
               )
@@ -1508,43 +1508,43 @@ export function MapSection() {
     }
   }, [mapLoaded, isLayerEnabled, ensureOrienteHealthLayers]);
 
-  /* ── Candidato 6 Isochrones visibility ── */
+  /* ── Access Point Isochrones visibility ── */
   useEffect(() => {
     if (!mapLoaded || !mapRef.current) return;
     const map = mapRef.current;
-    const enabled = isLayerEnabled("candidato6Iso");
+    const enabled = isLayerEnabled("accessPointIso");
     if (enabled) {
-      ensureCandidato6IsoLayers(map).then(() => {
-        safeSetVisibility(map, "candidato6-isochrones-fill", true);
-        safeSetVisibility(map, "candidato6-isochrones-line", true);
-        safeSetVisibility(map, "candidato6-isochrones-label", true);
+      ensureAccessPointIsoLayers(map).then(() => {
+        safeSetVisibility(map, "access-point-isochrones-fill", true);
+        safeSetVisibility(map, "access-point-isochrones-line", true);
+        safeSetVisibility(map, "access-point-isochrones-label", true);
       });
     } else {
-      safeSetVisibility(map, "candidato6-isochrones-fill", false);
-      safeSetVisibility(map, "candidato6-isochrones-line", false);
-      safeSetVisibility(map, "candidato6-isochrones-label", false);
+      safeSetVisibility(map, "access-point-isochrones-fill", false);
+      safeSetVisibility(map, "access-point-isochrones-line", false);
+      safeSetVisibility(map, "access-point-isochrones-label", false);
     }
-  }, [mapLoaded, isLayerEnabled, ensureCandidato6IsoLayers]);
+  }, [mapLoaded, isLayerEnabled, ensureAccessPointIsoLayers]);
 
-  /* ── Candidato 6 Routes visibility ── */
+  /* ── Access Point Routes visibility ── */
   useEffect(() => {
     if (!mapLoaded || !mapRef.current) return;
     const map = mapRef.current;
-    const enabled = isLayerEnabled("candidato6Routes");
+    const enabled = isLayerEnabled("accessPointRoutes");
     if (enabled) {
-      ensureCandidato6RouteLayers(map).then(() => {
-        safeSetVisibility(map, "candidato6-routes-casing", true);
-        safeSetVisibility(map, "candidato6-routes-line", true);
-        safeSetVisibility(map, "candidato6-routes-arrows", true);
-        safeSetVisibility(map, "candidato6-routes-label", true);
+      ensureAccessPointRouteLayers(map).then(() => {
+        safeSetVisibility(map, "access-point-routes-casing", true);
+        safeSetVisibility(map, "access-point-routes-line", true);
+        safeSetVisibility(map, "access-point-routes-arrows", true);
+        safeSetVisibility(map, "access-point-routes-label", true);
       });
     } else {
-      safeSetVisibility(map, "candidato6-routes-casing", false);
-      safeSetVisibility(map, "candidato6-routes-line", false);
-      safeSetVisibility(map, "candidato6-routes-arrows", false);
-      safeSetVisibility(map, "candidato6-routes-label", false);
+      safeSetVisibility(map, "access-point-routes-casing", false);
+      safeSetVisibility(map, "access-point-routes-line", false);
+      safeSetVisibility(map, "access-point-routes-arrows", false);
+      safeSetVisibility(map, "access-point-routes-label", false);
     }
-  }, [mapLoaded, isLayerEnabled, ensureCandidato6RouteLayers]);
+  }, [mapLoaded, isLayerEnabled, ensureAccessPointRouteLayers]);
 
   /* ── Medical Projects visibility ── */
   useEffect(() => {
@@ -1674,13 +1674,13 @@ export function MapSection() {
         if (isLayerEnabled("osmCommercial")) ensureOsmLayers(map, "commercial");
         // Oriente layers
         if (isLayerEnabled("orienteHealth")) ensureOrienteHealthLayers(map);
-        if (isLayerEnabled("candidato6Iso")) ensureCandidato6IsoLayers(map);
-        if (isLayerEnabled("candidato6Routes")) ensureCandidato6RouteLayers(map);
+        if (isLayerEnabled("accessPointIso")) ensureAccessPointIsoLayers(map);
+        if (isLayerEnabled("accessPointRoutes")) ensureAccessPointRouteLayers(map);
         if (isLayerEnabled("medicalProjects")) ensureMedicalProjectLayers(map);
         if (isLayerEnabled("orienteMunicipios")) ensureOrienteMunicipiosLayers(map);
       });
     },
-    [mapStyle, isLayerEnabled, ensureTrafficLayers, ensureHealthFullLayers, ensureRouteLayers, ensureCatastroLayers, ensurePotLayers, ensureOsmLayers, ensureOrienteHealthLayers, ensureCandidato6IsoLayers, ensureCandidato6RouteLayers, ensureMedicalProjectLayers, ensureOrienteMunicipiosLayers]
+    [mapStyle, isLayerEnabled, ensureTrafficLayers, ensureHealthFullLayers, ensureRouteLayers, ensureCatastroLayers, ensurePotLayers, ensureOsmLayers, ensureOrienteHealthLayers, ensureAccessPointIsoLayers, ensureAccessPointRouteLayers, ensureMedicalProjectLayers, ensureOrienteMunicipiosLayers]
   );
 
   /* ── Candidate selection ── */
@@ -1694,8 +1694,8 @@ export function MapSection() {
       if (newId) {
         const zone = candidateZones.find((z) => z.id === newId);
         if (zone) {
-          // Candidato 6 needs wider zoom to show Oriente context
-          const zoomLevel = newId === "cra22-poblado" ? 10 : 13.5;
+          // Access Point needs wider zoom to show Oriente context
+          const zoomLevel = newId === "access-point" ? 10 : 13.5;
           mapRef.current.flyTo({ center: zone.coordinates, zoom: zoomLevel, duration: 1500 });
         }
         // Enable isochrones and show only this zone
@@ -1706,11 +1706,11 @@ export function MapSection() {
           safeSetVisibility(mapRef.current, `isochrones-${cand}-line`, vis);
         });
 
-        // When selecting candidato 6, auto-enable Oriente layers
-        if (newId === "cra22-poblado") {
+        // When selecting Access Point, auto-enable Oriente layers
+        if (newId === "access-point") {
           setLayers((prev) =>
             prev.map((l) =>
-              ["candidato6Iso", "candidato6Routes", "medicalProjects", "orienteMunicipios"].includes(l.id)
+              ["accessPointIso", "accessPointRoutes", "medicalProjects", "orienteMunicipios"].includes(l.id)
                 ? { ...l, enabled: true }
                 : l
             )
