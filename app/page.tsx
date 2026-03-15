@@ -18,6 +18,7 @@ import { CompetitiveLandscapeSection } from "./_components/competitive-landscape
 import { OrienteRionegroGrowthSection } from "./_components/oriente-rionegro-growth-section";
 import { MCDAComparisonSection } from "./_components/mcda-comparison-section";
 import { SensitivityMCDASection } from "./_components/sensitivity-mcda-section";
+import { DataIntelligenceSection } from "./_components/data-intelligence-section";
 import { FinancialSection } from "./_components/financial-section";
 import { DensurbamSection } from "./_components/densurbam-section";
 import { DataSourcesSection } from "./_components/data-sources-section";
@@ -59,6 +60,8 @@ export default function Home() {
       {/* Synthesis */}
       <MCDAComparisonSection />
       <SensitivityMCDASection />
+      {/* Data intelligence: verified findings for decision-makers */}
+      <DataIntelligenceSection />
       <FinancialSection />
       <DensurbamSection />
       <DataSourcesSection />
