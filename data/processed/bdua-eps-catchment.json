@@ -1,0 +1,116 @@
+{
+  "metadata": {
+    "source": "datos.gov.co/tq4m-hmg2",
+    "description": "BDUA afiliados por EPS por municipio — catchment Oriente Antioqueno",
+    "generatedAt": "2026-03-16T00:01:16.214Z",
+    "recordsProcessed": 33
+  },
+  "municipios": [
+    {
+      "daneCode": "05615",
+      "name": "Rionegro",
+      "population": 135100,
+      "contributivo": 161041,
+      "subsidiado": 29941,
+      "especial": 1873,
+      "totalAfiliados": 192855,
+      "pctContributivo": 83.5,
+      "pctSubsidiado": 15.5,
+      "coverageRate": 142.7,
+      "ratioContribSubsid": 5.38,
+      "topEPS": []
+    },
+    {
+      "daneCode": "05376",
+      "name": "La Ceja",
+      "population": 68900,
+      "contributivo": 63417,
+      "subsidiado": 13229,
+      "especial": 691,
+      "totalAfiliados": 77337,
+      "pctContributivo": 82,
+      "pctSubsidiado": 17.1,
+      "coverageRate": 112.2,
+      "ratioContribSubsid": 4.79,
+      "topEPS": []
+    },
+    {
+      "daneCode": "05440",
+      "name": "Marinilla",
+      "population": 64100,
+      "contributivo": 46189,
+      "subsidiado": 19669,
+      "especial": 909,
+      "totalAfiliados": 66767,
+      "pctContributivo": 69.2,
+      "pctSubsidiado": 29.5,
+      "coverageRate": 104.2,
+      "ratioContribSubsid": 2.35,
+      "topEPS": []
+    },
+    {
+      "daneCode": "05148",
+      "name": "El Carmen de Viboral",
+      "population": 62600,
+      "contributivo": 35869,
+      "subsidiado": 16310,
+      "especial": 709,
+      "totalAfiliados": 52888,
+      "pctContributivo": 67.8,
+      "pctSubsidiado": 30.8,
+      "coverageRate": 84.5,
+      "ratioContribSubsid": 2.2,
+      "topEPS": []
+    },
+    {
+      "daneCode": "05318",
+      "name": "Guarne",
+      "population": 49300,
+      "contributivo": 32692,
+      "subsidiado": 12657,
+      "especial": 444,
+      "totalAfiliados": 45793,
+      "pctContributivo": 71.4,
+      "pctSubsidiado": 27.6,
+      "coverageRate": 92.9,
+      "ratioContribSubsid": 2.58,
+      "topEPS": []
+    },
+    {
+      "daneCode": "05697",
+      "name": "El Santuario",
+      "population": 35200,
+      "contributivo": 14980,
+      "subsidiado": 15512,
+      "especial": 403,
+      "totalAfiliados": 30895,
+      "pctContributivo": 48.5,
+      "pctSubsidiado": 50.2,
+      "coverageRate": 87.8,
+      "ratioContribSubsid": 0.97,
+      "topEPS": []
+    },
+    {
+      "daneCode": "05607",
+      "name": "El Retiro",
+      "population": 24000,
+      "contributivo": 12956,
+      "subsidiado": 3738,
+      "especial": 178,
+      "totalAfiliados": 16872,
+      "pctContributivo": 76.8,
+      "pctSubsidiado": 22.2,
+      "coverageRate": 70.3,
+      "ratioContribSubsid": 3.47,
+      "topEPS": []
+    }
+  ],
+  "catchmentSummary": {
+    "totalContributivo": 367144,
+    "totalSubsidiado": 111056,
+    "totalPopulation": 439200,
+    "pctContributivo": 76.8,
+    "ratioContribSubsid": 3.31,
+    "avgCoverageRate": 108.9
+  }
+}

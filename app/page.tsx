@@ -15,6 +15,7 @@ import { AmbulatoryServicesSection } from "./_components/ambulatory-services-sec
 import { Candidate6AnalysisSection } from "./_components/candidate6-analysis-section";
 import { StrategicProspectiveSection } from "./_components/strategic-prospective-section";
 import { CompetitiveLandscapeSection } from "./_components/competitive-landscape-section";
+import { DemandValidationSection } from "./_components/demand-validation-section";
 import { OrienteRionegroGrowthSection } from "./_components/oriente-rionegro-growth-section";
 import { MCDAComparisonSection } from "./_components/mcda-comparison-section";
 import { SensitivityMCDASection } from "./_components/sensitivity-mcda-section";
@@ -57,6 +58,8 @@ export default function Home() {
       {/* Strategic intelligence */}
       <StrategicProspectiveSection />
       <CompetitiveLandscapeSection />
+      {/* Demand validation dossier: 5 board questions */}
+      <DemandValidationSection />
       {/* Synthesis */}
       <MCDAComparisonSection />
       <SensitivityMCDASection />
