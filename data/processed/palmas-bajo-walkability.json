@@ -1,0 +1,26 @@
+{
+  "zone": "Palmas Bajo",
+  "timestamp": "2026-03-31",
+  "walkingDistances": {
+    "ccElTesoro": { "walking_min": 33, "walking_km": 2.0 },
+    "ccOviedo": { "walking_min": 19, "walking_km": 1.3 },
+    "parqueElPoblado": { "walking_min": 13, "walking_km": 1.0 },
+    "clubElRodeo": { "walking_min": 18, "walking_km": 1.0 },
+    "torreOviedo": { "walking_min": 14, "walking_km": 1.0 },
+    "eiaUniversidad": { "walking_min": 82, "walking_km": 4.2 },
+    "millaDeOro": { "walking_min": 19, "walking_km": 1.5 }
+  },
+  "walkability": {
+    "caminableA15min": ["Parque El Poblado (13 min)", "Torre Oviedo (14 min)"],
+    "caminableA20min": ["CC Oviedo (19 min)", "Club El Rodeo (18 min)", "Milla de Oro (19 min)"],
+    "caminableA35min": ["CC El Tesoro (33 min)"],
+    "noCaminable": ["EIA Universidad (82 min)"]
+  },
+  "streetDensity": {
+    "calle10_transversalIntermedia_150m": 20,
+    "calle10_centro_150m": 20,
+    "calle10_transversalInferior_150m": 20,
+    "note": "20 POIs por cada 150m de calle = zona extremadamente densa y caminable"
+  },
+  "keyInsight": "Desde Palmas Bajo se puede caminar a Parque El Poblado (13 min), Torre Oviedo (14 min), Club El Rodeo (18 min), CC Oviedo (19 min) y Milla de Oro (19 min). Es una de las zonas más caminables de Medellín para servicios ambulatorios."
+}
