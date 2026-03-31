@@ -232,6 +232,28 @@ Itag\"{u}\'{i} Centro & 33.4 min \\
 
 \vspace{2pt}
 {\tiny\color{slate} Fuente: Google Routes + Mapbox Directions}
+
+\vspace{4pt}
+{\scriptsize\textbf{Caminabilidad (a pie desde Palmas Bajo):}}
+\vspace{2pt}
+
+{\scriptsize
+\begin{tabular}{@{}lr@{}}
+\toprule
+\textbf{Destino} & \textbf{Tiempo} \\
+\midrule
+\rowcolor{acc!8}
+Parque El Poblado & \textcolor{acc}{\textbf{13 min}} \\
+Torre Oviedo & \textcolor{acc}{\textbf{14 min}} \\
+Club El Rodeo & 18 min \\
+CC Oviedo & 19 min \\
+Milla de Oro & 19 min \\
+\bottomrule
+\end{tabular}
+}
+
+\vspace{2pt}
+{\tiny\color{slate} Zona altamente caminable --- clave para pacientes ambulatorios.}
 \end{columns}
 \end{frame}
 
@@ -436,16 +458,31 @@ LP Alto & 20 \\
 
 \column{0.48\textwidth}
 \vspace{2pt}
-{\scriptsize\textbf{Milla de Oro lidera (95)} con 103 POIs en 500m: 20 restaurantes, 20 bancos, 20 farmacias. El entorno m\'{a}s denso en servicios caminables.}
+{\scriptsize\textbf{Datos reales Google Places (500m):}}
+\vspace{2pt}
+
+{\tiny
+\begin{tabular}{@{}l r r@{}}
+\toprule
+\textbf{Categor\'{i}a} & \textbf{PB} & \textbf{MdO} \\
+\midrule
+\rowcolor{esp!8}
+Gastronom\'{i}a & \textbf{75} & \textbf{80} \\
+Bienestar & 55 & 54 \\
+Retail & 31 & 57 \\
+Financiero & 13 & 40 \\
+Farmacias & 11 & 23 \\
+\midrule
+\textbf{Total POIs} & \textcolor{esp}{\textbf{281}} & \textcolor{esp}{\textbf{396}} \\
+\bottomrule
+\end{tabular}
+}
 
 \vspace{3pt}
-{\scriptsize\textbf{Las Palmas Bajo (88):} CC El Tesoro, restaurantes, bancos, farmacias y retail premium a menos de 500m. 76 POIs en 500m.}
+{\scriptsize\textbf{Referencia Torre Oviedo:} sede ambulatoria \textbf{dentro} de CC Oviedo = esperas productivas naturales.}
 
-\vspace{3pt}
-{\scriptsize\textbf{Referencia Torre Oviedo:} sede ambulatoria \textbf{dentro} de CC Oviedo = esperas productivas naturales. Validaci\'{o}n del modelo en Medell\'{i}n.}
-
-\vspace{3pt}
-{\scriptsize\textbf{Para la sede HPTU:} esperas productivas es clave --- los pacientes pasan tiempo en consultas, im\'{a}genes, rehabilitaci\'{o}n. El entorno debe ser productivo y agradable.}
+\vspace{2pt}
+{\scriptsize PB tiene \textbf{281 POIs} (76 gastro, 55 bienestar, 31 retail). MdO tiene m\'{a}s POIs (396) pero con competencia feroz.}
 \end{columns}
 \end{frame}
 
@@ -590,7 +627,7 @@ LP Alto & 44 (\#6) & 46 (\#6) & Estable \\
 \end{center}
 
 \vspace{6pt}
-{\scriptsize\textbf{Hallazgo clave:} Palmas Bajo se mantiene \#1 en ambos modelos. Milla de Oro sube porque tiene la mayor densidad de servicios caminables (103 POIs en 500m vs 76 en Palmas Bajo). La decisi\'{o}n es: \textquestiondown priman los fundamentales (accesibilidad, demanda) o la experiencia (visibilidad, esperas)?}
+{\scriptsize\textbf{Hallazgo clave:} Palmas Bajo se mantiene \#1 en ambos modelos. Milla de Oro sube porque tiene la mayor densidad de servicios caminables (396 POIs en 500m vs 281 en Palmas Bajo). La decisi\'{o}n es: \textquestiondown priman los fundamentales (accesibilidad, demanda) o la experiencia (visibilidad, esperas)?}
 \end{frame}
 
 % ============================================================
@@ -617,7 +654,7 @@ LP Alto & 44 (\#6) & 46 (\#6) & Estable \\
 {\tiny La gente ya est\'{a} ah\'{i} (corporativo, comercio)} & \\[2pt]
 \rowcolor{esp!8}
 \textcolor{esp}{\textbf{Esperas}} & \textcolor{esp}{\textbf{95/100}} \\
-{\tiny 103 POIs en 500m (rest., bancos, farmacias)} & \\[2pt]
+{\tiny 396 POIs en 500m (80 gastro, 57 retail, 40 bancos)} & \\[2pt]
 \rowcolor{vis!8}
 \textcolor{vis}{\textbf{Visibilidad}} & \textcolor{vis}{\textbf{92/100}} \\
 {\tiny Alto tr\'{a}fico peatonal y vehicular} & \\[2pt]
@@ -657,7 +694,7 @@ LP Alto & 44 (\#6) & 46 (\#6) & Estable \\
 {\scriptsize\textcolor{hptu}{\textbf{``La gente no tiene que llegar --- ya est\'{a} ah\'{i}. Pero la competencia es feroz.''}}}
 
 \vspace{4pt}
-{\tiny\color{slate} 20 restaurantes, 20 bancos, 20 farmacias, 15 cafeter\'{i}as, 10 gimnasios, 18 otros servicios en radio de 500m.}
+{\tiny\color{slate} Total: 396 POIs en 500m $\cdot$ Banks: 40 (vs PB 13) $\cdot$ Farmacias: 23 (vs PB 11) $\cdot$ Retail: 57 (vs PB 31) $\cdot$ Fuente: Google Places API}
 \end{columns}
 \end{frame}
 
@@ -666,31 +703,36 @@ LP Alto & 44 (\#6) & 46 (\#6) & Estable \\
 % ============================================================
 \begin{frame}{Palmas Bajo: el candidato l\'{i}der}
 
+\vspace{-2pt}
 \begin{columns}[T]
 \column{0.46\textwidth}
 \vspace{2pt}
 {\scriptsize\textbf{Ficha de la zona:}}
-\vspace{2pt}
+\vspace{1pt}
 
-{\scriptsize
+{\tiny
 \begin{tabular}{@{}lr@{}}
 \toprule
 Zona & Las Palmas Bajo \\
 Score Modelo 1 & \textcolor{acc}{\textbf{87/100 (\#1)}} \\
 Score Modelo 2 & \textcolor{acc}{\textbf{86/100 (\#1)}} \\
 Pico y placa & \textcolor{acc}{\textbf{No aplica}} \\
-A HPTU Robledo & 18.5 min \\
+A Milla de Oro & \textcolor{acc}{\textbf{9 min}} \\
+A CC El Tesoro & \textcolor{acc}{\textbf{6 min}} \\
+A CC Oviedo & 6 min \\
+A Parque El Poblado & 5 min \\
+A HPTU Robledo & 24 min \\
 Veh\'{i}culos/d\'{i}a & 42.000 \\
-POIs en 500m & 76 \\
+POIs en 500m & \textcolor{acc}{\textbf{281}} \\
 \bottomrule
 \end{tabular}
 }
 
-\vspace{4pt}
-{\scriptsize\textbf{\textquestiondown Por qu\'{e} \#1?}\\
-Lidera en Accesibilidad (92), Demanda (93), Esperas (88). Buena Competencia (78) --- zona a\'{u}n no saturada. Visibilidad alta (85) por Av.\ Las Palmas.}
+\vspace{2pt}
+{\tiny Densidad: \textbf{20 POIs por cada 150m} de calle --- zona extremadamente caminable.\\
+281 POIs en 500m (76 gastronom\'{i}a, 55 bienestar, 31 retail).}
 
-\vspace{4pt}
+\vspace{2pt}
 {\scriptsize\textbf{Greenfield vs fit-out:}\\
 Lote + dise\~{n}o + obra = \textbf{54+ meses}.\\
 Fit-out edificio existente = \textbf{18--24 meses}.\\
@@ -699,10 +741,10 @@ Fit-out edificio existente = \textbf{18--24 meses}.\\
 \column{0.50\textwidth}
 \vspace{2pt}
 {\scriptsize\textbf{Portafolio ambulatorio (7 categor\'{i}as):}}
-\vspace{2pt}
+\vspace{1pt}
 
 {\scriptsize
-\begin{enumerate}\setlength{\itemsep}{1pt}
+\begin{enumerate}\setlength{\itemsep}{0pt}
   \item Im\'{a}genes diagn\'{o}sticas (TAC, RMN 3T)
   \item Consulta especializada (10+ especialidades)
   \item Cirug\'{i}a ambulatoria (4 quir\'{o}fanos)
@@ -713,8 +755,8 @@ Fit-out edificio existente = \textbf{18--24 meses}.\\
 \end{enumerate}
 }
 
-\vspace{2pt}
-{\scriptsize\textcolor{comp}{\textbf{NO incluye:}} urgencias, hospitalizaci\'{o}n, UCI, trasplantes, alta complejidad.\\[2pt]
+\vspace{1pt}
+{\scriptsize\textcolor{comp}{\textbf{NO incluye:}} urgencias, hospitalizaci\'{o}n, UCI, trasplantes, alta complejidad.\\[1pt]
 \textcolor{acc}{\textbf{Complementa}} a Sommer y SVF, no compite.}
 \end{columns}
 \end{frame}

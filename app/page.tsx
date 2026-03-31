@@ -11,6 +11,7 @@ import { HeroSection } from "./_components/hero-section";
 import { ExecutiveSummarySection } from "./_components/executive-summary-section";
 import { AmbulatoryConceptSection } from "./_components/ambulatory-concept-section";
 import { Candidate6AnalysisSection } from "./_components/candidate6-analysis-section";
+import { PalmasBajoZoomSection } from "./_components/palmas-bajo-zoom-section";
 import { FinancialSection } from "./_components/financial-section";
 import { WhatWeDontKnowSection } from "./_components/what-we-dont-know-section";
 
@@ -111,6 +112,7 @@ export default function Home() {
       <div className="bg-gradient-to-b from-slate-50/80 via-white to-white">
         <AmbulatoryConceptSection />
         <Candidate6AnalysisSection />
+        <PalmasBajoZoomSection />
         <FinancialSection />
         <WhatWeDontKnowSection />
       </div>
