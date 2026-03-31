@@ -1,0 +1,51 @@
+{
+  "zone": "Palmas Bajo",
+  "center": { "lat": 6.2111, "lng": -75.5622 },
+  "timestamp": "2026-03-31",
+  "comparison": {
+    "palmasBajo_500m": {
+      "totalUniquePOIs": 281,
+      "gastronomia": 75,
+      "financiero": 13,
+      "saludFarmacias": 11,
+      "retail": 31,
+      "bienestar": 55,
+      "parqueaderos": 8,
+      "healthFacilities": 44,
+      "walkabilityPOIs": 142
+    },
+    "millaDeOro_500m": {
+      "totalUniquePOIs": 396,
+      "gastronomia": 80,
+      "financiero": 40,
+      "saludFarmacias": 23,
+      "retail": 57,
+      "bienestar": 54,
+      "parqueaderos": 20,
+      "healthFacilities": 69,
+      "walkabilityPOIs": 199
+    },
+    "ratio_MdO_over_PB": 1.41
+  },
+  "travelTimes": {
+    "millaDeOro": { "minutes": 9, "km": 2.3 },
+    "hptuRobledo": { "minutes": 24, "km": 11.4 },
+    "parqueElPoblado": { "minutes": 5, "km": 1.7 },
+    "envigadoCentro": { "minutes": 23, "km": 9.0 },
+    "ccElTesoro": { "minutes": 6, "km": 2.3 },
+    "laureles": { "minutes": 18, "km": 8.4 },
+    "aeropuertoJMC": { "minutes": 46, "km": 27.0 },
+    "itaguiCentro": { "minutes": 26, "km": 9.4 },
+    "ccOviedo": { "minutes": 6, "km": 2.7 },
+    "rionegro": { "minutes": 58, "km": 30.8 }
+  },
+  "keyFindings": [
+    "Palmas Bajo: 281 POIs en 500m — zona con servicios consolidados",
+    "Milla de Oro: 396 POIs en 500m — 1.4x más denso que PB, sobre todo en bancos (40 vs 13) y farmacias (23 vs 11)",
+    "PB gana en bienestar (55 vs 54 gyms/spas/salones) — zona fitness/wellness",
+    "PB tiene 44 facilities de salud en 500m (competencia ALTA)",
+    "5 min a Parque El Poblado, 6 min a CC El Tesoro y CC Oviedo — caminable",
+    "24 min a HPTU Robledo, 46 min al Aeropuerto, 58 min a Rionegro",
+    "Walkability score proxy: PB 142 POIs caminables vs MdO 199"
+  ]
+}
