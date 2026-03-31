@@ -362,14 +362,15 @@ export function Candidate6AnalysisSection() {
         className="rounded-xl border bg-card p-4 sm:p-6 mb-8"
       >
         <h3 className="text-sm font-bold mb-3">
-          Score MCDA: 81/100 (#2 de 6 zonas)
+          Score MCDA: 78/100 (#2 de 6 zonas) — 5 Dimensiones
         </h3>
-        <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
+        <div className="grid grid-cols-2 sm:grid-cols-5 gap-3">
           {[
-            { label: "Accesibilidad", score: 85, weight: "35%", color: "text-teal-600" },
-            { label: "Demanda", score: 91, weight: "30%", color: "text-blue-600" },
+            { label: "Accesibilidad", score: 85, weight: "30%", color: "text-teal-600" },
+            { label: "Demanda", score: 91, weight: "25%", color: "text-blue-600" },
             { label: "Competencia", score: 65, weight: "20%", color: "text-amber-600" },
-            { label: "Valor Inmob.", score: 75, weight: "15%", color: "text-purple-600" },
+            { label: "Visibilidad", score: 78, weight: "15%", color: "text-rose-600" },
+            { label: "Esperas Prod.", score: 55, weight: "10%", color: "text-purple-600" },
           ].map((dim) => (
             <div key={dim.label} className="rounded-lg border p-3 text-center">
               <p className="text-[10px] text-muted-foreground uppercase tracking-wider font-medium">
@@ -382,9 +383,11 @@ export function Candidate6AnalysisSection() {
           ))}
         </div>
         <p className="text-[10px] text-muted-foreground mt-3">
-          Score = (85 x 0.35) + (91 x 0.30) + (65 x 0.20) + (75 x 0.15) = 29.75 + 27.30 + 13.00 + 11.25 = <strong>81.30</strong>.
-          Supera a Las Palmas Medio (77), Envigado (74), Nuevo Poblado (67) y Las Palmas Alto (58).
+          Score = (85&times;0.30) + (91&times;0.25) + (65&times;0.20) + (78&times;0.15) + (55&times;0.10) = 25.50 + 22.75 + 13.00 + 11.70 + 5.50 = <strong>78.45 &asymp; 78</strong>.
+          Supera a Las Palmas Medio (76), Envigado (74), Nuevo Poblado (70) y Las Palmas Alto (50).
           Solo detras de Las Palmas Bajo (88) por mayor centralidad local en El Poblado.
+          Visibilidad ajustada a 78 (42K veh/dia genera brand awareness, pero trafico en transito no equivale a demanda medica).
+          Esperas Productivas ajustadas a 55 (hoy no existe ecosistema retail en Km 7; score refleja potencial, no estado actual).
         </p>
       </motion.div>
 
@@ -399,18 +402,19 @@ export function Candidate6AnalysisSection() {
           <CheckCircle2 className="h-6 w-6 text-rose-600 shrink-0 mt-0.5" />
           <div>
             <h4 className="font-serif text-lg font-bold text-rose-800">
-              Posicion Dual: Sirve Valle de Aburra + Oriente Sur (Score 81/100)
+              Posicion Dual: Sirve Valle de Aburra + Oriente Sur (Score 78/100)
             </h4>
             <p className="text-sm text-rose-700 mt-1">
-              Con <strong>MCDA 81/100</strong>, Access Point se posiciona como
+              Con <strong>MCDA 78/100</strong>, Access Point se posiciona como
               la #2 zona candidata. Captura demanda que HPTU actual no puede atender
               eficientemente: <strong>El Retiro</strong> (sin hospital, -17.8
               min vs HPTU), <strong>La Ceja</strong> (-17.8 min),{" "}
               <strong>Aeropuerto SKRG</strong> (-14.3 min para turismo medico).
               El factor que impide un score superior es la{" "}
-              <strong>competencia local densa</strong> (45 facilities en 5 km, score C=65).
-              Sin embargo, el valor estrategico radica en la{" "}
-              <strong>funcion puente</strong> y el nicho ambulatorio premium sin contestar.
+              <strong>competencia local densa</strong> (45 facilities en 5 km, score C=65)
+              y <strong>Torre Oviedo</strong> (2.65 km, competidor directo desde jun 2025).
+              El valor estrategico radica en la{" "}
+              <strong>funcion puente</strong> y el nicho ambulatorio premium — condicionado a factibilidad del edificio.
               Astorga y Manila tienen solo{" "}
               <strong>14% de densidad usada</strong> — desarrollo masivo en
               curso implica crecimiento sostenido de demanda futura.

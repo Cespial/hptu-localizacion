@@ -14,14 +14,16 @@ const scoreLabels: Record<string, string> = {
   accesibilidad: "Accesibilidad",
   demanda: "Demanda",
   competencia: "Competencia",
-  valorInmobiliario: "Valor Inmob.",
+  visibilidad: "Visibilidad",
+  esperasProductivas: "Esperas Prod.",
 };
 
 const scoreColors: Record<string, string> = {
   accesibilidad: "bg-teal-500",
   demanda: "bg-blue-500",
   competencia: "bg-amber-500",
-  valorInmobiliario: "bg-purple-500",
+  visibilidad: "bg-rose-500",
+  esperasProductivas: "bg-purple-500",
 };
 
 const formatNumber = (n: number) => new Intl.NumberFormat("es-CO").format(n);
@@ -37,7 +39,7 @@ export function MapCandidatePanel({ candidate, onClose }: MapCandidatePanelProps
           animate={{ opacity: 1, y: 0, scale: 1 }}
           exit={{ opacity: 0, y: 20, scale: 0.95 }}
           transition={{ duration: 0.25 }}
-          className="absolute bottom-4 right-4 z-20 w-[320px] rounded-xl border bg-white/95 backdrop-blur-md shadow-2xl overflow-hidden"
+          className="absolute bottom-0 left-0 right-0 w-full sm:bottom-4 sm:right-4 sm:left-auto sm:w-[320px] z-20 rounded-t-xl sm:rounded-xl border bg-white/95 backdrop-blur-md shadow-2xl overflow-hidden"
         >
           {/* Header */}
           <div
@@ -62,7 +64,7 @@ export function MapCandidatePanel({ candidate, onClose }: MapCandidatePanelProps
             </button>
           </div>
 
-          <div className="px-4 py-3 space-y-3">
+          <div className="px-4 py-3 space-y-3 max-h-[50vh] overflow-y-auto">
             <p className="text-[11px] text-muted-foreground">{candidate.subtitle}</p>
 
             {/* MCDA Score bars */}

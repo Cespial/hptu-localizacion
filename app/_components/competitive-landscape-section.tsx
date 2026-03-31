@@ -41,7 +41,7 @@ const formatNumber = (n: number) =>
   new Intl.NumberFormat("es-CO").format(n);
 
 const formatCOP = (n: number) => {
-  if (n >= 1_000_000) return `$${(n / 1_000_000).toFixed(1)}B`;
+  if (n >= 1_000_000) return `$${formatNumber(n)}M`;
   if (n >= 1_000) return `$${(n / 1_000).toFixed(0)}MM`;
   return `$${formatNumber(n)}M`;
 };
@@ -89,7 +89,7 @@ const servicePillars = [
   },
   {
     title: "Centro de Imagenes",
-    detail: "TAC, RMN, PET-CT",
+    detail: "TAC, RMN (Fase 1). PET-CT Fase 2",
     icon: <Scan className="h-6 w-6 text-emerald-600" />,
   },
   {
@@ -116,8 +116,8 @@ const servicePillars = [
 
 // Chart data for market sizing horizontal bars (COP MM = millions)
 const marketBars = [
-  { name: "Prepagada Antioquia", value: 7200, fill: "#0d9488", label: "COP $7.2B" },
-  { name: "Cirugia Ambulatoria", value: 2500, fill: "#f59e0b", label: "COP $2.5B" },
+  { name: "Prepagada Antioquia", value: 7200, fill: "#0d9488", label: "COP $7,2 billones" },
+  { name: "Cirugia Ambulatoria", value: 2500, fill: "#f59e0b", label: "COP $2,5 billones" },
   { name: "Imagenes Diagnosticas", value: 850, fill: "#8b5cf6", label: "COP $850MM" },
   { name: "Rehabilitacion Premium", value: 320, fill: "#ec4899", label: "COP $320MM" },
   { name: "Turismo Medico", value: 100, fill: "#3b82f6", label: "COP $100MM" },
@@ -187,7 +187,7 @@ export function CompetitiveLandscapeSection() {
           Paisaje Competitivo: Quien Compite por el Oriente
         </h2>
         <p className="mt-3 text-muted-foreground max-w-2xl mx-auto">
-          Analisis de {competitors.length}+ instituciones, COP ${marketData.prepagadaRevenue2025}B en mercado prepagada, y{" "}
+          Analisis de {competitors.length}+ instituciones, COP ${marketData.prepagadaRevenue2025} billones en mercado prepagada, y{" "}
           {formatNumber(marketData.medicalTourists2024)} turistas medicos en 2024.
         </p>
       </div>
@@ -450,7 +450,7 @@ export function CompetitiveLandscapeSection() {
               <XAxis
                 type="number"
                 tick={{ fontSize: 10 }}
-                tickFormatter={(v) => `$${(v / 1000).toFixed(1)}B`}
+                tickFormatter={(v) => `$${formatNumber(v)}MM`}
               />
               <YAxis
                 dataKey="name"
@@ -629,57 +629,57 @@ export function CompetitiveLandscapeSection() {
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
-        className="rounded-xl border-2 border-rose-400 bg-rose-50/50 p-5 sm:p-6"
+        className="rounded-xl border border-slate-200 bg-slate-50/50 p-5 sm:p-6"
       >
         <div className="flex items-start gap-3">
-          <AlertTriangle className="h-6 w-6 text-rose-600 shrink-0 mt-0.5" />
+          <AlertTriangle className="h-6 w-6 text-slate-500 shrink-0 mt-0.5" />
           <div>
-            <h4 className="font-serif text-lg font-bold text-rose-800">
+            <h4 className="font-serif text-lg font-bold text-slate-800">
               Ventana de Oportunidad: 2026-2028
             </h4>
             <div className="mt-3 space-y-2.5">
               <div className="flex items-start gap-2">
-                <span className="mt-1 h-2 w-2 rounded-full bg-rose-400 shrink-0" />
-                <p className="text-sm text-rose-700">
+                <span className="mt-1 h-2 w-2 rounded-full bg-slate-400 shrink-0" />
+                <p className="text-sm text-slate-700">
                   <strong>Campestre ya entro a Rionegro (marzo 2026)</strong> — valida la demanda
                   ambulatoria premium, pero es competidor directo en cirugia estetica y consulta
                   especializada.
                 </p>
               </div>
               <div className="flex items-start gap-2">
-                <span className="mt-1 h-2 w-2 rounded-full bg-rose-400 shrink-0" />
-                <p className="text-sm text-rose-700">
+                <span className="mt-1 h-2 w-2 rounded-full bg-slate-400 shrink-0" />
+                <p className="text-sm text-slate-700">
                   <strong>HSVF Rionegro va a 500 camas (2028)</strong> — dominara el segmento
                   inpatient de alta complejidad. El nicho inpatient no es la jugada para HPTU en
                   Oriente.
                 </p>
               </div>
               <div className="flex items-start gap-2">
-                <span className="mt-1 h-2 w-2 rounded-full bg-rose-400 shrink-0" />
-                <p className="text-sm text-rose-700">
+                <span className="mt-1 h-2 w-2 rounded-full bg-slate-400 shrink-0" />
+                <p className="text-sm text-slate-700">
                   <strong>Quironsalud consolida agresivamente</strong> — adquisicion COA + Clofan
                   y interes reportado en el Oriente. Con respaldo Fresenius/Helios, pueden moverse
                   rapido.
                 </p>
               </div>
               <div className="flex items-start gap-2">
-                <span className="mt-1 h-2 w-2 rounded-full bg-rose-400 shrink-0" />
-                <p className="text-sm text-rose-700">
+                <span className="mt-1 h-2 w-2 rounded-full bg-slate-400 shrink-0" />
+                <p className="text-sm text-slate-700">
                   <strong>Si HPTU no actua en 2026-2028</strong>, el nicho ambulatorio premium sera
                   ocupado por Campestre, Quironsalud, o un jugador internacional atraido por el
                   turismo medico y la Zona Franca.
                 </p>
               </div>
               <div className="flex items-start gap-2">
-                <span className="mt-1 h-2 w-2 rounded-full bg-rose-400 shrink-0" />
-                <p className="text-sm text-rose-700">
+                <span className="mt-1 h-2 w-2 rounded-full bg-slate-400 shrink-0" />
+                <p className="text-sm text-slate-700">
                   <strong>La apertura de la doble calzada del tunel (H2 2027)</strong> es el punto de
                   inflexion — reducira tiempos Medellin-Rionegro a &lt;25 min, acelerando la migracion
                   de demanda y legitimando el corredor como zona de salud premium.
                 </p>
               </div>
             </div>
-            <p className="text-xs text-rose-600 mt-3 italic">
+            <p className="text-xs text-slate-600 mt-3 italic">
               Fuentes: ANI (8yi9-t44c), prensa (El Colombiano feb 2026), REPS, ProColombia, planes maestros hospitalarios publicados.
             </p>
           </div>

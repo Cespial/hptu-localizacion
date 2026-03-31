@@ -130,13 +130,13 @@ export function DemandGradientSection() {
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          className="mt-8 rounded-xl border-2 border-teal-300 bg-teal-50/50 p-5 sm:p-6"
+          className="mt-8 rounded-xl border border-slate-200 bg-slate-50/50 p-5 sm:p-6"
         >
           <div className="flex items-start gap-3">
-            <TrendingDown className="h-6 w-6 text-teal-600 shrink-0 mt-0.5" />
+            <TrendingDown className="h-6 w-6 text-slate-500 shrink-0 mt-0.5" />
             <div>
-              <h4 className="font-serif text-lg font-bold text-teal-800">Hallazgo: Altos del Poblado (Zona Colegiatura) es la Zona Optima</h4>
-              <p className="text-sm text-teal-700 mt-1">
+              <h4 className="font-serif text-lg font-bold text-slate-800">Hallazgo: Altos del Poblado (Zona Colegiatura) es la Zona Optima</h4>
+              <p className="text-sm text-slate-700 mt-1">
                 El barrio <strong>Altos del Poblado (cod 1408, ~1,700 msnm)</strong> obtiene el maximo score de viabilidad POT (9/9)
                 con <strong>CL_D=2.38</strong> (maxima concentracion dotacional) y <strong>68,020 m2 de suelo potencial</strong>.
                 El Catastro registra <strong>1,867 predios E5/E6</strong> con avaluo promedio de <strong>$245M COP</strong>.
@@ -145,7 +145,7 @@ export function DemandGradientSection() {
                 la Cl. mas cercana con internacion es <strong>Cl. Rosario Tesoro (158 camas, 0.93 km)</strong>, sin trasplantes
                 ni oncologia avanzada. Cada punto adicional subiendo incrementa el tiempo de viaje en ~6 min y reduce los predios E5/E6 accesibles.
               </p>
-              <p className="text-xs text-teal-600 mt-2 italic">
+              <p className="text-xs text-slate-600 mt-2 italic">
                 Fuentes: Catastro (bp59-rj8r), POT (3ciz-tpgr), REPS (s2ru-bqt6), Mapbox Directions API, Google Geocoding API
               </p>
             </div>

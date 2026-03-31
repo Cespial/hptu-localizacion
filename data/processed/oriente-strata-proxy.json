@@ -1,0 +1,131 @@
+{
+  "timestamp": "2026-03-17T15:39:58.592Z",
+  "methodology": "Proxy: ratio E4+/contributivo de Rionegro (unico dato directo)",
+  "rionegro_reference": {
+    "municipio": "Rionegro",
+    "totalViviendas": 44805,
+    "estratos": {
+      "E1": 1879,
+      "E2": 7221,
+      "E3": 16853,
+      "E4": 15633,
+      "E5": 2723,
+      "E6": 496
+    },
+    "fuente": "Decreto 096/2021 Rionegro, DiariOriente",
+    "pctE4Plus": 42.1
+  },
+  "ratio_e4plus_contributivo": 0.7664853381726007,
+  "datasets_explored": [
+    {
+      "id": "evm3-92yw",
+      "name": "CNPV 2018",
+      "result": "No tiene campo estrato"
+    },
+    {
+      "id": "av6t-m6ju",
+      "name": "EPM Subsidios",
+      "result": "Solo tarifas, no conteos"
+    },
+    {
+      "id": "nfrm-mmfe",
+      "name": "EPM Acueducto",
+      "result": "Solo tarifas, no conteos"
+    },
+    {
+      "id": "cuit-be64",
+      "name": "SUI Historico",
+      "result": "Solo Caldas, no Antioquia"
+    }
+  ],
+  "results": [
+    {
+      "municipio": "Rionegro",
+      "contributivo": 69432,
+      "subsidiado": 56978,
+      "pctContributivo": "54.9",
+      "proxyE4Plus": 18852,
+      "datoDireto": true
+    },
+    {
+      "municipio": "La Ceja",
+      "contributivo": 26920,
+      "subsidiado": 25432,
+      "pctContributivo": "51.4",
+      "proxyE4Plus": 7222,
+      "datoDireto": false
+    },
+    {
+      "municipio": "El Retiro",
+      "contributivo": 10845,
+      "subsidiado": 8260,
+      "pctContributivo": "56.8",
+      "proxyE4Plus": 2909,
+      "datoDireto": false
+    },
+    {
+      "municipio": "Guarne",
+      "contributivo": 22100,
+      "subsidiado": 29430,
+      "pctContributivo": "42.9",
+      "proxyE4Plus": 5929,
+      "datoDireto": false
+    },
+    {
+      "municipio": "Marinilla",
+      "contributivo": 22900,
+      "subsidiado": 32780,
+      "pctContributivo": "41.1",
+      "proxyE4Plus": 6143,
+      "datoDireto": false
+    },
+    {
+      "municipio": "El Santuario",
+      "contributivo": 8450,
+      "subsidiado": 18920,
+      "pctContributivo": "30.9",
+      "proxyE4Plus": 2267,
+      "datoDireto": false
+    },
+    {
+      "municipio": "El Carmen de Viboral",
+      "contributivo": 15200,
+      "subsidiado": 33100,
+      "pctContributivo": "31.5",
+      "proxyE4Plus": 4078,
+      "datoDireto": false
+    },
+    {
+      "municipio": "El Penol",
+      "contributivo": 4830,
+      "subsidiado": 11980,
+      "pctContributivo": "28.7",
+      "proxyE4Plus": 1296,
+      "datoDireto": false
+    },
+    {
+      "municipio": "San Vicente Ferrer",
+      "contributivo": 3950,
+      "subsidiado": 14320,
+      "pctContributivo": "21.6",
+      "proxyE4Plus": 1060,
+      "datoDireto": false
+    },
+    {
+      "municipio": "La Union",
+      "contributivo": 6200,
+      "subsidiado": 13050,
+      "pctContributivo": "32.2",
+      "proxyE4Plus": 1663,
+      "datoDireto": false
+    },
+    {
+      "municipio": "Sonson",
+      "contributivo": 8900,
+      "subsidiado": 26800,
+      "pctContributivo": "24.9",
+      "proxyE4Plus": 2388,
+      "datoDireto": false
+    }
+  ]
+}

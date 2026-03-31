@@ -198,7 +198,7 @@ export const competitors: CompetitorProfile[] = [
     investment: "COP $3,000M sostenibilidad",
     threat: "alta",
     differentiator:
-      "Unica UFCA Antioquia, unica radioterapia Oriente, 129+ servicios",
+      "UFCA Antioquia, radioterapia Oriente (comparte con SVF), 129+ servicios",
   },
   {
     id: "auna",
@@ -245,14 +245,14 @@ export const competitors: CompetitorProfile[] = [
     name: "Clinica del Campestre",
     beds: null,
     icuBeds: null,
-    location: "El Poblado + Rionegro (nuevo)",
+    location: "El Poblado (principal) + Rionegro (sede abierta mar 2026)",
     complexity: "media-alta",
     recentMove:
-      "Nueva torre de 15 pisos en Medellin (construccion). Sede Rionegro abierta marzo 2026 (250 pac/dia). Expansion agresiva ambulatorio premium.",
-    investment: "COP $30,000M Rionegro + Torre 15 pisos Medellin",
+      "Sede Rionegro abierta marzo 2026 (250 pac/dia, 2 quirofanos). Expansion ambulatoria al Oriente.",
+    investment: "COP $30,000M (sede Rionegro)",
     threat: "alta",
     differentiator:
-      "Ambulatorio especializado, ortopedia, ya entro a Oriente. Torre 15 pisos valida demanda premium corredor.",
+      "Ambulatorio especializado, ortopedia, primer mover en Oriente ambulatorio premium.",
   },
   {
     id: "torre-oviedo",
@@ -337,32 +337,35 @@ export const competitors: CompetitorProfile[] = [
 ];
 
 // Ambulatory service gaps in Oriente
+// NOTA: Actualizado post-Junta 16 marzo — SVF Rionegro tiene oncologia,
+// radioterapia, cirugia, pediatria sub. y turismo medico.
+// Es duopolio Somer + SVF, NO monopolio de Somer.
 export const ambulatoryGaps: AmbulatoryGap[] = [
   {
     service: "Cirugia Ambulatoria Avanzada",
-    statusOriente: "Solo Campestre (recien llego)",
-    level: "critico",
+    statusOriente: "Campestre + SVF (limitada)",
+    level: "limitado",
     opportunity:
-      "HPTU hub quirurgico ambulatorio: ortopedia, urologia, ginecologia, ORL",
+      "HPTU hub quirurgico ambulatorio: ortopedia, urologia, ginecologia, ORL — tercer punto diferenciado",
   },
   {
     service: "Imagenes Diagnosticas Avanzadas",
     statusOriente: "IMEDI + Somer (limitado)",
     level: "limitado",
-    opportunity: "Centro de excelencia en TAC, RMN, PET-CT",
+    opportunity: "Centro de excelencia en TAC, RMN (Fase 1). PET-CT en Fase 2",
   },
   {
     service: "Oncologia Ambulatoria",
-    statusOriente: "Solo Somer (unica UFCA)",
-    level: "critico",
+    statusOriente: "Somer y SVF (duopolio)",
+    level: "limitado",
     opportunity:
-      "Quimioterapia ambulatoria, segunda opinion oncologica",
+      "Quimioterapia ambulatoria, segunda opinion oncologica — tercer punto de atencion",
   },
   {
     service: "Radioterapia",
-    statusOriente: "Solo Somer (unico equipo)",
-    level: "critico",
-    opportunity: "Segundo centro de radioterapia para la region",
+    statusOriente: "Somer y SVF (duopolio)",
+    level: "limitado",
+    opportunity: "Tercer centro de radioterapia para la region (si demanda lo justifica)",
   },
   {
     service: "Rehabilitacion Especializada",
@@ -375,20 +378,20 @@ export const ambulatoryGaps: AmbulatoryGap[] = [
     statusOriente: "Inexistente",
     level: "inexistente",
     opportunity:
-      "Check-up premium para ejecutivos Zona Franca + aeropuerto",
+      "Check-up premium para ejecutivos Zona Franca + aeropuerto + modelo PRENUVO",
   },
   {
     service: "Turismo Medico",
-    statusOriente: "Cero infraestructura",
-    level: "inexistente",
+    statusOriente: "SVF Rionegro (incipiente)",
+    level: "limitado",
     opportunity:
-      "23,323 pac internacionales/ano en Medellin, 0 cerca del aeropuerto",
+      "23,323 pac internacionales/ano en Medellin, oportunidad cerca del aeropuerto",
   },
   {
     service: "Pediatria Subespecializada",
-    statusOriente: "Concentrada en Medellin",
-    level: "inexistente",
-    opportunity: "Consulta pediatrica especializada ambulatoria",
+    statusOriente: "SVF Rionegro (limitada)",
+    level: "limitado",
+    opportunity: "Consulta pediatrica especializada ambulatoria — ampliar cobertura",
   },
   {
     service: "Hemodialisis",

@@ -4,9 +4,16 @@ import { TooltipProvider } from "@/components/ui/tooltip";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Estudio de Localizacion Estrategica | HPTU Nueva Sede",
+  title: "Plan de Expansion HPTU | Localizacion Estrategica",
   description:
-    "Modelo de Nodos y Flujos de Valor para la localizacion estrategica de la nueva sede del Hospital Pablo Tobon Uribe. Observatorio de Datos y Analisis.",
+    "Plan de Expansion del Hospital Pablo Tobon Uribe — Modelo de Nodos y Flujos de Valor para la localizacion estrategica de la sede ambulatoria. Observatorio de Datos y Analisis.",
+  openGraph: {
+    title: "Plan de Expansion HPTU",
+    description: "Sede ambulatoria — MCDA 5 dimensiones, 3.8M+ registros, 15 fuentes oficiales",
+    type: "website",
+    locale: "es_CO",
+    siteName: "HPTU Localizacion Estrategica",
+  },
 };
 
 export default function RootLayout({

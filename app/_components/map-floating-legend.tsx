@@ -30,7 +30,10 @@ const orienteIsochroneLegend = [
 ];
 
 export function MapFloatingLegend() {
-  const [collapsed, setCollapsed] = useState(false);
+  const [collapsed, setCollapsed] = useState(() => {
+    if (typeof window !== "undefined") return window.innerWidth < 640;
+    return false;
+  });
 
   return (
     <div className="absolute bottom-4 left-4 z-20 rounded-xl border bg-white/90 backdrop-blur-md shadow-lg max-w-[260px] overflow-hidden">

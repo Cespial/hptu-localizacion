@@ -7,11 +7,12 @@ import { MapLayerControls, type LayerToggle } from "./map-layer-controls";
 import { MapCandidatePanel } from "./map-candidate-panel";
 import { MapFloatingLegend } from "./map-floating-legend";
 import { MapStyleToggle, getStyleUrl, type MapStyleId } from "./map-style-toggle";
+import { MapPresetViews, PRESET_VIEWS, type PresetView } from "./map-preset-views";
 import { candidateZones } from "@/lib/demo-data/candidate-zones";
 import { pois, categoryColors, categoryLabels } from "@/lib/demo-data/poi";
 
 const INITIAL_CENTER: [number, number] = [-75.555, 6.195];
-const INITIAL_ZOOM = 11;
+const INITIAL_ZOOM = 10.5;
 const MAPBOX_TOKEN = process.env.NEXT_PUBLIC_MAPBOX_TOKEN;
 const CANDIDATE_IDS = candidateZones.map((z) => z.id);
 
@@ -29,8 +30,9 @@ export function MapSection() {
 
   const [mapLoaded, setMapLoaded] = useState(false);
   const [mapError, setMapError] = useState<string | null>(null);
-  const [selectedCandidate, setSelectedCandidate] = useState<string | null>(null);
+  const [selectedCandidate, setSelectedCandidate] = useState<string | null>("access-point");
   const [mapStyle, setMapStyle] = useState<MapStyleId>("light");
+  const [activePreset, setActivePreset] = useState<string | null>(null);
 
   // Track which lazy sources have been loaded
   const loadedSourcesRef = useRef<Set<string>>(new Set());
@@ -41,20 +43,20 @@ export function MapSection() {
     { id: "strata", label: "Estratos 5/6", icon: Layers, color: "#0d9488", enabled: true, group: "base" },
     { id: "corridor", label: "Corredor Las Palmas", icon: Route, color: "#8b5cf6", enabled: true, group: "base" },
     { id: "hptu", label: "HPTU Actual", icon: Hospital, color: "#ef4444", enabled: true, group: "base" },
-    { id: "pois", label: "POIs Clave (27)", icon: MapPin, color: "#3b82f6", enabled: true, group: "base" },
+    { id: "pois", label: "POIs Clave (27)", icon: MapPin, color: "#3b82f6", enabled: false, group: "base" },
     // Data
-    { id: "traffic", label: "Trafico por Tramo", icon: Activity, color: "#f97316", enabled: true, group: "data" },
-    { id: "healthFull", label: "Red Salud (145 IPS)", icon: Building2, color: "#dc2626", enabled: true, group: "data" },
+    { id: "traffic", label: "Trafico por Tramo", icon: Activity, color: "#f97316", enabled: false, group: "data" },
+    { id: "healthFull", label: "Red Salud (145 IPS)", icon: Building2, color: "#dc2626", enabled: false, group: "data" },
     { id: "routes", label: "Rutas Alternas", icon: Navigation, color: "#06b6d4", enabled: false, group: "data" },
     { id: "catastro", label: "Catastro E5/E6", icon: BarChart3, color: "#0ea5e9", enabled: true, group: "data" },
     { id: "osmEducation", label: "Colegios Corredor (30)", icon: GraduationCap, color: "#8b5cf6", enabled: false, group: "data" },
     { id: "osmCommercial", label: "Comercio Corredor (28)", icon: ShoppingBag, color: "#f59e0b", enabled: false, group: "data" },
     // Analysis
     { id: "pot", label: "Viabilidad POT (22)", icon: FileCheck, color: "#10b981", enabled: true, group: "analysis" },
-    { id: "isochrones", label: "Isocronas", icon: Circle, color: "#f59e0b", enabled: false, group: "analysis" },
+    { id: "isochrones", label: "Isocronas", icon: Circle, color: "#f59e0b", enabled: true, group: "analysis" },
     // Oriente Antioqueno
     { id: "orienteHealth", label: "Salud Oriente (OSM)", icon: Hospital, color: "#dc2626", enabled: false, group: "oriente" },
-    { id: "accessPointIso", label: "Isocronas Access Point", icon: Globe, color: "#0d9488", enabled: false, group: "oriente" },
+    { id: "accessPointIso", label: "Isocronas Access Point", icon: Globe, color: "#0d9488", enabled: true, group: "oriente" },
     { id: "accessPointRoutes", label: "Rutas Oriente", icon: Compass, color: "#e11d48", enabled: false, group: "oriente" },
     { id: "medicalProjects", label: "Proyectos Salud", icon: Landmark, color: "#f97316", enabled: false, group: "oriente" },
     { id: "orienteMunicipios", label: "Municipios Oriente", icon: Users, color: "#3b82f6", enabled: false, group: "oriente" },
@@ -877,13 +879,13 @@ export function MapSection() {
             id: "strata-fill",
             type: "fill",
             source: "strata-zones",
-            paint: { "fill-color": "#0d9488", "fill-opacity": 0.15 },
+            paint: { "fill-color": "#0d9488", "fill-opacity": 0.25 },
           });
           map.addLayer({
             id: "strata-outline",
             type: "line",
             source: "strata-zones",
-            paint: { "line-color": "#0d9488", "line-width": 1.5, "line-opacity": 0.6 },
+            paint: { "line-color": "#0d9488", "line-width": 1.5, "line-opacity": 0.8 },
           });
 
           /* ── Corridor line (real road geometry from Mapbox Directions API) ── */
@@ -898,7 +900,7 @@ export function MapSection() {
             source: "corridor-line",
             paint: {
               "line-color": "#8b5cf6",
-              "line-width": 10,
+              "line-width": 16,
               "line-opacity": 0.12,
               "line-blur": 4,
             },
@@ -909,9 +911,8 @@ export function MapSection() {
             source: "corridor-line",
             paint: {
               "line-color": "#8b5cf6",
-              "line-width": 3,
+              "line-width": 5,
               "line-opacity": 0.8,
-              "line-dasharray": [4, 2],
             },
             layout: { "line-cap": "round", "line-join": "round" },
           });
@@ -1037,7 +1038,19 @@ export function MapSection() {
 
           candidateZones.forEach((zone) => {
             const el = document.createElement("div");
-            el.innerHTML = `<div style="background:${zone.color};width:16px;height:16px;border-radius:50%;border:2px solid white;box-shadow:0 2px 6px rgba(0,0,0,0.25);cursor:pointer;transition:transform 0.2s;" onmouseenter="this.style.transform='scale(1.3)'" onmouseleave="this.style.transform='scale(1)'"></div>`;
+            if (zone.id === "access-point") {
+              // Access Point gets special treatment: larger marker with pulse + "RECOMENDADO" badge
+              el.innerHTML = `
+                <div style="position:relative;display:flex;flex-direction:column;align-items:center;cursor:pointer;">
+                  <div style="background:${zone.color};width:22px;height:22px;border-radius:50%;border:3px solid white;box-shadow:0 2px 10px rgba(225,29,72,0.4);position:relative;z-index:2;transition:transform 0.2s;" onmouseenter="this.style.transform='scale(1.2)'" onmouseleave="this.style.transform='scale(1)'"></div>
+                  <div style="position:absolute;top:-1px;left:50%;transform:translateX(-50%);width:26px;height:26px;border-radius:50%;background:rgba(225,29,72,0.25);animation:apPulse 2.5s infinite;z-index:1;"></div>
+                  <div style="margin-top:2px;background:#e11d48;color:white;font-size:10px;font-weight:800;padding:2px 7px;border-radius:6px;letter-spacing:0.5px;white-space:nowrap;z-index:3;">RECOMENDADO</div>
+                </div>
+                <style>@keyframes apPulse{0%{transform:translateX(-50%) scale(1);opacity:0.6}70%{transform:translateX(-50%) scale(2);opacity:0}100%{transform:translateX(-50%) scale(2);opacity:0}}</style>
+              `;
+            } else {
+              el.innerHTML = `<div style="background:${zone.color};width:16px;height:16px;border-radius:50%;border:2px solid white;box-shadow:0 2px 6px rgba(0,0,0,0.25);cursor:pointer;transition:transform 0.2s;" onmouseenter="this.style.transform='scale(1.3)'" onmouseleave="this.style.transform='scale(1)'"></div>`;
+            }
             const marker = new mapboxgl.Marker({ element: el })
               .setLngLat(zone.coordinates)
               .addTo(map);
@@ -1277,6 +1290,31 @@ export function MapSection() {
                 </div>`
               )
               .addTo(map);
+          });
+
+          /* ── Map annotations (contextual labels) ── */
+          map.addSource("map-annotations", {
+            type: "geojson",
+            data: "/geojson/map-annotations.geojson",
+          });
+          map.addLayer({
+            id: "map-annotations-labels",
+            type: "symbol",
+            source: "map-annotations",
+            layout: {
+              "text-field": ["get", "label"],
+              "text-size": ["get", "size"],
+              "text-font": ["DIN Pro Bold", "Arial Unicode MS Bold"],
+              "text-allow-overlap": true,
+              "text-ignore-placement": true,
+            },
+            paint: {
+              "text-color": ["get", "color"],
+              "text-halo-color": "#ffffff",
+              "text-halo-width": 2.5,
+            },
+            minzoom: 10,
+            maxzoom: 14,
           });
         });
       } catch (err) {
@@ -1597,11 +1635,11 @@ export function MapSection() {
         map.addSource("strata-zones", { type: "geojson", data: "/geojson/strata-zones.geojson" });
         map.addLayer({
           id: "strata-fill", type: "fill", source: "strata-zones",
-          paint: { "fill-color": "#0d9488", "fill-opacity": 0.15 },
+          paint: { "fill-color": "#0d9488", "fill-opacity": 0.25 },
         });
         map.addLayer({
           id: "strata-outline", type: "line", source: "strata-zones",
-          paint: { "line-color": "#0d9488", "line-width": 1.5, "line-opacity": 0.6 },
+          paint: { "line-color": "#0d9488", "line-width": 1.5, "line-opacity": 0.8 },
         });
 
         // Corridor (real road geometry)
@@ -1611,11 +1649,11 @@ export function MapSection() {
         });
         map.addLayer({
           id: "corridor-line-glow", type: "line", source: "corridor-line",
-          paint: { "line-color": "#8b5cf6", "line-width": 10, "line-opacity": 0.12, "line-blur": 4 },
+          paint: { "line-color": "#8b5cf6", "line-width": 16, "line-opacity": 0.12, "line-blur": 4 },
         });
         map.addLayer({
           id: "corridor-line-layer", type: "line", source: "corridor-line",
-          paint: { "line-color": "#8b5cf6", "line-width": 3, "line-opacity": 0.8, "line-dasharray": [4, 2] },
+          paint: { "line-color": "#8b5cf6", "line-width": 5, "line-opacity": 0.8 },
           layout: { "line-cap": "round", "line-join": "round" },
         });
         map.addLayer({
@@ -1678,6 +1716,31 @@ export function MapSection() {
         if (isLayerEnabled("accessPointRoutes")) ensureAccessPointRouteLayers(map);
         if (isLayerEnabled("medicalProjects")) ensureMedicalProjectLayers(map);
         if (isLayerEnabled("orienteMunicipios")) ensureOrienteMunicipiosLayers(map);
+
+        // Annotations
+        map.addSource("map-annotations", {
+          type: "geojson",
+          data: "/geojson/map-annotations.geojson",
+        });
+        map.addLayer({
+          id: "map-annotations-labels",
+          type: "symbol",
+          source: "map-annotations",
+          layout: {
+            "text-field": ["get", "label"],
+            "text-size": ["get", "size"],
+            "text-font": ["DIN Pro Bold", "Arial Unicode MS Bold"],
+            "text-allow-overlap": true,
+            "text-ignore-placement": true,
+          },
+          paint: {
+            "text-color": ["get", "color"],
+            "text-halo-color": "#ffffff",
+            "text-halo-width": 2.5,
+          },
+          minzoom: 10,
+          maxzoom: 14,
+        });
       });
     },
     [mapStyle, isLayerEnabled, ensureTrafficLayers, ensureHealthFullLayers, ensureRouteLayers, ensureCatastroLayers, ensurePotLayers, ensureOsmLayers, ensureOrienteHealthLayers, ensureAccessPointIsoLayers, ensureAccessPointRouteLayers, ensureMedicalProjectLayers, ensureOrienteMunicipiosLayers]
@@ -1723,6 +1786,36 @@ export function MapSection() {
     [selectedCandidate, mapLoaded]
   );
 
+  /* ── Preset view handler ── */
+  const handlePresetView = useCallback(
+    (preset: PresetView) => {
+      if (!mapRef.current || !mapLoaded) return;
+
+      // Toggle active state
+      const newPreset = activePreset === preset.id ? null : preset.id;
+      setActivePreset(newPreset);
+
+      if (!newPreset) {
+        // Reset to default view
+        mapRef.current.flyTo({ center: INITIAL_CENTER, zoom: INITIAL_ZOOM, duration: 1500 });
+        return;
+      }
+
+      // Fly to preset center/zoom
+      mapRef.current.flyTo({ center: preset.center, zoom: preset.zoom, duration: 1800, essential: true });
+
+      // Toggle layers
+      setLayers((prev) =>
+        prev.map((l) => {
+          if (preset.enableLayers.includes(l.id)) return { ...l, enabled: true };
+          if (preset.disableLayers.includes(l.id)) return { ...l, enabled: false };
+          return l;
+        })
+      );
+    },
+    [activePreset, mapLoaded]
+  );
+
   const selectedZone = selectedCandidate ? candidateZones.find((z) => z.id === selectedCandidate) ?? null : null;
   const hasToken = MAPBOX_TOKEN && MAPBOX_TOKEN !== "pk.your_mapbox_token_here";
 
@@ -1743,6 +1836,11 @@ export function MapSection() {
         </p>
       </div>
 
+      {/* Preset narrative views */}
+      <div className="flex justify-center mb-3 px-4">
+        <MapPresetViews activePreset={activePreset} onSelectPreset={handlePresetView} />
+      </div>
+
       {/* Candidate zone selector bar */}
       <div className="flex justify-center gap-2 mb-4 px-4 flex-wrap">
         {candidateZones.map((zone) => (
@@ -1761,14 +1859,14 @@ export function MapSection() {
             }
           >
             <div className="h-2.5 w-2.5 rounded-full" style={{ backgroundColor: zone.color }} />
-            {zone.name}
+            {zone.id === "access-point" ? `★ ${zone.name}` : zone.name}
             <span className="font-bold">{zone.score}</span>
           </button>
         ))}
       </div>
 
       {/* Map container — immersive full-bleed */}
-      <div className="relative h-[50vh] sm:h-[70vh] lg:h-[85vh] w-full">
+      <div className="relative h-[65vh] sm:h-[80vh] lg:h-[90vh] w-full">
         {!hasToken ? (
           <div className="absolute inset-0 flex flex-col items-center justify-center p-8 text-center bg-muted">
             <MapPin className="h-12 w-12 text-muted-foreground/50 mb-4" />
@@ -1793,6 +1891,13 @@ export function MapSection() {
                 <MapStyleToggle current={mapStyle} onChange={handleStyleChange} />
                 <MapFloatingLegend />
                 <MapCandidatePanel candidate={selectedZone} onClose={() => setSelectedCandidate(null)} />
+                {activePreset && (
+                  <div className="absolute top-4 right-[60px] z-20 max-w-[200px] rounded-lg bg-white/90 backdrop-blur-md border border-border/50 shadow-lg p-3">
+                    <p className="text-[10px] font-bold text-muted-foreground uppercase tracking-wider mb-1">Vista activa</p>
+                    <p className="text-xs font-semibold">{PRESET_VIEWS.find(p => p.id === activePreset)?.label}</p>
+                    <p className="text-[10px] text-muted-foreground mt-0.5">{PRESET_VIEWS.find(p => p.id === activePreset)?.description}</p>
+                  </div>
+                )}
               </>
             )}
           </>

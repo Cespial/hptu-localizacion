@@ -23,19 +23,13 @@ import {
   Cell,
 } from "recharts";
 
-const formatPrice = (n: number) =>
-  new Intl.NumberFormat("es-CO", {
-    style: "currency",
-    currency: "COP",
-    maximumFractionDigits: 0,
-  }).format(n);
-
-// Prepare radar data
+// Prepare radar data — 5 axes
 const radarData = [
   { metric: "Accesibilidad", fullMark: 100 },
   { metric: "Demanda", fullMark: 100 },
   { metric: "Competencia", fullMark: 100 },
-  { metric: "Valor Inmob.", fullMark: 100 },
+  { metric: "Visibilidad", fullMark: 100 },
+  { metric: "Esperas Prod.", fullMark: 100 },
 ].map((item) => {
   const result: Record<string, string | number> = { metric: item.metric };
   candidateZones.forEach((zone) => {
@@ -46,7 +40,9 @@ const radarData = [
         ? "demanda"
         : item.metric === "Competencia"
         ? "competencia"
-        : "valorInmobiliario";
+        : item.metric === "Visibilidad"
+        ? "visibilidad"
+        : "esperasProductivas";
     result[zone.name] = zone.scores[key as keyof typeof zone.scores];
   });
   return result;
@@ -65,26 +61,26 @@ export function MCDAComparisonSection() {
   // Sort by score descending to find leader and runner-up dynamically
   const sorted = [...candidateZones].sort((a, b) => b.score - a.score);
   const leader = sorted[0]; // palmas-bajo with score 88
-  const runnerUp = sorted[1]; // access-point with score 81
+  const runnerUp = sorted[1]; // access-point with score 82
 
   return (
     <SectionWrapper id="comparativa-mcda">
       <div className="text-center mb-8 lg:mb-10">
         <Badge variant="outline" className="mb-4">
-          Sintesis - Comparativa MCDA
+          Sintesis - Comparativa MCDA 5 Dimensiones
         </Badge>
         <h2 className="font-serif text-3xl font-bold sm:text-4xl">
           Scoring Multicriterio: 6 Zonas Candidatas
         </h2>
         <p className="mt-3 text-muted-foreground max-w-2xl mx-auto">
-          Evaluacion comparativa usando Score = (A&times;0.35) + (D&times;0.30) +
-          (C&times;0.20) + (V&times;0.15) con datos reales de Catastro, REPS,
-          Mapbox Matrix y POT.
+          Evaluacion comparativa usando Score = (A&times;0.30) + (D&times;0.25) +
+          (C&times;0.20) + (Vis&times;0.15) + (Esp&times;0.10) con datos reales de Catastro, REPS,
+          Mapbox Matrix, MEData Aforos y POT.
         </p>
       </div>
 
       <div className="grid gap-6 lg:grid-cols-2 mb-8">
-        {/* Radar Chart */}
+        {/* Radar Chart — 5 axes */}
         <motion.div
           initial={{ opacity: 0, x: -20 }}
           whileInView={{ opacity: 1, x: 0 }}
@@ -93,14 +89,14 @@ export function MCDAComparisonSection() {
         >
           <h3 className="text-sm font-bold mb-1">Perfil Multicriterio por Zona</h3>
           <p className="text-[10px] text-muted-foreground mb-4">
-            Ejes: Accesibilidad (35%), Demanda (30%), Competencia (20%), Valor Inmobiliario (15%)
+            5 ejes: Accesibilidad (30%), Demanda (25%), Competencia (20%), Visibilidad (15%), Esperas Prod. (10%)
           </p>
-          <ResponsiveContainer width="100%" height={320}>
-            <RadarChart data={radarData} cx="50%" cy="50%" outerRadius="70%">
+          <ResponsiveContainer width="100%" height={340}>
+            <RadarChart data={radarData} cx="50%" cy="50%" outerRadius="65%">
               <PolarGrid stroke="#e5e7eb" />
               <PolarAngleAxis
                 dataKey="metric"
-                tick={{ fontSize: 11, fill: "#6b7280" }}
+                tick={{ fontSize: 10, fill: "#6b7280" }}
               />
               <PolarRadiusAxis
                 angle={90}
@@ -135,9 +131,9 @@ export function MCDAComparisonSection() {
         >
           <h3 className="text-sm font-bold mb-1">Score Global MCDA (0-100)</h3>
           <p className="text-[10px] text-muted-foreground mb-4">
-            Score ponderado final con datos de 14 fuentes primarias
+            Score ponderado final con 5 dimensiones y datos de 15 fuentes primarias
           </p>
-          <ResponsiveContainer width="100%" height={320}>
+          <ResponsiveContainer width="100%" height={340}>
             <BarChart
               data={barData}
               layout="vertical"
@@ -173,7 +169,7 @@ export function MCDAComparisonSection() {
         </motion.div>
       </div>
 
-      {/* Comparison table */}
+      {/* Comparison table — 5 dims */}
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}
@@ -188,9 +184,9 @@ export function MCDAComparisonSection() {
               <th className="text-center py-3 px-3 font-semibold text-xs uppercase tracking-wider">Accesib.</th>
               <th className="text-center py-3 px-3 font-semibold text-xs uppercase tracking-wider">Demanda</th>
               <th className="text-center py-3 px-3 font-semibold text-xs uppercase tracking-wider">Compet.</th>
-              <th className="text-center py-3 px-3 font-semibold text-xs uppercase tracking-wider">Valor</th>
+              <th className="text-center py-3 px-3 font-semibold text-xs uppercase tracking-wider">Visibil.</th>
+              <th className="text-center py-3 px-3 font-semibold text-xs uppercase tracking-wider">Esperas</th>
               <th className="text-center py-3 px-3 font-semibold text-xs uppercase tracking-wider hidden sm:table-cell">Tiempo HPTU</th>
-              <th className="text-center py-3 px-3 font-semibold text-xs uppercase tracking-wider hidden md:table-cell">Avaluo Avg</th>
               <th className="text-center py-3 px-3 font-semibold text-xs uppercase tracking-wider hidden lg:table-cell">POT</th>
             </tr>
           </thead>
@@ -236,7 +232,8 @@ export function MCDAComparisonSection() {
                 <td className="py-3 px-3 text-center text-xs font-semibold">{zone.scores.accesibilidad}</td>
                 <td className="py-3 px-3 text-center text-xs font-semibold">{zone.scores.demanda}</td>
                 <td className="py-3 px-3 text-center text-xs font-semibold">{zone.scores.competencia}</td>
-                <td className="py-3 px-3 text-center text-xs font-semibold">{zone.scores.valorInmobiliario}</td>
+                <td className="py-3 px-3 text-center text-xs font-semibold">{zone.scores.visibilidad}</td>
+                <td className="py-3 px-3 text-center text-xs font-semibold">{zone.scores.esperasProductivas}</td>
                 <td className="py-3 px-3 text-center hidden sm:table-cell">
                   <span className={cn(
                     "text-xs font-bold",
@@ -244,9 +241,6 @@ export function MCDAComparisonSection() {
                   )}>
                     {zone.driveTimeToHPTU} min
                   </span>
-                </td>
-                <td className="py-3 px-3 text-center hidden md:table-cell text-xs">
-                  {formatPrice(zone.avgM2Price)}
                 </td>
                 <td className="py-3 px-3 text-center hidden lg:table-cell text-[10px] text-muted-foreground max-w-[150px]">
                   {zone.potViability.split(" - ")[0]}
@@ -268,16 +262,17 @@ export function MCDAComparisonSection() {
           <CheckCircle2 className="h-6 w-6 text-teal-600 shrink-0 mt-0.5" />
           <div>
             <h4 className="font-serif text-lg font-bold text-teal-800">
-              Recomendacion: {leader.name} (Score {leader.score}/100)
+              Recomendacion: {leader.name} (Score {leader.score}/100) — Access Point #2
             </h4>
             <p className="text-sm text-teal-700 mt-1">
               La zona <strong>{leader.subtitle}</strong> lidera en el ranking MCDA con{" "}
-              <strong>{leader.score}/100</strong>, superando a {runnerUp.name} ({runnerUp.score}) por{" "}
+              <strong>{leader.score}/100</strong>, seguida de {runnerUp.name} ({runnerUp.score}) por{" "}
               <strong>{leader.score - runnerUp.score} puntos</strong>.
-              Destaca con <strong>Accesibilidad {leader.scores.accesibilidad}/100</strong> (Mapbox: {leader.driveTimeToHPTU} min a HPTU),{" "}
-              <strong>Demanda {leader.scores.demanda}/100</strong> (38,415 predios E6 en comuna 14),
-              y viabilidad POT de <strong>9/9</strong> (CL_D=2.38, 68,020 m2 de suelo potencial).
-              La ventaja competitiva radica en que es la unica zona con score &gt;80 en las 4 dimensiones evaluadas.
+              Access Point destaca en <strong>Visibilidad ({runnerUp.scores.visibilidad}/100)</strong> — 42,000 veh/dia
+              sobre Via Las Palmas — y <strong>Demanda ({runnerUp.scores.demanda}/100)</strong> por captacion dual
+              El Poblado + Oriente Antioqueno.
+              El modelo de 5 dimensiones incorpora Visibilidad y Esperas Productivas en reemplazo de Valor Inmobiliario,
+              reflejando el foco ambulatorio del plan de expansion.
             </p>
           </div>
         </div>

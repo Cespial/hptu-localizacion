@@ -9,15 +9,15 @@ export function FooterSection() {
         <div className="flex flex-col md:flex-row items-center justify-between gap-4">
           <div className="text-center md:text-left">
             <p className="text-sm font-semibold">
-              Observatorio de Datos y Analisis
+              Plan de Expansion HPTU
             </p>
             <p className="text-xs text-muted-foreground mt-1">
-              Estudio de Localizacion Estrategica para la nueva sede del Hospital Pablo Tobon Uribe
+              Localizacion estrategica de la sede ambulatoria del Hospital Pablo Tobon Uribe
             </p>
           </div>
           <div className="text-center md:text-right">
             <p className="text-xs text-muted-foreground">
-              Febrero 2026 &middot; Medellin, Colombia
+              Marzo 2026 &middot; Medellin, Colombia
             </p>
             <p className="text-xs text-muted-foreground mt-0.5">
               Documento de trabajo &mdash; Uso interno

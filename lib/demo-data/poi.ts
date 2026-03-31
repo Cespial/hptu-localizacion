@@ -65,7 +65,7 @@ export const pois: POI[] = [
     category: "hospital",
     coordinates: [-75.5797, 6.2773],
     description:
-      "Sede del Hospital Pablo Tobon Uribe en Robledo (CL 78B #69-240). 1,094 camas al 96% de ocupacion. Referente nacional en trasplantes y hematologia.",
+      "Sede del Hospital Pablo Tobon Uribe en Robledo (CL 78B #69-240). 540 camas hospitalarias. Referente nacional en trasplantes y hematologia.",
   },
   {
     id: "hosp-05",
@@ -219,7 +219,7 @@ export const pois: POI[] = [
     category: "residencial",
     coordinates: [-75.5470, 6.2070],
     description:
-      "Corredor residencial E5/E6 entre Indiana y la EIA. Condominios cerrados, vistas panoramicas. Zona de maxima demanda para nueva sede.",
+      "Corredor residencial E5/E6 entre Indiana y la EIA. Condominios cerrados, vistas panoramicas. Zona de maxima demanda para sede ambulatoria.",
   },
   {
     id: "resi-02",

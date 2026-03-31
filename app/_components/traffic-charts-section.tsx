@@ -174,7 +174,7 @@ export function TrafficChartsSection() {
             <p className="text-[10px] text-red-700">
               <strong>Hallazgo:</strong> Av. El Poblado cae a <strong>18.0 km/h a las 17:00</strong> (congestion severa).
               En contraste, Av. Las Palmas mantiene <strong>36.1 km/h</strong> en su peor hora — un <strong>100% mas rapido</strong>.
-              La nueva sede sobre Las Palmas evitaria el cuello de botella del Poblado.
+              La sede ambulatoria sobre Las Palmas evitaria el cuello de botella del Poblado.
             </p>
           </div>
         </motion.div>

@@ -29,7 +29,6 @@ const formatNumber = (n: number) =>
 // Scorecard data derived from candidate-zones + oriente-data
 // ---------------------------------------------------------------
 const scorecardRows = candidateZones.map((z) => {
-  // Travel time to Rionegro from each zone (approximated from data)
   let orienteAccess = "—";
   let recommendation = "";
   let grade = "";
@@ -67,7 +66,8 @@ const scorecardRows = candidateZones.map((z) => {
     accesibilidad: z.scores.accesibilidad,
     demanda: z.scores.demanda,
     competencia: z.scores.competencia,
-    valorInmobiliario: z.scores.valorInmobiliario,
+    visibilidad: z.scores.visibilidad,
+    esperasProductivas: z.scores.esperasProductivas,
     orienteAccess,
     recommendation,
     grade,
@@ -137,9 +137,9 @@ export function ExecutiveSummarySection() {
           transition={{ delay: 0.08 }}
           className="font-serif text-3xl font-bold sm:text-4xl lg:text-[2.75rem] tracking-tight"
         >
-          Recomendacion Estrategica:{" "}
-          <span className="text-teal-700">Access Point</span>, Km 7 Via Las
-          Palmas
+          Plan de Expansion:{" "}
+          <span className="text-teal-700">Sede Ambulatoria</span> en Access
+          Point
         </motion.h2>
 
         <motion.p
@@ -149,9 +149,9 @@ export function ExecutiveSummarySection() {
           transition={{ delay: 0.16 }}
           className="mt-4 text-muted-foreground max-w-3xl mx-auto text-base sm:text-lg leading-relaxed"
         >
-          Sintesis de 3.8M+ registros de 15 fuentes publicas, analisis
-          multicriterio de 6 zonas candidatas, y evaluacion integral del Oriente
-          Antioqueno.
+          Modelo MCDA de 5 dimensiones con 3.8M+ registros de 15 fuentes publicas.
+          Foco ambulatorio: imagenes, consulta especializada, cirugia de dia, wellness.
+          Duopolio Somer + SVF en alta complejidad Oriente.
         </motion.p>
       </div>
 
@@ -344,13 +344,12 @@ export function ExecutiveSummarySection() {
           <ul className="space-y-3.5">
             {[
               <>
-                <strong>Clinica Somer (Rionegro)</strong> es el unico competidor
-                privado de alta complejidad &mdash; ventana de oportunidad
-                limitada
+                <strong>Duopolio Somer + SVF</strong> en alta complejidad Oriente
+                &mdash; ventana de oportunidad para ambulatorio diferenciado
               </>,
               <>
-                <strong>Clinica Campestre</strong> construye torre de 15 pisos
-                en El Poblado
+                <strong>Clinica Campestre</strong> abrio sede Rionegro (marzo
+                2026, 250 pac/dia, COP $30,000M)
               </>,
               <>
                 Trafico del corredor crece{" "}
@@ -396,9 +395,9 @@ export function ExecutiveSummarySection() {
             </h3>
           </div>
           <p className="text-xs text-muted-foreground">
-            MCDA ponderado (accesibilidad 30%, demanda 25%, competencia 25%,
-            valor inmobiliario 20%). Fuentes: Mapbox Matrix, DANE, REPS,
-            Catastro, POT.
+            MCDA 5 dimensiones (accesibilidad 30%, demanda 25%, competencia 20%,
+            visibilidad 15%, esperas productivas 10%). Fuentes: Mapbox Matrix, DANE, REPS,
+            Catastro, MEData Aforos, POT.
           </p>
         </div>
 
@@ -408,11 +407,11 @@ export function ExecutiveSummarySection() {
               {[
                 "Zona",
                 "Score MCDA",
-                "Accesibilidad",
+                "Accesib.",
                 "Demanda",
-                "Competencia",
-                "Valor Inmob.",
-                "Oriente Access",
+                "Compet.",
+                "Visibil.",
+                "Esperas",
                 "Recomendacion",
               ].map((col) => (
                 <th
@@ -479,10 +478,10 @@ export function ExecutiveSummarySection() {
                   {`${row.competencia}/100`}
                 </td>
                 <td className="py-3 px-3 text-center text-xs">
-                  {`${row.valorInmobiliario}/100`}
+                  {`${row.visibilidad}/100`}
                 </td>
-                <td className="py-3 px-3 text-center text-xs font-medium">
-                  {row.orienteAccess}
+                <td className="py-3 px-3 text-center text-xs">
+                  {`${row.esperasProductivas}/100`}
                 </td>
                 <td className="py-3 px-3 text-center">
                   {row.recommendation === "RECOMENDADA" ? (
@@ -513,12 +512,10 @@ export function ExecutiveSummarySection() {
         <div className="px-5 sm:px-7 py-3 bg-muted/20 border-t">
           <p className="text-[10px] text-muted-foreground leading-relaxed">
             <strong>Nota:</strong> Access Point (Km 7 Via Las Palmas, Retorno 5)
-            obtiene <strong>81/100</strong> en MCDA (#2 de 6 zonas). Scores
-            calculados con la misma metodologia que las 5 zonas iniciales:
-            Accesibilidad 85 (Mapbox Matrix 18.5 min a HPTU, acceso Tunel Oriente),
-            Demanda 91 (captacion dual El Poblado E5/E6 + 460K Oriente + aeropuerto),
-            Competencia 65 (45 facilities en 5 km, pero brecha corredor ambulatorio),
-            Valor Inmobiliario 75 (POT 19 pisos, 45.8% densidad, infraestructura existente).
+            obtiene <strong>78/100</strong> en MCDA de 5 dimensiones (#2 de 6 zonas):
+            Accesibilidad 85, Demanda 91, Competencia 65, Visibilidad 78
+            (42,000 veh/dia Via Las Palmas — transito, no demanda directa), Esperas Productivas 55 (potencial, no ecosistema actual).
+            Formula: (A&times;0.30) + (D&times;0.25) + (C&times;0.20) + (Vis&times;0.15) + (Esp&times;0.10).
           </p>
         </div>
       </motion.div>
@@ -547,8 +544,8 @@ export function ExecutiveSummarySection() {
               "Sin pico y placa — acceso 24/7 para pacientes y ambulancias",
               "POT permite 19 pisos, solo 45.8% de densidad usada en San Lucas",
               "Proyecto Access Point: 4 torres, 10 pisos (Acierto Inmobiliario) — infraestructura lista",
-              "51 min al Aeropuerto SKRG — traslados aeromedicales viables",
-              "Demanda cautiva: 460K+ habitantes Oriente con 0 hospitales Nivel 3-4",
+              "~25 min al Aeropuerto SKRG post-Tunel (H2 2027) — traslados aeromedicales viables",
+              "Demanda cautiva: 298K habitantes Oriente cercano (5 municipios <45 min) con deficit de salud ambulatoria",
             ].map((item, i) => (
               <li key={i} className="flex items-start gap-2">
                 <Check className="h-3.5 w-3.5 text-teal-500 mt-0.5 shrink-0" />
@@ -581,7 +578,7 @@ export function ExecutiveSummarySection() {
               "Verificar restricciones POT especificas del predio (uso dotacional salud)",
               "Precio m2 elevado vs zonas alternativas (Envigado, Itagui)",
               "Dependencia de un unico corredor vial — riesgo por cierres o accidentes",
-              "Clinica Campestre ya en expansion: torre de 15 pisos en El Poblado",
+              "Clinica Campestre ya en Oriente: sede Rionegro (marzo 2026, 250 pac/dia)",
             ].map((item, i) => (
               <li key={i} className="flex items-start gap-2">
                 <AlertTriangle className="h-3.5 w-3.5 text-amber-500 mt-0.5 shrink-0" />

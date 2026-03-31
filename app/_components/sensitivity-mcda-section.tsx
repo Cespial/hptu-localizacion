@@ -25,7 +25,8 @@ type Weights = {
   accesibilidad: number;
   demanda: number;
   competencia: number;
-  valorInmobiliario: number;
+  visibilidad: number;
+  esperasProductivas: number;
 };
 
 type Scenario = {
@@ -36,10 +37,11 @@ type Scenario = {
 
 // ── Constants ────────────────────────────────────────────────────────
 const DEFAULT_WEIGHTS: Weights = {
-  accesibilidad: 35,
-  demanda: 30,
+  accesibilidad: 30,
+  demanda: 25,
   competencia: 20,
-  valorInmobiliario: 15,
+  visibilidad: 15,
+  esperasProductivas: 10,
 };
 
 const CRITERIA_META: {
@@ -79,9 +81,18 @@ const CRITERIA_META: {
     slider: "accent-amber-600",
   },
   {
-    key: "valorInmobiliario",
-    label: "Valor Inmob.",
-    letter: "V",
+    key: "visibilidad",
+    label: "Visibilidad",
+    letter: "Vis",
+    color: "text-rose-700",
+    bg: "bg-rose-50",
+    border: "border-rose-300",
+    slider: "accent-rose-600",
+  },
+  {
+    key: "esperasProductivas",
+    label: "Esperas Prod.",
+    letter: "Esp",
     color: "text-purple-700",
     bg: "bg-purple-50",
     border: "border-purple-300",
@@ -90,11 +101,12 @@ const CRITERIA_META: {
 ];
 
 const SCENARIOS: Scenario[] = [
-  { label: "Base", short: "Base", weights: { accesibilidad: 35, demanda: 30, competencia: 20, valorInmobiliario: 15 } },
-  { label: "Demanda First", short: "Dem.", weights: { accesibilidad: 20, demanda: 45, competencia: 20, valorInmobiliario: 15 } },
-  { label: "Accesibilidad First", short: "Acc.", weights: { accesibilidad: 45, demanda: 20, competencia: 20, valorInmobiliario: 15 } },
-  { label: "Competencia First", short: "Comp.", weights: { accesibilidad: 20, demanda: 20, competencia: 45, valorInmobiliario: 15 } },
-  { label: "Equal", short: "Igual", weights: { accesibilidad: 25, demanda: 25, competencia: 25, valorInmobiliario: 25 } },
+  { label: "Base", short: "Base", weights: { accesibilidad: 30, demanda: 25, competencia: 20, visibilidad: 15, esperasProductivas: 10 } },
+  { label: "Demanda First", short: "Dem.", weights: { accesibilidad: 15, demanda: 40, competencia: 15, visibilidad: 15, esperasProductivas: 15 } },
+  { label: "Accesibilidad First", short: "Acc.", weights: { accesibilidad: 40, demanda: 15, competencia: 15, visibilidad: 15, esperasProductivas: 15 } },
+  { label: "Competencia First", short: "Comp.", weights: { accesibilidad: 15, demanda: 15, competencia: 40, visibilidad: 15, esperasProductivas: 15 } },
+  { label: "Visibilidad First", short: "Vis.", weights: { accesibilidad: 15, demanda: 15, competencia: 15, visibilidad: 40, esperasProductivas: 15 } },
+  { label: "Equal", short: "Igual", weights: { accesibilidad: 20, demanda: 20, competencia: 20, visibilidad: 20, esperasProductivas: 20 } },
 ];
 
 const MONTE_CARLO_ITERATIONS = 3000;
@@ -102,15 +114,16 @@ const HISTOGRAM_BINS = 20;
 
 // ── Helpers ──────────────────────────────────────────────────────────
 function computeScore(
-  scores: { accesibilidad: number; demanda: number; competencia: number; valorInmobiliario: number },
+  scores: { accesibilidad: number; demanda: number; competencia: number; visibilidad: number; esperasProductivas: number },
   weights: Weights
 ): number {
-  const total = weights.accesibilidad + weights.demanda + weights.competencia + weights.valorInmobiliario;
+  const total = weights.accesibilidad + weights.demanda + weights.competencia + weights.visibilidad + weights.esperasProductivas;
   return (
     (scores.accesibilidad * weights.accesibilidad +
       scores.demanda * weights.demanda +
       scores.competencia * weights.competencia +
-      scores.valorInmobiliario * weights.valorInmobiliario) /
+      scores.visibilidad * weights.visibilidad +
+      scores.esperasProductivas * weights.esperasProductivas) /
     total
   );
 }
@@ -160,7 +173,6 @@ export function SensitivityMCDASection() {
         const otherSum = otherKeys.reduce((s, k) => s + prev[k], 0);
 
         if (otherSum === 0) {
-          // Edge-case: others all zero, distribute equally
           const perOther = Math.round((100 - newVal) / otherKeys.length);
           const result = { ...prev, [changedKey]: newVal };
           otherKeys.forEach((k, i) => {
@@ -200,12 +212,10 @@ export function SensitivityMCDASection() {
     const baseScore = computeScore(ap.scores, DEFAULT_WEIGHTS);
 
     return CRITERIA_META.map((cm) => {
-      // +15% weight
       const wPlus = { ...DEFAULT_WEIGHTS };
       const wMinus = { ...DEFAULT_WEIGHTS };
       wPlus[cm.key] = DEFAULT_WEIGHTS[cm.key] + 15;
       wMinus[cm.key] = DEFAULT_WEIGHTS[cm.key] - 15;
-      // Normalize: redistribute delta among other keys proportionally
       const otherKeys = (Object.keys(DEFAULT_WEIGHTS) as (keyof Weights)[]).filter(
         (k) => k !== cm.key
       );
@@ -248,7 +258,7 @@ export function SensitivityMCDASection() {
     });
   }, []);
 
-  // ── Monte Carlo simulation ─────────────────────────────────────────
+  // ── Monte Carlo simulation — 5 dimensions ─────────────────────────
   const monteCarloResults = useMemo(() => {
     const ap = candidateZones.find((z) => z.id === "access-point")!;
     const scores: number[] = [];
@@ -256,19 +266,17 @@ export function SensitivityMCDASection() {
     let rank3OrBetterCount = 0;
 
     for (let i = 0; i < MONTE_CARLO_ITERATIONS; i++) {
-      // Perturb weights with gaussian noise, std = 5
       const w: Weights = {
         accesibilidad: gaussianRandom(DEFAULT_WEIGHTS.accesibilidad, 5),
         demanda: gaussianRandom(DEFAULT_WEIGHTS.demanda, 5),
         competencia: gaussianRandom(DEFAULT_WEIGHTS.competencia, 5),
-        valorInmobiliario: gaussianRandom(DEFAULT_WEIGHTS.valorInmobiliario, 5),
+        visibilidad: gaussianRandom(DEFAULT_WEIGHTS.visibilidad, 5),
+        esperasProductivas: gaussianRandom(DEFAULT_WEIGHTS.esperasProductivas, 5),
       };
-      // Clamp to positive
       (Object.keys(w) as (keyof Weights)[]).forEach((k) => {
         w[k] = Math.max(1, w[k]);
       });
-      // Normalize to 100
-      const total = w.accesibilidad + w.demanda + w.competencia + w.valorInmobiliario;
+      const total = w.accesibilidad + w.demanda + w.competencia + w.visibilidad + w.esperasProductivas;
       (Object.keys(w) as (keyof Weights)[]).forEach((k) => {
         w[k] = (w[k] / total) * 100;
       });
@@ -288,7 +296,6 @@ export function SensitivityMCDASection() {
     const pctRank2 = ((rank2Count / MONTE_CARLO_ITERATIONS) * 100).toFixed(1);
     const pctRank3 = ((rank3OrBetterCount / MONTE_CARLO_ITERATIONS) * 100).toFixed(1);
 
-    // Build histogram
     const minScore = Math.floor(Math.min(...scores));
     const maxScore = Math.ceil(Math.max(...scores));
     const binWidth = (maxScore - minScore) / HISTOGRAM_BINS;
@@ -324,18 +331,20 @@ export function SensitivityMCDASection() {
     });
   }, []);
 
+  const weightSum = Object.values(weights).reduce((s, v) => s + v, 0);
+
   return (
     <SectionWrapper id="sensibilidad-mcda">
       <div className="text-center mb-8 lg:mb-10">
         <Badge variant="outline" className="mb-4">
-          Analisis de Sensibilidad MCDA
+          Analisis de Sensibilidad MCDA — 5 Dimensiones
         </Badge>
         <h2 className="font-serif text-3xl font-bold sm:text-4xl">
           Robustez del Ranking: Sensibilidad y Monte Carlo
         </h2>
         <p className="mt-3 text-muted-foreground max-w-2xl mx-auto">
           Evaluacion de la estabilidad del ranking multicriterio ante cambios
-          en pesos, escenarios alternativos y 3,000 simulaciones
+          en 5 pesos, 6 escenarios alternativos y {MONTE_CARLO_ITERATIONS.toLocaleString()} simulaciones
           estocasticas.
         </p>
       </div>
@@ -398,9 +407,9 @@ export function SensitivityMCDASection() {
           <p className="text-[10px] text-muted-foreground uppercase tracking-wider font-medium">
             Escenarios Testados
           </p>
-          <p className="text-2xl font-bold text-teal-600 mt-1">5</p>
+          <p className="text-2xl font-bold text-teal-600 mt-1">6</p>
           <p className="text-[10px] text-muted-foreground">
-            nunca por debajo de #3
+            5 dims, nunca por debajo de #3
           </p>
         </motion.div>
       </div>
@@ -416,7 +425,7 @@ export function SensitivityMCDASection() {
             <CardHeader className="pb-3">
               <div className="flex items-center gap-2">
                 <SlidersHorizontal className="h-4 w-4 text-teal-500" />
-                <CardTitle className="text-sm">Ajuste de Pesos Interactivo</CardTitle>
+                <CardTitle className="text-sm">Ajuste de Pesos Interactivo — 5 Dimensiones</CardTitle>
               </div>
               <p className="text-[10px] text-muted-foreground">
                 Mueva los sliders para redistribuir pesos (suman 100%). El ranking se
@@ -424,14 +433,14 @@ export function SensitivityMCDASection() {
               </p>
             </CardHeader>
             <CardContent>
-              <div className="space-y-5">
+              <div className="space-y-4">
                 {CRITERIA_META.map((cm) => (
                   <div key={cm.key}>
                     <div className="flex items-center justify-between mb-1.5">
                       <div className="flex items-center gap-2">
                         <span
                           className={cn(
-                            "inline-flex h-6 w-6 items-center justify-center rounded-md border text-[10px] font-bold",
+                            "inline-flex h-6 w-6 items-center justify-center rounded-md border text-[9px] font-bold",
                             cm.bg,
                             cm.color,
                             cm.border
@@ -448,7 +457,7 @@ export function SensitivityMCDASection() {
                     <input
                       type="range"
                       min={0}
-                      max={70}
+                      max={60}
                       step={1}
                       value={Math.round(weights[cm.key])}
                       onChange={(e) =>
@@ -465,30 +474,19 @@ export function SensitivityMCDASection() {
                   <span
                     className={cn(
                       "font-bold",
-                      Math.round(
-                        weights.accesibilidad +
-                          weights.demanda +
-                          weights.competencia +
-                          weights.valorInmobiliario
-                      ) === 100
+                      Math.round(weightSum) === 100
                         ? "text-teal-600"
                         : "text-red-600"
                     )}
                   >
-                    {Math.round(
-                      weights.accesibilidad +
-                        weights.demanda +
-                        weights.competencia +
-                        weights.valorInmobiliario
-                    )}
-                    %
+                    {Math.round(weightSum)}%
                   </span>
                 </div>
                 <button
                   onClick={() => setWeights({ ...DEFAULT_WEIGHTS })}
                   className="mt-2 text-[10px] text-teal-600 hover:text-teal-800 font-medium underline underline-offset-2"
                 >
-                  Restaurar pesos base (35/30/20/15)
+                  Restaurar pesos base (30/25/20/15/10)
                 </button>
               </div>
             </CardContent>
@@ -508,7 +506,7 @@ export function SensitivityMCDASection() {
                 <CardTitle className="text-sm">Ranking Dinamico</CardTitle>
               </div>
               <p className="text-[10px] text-muted-foreground">
-                Recalculado en tiempo real con los pesos seleccionados
+                Recalculado en tiempo real con los 5 pesos seleccionados
               </p>
             </CardHeader>
             <CardContent>
@@ -594,7 +592,7 @@ export function SensitivityMCDASection() {
           Variacion del score de Access Point cuando cada criterio sube o baja 15 puntos
           porcentuales de peso (redistribucion proporcional). Verde = mejora, rojo = empeora.
         </p>
-        <ResponsiveContainer width="100%" height={220}>
+        <ResponsiveContainer width="100%" height={260}>
           <BarChart
             data={tornadoData}
             layout="vertical"
@@ -615,8 +613,8 @@ export function SensitivityMCDASection() {
             <YAxis
               dataKey="criterion"
               type="category"
-              width={95}
-              tick={{ fontSize: 11, fontWeight: 600 }}
+              width={105}
+              tick={{ fontSize: 10, fontWeight: 600 }}
             />
             <Tooltip
               contentStyle={{ fontSize: "11px" }}
@@ -626,8 +624,8 @@ export function SensitivityMCDASection() {
               ]}
             />
             <ReferenceLine x={0} stroke="#9ca3af" strokeWidth={1.5} />
-            <Bar dataKey="deltaPlus" fill="#10b981" radius={[0, 4, 4, 0]} barSize={16} name="deltaPlus" />
-            <Bar dataKey="deltaMinus" fill="#ef4444" radius={[4, 0, 0, 4]} barSize={16} name="deltaMinus" />
+            <Bar dataKey="deltaPlus" fill="#10b981" radius={[0, 4, 4, 0]} barSize={14} name="deltaPlus" />
+            <Bar dataKey="deltaMinus" fill="#ef4444" radius={[4, 0, 0, 4]} barSize={14} name="deltaMinus" />
           </BarChart>
         </ResponsiveContainer>
       </motion.div>
@@ -643,11 +641,11 @@ export function SensitivityMCDASection() {
           <div className="flex items-center gap-2 mb-1">
             <ShieldCheck className="h-4 w-4 text-teal-500" />
             <h3 className="text-sm font-bold">
-              Matriz de Estabilidad de Ranking
+              Matriz de Estabilidad de Ranking — 6 Escenarios
             </h3>
           </div>
           <p className="text-[10px] text-muted-foreground mb-4">
-            Posicion de cada zona bajo 5 escenarios de ponderacion. Oro = #1, Plata = #2,
+            Posicion de cada zona bajo 6 escenarios de ponderacion (incluyendo Visibilidad First). Oro = #1, Plata = #2,
             Bronce = #3.
           </p>
         </div>
@@ -660,7 +658,7 @@ export function SensitivityMCDASection() {
               {SCENARIOS.map((sc) => (
                 <th
                   key={sc.label}
-                  className="text-center py-3 px-3 font-semibold text-xs uppercase tracking-wider"
+                  className="text-center py-3 px-2 font-semibold text-xs uppercase tracking-wider"
                 >
                   <span className="hidden sm:inline">{sc.label}</span>
                   <span className="sm:hidden">{sc.short}</span>
@@ -691,7 +689,7 @@ export function SensitivityMCDASection() {
                     </div>
                   </td>
                   {row.ranks.map((rank, j) => (
-                    <td key={j} className="py-2.5 px-3 text-center">
+                    <td key={j} className="py-2.5 px-2 text-center">
                       <span
                         className={cn(
                           "inline-flex h-7 w-7 items-center justify-center rounded-full text-xs font-bold",
@@ -732,7 +730,7 @@ export function SensitivityMCDASection() {
           </div>
           <p className="text-[10px] text-muted-foreground mb-4">
             {MONTE_CARLO_ITERATIONS.toLocaleString()} iteraciones con perturbacion
-            gaussiana (std=5%) sobre los pesos base. Lineas = P5, P50, P95.
+            gaussiana (std=5%) sobre los 5 pesos base. Lineas = P5, P50, P95.
           </p>
           <ResponsiveContainer width="100%" height={260}>
             <BarChart
@@ -844,8 +842,7 @@ export function SensitivityMCDASection() {
           </div>
           <p className="text-[10px] text-muted-foreground mb-4">
             Diferencia de score entre la zona #1 y #2 bajo cada escenario.
-            Cuando competencia tiene mayor peso, el gap se reduce — favoreciendo
-            el nicho de Access Point.
+            Cuando Visibilidad tiene mayor peso, Access Point se acerca al #1.
           </p>
           <ResponsiveContainer width="100%" height={260}>
             <BarChart
@@ -855,7 +852,7 @@ export function SensitivityMCDASection() {
               <CartesianGrid strokeDasharray="3 3" vertical={false} />
               <XAxis
                 dataKey="scenario"
-                tick={{ fontSize: 11 }}
+                tick={{ fontSize: 10 }}
               />
               <YAxis
                 tick={{ fontSize: 10 }}
@@ -880,7 +877,7 @@ export function SensitivityMCDASection() {
                     : String(label);
                 }}
               />
-              <Bar dataKey="gap" radius={[4, 4, 0, 0]} barSize={32}>
+              <Bar dataKey="gap" radius={[4, 4, 0, 0]} barSize={28}>
                 {gapData.map((entry, index) => (
                   <Cell
                     key={index}
@@ -933,16 +930,15 @@ export function SensitivityMCDASection() {
                 <span>
                   <strong>Access Point mantiene posicion #2 en &gt;{monteCarloResults.pctRank2}%</strong>{" "}
                   de simulaciones Monte Carlo ({MONTE_CARLO_ITERATIONS.toLocaleString()} iteraciones,
-                  perturbacion gaussiana std=5%).
+                  5 dimensiones, perturbacion gaussiana std=5%).
                 </span>
               </li>
               <li className="flex items-start gap-2">
                 <span className="mt-1.5 h-1.5 w-1.5 rounded-full bg-teal-500 shrink-0" />
                 <span>
-                  <strong>Gap con #1 se reduce a 2-3 pts</strong> bajo pesos
-                  favorables a competencia nicho (escenario &quot;Competencia First&quot;),
-                  donde el corredor sin hospitales de Access Point maximiza su
-                  diferenciacion.
+                  <strong>Demanda es la dimension donde Access Point mas se destaca</strong> (91/100) —
+                  unico candidato con captacion dual Poblado + Oriente cercano (298K). Bajo el escenario &quot;Demanda First&quot;,
+                  el gap con #1 se reduce significativamente.
                 </span>
               </li>
               <li className="flex items-start gap-2">
@@ -951,13 +947,13 @@ export function SensitivityMCDASection() {
                   <strong>Ranking robusto:</strong> ningun escenario mueve a Access
                   Point por debajo de #3 — confirmando su posicion como candidato
                   solido independientemente de la metodologia de ponderacion
-                  utilizada.
+                  utilizada (5 dimensiones, 6 escenarios).
                 </span>
               </li>
             </ul>
             <p className="text-xs text-teal-600 mt-3 italic">
               Fuente: Simulacion Monte Carlo (N={MONTE_CARLO_ITERATIONS.toLocaleString()},
-              Gauss std=5%), 5 escenarios deterministicos de sensibilidad
+              Gauss std=5%, 5 dims), 6 escenarios deterministicos de sensibilidad
             </p>
           </div>
         </div>

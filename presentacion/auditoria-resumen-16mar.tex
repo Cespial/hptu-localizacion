@@ -1,0 +1,534 @@
+% ============================================================
+% Auditoría de Datos y Resumen Ejecutivo — Junta HPTU
+% Compilar con: lualatex auditoria-resumen-16mar.tex
+% ============================================================
+\documentclass[11pt, a4paper]{article}
+
+\usepackage{fontspec}
+\usepackage{geometry}
+\geometry{margin=2cm, top=1.8cm, bottom=1.8cm}
+\usepackage{booktabs}
+\usepackage{tabularx}
+\usepackage{colortbl}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{xcolor}
+\usepackage{hyperref}
+\usepackage{multicol}
+\usepackage{fancyhdr}
+\usepackage{mdframed}
+\usepackage{amssymb}
+\usepackage{graphicx}
+
+% Fuentes
+\setsansfont{Helvetica Neue}[
+  BoldFont={Helvetica Neue Bold},
+  ItalicFont={Helvetica Neue Italic},
+]
+\renewcommand{\familydefault}{\sfdefault}
+
+% Colores
+\definecolor{hptu}{HTML}{00549F}
+\definecolor{teal}{HTML}{0D9488}
+\definecolor{coral}{HTML}{EF4444}
+\definecolor{amber}{HTML}{F59E0B}
+\definecolor{slate}{HTML}{64748B}
+\definecolor{bglight}{HTML}{F0F9FF}
+\definecolor{bgwarn}{HTML}{FFF7ED}
+\definecolor{bgtip}{HTML}{F0FDF4}
+\definecolor{bgcrit}{HTML}{FEF2F2}
+
+% Titulos
+\titleformat{\section}{\Large\bfseries\color{hptu}}{}{0pt}{}[\vspace{-4pt}\color{hptu}\rule{\textwidth}{1pt}]
+\titleformat{\subsection}{\large\bfseries\color{teal}}{}{0pt}{}
+\titleformat{\subsubsection}{\normalsize\bfseries\color{slate}}{}{0pt}{}
+\titlespacing{\section}{0pt}{14pt}{6pt}
+\titlespacing{\subsection}{0pt}{10pt}{4pt}
+\titlespacing{\subsubsection}{0pt}{8pt}{3pt}
+
+% Cajas
+\newmdenv[
+  backgroundcolor=bglight,
+  linecolor=hptu,
+  linewidth=1.5pt,
+  leftline=true, rightline=false, topline=false, bottomline=false,
+  innerleftmargin=10pt, innerrightmargin=10pt,
+  innertopmargin=6pt, innerbottommargin=6pt,
+]{cita}
+
+\newmdenv[
+  backgroundcolor=bgcrit,
+  linecolor=coral,
+  linewidth=2pt,
+  leftline=true, rightline=false, topline=false, bottomline=false,
+  innerleftmargin=10pt, innerrightmargin=10pt,
+  innertopmargin=6pt, innerbottommargin=6pt,
+]{alerta}
+
+\newmdenv[
+  backgroundcolor=bgwarn,
+  linecolor=amber,
+  linewidth=1.5pt,
+  leftline=true, rightline=false, topline=false, bottomline=false,
+  innerleftmargin=10pt, innerrightmargin=10pt,
+  innertopmargin=6pt, innerbottommargin=6pt,
+]{aviso}
+
+\newmdenv[
+  backgroundcolor=bgtip,
+  linecolor=teal,
+  linewidth=1.5pt,
+  leftline=true, rightline=false, topline=false, bottomline=false,
+  innerleftmargin=10pt, innerrightmargin=10pt,
+  innertopmargin=6pt, innerbottommargin=6pt,
+]{tip}
+
+\newcommand{\hl}[1]{\textcolor{teal}{\textbf{#1}}}
+\newcommand{\dg}[1]{\textcolor{coral}{\textbf{#1}}}
+
+% Header/footer
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\small\color{slate}Auditoria de Datos y Resumen Ejecutivo}
+\fancyhead[R]{\small\color{slate}16 de marzo, 2026}
+\fancyfoot[L]{\raisebox{2pt}{\includegraphics[height=8pt]{basica.png}}}
+\fancyfoot[R]{\small\color{slate}\thepage}
+\renewcommand{\headrulewidth}{0.4pt}
+
+\begin{document}
+
+% ── PORTADA ──
+\begin{center}
+{\color{hptu}\rule{\textwidth}{2pt}}
+
+\vspace{12pt}
+{\LARGE\bfseries\color{hptu} Auditoria de Datos y Resumen Ejecutivo}
+
+\vspace{4pt}
+{\Large Junta Directiva HPTU --- 16 de marzo, 2026}
+
+\vspace{8pt}
+{\normalsize\color{slate} Preparacion pre-junta $\cdot$ Cifras auditadas $\cdot$ Cheat sheet por pregunta}
+
+\vspace{8pt}
+{\color{hptu}\rule{\textwidth}{2pt}}
+\end{center}
+
+\vspace{8pt}
+
+% ============================================================
+\section{Alertas de consistencia}
+% ============================================================
+
+Antes de repasar el contenido, estos son los problemas que encontre al cruzar datos entre la presentacion, el dashboard y los archivos fuente.
+
+\subsection{CRITICA: Tiempo Km 7 al Aeropuerto}
+
+\begin{alerta}
+\textbf{El slide 19 dice ``Km 7 a 20 min del aeropuerto'', pero los datos reales de Mapbox son 41.5--51.3 min.}
+
+\vspace{4pt}
+\begin{tabular}{@{}lrl@{}}
+\toprule
+\textbf{Donde aparece} & \textbf{Valor} & \textbf{Fuente citada} \\
+\midrule
+Slide 19 (JCI) & \dg{20 min} & No especificada \\
+Slide 23 (Access Point) & 41.5 min & Mapbox Directions API \\
+Slide 13 (Q2) & 51.3 min & Mapbox Matrix API \\
+\bottomrule
+\end{tabular}
+
+\vspace{6pt}
+\textbf{Que hacer}: Si alguien pregunta, usar \hl{41.5 min} (Directions API). El argumento real es: \textit{``Km 7 ahorra 14 min vs HPTU para llegar al aeropuerto''} (slide 13 es correcto). \textbf{Evitar decir ``20 min''.}
+\end{alerta}
+
+\subsection{MODERADA: Pesos MCDA inconsistentes}
+
+\begin{aviso}
+\begin{tabular}{@{}ll@{}}
+\toprule
+\textbf{Donde aparece} & \textbf{Pesos (Acc/Dem/Comp/Val)} \\
+\midrule
+Slide 22 (presentacion 16mar) & \dg{30\% / 25\% / 25\% / 20\%} \\
+Dashboard interactivo & 35\% / 30\% / 20\% / 15\% \\
+Presentaciones anteriores & 35\% / 30\% / 20\% / 15\% \\
+\bottomrule
+\end{tabular}
+
+\vspace{4pt}
+Los scores (88, 81, 77\ldots) fueron calculados con 35/30/20/15 pero el slide dice 30/25/25/20.
+
+\vspace{2pt}
+\textbf{Que hacer}: Si preguntan por pesos, decir: \textit{``Los pesos varian segun escenario --- el analisis Monte Carlo con 3,000 iteraciones prueba que LP Bajo se mantiene \#1 en todos.''}
+\end{aviso}
+
+\subsection{MENOR: Camas Cl. Rosario Tesoro}
+
+\begin{aviso}
+Slide 17 (tabla competidores): \textbf{140 camas}. Archivo REPS (s2ru-bqt6): \textbf{158 camas}. El correcto es probablemente 158 (desglose detallado).
+\end{aviso}
+
+
+% ============================================================
+\section{La narrativa en 5 minutos}
+% ============================================================
+
+\begin{cita}
+\textbf{El argumento en una frase:} ``El HPTU tiene 540 camas en Robledo, hay un corredor de 174,000 predios estrato 5/6 sin un solo hospital de alta complejidad, la demanda esta validada por 6 dimensiones independientes, y Las Palmas Bajo sale \#1 de 6 zonas.''
+\end{cita}
+
+\vspace{6pt}
+
+\begin{tabular}{@{}clll@{}}
+\toprule
+\textbf{Acto} & \textbf{Titulo} & \textbf{Slides} & \textbf{Mensaje} \\
+\midrule
+\rowcolor{bgcrit}
+1 & El problema & 1--5 (8 min) & Hospital saturado, lejos de su mercado \\
+2 & La evidencia & 6--10 (10 min) & Brecha, trafico, infraestructura, Oriente \\
+\rowcolor{bgtip}
+\textbf{3} & \textbf{Las 6 preguntas} & \textbf{11--20 (15 min)} & \textbf{6 preguntas, 6 respuestas ``Si''} \\
+4 & La recomendacion & 21--27 (12 min) & LP Bajo \#1 con score 88/100 \\
+\rowcolor{bglight}
+5 & La decision & 28--33 (10 min) & 8 parametros, 6 semanas, cronograma \\
+\bottomrule
+\end{tabular}
+
+
+% ============================================================
+\section{Los numeros que debes tener en la cabeza}
+% ============================================================
+
+\subsection{Tier 1: Los 6 que SIEMPRE te van a preguntar}
+
+\renewcommand{\arraystretch}{1.35}
+\begin{tabular}{@{}rp{7cm}cl@{}}
+\toprule
+\textbf{Numero} & \textbf{Que es} & \textbf{Slide} & \textbf{Fuente} \\
+\midrule
+\rowcolor{bgcrit}
+\hl{540} & Camas HPTU sede principal & 3 & REPS + HPTU \\
+\rowcolor{bgcrit}
+\dg{0} & Camas alta complejidad en corredor LP & 6 & REPS + Geocoding \\
+\rowcolor{bglight}
+\hl{174,543} & Predios E5/E6 en 22 barrios & 5 & Catastro (bp59-rj8r) \\
+\rowcolor{bgtip}
+\hl{88/100} & Score MCDA Las Palmas Bajo (\#1) & 22 & Modelo MCDA \\
+\rowcolor{bglight}
+\hl{384,171} & Afiliados contributivos (7 mun.) & 14 & BDUA mar 2026 \\
+\rowcolor{bgtip}
+\hl{6 de 6} & Preguntas respondidas con ``Si'' & 20 & Marco validacion \\
+\bottomrule
+\end{tabular}
+
+\subsection{Tier 2: Los que refuerzan el argumento}
+
+{\small
+\begin{tabular}{@{}rp{8cm}c@{}}
+\toprule
+\textbf{Numero} & \textbf{Que es} & \textbf{Slide} \\
+\midrule
+1,593 & Total camas hospitalarias en 6 hospitales & 6 \\
+40.9 vs 18 km/h & Velocidad Las Palmas vs El Poblado (el doble) & 8 \\
+--17.8 min & Ahorro Km 7 vs HPTU a El Retiro / La Ceja & 13 \\
++63.8\% & Crecimiento trafico Las Palmas 10 anos & 10 \\
+3.46$\times$ & Ratio contributivo/subsidiado Oriente & 14 \\
+\$590,000M & COP invertidos por 6 competidores & 16 \\
+USD \$11.7M & Captura potencial turismo medico (5\%) & 19 \\
++152,000 & Personas adicionales a 2037 & 7 \\
+VPN +\$4.8MM & Valor Presente Neto LP Bajo (conservador) & 27 \\
+6 semanas & Tiempo hasta la decision final & 31 \\
+\bottomrule
+\end{tabular}
+}
+
+
+% ============================================================
+\section{Las 6 preguntas --- Cheat Sheet}
+% ============================================================
+
+Este es el corazon de la presentacion. Para cada pregunta: la respuesta, el dato killer, y la fuente.
+
+\subsection{Q1: Hay suficientes pacientes? $\to$ SI, SOBRAN}
+
+\begin{tip}
+\textbf{Dato killer}: Rionegro tenia \dg{0 camas UCI} en 2023 (bajo de 0.14/1000).
+
+\vspace{2pt}
+\textbf{Soporte}: \hl{40--46\%} de pacientes en Rionegro son de \textbf{otros municipios} ($\sim$33,600/ano).
+
+\vspace{2pt}
+\textbf{Significado}: Los pacientes YA estan viajando. La demanda existe y nadie la atiende bien.
+
+\vspace{2pt}
+{\small\color{slate}Fuente: REPS capacidad instalada (b4dp-ximh), DANE estimaciones 2026}
+\end{tip}
+
+\subsection{Q2: Vendran a Km 7? $\to$ SI, 3 DE 3 TARGETS}
+
+\begin{tip}
+\textbf{Dato killer}: Km 7 ahorra \hl{17.8 minutos} a El Retiro y La Ceja vs HPTU actual.
+
+\vspace{2pt}
+\textbf{Significado}: Km 7 gana en los 3 destinos de mayor poder adquisitivo. Pierde en Guarne y Marinilla, pero esos ya los cubre HPTU actual.
+
+\vspace{2pt}
+\textbf{Matiz}: Km 7 NO le gana a HPTU para Rionegro ($\sim$similar) ni Guarne (+15.9 min). Eso esta bien --- la nueva sede captura lo que HPTU no puede.
+
+\vspace{2pt}
+{\small\color{slate}Fuente: Mapbox Matrix API (durations en segundos / 60)}
+\end{tip}
+
+\subsection{Q3: Pueden pagar? $\to$ SI, RATIO 3.46$\times$}
+
+\begin{tip}
+\textbf{Dato killer}: \hl{384,171 afiliados contributivos} en 7 municipios del Oriente.
+
+\vspace{2pt}
+\textbf{Soporte}: Rionegro tiene \hl{85\% contributivo}. SURA domina con \hl{64--79\%} del mercado.
+
+\vspace{2pt}
+\textbf{Significado}: El Oriente es masivamente contributivo. Sura = contrato ancla obligatorio.
+
+\vspace{2pt}
+\textbf{Extra}: Prepagada Antioquia crecio \hl{+37\%} desde 2022.
+
+\vspace{2pt}
+{\small\color{slate}Fuente: BDUA marzo 2026 (ADRES)}
+\end{tip}
+
+\subsection{Q4: Crecera la demanda? $\to$ SI, 8 DE 8}
+
+\begin{tip}
+\textbf{Dato killer}: \hl{8 indicadores} de crecimiento, \textbf{todos} apuntan hacia arriba.
+
+\vspace{2pt}
+\textbf{Los 8}: Poblacion Rionegro (+2.0\%), Trafico LP (+63.8\%), Trafico Tunel (+30.6\%), Aeropuerto (14.5M$\to$42.7M), Prepagada (+37\%), Turismo medico (+15\% CAGR), Migracion (5.2/100), Tunel doble calzada (H2 2027).
+
+\vspace{2pt}
+\textbf{Significado}: No es una apuesta. Es una tendencia consolidada en 8 dimensiones.
+
+\vspace{2pt}
+{\small\color{slate}Fuentes: ANI peajes (8yi9-t44c), DANE, ProColombia, Plan Maestro JMC 2055}
+\end{tip}
+
+\subsection{Q5: Otros ya validaron? $\to$ SI, COP \$590,000M}
+
+\begin{tip}
+\textbf{Dato killer}: \hl{6 instituciones} ya invirtieron \hl{\$590,000M COP}.
+
+\vspace{2pt}
+\textbf{Principales}: HSVF Rionegro (>\$200K, 500 camas), H.\ San Juan Dios (\$120K, torre), Torre Oviedo (\$100K, 87 consultorios), AUNA Sur (\$90K, 168 camas).
+
+\vspace{2pt}
+\textbf{Si preguntan por Campestre}: Solo sede Rionegro, ambulatorio basico, \$30,000M. \dg{NO hay torre de 15 pisos en Medellin} --- eso era un error de versiones anteriores.
+
+\vspace{2pt}
+\textbf{Significado}: Ventana de oportunidad 2026--2028. Si HPTU no ocupa el nicho, otro lo hara.
+
+\vspace{2pt}
+{\small\color{slate}Fuente: Prensa verificada, REPS, estados financieros}
+\end{tip}
+
+\subsection{Q6: Hay turismo de salud? $\to$ SI, USD \$11.7M}
+
+\begin{tip}
+\textbf{Dato killer}: \dg{0 instituciones JCI} a menos de 30 min del aeropuerto. HPTU es el \textbf{unico JCI en Antioquia}.
+
+\vspace{2pt}
+\textbf{Oportunidad}: Con solo \textbf{5\%} del turismo medico (85,000 pac/ano $\times$ USD \$2,764), son \hl{USD \$11.7M adicionales/ano}.
+
+\vspace{2pt}
+{\small\color{slate}Fuente: ProColombia, DANE EVI, SISPRO, JCI Directory}
+\end{tip}
+
+\begin{alerta}
+\textbf{CUIDADO en Q6}: No decir ``Km 7 esta a 20 min del aeropuerto''. Decir: ``Km 7 reduce significativamente el tiempo vs HPTU actual'' y citar \hl{41.5 min} si preguntan el numero exacto.
+\end{alerta}
+
+
+% ============================================================
+\section{La recomendacion --- Por que Las Palmas Bajo}
+% ============================================================
+
+\subsection{El ranking MCDA (6 zonas)}
+
+\begin{tabular}{@{}clcl@{}}
+\toprule
+\textbf{\#} & \textbf{Zona} & \textbf{Score} & \textbf{Fortaleza} \\
+\midrule
+\rowcolor{bgtip}
+\textbf{1} & \textbf{Las Palmas Bajo} & \hl{88} & Unica >80 en 4 dimensiones, POT 9/9 \\
+2 & Access Point Km 7 & \hl{81} & Demanda dual (Poblado + Oriente) \\
+\rowcolor{bglight}
+3 & Las Palmas Medio & 77 & Mas suelo, menos accesibilidad \\
+4 & Envigado--Zuniga & 74 & Poblacion grande, competencia densa \\
+\rowcolor{bglight}
+5 & N.\ Poblado--Itagui & 67 & Mejor tiempo a HPTU, bajo valor inmob. \\
+\rowcolor{bgcrit}
+6 & Las Palmas Alto & \dg{58} & \dg{DESCARTADO}: 57 min, suelo rural \\
+\bottomrule
+\end{tabular}
+
+\begin{cita}
+\textbf{LP Bajo en una frase}: ``Es la UNICA zona que combina: demanda masiva a 15 min, trafico fluido (40.9 km/h), POT maxima (9/9, CL\_D=2.38), cero competencia alta complejidad, VPN positivo, y conexion al Oriente via Tunel.''
+\end{cita}
+
+\subsection{Access Point Km 7 --- el candidato \#2}
+
+\begin{itemize}[nosep]
+  \item \textbf{Fortaleza}: Catchment dual --- 135K El Poblado + 460K Oriente = \hl{595K total}
+  \item \textbf{Infraestructura}: 4 torres, 10 pisos, 1,085 parqueaderos (ya construido)
+  \item \textbf{Post-Tunel}: Rionegro a 25 min
+  \item \textbf{Debilidad}: Score de competencia mas bajo (65 vs 78 de LP Bajo)
+\end{itemize}
+
+
+% ============================================================
+\section{El modelo financiero --- Que decir y que NO decir}
+% ============================================================
+
+\subsection{Los numeros}
+
+\begin{tabular}{@{}lrrrr@{}}
+\toprule
+\textbf{Zona} & \textbf{Camas} & \textbf{Inversion} & \textbf{Payback} & \textbf{VPN} \\
+\midrule
+\rowcolor{bgtip}
+\textbf{LP Bajo} & \textbf{250} & \textbf{\$90MM} & \textbf{11.3y} & \hl{+\$4.8MM} \\
+LP Medio & 300 & \$108MM & 9.4y & +\$15.3MM \\
+Envigado & 220 & \$82MM & 11.3y & +\$4.0MM \\
+N.\ Poblado & 260 & \$98MM & 9.6y & +\$14.7MM \\
+\rowcolor{bgcrit}
+LP Alto & 150 & \$55MM & \dg{22.9y} & \dg{--\$31MM} \\
+\bottomrule
+\end{tabular}
+
+{\small Miles de MM COP. WACC 12\%, ramp-up 60\%/80\%/100\%.}
+
+\subsection{Supuestos clave (los que pueden cuestionar)}
+
+{\small
+\begin{tabular}{@{}lrll@{}}
+\toprule
+\textbf{Parametro} & \textbf{Valor} & \textbf{Fuente} & \textbf{Riesgo} \\
+\midrule
+\rowcolor{bgwarn}
+Ingreso/cama/ano & \$1,600M & HUSI (hosp.\ publico) & \dg{MAS SENSIBLE} \\
+EBITDA & 8\% & Supersalud & Bajo para privado \\
+\rowcolor{bgwarn}
+WACC & 12\% & TES 10Y + prima & Discutible \\
+Construccion/m$^2$ & \$4.0M & Scielo/U.\ Militar & Puede variar \\
+Ocupacion & 80\% & Estandar sector & Conservador \\
+\bottomrule
+\end{tabular}
+}
+
+\subsection{Si dicen ``el VPN de \$4.8MM es bajo''}
+
+\begin{tip}
+``Ese es el escenario conservador con ingreso/cama de \$1,600M (benchmark de hospital publico). Si usamos tarifa de privado premium (\$2,000M), el VPN sube a \hl{+\$25MM}. Ese es exactamente el parametro que validamos en las proximas 6 semanas.''
+\end{tip}
+
+\begin{alerta}
+\textbf{Lo que NO hay que defender demasiado:} El modelo financiero es \textbf{preliminar}. La fortaleza del caso es la \textbf{demanda}, no el financiero. Los 5 parametros de alta prioridad se validan en Fase 3.
+\end{alerta}
+
+
+% ============================================================
+\section{Preguntas dificiles y respuestas}
+% ============================================================
+
+\subsubsection{``Por que no Envigado que es mas barato?''}
+\begin{tip}
+``Score 74 vs 88. Pierde en accesibilidad al Oriente y en POT --- es municipio autonomo con su propia normativa. LP Bajo tiene el mejor equilibrio de las 4 dimensiones.''
+\end{tip}
+
+\subsubsection{``Campestre ya abrio en Rionegro. Llegamos tarde?''}
+\begin{tip}
+``Campestre abrio ambulatorio basico --- ortopedia, 250 pacientes/dia, \$30,000M. No compite con alta complejidad. HPTU ofrece trasplantes, hematologia, oncologia compleja, y es el unico JCI. Son mercados diferentes. Que hayan invertido \$30,000M \textbf{confirma que la demanda es real}.''
+\end{tip}
+
+\subsubsection{``Que pasa si el Tunel se retrasa?''}
+\begin{tip}
+``El caso de LP Bajo NO depende del Tunel. El score 88/100 ya considera el corredor tal como esta hoy --- 40.9 km/h, 15.4 min desde Milla de Oro. El Tunel es upside: si abre en H2 2027, Rionegro a 25 min.''
+\end{tip}
+
+\subsubsection{``Cuantas camas tendria la nueva sede?''}
+\begin{tip}
+``Modelo base: 250 camas. Pero la primera fase podria ser un hub ambulatorio --- cirugia ambulatoria, imagenes, chequeo ejecutivo, rehabilitacion. Reduce CAPEX y permite validar demanda antes de escalar.''
+\end{tip}
+
+\subsubsection{``Que tan confiables son los datos?''}
+\begin{tip}
+``15 fuentes oficiales: Catastro, DANE, REPS, MEData, POT, ANI, ProColombia, Google Places, Mapbox. 3.8 millones de registros. Cero estimaciones propias --- todo trazable al dataset original. La plataforma esta en hptu-localizacion.vercel.app para que cualquiera verifique.''
+\end{tip}
+
+\subsubsection{``Y la Clinica Alto de Las Palmas?''}
+\begin{tip}
+``No fue encontrada en Google Places. Permanece en fase conceptual sin presencia digital verificable. POT restrictivo en zona rural podria limitar su alcance. Amenaza `potencial', no confirmada.''
+\end{tip}
+
+
+% ============================================================
+\section{Fuentes de datos --- Trazabilidad}
+% ============================================================
+
+{\small
+\begin{tabular}{@{}clll@{}}
+\toprule
+\textbf{\#} & \textbf{Fuente} & \textbf{Dataset ID} & \textbf{Que aporta} \\
+\midrule
+\rowcolor{bglight}
+1 & Catastro Medellin & bp59-rj8r & Predios, estratos, avaluos (1,041,413 reg.) \\
+2 & REPS Prestadores & b4dp-ximh & IPS habilitadas, tipos, ubicaciones \\
+\rowcolor{bglight}
+3 & REPS Capacidad & s2ru-bqt6 & Camas por tipo, capacidad instalada \\
+4 & DANE CNPV 2018 & evm3-92yw & Censo poblacional \\
+\rowcolor{bglight}
+5 & DANE Proyecciones & vk9k-hfhi & Proyecciones Medellin 2026+ \\
+6 & DENSURBAM & URBAM/AMVA & 59 variables, IRS salud, proy.\ 2037 \\
+\rowcolor{bglight}
+7 & MEData Velocidad & 7t5n-3b3w & Velocidades corredor (682K obs.) \\
+8 & MEData Aforos & b9s9-jw7c & Conteos vehiculares por nodo \\
+\rowcolor{bglight}
+9 & ANI Peajes & 8yi9-t44c & Trafico vehicular 2014--2024 \\
+10 & POT Indicadores & 3ciz-tpgr & Bateria indicadores urbanisticos \\
+\rowcolor{bglight}
+11 & BDUA (ADRES) & Mar 2026 & Afiliacion EPS por municipio \\
+12 & ProColombia & Informes 2024 & Turismo medico, exportacion salud \\
+\rowcolor{bglight}
+13 & Plan Maestro JMC & 2055 & Proyecciones aeropuerto \\
+14 & Mapbox APIs & Matrix + Dir. & Tiempos de viaje, isocronas \\
+\rowcolor{bglight}
+15 & Google Places/Geoc. & API & Ubicaciones, ratings, verificacion \\
+\bottomrule
+\end{tabular}
+}
+
+
+% ============================================================
+\section{Checklist pre-junta}
+% ============================================================
+
+\begin{enumerate}[leftmargin=*, itemsep=4pt]
+  \item[$\square$] Abrir con el \textbf{problema} (540 camas, 0 en corredor), NO con la solucion
+  \item[$\square$] Las 6 preguntas son el momento de engagement --- pausar antes de cada ``Si''
+  \item[$\square$] \textbf{Slide 20} (6 respuestas = Si) es el \textbf{CLIMAX} --- pausar ahi
+  \item[$\square$] No defender el modelo financiero demasiado --- reconocer que es preliminar
+  \item[$\square$] Si preguntan por Campestre: ``ambulatorio basico, \$30,000M, confirma la demanda''
+  \item[$\square$] El \textbf{cronograma} (slide 31) es el call-to-action: ``6 semanas, esto es lo que necesitamos''
+  \item[$\square$] Si alguien quiere ver datos: abrir la plataforma (\url{https://hptu-localizacion.vercel.app})
+  \item[$\square$] \dg{EVITAR} decir ``20 min al aeropuerto'' --- usar ``14 min menos que HPTU actual''
+  \item[$\square$] \dg{EVITAR} dar cifras de ocupacion (no tenemos fuente verificable)
+\end{enumerate}
+
+\vfill
+\begin{center}
+{\color{hptu}\rule{0.6\textwidth}{1pt}}
+
+\vspace{6pt}
+{\small\color{slate}\textit{Auditoria realizada el 16 de marzo, 2026. Datos cruzados entre 1 presentacion, 8 archivos de datos, 6 componentes de dashboard, y 3 presentaciones anteriores.}}
+\end{center}
+
+\end{document}

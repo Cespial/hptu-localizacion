@@ -22,6 +22,25 @@ export type OrienteMunicipio = {
   distanceFromCandidate: number; // km
   afiliadosContributivo: number; // from aseguramiento
   afiliadosSubsidiado: number;
+
+  // ── Post-Tunnel estimates (2nd stage double lane, H2 2027) ──
+  // The 2nd stage of the Tunel de Oriente adds a double lane (doble calzada),
+  // estimated to reduce travel times by ~35-40% for routes that use the tunnel
+  // corridor (Medellin ↔ Oriente via Las Palmas / Tunel).
+  //
+  // Access Point (Km 7 Las Palmas) benefits MOST because it sits at the
+  // tunnel gateway — municipalities closer to the tunnel portal (Guarne,
+  // Rionegro, El Retiro) see the largest reductions (~35-40%).
+  // More distant municipalities (Sonson, La Union) still benefit but less.
+  //
+  // HPTU (Robledo) benefits LESS because it's on the north side of Medellin,
+  // not on the tunnel corridor. Estimated ~10-15% reduction from general
+  // improvements to the Autopista Medellin-Bogota / connections.
+  //
+  // Values are rough estimates. Validate with INVIAS/ANI traffic models
+  // once the 2nd stage opens.
+  travelTimeFromCandidatePostTunnel: number; // minutes — estimated post doble calzada H2 2027
+  travelTimeFromHPTUPostTunnel: number; // minutes — estimated post doble calzada H2 2027
 };
 
 export type TrafficCorridor = {
@@ -77,6 +96,8 @@ export const orienteMunicipios: OrienteMunicipio[] = [
     distanceFromCandidate: 38.8, // 38784m / 1000
     afiliadosContributivo: 161041,
     afiliadosSubsidiado: 29941,
+    travelTimeFromCandidatePostTunnel: 38, // ~35% reduction — on tunnel corridor
+    travelTimeFromHPTUPostTunnel: 50, // ~12% reduction — HPTU not on tunnel route
   },
   {
     id: "guarne",
@@ -94,6 +115,8 @@ export const orienteMunicipios: OrienteMunicipio[] = [
     distanceFromCandidate: 41.0,
     afiliadosContributivo: 32692,
     afiliadosSubsidiado: 12657,
+    travelTimeFromCandidatePostTunnel: 32, // ~42% reduction — closest to tunnel portal
+    travelTimeFromHPTUPostTunnel: 35, // ~12% reduction
   },
   {
     id: "marinilla",
@@ -111,6 +134,8 @@ export const orienteMunicipios: OrienteMunicipio[] = [
     distanceFromCandidate: 53.0,
     afiliadosContributivo: 46189,
     afiliadosSubsidiado: 19669,
+    travelTimeFromCandidatePostTunnel: 43, // ~37% reduction — on tunnel corridor
+    travelTimeFromHPTUPostTunnel: 51, // ~13% reduction
   },
   {
     id: "la-ceja",
@@ -128,6 +153,8 @@ export const orienteMunicipios: OrienteMunicipio[] = [
     distanceFromCandidate: 38.0,
     afiliadosContributivo: 63417,
     afiliadosSubsidiado: 13229,
+    travelTimeFromCandidatePostTunnel: 42, // ~37% reduction — benefits from tunnel corridor
+    travelTimeFromHPTUPostTunnel: 73, // ~13% reduction
   },
   {
     id: "el-retiro",
@@ -145,6 +172,8 @@ export const orienteMunicipios: OrienteMunicipio[] = [
     distanceFromCandidate: 25.4,
     afiliadosContributivo: 12956,
     afiliadosSubsidiado: 3738,
+    travelTimeFromCandidatePostTunnel: 28, // ~36% reduction — close to tunnel corridor
+    travelTimeFromHPTUPostTunnel: 54, // ~13% reduction
   },
   {
     id: "el-carmen",
@@ -162,6 +191,8 @@ export const orienteMunicipios: OrienteMunicipio[] = [
     distanceFromCandidate: 50.5,
     afiliadosContributivo: 35869,
     afiliadosSubsidiado: 16310,
+    travelTimeFromCandidatePostTunnel: 50, // ~39% reduction
+    travelTimeFromHPTUPostTunnel: 68, // ~13% reduction
   },
   {
     id: "el-santuario",
@@ -179,6 +210,8 @@ export const orienteMunicipios: OrienteMunicipio[] = [
     distanceFromCandidate: 63.1,
     afiliadosContributivo: 14980,
     afiliadosSubsidiado: 15512,
+    travelTimeFromCandidatePostTunnel: 55, // ~29% reduction — farther from tunnel
+    travelTimeFromHPTUPostTunnel: 59, // ~13% reduction
   },
   {
     id: "concepcion",
@@ -196,6 +229,8 @@ export const orienteMunicipios: OrienteMunicipio[] = [
     distanceFromCandidate: 0,
     afiliadosContributivo: 674,
     afiliadosSubsidiado: 2720,
+    travelTimeFromCandidatePostTunnel: 0, // not in matrix — no estimate available
+    travelTimeFromHPTUPostTunnel: 0,
   },
   {
     id: "guatape",
@@ -213,6 +248,8 @@ export const orienteMunicipios: OrienteMunicipio[] = [
     distanceFromCandidate: 0,
     afiliadosContributivo: 2706,
     afiliadosSubsidiado: 3378,
+    travelTimeFromCandidatePostTunnel: 0, // not in matrix — no estimate available
+    travelTimeFromHPTUPostTunnel: 0,
   },
   {
     id: "el-penol",
@@ -230,6 +267,8 @@ export const orienteMunicipios: OrienteMunicipio[] = [
     distanceFromCandidate: 0,
     afiliadosContributivo: 5860,
     afiliadosSubsidiado: 11818,
+    travelTimeFromCandidatePostTunnel: 0, // not in matrix — no estimate available
+    travelTimeFromHPTUPostTunnel: 0,
   },
   {
     id: "san-vicente",
@@ -247,6 +286,8 @@ export const orienteMunicipios: OrienteMunicipio[] = [
     distanceFromCandidate: 0,
     afiliadosContributivo: 2625,
     afiliadosSubsidiado: 11410,
+    travelTimeFromCandidatePostTunnel: 0, // not in matrix — no estimate available
+    travelTimeFromHPTUPostTunnel: 0,
   },
 ];
 

@@ -335,15 +335,15 @@ export function OrienteFlowsSection() {
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
-        className="rounded-xl border-2 border-amber-300 bg-amber-50/50 p-5 sm:p-6"
+        className="rounded-xl border border-slate-200 bg-slate-50/50 p-5 sm:p-6"
       >
         <div className="flex items-start gap-3">
-          <Route className="h-6 w-6 text-amber-600 shrink-0 mt-0.5" />
+          <Route className="h-6 w-6 text-slate-500 shrink-0 mt-0.5" />
           <div>
-            <h4 className="font-serif text-lg font-bold text-amber-800">
+            <h4 className="font-serif text-lg font-bold text-slate-800">
               Access Point Estrategico: Corredor Sur-Oriente
             </h4>
-            <p className="text-sm text-amber-700 mt-1">
+            <p className="text-sm text-slate-700 mt-1">
               El sitio candidato captura el corredor sur-oriente con ventajas
               decisivas: <strong>El Retiro (-17.8 min)</strong>,{" "}
               <strong>La Ceja (-17.8 min)</strong> y{" "}
@@ -357,7 +357,7 @@ export function OrienteFlowsSection() {
               complementariedad convierte al candidato en la puerta de
               entrada natural del Oriente hacia servicios de alta complejidad.
             </p>
-            <p className="text-xs text-amber-600 mt-2 italic">
+            <p className="text-xs text-slate-600 mt-2 italic">
               Fuentes: ANI Peajes Colombia 2014-2024, Mapbox Directions API
               (driving-traffic), SISBEN IV afiliaciones
             </p>

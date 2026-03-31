@@ -1,0 +1,270 @@
+% ============================================================
+% Guía por Diapositiva — Plan de Expansión HPTU Abril 2026
+% Compilar con: lualatex guia-por-diapositiva-abril.tex
+% ============================================================
+\documentclass[11pt, a4paper]{article}
+\usepackage[margin=2cm]{geometry}
+\usepackage{fontspec}
+\usepackage{booktabs}
+\usepackage{tabularx}
+\usepackage{enumitem}
+\usepackage{xcolor}
+\usepackage{hyperref}
+\usepackage{titlesec}
+
+\setsansfont{Helvetica Neue}[BoldFont={Helvetica Neue Bold}]
+\renewcommand{\familydefault}{\sfdefault}
+
+\definecolor{hptu}{HTML}{00549F}
+\definecolor{teal}{HTML}{0D9488}
+\definecolor{coral}{HTML}{EF4444}
+
+\titleformat{\section}{\large\bfseries\color{hptu}}{}{0pt}{}
+\titleformat{\subsection}{\normalsize\bfseries\color{teal}}{}{0pt}{}
+
+\newcommand{\slide}[2]{\subsection{Slide #1: #2}}
+\newcommand{\say}[1]{\textcolor{hptu}{\textbf{Decir:}} ``#1''}
+\newcommand{\dato}[1]{\textcolor{teal}{\textbf{Dato:}} #1}
+\newcommand{\warn}[1]{\textcolor{coral}{\textbf{Ojo:}} #1}
+
+\begin{document}
+
+{\Huge\bfseries\color{hptu} Guía por Diapositiva}\\[6pt]
+{\Large Plan de Expansión HPTU --- Abril 2026}\\[4pt]
+{\normalsize 28 slides $\cdot$ $\sim$1 hora $\cdot$ 6 actos}\\[12pt]
+
+\section{ACTO 1: El Plan de Expansión (Slides 1--4, 5 min)}
+
+\slide{1}{Portada}
+\begin{itemize}[leftmargin=1cm]
+  \item \say{Bienvenidos. Hoy presentamos el Plan de Expansión del Hospital Pablo Tobón Uribe. Incorporamos todo el feedback de la Junta del 16 de marzo.}
+  \item \dato{3.8M+ registros, 15 fuentes, MCDA ahora con 5 dimensiones.}
+  \item \warn{Ya no decimos ``Nueva Sede'' --- es ``Plan de Expansión'' con foco ambulatorio.}
+\end{itemize}
+
+\slide{2}{Agenda}
+\begin{itemize}[leftmargin=1cm]
+  \item Presentar los 6 actos y tiempos. Enfatizar que el Acto 5 (modelo y recomendación) es el más largo (15 min).
+  \item Mencionar el dashboard interactivo: \url{https://hptu-localizacion.vercel.app}
+\end{itemize}
+
+\slide{3}{Lo que cambió --- Diálogo de 2 minutos}
+
+{\small\textcolor{hptu}{\textbf{--- INICIO DEL DIÁLOGO (2 min) ---}}}
+
+\begin{itemize}[leftmargin=0.5cm, itemsep=6pt]
+
+  \item \say{En la Junta del 16 de marzo recibimos seis indicaciones claras. Quiero mostrarles qué hicimos con cada una.}
+
+  \item \say{Primero, el nombre. Nos dijeron que ``Nueva Sede'' sonaba a otro hospital. Tenían razón. Esto no es un hospital nuevo --- es un \textbf{plan de expansión} de HPTU. Ahora se llama así en todo el estudio.}
+
+  \item \say{Segundo, el foco. La Junta fue enfática: nada de urgencias, nada de alta complejidad. Hecho. El portafolio ahora es exclusivamente ambulatorio --- imágenes, consulta, cirugía de día, wellness. Siete categorías de servicio, cero camas de hospitalización.}
+
+  \item \say{Tercero, San Vicente Fundación. En marzo presentamos las brechas del Oriente como si Somer fuera el único jugador de alta complejidad. La Junta nos corrigió: SVF Rionegro tiene oncología, radioterapia, cirugía y pediatría subespecializada. Ahora toda la presentación refleja que es un \textbf{duopolio}, no un monopolio. Y nuestra propuesta ambulatoria \textbf{complementa} a ambos, no compite.}
+
+  \item \say{Cuarto, el modelo MCDA. Nos pidieron reemplazar ``Valor Inmobiliario'' por algo más relevante. Lo reemplazamos con dos variables nuevas: \textbf{Visibilidad} --- cuánta gente ve la sede desde la vía --- y \textbf{Esperas Productivas} --- qué ecosistema de retail y servicios hay alrededor. ¿Por qué? Porque no vamos a comprar terreno. Vamos a arrendar en un edificio que ya existe. El valor del metro cuadrado es irrelevante; lo que importa es que nos vean y que el entorno funcione.}
+
+  \item \say{Quinto, los estratos. La Junta preguntó varias veces: de los 728 mil habitantes del Oriente, ¿cuántos son estrato 4, 5 y 6? Buscamos en datos.gov.co --- el dato directo no existe para todos los municipios. Solo Rionegro lo tiene público, por el Decreto 096 de 2021: 42\% de sus viviendas son estrato 4 o superior. Para los demás municipios construimos un proxy conservador. Somos transparentes sobre las limitaciones.}
+
+  \item \say{Y sexto, los referentes. Investigamos tres conceptos que la Junta mencionó: el modelo de Cleveland Clinic --- 270 centros ambulatorios satélite que heredan la marca del hospital principal ---; PRENUVO --- resonancia magnética preventiva de cuerpo completo como servicio premium diferenciador ---; y CEDIMED como referente local de imágenes que valida el modelo pero no tiene presencia en el Oriente. Todo esto está incorporado.}
+
+  \item \say{En resumen: los seis puntos del feedback están resueltos. Vamos a ver cada uno en detalle.}
+
+\end{itemize}
+
+{\small\textcolor{hptu}{\textbf{--- FIN DEL DIÁLOGO (2 min) ---}}}
+
+\vspace{4pt}
+\warn{Si preguntan por urgencias/UCI: ``No. Este plan es exclusivamente ambulatorio. No compite con Somer ni SVF. El campus de Robledo sigue siendo la referencia de alta complejidad.''}
+
+\slide{4}{Escala del análisis}
+\begin{itemize}[leftmargin=1cm]
+  \item Mostrar la fórmula MCDA de 5 dimensiones.
+  \item \say{Reemplazamos Valor Inmobiliario por Visibilidad y Esperas Productivas. ¿Por qué? Porque no vamos a comprar terreno --- vamos a arrendar en Access Point. Lo que importa es que la gente nos vea y que el entorno sea productivo.}
+  \item \dato{Monte Carlo 3,000 iteraciones, 6 escenarios.}
+\end{itemize}
+
+\section{ACTO 2: El Mercado Dual (Slides 5--10, 10 min)}
+
+\slide{5}{El Poblado}
+\begin{itemize}[leftmargin=1cm]
+  \item \say{El primer mercado: 174,543 predios E5/E6 en 22 barrios del Poblado. 42,000 vehículos diarios en Las Palmas. Cero camas de alta complejidad en el corredor.}
+  \item \dato{Catastro Medellín, MEData Aforos, DENSURBAM.}
+\end{itemize}
+
+\slide{6}{Oriente Antioqueño}
+\begin{itemize}[leftmargin=1cm]
+  \item \say{El segundo mercado: 728,000 habitantes con infraestructura de salud crítica.}
+  \item \warn{Decir DUOPOLIO: ``Somer y San Vicente Fundación son el duopolio de alta complejidad en el Oriente. Nuestra oportunidad es ambulatoria --- complementamos, no competimos.''}
+  \item \dato{3 municipios con $>$50\% contributivo: Rionegro (54.9\%), El Retiro (56.8\%), La Ceja (51.4\%).}
+\end{itemize}
+
+\slide{7}{Estratos 4/5/6 en el Oriente}
+\begin{itemize}[leftmargin=1cm]
+  \item \say{La Junta preguntó: de los 728,000, ¿cuántos son estrato 4, 5, 6? El dato directo solo existe para Rionegro.}
+  \item Mostrar: Rionegro tiene 18,852 viviendas E4+ (42.1\% del total, Decreto 096/2021).
+  \item \say{Para los demás municipios usamos un proxy basado en la relación entre estrato y afiliación contributiva. Estimación conservadora: $\sim$53,800 viviendas E4+ en todo el Oriente.}
+  \item \warn{Ser transparente: ``Es un proxy. datos.gov.co no tiene el dato directo para todos los municipios. Solo Rionegro lo tiene público.''}
+\end{itemize}
+
+\slide{8}{Brechas ambulatorias}
+\begin{itemize}[leftmargin=1cm]
+  \item Tabla actualizada con SVF. Ya no dice ``Solo Somer''.
+  \item \say{Rehabilitación especializada y chequeo ejecutivo son INEXISTENTES. Ahí está la oportunidad más clara.}
+  \item \dato{Fuentes: REPS, Google Places, confirmación verbal de la Junta.}
+\end{itemize}
+
+\slide{9}{Tráfico}
+\begin{itemize}[leftmargin=1cm]
+  \item \say{42,000 vehículos por día pasan por Vía Las Palmas. Esto le da a Access Point el score de Visibilidad más alto de las 6 zonas: 90 sobre 100.}
+  \item Comparar velocidad Las Palmas vs El Poblado en hora pico: 36.1 vs 18.0 km/h.
+\end{itemize}
+
+\slide{10}{Túnel 2da etapa}
+\begin{itemize}[leftmargin=1cm]
+  \item \say{El game changer. La segunda etapa del Túnel de Oriente entrega en el segundo semestre de 2027. Access Point en Km 7 queda como nodo de entrada a la doble calzada.}
+  \item Mostrar tabla de tiempos: Aeropuerto pasa de 51 min a $\sim$25 min.
+  \item \dato{COP \$1.8 billones de inversión, 19\% avance.}
+  \item \warn{Si preguntan ``¿y si el Túnel se retrasa?'': ``Los tiempos actuales (sin Túnel) ya justifican la recomendación. El Túnel es upside, no condición.''}
+\end{itemize}
+
+\section{ACTO 3: Los Fundamentales (Slides 11--13, 10 min)}
+
+\slide{11}{Infraestructura de salud Oriente}
+\begin{itemize}[leftmargin=1cm]
+  \item Tabla de camas por municipio --- 55\% concentradas en Rionegro, 4 municipios con $<$1 cama/1000.
+  \item \say{La brecha no es de camas --- eso es inpatient y lo cubren Somer y SVF. La brecha es de SERVICIOS AMBULATORIOS especializados.}
+  \item \warn{Recalcar duopolio, NO monopolio: ``Somer Y San Vicente Fundación.''}
+\end{itemize}
+
+\slide{12}{8 indicadores}
+\begin{itemize}[leftmargin=1cm]
+  \item \say{8 de 8 indicadores son crecientes. La demanda no va a disminuir.}
+  \item Dato más impactante: prepagada Antioquia +37\% en 3 años.
+\end{itemize}
+
+\slide{13}{Demanda capturable}
+\begin{itemize}[leftmargin=1cm]
+  \item Flujo: 728K $\to$ 218K necesitan especialización $\to$ 65K viajan a Medellín $\to$ Access Point intercepta 45K consultas/año.
+  \item \dato{SURA domina 64-79\% del mercado contributivo.}
+\end{itemize}
+
+\section{ACTO 4: Las 6 Preguntas (Slides 14--16, 12 min)}
+
+\slide{14}{6 preguntas resumen}
+\begin{itemize}[leftmargin=1cm]
+  \item \say{Las mismas 6 preguntas de marzo, con tiempos actualizados post-Túnel. Todas siguen siendo Sí.}
+  \item La Q2 ahora dice ``$\sim$25 min'' en lugar de ``--17.8 min'' --- refleja post-Túnel.
+\end{itemize}
+
+\slide{15}{Q1--Q3 desarrolladas}
+\begin{itemize}[leftmargin=1cm]
+  \item Tres columnas con datos de soporte. Enfatizar: pacientes hay (728K + 174K predios), sí vendrán ($\sim$25 min post-Túnel), sí pueden pagar (384K contributivos).
+  \item \warn{Si preguntan ``¿pero la gente va a ir a Las Palmas por salud?'': ``42,000 vehículos diarios ya pasan por ahí. No es que vayan --- ya están pasando.''}
+\end{itemize}
+
+\slide{16}{Q4--Q6 desarrolladas}
+\begin{itemize}[leftmargin=1cm]
+  \item Q5: tabla de inversiones de competidores = \$590,000M combinados. ``Si ellos están invirtiendo, la demanda es real.''
+  \item \warn{Si preguntan por Q6 (turismo médico): ``El dato de USD \$11.7M es conservador --- asume captura del 5\%. PRENUVO podría ser un acelerador.''}
+\end{itemize}
+
+\section{ACTO 5: El Modelo y la Recomendación (Slides 17--28, 15 min)}
+
+\slide{17}{MCDA 5 dimensiones}
+\begin{itemize}[leftmargin=1cm]
+  \item Explicar las 2 variables nuevas: Visibilidad y Esperas Productivas.
+  \item \say{El valor inmobiliario era relevante si comprábamos terreno. En el modelo de arriendo en Access Point, lo que importa es la visibilidad --- que la gente nos vea --- y el ecosistema alrededor.}
+\end{itemize}
+
+\slide{18}{Ranking MCDA}
+\begin{itemize}[leftmargin=1cm]
+  \item \say{Access Point es \#2 con 78/100. Las Palmas Bajo sigue siendo \#1 con 88. Pero Access Point tiene la Demanda más alta de las zonas: 91/100. Visibilidad 78/100 (tráfico ≠ demanda médica).}
+  \item \say{Monte Carlo: Access Point está en el top-2 en más del 78\% de las 3,000 simulaciones.}
+\end{itemize}
+
+\slide{19}{Concepto ambulatorio --- Cleveland Clinic}
+\begin{itemize}[leftmargin=1cm]
+  \item \say{Esto no es un hospital nuevo. Es un centro ambulatorio que hereda la marca HPTU --- como Cleveland Clinic hace con sus 270 ubicaciones satélite.}
+  \item Listar los 7 servicios. Listar las 5 exclusiones.
+  \item \warn{Insistir: ``Sin urgencias, sin camas, sin UCI, sin trasplantes.''}
+\end{itemize}
+
+\slide{20}{PRENUVO}
+\begin{itemize}[leftmargin=1cm]
+  \item \say{El diferenciador. Full-body MRI preventivo. Nadie en Antioquia lo ofrece. Target perfecto: ejecutivos Zona Franca, viajeros del aeropuerto, E5/E6 del Poblado.}
+  \item \dato{USD \$1,800--\$2,499 por escaneo, wait list de 3-6 meses en EE.UU.}
+\end{itemize}
+
+\slide{21}{CEDIMED y competencia en imágenes}
+\begin{itemize}[leftmargin=1cm]
+  \item \say{CEDIMED es el referente en imágenes en Antioquia --- 35 años, 4 sedes, convenios con todas las EPS. Pero no tiene presencia en el Oriente.}
+  \item \say{La diferencia: CEDIMED es solo imágenes. Nosotros somos imágenes + consulta + cirugía + wellness. Portafolio integrado.}
+  \item \dato{Revenue imágenes estimado: COP \$18,000M/año --- la línea más grande del portafolio ambulatorio.}
+\end{itemize}
+
+\slide{22}{Financiero ambulatorio}
+\begin{itemize}[leftmargin=1cm]
+  \item CAPEX: COP \$67,000M (fit-out + equipos, SIN construcción).
+  \item Revenue año maduro: COP \$51,000M. EBITDA 18\%: COP \$9,200M.
+  \item Payback: 6--8 años (escenario base). Ramp-up: 40\%/65\%/85\%/100\%.
+  \item \say{La ventaja de Access Point: edificio existente. Solo fit-out, 18-24 meses. Podríamos abrir en H1 2028.}
+  \item \warn{Si preguntan por fuentes del modelo financiero: ``Los parámetros de revenue por línea son estimaciones basadas en benchmarks del sector. Se requiere un modelo financiero detallado como próximo paso.''}
+\end{itemize}
+
+\slide{23}{Esperas productivas}
+\begin{itemize}[leftmargin=1cm]
+  \item Explicar el concepto: transformar la espera del paciente en experiencia positiva.
+  \item \say{Access Point tiene 4 torres de oficinas. Los primeros pisos pueden ser retail, cafeterías, farmacias. El centro médico se vuelve un anchor --- como Cleveland Clinic hace en cada satélite.}
+\end{itemize}
+
+\slide{24}{Ficha Access Point}
+\begin{itemize}[leftmargin=1cm]
+  \item Resumen ejecutivo: 4 torres, 10 pisos, 1,085 parqueaderos, Score 78/100.
+  \item \say{18 minutos a HPTU Robledo. $\sim$25 minutos al aeropuerto post-Túnel. Sin pico y placa. POT permite 19 pisos.}
+\end{itemize}
+
+\section{ACTO 6: Siguiente Paso (Slides 25--28, 8 min)}
+
+\slide{25}{Competidores}
+\begin{itemize}[leftmargin=1cm]
+  \item \say{La ventana se cierra. Campestre ya abrió en Rionegro. Torre Oviedo ya opera. SVF va a 500 camas.}
+  \item \say{Pero ninguno tiene JCI, ni la marca de HPTU, ni el portafolio completo que proponemos.}
+\end{itemize}
+
+\slide{26}{Próximos pasos}
+\begin{itemize}[leftmargin=1cm]
+  \item 6 pasos concretos. Los 3 primeros en abril.
+  \item \say{Lo primero: visitar Access Point, verificar el POT y hablar con Acierto Inmobiliario.}
+\end{itemize}
+
+\slide{27}{Síntesis}
+\begin{itemize}[leftmargin=1cm]
+  \item 3 cajas: ¿Por qué Access Point? / ¿Por qué ambulatorio? / ¿Por qué ahora?
+  \item \say{Recomendación: sede ambulatoria HPTU en Access Point, Km 7 Vía Las Palmas.}
+\end{itemize}
+
+\slide{28}{Cierre}
+\begin{itemize}[leftmargin=1cm]
+  \item Slide de cierre con datos clave. Abrir Q\&A.
+\end{itemize}
+
+\vspace{12pt}
+\hrule
+\vspace{6pt}
+{\small\textcolor{hptu}{\textbf{Preguntas anticipadas:}}}
+\begin{enumerate}[leftmargin=1cm]\small
+  \item \textbf{``¿Y las urgencias?''} --- No. Esto es ambulatorio. El campus de Robledo sigue siendo la referencia de alta complejidad.
+  \item \textbf{``¿Y si el Túnel se retrasa?''} --- Los tiempos actuales ya justifican. El Túnel es upside.
+  \item \textbf{``¿Por qué Access Point y no Las Palmas Bajo?''} --- LP Bajo lidera (88 vs 78). Pero LP Bajo requiere compra de lote + diseño + construcción = 54+ meses. Access Point tiene edificio existente: 18-24 meses. Es un argumento de \textbf{velocidad}, no de score. Además, AP captura 298K del Oriente que LP Bajo no alcanza.
+  \item \textbf{``¿Por qué no abrir directamente en El Poblado?''} --- El Poblado ya tiene Torre Oviedo (87 consultorios), Rosario Tesoro, CEDIMED, BlueCare. La competencia ambulatoria es densa. Access Point ofrece algo que ninguna sede en El Poblado puede: acceso a 298K personas del Oriente sin oferta ambulatoria especializada.
+  \item \textbf{``¿Y Torre Médica Oviedo? Es lo mismo que ustedes proponen.''} --- Torre Oviedo es ambulatorio premium en El Poblado. Es nuestro competidor directo a 2.65 km. La diferencia: HPTU tiene marca JCI (única en Antioquia), portafolio integrado de 7 categorías, y captación del Oriente. Torre Oviedo no captura Oriente.
+  \item \textbf{``¿Cuánto cuesta?''} --- \$67,000M. Payback 6-8 años base. 3 escenarios: pesimista 12a, base 7a, optimista 5a.
+  \item \textbf{``¿SVF no nos gana?''} --- SVF va a 500 camas (inpatient). Nosotros vamos a ambulatorio. No competimos.
+  \item \textbf{``¿De los 728K cuántos son E4/5/6?''} --- Dato directo solo para Rionegro: 42.1\%. Proxy total Oriente: ~53,800 viviendas E4+.
+  \item \textbf{``¿Han hablado con Acierto Inmobiliario?''} --- Es el próximo paso inmediato. Antes de cualquier compromiso financiero, necesitamos verificar disponibilidad, precio real de arriendo y factibilidad estructural para equipos médicos pesados.
+  \item \textbf{``¿Dónde queda el PET-CT?''} --- Fase 2. El PET-CT requiere logística de FDG (fluorodesoxiglucosa) y un volumen oncológico que justifique la inversión de \$14,000M. Lo incluimos cuando el centro tenga tracción.
+  \item \textbf{``¿De dónde salen los especialistas?''} --- La sede ambulatoria absorbe consultas y procedimientos que hoy saturan Robledo. Libera capacidad del campus principal para alta complejidad.
+\end{enumerate}
+
+\end{document}

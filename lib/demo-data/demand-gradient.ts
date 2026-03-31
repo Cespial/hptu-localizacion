@@ -223,7 +223,7 @@ export type HealthNode = {
   name: string;
   type: string;
   beds: number;
-  occupancy: string;
+  occupancy?: string;
   municipality: string;
   repsSource: string;
   coordinates: string;
@@ -234,38 +234,38 @@ export const healthNodes: HealthNode[] = [
   {
     name: "Hospital Pablo Tobon Uribe",
     type: "Alta complejidad - Privada",
-    beds: 1094, // Real REPS data (was 547 in demo)
-    occupancy: "96%",
+    beds: 540, // Camas hospitalarias (sede principal). Corregido: REPS reporta 1,094 capacidad instalada total (incluye camillas, consultorios, sillas).
+    occupancy: undefined,
     municipality: "Medellin (Prado)",
-    repsSource: "REPS b4dp-ximh, Capacidad s2ru-bqt6",
+    repsSource: "REPS b4dp-ximh, Capacidad s2ru-bqt6, confirmado HPTU",
     coordinates: "6.2683, -75.5644",
-    gap: "Distancia a E5/E6 del Poblado: 23.8 min (Mapbox). 1,094 camas. Saturacion critica.",
+    gap: "Distancia a E5/E6 del Poblado: 23.8 min (Mapbox). 540 camas hospitalarias. Saturacion critica.",
   },
   {
     name: "Clinica Medellin S.A.S.",
     type: "Alta complejidad - Privada",
-    beds: 624, // Real REPS
-    occupancy: "88%",
+    beds: 184, // Camas hospitalarias. REPS reporta 624 capacidad instalada total.
+    occupancy: undefined,
     municipality: "Medellin (El Poblado)",
     repsSource: "REPS b4dp-ximh, Capacidad s2ru-bqt6",
     coordinates: "6.208, -75.567",
-    gap: "624 camas. Atiende E4-E6 con EPS contributiva. Sin trasplantes ni hematologia avanzada.",
+    gap: "184 camas hospitalarias. Atiende E4-E6 con EPS contributiva. Sin trasplantes ni hematologia avanzada.",
   },
   {
     name: "Clinica del Prado S.A.S.",
     type: "Alta complejidad - Privada",
-    beds: 304, // Real REPS
-    occupancy: "85%",
+    beds: 152, // Camas hospitalarias. REPS reporta 304 capacidad instalada total.
+    occupancy: undefined,
     municipality: "Medellin",
     repsSource: "REPS b4dp-ximh, Capacidad s2ru-bqt6",
     coordinates: "6.260, -75.566",
-    gap: "304 camas. Competidor en zona norte, no en corredor sur/Las Palmas.",
+    gap: "152 camas hospitalarias. Competidor en zona norte, no en corredor sur/Las Palmas.",
   },
   {
     name: "Hospital General de Medellin (ESE)",
     type: "Nivel 3 - Publica",
-    beds: 384, // Real REPS
-    occupancy: "92%",
+    beds: 384, // Camas hospitalarias REPS
+    occupancy: undefined,
     municipality: "Medellin",
     repsSource: "REPS b4dp-ximh, ESE pi36-fdpk",
     coordinates: "6.23477, -75.572848 (ESE GPS)",
@@ -274,8 +274,8 @@ export const healthNodes: HealthNode[] = [
   {
     name: "Clinica CES",
     type: "Alta complejidad - Privada",
-    beds: 213, // Real REPS (Capacidad s2ru-bqt6): 170 Adultos + 21 Intermedio + 22 Intensivo
-    occupancy: "82%",
+    beds: 213, // Camas hospitalarias REPS (Capacidad s2ru-bqt6): 170 Adultos + 21 Intermedio + 22 Intensivo
+    occupancy: undefined,
     municipality: "Medellin (La Candelaria / Prado Centro)",
     repsSource: "REPS b4dp-ximh, Capacidad s2ru-bqt6",
     coordinates: "6.2573, -75.5655 (Google Geocoding: CL 58 #50C-2, La Candelaria)",
@@ -285,7 +285,7 @@ export const healthNodes: HealthNode[] = [
     name: "Clinica del Rosario sede Tesoro",
     type: "Mediana-Alta complejidad - Privada",
     beds: 158, // Real REPS (s2ru-bqt6): Ped=24, Ad=69, IntNeo=3, IntPed=4, IntAd=25, ICUNeo=6, ICUPed=6, ICUAd=14, etc.
-    occupancy: "85%",
+    occupancy: undefined,
     municipality: "Medellin (El Poblado)",
     repsSource: "REPS b4dp-ximh, Capacidad s2ru-bqt6, Google Geocoding",
     coordinates: "6.1939, -75.5574 (Google Geocoding: Cra. 20 #2 sur-185, El Poblado)",
@@ -295,7 +295,7 @@ export const healthNodes: HealthNode[] = [
     name: "Clinica Las Vegas",
     type: "Mediana-Alta complejidad - Privada",
     beds: 171, // Real REPS: Adultos=147, Intermedia=6, Intensiva=18
-    occupancy: "80%",
+    occupancy: undefined,
     municipality: "Medellin (El Poblado)",
     repsSource: "REPS b4dp-ximh, Capacidad s2ru-bqt6, Google Geocoding",
     coordinates: "6.2031, -75.5760 (Google Geocoding: Cl. 2 Sur #46-55, El Poblado)",
@@ -305,7 +305,7 @@ export const healthNodes: HealthNode[] = [
     name: "ESE Hospital Manuel Uribe Angel",
     type: "Nivel 2 - Publica",
     beds: 120, // estimated
-    occupancy: "78%",
+    occupancy: undefined,
     municipality: "Envigado",
     repsSource: "REPS b4dp-ximh, ESE pi36-fdpk",
     coordinates: "6.166892, -75.580128 (ESE GPS)",

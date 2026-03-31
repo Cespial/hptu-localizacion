@@ -1,0 +1,85 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": { "label": "174K predios E5/E6", "size": 15, "color": "#0d9488", "anchor": "center", "group": "data" },
+      "geometry": { "type": "Point", "coordinates": [-75.570, 6.205] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "label": "298K hab\nOriente cercano", "size": 14, "color": "#3b82f6", "anchor": "center", "group": "data" },
+      "geometry": { "type": "Point", "coordinates": [-75.44, 6.17] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "label": "42K veh/dia", "size": 13, "color": "#8b5cf6", "anchor": "center", "group": "data" },
+      "geometry": { "type": "Point", "coordinates": [-75.540, 6.195] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "label": "Sede Ambulatoria\n$67.000M COP", "size": 14, "color": "#e11d48", "anchor": "center", "group": "data" },
+      "geometry": { "type": "Point", "coordinates": [-75.552, 6.222] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "label": "HPTU Campus\n540 camas", "size": 13, "color": "#ef4444", "anchor": "center", "group": "data" },
+      "geometry": { "type": "Point", "coordinates": [-75.583, 6.280] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "label": "CC El Tesoro", "size": 10, "color": "#64748b", "anchor": "center", "group": "landmark" },
+      "geometry": { "type": "Point", "coordinates": [-75.5589, 6.1996] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "label": "CC Oviedo", "size": 10, "color": "#64748b", "anchor": "center", "group": "landmark" },
+      "geometry": { "type": "Point", "coordinates": [-75.5660, 6.2050] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "label": "Club El Rodeo", "size": 10, "color": "#64748b", "anchor": "center", "group": "landmark" },
+      "geometry": { "type": "Point", "coordinates": [-75.5567, 6.2123] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "label": "EIA Universidad", "size": 10, "color": "#64748b", "anchor": "center", "group": "landmark" },
+      "geometry": { "type": "Point", "coordinates": [-75.5480, 6.2020] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "label": "Aeropuerto JMC ✈", "size": 11, "color": "#3b82f6", "anchor": "center", "group": "landmark" },
+      "geometry": { "type": "Point", "coordinates": [-75.4231, 6.1646] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "label": "Zona Franca\nRionegro", "size": 10, "color": "#3b82f6", "anchor": "center", "group": "landmark" },
+      "geometry": { "type": "Point", "coordinates": [-75.3900, 6.1480] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "label": "Túnel de Oriente →", "size": 12, "color": "#7c3aed", "anchor": "center", "group": "landmark" },
+      "geometry": { "type": "Point", "coordinates": [-75.510, 6.195] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "label": "Torre Oviedo\n(2.65 km)", "size": 10, "color": "#dc2626", "anchor": "center", "group": "competitor" },
+      "geometry": { "type": "Point", "coordinates": [-75.5645, 6.2070] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "label": "Cl. Rosario\n(0.93 km)", "size": 10, "color": "#dc2626", "anchor": "center", "group": "competitor" },
+      "geometry": { "type": "Point", "coordinates": [-75.5600, 6.2010] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "label": "Cl. Somer", "size": 10, "color": "#dc2626", "anchor": "center", "group": "competitor" },
+      "geometry": { "type": "Point", "coordinates": [-75.3780, 6.1530] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "label": "SVF Rionegro", "size": 10, "color": "#dc2626", "anchor": "center", "group": "competitor" },
+      "geometry": { "type": "Point", "coordinates": [-75.3700, 6.1580] }
+    }
+  ]
+}

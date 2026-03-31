@@ -6,15 +6,15 @@ import { Button } from "@/components/ui/button";
 import { AnimatedCounter } from "@/components/shared/animated-counter";
 
 const stats = [
-  { icon: Route, label: "Fases Completadas", value: 2, suffix: "/4" },
-  { icon: MapPin, label: "Zonas Candidatas", value: 5, suffix: "" },
+  { icon: Route, label: "Dimensiones MCDA", value: 5, suffix: "" },
+  { icon: MapPin, label: "Zonas Candidatas", value: 6, suffix: "" },
   { icon: BarChart3, label: "Score MCDA Lider", value: 88, prefix: "", suffix: "/100" },
   { icon: Calendar, label: "Fuentes Primarias", value: 15, suffix: "" },
 ];
 
 export function HeroSection() {
   return (
-    <section className="relative min-h-screen overflow-hidden bg-gradient-to-br from-[#00549f] via-[#003d75] to-[#0f172a]">
+    <section id="hero" className="relative min-h-screen overflow-hidden bg-gradient-to-br from-[#00549f] via-[#003d75] to-[#0f172a]">
       {/* Grid pattern overlay */}
       <div className="absolute inset-0 opacity-[0.07]">
         <svg width="100%" height="100%">
@@ -61,7 +61,7 @@ export function HeroSection() {
           >
             <span className="inline-flex items-center gap-2 rounded-full border border-white/20 bg-white/10 px-4 py-1.5 text-sm text-white/90 backdrop-blur-sm">
               <span className="h-2 w-2 rounded-full bg-teal-400 animate-pulse" />
-              Fases 1 y 2 Completadas - Avance 6 de Marzo
+              Plan de Expansion — Sede Ambulatoria
             </span>
           </motion.div>
 
@@ -72,9 +72,9 @@ export function HeroSection() {
             transition={{ delay: 0.3 }}
             className="font-serif text-4xl font-bold text-white sm:text-5xl lg:text-6xl tracking-tight"
           >
-            Estudio de Localizacion
+            Plan de Expansion
             <br />
-            <span className="text-teal-300">Estrategica</span>
+            <span className="text-teal-300">HPTU</span>
           </motion.h1>
 
           <motion.p
@@ -83,7 +83,7 @@ export function HeroSection() {
             transition={{ delay: 0.4 }}
             className="mt-3 text-lg font-semibold text-white/90 sm:text-xl md:text-2xl"
           >
-            HPTU Nueva Sede
+            Sede Ambulatoria — Localizacion Estrategica
           </motion.p>
 
           <motion.p
@@ -92,10 +92,9 @@ export function HeroSection() {
             transition={{ delay: 0.5 }}
             className="mt-4 max-w-2xl text-base text-white/70 sm:text-lg"
           >
-            Estudio de localizacion con 3.8M+ registros de 15 fuentes primarias:
-            Catastro Municipal (bp59-rj8r), DANE CNPV 2018 (evm3-92yw), REPS MinSalud (b4dp-ximh, s2ru-bqt6),
-            MEData Aforos (b9s9-jw7c, 7t5n-3b3w), POT Indicadores (3ciz-tpgr), Mapbox Directions API,
-            Google Routes API y OpenStreetMap.
+            Modelo MCDA de 5 dimensiones con 3.8M+ registros de 15 fuentes primarias.
+            Foco ambulatorio: imagenes, consulta especializada, cirugia de dia, wellness.
+            Sin urgencias, sin alta complejidad — herencia de marca HPTU.
           </motion.p>
 
           {/* CTAs */}
@@ -103,25 +102,33 @@ export function HeroSection() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.6 }}
-            className="mt-8 flex flex-col sm:flex-row gap-4"
+            className="mt-8 flex flex-col items-center gap-4"
           >
-            <Button
-              size="lg"
-              className="bg-teal-500 hover:bg-teal-600 text-white shadow-lg shadow-teal-500/25"
-              onClick={() => document.getElementById("metodologia")?.scrollIntoView({ behavior: "smooth" })}
-            >
-              <Route className="mr-2 h-4 w-4" />
-              Ver Metodologia
-            </Button>
-            <Button
-              size="lg"
-              variant="outline"
-              className="border-white/30 text-white hover:bg-white/10 backdrop-blur-sm"
+            <div className="flex flex-col sm:flex-row gap-4">
+              <Button
+                size="lg"
+                className="bg-teal-500 hover:bg-teal-600 text-white shadow-lg shadow-teal-500/25"
+                onClick={() => document.getElementById("concepto-ambulatorio")?.scrollIntoView({ behavior: "smooth" })}
+              >
+                <Route className="mr-2 h-4 w-4" />
+                Ver Recomendacion
+              </Button>
+              <Button
+                size="lg"
+                variant="outline"
+                className="border-white/30 text-white hover:bg-white/10 backdrop-blur-sm"
+                onClick={() => document.getElementById("modelo-financiero")?.scrollIntoView({ behavior: "smooth" })}
+              >
+                <BarChart3 className="mr-2 h-4 w-4" />
+                Modelo Financiero
+              </Button>
+            </div>
+            <button
               onClick={() => document.getElementById("mapa-estrategico")?.scrollIntoView({ behavior: "smooth" })}
+              className="text-sm text-white/60 hover:text-white/90 underline underline-offset-4 transition-colors"
             >
-              <MapPin className="mr-2 h-4 w-4" />
-              Explorar Mapa Estrategico
-            </Button>
+              Explorar Mapa
+            </button>
           </motion.div>
 
           {/* Stats */}

@@ -35,8 +35,8 @@ const bedData = healthNodes
       .replace("ESE Hospital Manuel Uribe Angel", "H. Uribe Angel"),
     fullName: node.name,
     beds: node.beds,
-    occupancy: parseInt(node.occupancy),
-    available: Math.round(node.beds * (1 - parseInt(node.occupancy) / 100)),
+    occupancy: node.occupancy ? parseInt(node.occupancy) : 0,
+    available: 0,
     type: node.type,
     municipality: node.municipality,
   }));
@@ -47,8 +47,8 @@ const coverageData = [
     area: "Medellin",
     population: poblacionDane.censoNacional2018.medellin,
     projection2026: poblacionDane.proyecciones2026.medellin,
-    beds: 1094 + 624 + 304 + 384, // Major hospitals
-    ratio: Math.round(poblacionDane.censoNacional2018.medellin / (1094 + 624 + 304 + 384)),
+    beds: 540 + 184 + 152 + 384, // Major hospitals (camas hospitalarias)
+    ratio: Math.round(poblacionDane.censoNacional2018.medellin / (540 + 184 + 152 + 384)),
   },
   {
     area: "Envigado",
@@ -84,10 +84,6 @@ const ipsDistribution = [
 
 export function HealthGapSection() {
   const totalBeds = bedData.reduce((sum, h) => sum + h.beds, 0);
-  const avgOccupancy = Math.round(
-    bedData.reduce((sum, h) => sum + h.occupancy * h.beds, 0) / totalBeds
-  );
-
   return (
     <SectionWrapper id="brecha-salud">
       <div className="text-center mb-8 lg:mb-10">
@@ -99,7 +95,7 @@ export function HealthGapSection() {
         </h2>
         <p className="mt-3 text-muted-foreground max-w-2xl mx-auto">
           Analisis de 1,536 IPS registradas en REPS (Valle de Aburra), capacidad
-          instalada de 2,739 camas en 6 hospitales principales, y cobertura
+          instalada de 1,593 camas hospitalarias en 6 hospitales principales, y cobertura
           poblacional con datos DANE CNPV 2018.
         </p>
       </div>
@@ -128,15 +124,12 @@ export function HealthGapSection() {
           className="rounded-xl border bg-card p-4 text-center"
         >
           <p className="text-[10px] text-muted-foreground uppercase tracking-wider font-medium">
-            Ocupacion Avg
+            Total Camas
           </p>
-          <p className={cn(
-            "text-2xl font-bold mt-1",
-            avgOccupancy >= 90 ? "text-red-600" : avgOccupancy >= 80 ? "text-amber-600" : "text-teal-600"
-          )}>
-            {avgOccupancy}%
+          <p className="text-2xl font-bold mt-1 text-red-600">
+            {formatNumber(totalBeds)}
           </p>
-          <p className="text-[10px] text-muted-foreground">ponderada por camas</p>
+          <p className="text-[10px] text-muted-foreground">camas hospitalarias</p>
         </motion.div>
         <motion.div
           initial={{ opacity: 0, y: 15 }}
@@ -177,7 +170,7 @@ export function HealthGapSection() {
           <div className="flex items-center gap-2 mb-1">
             <Hospital className="h-4 w-4 text-red-500" />
             <h3 className="text-sm font-bold">
-              Capacidad Instalada (Camas) y Ocupacion
+              Capacidad Hospitalaria (Camas)
             </h3>
           </div>
           <p className="text-[10px] text-muted-foreground mb-4">
@@ -202,7 +195,7 @@ export function HealthGapSection() {
                 contentStyle={{ fontSize: "11px" }}
                 formatter={(value, name) => {
                   if (name === "beds") return [`${formatNumber(Number(value))} camas`, "Capacidad"];
-                  return [`${value}%`, "Ocupacion"];
+                  return [`${value}`, ""];
                 }}
                 labelFormatter={(label) => {
                   const h = bedData.find((b) => b.name === label);
@@ -214,9 +207,9 @@ export function HealthGapSection() {
                   <Cell
                     key={entry.name}
                     fill={
-                      entry.occupancy >= 90
+                      entry.beds >= 400
                         ? "#ef4444"
-                        : entry.occupancy >= 80
+                        : entry.beds >= 150
                         ? "#f59e0b"
                         : "#10b981"
                     }
@@ -228,13 +221,13 @@ export function HealthGapSection() {
           </ResponsiveContainer>
           <div className="flex items-center justify-center gap-4 mt-2 text-[10px] text-muted-foreground">
             <span className="flex items-center gap-1">
-              <span className="h-2.5 w-2.5 rounded-sm bg-red-400" /> Ocupacion &ge;90%
+              <span className="h-2.5 w-2.5 rounded-sm bg-red-400" /> &ge;400 camas
             </span>
             <span className="flex items-center gap-1">
-              <span className="h-2.5 w-2.5 rounded-sm bg-amber-400" /> 80-89%
+              <span className="h-2.5 w-2.5 rounded-sm bg-amber-400" /> 150-399
             </span>
             <span className="flex items-center gap-1">
-              <span className="h-2.5 w-2.5 rounded-sm bg-emerald-400" /> &lt;80%
+              <span className="h-2.5 w-2.5 rounded-sm bg-emerald-400" /> &lt;150
             </span>
           </div>
         </motion.div>
@@ -392,8 +385,8 @@ export function HealthGapSection() {
           <p className="text-[10px] text-muted-foreground">
             <strong>Referencia OMS:</strong> Se recomiendan 3-5 camas por cada 1,000 habitantes.
             Medellin tiene <strong>1.0 camas/1,000 hab</strong> en hospitales principales (deficit significativo).
-            Envigado tiene solo <strong>0.6 camas/1,000</strong>. La nueva sede HPTU en el corredor sur
-            contribuiria a cerrar esta brecha critica.
+            Envigado tiene solo <strong>0.6 camas/1,000</strong>. La sede ambulatoria HPTU en el corredor sur
+            contribuiria a cerrar esta brecha critica con servicios especializados.
           </p>
         </div>
       </motion.div>
@@ -403,27 +396,27 @@ export function HealthGapSection() {
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
-        className="rounded-xl border-2 border-red-300 bg-red-50/50 p-5 sm:p-6"
+        className="rounded-xl border border-slate-200 bg-slate-50/50 p-5 sm:p-6"
       >
         <div className="flex items-start gap-3">
-          <AlertTriangle className="h-6 w-6 text-red-600 shrink-0 mt-0.5" />
+          <AlertTriangle className="h-6 w-6 text-slate-500 shrink-0 mt-0.5" />
           <div>
-            <h4 className="font-serif text-lg font-bold text-red-800">
+            <h4 className="font-serif text-lg font-bold text-slate-800">
               Brecha Critica: Cero Camas de Alta Complejidad en el Corredor Las Palmas
             </h4>
-            <p className="text-sm text-red-700 mt-1">
+            <p className="text-sm text-slate-700 mt-1">
               El corredor Las Palmas — que conecta a los <strong>38,415 predios estrato 6</strong> del
               Poblado con el altiplano — tiene <strong>cero camas de alta complejidad</strong>. Las clinicas
               mas cercanas al corredor son <strong>Cl. del Rosario Tesoro (158 camas, 0.93 km)</strong> y{" "}
               <strong>Cl. Las Vegas (171 camas, 3.12 km)</strong>, pero ninguna ofrece trasplantes, oncologia
               avanzada ni hematologia. La Clinica CES (213 camas) esta en <strong>Prado Centro, a 7.16 km</strong> del
-              corredor (verificado con Google Geocoding). HPTU en Prado opera al <strong>96% de ocupacion</strong> con
-              1,094 camas y esta a <strong>23.8 minutos</strong>. Con <strong>+6.1% de crecimiento poblacional</strong> al
-              2026 en Medellin y <strong>+17.1% en Envigado</strong>, la demanda seguira creciendo. Una nueva sede
-              en Las Palmas Bajo cerraria esta brecha, ofreciendo alta complejidad a menos de{" "}
+              corredor (verificado con Google Geocoding). HPTU en Prado tiene <strong>540 camas hospitalarias</strong> y
+              esta a <strong>23.8 minutos</strong>. Con <strong>+6.1% de crecimiento poblacional</strong> al
+              2026 en Medellin y <strong>+17.1% en Envigado</strong>, la demanda seguira creciendo. La sede ambulatoria
+              en el corredor Las Palmas cerraria esta brecha, ofreciendo servicios especializados a menos de{" "}
               <strong>15 minutos</strong> de la Milla de Oro.
             </p>
-            <p className="text-xs text-red-600 mt-2 italic">
+            <p className="text-xs text-slate-600 mt-2 italic">
               Fuentes: REPS Capacidad Instalada (s2ru-bqt6), Google Geocoding API, Mapbox Directions API (driving-traffic)
             </p>
           </div>

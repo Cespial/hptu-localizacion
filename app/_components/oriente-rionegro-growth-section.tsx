@@ -72,7 +72,7 @@ const servicesPortfolio = [
   },
   {
     name: "Centro de Imagenes",
-    detail: "TAC, RMN, PET-CT",
+    detail: "TAC, RMN (Fase 1). PET-CT Fase 2",
     target: "Referencia desde 11 municipios",
     volume: "9,000 estudios/ano",
     revenue: "1,350",
@@ -131,13 +131,13 @@ const tunnelDistances = [
 // 6. Infrastructure projects / competitors
 const competitorProjects = [
   {
-    name: "Clinica Campestre Medellin",
-    location: "El Poblado + Sede Rionegro",
-    description: "Nueva torre de 15 pisos en El Poblado, ambulatorio especializado. Sede Rionegro abre marzo 2026 con capacidad de 250 pac/dia.",
-    status: "en-construccion" as const,
-    investment: "N/D",
+    name: "Clinica del Campestre",
+    location: "El Poblado (principal) + Rionegro (sede ambulatoria mar. 2026)",
+    description: "Sede Rionegro abierta marzo 2026 (250 pac/dia, 2 quirofanos). Ambulatorio especializado, ortopedia. Primer mover en Oriente ambulatorio premium.",
+    status: "operativo" as const,
+    investment: "COP $30,000M",
     threatLevel: "alto" as const,
-    impact: "Competidor directo en corredor sur + primer mover en Rionegro ambulatorio.",
+    impact: "Primer mover en Rionegro ambulatorio. Competidor directo en corredor sur y Oriente.",
   },
   {
     name: "Clinica Las Americas AUNA Sur",
@@ -816,15 +816,15 @@ export function OrienteRionegroGrowthSection() {
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
-        className="rounded-xl border-2 border-teal-200 bg-teal-50/50 p-5 sm:p-6"
+        className="rounded-xl border border-slate-200 bg-slate-50/50 p-5 sm:p-6"
       >
         <div className="flex items-start gap-3">
-          <TrendingUp className="h-6 w-6 text-teal-600 shrink-0 mt-0.5" />
+          <TrendingUp className="h-6 w-6 text-slate-500 shrink-0 mt-0.5" />
           <div>
-            <h4 className="font-serif text-lg font-bold text-teal-800">
+            <h4 className="font-serif text-lg font-bold text-slate-800">
               Convergencia Oriente + Densificacion = Demanda Garantizada
             </h4>
-            <ul className="text-sm text-teal-700 mt-2 space-y-1.5">
+            <ul className="text-sm text-slate-700 mt-2 space-y-1.5">
               <li>
                 Rionegro crece al <strong>doble que Medellin</strong> (+2.0% vs
                 +0.9% CAGR) con <strong>84.4% contributivo</strong> — mercado
@@ -851,7 +851,7 @@ export function OrienteRionegroGrowthSection() {
                 mas estrategico del corredor.
               </li>
             </ul>
-            <p className="text-xs text-teal-600 mt-3 italic">
+            <p className="text-xs text-slate-600 mt-3 italic">
               Fuentes: DANE CNPV 2018, DNP Proyecciones, SISBEN IV, SNR
               Licencias, REPS, POT Bateria Indicadores, Mapbox Matrix API,
               Google Places API

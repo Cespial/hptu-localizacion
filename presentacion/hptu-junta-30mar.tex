@@ -1,0 +1,883 @@
+% ============================================================
+% HPTU — Presentación Junta · 18 slides · Sede Ambulatoria
+% 7 zonas (incl. Milla de Oro) · 2 modelos · Prueba ácida
+% Compilar con: lualatex hptu-junta-30mar.tex
+% ============================================================
+\documentclass[aspectratio=169, 11pt]{beamer}
+
+\usetheme{default}
+\usecolortheme{default}
+\setbeamertemplate{navigation symbols}{}
+\setbeamertemplate{footline}{%
+  \hspace{8pt}\raisebox{3pt}{\includegraphics[height=10pt]{basica.png}}%
+  \hfill\insertframenumber\,/\,\inserttotalframenumber\hspace{8pt}\vspace{4pt}%
+}
+
+\definecolor{hptu}{HTML}{00549F}
+\definecolor{acc}{HTML}{0D9488}
+\definecolor{dem}{HTML}{3B82F6}
+\definecolor{comp}{HTML}{EF4444}
+\definecolor{val}{HTML}{F59E0B}
+\definecolor{esp}{HTML}{EC4899}
+\definecolor{vis}{HTML}{8B5CF6}
+\definecolor{slate}{HTML}{64748B}
+\definecolor{bglight}{HTML}{F8FAFC}
+
+\setbeamercolor{frametitle}{fg=hptu}
+\setbeamercolor{title}{fg=white}
+\setbeamercolor{normal text}{fg=black!85}
+\setbeamercolor{structure}{fg=hptu}
+
+\setbeamerfont{frametitle}{size=\Large, series=\bfseries}
+\setbeamertemplate{itemize items}[circle]
+
+\usepackage{fontspec}
+\usepackage{booktabs}
+\usepackage{colortbl}
+\usepackage{graphicx}
+\usepackage{tikz}
+\usepackage{hyperref}
+
+\setsansfont{Helvetica Neue}[
+  BoldFont={Helvetica Neue Bold},
+  ItalicFont={Helvetica Neue Italic},
+]
+
+\begin{document}
+
+% ============================================================
+% 1. PORTADA
+% ============================================================
+{
+\setbeamercolor{background canvas}{bg=hptu}
+\begin{frame}[plain]
+\vfill
+\begin{center}
+{\huge\bfseries\textcolor{white}{Plan de Expansi\'{o}n}}\\[8pt]
+{\huge\bfseries\textcolor{white}{Hospital Pablo Tob\'{o}n Uribe}}
+\vspace{20pt}
+\begin{tikzpicture}
+  \draw[white, line width=0.5pt] (0,0) -- (5,0);
+\end{tikzpicture}
+\vspace{14pt}
+{\small\textcolor{white!60}{Sede Ambulatoria $\cdot$ Abril 2026}}
+\end{center}
+\begin{tikzpicture}[remember picture, overlay]
+  \node[anchor=south] at ([yshift=12pt]current page.south) {\includegraphics[height=1cm]{basica-white.png}};
+\end{tikzpicture}
+\vfill
+\end{frame}
+}
+
+% ============================================================
+% 2. OBJETIVO
+% ============================================================
+\begin{frame}{Objetivo}
+\vfill
+\begin{center}
+{\large
+Determinar las \textbf{micro-zonas m\'{a}s id\'{o}neas} dentro del Valle de Aburr\'{a}\\
+para la \textbf{sede ambulatoria} del Hospital Pablo Tob\'{o}n Uribe.}
+
+\vspace{14pt}
+
+{\normalsize
+Foco en segmentos socioecon\'{o}micos \textbf{5 y 6}.\\
+Sede ambulatoria: im\'{a}genes, consultas, cirug\'{i}a de d\'{i}a, wellness.\\
+\textbf{Sin urgencias, sin camas, sin alta complejidad.}}
+\end{center}
+\vfill
+\end{frame}
+
+% ============================================================
+% 3. CONTEXTO
+% ============================================================
+\begin{frame}{Lo que encontramos en Medell\'{i}n}
+\vfill
+\begin{center}
+{\normalsize Rastreamos Medell\'{i}n buscando d\'{o}nde est\'{a}n los estratos 5 y 6.}
+
+\vspace{10pt}
+
+{\Large\bfseries Encontramos \textcolor{acc}{174.543 predios E5/E6} en el corredor Las Palmas y en zonas del sur en general}
+
+\vspace{10pt}
+
+{\normalsize con \textcolor{comp}{\textbf{cero}} servicios ambulatorios especializados.}
+
+\vspace{12pt}
+
+{\small\color{slate}
+10 barrios con 0,0 m\textsuperscript{2} de oferta de salud $\cdot$ 103.913 hab sin cobertura al 2037\\
+IRS Salud El Poblado: 0,27 (m\'{i}nimo: 2,5) $\cdot$ Camas/1000 en Medell\'{i}n: 1,0 (OMS: 3,0)
+}
+\end{center}
+\vfill
+{\tiny\color{slate} Fuentes: Catastro (bp59-rj8r), DENSURBAM (URBAM-EAFIT/AMVA), REPS MinSalud}
+\end{frame}
+
+% ============================================================
+% 4. LA F\'{O}RMULA (6 variables)
+% ============================================================
+\begin{frame}{La f\'{o}rmula: c\'{o}mo evaluamos cada zona}
+\vfill
+\begin{center}
+{\small Cada zona candidata recibe un puntaje de 0 a 100 con \textbf{6 variables}:}
+
+\vspace{10pt}
+
+{\large
+$\text{Score} = \textcolor{acc}{\textbf{A}}\!\times\!20 + \textcolor{dem}{\textbf{D}}\!\times\!20 + \textcolor{comp}{\textbf{C}}\!\times\!15 + \textcolor{val}{\textbf{V}}\!\times\!15 + \textcolor{esp}{\textbf{E}}\!\times\!15 + \textcolor{vis}{\textbf{Vis}}\!\times\!15$
+}
+
+\vspace{12pt}
+
+{\small
+\begin{tabular}{@{}cl@{}}
+\textcolor{acc}{\textbf{A}} & \textcolor{acc}{\textbf{Accesibilidad (20\%)}} --- \textquestiondown Qu\'{e} tan f\'{a}cil es llegar? \\[4pt]
+\textcolor{dem}{\textbf{D}} & \textcolor{dem}{\textbf{Demanda (20\%)}} --- \textquestiondown Hay gente que necesite servicios ambulatorios? \\[4pt]
+\textcolor{comp}{\textbf{C}} & \textcolor{comp}{\textbf{Competencia (15\%)}} --- \textquestiondown Qu\'{e} tan saturada est\'{a} la zona? \\[4pt]
+\textcolor{val}{\textbf{V}} & \textcolor{val}{\textbf{Valor Inmobiliario (15\%)}} --- \textquestiondown Cu\'{a}nto vale y cu\'{a}nto potencial tiene? \\[4pt]
+\textcolor{esp}{\textbf{E}} & \textcolor{esp}{\textbf{Esperas Productivas (15\%)}} --- \textquestiondown Qu\'{e} retail y servicios hay alrededor? \\[4pt]
+\textcolor{vis}{\textbf{Vis}} & \textcolor{vis}{\textbf{Visibilidad (15\%)}} --- \textquestiondown Cu\'{a}nta gente pasa y ve la sede?
+\end{tabular}
+}
+\end{center}
+\vfill
+\end{frame}
+
+% ============================================================
+% 5. TABLA DE RESULTADOS (7 zonas incl. Milla de Oro)
+% ============================================================
+\begin{frame}{Resultado: puntuaci\'{o}n por zona (Modelo 1)}
+
+\vspace{2pt}
+\begin{center}
+{\scriptsize \textcolor{acc}{A}(20\%) + \textcolor{dem}{D}(20\%) + \textcolor{comp}{C}(15\%) + \textcolor{val}{V}(15\%) + \textcolor{esp}{E}(15\%) + \textcolor{vis}{Vis}(15\%) = Score}
+
+\vspace{6pt}
+
+{\small
+\begin{tabular}{@{}l cccccc c@{}}
+\toprule
+\textbf{Zona} & \textcolor{acc}{\textbf{A}} & \textcolor{dem}{\textbf{D}} & \textcolor{comp}{\textbf{C}} & \textcolor{val}{\textbf{V}} & \textcolor{esp}{\textbf{E}} & \textcolor{vis}{\textbf{Vis}} & \textbf{TOTAL} \\
+& \textcolor{acc}{\tiny 20\%} & \textcolor{dem}{\tiny 20\%} & \textcolor{comp}{\tiny 15\%} & \textcolor{val}{\tiny 15\%} & \textcolor{esp}{\tiny 15\%} & \textcolor{vis}{\tiny 15\%} & \\
+\midrule
+\rowcolor{acc!12}
+\textbf{1.\ Las Palmas Bajo} & 92 & 93 & 78 & 85 & 88 & 85 & \textcolor{acc}{\textbf{87}} \\[2pt]
+\textbf{2.\ Milla de Oro} & 55 & 95 & 35 & 95 & 95 & 92 & \textbf{78} \\[2pt]
+\rowcolor{bglight}
+\textbf{3.\ Palmas Medio} & 85 & 91 & 65 & 78 & 55 & 78 & \textbf{77} \\[2pt]
+4.\ Envigado--Z\'{u}\~{n}iga & 75 & 80 & 62 & 78 & 72 & 78 & 75 \\[2pt]
+\rowcolor{bglight}
+5.\ Nuevo Poblado--Itag\"{u}\'{i} & 82 & 68 & 52 & 80 & 55 & 80 & 70 \\[2pt]
+\rowcolor{comp!6}
+6.\ Las Palmas Alto & 42 & 52 & 90 & 30 & 20 & 30 & \textcolor{comp}{44} \\
+\bottomrule
+\end{tabular}
+}
+\end{center}
+
+\vspace{4pt}
+{\scriptsize\color{slate}
+Las Palmas Bajo lidera con \textbf{87/100}. Milla de Oro es \#2 (\textbf{78}) por su alt\'{i}sima demanda y esperas, pero con competencia feroz. Palmas Medio es \#3 (\textbf{77}). A continuaci\'{o}n, el detalle de cada variable.}
+\end{frame}
+
+% ============================================================
+% 6. ACCESIBILIDAD
+% ============================================================
+\begin{frame}{\textcolor{acc}{Accesibilidad (20\%)}: \textquestiondown cu\'{a}l es la zona m\'{a}s f\'{a}cil para llegar?}
+
+\begin{columns}[T]
+\column{0.48\textwidth}
+\vspace{2pt}
+{\scriptsize Con \textcolor{acc}{\textbf{682.502 observaciones}} de velocidad (MEData 2017--2020):}
+
+\vspace{4pt}
+{\small A las 5:00 PM --- la peor hora:}
+
+\vspace{4pt}
+\begin{tikzpicture}
+  \fill[comp!80] (0,0) rectangle (2.5,0.45);
+  \node[right, white, font=\scriptsize\bfseries] at (0.15,0.22) {18.0 km/h};
+\end{tikzpicture}\\[1pt]
+{\tiny Av.\ El Poblado --- congesti\'{o}n severa}
+
+\vspace{4pt}
+\begin{tikzpicture}
+  \fill[acc!80] (0,0) rectangle (4.8,0.45);
+  \node[right, white, font=\scriptsize\bfseries] at (0.15,0.22) {36.1 km/h};
+\end{tikzpicture}\\[1pt]
+{\tiny Av.\ Las Palmas --- \textbf{el doble de r\'{a}pido}}
+
+\column{0.48\textwidth}
+\vspace{2pt}
+{\scriptsize\textbf{Tiempos reales a la zona candidata:}}
+\vspace{2pt}
+
+{\scriptsize
+\begin{tabular}{@{}lr@{}}
+\toprule
+\textbf{Origen} & \textbf{Tiempo} \\
+\midrule
+\rowcolor{acc!8}
+Milla de Oro & \textcolor{acc}{\textbf{15.4 min}} \\
+El Poblado (Parque) & \textcolor{acc}{\textbf{17.7 min}} \\
+Envigado Centro & 24.8 min \\
+Laureles & 32.3 min \\
+Itag\"{u}\'{i} Centro & 33.4 min \\
+\bottomrule
+\end{tabular}
+}
+
+\vspace{2pt}
+{\tiny\color{slate} Fuente: Google Routes + Mapbox Directions}
+\end{columns}
+\end{frame}
+
+% ============================================================
+% 7. DEMANDA
+% ============================================================
+\begin{frame}{\textcolor{dem}{Demanda (20\%)}: \textquestiondown hacia d\'{o}nde se mueve la poblaci\'{o}n?}
+
+\begin{columns}[T]
+\column{0.44\textwidth}
+\vspace{2pt}
+{\scriptsize Demanda ambulatoria: se concentra en la parte baja del corredor.}
+
+\vspace{3pt}
+{\scriptsize
+\begin{tabular}{@{}lr@{}}
+\toprule
+\textbf{Zona} & \textbf{Predios E5/E6} \\
+\midrule
+\rowcolor{acc!10}
+El Poblado core & \textbf{38.415} \\
+El Tesoro / San Lucas & 13.786 \\
+\rowcolor{acc!8}
+\textbf{Las Palmas Bajo} & \textbf{38.415} \\
+Las Palmas Medio & 1.200 \\
+Las Palmas Alto & 52 \\
+\bottomrule
+\end{tabular}
+}
+
+\vspace{3pt}
+{\scriptsize\textbf{Crecimiento al 2037:}\\
+El Poblado: +21\% $\cdot$ Envigado: +17\%\\
+Sabaneta: +19\% $\cdot$ Valle Aburr\'{a}: +152K hab}
+
+\column{0.52\textwidth}
+\vspace{2pt}
+{\scriptsize\textbf{Mercado de prepagada:}}
+
+\vspace{3pt}
+{\scriptsize
+\begin{tabular}{@{}lr@{}}
+\toprule
+Afiliados prepagada Ant. & \textcolor{dem}{\textbf{1,4 millones}} \\
+Crecimiento 2022--2025 & \textcolor{dem}{\textbf{+37\%}} \\
+Revenue/a\~{n}o & \textbf{COP \$7,2 billones} \\
+SURA en El Poblado & \textbf{320.000 afiliados} \\
+\midrule
+Cirug\'{i}a ambulat.\ Colombia & 490.944 proc/a\~{n}o \\
+\% ambulatoria & 80\% de cirug\'{i}as \\
+\bottomrule
+\end{tabular}
+}
+
+\vspace{2pt}
+{\tiny\color{slate} Fuente: Catastro, Supersalud, SURA, MinSalud}
+\end{columns}
+\end{frame}
+
+% ============================================================
+% 8. COMPETENCIA (+ San Vicente, CEDIMED, Sommer)
+% ============================================================
+\begin{frame}{\textcolor{comp}{Competencia (15\%)}: \textquestiondown qu\'{e} est\'{a} haciendo la competencia?}
+
+\begin{columns}[T]
+\column{0.46\textwidth}
+\vspace{2pt}
+{\scriptsize\textbf{Competidores relevantes:}}
+\vspace{2pt}
+
+{\tiny
+\begin{tabular}{@{}llr@{}}
+\toprule
+\textbf{Centro} & \textbf{Ubic.} & \textbf{Amenaza} \\
+\midrule
+\rowcolor{comp!10}
+Torre Oviedo & Poblado & \textcolor{comp}{\textbf{Directa}} \\
+Cl.\ Rosario Tesoro & Poblado & Alta \\
+BlueCare & Poblado & Media \\
+CEDIMED & Poblado & Media \\
+\midrule
+SVF Rionegro & Oriente & Alta \\
+Cl.\ Sommer & Rionegro & Media \\
+Campestre (\$30.000M) & Rionegro & Alta \\
+\bottomrule
+\end{tabular}
+}
+
+\vspace{3pt}
+{\scriptsize SVF va a 500 camas + helipuerto.\\
+Sommer: oncolog\'{i}a, radioterapia.\\
+CEDIMED: benchmark ambulatorio (im\'{a}genes).}
+
+\column{0.50\textwidth}
+\vspace{2pt}
+{\scriptsize\textbf{Diferenciaci\'{o}n HPTU ambulatoria:}}
+\vspace{2pt}
+
+{\scriptsize
+\begin{itemize}\setlength{\itemsep}{2pt}
+  \item \textbf{Marca HPTU} --- 55+ a\~{n}os de reputaci\'{o}n
+  \item Portafolio de \textbf{7 categor\'{i}as ambulatorias}
+  \item Captaci\'{o}n del \textbf{Oriente} (298K hab)
+  \item Modelo de \textbf{experiencia ambulatoria} (benchmark CEDIMED + Cleveland Clinic)
+  \item \textbf{Complementa} a Sommer y SVF, no compite
+\end{itemize}
+}
+
+\vspace{2pt}
+{\scriptsize\textcolor{comp}{Si HPTU no act\'{u}a en 2026--2028, el nicho ambulatorio premium lo ocupa otro.}}
+\end{columns}
+\end{frame}
+
+% ============================================================
+% 9. VALOR INMOBILIARIO
+% ============================================================
+\begin{frame}{\textcolor{val}{Valor Inmobiliario (15\%)}: \textquestiondown cu\'{a}nto vale y qu\'{e} potencial tiene?}
+
+\begin{columns}[T]
+\column{0.46\textwidth}
+\vspace{2pt}
+{\scriptsize\textbf{Aval\'{u}os promedio por barrio:}}
+\vspace{2pt}
+
+{\scriptsize
+\begin{tabular}{@{}lrc@{}}
+\toprule
+\textbf{Barrio} & \textbf{Aval\'{u}o} & \textbf{\% E5/E6} \\
+\midrule
+\rowcolor{val!10}
+San Lucas & \textcolor{val}{\textbf{\$512M}} & 93\% \\
+Los Balsos No.\ 1 & \$401M & 95\% \\
+El Poblado core & \$371M & 98\% \\
+Castropol & \$327M & 97\% \\
+El Tesoro & \$258M & 89\% \\
+\bottomrule
+\end{tabular}
+}
+
+\vspace{2pt}
+{\tiny\color{slate} Fuente: Catastro Municipal (bp59-rj8r)}
+
+\column{0.50\textwidth}
+\vspace{2pt}
+{\scriptsize\textbf{POT: potencial de desarrollo}}
+\vspace{2pt}
+
+{\scriptsize
+\begin{tabular}{@{}lrr@{}}
+\toprule
+\textbf{Barrio} & \textbf{Pisos} & \textbf{\% usado} \\
+\midrule
+Las Lomas No.\ 2 & \textcolor{val}{\textbf{20}} & 32\% \\
+San Lucas & 19.1 & \textcolor{val}{\textbf{45.8\%}} \\
+Los Balsos No.\ 1 & 16.7 & 41\% \\
+\midrule
+\rowcolor{val!6}
+Astorga & 14.7 & \textcolor{val}{\textbf{14.7\%}} \\
+Manila & 14.2 & \textcolor{val}{\textbf{14.2\%}} \\
+\bottomrule
+\end{tabular}
+}
+
+\vspace{3pt}
+{\scriptsize Astorga y Manila: solo \textbf{14\%} densidad usada.\\
+Desarrollo masivo en curso.}
+\end{columns}
+\end{frame}
+
+% ============================================================
+% 10. ESPERAS PRODUCTIVAS
+% ============================================================
+\begin{frame}{\textcolor{esp}{Esperas Productivas (15\%)}: \textquestiondown qu\'{e} retail y servicios hay alrededor?}
+
+\begin{columns}[T]
+\column{0.48\textwidth}
+\vspace{2pt}
+{\scriptsize\textbf{Concepto:} transformar la espera del paciente en experiencia positiva. El entorno incluye retail, cafeter\'{i}as, farmacias.}
+
+\vspace{3pt}
+{\scriptsize\textbf{Modelo Cleveland Clinic:} cada centro ambulatorio sat\'{e}lite genera su propio ecosistema de servicios complementarios.}
+
+\vspace{3pt}
+{\scriptsize\textbf{Score por zona:}}
+\vspace{2pt}
+
+{\scriptsize
+\begin{tabular}{@{}lr@{}}
+\toprule
+\textbf{Zona} & \textcolor{esp}{\textbf{Esperas}} \\
+\midrule
+\rowcolor{esp!8}
+\textbf{Milla de Oro} & \textcolor{esp}{\textbf{95}} \\
+\textbf{Las Palmas Bajo} & \textcolor{esp}{\textbf{88}} \\
+Envigado & 72 \\
+Palmas Medio & 55 \\
+N.\ Poblado & 55 \\
+LP Alto & 20 \\
+\bottomrule
+\end{tabular}
+}
+
+\column{0.48\textwidth}
+\vspace{2pt}
+{\scriptsize\textbf{Milla de Oro lidera (95)} con 103 POIs en 500m: 20 restaurantes, 20 bancos, 20 farmacias. El entorno m\'{a}s denso en servicios caminables.}
+
+\vspace{3pt}
+{\scriptsize\textbf{Las Palmas Bajo (88):} CC El Tesoro, restaurantes, bancos, farmacias y retail premium a menos de 500m. 76 POIs en 500m.}
+
+\vspace{3pt}
+{\scriptsize\textbf{Referencia Torre Oviedo:} sede ambulatoria \textbf{dentro} de CC Oviedo = esperas productivas naturales. Validaci\'{o}n del modelo en Medell\'{i}n.}
+
+\vspace{3pt}
+{\scriptsize\textbf{Para la sede HPTU:} esperas productivas es clave --- los pacientes pasan tiempo en consultas, im\'{a}genes, rehabilitaci\'{o}n. El entorno debe ser productivo y agradable.}
+\end{columns}
+\end{frame}
+
+% ============================================================
+% 11. VISIBILIDAD
+% ============================================================
+\begin{frame}{\textcolor{vis}{Visibilidad (15\%)}: \textquestiondown cu\'{a}nta gente pasa y ve la sede?}
+
+\begin{columns}[T]
+\column{0.48\textwidth}
+\vspace{2pt}
+{\scriptsize\textbf{Tr\'{a}fico vehicular diario:}}
+\vspace{2pt}
+
+{\scriptsize
+\begin{tabular}{@{}lr@{}}
+\toprule
+\textbf{Corredor} & \textbf{Veh/d\'{i}a} \\
+\midrule
+\rowcolor{vis!8}
+\textbf{Av.\ Las Palmas} & \textcolor{vis}{\textbf{42.000}} \\
+T\'{u}nel de Oriente & 18.000 \\
+\rowcolor{vis!6}
+V\'{i}a Santa Elena & 8.000 \\
+\bottomrule
+\end{tabular}
+}
+
+\vspace{4pt}
+{\scriptsize\textbf{Crecimiento:} tr\'{a}fico Las Palmas \textcolor{vis}{\textbf{+64\%}} en 10 a\~{n}os (Peaje ANI). Con 2da etapa T\'{u}nel (H2 2027) se duplicar\'{a}.}
+
+\vspace{4pt}
+{\scriptsize\textbf{Score Visibilidad:}\\
+Milla de Oro: 92 $\cdot$ LP Bajo: 85\\
+N.\ Poblado: 80 $\cdot$ Palmas Medio: 78\\
+Envigado: 78 $\cdot$ LP Medio: 70 $\cdot$ LP Alto: 30}
+
+\column{0.48\textwidth}
+\vspace{2pt}
+{\scriptsize\textbf{\textquestiondown Por qu\'{e} importa la visibilidad?}}
+
+\vspace{4pt}
+{\scriptsize
+\begin{itemize}\setlength{\itemsep}{2pt}
+  \item \textbf{42.000 veh\'{i}culos/d\'{i}a} pasan por la V\'{i}a Las Palmas
+  \item Milla de Oro: alto tr\'{a}fico peatonal y vehicular
+  \item Sin pico y placa en el corredor
+  \item Exposici\'{o}n de \textbf{marca HPTU} a decenas de miles diarios
+  \item El reconocimiento genera \textbf{top-of-mind} para servicios ambulatorios
+\end{itemize}
+}
+
+\vspace{4pt}
+{\scriptsize\textbf{Diferencia con Esperas Productivas:}\\
+Visibilidad = cu\'{a}nta gente \textbf{transita} (din\'{a}mico).\\
+Esperas = qu\'{e} hay \textbf{alrededor} (est\'{a}tico, retail).}
+\end{columns}
+\end{frame}
+
+% ============================================================
+% 12. PRUEBA \'{A}CIDA (7 zonas)
+% ============================================================
+{
+\setbeamercolor{background canvas}{bg=bglight}
+\begin{frame}{Prueba \'{a}cida: \textquestiondown qu\'{e} tan robusto es el ranking?}
+
+\vspace{-2pt}
+{\scriptsize Probamos \textbf{6.891 combinaciones} de pesos (cada variable entre 5\% y 35\%) con \textbf{7 zonas}:}
+
+\vspace{4pt}
+\begin{center}
+{\scriptsize
+\begin{tabular}{@{}lrl@{}}
+\toprule
+\textbf{Pregunta} & \textbf{Resultado} & \textbf{Interpretaci\'{o}n} \\
+\midrule
+\rowcolor{acc!10}
+\textquestiondown LP Bajo pierde el \#1? & \textcolor{acc}{\textbf{Nunca (0\%)}} & Es \#1 en el 100\% de los escenarios \\[3pt]
+\textquestiondown Milla de Oro es top-2? & \textbf{48\% de las veces} & \#2 cuando Dem, Esp o Vis pesan m\'{a}s \\[3pt]
+\rowcolor{bglight}
+\textquestiondown Qui\'{e}n desplaza a MdO? & Palmas Medio o Envigado & Cuando Acc o Comp pesan m\'{a}s \\
+\bottomrule
+\end{tabular}
+}
+\end{center}
+
+\vspace{6pt}
+{\scriptsize\textbf{Escenarios clave:}}
+\vspace{2pt}
+
+{\tiny
+\begin{tabular}{@{}l cccc @{}}
+\toprule
+\textbf{Si priorizamos\ldots} & \textbf{\#1} & \textbf{\#2} & \textbf{\#3} & \textbf{\#4} \\
+\midrule
+\rowcolor{acc!6}
+Base (20/20/15/15/15/15) & LP Bajo (87) & MdO (78) & P.\ Medio (77) & Envigado (75) \\
+Demanda (35\%) & LP Bajo (88) & MdO (82) & P.\ Medio (80) & Envigado (76) \\
+\rowcolor{acc!6}
+Accesibilidad (35\%) & LP Bajo (88) & P.\ Medio (79) & MdO (73) & Envigado (75) \\
+Competencia (35\%) & LP Bajo (85) & LP Medio (76) & P.\ Medio (74) & Envigado (71) \\
+\rowcolor{esp!6}
+Esperas Prod.\ (35\%) & LP Bajo (87) & MdO (82) & Envigado (74) & LP Medio (72) \\
+Visibilidad (35\%) & LP Bajo (87) & MdO (81) & P.\ Medio (76) & Envigado (76) \\
+\bottomrule
+\end{tabular}
+}
+
+\vspace{3pt}
+{\scriptsize\color{slate}\textbf{Conclusi\'{o}n:} LP Bajo es invencible --- \#1 en el 100\% de escenarios. Milla de Oro y Palmas Medio compiten por el \#2 seg\'{u}n los pesos.}
+\end{frame}
+}
+
+% ============================================================
+% 13. MODELO 2: EXPERIENCIA (NEW)
+% ============================================================
+\begin{frame}{Modelo 2: Experiencia --- \textquestiondown y si priman visibilidad y esperas?}
+
+\vspace{2pt}
+{\scriptsize Cuando ponderamos \textcolor{comp}{Competencia (25\%)}, \textcolor{vis}{Visibilidad (25\%)}, \textcolor{esp}{Esperas (25\%)} m\'{a}s alto, reduciendo Acc a 10\%, Dem a 10\% y Val a 5\%:}
+
+\vspace{6pt}
+\begin{center}
+{\scriptsize
+\begin{tabular}{@{}l cc | l@{}}
+\toprule
+\textbf{Zona} & \textbf{Modelo 1} & \textbf{Modelo 2} & \textbf{Cambio} \\
+& {\tiny 20/20/15/15/15/15} & {\tiny 10/10/25/5/25/25} & \\
+\midrule
+\rowcolor{acc!12}
+\textbf{Las Palmas Bajo} & \textcolor{acc}{\textbf{87}} (\#1) & \textcolor{acc}{\textbf{86}} (\#1) & Se mantiene \#1 \\[2pt]
+\textbf{Milla de Oro} & \textbf{78} (\#2) & \textbf{75} (\#2) & Se mantiene \#2 \\[2pt]
+\rowcolor{bglight}
+Envigado & 75 (\#4) & 72 (\#3) & Sube una posici\'{o}n \\[2pt]
+Palmas Medio & 77 (\#3) & 71 (\#4) & Baja una posici\'{o}n \\[2pt]
+\rowcolor{bglight}
+N.\ Poblado & 70 (\#5) & 66 (\#5) & Estable \\[2pt]
+LP Alto & 44 (\#6) & 46 (\#6) & Estable \\
+\bottomrule
+\end{tabular}
+}
+\end{center}
+
+\vspace{6pt}
+{\scriptsize\textbf{Hallazgo clave:} Palmas Bajo se mantiene \#1 en ambos modelos. Milla de Oro sube porque tiene la mayor densidad de servicios caminables (103 POIs en 500m vs 76 en Palmas Bajo). La decisi\'{o}n es: \textquestiondown priman los fundamentales (accesibilidad, demanda) o la experiencia (visibilidad, esperas)?}
+\end{frame}
+
+% ============================================================
+% 14. MILLA DE ORO: LA ALTERNATIVA (NEW)
+% ============================================================
+\begin{frame}{Milla de Oro: la alternativa de experiencia}
+
+\begin{columns}[T]
+\column{0.46\textwidth}
+\vspace{2pt}
+{\scriptsize\textbf{Zona:} Milla de Oro (Parque El Poblado $\rightarrow$ Calle 10 $\rightarrow$ Carrera 43)}
+
+\vspace{4pt}
+{\scriptsize\textbf{Fortalezas:}}
+\vspace{2pt}
+
+{\scriptsize
+\begin{tabular}{@{}lr@{}}
+\toprule
+\textbf{Variable} & \textbf{Score} \\
+\midrule
+\rowcolor{dem!8}
+\textcolor{dem}{\textbf{Demanda}} & \textcolor{dem}{\textbf{95/100}} \\
+{\tiny La gente ya est\'{a} ah\'{i} (corporativo, comercio)} & \\[2pt]
+\rowcolor{esp!8}
+\textcolor{esp}{\textbf{Esperas}} & \textcolor{esp}{\textbf{95/100}} \\
+{\tiny 103 POIs en 500m (rest., bancos, farmacias)} & \\[2pt]
+\rowcolor{vis!8}
+\textcolor{vis}{\textbf{Visibilidad}} & \textcolor{vis}{\textbf{92/100}} \\
+{\tiny Alto tr\'{a}fico peatonal y vehicular} & \\[2pt]
+\rowcolor{val!8}
+\textcolor{val}{\textbf{Valor}} & \textcolor{val}{\textbf{95/100}} \\
+\bottomrule
+\end{tabular}
+}
+
+\column{0.50\textwidth}
+\vspace{2pt}
+{\scriptsize\textbf{Debilidades:}}
+\vspace{2pt}
+
+{\scriptsize
+\begin{tabular}{@{}lr@{}}
+\toprule
+\textbf{Variable} & \textbf{Score} \\
+\midrule
+\rowcolor{acc!8}
+\textcolor{acc}{\textbf{Accesibilidad}} & \textcolor{comp}{\textbf{55/100}} \\
+{\tiny Congesti\'{o}n severa (18 km/h a las 5pm)} & \\[2pt]
+\rowcolor{comp!8}
+\textcolor{comp}{\textbf{Competencia}} & \textcolor{comp}{\textbf{35/100}} \\
+{\tiny Zona MUY saturada de IPS} & \\
+\bottomrule
+\end{tabular}
+}
+
+\vspace{6pt}
+{\scriptsize
+\textbf{Score Modelo 1:} 78 (\#2)\\
+\textbf{Score Modelo 2:} 75 (\#2)
+}
+
+\vspace{6pt}
+{\scriptsize\textcolor{hptu}{\textbf{``La gente no tiene que llegar --- ya est\'{a} ah\'{i}. Pero la competencia es feroz.''}}}
+
+\vspace{4pt}
+{\tiny\color{slate} 20 restaurantes, 20 bancos, 20 farmacias, 15 cafeter\'{i}as, 10 gimnasios, 18 otros servicios en radio de 500m.}
+\end{columns}
+\end{frame}
+
+% ============================================================
+% 15. PALMAS BAJO: EL CANDIDATO L\'{I}DER
+% ============================================================
+\begin{frame}{Palmas Bajo: el candidato l\'{i}der}
+
+\begin{columns}[T]
+\column{0.46\textwidth}
+\vspace{2pt}
+{\scriptsize\textbf{Ficha de la zona:}}
+\vspace{2pt}
+
+{\scriptsize
+\begin{tabular}{@{}lr@{}}
+\toprule
+Zona & Las Palmas Bajo \\
+Score Modelo 1 & \textcolor{acc}{\textbf{87/100 (\#1)}} \\
+Score Modelo 2 & \textcolor{acc}{\textbf{86/100 (\#1)}} \\
+Pico y placa & \textcolor{acc}{\textbf{No aplica}} \\
+A HPTU Robledo & 18.5 min \\
+Veh\'{i}culos/d\'{i}a & 42.000 \\
+POIs en 500m & 76 \\
+\bottomrule
+\end{tabular}
+}
+
+\vspace{4pt}
+{\scriptsize\textbf{\textquestiondown Por qu\'{e} \#1?}\\
+Lidera en Accesibilidad (92), Demanda (93), Esperas (88). Buena Competencia (78) --- zona a\'{u}n no saturada. Visibilidad alta (85) por Av.\ Las Palmas.}
+
+\vspace{4pt}
+{\scriptsize\textbf{Greenfield vs fit-out:}\\
+Lote + dise\~{n}o + obra = \textbf{54+ meses}.\\
+Fit-out edificio existente = \textbf{18--24 meses}.\\
+\textcolor{acc}{\textbf{Decisi\'{o}n de velocidad.}}}
+
+\column{0.50\textwidth}
+\vspace{2pt}
+{\scriptsize\textbf{Portafolio ambulatorio (7 categor\'{i}as):}}
+\vspace{2pt}
+
+{\scriptsize
+\begin{enumerate}\setlength{\itemsep}{1pt}
+  \item Im\'{a}genes diagn\'{o}sticas (TAC, RMN 3T)
+  \item Consulta especializada (10+ especialidades)
+  \item Cirug\'{i}a ambulatoria (4 quir\'{o}fanos)
+  \item Chequeo ejecutivo / wellness
+  \item Rehabilitaci\'{o}n (neuro, card\'{i}aca, deportiva)
+  \item Est\'{e}tica / dermatolog\'{i}a
+  \item Oncolog\'{i}a ambulatoria (QT, 2da opini\'{o}n)
+\end{enumerate}
+}
+
+\vspace{2pt}
+{\scriptsize\textcolor{comp}{\textbf{NO incluye:}} urgencias, hospitalizaci\'{o}n, UCI, trasplantes, alta complejidad.\\[2pt]
+\textcolor{acc}{\textbf{Complementa}} a Sommer y SVF, no compite.}
+\end{columns}
+\end{frame}
+
+% ============================================================
+% 16. FINANCIERO
+% ============================================================
+\begin{frame}{Modelo financiero: sede ambulatoria}
+
+\begin{columns}[T]
+\column{0.46\textwidth}
+\vspace{2pt}
+{\scriptsize\textbf{Inversi\'{o}n Fase 1:}}
+\vspace{2pt}
+
+{\scriptsize
+\begin{tabular}{@{}lr@{}}
+\toprule
+Adecuaci\'{o}n (6.000 m\textsuperscript{2}) & \$21.000M \\
+RMN 3T + TAC & \$14.000M \\
+Quir\'{o}fanos ($\times$4) & \$12.000M \\
+Equipos + IT & \$10.000M \\
+Capital de trabajo & \$10.000M \\
+\midrule
+\textbf{Total Fase 1} & \textbf{\$67.000M} \\
+\bottomrule
+\end{tabular}
+}
+
+\vspace{2pt}
+{\tiny PET-CT (\$14.000M) en Fase 2.}
+
+\column{0.50\textwidth}
+\vspace{2pt}
+{\scriptsize\textbf{Revenue por l\'{i}nea (a\~{n}o maduro):}}
+\vspace{2pt}
+
+{\scriptsize
+\begin{tabular}{@{}lr@{}}
+\toprule
+Im\'{a}genes (TAC, RMN) & \$15.000M \\
+Cirug\'{i}a ambulatoria & \$14.000M \\
+Consulta especializada & \$8.000M \\
+Chequeo ejecutivo & \$6.000M \\
+Rehabilitaci\'{o}n + oncolog\'{i}a & \$5.000M \\
+Est\'{e}tica / dermatolog\'{i}a & \$3.000M \\
+\midrule
+\textbf{Total revenue} & \textbf{\$51.000M} \\
+\textbf{EBITDA (18\%)} & \textbf{\$9.200M} \\
+\bottomrule
+\end{tabular}
+}
+
+\vspace{2pt}
+{\scriptsize Payback: \textbf{$\sim$7 a\~{n}os}. Ramp-up: 40/65/85/100\%.}
+\end{columns}
+\end{frame}
+
+% ============================================================
+% 17. OPORTUNIDAD ORIENTE
+% ============================================================
+\begin{frame}{Oportunidad adicional: el Oriente Antioque\~{n}o}
+
+\begin{columns}[T]
+\column{0.48\textwidth}
+\vspace{2pt}
+{\scriptsize La misma f\'{o}rmula muestra una oportunidad masiva en el Oriente:}
+
+\vspace{4pt}
+{\scriptsize
+\begin{tabular}{@{}lr@{}}
+\toprule
+Poblaci\'{o}n Oriente & \textbf{728.581 hab} \\
+Contributivos & \textbf{384.171} \\
+Catchment $<$45 min & \textbf{298.000 hab} \\
+Hospitales Niv.\ 3--4 & \textcolor{comp}{\textbf{Cero}} \\
+Alta complejidad & Duopolio Sommer+SVF \\
+T\'{u}nel 2da etapa & H2 2027 (--35\%) \\
+\bottomrule
+\end{tabular}
+}
+
+\vspace{4pt}
+{\scriptsize Una sede en Las Palmas Bajo = \textbf{nodo de entrada} al T\'{u}nel. \'{U}nica zona que captura \textbf{ambos mercados}: Medell\'{i}n + Oriente.}
+
+\column{0.48\textwidth}
+\vspace{2pt}
+{\scriptsize\textbf{Tiempos desde Las Palmas Bajo:}}
+\vspace{2pt}
+
+{\scriptsize
+\begin{tabular}{@{}lcc@{}}
+\toprule
+\textbf{Destino} & \textbf{Hoy} & \textbf{Post-T\'{u}nel} \\
+\midrule
+\rowcolor{acc!8}
+Aeropuerto & 51' & \textcolor{acc}{\textbf{$\sim$25'}} \\
+El Retiro & 44' & $\sim$28' \\
+Rionegro & 59' & $\sim$38' \\
+La Ceja & 65' & $\sim$42' \\
+\bottomrule
+\end{tabular}
+}
+
+\vspace{4pt}
+{\scriptsize\textbf{Solo LP Bajo tiene acceso directo al T\'{u}nel.}\\
+Las dem\'{a}s zonas (Milla de Oro, Envigado, N.\ Poblado) no capturan el Oriente eficientemente.\\[3pt]
+\textbf{Para la sede ambulatoria:} los servicios que hoy requieren referencia a Medell\'{i}n se ofrecer\'{i}an a 25--38 min del Oriente.}
+\end{columns}
+\end{frame}
+
+% ============================================================
+% 18. CIERRE
+% ============================================================
+{
+\setbeamercolor{background canvas}{bg=hptu}
+\setbeamercolor{normal text}{fg=white}
+\usebeamercolor[fg]{normal text}
+\begin{frame}[plain]
+\vfill
+\begin{center}
+{\Large\bfseries\textcolor{white}{Plan de Expansi\'{o}n HPTU}}\\[4pt]
+{\normalsize\textcolor{white!80}{Sede Ambulatoria}}
+
+\vspace{12pt}
+\begin{tikzpicture}
+  \draw[white!40, line width=0.5pt] (0,0) -- (5,0);
+\end{tikzpicture}
+\vspace{10pt}
+
+{\small\textcolor{white!80}{
+\begin{tabular}{@{}l c c@{}}
+\textcolor{white!60}{\textbf{Mercado}} & \textcolor{white!60}{\textbf{Poblaci\'{o}n}} & \textcolor{white!60}{\textbf{Ventaja LP Bajo}} \\[3pt]
+Medell\'{i}n E5/E6 & 174.543 predios & 15 min desde Milla de Oro \\[2pt]
+Oriente cercano & 298.000 hab & Nodo T\'{u}nel, $\sim$25 min aero. \\
+\end{tabular}
+}}
+
+\vspace{10pt}
+
+{\small\textcolor{white!90}{
+\begin{tabular}{@{}cccc@{}}
+\textbf{CAPEX} & \textbf{Revenue/a\~{n}o} & \textbf{EBITDA} & \textbf{Payback} \\
+\$67.000M & \$51.000M & 18\% & $\sim$7 a\~{n}os \\
+\end{tabular}
+}}
+
+\vspace{8pt}
+
+{\scriptsize\textcolor{white!60}{
+LP Bajo: 87/100 (\#1) $\cdot$ Milla de Oro: 78/100 (\#2) $\cdot$ Palmas Medio: 77/100 (\#3)\\
+Sin urgencias $\cdot$ Sin camas $\cdot$ Sin alta complejidad $\cdot$ Complementa Sommer y SVF
+}}
+
+\vspace{10pt}
+{\tiny\textcolor{white!30}{Dashboard: hptu-localizacion.vercel.app}}
+\end{center}
+
+\begin{tikzpicture}[remember picture, overlay]
+  \node[anchor=south] at ([yshift=8pt]current page.south) {\includegraphics[height=0.8cm]{basica-white.png}};
+\end{tikzpicture}
+\vfill
+\end{frame}
+}
+
+\end{document}

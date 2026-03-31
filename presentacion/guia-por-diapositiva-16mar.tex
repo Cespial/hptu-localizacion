@@ -1,0 +1,424 @@
+% ============================================================
+% Guía por Diapositiva — Junta HPTU 16 de marzo, 2026
+% Compilar con: lualatex guia-por-diapositiva-16mar.tex
+% ============================================================
+\documentclass[10pt, a4paper]{article}
+
+\usepackage{fontspec}
+\usepackage{geometry}
+\geometry{margin=1.8cm, top=1.6cm, bottom=1.6cm}
+\usepackage{booktabs}
+\usepackage{tabularx}
+\usepackage{colortbl}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{xcolor}
+\usepackage{hyperref}
+\usepackage{fancyhdr}
+\usepackage{mdframed}
+\usepackage{graphicx}
+
+\setsansfont{Helvetica Neue}[
+  BoldFont={Helvetica Neue Bold},
+  ItalicFont={Helvetica Neue Italic},
+]
+\renewcommand{\familydefault}{\sfdefault}
+
+\definecolor{hptu}{HTML}{00549F}
+\definecolor{teal}{HTML}{0D9488}
+\definecolor{coral}{HTML}{EF4444}
+\definecolor{amber}{HTML}{F59E0B}
+\definecolor{slate}{HTML}{64748B}
+\definecolor{bglight}{HTML}{F0F9FF}
+\definecolor{bgwarn}{HTML}{FFF7ED}
+\definecolor{bgtip}{HTML}{F0FDF4}
+\definecolor{bgcrit}{HTML}{FEF2F2}
+
+\titleformat{\section}{\large\bfseries\color{hptu}}{}{0pt}{}[\vspace{-4pt}\color{hptu}\rule{\textwidth}{0.8pt}]
+\titleformat{\subsection}{\normalsize\bfseries\color{teal}}{}{0pt}{}
+\titlespacing{\section}{0pt}{10pt}{4pt}
+\titlespacing{\subsection}{0pt}{6pt}{2pt}
+
+\newmdenv[backgroundcolor=bgtip, linecolor=teal, linewidth=1.5pt,
+  leftline=true, rightline=false, topline=false, bottomline=false,
+  innerleftmargin=8pt, innerrightmargin=8pt, innertopmargin=5pt, innerbottommargin=5pt]{tip}
+
+\newmdenv[backgroundcolor=bgcrit, linecolor=coral, linewidth=1.5pt,
+  leftline=true, rightline=false, topline=false, bottomline=false,
+  innerleftmargin=8pt, innerrightmargin=8pt, innertopmargin=5pt, innerbottommargin=5pt]{alerta}
+
+\newmdenv[backgroundcolor=bglight, linecolor=hptu, linewidth=1.5pt,
+  leftline=true, rightline=false, topline=false, bottomline=false,
+  innerleftmargin=8pt, innerrightmargin=8pt, innertopmargin=5pt, innerbottommargin=5pt]{cita}
+
+\newcommand{\hl}[1]{\textcolor{teal}{\textbf{#1}}}
+\newcommand{\dg}[1]{\textcolor{coral}{\textbf{#1}}}
+\newcommand{\slide}[2]{\subsection{Slide #1: #2}}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\small\color{slate}Guia por Diapositiva --- HPTU Junta Directiva}
+\fancyhead[R]{\small\color{slate}16 de marzo, 2026}
+\fancyfoot[L]{\raisebox{2pt}{\includegraphics[height=8pt]{basica.png}}}
+\fancyfoot[R]{\small\color{slate}\thepage}
+\renewcommand{\headrulewidth}{0.4pt}
+
+\begin{document}
+
+\begin{center}
+{\color{hptu}\rule{\textwidth}{2pt}}
+\vspace{8pt}
+{\LARGE\bfseries\color{hptu} Guia por Diapositiva}
+\vspace{4pt}
+
+{\Large Junta Directiva HPTU --- 16 de marzo, 2026}
+\vspace{4pt}
+
+{\normalsize\color{slate} 37 slides $\cdot$ 1 hora $\cdot$ Que decir en cada una}
+\vspace{8pt}
+{\color{hptu}\rule{\textwidth}{2pt}}
+\end{center}
+
+\vspace{6pt}
+
+\begin{alerta}
+\textbf{Cambio clave vs.\ presentacion anterior}: La recomendacion ya no es Las Palmas Bajo. Es \hl{Access Point Km 7} --- por decision estrategica frente a los fundamentales del Oriente Antioqueno. LP Bajo tiene el mejor score MCDA (88 vs 81), pero la inversion mira a 10--15 anos y los datos del Oriente son contundentes.
+\end{alerta}
+
+% ============================================================
+\section{ACTO 1: La Oportunidad (slides 1--5, $\sim$8 min)}
+% ============================================================
+
+\slide{1}{Portada}
+\textbf{No hablar}. Solo dejar que la Junta lea: 3.8M registros, 15 fuentes, 6 preguntas.
+
+\slide{2}{Agenda --- 1 hora, 5 actos}
+\begin{tip}
+``Hoy vamos a recorrer 5 actos. Empezamos con el problema, pasamos por la evidencia, respondemos 6 preguntas de demanda, llegamos al analisis y cerramos con la decision. Una hora.''
+\end{tip}
+\textbf{Dato}: Mencionar que la plataforma interactiva esta disponible en \texttt{hptu-localizacion.vercel.app}.
+
+\slide{3}{Un hospital saturado, lejos de su mercado}
+\begin{tip}
+``HPTU tiene 540 camas en Robledo. Mientras tanto, hay 174,543 predios estrato 5 y 6 en 22 barrios del corredor Las Palmas --- a mas de 20 minutos del hospital. Y en ese corredor hay cero camas de alta complejidad.''
+\end{tip}
+\textbf{Datos clave}:
+\begin{itemize}[nosep]
+  \item \hl{540 camas} --- sede principal HPTU (REPS + confirmacion HPTU)
+  \item \hl{174,543 predios E5/E6} en 22 barrios (Catastro bp59-rj8r)
+  \item \dg{0 camas} alta complejidad en corredor Las Palmas
+  \item Deficit OMS: Medellin 1.0 camas/1000 vs minimo 3.0
+\end{itemize}
+
+\slide{4}{La escala del analisis: datos, no opiniones}
+\begin{tip}
+``Este no es un estudio de opinion. Son 15 fuentes oficiales, 3.8 millones de registros, 6 zonas evaluadas con un modelo MCDA de 4 dimensiones.''
+\end{tip}
+\textbf{Datos}: 15 fuentes, 3.8M+ registros, 6 zonas, 13 competidores, 145 IPS, 22 barrios, periodo 2017--2037. Pesos MCDA: Accesibilidad 35\%, Demanda 30\%, Competencia 20\%, Valor Inmobiliario 15\%.
+
+\slide{5}{El mercado: 174,543 predios E5/E6 en 22 barrios}
+\begin{tip}
+``Este es el mercado que no tiene acceso a alta complejidad. El Poblado core: 38,415 predios, 98\% estrato 5/6, avaluo promedio 371 millones. SURA tiene 320,000 afiliados aqui. Y no hay un solo hospital con trasplantes, hematologia ni oncologia.''
+\end{tip}
+\textbf{Fuente}: Catastro Municipal Medellin (bp59-rj8r), 1,041,413 predios.
+
+% ============================================================
+\section{ACTO 2: La Evidencia (slides 6--13, $\sim$12 min)}
+% ============================================================
+
+\slide{6}{La brecha: un corredor sin hospital de alta complejidad}
+\begin{tip}
+``DENSURBAM confirma: El Poblado tiene un indice de salud de 0.27 --- cinco veces menos que el promedio de Medellin. 10 barrios del corredor tienen cero metros cuadrados de oferta de salud. La red hospitalaria esta lejos: 1,593 camas en 6 hospitales, todos a mas de 3 km del corredor.''
+\end{tip}
+\textbf{Datos clave}:
+\begin{itemize}[nosep]
+  \item IRS Salud El Poblado: \dg{0.27} (umbral: 2.5)
+  \item Red hospitalaria: HPTU 540, Cl.\ Medellin 184, HGM 384, Cl.\ Prado 152, CES 213, Uribe Angel 120 = \hl{1,593 total}
+  \item En el corredor: Cl.\ Rosario Tesoro (158) y Cl.\ Las Vegas (171) --- sin alta complejidad
+\end{itemize}
+
+\slide{7}{Proyeccion 2037: crecimiento en dos frentes}
+\begin{tip}
+``El crecimiento viene por dos frentes. El Valle de Aburra suma 152,000 personas a 2037. Pero el Oriente crece al doble: Rionegro al 2\% anual vs Medellin al 0.9\%. Siete municipios pasan de 378K a 442K habitantes. Y la red hospitalaria no suma ni una cama nueva en el corredor.''
+\end{tip}
+\textbf{Datos clave Oriente}:
+\begin{itemize}[nosep]
+  \item Rionegro: 116K (2018) $\to$ 138K (2026) $\to$ 149K (2030), CAGR \hl{+2.0\%}
+  \item 7 municipios: 378K $\to$ 442K
+  \item Migracion neta: 5.2/100 hab/ano --- el Oriente \textbf{atrae} poblacion
+  \item Infraestructura requerida: \dg{363,696 m$^2$} (DENSURBAM)
+\end{itemize}
+
+\slide{8}{El trafico: Las Palmas fluye, El Poblado colapsa}
+\textbf{Dato killer}: A las 5 PM, Las Palmas fluye a \hl{40.9 km/h} mientras El Poblado esta a \dg{18.0 km/h}. El doble de rapido. Basado en 682,502 observaciones (MEData, 2017--2020).
+
+\slide{9}{Infraestructura vial: COP \$1.96 billones en camino}
+\begin{tip}
+``COP 1.96 billones en infraestructura vial estan en camino. La mas critica: el Tunel doble calzada en H2 2027. Km 7 queda en la interseccion de las 3 obras principales.''
+\end{tip}
+\textbf{Dato}: Tunel doble calzada H2 2027 = Rionegro a \hl{25 min} de Access Point.
+
+\slide{10}{El Oriente crece: la demanda viene hacia nosotros}
+\textbf{Dato killer}: Trafico Las Palmas crecio \hl{+63.8\%} en 10 anos (2.8M $\to$ 4.6M vehiculos/ano). Los 8 indicadores de crecimiento apuntan hacia arriba. PIB Oriente: 10.4\% de Antioquia.
+
+\slide{11}{Oriente Antioqueno: 728,000 hab., infraestructura critica}
+\begin{tip}
+``Pasemos al Oriente, que es el corazon de esta presentacion. 728,000 habitantes en 11 municipios, con una infraestructura de salud critica. El 55\% de las camas estan concentradas en Rionegro. No hay un solo hospital nivel 3 o 4 en toda la region. Y cuatro municipios tienen menos de 1 cama por cada mil habitantes --- Marinilla con 0.42, El Santuario con 0.17.''
+\end{tip}
+\textbf{Datos clave}:
+\begin{itemize}[nosep]
+  \item Total Oriente: \hl{1,199 camas}, 55\% en Rionegro
+  \item \dg{0 hospitales} nivel 3--4 en toda la region
+  \item 4 municipios por debajo de OMS: Marinilla (0.42), El Santuario (0.17), El Carmen (0.59), El Retiro (1.08)
+  \item Mercado contributivo: \hl{384,171 afiliados}, ratio C/S \hl{3.46$\times$}
+  \item Rionegro: \hl{85\% contributivo}, SURA domina 64--79\%
+  \item Zona Franca: 300+ empresas, 12K empleados
+\end{itemize}
+
+\slide{12}{Demanda capturable: 45,000 consultas/ano desde el Oriente}
+\begin{tip}
+``De los 728,000 habitantes del Oriente, 218,000 necesitan atencion especializada cada ano. De esos, 65,000 viajan a Medellin. Access Point puede interceptar 45,000 consultas anuales --- eso son 8,100 millones de pesos en revenue.''
+\end{tip}
+\textbf{Portafolio capturable}:
+\begin{itemize}[nosep]
+  \item Consulta especializada: 18,000/ano (\$3,240M)
+  \item Cirugia ambulatoria: 6,500/ano (\$2,600M)
+  \item Imagenes diagnosticas: 9,000/ano (\$1,350M)
+  \item Rehabilitacion: 7,000/ano (\$560M)
+  \item Chequeo ejecutivo: 4,500/ano (\$350M)
+  \item \textbf{TOTAL: 45,000 consultas, COP \hl{\$8,100M/ano}}
+\end{itemize}
+
+\slide{13}{Oriente: 5 servicios criticos, 4 inexistentes}
+\begin{tip}
+``Clinica Somer tiene el unico equipo de radioterapia y la unica unidad de oncologia en todo el Oriente. Un monopolio para 728,000 habitantes. HPTU romperia ese monopolio con calidad JCI. Ademas, no existe chequeo ejecutivo, rehabilitacion especializada, turismo medico ni pediatria subespecializada.''
+\end{tip}
+\textbf{Dato}: 3 servicios criticos (cirugia ambulatoria avanzada, oncologia, radioterapia) + 4 inexistentes (rehabilitacion, chequeo ejecutivo, turismo medico, pediatria subespecializada).
+
+% ============================================================
+\section{ACTO 3: Las 6 Preguntas (slides 14--24, $\sim$15 min)}
+% ============================================================
+
+\slide{14}{Divider --- Las 6 preguntas}
+\begin{tip}
+``Nos hicimos 6 preguntas que la Junta necesita responder. Las 6 tienen respuesta clara con datos. Las 6 respuestas son Si.''
+\end{tip}
+
+\slide{15}{Q1: Hay suficientes pacientes? $\to$ SI, SOBRAN}
+\textbf{Dato killer}: Rionegro: \dg{0 camas UCI} en 2023 (bajo de 0.14/1000). Sobreocupacion urgencias: \dg{114\%}. El 40--46\% de pacientes son de otros municipios ($\sim$33,600/ano).
+
+\begin{cita}
+``Los pacientes YA estan viajando. La pregunta no es si hay demanda --- es quien la captura.''
+\end{cita}
+
+\slide{16}{Q2: Vendran a Km 7? $\to$ SI, 3 DE 3 TARGETS}
+\textbf{Dato killer}: Km 7 ahorra \hl{17.8 minutos} a El Retiro y La Ceja vs HPTU actual.
+\begin{itemize}[nosep]
+  \item El Retiro: 44 min (vs HPTU 62 min) = \hl{--17.8 min}
+  \item La Ceja: 66 min (vs HPTU 84 min) = \hl{--17.8 min}
+  \item Aeropuerto SKRG: ganancia de \hl{--14.4 min}
+\end{itemize}
+\textbf{Matiz}: Km 7 pierde en Guarne (+15.9 min) y Marinilla (+9.6 min). Eso esta bien --- HPTU actual ya los cubre. La nueva sede captura lo que HPTU \textbf{no puede}.
+
+\slide{17}{Q3: Pueden pagar? $\to$ SI, RATIO 3.46$\times$}
+\textbf{Dato killer}: \hl{384,171 afiliados contributivos} en 7 municipios. Rionegro: 85\% contributivo. SURA domina con 64--79\%.
+
+\begin{cita}
+``El Oriente es masivamente contributivo. Sura es el contrato ancla obligatorio para viabilidad.''
+\end{cita}
+
+\slide{18}{Q4: Crecera la demanda? $\to$ SI, 8 DE 8}
+\textbf{Los 8 indicadores}: Poblacion (+2\%), Trafico LP (+63.8\%), Trafico Tunel (+30.6\%), Aeropuerto (14.5M$\to$42.7M), Prepagada (+37\%), Turismo medico (+15\% CAGR), Migracion (5.2/100), Tunel doble calzada (H2 2027).
+
+\begin{cita}
+``No encontramos un solo indicador que apunte hacia abajo.''
+\end{cita}
+
+\slide{19--20}{Q5: Otros ya validaron? $\to$ SI, COP \$590,000M}
+\textbf{6 instituciones}: HSVF Rionegro (>\$200K, 500 camas), H.\ San Juan Dios (\$120K), Torre Oviedo (\$100K, 87 consultorios), AUNA Sur (\$90K, 168 camas), Quironsalud ($\sim$\$50K), Campestre (\$30K).
+
+\begin{alerta}
+\textbf{Si preguntan por Campestre}: ``Solo sede Rionegro, ambulatorio basico, \$30,000M. \dg{NO hay torre de 15 pisos en Medellin}. Confirma la demanda. No compite con alta complejidad HPTU.''
+\end{alerta}
+
+\slide{21--22}{Q6: Hay turismo de salud? $\to$ SI, USD \$11.7M}
+\textbf{Dato killer}: \dg{0 instituciones JCI} a menos de 30 min del aeropuerto. HPTU es el unico JCI en Antioquia. Access Point a \hl{25 min} del aeropuerto via Tunel.
+
+\textbf{Calculo}: 85,000 turistas medicos/ano $\times$ 5\% captura $\times$ USD \$2,764 = \hl{USD \$11.7M/ano}.
+
+\slide{23}{6 preguntas, 6 respuestas: todas Si}
+
+\begin{tip}
+\textbf{Este es el CLIMAX.} Pausar aqui. Dejar que la Junta absorba.
+
+\vspace{4pt}
+``6 preguntas, 6 respuestas, todas Si. La demanda esta validada por 6 dimensiones independientes. El riesgo no es invertir --- es NO actuar.''
+\end{tip}
+
+% ============================================================
+\section{ACTO 4: Analisis y Recomendacion (slides 24--31, $\sim$12 min)}
+% ============================================================
+
+\slide{24}{Brechas ambulatorias en el Oriente: 10 servicios criticos}
+\textbf{Dato}: 3 criticos (cirugia ambulatoria, oncologia, radioterapia) + 4 inexistentes. 10 categorias ambulatorias son criticas o inexistentes. Ninguno las puede ofrecer con calidad HPTU.
+
+\slide{25}{MCDA: 6 zonas evaluadas --- el ranking}
+\begin{tip}
+``Evaluamos 6 zonas con un modelo de 4 dimensiones. Las Palmas Bajo sale primera con score 88. Access Point segunda con 81. Pero --- y esto es importante --- el MCDA evalua condiciones actuales. Vamos a ver por que nuestra recomendacion es diferente al ranking.''
+\end{tip}
+\textbf{Ranking}: LP Bajo 88, AP Km 7 81, LP Medio 77, Envigado 74, N.\ Poblado 67, LP Alto 58 (descartado).
+
+\slide{26}{Access Point Km 7: nuestra recomendacion estrategica}
+\textbf{Datos clave}: Score 81/100 (\#2), 4 torres, 10 pisos, 1,085 parqueaderos, 18.5 min a HPTU, \hl{25 min} al aeropuerto via Tunel, sin pico y placa. Catchment dual: 135K Poblado + 460K Oriente = \hl{595K}.
+
+\slide{27}{Score \#2, Decision \#1: Por que Access Point?}
+
+\begin{tip}
+\textbf{Esta es la slide mas importante de la presentacion.}
+
+\vspace{4pt}
+``Les voy a ser transparente. En el modelo MCDA, Las Palmas Bajo sale primero con 88 puntos --- 7 puntos mas que Access Point. La diferencia esta en el eje de competencia: hay 40 IPS en 5 km de Access Point, mientras que LP Bajo tiene cero competidores de alta complejidad.''
+
+\vspace{4pt}
+``Pero ninguna de esas 40 IPS ofrece trasplantes, hematologia ni tiene JCI. Y lo mas importante: el MCDA evalua el corredor HOY. No pondera la transformacion que viene.''
+
+\vspace{4pt}
+``Tunel doble calzada en H2 2027. Rionegro creciendo al doble que Medellin. Aeropuerto triplicando pasajeros. 384,000 contributivos. 728,000 habitantes sin hospital nivel 3--4. Esos son los fundamentales que hacen de Access Point la posicion de mayor valor prospectivo.''
+
+\vspace{4pt}
+``\textbf{Recomendamos Access Point Km 7.}''
+\end{tip}
+
+\textbf{Desglose MCDA para preguntas}:
+
+{\small
+\begin{tabular}{@{}lcccc@{}}
+\toprule
+\textbf{Dimension} & \textbf{Peso} & \textbf{LP Bajo} & \textbf{AP Km 7} & \textbf{$\Delta$} \\
+\midrule
+Accesibilidad & 35\% & 92 & 85 & +7 \\
+Demanda & 30\% & 93 & 91 & +2 \\
+Competencia & 20\% & 78 & 65 & +13 \\
+Valor Inmob. & 15\% & 80 & 75 & +5 \\
+\midrule
+\textbf{TOTAL} & & \textbf{88} & \textbf{81} & +7 \\
+\bottomrule
+\end{tabular}
+}
+
+\slide{28}{Isocronas de accesibilidad}
+\textbf{Dato}: Desde AP Km 7, en 15 min se llega a El Poblado sur, El Tesoro, San Lucas. En 30 min: todo El Poblado, Envigado, Laureles. En 45 min: El Retiro, Guarne. En 60 min: Rionegro, La Ceja, aeropuerto.
+
+\slide{29}{Convergencia de evidencia: 5 pilares}
+\textbf{Los 5}: 540 camas saturadas, 0 camas corredor, 384K contributivos, \$590K MM invertidos, 85K turistas medicos.
+
+\slide{30}{Recomendacion: Access Point Km 7}
+\textbf{Repetir los 4 pilares}: Score 81/100 (decision estrategica \#1), catchment 595K, 25 min al aeropuerto, 45K consultas/ano capturable.
+
+\begin{cita}
+``LP Bajo tiene score 88, el mas alto en MCDA. Pero la inversion mira a 10--15 anos. Los fundamentales del Oriente --- 728K habitantes, crecimiento +2\% anual, 384K contributivos, aeropuerto triplicando, Tunel doble calzada --- hacen de Access Point la posicion de mayor valor prospectivo.''
+\end{cita}
+
+\slide{31}{Modelo financiero: factibilidad por zona}
+\textbf{Datos}: LP Bajo: 250 camas, \$90MM, payback 11.3y, VPN +\$4.8MM. LP Alto: inviable (VPN --\$31MM). Si ingreso/cama sube a \$2,000M (privado premium): VPN LP Bajo sube a \hl{+\$25MM}.
+
+\begin{alerta}
+\textbf{Si dicen ``el VPN de \$4.8MM es bajo''}: ``Ese es el escenario conservador con benchmark de hospital publico. Con tarifa privado premium, sube a +\$25MM. Ese parametro se valida en las proximas 6 semanas.''
+
+\vspace{2pt}
+\textbf{No defender demasiado el financiero.} Es preliminar. La fortaleza es la demanda.
+\end{alerta}
+
+% ============================================================
+\section{ACTO 5: Decision (slides 32--37, $\sim$10 min + Q\&A)}
+% ============================================================
+
+\slide{32}{Viabilidad POT: 22 barrios}
+\textbf{Dato}: Altos del Poblado: score 9/9, CL\_D=2.38, 68,020 m$^2$ suelo. El Tesoro: 9/9, CL\_D=2.52. Pendiente: fichas normativas por poligono del DAP Medellin.
+
+\slide{33}{Lo que falta: 8 parametros por validar}
+\textbf{5 prioridad ALTA}: Precio suelo/m$^2$, ingreso/cama/ano, margen EBITDA, fichas normativas POT, lotes disponibles.
+
+\slide{34}{Ruta a la decision: Fases 3 y 4}
+\textbf{Entregables actuales}: Plataforma web, dashboard de demanda, base georreferenciada (15 GeoJSON), dashboard MCDA, modelo financiero, perfiles de 13 competidores, analisis turismo de salud.
+
+\slide{35}{Cronograma: 6 semanas a la decision}
+\begin{tip}
+``Estas son las 6 semanas. Semanas 1--3: validacion financiera y competencia. Semanas 2--4: identificacion de lotes. Semanas 3--5: sensibilidad Monte Carlo. Semana 6: informe final con shortlist.''
+\end{tip}
+
+\slide{36}{Sintesis ejecutiva}
+\textbf{Los 5 pilares}: 540 camas (problema), 0 camas corredor (brecha), 174K predios E5/E6 (mercado), Access Point Km 7 (recomendado), VPN +\$4.8MM (financiero).
+
+\begin{cita}
+``Sistema saturado. 6 de 6 preguntas respondidas con Si. Access Point Km 7: posicion estrategica para el Oriente. 6 semanas a la decision.''
+\end{cita}
+
+\slide{37}{Cierre --- Preguntas?}
+\begin{tip}
+``Todo es datos. Nada es opinion.''
+
+\vspace{4pt}
+Si alguien quiere ver datos en detalle: abrir \texttt{hptu-localizacion.vercel.app}.
+\end{tip}
+
+% ============================================================
+\section{Preguntas anticipadas y respuestas}
+% ============================================================
+
+\subsection{``Por que Access Point si LP Bajo tiene mejor score?''}
+\begin{tip}
+``El MCDA mide condiciones actuales. Los 7 puntos de diferencia estan en competencia: 40 IPS cerca de AP vs 0 en LP Bajo. Pero ninguna de esas IPS ofrece lo que HPTU ofrece. Y mirando a 10--15 anos, los fundamentales del Oriente --- crecimiento, contributivos, aeropuerto, Tunel --- hacen de AP la mejor posicion.''
+\end{tip}
+
+\subsection{``Por que no Envigado que es mas barato?''}
+\begin{tip}
+``Score 74 vs 81. Pierde en accesibilidad al Oriente. Es municipio autonomo con su propia normativa POT. No tiene catchment dual.''
+\end{tip}
+
+\subsection{``Campestre ya abrio en Rionegro. Llegamos tarde?''}
+\begin{tip}
+``Ambulatorio basico, ortopedia, 250 pac/dia, \$30,000M. No compite con alta complejidad. HPTU tiene trasplantes, hematologia, oncologia compleja, y es el unico JCI en Antioquia. Que hayan invertido \$30,000M \textbf{confirma que la demanda es real}.''
+\end{tip}
+
+\subsection{``Que pasa si el Tunel se retrasa?''}
+\begin{tip}
+``El caso NO depende del Tunel. El mercado de El Poblado (135K, E5/E6) es masivo por si solo. El Tunel es upside. Y los datos de trafico ya muestran +63.8\% en 10 anos sin doble calzada.''
+\end{tip}
+
+\subsection{``Cuantas camas tendria la nueva sede?''}
+\begin{tip}
+``Modelo base: 250 camas. Pero la primera fase podria ser un hub ambulatorio especializado --- cirugia ambulatoria, imagenes, chequeo ejecutivo --- sin camas hospitalarias. Reduce CAPEX y permite validar demanda antes de escalar.''
+\end{tip}
+
+\subsection{``Que tan confiables son los datos?''}
+\begin{tip}
+``15 fuentes oficiales, 3.8 millones de registros. Catastro, DANE, REPS, MEData, POT, ANI, ProColombia. Cero estimaciones propias --- todo trazable al dataset original. La plataforma esta en vivo para que cualquiera verifique.''
+\end{tip}
+
+% ============================================================
+\section{Checklist pre-junta}
+% ============================================================
+
+\begin{enumerate}[leftmargin=*, itemsep=3pt]
+  \item[$\square$] Abrir con el \textbf{problema} (540 camas, 0 en corredor), NO con la solucion
+  \item[$\square$] Enfatizar los datos del \textbf{Oriente} --- es lo que pidio la Junta en la reunion anterior
+  \item[$\square$] Las 6 preguntas: pausar antes de cada ``Si'' --- contacto visual
+  \item[$\square$] \textbf{Slide 23} (6 respuestas = Si) es el CLIMAX --- pausar ahi
+  \item[$\square$] \textbf{Slide 27} (Score \#2, Decision \#1) es la slide mas importante --- ser transparente con los numeros y firme con la recomendacion
+  \item[$\square$] No defender el modelo financiero demasiado --- es preliminar
+  \item[$\square$] Campestre: ``ambulatorio basico, \$30,000M, confirma la demanda''
+  \item[$\square$] El \textbf{cronograma} (slide 35) es el call-to-action
+  \item[$\square$] Si quieren ver datos: abrir la plataforma
+  \item[$\square$] \dg{EVITAR} dar cifras de ocupacion (no tenemos fuente verificable)
+  \item[$\square$] Tiempo AP $\to$ aeropuerto: \hl{25 min via Tunel} (post doble calzada H2 2027)
+\end{enumerate}
+
+\vfill
+\begin{center}
+{\color{hptu}\rule{0.6\textwidth}{0.8pt}}
+\vspace{4pt}
+{\small\color{slate}\textit{``Todo es datos. Nada es opinion.''}}
+\end{center}
+
+\end{document}

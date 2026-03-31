@@ -19,6 +19,9 @@ const formatNumber = (n: number) =>
   new Intl.NumberFormat("es-CO").format(n);
 
 // Ambulatory service categories with availability in Oriente
+// Updated post-Junta 16 marzo: SVF tiene oncologia, radioterapia,
+// cirugia ambulatoria, pediatria sub., turismo medico.
+// Es duopolio Somer + SVF, NO monopolio.
 const serviceCategories = [
   {
     name: "Consulta Externa Especializada",
@@ -27,8 +30,8 @@ const serviceCategories = [
   },
   {
     name: "Cirugia Ambulatoria",
-    availability: "Solo Clinica Somer",
-    level: "red" as const,
+    availability: "Campestre + SVF (limitada)",
+    level: "amber" as const,
   },
   {
     name: "Imagenes Diagnosticas (TAC, RMN)",
@@ -47,8 +50,8 @@ const serviceCategories = [
   },
   {
     name: "Oncologia Ambulatoria",
-    availability: "Inexistente en Oriente",
-    level: "red" as const,
+    availability: "Somer y SVF (duopolio)",
+    level: "amber" as const,
   },
   {
     name: "Hemodialisis",

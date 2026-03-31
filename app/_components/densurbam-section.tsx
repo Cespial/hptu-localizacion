@@ -372,22 +372,22 @@ export function DensurbamSection() {
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
-        className="rounded-xl border-2 border-red-300 bg-red-50/50 p-5 sm:p-6"
+        className="rounded-xl border border-slate-200 bg-slate-50/50 p-5 sm:p-6"
       >
         <div className="flex items-start gap-3">
-          <AlertTriangle className="h-6 w-6 text-red-600 shrink-0 mt-0.5" />
+          <AlertTriangle className="h-6 w-6 text-slate-500 shrink-0 mt-0.5" />
           <div>
-            <h4 className="font-serif text-lg font-bold text-red-800">
+            <h4 className="font-serif text-lg font-bold text-slate-800">
               DENSURBAM Confirma: Deficit Critico de Salud en El Poblado
             </h4>
-            <p className="text-sm text-red-700 mt-1">
+            <p className="text-sm text-slate-700 mt-1">
               La plataforma DENSURBAM (URBAM-EAFIT) asigna un <strong>IRS de Salud de 0.27 a El Poblado</strong> —
               el mas bajo de todo el Valle de Aburra — contra un umbral de sostenibilidad de 2.5.
               <strong> 10 barrios del corredor Las Palmas tienen deficit del 100%</strong> en equipamiento
               de salud: 0.0 m² de oferta vs 3.5 m²/hab requeridos. Esto representa{" "}
               <strong>{formatNumber(totalDeficitPop)} habitantes al 2037 sin cobertura</strong> de equipamiento
               de salud en su territorio. Con un crecimiento poblacional proyectado de <strong>+20.6%</strong>,
-              la brecha solo se ampliara. Una nueva sede HPTU en Las Palmas Bajo cerraria directamente
+              la brecha solo se ampliara. La sede ambulatoria HPTU en el corredor Las Palmas cerraria directamente
               este deficit, aportando los <strong>{formatNumber(Math.round(totalDeficitPop * 3.5))} m² de equipamiento</strong> que
               DENSURBAM identifica como necesarios.
             </p>

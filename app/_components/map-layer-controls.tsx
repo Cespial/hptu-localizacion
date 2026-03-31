@@ -26,12 +26,15 @@ const groupLabels: Record<string, string> = {
 };
 
 export function MapLayerControls({ layers, onToggle }: MapLayerControlsProps) {
-  const [collapsed, setCollapsed] = useState(false);
+  const [collapsed, setCollapsed] = useState(() => {
+    if (typeof window !== "undefined") return window.innerWidth < 768;
+    return false;
+  });
 
   const groups = ["base", "data", "analysis", "oriente"] as const;
 
   return (
-    <div className="absolute top-4 left-4 z-20 w-[220px] rounded-xl border bg-white/90 backdrop-blur-md shadow-lg overflow-hidden">
+    <div className="absolute top-4 left-4 z-20 w-[200px] md:w-[220px] rounded-xl border bg-white/90 backdrop-blur-md shadow-lg overflow-hidden">
       {/* Header */}
       <button
         onClick={() => setCollapsed(!collapsed)}
@@ -42,7 +45,7 @@ export function MapLayerControls({ layers, onToggle }: MapLayerControlsProps) {
       </button>
 
       {!collapsed && (
-        <div className="px-2 pb-2 space-y-2">
+        <div className="px-2 pb-2 space-y-2 max-h-[60vh] overflow-y-auto">
           {groups.map((group) => {
             const groupLayers = layers.filter((l) => l.group === group);
             if (groupLayers.length === 0) return null;

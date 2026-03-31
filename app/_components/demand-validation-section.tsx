@@ -790,7 +790,7 @@ export function DemandValidationSection() {
                 <span className="h-2.5 w-2.5 rounded-sm bg-red-500" /> Expansion
               </span>
               <span className="flex items-center gap-1">
-                <span className="h-2.5 w-2.5 rounded-sm bg-amber-500" /> Nueva sede
+                <span className="h-2.5 w-2.5 rounded-sm bg-amber-500" /> Sede ambulatoria
               </span>
               <span className="flex items-center gap-1">
                 <span className="h-2.5 w-2.5 rounded-sm bg-indigo-500" /> Consolidacion
@@ -1140,7 +1140,7 @@ export function DemandValidationSection() {
               { q: "¿Vendran?", answer: "Si", detail: "Km7 ahorra 14-18 min al sur", icon: Clock, color: "text-blue-600" },
               { q: "¿Pagan?", answer: "Si", detail: "384K contributivo, C/S 3.5x", icon: DollarSign, color: "text-teal-600" },
               { q: "¿Crece?", answer: "Si", detail: "+2% CAGR, +64% trafico", icon: TrendingUp, color: "text-emerald-600" },
-              { q: "¿Validado?", answer: "Si", detail: "$590B invertidos en corredor", icon: Building2, color: "text-violet-600" },
+              { q: "¿Validado?", answer: "Si", detail: "$590.000M invertidos en corredor", icon: Building2, color: "text-violet-600" },
               { q: "¿Tur. salud?", answer: "Si", detail: "85K pac intl, HPTU unico JCI", icon: Globe, color: "text-sky-600" },
             ].map((item, i) => {
               const Icon = item.icon;

@@ -56,7 +56,7 @@ const sources = [
     dataset: "b4dp-ximh",
     portal: "datos.gov.co / MinSalud",
     records: 1536,
-    description: "IPS habilitadas en Valle de Aburra. HPTU: 1,094 camas. 842 IPS en area focal.",
+    description: "IPS habilitadas en Valle de Aburra. HPTU: 540 camas hospitalarias. 842 IPS en area focal.",
     color: "text-red-600",
     bgColor: "bg-red-50",
   },
@@ -115,8 +115,8 @@ const sources = [
     name: "Mapbox Matrix API",
     dataset: "directions-matrix/v1",
     portal: "api.mapbox.com",
-    records: 25, // 5x5 matrix
-    description: "Tiempos de viaje reales entre 5 zonas candidatas y 5 destinos clave.",
+    records: 30, // 6x5 matrix
+    description: "Tiempos de viaje reales entre 6 zonas candidatas y 5 destinos clave.",
     color: "text-indigo-600",
     bgColor: "bg-indigo-50",
   },
@@ -125,8 +125,8 @@ const sources = [
     name: "Mapbox Isochrone API",
     dataset: "isochrone/v1",
     portal: "api.mapbox.com",
-    records: 15, // 5 zones x 3 isochrones
-    description: "Isocronas reales 10/20/30 min para 5 zonas candidatas. Datos de trafico en vivo.",
+    records: 18, // 6 zones x 3 isochrones
+    description: "Isocronas reales 10/20/30 min para 6 zonas candidatas. Datos de trafico en vivo.",
     color: "text-indigo-600",
     bgColor: "bg-indigo-50",
   },

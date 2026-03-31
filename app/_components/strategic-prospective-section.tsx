@@ -131,7 +131,7 @@ export function StrategicProspectiveSection() {
             Inversion Vial Pipeline
           </p>
           <p className="text-2xl font-bold text-teal-600 mt-1">
-            &gt;COP $2.5B
+            COP $2,5 billones
           </p>
           <p className="text-[10px] text-muted-foreground">
             Tunel + vias + intercambios
@@ -487,15 +487,15 @@ export function StrategicProspectiveSection() {
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
-        className="rounded-xl border-2 border-emerald-300 bg-emerald-50/50 p-5 sm:p-6"
+        className="rounded-xl border border-slate-200 bg-slate-50/50 p-5 sm:p-6"
       >
         <div className="flex items-start gap-3">
-          <TrendingUp className="h-6 w-6 text-emerald-600 shrink-0 mt-0.5" />
+          <TrendingUp className="h-6 w-6 text-slate-500 shrink-0 mt-0.5" />
           <div>
-            <h4 className="font-serif text-lg font-bold text-emerald-800">
+            <h4 className="font-serif text-lg font-bold text-slate-800">
               Convergencia Historica: Access Point en el Epicentro
             </h4>
-            <p className="text-sm text-emerald-700 mt-1">
+            <p className="text-sm text-slate-700 mt-1">
               Cuando la doble calzada del Tunel de Oriente entre en operacion
               (H2 2027), el tiempo de viaje Medellin-Oriente se reduce
               drasticamente. El{" "}
@@ -508,7 +508,7 @@ export function StrategicProspectiveSection() {
               <strong>Km 7 la ubicacion de salud mas estrategica</strong> de la
               proxima decada.
             </p>
-            <p className="text-xs text-emerald-600 mt-2 italic">
+            <p className="text-xs text-slate-600 mt-2 italic">
               Fuentes: Gobernacion de Antioquia, INVIAS, ANI, Aerocivil Plan
               Maestro JMC 2055, DANE proyecciones, POT Rionegro
             </p>

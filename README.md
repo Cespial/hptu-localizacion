@@ -1,6 +1,6 @@
-# Estudio de Localizacion — HPTU Nueva Sede
+# Plan de Expansion HPTU — Sede Ambulatoria
 
-Plataforma web interactiva para el estudio de localizacion de una nueva sede del **Hospital Pablo Tobon Uribe (HPTU)** en el area metropolitana de Medellin. Analisis geoespacial multicriterio con 2.6M+ registros de 15 fuentes primarias oficiales, sin datos estimados.
+Plataforma web interactiva para el plan de expansion del **Hospital Pablo Tobon Uribe (HPTU)**: localizacion estrategica de una sede ambulatoria en el area metropolitana de Medellin. Modelo MCDA de 5 dimensiones con 3.8M+ registros de 15 fuentes primarias oficiales.
 
 **Live:** [hptu-localizacion.vercel.app](https://hptu-localizacion.vercel.app)
 

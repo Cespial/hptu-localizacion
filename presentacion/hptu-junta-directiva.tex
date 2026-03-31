@@ -124,14 +124,14 @@
   % Occupancy gauge
   \draw[gray!30, very thick] (0,0) arc (180:0:2.5);
   \draw[coral, line width=4pt] (0,0) arc (180:7.2:2.5);
-  \node[font=\Huge\bfseries, coral] at (2.5, 0.8) {96\%};
-  \node[font=\small, below] at (2.5, 0.3) {Ocupación HPTU};
-  \node[font=\tiny\color{slate}] at (2.5, -0.2) {Solo 44 camas disponibles de 1,094};
+  \node[font=\Huge\bfseries, coral] at (2.5, 0.8) {540};
+  \node[font=\small, below] at (2.5, 0.3) {Camas HPTU};
+  \node[font=\tiny\color{slate}] at (2.5, -0.2) {Capacidad actual del hospital};
 \end{tikzpicture}
 \end{center}
 
 \vspace{8pt}
-El HPTU opera en \textbf{Robledo} con 1,094 camas. Mientras tanto:
+El HPTU opera en \textbf{Robledo} con 540 camas. Mientras tanto:
 
 \vspace{4pt}
 \begin{itemize}\small
@@ -305,15 +305,15 @@ Los Balsos No.\ 2 & 2,143 & 88\% & \$347M \\
 \textbf{Hospital} & \textbf{Camas} & \textbf{Ocup.} & \textbf{Dist.} \\
 \midrule
 \rowcolor{coral!10}
-HPTU Robledo & 1,094 & \danger{96\%} & 8.5 km \\
-Cl.\ Medellín & 624 & 88\% & 3.2 km \\
+HPTU Robledo & 540 & & 8.5 km \\
+Cl.\ Medellín & 184 & 88\% & 3.2 km \\
 \rowcolor{coral!6}
 HGM ESE & 384 & \danger{92\%} & 7+ km \\
-Cl.\ del Prado & 304 & 85\% & 5+ km \\
+Cl.\ del Prado & 152 & 85\% & 5+ km \\
 Cl.\ CES & 213 & 82\% & \danger{7.16 km} \\
 H.\ Uribe Ángel & 120 & 78\% & 4+ km \\
 \midrule
-\textbf{Total sistema} & \textbf{2,739} & \textbf{91\%} & \\
+\textbf{Total sistema} & \textbf{1,593} & & \\
 \bottomrule
 \end{tabular}
 }
@@ -759,7 +759,7 @@ Sabaneta & 88K & 106K & +20.6\% \\
 \begin{alertblock}{\small La ecuación}
 \footnotesize
 \begin{tabular}{@{}l@{}}
-Red hospitalaria al \danger{91\% de ocupación} \\
+Red hospitalaria con \danger{1,593 camas} \\
 \textbf{+ 152,000 personas más} \\
 \textbf{+ 0 camas nuevas en el corredor} \\
 \midrule
@@ -1003,8 +1003,8 @@ EPM Cobertura & datos.gov.co & 951 & Suscriptores E6 por comuna \\
   plabel/.style={font=\scriptsize\bfseries, teal},
 ]
 \node[pillar] (p1) at (0,0) {
-  {\LARGE\textcolor{coral}{\textbf{96\%}}}\\[4pt]
-  Ocupación\\HPTU\\{\scriptsize 44 camas libres}
+  {\LARGE\textcolor{coral}{\textbf{540}}}\\[4pt]
+  Camas\\HPTU\\{\scriptsize capacidad actual}
 };
 \node[pillar] (p2) at (2.8,0) {
   {\LARGE\textcolor{coral}{\textbf{0}}}\\[4pt]

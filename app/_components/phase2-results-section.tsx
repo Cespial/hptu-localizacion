@@ -14,13 +14,13 @@ export function Phase2ResultsSection() {
   return (
     <SectionWrapper id="flujos-nodos">
       <div className="text-center mb-8 lg:mb-10">
-        <Badge variant="outline" className="mb-4">Fase 2 - Flujos y Nodos (Datos Reales)</Badge>
+        <Badge variant="outline" className="mb-4">Analisis Vial — 682,502 observaciones</Badge>
         <h2 className="font-serif text-3xl font-bold sm:text-4xl">
-          Velocidades Viales y Red de Salud
+          Corredores Viales: Velocidad y Congestion
         </h2>
         <p className="mt-3 text-muted-foreground max-w-2xl mx-auto">
-          Datos reales de MEData Velocidad y Tiempo de Viaje GT (682,502 observaciones, 2017-2020),
-          Aforos Vehiculares (74,900 registros) y REPS Prestadores de Salud (1,536 IPS Valle de Aburra).
+          Velocidades reales por corredor (MEData 2017-2020), aforos vehiculares (74,900 registros)
+          y red de salud REPS (1,536 IPS en Valle de Aburra).
         </p>
       </div>
 
@@ -125,11 +125,11 @@ export function Phase2ResultsSection() {
                 </div>
                 <span className={cn(
                   "text-xs font-bold px-2 py-0.5 rounded-full shrink-0",
-                  parseInt(node.occupancy) >= 90 ? "bg-red-100 text-red-700" :
-                  parseInt(node.occupancy) >= 80 ? "bg-amber-100 text-amber-700" :
+                  node.beds >= 400 ? "bg-red-100 text-red-700" :
+                  node.beds >= 150 ? "bg-amber-100 text-amber-700" :
                   "bg-green-100 text-green-700"
                 )}>
-                  {node.occupancy}
+                  {formatNumber(node.beds)} camas
                 </span>
               </div>
 
@@ -163,9 +163,9 @@ export function Phase2ResultsSection() {
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          className="rounded-xl border-2 border-blue-200 bg-blue-50/30 p-5"
+          className="rounded-xl border border-slate-200 bg-slate-50/50 p-5"
         >
-          <Clock className="h-6 w-6 text-blue-600 mb-3" />
+          <Clock className="h-6 w-6 text-slate-500 mb-3" />
           <h4 className="text-sm font-bold mb-1">Las Palmas: 40.9 km/h</h4>
           <p className="text-xs text-muted-foreground">
             MEData registra velocidad promedio de <strong>40.9 km/h</strong> en Av. Las Palmas (5.9 km),
@@ -179,12 +179,12 @@ export function Phase2ResultsSection() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ delay: 0.1 }}
-          className="rounded-xl border-2 border-red-200 bg-red-50/30 p-5"
+          className="rounded-xl border border-slate-200 bg-slate-50/50 p-5"
         >
-          <Hospital className="h-6 w-6 text-red-600 mb-3" />
-          <h4 className="text-sm font-bold mb-1">HPTU: 1,094 Camas al 96%</h4>
+          <Hospital className="h-6 w-6 text-slate-500 mb-3" />
+          <h4 className="text-sm font-bold mb-1">HPTU: 540 Camas Hospitalarias</h4>
           <p className="text-xs text-muted-foreground">
-            REPS confirma que HPTU tiene <strong>1,094 camas</strong> (la mayor del area) al 96% de ocupacion.
+            REPS confirma que HPTU tiene <strong>540 camas hospitalarias</strong> (la mayor del area metropolitana).
             El total de IPS en el Valle de Aburra es <strong>1,536</strong>. El corredor Las Palmas tiene{" "}
             <strong>cero camas de alta complejidad</strong>. Las mas cercanas: Cl. Rosario Tesoro (158) y Cl. Las Vegas (171),
             sin trasplantes ni oncologia avanzada. Clinica CES (213 camas) esta en Prado Centro, a 7.16 km del corredor.
@@ -197,9 +197,9 @@ export function Phase2ResultsSection() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ delay: 0.2 }}
-          className="rounded-xl border-2 border-teal-200 bg-teal-50/30 p-5"
+          className="rounded-xl border border-slate-200 bg-slate-50/50 p-5"
         >
-          <ArrowUpRight className="h-6 w-6 text-teal-600 mb-3" />
+          <ArrowUpRight className="h-6 w-6 text-slate-500 mb-3" />
           <h4 className="text-sm font-bold mb-1">38,415 Predios E6 en El Poblado</h4>
           <p className="text-xs text-muted-foreground">
             Catastro Municipal confirma <strong>38,415 predios estrato 6</strong> en Comuna 14 (avaluo promedio $438M COP)

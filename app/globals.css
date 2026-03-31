@@ -67,10 +67,57 @@
   @apply bg-muted-foreground/40;
 }
 
+section[id] {
+  scroll-margin-top: 56px;
+}
+
 .mapboxgl-popup-content {
   @apply bg-card text-card-foreground rounded-lg shadow-lg border border-border p-3 !important;
 }
 
 .mapboxgl-popup-close-button {
   @apply text-muted-foreground hover:text-foreground text-lg p-1 !important;
+}
+
+@media print {
+  /* Hide interactive/nav elements */
+  .fixed,
+  nav,
+  button,
+  [data-print-hide] {
+    display: none !important;
+  }
+
+  /* Force backgrounds to print */
+  * {
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+
+  /* Remove animations */
+  * {
+    animation: none !important;
+    transition: none !important;
+  }
+
+  /* Ensure sections don't break mid-content */
+  section {
+    page-break-inside: avoid;
+    break-inside: avoid;
+  }
+
+  /* Show full page (no collapse) */
+  .overflow-hidden {
+    overflow: visible !important;
+    height: auto !important;
+  }
+
+  /* Reduce margins for print */
+  body {
+    font-size: 11pt;
+  }
+
+  section[id] {
+    scroll-margin-top: 0;
+  }
 }

@@ -21,7 +21,7 @@ const phases = [
     activities: [
       { icon: Users, label: "128,500 hab. E5/E6 mapeados", detail: "Gradiente de demanda El Poblado → Colegiatura → Alto de Las Palmas" },
       { icon: MapPin, label: "28+ POIs identificados", detail: "Clinicas, prepagada, colegios, clubes, corporativos" },
-      { icon: Database, label: "Isocronas reales Mapbox", detail: "5 zonas candidatas con cobertura 10/20/30 min" },
+      { icon: Database, label: "Isocronas reales Mapbox", detail: "6 zonas candidatas con cobertura 10/20/30 min" },
     ],
   },
   {
@@ -36,7 +36,7 @@ const phases = [
     description: "Analisis de 5 corredores viales con flujos AM/PM, mapeo de 5 nodos de salud existentes con brechas de cobertura y modelado de accesibilidad multimodal.",
     activities: [
       { icon: Car, label: "5 corredores viales analizados", detail: "42,000 veh/dia en Las Palmas (MEData b9s9-jw7c). Cuellos de botella por tramo (Mapbox/Google Routes API)" },
-      { icon: Waypoints, label: "Red de salud: 0 camas alta complejidad en corredor", detail: "HPTU Prado al 96% (REPS s2ru-bqt6). Cl. Rosario Tesoro (158 camas) y Cl. Las Vegas (171), sin trasplantes" },
+      { icon: Waypoints, label: "Red de salud: 0 camas alta complejidad en corredor", detail: "HPTU Robledo: 540 camas hospitalarias (REPS s2ru-bqt6). Cl. Rosario Tesoro (158) y Cl. Las Vegas (171), sin trasplantes" },
       { icon: Route, label: "38,550 usuarios prepagada", detail: "Actualmente a 25-40 min de HPTU. Reduciria a ~15 min (Mapbox Directions API driving-traffic)" },
     ],
   },
