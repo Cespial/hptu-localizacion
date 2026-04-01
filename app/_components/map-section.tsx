@@ -54,6 +54,8 @@ export function MapSection() {
     // Analysis
     { id: "pot", label: "Viabilidad POT (22)", icon: FileCheck, color: "#10b981", enabled: true, group: "analysis" },
     { id: "isochrones", label: "Isocronas", icon: Circle, color: "#f59e0b", enabled: true, group: "analysis" },
+    { id: "palmasBajoHeatmap", label: "Heatmap Palmas Bajo", icon: BarChart3, color: "#e11d48", enabled: false, group: "analysis" },
+    { id: "palmasBajoZone", label: "Zona Palmas Bajo", icon: MapPin, color: "#e11d48", enabled: false, group: "analysis" },
     // Oriente Antioqueno
     { id: "orienteHealth", label: "Salud Oriente (OSM)", icon: Hospital, color: "#dc2626", enabled: false, group: "oriente" },
     { id: "accessPointIso", label: "Isocronas Access Point", icon: Globe, color: "#0d9488", enabled: true, group: "oriente" },
@@ -826,6 +828,136 @@ export function MapSection() {
         map.on("mouseleave", "oriente-municipios-circles", () => { map.getCanvas().style.cursor = ""; });
       }
     } catch (e) { console.warn("Failed to load oriente municipalities:", e); }
+  }, []);
+
+  /* ── Load Palmas Bajo Heatmap + Zone ── */
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  const ensurePalmasBajoLayers = useCallback(async (map: any) => {
+    if (loadedSourcesRef.current.has("palmasBajo")) return;
+    loadedSourcesRef.current.add("palmasBajo");
+
+    try {
+      // Heatmap points
+      const heatRes = await fetch("/geojson/palmas-bajo-heatmap.geojson");
+      const heatData = await heatRes.json();
+
+      if (!map.getSource("palmas-bajo-heatmap")) {
+        map.addSource("palmas-bajo-heatmap", { type: "geojson", data: heatData });
+
+        // Circle layer colored by total_score
+        map.addLayer({
+          id: "palmas-bajo-heatmap-circles",
+          type: "circle",
+          source: "palmas-bajo-heatmap",
+          paint: {
+            "circle-radius": 18,
+            "circle-color": [
+              "interpolate", ["linear"], ["get", "total_score"],
+              0, "#fee2e2",
+              10, "#fca5a5",
+              20, "#f87171",
+              30, "#ef4444",
+              40, "#dc2626",
+            ],
+            "circle-opacity": 0.7,
+            "circle-stroke-width": 1.5,
+            "circle-stroke-color": "#ffffff",
+          },
+        });
+
+        // Score label on each circle
+        map.addLayer({
+          id: "palmas-bajo-heatmap-labels",
+          type: "symbol",
+          source: "palmas-bajo-heatmap",
+          layout: {
+            "text-field": ["to-string", ["get", "total_score"]],
+            "text-size": 10,
+            "text-font": ["DIN Pro Bold", "Arial Unicode MS Bold"],
+            "text-allow-overlap": true,
+          },
+          paint: {
+            "text-color": "#ffffff",
+          },
+        });
+
+        // Click popup
+        const mapboxgl = (await import("mapbox-gl")).default;
+        // eslint-disable-next-line @typescript-eslint/no-explicit-any
+        map.on("click", "palmas-bajo-heatmap-circles", (e: any) => {
+          const props = e.features[0].properties;
+          new mapboxgl.Popup({ maxWidth: "260px" })
+            .setLngLat(e.lngLat)
+            .setHTML(`
+              <div style="font-size:12px;">
+                <p style="font-weight:700;margin:0;">Manzana Score: ${props.total_score}/100</p>
+                <div style="margin-top:4px;font-size:11px;">
+                  <div>Salud: ${props.health_score} | Retail: ${props.retail_score}</div>
+                  <div>Gastronomia: ${props.food_score} | Financiero: ${props.finance_score}</div>
+                  <div>Bienestar: ${props.wellness_score}</div>
+                  <div style="margin-top:4px;color:#666;">
+                    Restaurantes: ${props.restaurant} · Bancos: ${props.bank} · Farmacias: ${props.pharmacy}
+                  </div>
+                </div>
+              </div>
+            `)
+            .addTo(map);
+        });
+
+        map.on("mouseenter", "palmas-bajo-heatmap-circles", () => {
+          map.getCanvas().style.cursor = "pointer";
+        });
+        map.on("mouseleave", "palmas-bajo-heatmap-circles", () => {
+          map.getCanvas().style.cursor = "";
+        });
+      }
+
+      // Polygon outline
+      const polyRes = await fetch("/geojson/palmas-bajo-polygon.geojson");
+      const polyData = await polyRes.json();
+
+      if (!map.getSource("palmas-bajo-polygon")) {
+        map.addSource("palmas-bajo-polygon", { type: "geojson", data: polyData });
+
+        map.addLayer({
+          id: "palmas-bajo-polygon-fill",
+          type: "fill",
+          source: "palmas-bajo-polygon",
+          paint: {
+            "fill-color": "#e11d48",
+            "fill-opacity": 0.08,
+          },
+        });
+
+        map.addLayer({
+          id: "palmas-bajo-polygon-line",
+          type: "line",
+          source: "palmas-bajo-polygon",
+          paint: {
+            "line-color": "#e11d48",
+            "line-width": 3,
+            "line-dasharray": [2, 2],
+          },
+        });
+
+        // Label
+        map.addLayer({
+          id: "palmas-bajo-polygon-label",
+          type: "symbol",
+          source: "palmas-bajo-polygon",
+          layout: {
+            "text-field": "Zona Palmas Bajo",
+            "text-size": 12,
+            "text-font": ["DIN Pro Bold", "Arial Unicode MS Bold"],
+          },
+          paint: {
+            "text-color": "#e11d48",
+            "text-halo-color": "#ffffff",
+            "text-halo-width": 2,
+          },
+        });
+      }
+    } catch (e) { console.warn("Failed to load Palmas Bajo layers:", e); }
   }, []);
 
   /* ────────────────────────────────────── */
@@ -1616,6 +1748,29 @@ export function MapSection() {
     }
   }, [mapLoaded, isLayerEnabled, ensureOrienteMunicipiosLayers]);
 
+  /* ── Palmas Bajo Heatmap visibility ── */
+  useEffect(() => {
+    if (!mapLoaded || !mapRef.current) return;
+    const map = mapRef.current;
+    const heatEnabled = isLayerEnabled("palmasBajoHeatmap");
+    const zoneEnabled = isLayerEnabled("palmasBajoZone");
+    if (heatEnabled || zoneEnabled) {
+      ensurePalmasBajoLayers(map).then(() => {
+        safeSetVisibility(map, "palmas-bajo-heatmap-circles", heatEnabled);
+        safeSetVisibility(map, "palmas-bajo-heatmap-labels", heatEnabled);
+        safeSetVisibility(map, "palmas-bajo-polygon-fill", zoneEnabled);
+        safeSetVisibility(map, "palmas-bajo-polygon-line", zoneEnabled);
+        safeSetVisibility(map, "palmas-bajo-polygon-label", zoneEnabled);
+      });
+    } else {
+      safeSetVisibility(map, "palmas-bajo-heatmap-circles", false);
+      safeSetVisibility(map, "palmas-bajo-heatmap-labels", false);
+      safeSetVisibility(map, "palmas-bajo-polygon-fill", false);
+      safeSetVisibility(map, "palmas-bajo-polygon-line", false);
+      safeSetVisibility(map, "palmas-bajo-polygon-label", false);
+    }
+  }, [mapLoaded, isLayerEnabled, ensurePalmasBajoLayers]);
+
   /* ── Map style change ── */
   const handleStyleChange = useCallback(
     (newStyle: MapStyleId) => {
@@ -1716,6 +1871,7 @@ export function MapSection() {
         if (isLayerEnabled("accessPointRoutes")) ensureAccessPointRouteLayers(map);
         if (isLayerEnabled("medicalProjects")) ensureMedicalProjectLayers(map);
         if (isLayerEnabled("orienteMunicipios")) ensureOrienteMunicipiosLayers(map);
+        if (isLayerEnabled("palmasBajoHeatmap") || isLayerEnabled("palmasBajoZone")) ensurePalmasBajoLayers(map);
 
         // Annotations
         map.addSource("map-annotations", {
@@ -1743,7 +1899,7 @@ export function MapSection() {
         });
       });
     },
-    [mapStyle, isLayerEnabled, ensureTrafficLayers, ensureHealthFullLayers, ensureRouteLayers, ensureCatastroLayers, ensurePotLayers, ensureOsmLayers, ensureOrienteHealthLayers, ensureAccessPointIsoLayers, ensureAccessPointRouteLayers, ensureMedicalProjectLayers, ensureOrienteMunicipiosLayers]
+    [mapStyle, isLayerEnabled, ensureTrafficLayers, ensureHealthFullLayers, ensureRouteLayers, ensureCatastroLayers, ensurePotLayers, ensureOsmLayers, ensureOrienteHealthLayers, ensureAccessPointIsoLayers, ensureAccessPointRouteLayers, ensureMedicalProjectLayers, ensureOrienteMunicipiosLayers, ensurePalmasBajoLayers]
   );
 
   /* ── Candidate selection ── */

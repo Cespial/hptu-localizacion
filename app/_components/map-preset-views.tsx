@@ -22,7 +22,7 @@ export const PRESET_VIEWS: PresetView[] = [
     center: [-75.50, 6.19],
     zoom: 10.5,
     enableLayers: ["strata", "corridor", "catastro", "pois", "hptu", "orienteMunicipios"],
-    disableLayers: ["traffic", "healthFull", "routes", "pot", "isochrones", "osmEducation", "osmCommercial", "orienteHealth", "accessPointIso", "accessPointRoutes", "medicalProjects"],
+    disableLayers: ["traffic", "healthFull", "routes", "pot", "isochrones", "osmEducation", "osmCommercial", "orienteHealth", "accessPointIso", "accessPointRoutes", "medicalProjects", "palmasBajoHeatmap", "palmasBajoZone"],
     description: "174K predios E5/E6 + corredor Las Palmas",
   },
   {
@@ -32,7 +32,7 @@ export const PRESET_VIEWS: PresetView[] = [
     center: [-75.557, 6.212],
     zoom: 13,
     enableLayers: ["pois", "hptu", "corridor", "pot"],
-    disableLayers: ["strata", "traffic", "routes", "catastro", "isochrones", "osmEducation", "osmCommercial", "orienteHealth", "accessPointIso", "accessPointRoutes", "medicalProjects", "orienteMunicipios", "healthFull"],
+    disableLayers: ["strata", "traffic", "routes", "catastro", "isochrones", "osmEducation", "osmCommercial", "orienteHealth", "accessPointIso", "accessPointRoutes", "medicalProjects", "orienteMunicipios", "healthFull", "palmasBajoHeatmap", "palmasBajoZone"],
     description: "145 IPS + viabilidad POT + competidores",
   },
   {
@@ -42,7 +42,7 @@ export const PRESET_VIEWS: PresetView[] = [
     center: [-75.42, 6.15],
     zoom: 10,
     enableLayers: ["orienteMunicipios", "orienteHealth", "accessPointRoutes", "medicalProjects", "corridor"],
-    disableLayers: ["strata", "traffic", "healthFull", "routes", "catastro", "pois", "pot", "isochrones", "osmEducation", "osmCommercial", "accessPointIso", "hptu"],
+    disableLayers: ["strata", "traffic", "healthFull", "routes", "catastro", "pois", "pot", "isochrones", "osmEducation", "osmCommercial", "accessPointIso", "hptu", "palmasBajoHeatmap", "palmasBajoZone"],
     description: "728K hab, 11 municipios, rutas al Oriente",
   },
   {
@@ -52,7 +52,7 @@ export const PRESET_VIEWS: PresetView[] = [
     center: [-75.49, 6.19],
     zoom: 10,
     enableLayers: ["corridor", "accessPointRoutes", "accessPointIso", "orienteMunicipios", "hptu"],
-    disableLayers: ["strata", "traffic", "healthFull", "routes", "catastro", "pois", "pot", "isochrones", "osmEducation", "osmCommercial", "orienteHealth", "medicalProjects"],
+    disableLayers: ["strata", "traffic", "healthFull", "routes", "catastro", "pois", "pot", "isochrones", "osmEducation", "osmCommercial", "orienteHealth", "medicalProjects", "palmasBajoHeatmap", "palmasBajoZone"],
     description: "Corredor + rutas al Oriente + isocronas post-Tunel",
   },
   {
@@ -61,7 +61,7 @@ export const PRESET_VIEWS: PresetView[] = [
     icon: MapPin,
     center: [-75.554932, 6.217662],
     zoom: 12,
-    enableLayers: ["accessPointIso", "traffic", "corridor", "pot", "pois", "hptu"],
+    enableLayers: ["accessPointIso", "traffic", "corridor", "pot", "pois", "hptu", "palmasBajoHeatmap", "palmasBajoZone"],
     disableLayers: ["strata", "healthFull", "routes", "catastro", "isochrones", "osmEducation", "osmCommercial", "orienteHealth", "accessPointRoutes", "medicalProjects", "orienteMunicipios"],
     description: "Isocronas + trafico + POT desde Km 7",
   },
@@ -72,7 +72,7 @@ export const PRESET_VIEWS: PresetView[] = [
     center: [-75.565, 6.195],
     zoom: 11.5,
     enableLayers: ["isochrones", "corridor", "hptu", "strata", "catastro"],
-    disableLayers: ["traffic", "healthFull", "routes", "pot", "osmEducation", "osmCommercial", "orienteHealth", "accessPointIso", "accessPointRoutes", "medicalProjects", "orienteMunicipios", "pois"],
+    disableLayers: ["traffic", "healthFull", "routes", "pot", "osmEducation", "osmCommercial", "orienteHealth", "accessPointIso", "accessPointRoutes", "medicalProjects", "orienteMunicipios", "pois", "palmasBajoHeatmap", "palmasBajoZone"],
     description: "6 zonas + isocronas del candidato seleccionado",
   },
 ];
