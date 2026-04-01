@@ -1,0 +1,175 @@
+{
+  "timestamp": "2026-04-01T19:26:27.651Z",
+  "points": [
+    {
+      "name": "SW corner (Calle 10/Transv Inf)",
+      "lat": 6.209465,
+      "lng": -75.560263,
+      "nearest": {
+        "pharmacy": {
+          "name": "Dermatológica El Poblado",
+          "walking_min": 3,
+          "walking_m": 222
+        },
+        "restaurant": {
+          "name": "Conservas ASTI",
+          "walking_min": 3,
+          "walking_m": 165
+        },
+        "bank": {
+          "name": "Bancolombia Vizcaya",
+          "walking_min": 9,
+          "walking_m": 571
+        },
+        "hospital": {
+          "name": "Medicina y Antienvejecimiento Medellín - Dra. Adriana Múnera",
+          "walking_min": 5,
+          "walking_m": 264
+        },
+        "supermarket": {
+          "name": "Pinar del Río Mall",
+          "walking_min": 2,
+          "walking_m": 127
+        }
+      },
+      "avgWalkMin": 4,
+      "walkScore": 60
+    },
+    {
+      "name": "Center",
+      "lat": 6.211465,
+      "lng": -75.562263,
+      "nearest": {
+        "pharmacy": {
+          "name": "Dermatológica El Poblado",
+          "walking_min": 13,
+          "walking_m": 794
+        },
+        "restaurant": {
+          "name": "Hotel Lomas 10 Medellin",
+          "walking_min": 3,
+          "walking_m": 177
+        },
+        "bank": {
+          "name": "Garantías Comunitarias Grupo S.A.",
+          "walking_min": 1,
+          "walking_m": 71
+        },
+        "hospital": {
+          "name": "Laboratorio Las AQmericas sede Vizcaya",
+          "walking_min": 14,
+          "walking_m": 907
+        },
+        "supermarket": {
+          "name": "Agrocomercial La Alborada S.A.S.",
+          "walking_min": 1,
+          "walking_m": 53
+        }
+      },
+      "avgWalkMin": 6,
+      "walkScore": 40
+    },
+    {
+      "name": "NE (near Transv Intermedia)",
+      "lat": 6.214465,
+      "lng": -75.562263,
+      "nearest": {
+        "pharmacy": {
+          "name": "Linea Vital Droguería",
+          "walking_min": 9,
+          "walking_m": 556
+        },
+        "restaurant": {
+          "name": "Hotel Lomas 10 Medellin",
+          "walking_min": 6,
+          "walking_m": 423
+        },
+        "bank": {
+          "name": "Garantías Comunitarias Grupo S.A.",
+          "walking_min": 8,
+          "walking_m": 553
+        },
+        "hospital": {
+          "name": "Sss Clínica Senses",
+          "walking_min": 1,
+          "walking_m": 45
+        },
+        "supermarket": {
+          "name": "Store D1 Castropol",
+          "walking_min": 18,
+          "walking_m": 1128
+        }
+      },
+      "avgWalkMin": 8,
+      "walkScore": 20
+    },
+    {
+      "name": "West edge",
+      "lat": 6.210465,
+      "lng": -75.564263,
+      "nearest": {
+        "pharmacy": {
+          "name": "Dermatológica El Poblado",
+          "walking_min": 12,
+          "walking_m": 693
+        },
+        "restaurant": {
+          "name": "Hotel Acqua Medellín",
+          "walking_min": 8,
+          "walking_m": 606
+        },
+        "bank": {
+          "name": "Bancolombia Vizcaya",
+          "walking_min": 10,
+          "walking_m": 615
+        },
+        "hospital": {
+          "name": "Estética Médica Patricia de Lavalle",
+          "walking_min": 1,
+          "walking_m": 58
+        },
+        "supermarket": {
+          "name": "Tiendas D1 - Las Lomas",
+          "walking_min": 4,
+          "walking_m": 264
+        }
+      },
+      "avgWalkMin": 7,
+      "walkScore": 30
+    },
+    {
+      "name": "East edge",
+      "lat": 6.210465,
+      "lng": -75.560263,
+      "nearest": {
+        "pharmacy": {
+          "name": "Dermatológica El Poblado",
+          "walking_min": 15,
+          "walking_m": 957
+        },
+        "restaurant": {
+          "name": "Domino's Pizza Las Palmas",
+          "walking_min": 7,
+          "walking_m": 419
+        },
+        "bank": {
+          "name": "Garantías Comunitarias Grupo S.A.",
+          "walking_min": 5,
+          "walking_m": 360
+        },
+        "hospital": {
+          "name": "Laboratorio Las AQmericas sede Vizcaya",
+          "walking_min": 16,
+          "walking_m": 1070
+        },
+        "supermarket": {
+          "name": "Pinar del Río Mall",
+          "walking_min": 11,
+          "walking_m": 692
+        }
+      },
+      "avgWalkMin": 11,
+      "walkScore": 0
+    }
+  ]
+}
