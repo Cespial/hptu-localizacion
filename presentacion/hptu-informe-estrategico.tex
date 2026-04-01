@@ -1,0 +1,453 @@
+% ============================================================
+% HPTU — Informe Estratégico: Benchmarks, Tendencias y Buenas Prácticas
+% Para tomadores de decisiones · Abril 2026
+% Compilar con: lualatex hptu-informe-estrategico.tex
+% ============================================================
+\documentclass[11pt, a4paper]{article}
+\usepackage[margin=2.2cm]{geometry}
+\usepackage{fontspec}
+\usepackage{booktabs}
+\usepackage{tabularx}
+\usepackage{enumitem}
+\usepackage{xcolor}
+\usepackage{hyperref}
+\usepackage{titlesec}
+\usepackage{graphicx}
+\usepackage{multicol}
+\usepackage{fancyhdr}
+\usepackage{tikz}
+
+\setsansfont{Helvetica Neue}[BoldFont={Helvetica Neue Bold}, ItalicFont={Helvetica Neue Italic}]
+\renewcommand{\familydefault}{\sfdefault}
+
+\definecolor{hptu}{HTML}{00549F}
+\definecolor{teal}{HTML}{0D9488}
+\definecolor{coral}{HTML}{EF4444}
+\definecolor{amber}{HTML}{F59E0B}
+\definecolor{slate}{HTML}{64748B}
+\definecolor{bglight}{HTML}{F8FAFC}
+
+\titleformat{\section}{\Large\bfseries\color{hptu}}{}{0pt}{}[\vspace{-4pt}\textcolor{hptu}{\rule{\textwidth}{0.5pt}}]
+\titleformat{\subsection}{\large\bfseries\color{teal}}{}{0pt}{}
+\titleformat{\subsubsection}{\normalsize\bfseries}{}{0pt}{}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\small\textcolor{slate}{HPTU — Informe Estratégico}}
+\fancyhead[R]{\small\textcolor{slate}{Abril 2026}}
+\fancyfoot[C]{\small\textcolor{slate}{\thepage}}
+\renewcommand{\headrulewidth}{0.3pt}
+
+\newcommand{\highlight}[1]{\textcolor{teal}{\textbf{#1}}}
+\newcommand{\danger}[1]{\textcolor{coral}{\textbf{#1}}}
+\newcommand{\fuente}[1]{\par\vspace{2pt}{\scriptsize\textcolor{slate}{Fuente: #1}}}
+
+\begin{document}
+
+% ============================================================
+% PORTADA
+% ============================================================
+\begin{titlepage}
+\begin{center}
+\vspace*{3cm}
+
+{\huge\bfseries\textcolor{hptu}{Informe Estrat\'{e}gico}}\\[8pt]
+{\LARGE\textcolor{hptu}{Benchmarks, Tendencias y Buenas Pr\'{a}cticas}}\\[4pt]
+{\LARGE\textcolor{hptu}{en Salud Ambulatoria Global}}
+
+\vspace{2cm}
+
+\begin{tikzpicture}
+  \draw[hptu, line width=0.8pt] (0,0) -- (8,0);
+\end{tikzpicture}
+
+\vspace{2cm}
+
+{\Large\textbf{Plan de Expansi\'{o}n}}\\[6pt]
+{\Large Hospital Pablo Tob\'{o}n Uribe}
+
+\vspace{1.5cm}
+
+{\normalsize Sede Ambulatoria: im\'{a}genes, consultas, cirug\'{i}a de d\'{i}a, wellness}\\[4pt]
+{\normalsize Sin urgencias $\cdot$ Sin camas $\cdot$ Sin alta complejidad}
+
+\vspace{2cm}
+
+{\small\textcolor{slate}{Abril 2026 $\cdot$ Documento de trabajo $\cdot$ Uso interno}}\\[6pt]
+{\small\textcolor{slate}{Dashboard interactivo: \url{https://hptu-localizacion.vercel.app}}}
+
+\vfill
+
+\includegraphics[height=1.5cm]{basica.png}
+\end{center}
+\end{titlepage}
+
+% ============================================================
+\tableofcontents
+\newpage
+
+% ============================================================
+\section{Resumen Ejecutivo}
+
+Este informe presenta el contexto estrat\'{e}gico para la expansi\'{o}n ambulatoria del Hospital Pablo Tob\'{o}n Uribe, incluyendo:
+
+\begin{itemize}[leftmargin=1.5cm]
+  \item \textbf{Mercado global ambulatorio:} USD \$929.000 millones en 2025, creciendo a \$979.000 millones en 2026.
+  \item \textbf{Cambio estructural:} el 72\% de las cirug\'{i}as en EE.UU.\ ya se realizan en centros ambulatorios. La tendencia es irreversible.
+  \item \textbf{Benchmark local:} CEDIMED opera 9 sedes en Medell\'{i}n, todas dentro de ecosistemas comerciales.
+  \item \textbf{Benchmark global:} Cleveland Clinic (276 centros ambulatorios), Mayo Clinic (\#1 mundial), Kaiser Permanente.
+  \item \textbf{Tendencias de dise\~{n}o:} salas de espera tipo lounge, dise\~{n}o biof\'{i}lico, cafeter\'{i}as integradas, espacios modulares.
+  \item \textbf{Zona candidata:} Palmas Bajo (Score 87/100) — 281 POIs en 500m, caminable a 5 destinos clave en menos de 20 minutos.
+\end{itemize}
+
+% ============================================================
+\section{El Cambio Global: De Inpatient a Outpatient}
+
+\subsection{El mercado ambulatorio global}
+
+El mercado global de servicios ambulatorios alcanz\'{o} \highlight{USD \$929.000 millones en 2025} y se proyecta en \$979.000 millones para 2026, con una tasa de crecimiento anual compuesta (CAGR) del 10,6\%.
+
+\begin{center}
+\begin{tabular}{@{}lrl@{}}
+\toprule
+\textbf{M\'{e}trica} & \textbf{Valor} & \textbf{Fuente} \\
+\midrule
+Mercado global 2025 & USD \$929.000M & Market Data Forecast \\
+Proyecci\'{o}n 2026 & USD \$979.000M & TBRC \\
+Proyecci\'{o}n 2030 & USD \$7.290M (ASC) & Grand View Research \\
+Proyecci\'{o}n 2034 & USD \$7.370M (ASC) & Towards Healthcare \\
+CAGR 2025-2030 & 10,6\% & TBRC \\
+\% cirug\'{i}as ambulatorias EE.UU. & \highlight{72\%} & AHRQ / ExactRx \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\fuente{Market Data Forecast, The Business Research Company, Grand View Research, AHRQ, ExactRx AI}
+
+\subsection{El cambio es irreversible}
+
+Seg\'{u}n un estudio de 2026 publicado en \textit{Health Services Research}, tras la pandemia el volumen intrahospitalario disminuy\'{o} para 9 de los 20 procedimientos m\'{a}s comunes, con aumentos correspondientes en utilizaci\'{o}n ambulatoria. Los reemplazos de cadera y rodilla experimentaron las ca\'{i}das m\'{a}s pronunciadas: \danger{m\'{a}s de 40 puntos porcentuales} de desplazamiento de inpatient a outpatient.
+
+\begin{itemize}
+  \item Cirug\'{i}a intrahospitalaria: \danger{--7,33\%} (2019-2021)
+  \item Cirug\'{i}a ambulatoria en ASCs: \highlight{+10,26\%} en el mismo per\'{i}odo
+  \item Expertos coinciden: \textbf{el volumen intrahospitalario no volver\'{a} a niveles pre-pandemia}
+\end{itemize}
+
+\fuente{Chen et al. (2026), Health Services Research; AHRQ Infographics; MedPAC Report to Congress 2025}
+
+\subsection{Impulsores del crecimiento ambulatorio}
+
+\begin{enumerate}
+  \item \textbf{Contenci\'{o}n de costos:} el ambulatorio es 30-50\% m\'{a}s econ\'{o}mico que el intrahospitalario.
+  \item \textbf{Preferencia del paciente:} menos tiempo de recuperaci\'{o}n, regreso a casa el mismo d\'{i}a.
+  \item \textbf{Tecnolog\'{i}a:} cirug\'{i}a m\'{i}nimamente invasiva, anestesia de corta duraci\'{o}n.
+  \item \textbf{Cobertura de seguros:} prepagadas y EPS incentivan el ambulatorio por menor costo.
+  \item \textbf{Prevenci\'{o}n:} crecimiento de chequeos ejecutivos, full-body MRI, wellness.
+\end{enumerate}
+
+% ============================================================
+\section{Benchmarks Globales: Los L\'{i}deres Ambulatorios}
+
+\subsection{Cleveland Clinic (EE.UU.)}
+
+\begin{center}
+\begin{tabular}{@{}lr@{}}
+\toprule
+Fundaci\'{o}n & 1921 \\
+Ranking global 2026 & \highlight{\#3 (Newsweek)} \\
+Ranking EE.UU. 2025-2026 & Honor Roll (U.S. News, 35 a\~{n}os consecutivos) \\
+Centros ambulatorios & \highlight{276} \\
+Pa\'{i}ses & EE.UU., Canad\'{a}, UAE, UK \\
+Revenue total & USD \$15.700M \\
+Revenue ambulatorio & USD \$6.800M (43\%) \\
+ASC \#1 en Miami & Cleveland Clinic Weston (U.S. News 2026) \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\textbf{Modelo clave:} ``Clinical neighbourhoods'' — servicios agrupados racionalmente para facilitar medicina colaborativa y conveniencia del paciente. Dise\~{n}o modular que separa actividades cl\'{i}nicas de administrativas (front/back of house).
+
+\textbf{Expansi\'{o}n 2025-2026:} Nuevo ASC en alianza con Regent Surgical. Cuadruplicando espacio ambulatorio en Palm Beach County (infusi\'{o}n, im\'{a}genes, endoscop\'{i}a, cirug\'{i}a ambulatoria). Dos nuevos Family Health Centers (Twinsburg, Avon).
+
+\fuente{Cleveland Clinic Newsroom 2026, U.S. News, Newsweek World's Best Hospitals 2026}
+
+\subsection{Mayo Clinic (EE.UU.)}
+
+\begin{center}
+\begin{tabular}{@{}lr@{}}
+\toprule
+Ranking global 2026 & \highlight{\#1 (Newsweek)} \\
+Ranking EE.UU. 2025-2026 & \highlight{\#1 (U.S. News, 36 veces)} \\
+Distincci\'{o}n & \'{U}nica organizaci\'{o}n con 2 hospitales en Honor Roll \\
+Modelo & Integraci\'{o}n investigaci\'{o}n + pr\'{a}ctica cl\'{i}nica + educaci\'{o}n \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\fuente{Newsweek World's Best Hospitals 2026, U.S. News 2025-2026}
+
+\subsection{CEDIMED (Medell\'{i}n, Colombia)}
+
+\begin{center}
+\begin{tabular}{@{}lr@{}}
+\toprule
+Fundaci\'{o}n & 1996 (30 a\~{n}os) \\
+Sedes & \highlight{9 en Medell\'{i}n} \\
+Empleados & 500 \\
+Propietario & Quir\'{o}nsalud (Fresenius Helios) \\
+Horario & 365 d\'{i}as/a\~{n}o, algunas sedes hasta medianoche \\
+Equipo estrella & RMN 3T Siemens Lumina, PET-CT, SPECT-CT \\
+Servicios & Imagenolog\'{i}a, laboratorio, chequeo ejecutivo, medicina nuclear \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\subsubsection{Sedes CEDIMED}
+
+\begin{center}
+\small
+\begin{tabular}{@{}llll@{}}
+\toprule
+\textbf{Sede} & \textbf{Ubicaci\'{o}n} & \textbf{Servicios} & \textbf{Horario} \\
+\midrule
+Poblado & Cl\'{i}nica Medell\'{i}n & Imagenolog\'{i}a + Lab + Nuclear & 24 horas \\
+Tesoro I & CC El Tesoro, Torre M\'{e}dica I & Imagenolog\'{i}a + Lab & 5am-12am \\
+Tesoro II & CC El Tesoro, Torre M\'{e}dica II & \highlight{RMN 3T} + Eco + Lab & 5am-12am \\
+Laureles & Zona Laureles & Imagenolog\'{i}a + Lab & 6am-12am \\
+Oviedo & CC Oviedo, Torre M\'{e}dica & Imagenolog\'{i}a + Lab & 6am-7pm \\
+Almacentro & CC Almacentro & Imagenolog\'{i}a + Lab & 6am-9pm \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\subsubsection{Lecciones para HPTU}
+
+\begin{enumerate}
+  \item \textbf{Todas las sedes est\'{a}n DENTRO de ecosistemas comerciales} (centros comerciales, torres m\'{e}dicas). Nunca en edificio aislado.
+  \item \textbf{Esperas productivas naturales:} el paciente espera resultados en El Tesoro o en Oviedo — puede ir a almorzar, al banco, o de compras.
+  \item \textbf{CediMed Vital:} chequeo ejecutivo con acompa\~{n}amiento biling\"{u}e y alianzas hoteleras. Modelo replicable para turismo m\'{e}dico.
+  \item \textbf{Tecnolog\'{i}a de punta:} el RMN 3T Siemens Lumina en Tesoro II es el mismo nivel que proponemos para la sede HPTU.
+  \item \textbf{Multisede = accesibilidad:} 9 sedes significa que el paciente siempre tiene una cerca.
+\end{enumerate}
+
+\fuente{cedimed.com.co, Quir\'{o}nsalud, Google Places API}
+
+% ============================================================
+\section{Tendencias de Dise\~{n}o Ambulatorio 2025-2026}
+
+\subsection{La sede ambulatoria como experiencia}
+
+La industria global est\'{a} convergiendo en un principio: \highlight{el paciente no debe sentir que est\'{a} en un hospital}. Las principales tendencias:
+
+\begin{center}
+\begin{tabular}{@{}p{4cm}p{9cm}@{}}
+\toprule
+\textbf{Tendencia} & \textbf{Descripci\'{o}n} \\
+\midrule
+\textbf{Salas de espera $\rightarrow$ Lounges} & Espacios tipo sala de estar con sof\'{a}s, no sillas pl\'{a}sticas. Check-in privado. Ambiente de hotel boutique. \\[4pt]
+\textbf{Dise\~{n}o biof\'{i}lico} & Luz natural, plantas, materiales org\'{a}nicos, colores de la naturaleza. Reduce ansiedad del paciente y mejora satisfacci\'{o}n del staff. Reduce estancia inpatient 18\% en promedio. \\[4pt]
+\textbf{Cafeter\'{i}as y retail integrado} & Grab-and-go, playrooms para ni\~{n}os. El acompa\~{n}ante puede ir al banco mientras espera. \\[4pt]
+\textbf{Espacios modulares} & Consultorios que se convierten en salas de telemedicina. Muebles adaptables. Future-proofing. \\[4pt]
+\textbf{Dise\~{n}o tipo hospitalidad} & Interiores que evocan boutique hotels. Lobbies con mecedoras y vistas a jardines. \\[4pt]
+\textbf{Privacidad y seguridad} & Habitaciones privadas para prep y recuperaci\'{o}n en cirug\'{i}a ambulatoria. \\[4pt]
+\textbf{Bienestar del staff} & Lounges para m\'{e}dicos con sof\'{a}s, m\'{a}quinas expendedoras, zonas de colaboraci\'{o}n. \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\fuente{HCD Magazine, KI Healthcare Insights 2026, ASC News, IIDA, Healthcare Facilities Today}
+
+\subsection{Dise\~{n}o biof\'{i}lico: la evidencia}
+
+Una revisi\'{o}n sistem\'{a}tica publicada en \textit{Frontiers in Public Health} (2026) encontr\'{o} que las intervenciones biof\'{i}licas — plantas interiores, vistas verdes, materiales naturales, luz optimizada, jardines curativos y medios digitales con tem\'{a}tica natural — \textbf{mejoran la recuperaci\'{o}n del estr\'{e}s, reducen el dolor, mejoran el bienestar emocional y el sue\~{n}o, y elevan la satisfacci\'{o}n con la atenci\'{o}n}.
+
+\textbf{Impacto econ\'{o}mico:} las intervenciones biof\'{i}licas pueden reducir la estancia intrahospitalaria entre 4,9\% y 33,3\% — un promedio de \highlight{18\% (aproximadamente 1 d\'{i}a menos)}.
+
+\fuente{Frontiers in Public Health 2026, Frontiers in Built Environment 2024, Architecture Adrenaline}
+
+% ============================================================
+\section{Am\'{e}rica Latina y Colombia}
+
+\subsection{El mercado ambulatorio en Am\'{e}rica Latina}
+
+Seg\'{u}n Black Book Research (2026), Colombia est\'{a} emergiendo como uno de los mercados de oportunidad m\'{a}s relevantes a corto plazo en Am\'{e}rica Latina. Los servicios ambulatorios son el segmento de mayor crecimiento en la regi\'{o}n, con un CAGR del 4,6\% esperado para 2025-2030.
+
+\begin{itemize}
+  \item \textbf{Colombia:} interoperabilidad, historias cl\'{i}nicas digitales, anal\'{i}tica y flujos de trabajo conectados se mueven de planes estrat\'{e}gicos a requisitos operativos.
+  \item \textbf{AUNA:} red de hospitales y cl\'{i}nicas ambulatorias en Colombia, Per\'{u} y M\'{e}xico — validaci\'{o}n del modelo regional.
+  \item \textbf{Fragmentaci\'{o}n:} el sector ambulatorio privado en Am\'{e}rica Latina hispana sigue fragmentado, ineficiente y subpenetrado — \highlight{oportunidad de consolidaci\'{o}n}.
+\end{itemize}
+
+\subsection{Colombia: datos clave para HPTU}
+
+\begin{center}
+\begin{tabular}{@{}lr@{}}
+\toprule
+Cirug\'{i}as ambulatorias Colombia 2025 & 490.944 procedimientos/a\~{n}o \\
+\% ambulatorio del total & 80\% \\
+Crecimiento YoY & +10\% \\
+Afiliados prepagada Antioquia & \highlight{1,4 millones} \\
+Crecimiento prepagada 2022-2025 & +37\% \\
+Revenue prepagada/a\~{n}o & COP \$7,2 billones \\
+SURA en El Poblado & 320.000 afiliados \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\fuente{MinSalud SISPRO, Supersalud, SURA, Black Book Research 2026, Grand View Research}
+
+% ============================================================
+\section{Zona Candidata: Palmas Bajo — An\'{a}lisis Ultra-Zoom}
+
+\subsection{Delimitaci\'{o}n geogr\'{a}fica}
+
+Tri\'{a}ngulo definido por:
+\begin{itemize}
+  \item \textbf{V\'{e}rtice A:} Transversal Intermedia (6.2153, -75.5626)
+  \item \textbf{V\'{e}rtice B:} Calle 10 (6.2091, -75.5648)
+  \item \textbf{V\'{e}rtice C:} Transversal Inferior (6.2090, -75.5592)
+\end{itemize}
+
+\subsection{Datos de Google Places API (500m del centroide)}
+
+\begin{center}
+\begin{tabular}{@{}lcc@{}}
+\toprule
+\textbf{Categor\'{i}a} & \textbf{Palmas Bajo} & \textbf{Milla de Oro} \\
+\midrule
+POIs totales & 281 & 396 \\
+Gastronom\'{i}a & 75 & 80 \\
+%\rowcolor{teal!8}
+Bienestar (gym/spa/sal\'{o}n) & \highlight{55} & 54 \\
+Financiero (bancos/ATM) & 13 & \textbf{40} \\
+Farmacias & 11 & \textbf{23} \\
+Retail & 31 & \textbf{57} \\
+Health facilities & 44 & 69 \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\subsection{Caminabilidad}
+
+\begin{center}
+\begin{tabular}{@{}lcc@{}}
+\toprule
+\textbf{Destino} & \textbf{A pie} & \textbf{En carro} \\
+\midrule
+%\rowcolor{teal!6}
+Parque El Poblado & \highlight{13 min} & 5 min \\
+Torre Oviedo & \highlight{14 min} & 6 min \\
+Club El Rodeo & 18 min & 5 min \\
+%\rowcolor{teal!6}
+CC Oviedo & 19 min & 6 min \\
+Milla de Oro & 19 min & 9 min \\
+CC El Tesoro & 33 min & 6 min \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\subsection{An\'{a}lisis manzana a manzana}
+
+Se analiz\'{o} el tri\'{a}ngulo dividido en 18 manzanas (grilla a 100m), consultando 8 tipos de POIs por manzana (144 queries a Google Places API):
+
+\begin{itemize}
+  \item \textbf{Manzana m\'{a}s densa} (Score 36/100): esquina SW (Calle 10 / Transversal Inferior) — cerca de Vizcaya Business Center y Pinar del R\'{i}o Mall. Farmacia a 3 min, restaurante a 3 min, supermercado a 2 min.
+  \item \textbf{Segunda manzana} (Score 33): zona NE cerca de la Transversal Intermedia — alta en retail y gastronom\'{i}a.
+  \item \textbf{Manzanas m\'{a}s d\'{e}biles} (Score 1): borde oeste — zona residencial pura, sin servicios.
+  \item \textbf{Densidad calle:} 20 POIs por cada 150m de Calle 10 — zona extremadamente caminable.
+\end{itemize}
+
+\subsection{Edificios identificados en la zona}
+
+\begin{center}
+\small
+\begin{tabular}{@{}lrcl@{}}
+\toprule
+\textbf{Edificio} & \textbf{Rating} & \textbf{Reviews} & \textbf{Tipo} \\
+\midrule
+Edificio Bosko & \highlight{4.8} & 76 & Comercial/Oficinas \\
+Edificio Obra Catorce & 4.7 & 113 & Comercial \\
+Vizcaya Real 4 & 4.6 & 96 & Residencial/Comercial \\
+Hotel Lomas 10 & 4.5 & 393 & Hoteler\'{i}a \\
+Hotel Premium Real & 4.1 & 482 & Hoteler\'{i}a \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\fuente{Google Places API + Google Directions API, marzo 2026}
+
+% ============================================================
+\section{Implicaciones Estrat\'{e}gicas para HPTU}
+
+\subsection{Lo que aprendemos de los benchmarks}
+
+\begin{enumerate}
+  \item \textbf{CEDIMED demuestra que el modelo multisede ambulatoria funciona en Medell\'{i}n.} 9 sedes, todas dentro de ecosistemas comerciales. La sede HPTU debe estar DENTRO de un ecosistema, no aislada.
+
+  \item \textbf{Cleveland Clinic valida la estrategia de ``clinical neighbourhoods''.} 276 centros ambulatorios fuera del campus principal. Cada sat\'{e}lite hereda marca, protocolos y especialistas. Revenue ambulatorio = 43\% del total.
+
+  \item \textbf{El dise\~{n}o biof\'{i}lico no es lujo — es evidencia.} Reduce estancia 18\%, mejora satisfacci\'{o}n, reduce dolor. La sede HPTU debe incorporar luz natural, plantas, materiales org\'{a}nicos.
+
+  \item \textbf{Las esperas productivas son el diferenciador.} CEDIMED en El Tesoro permite al paciente ir de compras mientras espera resultados. La sede HPTU en Palmas Bajo tiene 76 restaurantes/caf\'{e}s y CC Oviedo a 19 min a pie.
+
+  \item \textbf{Colombia es mercado emergente ambulatorio.} 80\% de cirug\'{i}as ya son ambulatorias. Prepagada crece +37\%. El momento es ahora.
+\end{enumerate}
+
+\subsection{Palmas Bajo como ubicaci\'{o}n}
+
+\begin{center}
+\begin{tabular}{@{}p{4cm}p{9cm}@{}}
+\toprule
+\textbf{Criterio} & \textbf{Hallazgo} \\
+\midrule
+Score MCDA & \highlight{87/100} (\#1 de 7 zonas evaluadas) \\
+Accesibilidad & 15 min desde Milla de Oro, 6 min a CC El Tesoro \\
+Caminabilidad & 13 min a Parque Poblado, 14 min a Torre Oviedo a pie \\
+Esperas productivas & 281 POIs en 500m (55 bienestar, 75 gastronom\'{i}a) \\
+Competencia & 44 health facilities en 500m — zona activa pero no saturada \\
+Conexi\'{o}n Oriente & Nodo de entrada al T\'{u}nel — \'{u}nica zona con doble mercado \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+% ============================================================
+\section{Fuentes y Recursos}
+
+\subsection{Investigaci\'{o}n global}
+\begin{itemize}[leftmargin=1cm]\small
+  \item Market Data Forecast — Ambulatory Services Market 2034
+  \item Grand View Research — Ambulatory Care Services Market 2030
+  \item The Business Research Company — Ambulatory Services Report 2026
+  \item Newsweek — World's Best Hospitals 2026
+  \item U.S. News \& World Report — Best Hospitals 2025-2026
+  \item Cleveland Clinic Newsroom — State of the Clinic 2026
+  \item Black Book Research — Latin America Market Report 2026
+  \item Frontiers in Public Health — Biophilic Design in Hospital Environments (2026)
+  \item HCD Magazine, KI Healthcare Insights, ASC News, IIDA
+\end{itemize}
+
+\subsection{Datos locales}
+\begin{itemize}[leftmargin=1cm]\small
+  \item CEDIMED — cedimed.com.co (9 sedes, servicios, horarios)
+  \item Google Places API — 281+ POIs Palmas Bajo, 396 Milla de Oro
+  \item Google Directions API — tiempos de viaje y caminabilidad
+  \item Catastro Municipal Medell\'{i}n (bp59-rj8r)
+  \item DENSURBAM (URBAM-EAFIT/AMVA) — IRS Salud, d\'{e}ficit
+  \item REPS MinSalud (b4dp-ximh) — capacidad instalada
+  \item MEData — velocidades y aforos vehiculares
+  \item DANE CNPV 2018 — poblaci\'{o}n y proyecciones
+\end{itemize}
+
+\vfill
+\begin{center}
+\begin{tikzpicture}
+  \draw[hptu, line width=0.5pt] (0,0) -- (12,0);
+\end{tikzpicture}
+
+\vspace{6pt}
+{\small\textcolor{slate}{Hospital Pablo Tob\'{o}n Uribe $\cdot$ Plan de Expansi\'{o}n $\cdot$ Abril 2026}}\\
+{\small\textcolor{slate}{Dashboard: hptu-localizacion.vercel.app}}
+\end{center}
+
+\end{document}
