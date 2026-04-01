@@ -1,0 +1,197 @@
+{
+  "timestamp": "2026-04-01T19:25:04.725Z",
+  "buildings": [
+    {
+      "name": "Restaurante Puro Perú",
+      "address": "Cl 10 #3222, El Poblado, Medellín, El Poblado, Medellín, Antioquia, Colombia",
+      "rating": 4.6,
+      "reviews": 764,
+      "types": [
+        "establishment",
+        "food",
+        "point_of_interest"
+      ],
+      "lat": 6.208929899999999,
+      "lng": -75.5621259
+    },
+    {
+      "name": "Café Hotel Medellín Colombia| El Poblado",
+      "address": "Sector las Lomas, Cra. 31a #11-03, El Poblado, Medellín, El Poblado, Medellín, Antioquia, Colombia",
+      "rating": 4.4,
+      "reviews": 748,
+      "types": [
+        "establishment",
+        "food",
+        "laundry"
+      ],
+      "lat": 6.210871999999999,
+      "lng": -75.5617208
+    },
+    {
+      "name": "Dr. Lucia Castro's Anti-Aging Clinic",
+      "address": "Cra. 34 # 11b - 10, El Poblado, Medellín, El Poblado, Medellín, Antioquia, Colombia",
+      "rating": 4.4,
+      "reviews": 648,
+      "types": [
+        "beauty_salon",
+        "establishment",
+        "health"
+      ],
+      "lat": 6.212534499999999,
+      "lng": -75.5637706
+    },
+    {
+      "name": "Repostería El Portal - El Tesoro Parque Comercial",
+      "address": "Cl. 12 #31 - 164, El Poblado, Medellín, El Poblado, Medellín, Antioquia, Colombia",
+      "rating": 4.5,
+      "reviews": 589,
+      "types": [
+        "bakery",
+        "establishment",
+        "food"
+      ],
+      "lat": 6.2128321,
+      "lng": -75.5625159
+    },
+    {
+      "name": "Dermatológica El Poblado",
+      "address": "Cl 10 #30-310, El Poblado, Medellín, El Poblado, Medellín, Antioquia, Colombia",
+      "rating": 4.4,
+      "reviews": 574,
+      "types": [
+        "beauty_salon",
+        "establishment",
+        "hair_care"
+      ],
+      "lat": 6.2089479,
+      "lng": -75.56190819999999
+    },
+    {
+      "name": "Hotel Premium Real",
+      "address": "Cra. 32 #N° 10 - 121, El Poblado, Medellín, El Poblado, Medellín, Antioquia, Colombia",
+      "rating": 4.1,
+      "reviews": 482,
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "lat": 6.2096335,
+      "lng": -75.5623382
+    },
+    {
+      "name": "Hotel Lomas 10 Medellin",
+      "address": "Cl. 11B #31A-172, El Poblado, Medellín, El Poblado, Medellín, Antioquia, Colombia",
+      "rating": 4.5,
+      "reviews": 393,
+      "types": [
+        "establishment",
+        "food",
+        "lodging"
+      ],
+      "lat": 6.212383699999999,
+      "lng": -75.5630814
+    },
+    {
+      "name": "Eurovet Colombia Veterinary Hospital S.A.",
+      "address": "Cl. 12 #31-185, El Poblado, Medellín, El Poblado, Medellín, Antioquia, Colombia",
+      "rating": 4.5,
+      "reviews": 381,
+      "types": [
+        "establishment",
+        "point_of_interest",
+        "veterinary_care"
+      ],
+      "lat": 6.212598,
+      "lng": -75.56250899999999
+    },
+    {
+      "name": "La Campana Hotel Boutique Medellin",
+      "address": "El Poblado, Medellín, El Poblado, Medellin, Antioquia, Colombia",
+      "rating": 4.5,
+      "reviews": 345,
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "lat": 6.2116755,
+      "lng": -75.5626608
+    },
+    {
+      "name": "Edificio Obra Catorce",
+      "address": "Cl. 11 #30a170, El Poblado, Medellín, El Poblado, Medellín, Antioquia, Colombia",
+      "rating": 4.7,
+      "reviews": 113,
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "lat": 6.2111706,
+      "lng": -75.56142779999999
+    },
+    {
+      "name": "Vizcaya Real 4",
+      "address": "Cra. 32b #10-99, El Poblado, Medellín, El Poblado, Medellín, Antioquia, Colombia",
+      "rating": 4.6,
+      "reviews": 96,
+      "types": [
+        "establishment",
+        "point_of_interest"
+      ],
+      "lat": 6.2098181,
+      "lng": -75.5637287
+    },
+    {
+      "name": "Edificio Bosko",
+      "address": "Cl 11A #31A - 89, El Poblado, Medellín, El Poblado, Medellín, Antioquia, Colombia",
+      "rating": 4.8,
+      "reviews": 76,
+      "types": [
+        "establishment",
+        "point_of_interest"
+      ],
+      "lat": 6.2113983,
+      "lng": -75.5629435
+    },
+    {
+      "name": "Acrecer Sede Poblado",
+      "address": "Cl. 11B #31A 64, El Poblado, Medellín, El Poblado, Medellín, Antioquia, Colombia",
+      "rating": 3.6,
+      "reviews": 46,
+      "types": [
+        "establishment",
+        "point_of_interest",
+        "real_estate_agency"
+      ],
+      "lat": 6.212131299999999,
+      "lng": -75.56254299999999
+    },
+    {
+      "name": "Estructurar Constructores",
+      "address": "Cl. 11c #31-105, El Poblado, Medellín, El Poblado, Medellín, Antioquia, Colombia",
+      "rating": 4.3,
+      "reviews": 46,
+      "types": [
+        "establishment",
+        "point_of_interest"
+      ],
+      "lat": 6.2123146,
+      "lng": -75.5617539
+    },
+    {
+      "name": "Spring City Hostel",
+      "address": "#11b- a 11b-44, Cra. 34 #11b34, El Poblado, Medellín, El Poblado, Medellín, Antioquia, Colombia",
+      "rating": 4.1,
+      "reviews": 44,
+      "types": [
+        "establishment",
+        "lodging",
+        "point_of_interest"
+      ],
+      "lat": 6.2129233,
+      "lng": -75.56398589999999
+    }
+  ]
+}
