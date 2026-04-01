@@ -14,7 +14,7 @@
 const fs = require('fs');
 const path = require('path');
 
-const API_KEY = 'AIzaSyCDtpnJoftns_RXlJhDkLrLwOmdDPoQy10';
+const API_KEY = process.env.GOOGLE_PLACES_API_KEY || '';
 const CENTER = { lat: 6.2111, lng: -75.5622 };
 const RADII = [300, 500, 1000]; // meters
 
