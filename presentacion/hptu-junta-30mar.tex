@@ -1,5 +1,5 @@
 % ============================================================
-% HPTU — Presentación Junta · 21 slides · Sede Ambulatoria
+% HPTU — Presentación Junta · 20 slides · Sede Ambulatoria
 % 7 zonas (incl. Milla de Oro) · 2 modelos · Prueba ácida · Benchmark CEDIMED
 % Compilar con: lualatex hptu-junta-30mar.tex
 % ============================================================
@@ -117,27 +117,26 @@ IRS Salud El Poblado: 0,27 (m\'{i}nimo: 2,5) $\cdot$ Camas/1000 en Medell\'{i}n:
 \end{frame}
 
 % ============================================================
-% 4. LA F\'{O}RMULA (6 variables)
+% 4. LA F\'{O}RMULA (5 variables)
 % ============================================================
 \begin{frame}{La f\'{o}rmula: c\'{o}mo evaluamos cada zona}
 \vfill
 \begin{center}
-{\small Cada zona candidata recibe un puntaje de 0 a 100 con \textbf{6 variables}:}
+{\small Cada zona candidata recibe un puntaje de 0 a 100 con \textbf{5 variables}:}
 
 \vspace{10pt}
 
 {\large
-$\text{Score} = \textcolor{acc}{\textbf{A}}\!\times\!20 + \textcolor{dem}{\textbf{D}}\!\times\!20 + \textcolor{comp}{\textbf{C}}\!\times\!15 + \textcolor{val}{\textbf{V}}\!\times\!15 + \textcolor{esp}{\textbf{E}}\!\times\!15 + \textcolor{vis}{\textbf{Vis}}\!\times\!15$
+$\text{Score} = \textcolor{acc}{\textbf{A}}\!\times\!25 + \textcolor{dem}{\textbf{D}}\!\times\!25 + \textcolor{comp}{\textbf{C}}\!\times\!20 + \textcolor{esp}{\textbf{E}}\!\times\!15 + \textcolor{vis}{\textbf{Vis}}\!\times\!15$
 }
 
 \vspace{12pt}
 
 {\small
 \begin{tabular}{@{}cl@{}}
-\textcolor{acc}{\textbf{A}} & \textcolor{acc}{\textbf{Accesibilidad (20\%)}} --- \textquestiondown Qu\'{e} tan f\'{a}cil es llegar? \\[4pt]
-\textcolor{dem}{\textbf{D}} & \textcolor{dem}{\textbf{Demanda (20\%)}} --- \textquestiondown Hay gente que necesite servicios ambulatorios? \\[4pt]
-\textcolor{comp}{\textbf{C}} & \textcolor{comp}{\textbf{Competencia (15\%)}} --- \textquestiondown Qu\'{e} tan saturada est\'{a} la zona? \\[4pt]
-\textcolor{val}{\textbf{V}} & \textcolor{val}{\textbf{Valor Inmobiliario (15\%)}} --- \textquestiondown Cu\'{a}nto vale y cu\'{a}nto potencial tiene? \\[4pt]
+\textcolor{acc}{\textbf{A}} & \textcolor{acc}{\textbf{Accesibilidad (25\%)}} --- \textquestiondown Qu\'{e} tan f\'{a}cil es llegar? \\[4pt]
+\textcolor{dem}{\textbf{D}} & \textcolor{dem}{\textbf{Demanda (25\%)}} --- \textquestiondown Hay gente que necesite servicios ambulatorios? \\[4pt]
+\textcolor{comp}{\textbf{C}} & \textcolor{comp}{\textbf{Competencia (20\%)}} --- \textquestiondown Qu\'{e} tan saturada est\'{a} la zona? \\[4pt]
 \textcolor{esp}{\textbf{E}} & \textcolor{esp}{\textbf{Esperas Productivas (15\%)}} --- \textquestiondown Qu\'{e} retail y servicios hay alrededor? \\[4pt]
 \textcolor{vis}{\textbf{Vis}} & \textcolor{vis}{\textbf{Visibilidad (15\%)}} --- \textquestiondown Cu\'{a}nta gente pasa y ve la sede?
 \end{tabular}
@@ -153,26 +152,26 @@ $\text{Score} = \textcolor{acc}{\textbf{A}}\!\times\!20 + \textcolor{dem}{\textb
 
 \vspace{2pt}
 \begin{center}
-{\scriptsize \textcolor{acc}{A}(20\%) + \textcolor{dem}{D}(20\%) + \textcolor{comp}{C}(15\%) + \textcolor{val}{V}(15\%) + \textcolor{esp}{E}(15\%) + \textcolor{vis}{Vis}(15\%) = Score}
+{\scriptsize \textcolor{acc}{A}(25\%) + \textcolor{dem}{D}(25\%) + \textcolor{comp}{C}(20\%) + \textcolor{esp}{E}(15\%) + \textcolor{vis}{Vis}(15\%) = Score}
 
 \vspace{6pt}
 
 {\small
-\begin{tabular}{@{}l cccccc c@{}}
+\begin{tabular}{@{}l ccccc c@{}}
 \toprule
-\textbf{Zona} & \textcolor{acc}{\textbf{A}} & \textcolor{dem}{\textbf{D}} & \textcolor{comp}{\textbf{C}} & \textcolor{val}{\textbf{V}} & \textcolor{esp}{\textbf{E}} & \textcolor{vis}{\textbf{Vis}} & \textbf{TOTAL} \\
-& \textcolor{acc}{\tiny 20\%} & \textcolor{dem}{\tiny 20\%} & \textcolor{comp}{\tiny 15\%} & \textcolor{val}{\tiny 15\%} & \textcolor{esp}{\tiny 15\%} & \textcolor{vis}{\tiny 15\%} & \\
+\textbf{Zona} & \textcolor{acc}{\textbf{A}} & \textcolor{dem}{\textbf{D}} & \textcolor{comp}{\textbf{C}} & \textcolor{esp}{\textbf{E}} & \textcolor{vis}{\textbf{Vis}} & \textbf{TOTAL} \\
+& \textcolor{acc}{\tiny 25\%} & \textcolor{dem}{\tiny 25\%} & \textcolor{comp}{\tiny 20\%} & \textcolor{esp}{\tiny 15\%} & \textcolor{vis}{\tiny 15\%} & \\
 \midrule
 \rowcolor{acc!12}
-\textbf{1.\ Las Palmas Bajo} & 92 & 93 & 78 & 85 & 88 & 85 & \textcolor{acc}{\textbf{87}} \\[2pt]
-\textbf{2.\ Milla de Oro} & 55 & 95 & 35 & 95 & 95 & 92 & \textbf{78} \\[2pt]
+\textbf{1.\ Las Palmas Bajo} & 92 & 93 & 78 & 88 & 85 & \textcolor{acc}{\textbf{88}} \\[2pt]
+\textbf{2.\ Palmas Medio} & 85 & 91 & 65 & 55 & 78 & \textbf{77} \\[2pt]
 \rowcolor{bglight}
-\textbf{3.\ Palmas Medio} & 85 & 91 & 65 & 78 & 55 & 78 & \textbf{77} \\[2pt]
-4.\ Envigado--Z\'{u}\~{n}iga & 75 & 80 & 62 & 78 & 72 & 78 & 75 \\[2pt]
+\textbf{3.\ Envigado--Z\'{u}\~{n}iga} & 75 & 80 & 62 & 72 & 78 & \textbf{74} \\[2pt]
+4.\ Milla de Oro & 55 & 95 & 35 & 95 & 92 & 73 \\[2pt]
 \rowcolor{bglight}
-5.\ Nuevo Poblado--Itag\"{u}\'{i} & 82 & 68 & 52 & 80 & 55 & 80 & 70 \\[2pt]
+5.\ Nuevo Poblado--Itag\"{u}\'{i} & 82 & 68 & 52 & 55 & 80 & 68 \\[2pt]
 \rowcolor{comp!6}
-6.\ Las Palmas Alto & 42 & 52 & 90 & 30 & 20 & 30 & \textcolor{comp}{44} \\
+6.\ Las Palmas Alto & 42 & 52 & 90 & 20 & 30 & \textcolor{comp}{49} \\
 \bottomrule
 \end{tabular}
 }
@@ -180,13 +179,13 @@ $\text{Score} = \textcolor{acc}{\textbf{A}}\!\times\!20 + \textcolor{dem}{\textb
 
 \vspace{4pt}
 {\scriptsize\color{slate}
-Las Palmas Bajo lidera con \textbf{87/100}. Milla de Oro es \#2 (\textbf{78}) por su alt\'{i}sima demanda y esperas, pero con competencia feroz. Palmas Medio es \#3 (\textbf{77}). A continuaci\'{o}n, el detalle de cada variable.}
+Las Palmas Bajo lidera con \textbf{88/100}. Palmas Medio es \#2 (\textbf{77}), Envigado \#3 (\textbf{74}). Milla de Oro baja a \#4 (\textbf{73}) por su competencia feroz y baja accesibilidad. A continuaci\'{o}n, el detalle de cada variable.}
 \end{frame}
 
 % ============================================================
 % 6. ACCESIBILIDAD
 % ============================================================
-\begin{frame}{\textcolor{acc}{Accesibilidad (20\%)}: \textquestiondown cu\'{a}l es la zona m\'{a}s f\'{a}cil para llegar?}
+\begin{frame}{\textcolor{acc}{Accesibilidad (25\%)}: \textquestiondown cu\'{a}l es la zona m\'{a}s f\'{a}cil para llegar?}
 
 \begin{columns}[T]
 \column{0.48\textwidth}
@@ -260,7 +259,7 @@ Milla de Oro & 19 min \\
 % ============================================================
 % 7. DEMANDA
 % ============================================================
-\begin{frame}{\textcolor{dem}{Demanda (20\%)}: \textquestiondown hacia d\'{o}nde se mueve la poblaci\'{o}n?}
+\begin{frame}{\textcolor{dem}{Demanda (25\%)}: \textquestiondown hacia d\'{o}nde se mueve la poblaci\'{o}n?}
 
 \begin{columns}[T]
 \column{0.44\textwidth}
@@ -316,7 +315,7 @@ Cirug\'{i}a ambulat.\ Colombia & 490.944 proc/a\~{n}o \\
 % ============================================================
 % 8. COMPETENCIA (+ San Vicente, CEDIMED, Sommer)
 % ============================================================
-\begin{frame}{\textcolor{comp}{Competencia (15\%)}: \textquestiondown qu\'{e} est\'{a} haciendo la competencia?}
+\begin{frame}{\textcolor{comp}{Competencia (20\%)}: \textquestiondown qu\'{e} est\'{a} haciendo la competencia?}
 
 \begin{columns}[T]
 \column{0.46\textwidth}
@@ -368,63 +367,7 @@ CEDIMED: benchmark ambulatorio (im\'{a}genes).}
 \end{frame}
 
 % ============================================================
-% 9. VALOR INMOBILIARIO
-% ============================================================
-\begin{frame}{\textcolor{val}{Valor Inmobiliario (15\%)}: \textquestiondown cu\'{a}nto vale y qu\'{e} potencial tiene?}
-
-\begin{columns}[T]
-\column{0.46\textwidth}
-\vspace{2pt}
-{\scriptsize\textbf{Aval\'{u}os promedio por barrio:}}
-\vspace{2pt}
-
-{\scriptsize
-\begin{tabular}{@{}lrc@{}}
-\toprule
-\textbf{Barrio} & \textbf{Aval\'{u}o} & \textbf{\% E5/E6} \\
-\midrule
-\rowcolor{val!10}
-San Lucas & \textcolor{val}{\textbf{\$512M}} & 93\% \\
-Los Balsos No.\ 1 & \$401M & 95\% \\
-El Poblado core & \$371M & 98\% \\
-Castropol & \$327M & 97\% \\
-El Tesoro & \$258M & 89\% \\
-\bottomrule
-\end{tabular}
-}
-
-\vspace{2pt}
-{\tiny\color{slate} Fuente: Catastro Municipal (bp59-rj8r)}
-
-\column{0.50\textwidth}
-\vspace{2pt}
-{\scriptsize\textbf{POT: potencial de desarrollo}}
-\vspace{2pt}
-
-{\scriptsize
-\begin{tabular}{@{}lrr@{}}
-\toprule
-\textbf{Barrio} & \textbf{Pisos} & \textbf{\% usado} \\
-\midrule
-Las Lomas No.\ 2 & \textcolor{val}{\textbf{20}} & 32\% \\
-San Lucas & 19.1 & \textcolor{val}{\textbf{45.8\%}} \\
-Los Balsos No.\ 1 & 16.7 & 41\% \\
-\midrule
-\rowcolor{val!6}
-Astorga & 14.7 & \textcolor{val}{\textbf{14.7\%}} \\
-Manila & 14.2 & \textcolor{val}{\textbf{14.2\%}} \\
-\bottomrule
-\end{tabular}
-}
-
-\vspace{3pt}
-{\scriptsize Astorga y Manila: solo \textbf{14\%} densidad usada.\\
-Desarrollo masivo en curso.}
-\end{columns}
-\end{frame}
-
-% ============================================================
-% 10. ESPERAS PRODUCTIVAS
+% 9. ESPERAS PRODUCTIVAS
 % ============================================================
 \begin{frame}{\textcolor{esp}{Esperas Productivas (15\%)}: \textquestiondown qu\'{e} retail y servicios hay alrededor?}
 
@@ -543,14 +486,14 @@ Esperas = qu\'{e} hay \textbf{alrededor} (est\'{a}tico, retail).}
 \end{frame}
 
 % ============================================================
-% 12. PRUEBA \'{A}CIDA (7 zonas)
+% 11. PRUEBA \'{A}CIDA (6 zonas, 5 variables)
 % ============================================================
 {
 \setbeamercolor{background canvas}{bg=bglight}
 \begin{frame}{Prueba \'{a}cida: \textquestiondown qu\'{e} tan robusto es el ranking?}
 
 \vspace{-2pt}
-{\scriptsize Probamos \textbf{6.891 combinaciones} de pesos (cada variable entre 5\% y 35\%) con \textbf{7 zonas}:}
+{\scriptsize Probamos \textbf{6.891 combinaciones} de pesos (cada variable entre 5\% y 35\%) con \textbf{6 zonas} y \textbf{5 variables}:}
 
 \vspace{4pt}
 \begin{center}
@@ -560,7 +503,7 @@ Esperas = qu\'{e} hay \textbf{alrededor} (est\'{a}tico, retail).}
 \textbf{Pregunta} & \textbf{Resultado} & \textbf{Interpretaci\'{o}n} \\
 \midrule
 \rowcolor{acc!10}
-\textquestiondown LP Bajo pierde el \#1? & \textcolor{acc}{\textbf{Nunca (0\%)}} & Es \#1 en el 100\% de los escenarios \\[3pt]
+\textquestiondown LP Bajo pierde el \#1? & \textcolor{acc}{\textbf{Casi nunca (0,7\%)}} & Es \#1 en el 99,3\% de los escenarios \\[3pt]
 \textquestiondown Milla de Oro es top-2? & \textbf{48\% de las veces} & \#2 cuando Dem, Esp o Vis pesan m\'{a}s \\[3pt]
 \rowcolor{bglight}
 \textquestiondown Qui\'{e}n desplaza a MdO? & Palmas Medio o Envigado & Cuando Acc o Comp pesan m\'{a}s \\
@@ -579,20 +522,20 @@ Esperas = qu\'{e} hay \textbf{alrededor} (est\'{a}tico, retail).}
 \textbf{Si priorizamos\ldots} & \textbf{\#1} & \textbf{\#2} & \textbf{\#3} & \textbf{\#4} \\
 \midrule
 \rowcolor{acc!6}
-Base (20/20/15/15/15/15) & LP Bajo (87) & MdO (78) & P.\ Medio (77) & Envigado (75) \\
-Demanda (35\%) & LP Bajo (88) & MdO (82) & P.\ Medio (80) & Envigado (76) \\
+Base (25/25/20/15/15) & LP Bajo (88) & P.\ Medio (77) & Envigado (74) & MdO (73) \\
+Demanda (35\%) & LP Bajo (88) & MdO (79) & P.\ Medio (78) & Envigado (74) \\
 \rowcolor{acc!6}
-Accesibilidad (35\%) & LP Bajo (88) & P.\ Medio (79) & MdO (73) & Envigado (75) \\
-Competencia (35\%) & LP Bajo (85) & LP Medio (76) & P.\ Medio (74) & Envigado (71) \\
+Accesibilidad (35\%) & LP Bajo (88) & P.\ Medio (77) & Envigado (74) & MdO (68) \\
+Competencia (35\%) & LP Bajo (85) & P.\ Medio (73) & Envigado (71) & MdO (63) \\
 \rowcolor{esp!6}
-Esperas Prod.\ (35\%) & LP Bajo (87) & MdO (82) & Envigado (74) & LP Medio (72) \\
-Visibilidad (35\%) & LP Bajo (87) & MdO (81) & P.\ Medio (76) & Envigado (76) \\
+Esperas Prod.\ (35\%) & LP Bajo (87) & MdO (79) & Envigado (73) & P.\ Medio (72) \\
+Visibilidad (35\%) & LP Bajo (87) & MdO (79) & P.\ Medio (74) & Envigado (73) \\
 \bottomrule
 \end{tabular}
 }
 
 \vspace{3pt}
-{\scriptsize\color{slate}\textbf{Conclusi\'{o}n:} LP Bajo es invencible --- \#1 en el 100\% de escenarios. Milla de Oro y Palmas Medio compiten por el \#2 seg\'{u}n los pesos.}
+{\scriptsize\color{slate}\textbf{Conclusi\'{o}n:} LP Bajo es \#1 en el 99,3\% de escenarios. Palmas Medio y Milla de Oro compiten por el \#2 seg\'{u}n los pesos.}
 \end{frame}
 }
 
@@ -602,7 +545,7 @@ Visibilidad (35\%) & LP Bajo (87) & MdO (81) & P.\ Medio (76) & Envigado (76) \\
 \begin{frame}{Modelo 2: Experiencia --- \textquestiondown y si priman visibilidad y esperas?}
 
 \vspace{2pt}
-{\scriptsize Cuando ponderamos \textcolor{comp}{Competencia (25\%)}, \textcolor{vis}{Visibilidad (25\%)}, \textcolor{esp}{Esperas (25\%)} m\'{a}s alto, reduciendo Acc a 10\%, Dem a 10\% y Val a 5\%:}
+{\scriptsize Cuando ponderamos \textcolor{comp}{Competencia (25\%)}, \textcolor{vis}{Visibilidad (30\%)}, \textcolor{esp}{Esperas (25\%)} m\'{a}s alto, reduciendo Acc a 10\% y Dem a 10\%:}
 
 \vspace{6pt}
 \begin{center}
@@ -610,24 +553,24 @@ Visibilidad (35\%) & LP Bajo (87) & MdO (81) & P.\ Medio (76) & Envigado (76) \\
 \begin{tabular}{@{}l cc | l@{}}
 \toprule
 \textbf{Zona} & \textbf{Modelo 1} & \textbf{Modelo 2} & \textbf{Cambio} \\
-& {\tiny 20/20/15/15/15/15} & {\tiny 10/10/25/5/25/25} & \\
+& {\tiny 25/25/20/15/15} & {\tiny 10/10/25/25/30} & \\
 \midrule
 \rowcolor{acc!12}
-\textbf{Las Palmas Bajo} & \textcolor{acc}{\textbf{87}} (\#1) & \textcolor{acc}{\textbf{86}} (\#1) & Se mantiene \#1 \\[2pt]
-\textbf{Milla de Oro} & \textbf{78} (\#2) & \textbf{75} (\#2) & Se mantiene \#2 \\[2pt]
+\textbf{Las Palmas Bajo} & \textcolor{acc}{\textbf{88}} (\#1) & \textcolor{acc}{\textbf{84}} (\#1) & Se mantiene \#1 \\[2pt]
+\textbf{Milla de Oro} & 73 (\#4) & \textbf{78} (\#2) & Sube a \#2 \\[2pt]
 \rowcolor{bglight}
-Envigado & 75 (\#4) & 72 (\#3) & Sube una posici\'{o}n \\[2pt]
-Palmas Medio & 77 (\#3) & 71 (\#4) & Baja una posici\'{o}n \\[2pt]
+Envigado & 74 (\#3) & 72 (\#3) & Se mantiene \#3 \\[2pt]
+Palmas Medio & 77 (\#2) & 70 (\#4) & Baja dos posiciones \\[2pt]
 \rowcolor{bglight}
-N.\ Poblado & 70 (\#5) & 66 (\#5) & Estable \\[2pt]
-LP Alto & 44 (\#6) & 46 (\#6) & Estable \\
+N.\ Poblado & 68 (\#5) & 66 (\#5) & Estable \\[2pt]
+LP Alto & 49 (\#6) & 46 (\#6) & Estable \\
 \bottomrule
 \end{tabular}
 }
 \end{center}
 
 \vspace{6pt}
-{\scriptsize\textbf{Hallazgo clave:} Palmas Bajo se mantiene \#1 en ambos modelos. Milla de Oro sube porque tiene la mayor densidad de servicios caminables (396 POIs en 500m vs 281 en Palmas Bajo). La decisi\'{o}n es: \textquestiondown priman los fundamentales (accesibilidad, demanda) o la experiencia (visibilidad, esperas)?}
+{\scriptsize\textbf{Hallazgo clave:} Palmas Bajo se mantiene \#1 en ambos modelos. Milla de Oro sube de \#4 a \#2 porque tiene la mayor densidad de servicios caminables (396 POIs en 500m vs 281 en Palmas Bajo). La decisi\'{o}n es: \textquestiondown priman los fundamentales (accesibilidad, demanda) o la experiencia (visibilidad, esperas)?}
 \end{frame}
 
 % ============================================================
@@ -657,9 +600,7 @@ LP Alto & 44 (\#6) & 46 (\#6) & Estable \\
 {\tiny 396 POIs en 500m (80 gastro, 57 retail, 40 bancos)} & \\[2pt]
 \rowcolor{vis!8}
 \textcolor{vis}{\textbf{Visibilidad}} & \textcolor{vis}{\textbf{92/100}} \\
-{\tiny Alto tr\'{a}fico peatonal y vehicular} & \\[2pt]
-\rowcolor{val!8}
-\textcolor{val}{\textbf{Valor}} & \textcolor{val}{\textbf{95/100}} \\
+{\tiny Alto tr\'{a}fico peatonal y vehicular} & \\
 \bottomrule
 \end{tabular}
 }
@@ -686,8 +627,8 @@ LP Alto & 44 (\#6) & 46 (\#6) & Estable \\
 
 \vspace{6pt}
 {\scriptsize
-\textbf{Score Modelo 1:} 78 (\#2)\\
-\textbf{Score Modelo 2:} 75 (\#2)
+\textbf{Score Modelo 1:} 73 (\#4)\\
+\textbf{Score Modelo 2:} 78 (\#2)
 }
 
 \vspace{6pt}
@@ -867,8 +808,8 @@ La competencia es FEROZ. Score Competencia: \textcolor{comp}{\textbf{35/100}} --
 \begin{tabular}{@{}lr@{}}
 \toprule
 Zona & Las Palmas Bajo \\
-Score Modelo 1 & \textcolor{acc}{\textbf{87/100 (\#1)}} \\
-Score Modelo 2 & \textcolor{acc}{\textbf{86/100 (\#1)}} \\
+Score Modelo 1 & \textcolor{acc}{\textbf{88/100 (\#1)}} \\
+Score Modelo 2 & \textcolor{acc}{\textbf{84/100 (\#1)}} \\
 Pico y placa & \textcolor{acc}{\textbf{No aplica}} \\
 A Milla de Oro & \textcolor{acc}{\textbf{9 min}} \\
 A CC El Tesoro & \textcolor{acc}{\textbf{6 min}} \\
@@ -1060,7 +1001,7 @@ Oriente cercano & 298.000 hab & Nodo T\'{u}nel, $\sim$25 min aero. \\
 \vspace{8pt}
 
 {\scriptsize\textcolor{white!60}{
-LP Bajo: 87/100 (\#1) $\cdot$ Milla de Oro: 78/100 (\#2) $\cdot$ Palmas Medio: 77/100 (\#3)\\
+LP Bajo: 88/100 (\#1) $\cdot$ Palmas Medio: 77/100 (\#2) $\cdot$ Milla de Oro: 73/100 (\#4)\\
 Sin urgencias $\cdot$ Sin camas $\cdot$ Sin alta complejidad $\cdot$ Complementa Sommer y SVF
 }}
 
