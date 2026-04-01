@@ -1,0 +1,473 @@
+{
+  "metadata": {
+    "zone": "Palmas Bajo",
+    "triangle": {
+      "A": {
+        "lat": 6.215323,
+        "lng": -75.562567
+      },
+      "B": {
+        "lat": 6.209103,
+        "lng": -75.564763
+      },
+      "C": {
+        "lat": 6.208965,
+        "lng": -75.55918
+      }
+    },
+    "gridPoints": 18,
+    "radiusPerPoint": 100,
+    "timestamp": "2026-04-01T19:23:31.841Z",
+    "apiSource": "Google Places API"
+  },
+  "blocks": [
+    {
+      "id": "block-1",
+      "lat": 6.209465,
+      "lng": -75.564263,
+      "counts": {
+        "restaurant": 0,
+        "cafe": 0,
+        "bank": 0,
+        "pharmacy": 0,
+        "hospital": 0,
+        "doctor": 0,
+        "gym": 0,
+        "store": 1
+      },
+      "total": 1,
+      "scores": {
+        "health": 0,
+        "retail": 5,
+        "food": 0,
+        "finance": 0,
+        "wellness": 0,
+        "total": 1
+      }
+    },
+    {
+      "id": "block-2",
+      "lat": 6.209465,
+      "lng": -75.563263,
+      "counts": {
+        "restaurant": 1,
+        "cafe": 0,
+        "bank": 0,
+        "pharmacy": 1,
+        "hospital": 0,
+        "doctor": 0,
+        "gym": 0,
+        "store": 6
+      },
+      "total": 8,
+      "scores": {
+        "health": 0,
+        "retail": 30,
+        "food": 5,
+        "finance": 0,
+        "wellness": 10,
+        "total": 9
+      }
+    },
+    {
+      "id": "block-3",
+      "lat": 6.209465,
+      "lng": -75.562263,
+      "counts": {
+        "restaurant": 3,
+        "cafe": 0,
+        "bank": 0,
+        "pharmacy": 1,
+        "hospital": 1,
+        "doctor": 0,
+        "gym": 1,
+        "store": 12
+      },
+      "total": 18,
+      "scores": {
+        "health": 10,
+        "retail": 60,
+        "food": 15,
+        "finance": 0,
+        "wellness": 20,
+        "total": 21
+      }
+    },
+    {
+      "id": "block-4",
+      "lat": 6.209465,
+      "lng": -75.561263,
+      "counts": {
+        "restaurant": 0,
+        "cafe": 0,
+        "bank": 0,
+        "pharmacy": 1,
+        "hospital": 0,
+        "doctor": 0,
+        "gym": 1,
+        "store": 10
+      },
+      "total": 12,
+      "scores": {
+        "health": 0,
+        "retail": 50,
+        "food": 0,
+        "finance": 0,
+        "wellness": 20,
+        "total": 14
+      }
+    },
+    {
+      "id": "block-5",
+      "lat": 6.209465,
+      "lng": -75.560263,
+      "counts": {
+        "restaurant": 3,
+        "cafe": 3,
+        "bank": 0,
+        "pharmacy": 2,
+        "hospital": 0,
+        "doctor": 3,
+        "gym": 0,
+        "store": 20
+      },
+      "total": 31,
+      "scores": {
+        "health": 30,
+        "retail": 100,
+        "food": 30,
+        "finance": 0,
+        "wellness": 20,
+        "total": 36
+      }
+    },
+    {
+      "id": "block-6",
+      "lat": 6.210465,
+      "lng": -75.564263,
+      "counts": {
+        "restaurant": 8,
+        "cafe": 0,
+        "bank": 0,
+        "pharmacy": 0,
+        "hospital": 5,
+        "doctor": 2,
+        "gym": 1,
+        "store": 2
+      },
+      "total": 18,
+      "scores": {
+        "health": 70,
+        "retail": 10,
+        "food": 40,
+        "finance": 0,
+        "wellness": 10,
+        "total": 26
+      }
+    },
+    {
+      "id": "block-7",
+      "lat": 6.210465,
+      "lng": -75.563263,
+      "counts": {
+        "restaurant": 0,
+        "cafe": 0,
+        "bank": 0,
+        "pharmacy": 0,
+        "hospital": 0,
+        "doctor": 0,
+        "gym": 0,
+        "store": 1
+      },
+      "total": 1,
+      "scores": {
+        "health": 0,
+        "retail": 5,
+        "food": 0,
+        "finance": 0,
+        "wellness": 0,
+        "total": 1
+      }
+    },
+    {
+      "id": "block-8",
+      "lat": 6.210465,
+      "lng": -75.562263,
+      "counts": {
+        "restaurant": 4,
+        "cafe": 1,
+        "bank": 0,
+        "pharmacy": 0,
+        "hospital": 1,
+        "doctor": 0,
+        "gym": 1,
+        "store": 2
+      },
+      "total": 9,
+      "scores": {
+        "health": 10,
+        "retail": 10,
+        "food": 25,
+        "finance": 0,
+        "wellness": 10,
+        "total": 11
+      }
+    },
+    {
+      "id": "block-9",
+      "lat": 6.210465,
+      "lng": -75.561263,
+      "counts": {
+        "restaurant": 4,
+        "cafe": 1,
+        "bank": 0,
+        "pharmacy": 0,
+        "hospital": 0,
+        "doctor": 0,
+        "gym": 0,
+        "store": 4
+      },
+      "total": 9,
+      "scores": {
+        "health": 0,
+        "retail": 20,
+        "food": 25,
+        "finance": 0,
+        "wellness": 0,
+        "total": 9
+      }
+    },
+    {
+      "id": "block-10",
+      "lat": 6.210465,
+      "lng": -75.560263,
+      "counts": {
+        "restaurant": 0,
+        "cafe": 0,
+        "bank": 0,
+        "pharmacy": 0,
+        "hospital": 0,
+        "doctor": 0,
+        "gym": 0,
+        "store": 5
+      },
+      "total": 5,
+      "scores": {
+        "health": 0,
+        "retail": 25,
+        "food": 0,
+        "finance": 0,
+        "wellness": 0,
+        "total": 5
+      }
+    },
+    {
+      "id": "block-11",
+      "lat": 6.211465,
+      "lng": -75.563263,
+      "counts": {
+        "restaurant": 1,
+        "cafe": 0,
+        "bank": 1,
+        "pharmacy": 0,
+        "hospital": 0,
+        "doctor": 0,
+        "gym": 1,
+        "store": 2
+      },
+      "total": 5,
+      "scores": {
+        "health": 0,
+        "retail": 10,
+        "food": 5,
+        "finance": 15,
+        "wellness": 10,
+        "total": 8
+      }
+    },
+    {
+      "id": "block-12",
+      "lat": 6.211465,
+      "lng": -75.562263,
+      "counts": {
+        "restaurant": 5,
+        "cafe": 1,
+        "bank": 1,
+        "pharmacy": 0,
+        "hospital": 0,
+        "doctor": 0,
+        "gym": 1,
+        "store": 3
+      },
+      "total": 11,
+      "scores": {
+        "health": 0,
+        "retail": 15,
+        "food": 30,
+        "finance": 15,
+        "wellness": 10,
+        "total": 14
+      }
+    },
+    {
+      "id": "block-13",
+      "lat": 6.211465,
+      "lng": -75.561263,
+      "counts": {
+        "restaurant": 4,
+        "cafe": 1,
+        "bank": 0,
+        "pharmacy": 0,
+        "hospital": 0,
+        "doctor": 0,
+        "gym": 0,
+        "store": 4
+      },
+      "total": 9,
+      "scores": {
+        "health": 0,
+        "retail": 20,
+        "food": 25,
+        "finance": 0,
+        "wellness": 0,
+        "total": 9
+      }
+    },
+    {
+      "id": "block-14",
+      "lat": 6.212465,
+      "lng": -75.563263,
+      "counts": {
+        "restaurant": 5,
+        "cafe": 1,
+        "bank": 0,
+        "pharmacy": 0,
+        "hospital": 0,
+        "doctor": 1,
+        "gym": 0,
+        "store": 9
+      },
+      "total": 16,
+      "scores": {
+        "health": 10,
+        "retail": 45,
+        "food": 30,
+        "finance": 0,
+        "wellness": 0,
+        "total": 17
+      }
+    },
+    {
+      "id": "block-15",
+      "lat": 6.212465,
+      "lng": -75.562263,
+      "counts": {
+        "restaurant": 3,
+        "cafe": 2,
+        "bank": 0,
+        "pharmacy": 0,
+        "hospital": 0,
+        "doctor": 0,
+        "gym": 0,
+        "store": 6
+      },
+      "total": 11,
+      "scores": {
+        "health": 0,
+        "retail": 30,
+        "food": 25,
+        "finance": 0,
+        "wellness": 0,
+        "total": 11
+      }
+    },
+    {
+      "id": "block-16",
+      "lat": 6.212465,
+      "lng": -75.561263,
+      "counts": {
+        "restaurant": 0,
+        "cafe": 0,
+        "bank": 0,
+        "pharmacy": 0,
+        "hospital": 0,
+        "doctor": 0,
+        "gym": 0,
+        "store": 5
+      },
+      "total": 5,
+      "scores": {
+        "health": 0,
+        "retail": 25,
+        "food": 0,
+        "finance": 0,
+        "wellness": 0,
+        "total": 5
+      }
+    },
+    {
+      "id": "block-17",
+      "lat": 6.213465,
+      "lng": -75.562263,
+      "counts": {
+        "restaurant": 5,
+        "cafe": 4,
+        "bank": 0,
+        "pharmacy": 0,
+        "hospital": 1,
+        "doctor": 0,
+        "gym": 2,
+        "store": 14
+      },
+      "total": 26,
+      "scores": {
+        "health": 10,
+        "retail": 70,
+        "food": 45,
+        "finance": 0,
+        "wellness": 20,
+        "total": 29
+      }
+    },
+    {
+      "id": "block-18",
+      "lat": 6.214465,
+      "lng": -75.562263,
+      "counts": {
+        "restaurant": 6,
+        "cafe": 2,
+        "bank": 0,
+        "pharmacy": 0,
+        "hospital": 1,
+        "doctor": 2,
+        "gym": 2,
+        "store": 15
+      },
+      "total": 28,
+      "scores": {
+        "health": 30,
+        "retail": 75,
+        "food": 40,
+        "finance": 0,
+        "wellness": 20,
+        "total": 33
+      }
+    }
+  ],
+  "summary": {
+    "totalBlocks": 18,
+    "avgScore": 14,
+    "maxScore": 36,
+    "minScore": 1,
+    "bestBlock": {
+      "lat": 6.209465,
+      "lng": -75.560263,
+      "score": 36
+    },
+    "worstBlock": {
+      "lat": 6.210465,
+      "lng": -75.563263,
+      "score": 1
+    }
+  }
+}

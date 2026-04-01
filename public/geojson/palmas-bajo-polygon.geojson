@@ -1,0 +1,35 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Palmas Bajo - Zona Candidata",
+        "zone": "palmas-bajo"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -75.562567,
+              6.215323
+            ],
+            [
+              -75.564763,
+              6.209103
+            ],
+            [
+              -75.55918,
+              6.208965
+            ],
+            [
+              -75.562567,
+              6.215323
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

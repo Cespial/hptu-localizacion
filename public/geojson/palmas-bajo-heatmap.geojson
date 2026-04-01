@@ -1,0 +1,509 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "block-1",
+        "total_pois": 1,
+        "health_score": 0,
+        "retail_score": 5,
+        "food_score": 0,
+        "finance_score": 0,
+        "wellness_score": 0,
+        "total_score": 1,
+        "restaurant": 0,
+        "cafe": 0,
+        "bank": 0,
+        "pharmacy": 0,
+        "hospital": 0,
+        "doctor": 0,
+        "gym": 0,
+        "store": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.564263,
+          6.209465
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "block-2",
+        "total_pois": 8,
+        "health_score": 0,
+        "retail_score": 30,
+        "food_score": 5,
+        "finance_score": 0,
+        "wellness_score": 10,
+        "total_score": 9,
+        "restaurant": 1,
+        "cafe": 0,
+        "bank": 0,
+        "pharmacy": 1,
+        "hospital": 0,
+        "doctor": 0,
+        "gym": 0,
+        "store": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.563263,
+          6.209465
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "block-3",
+        "total_pois": 18,
+        "health_score": 10,
+        "retail_score": 60,
+        "food_score": 15,
+        "finance_score": 0,
+        "wellness_score": 20,
+        "total_score": 21,
+        "restaurant": 3,
+        "cafe": 0,
+        "bank": 0,
+        "pharmacy": 1,
+        "hospital": 1,
+        "doctor": 0,
+        "gym": 1,
+        "store": 12
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.562263,
+          6.209465
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "block-4",
+        "total_pois": 12,
+        "health_score": 0,
+        "retail_score": 50,
+        "food_score": 0,
+        "finance_score": 0,
+        "wellness_score": 20,
+        "total_score": 14,
+        "restaurant": 0,
+        "cafe": 0,
+        "bank": 0,
+        "pharmacy": 1,
+        "hospital": 0,
+        "doctor": 0,
+        "gym": 1,
+        "store": 10
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.561263,
+          6.209465
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "block-5",
+        "total_pois": 31,
+        "health_score": 30,
+        "retail_score": 100,
+        "food_score": 30,
+        "finance_score": 0,
+        "wellness_score": 20,
+        "total_score": 36,
+        "restaurant": 3,
+        "cafe": 3,
+        "bank": 0,
+        "pharmacy": 2,
+        "hospital": 0,
+        "doctor": 3,
+        "gym": 0,
+        "store": 20
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.560263,
+          6.209465
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "block-6",
+        "total_pois": 18,
+        "health_score": 70,
+        "retail_score": 10,
+        "food_score": 40,
+        "finance_score": 0,
+        "wellness_score": 10,
+        "total_score": 26,
+        "restaurant": 8,
+        "cafe": 0,
+        "bank": 0,
+        "pharmacy": 0,
+        "hospital": 5,
+        "doctor": 2,
+        "gym": 1,
+        "store": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.564263,
+          6.210465
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "block-7",
+        "total_pois": 1,
+        "health_score": 0,
+        "retail_score": 5,
+        "food_score": 0,
+        "finance_score": 0,
+        "wellness_score": 0,
+        "total_score": 1,
+        "restaurant": 0,
+        "cafe": 0,
+        "bank": 0,
+        "pharmacy": 0,
+        "hospital": 0,
+        "doctor": 0,
+        "gym": 0,
+        "store": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.563263,
+          6.210465
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "block-8",
+        "total_pois": 9,
+        "health_score": 10,
+        "retail_score": 10,
+        "food_score": 25,
+        "finance_score": 0,
+        "wellness_score": 10,
+        "total_score": 11,
+        "restaurant": 4,
+        "cafe": 1,
+        "bank": 0,
+        "pharmacy": 0,
+        "hospital": 1,
+        "doctor": 0,
+        "gym": 1,
+        "store": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.562263,
+          6.210465
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "block-9",
+        "total_pois": 9,
+        "health_score": 0,
+        "retail_score": 20,
+        "food_score": 25,
+        "finance_score": 0,
+        "wellness_score": 0,
+        "total_score": 9,
+        "restaurant": 4,
+        "cafe": 1,
+        "bank": 0,
+        "pharmacy": 0,
+        "hospital": 0,
+        "doctor": 0,
+        "gym": 0,
+        "store": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.561263,
+          6.210465
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "block-10",
+        "total_pois": 5,
+        "health_score": 0,
+        "retail_score": 25,
+        "food_score": 0,
+        "finance_score": 0,
+        "wellness_score": 0,
+        "total_score": 5,
+        "restaurant": 0,
+        "cafe": 0,
+        "bank": 0,
+        "pharmacy": 0,
+        "hospital": 0,
+        "doctor": 0,
+        "gym": 0,
+        "store": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.560263,
+          6.210465
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "block-11",
+        "total_pois": 5,
+        "health_score": 0,
+        "retail_score": 10,
+        "food_score": 5,
+        "finance_score": 15,
+        "wellness_score": 10,
+        "total_score": 8,
+        "restaurant": 1,
+        "cafe": 0,
+        "bank": 1,
+        "pharmacy": 0,
+        "hospital": 0,
+        "doctor": 0,
+        "gym": 1,
+        "store": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.563263,
+          6.211465
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "block-12",
+        "total_pois": 11,
+        "health_score": 0,
+        "retail_score": 15,
+        "food_score": 30,
+        "finance_score": 15,
+        "wellness_score": 10,
+        "total_score": 14,
+        "restaurant": 5,
+        "cafe": 1,
+        "bank": 1,
+        "pharmacy": 0,
+        "hospital": 0,
+        "doctor": 0,
+        "gym": 1,
+        "store": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.562263,
+          6.211465
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "block-13",
+        "total_pois": 9,
+        "health_score": 0,
+        "retail_score": 20,
+        "food_score": 25,
+        "finance_score": 0,
+        "wellness_score": 0,
+        "total_score": 9,
+        "restaurant": 4,
+        "cafe": 1,
+        "bank": 0,
+        "pharmacy": 0,
+        "hospital": 0,
+        "doctor": 0,
+        "gym": 0,
+        "store": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.561263,
+          6.211465
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "block-14",
+        "total_pois": 16,
+        "health_score": 10,
+        "retail_score": 45,
+        "food_score": 30,
+        "finance_score": 0,
+        "wellness_score": 0,
+        "total_score": 17,
+        "restaurant": 5,
+        "cafe": 1,
+        "bank": 0,
+        "pharmacy": 0,
+        "hospital": 0,
+        "doctor": 1,
+        "gym": 0,
+        "store": 9
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.563263,
+          6.212465
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "block-15",
+        "total_pois": 11,
+        "health_score": 0,
+        "retail_score": 30,
+        "food_score": 25,
+        "finance_score": 0,
+        "wellness_score": 0,
+        "total_score": 11,
+        "restaurant": 3,
+        "cafe": 2,
+        "bank": 0,
+        "pharmacy": 0,
+        "hospital": 0,
+        "doctor": 0,
+        "gym": 0,
+        "store": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.562263,
+          6.212465
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "block-16",
+        "total_pois": 5,
+        "health_score": 0,
+        "retail_score": 25,
+        "food_score": 0,
+        "finance_score": 0,
+        "wellness_score": 0,
+        "total_score": 5,
+        "restaurant": 0,
+        "cafe": 0,
+        "bank": 0,
+        "pharmacy": 0,
+        "hospital": 0,
+        "doctor": 0,
+        "gym": 0,
+        "store": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.561263,
+          6.212465
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "block-17",
+        "total_pois": 26,
+        "health_score": 10,
+        "retail_score": 70,
+        "food_score": 45,
+        "finance_score": 0,
+        "wellness_score": 20,
+        "total_score": 29,
+        "restaurant": 5,
+        "cafe": 4,
+        "bank": 0,
+        "pharmacy": 0,
+        "hospital": 1,
+        "doctor": 0,
+        "gym": 2,
+        "store": 14
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.562263,
+          6.213465
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "block-18",
+        "total_pois": 28,
+        "health_score": 30,
+        "retail_score": 75,
+        "food_score": 40,
+        "finance_score": 0,
+        "wellness_score": 20,
+        "total_score": 33,
+        "restaurant": 6,
+        "cafe": 2,
+        "bank": 0,
+        "pharmacy": 0,
+        "hospital": 1,
+        "doctor": 2,
+        "gym": 2,
+        "store": 15
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.562263,
+          6.214465
+        ]
+      }
+    }
+  ]
+}
